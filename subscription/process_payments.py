@@ -36,23 +36,23 @@ BASE_DIR = Path(__file__).parent
 SUBSCRIBERS_FILE = BASE_DIR / "subscribers.json"
 PAYMENTS_FILE = BASE_DIR / "payments.json"
 
-# Instamojo
-INSTAMOJO_API_KEY = os.environ.get("INSTAMOJO_API_KEY", "")
-INSTAMOJO_AUTH_TOKEN = os.environ.get("INSTAMOJO_AUTH_TOKEN", "")
-INSTAMOJO_ENV = os.environ.get("INSTAMOJO_ENV", "test")
+# Instamojo  (.strip() to remove accidental whitespace from GitHub Secrets)
+INSTAMOJO_API_KEY = os.environ.get("INSTAMOJO_API_KEY", "").strip()
+INSTAMOJO_AUTH_TOKEN = os.environ.get("INSTAMOJO_AUTH_TOKEN", "").strip()
+INSTAMOJO_ENV = os.environ.get("INSTAMOJO_ENV", "test").strip()
 
 if INSTAMOJO_ENV == "production":
     INSTAMOJO_BASE = "https://www.instamojo.com/api/1.1"
 else:
     INSTAMOJO_BASE = "https://test.instamojo.com/api/1.1"
 
-# Telegram
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-TELEGRAM_GROUP_ID = os.environ.get("TELEGRAM_GROUP_ID", "")
-TELEGRAM_ADMIN_CHAT_ID = os.environ.get("TELEGRAM_ADMIN_CHAT_ID", "")
+# Telegram  (.strip() to remove accidental whitespace from GitHub Secrets)
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+TELEGRAM_GROUP_ID = os.environ.get("TELEGRAM_GROUP_ID", "").strip()
+TELEGRAM_ADMIN_CHAT_ID = os.environ.get("TELEGRAM_ADMIN_CHAT_ID", "").strip()
 
 # WhatsApp
-WHATSAPP_INVITE_LINK = os.environ.get("WHATSAPP_INVITE_LINK", "")
+WHATSAPP_INVITE_LINK = os.environ.get("WHATSAPP_INVITE_LINK", "").strip()
 
 # Plans — must match your Instamojo payment link titles/amounts
 PLANS = {
@@ -115,13 +115,18 @@ def fetch_recent_payments():
 
 def telegram_api(method, data=None):
     if not TELEGRAM_BOT_TOKEN:
+        print("   !! TELEGRAM_BOT_TOKEN is empty")
         return None
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/{method}"
     try:
         resp = requests.post(url, json=data, timeout=30)
         result = resp.json()
         if not result.get("ok"):
-            print(f"   Telegram error: {result.get('description', '')}")
+            # Debug: print token length to help diagnose secret issues
+            print(f"   Telegram error: {result.get('description', '')} "
+                  f"(token length={len(TELEGRAM_BOT_TOKEN)}, "
+                  f"starts_with={TELEGRAM_BOT_TOKEN[:4]}..., "
+                  f"method={method})")
         return result
     except Exception as e:
         print(f"   Telegram exception: {e}")
@@ -515,6 +520,11 @@ def process_telegram_updates():
                     )
                     if invite:
                         welcome += f"📲 <b>Join the group:</b>\n{invite}\n\n"
+                    else:
+                        welcome += (
+                            f"📲 You will be auto-added to the Telegram subscriber "
+                            f"group within the next 10 minutes.\n\n"
+                        )
                     if WHATSAPP_INVITE_LINK:
                         welcome += f"💬 <b>WhatsApp Community:</b>\n{WHATSAPP_INVITE_LINK}\n\n"
                     welcome += (
@@ -590,6 +600,11 @@ def process_telegram_updates():
                 msg_text = f"🎉 Trial started! Ends on {trial_end.strftime('%d %b %Y')}.\n\n"
                 if invite:
                     msg_text += f"📲 Join the group: {invite}\n\n"
+                else:
+                    msg_text += (
+                        f"📲 You will be auto-added to the Telegram subscriber "
+                        f"group within the next 10 minutes.\n\n"
+                    )
                 if WHATSAPP_INVITE_LINK:
                     msg_text += f"💬 WhatsApp: {WHATSAPP_INVITE_LINK}\n"
                 send_message(chat_id, msg_text)
@@ -696,7 +711,6 @@ if __name__ == "__main__":
     elif cmd == "all":
         process_telegram_updates()
         process_payments()
-        check_expiry()
         print_stats()
     elif cmd == "stats":
         print_stats()
