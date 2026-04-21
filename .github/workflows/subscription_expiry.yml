@@ -1,0 +1,46 @@
+name: Quantex Subscription Expiry Check
+
+on:
+  schedule:
+    # Daily at 3:00 AM UTC (8:30 AM IST) — after pre-market report
+    - cron: '0 3 * * *'
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  expiry-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run expiry check
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_GROUP_ID: ${{ secrets.TELEGRAM_GROUP_ID }}
+          TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
+        run: |
+          cd subscription
+          python process_payments.py expiry
+
+      - name: Commit updated data
+        if: always()
+        run: |
+          git config user.name "Quantex Bot"
+          git config user.email "bot@quantex.local"
+          git add subscription/subscribers.json -f
+          git diff --cached --quiet || git commit -m "Expiry check: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push

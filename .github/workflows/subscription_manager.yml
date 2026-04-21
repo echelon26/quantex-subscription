@@ -1,0 +1,62 @@
+name: Quantex Subscription Manager
+
+on:
+  schedule:
+    # Every 30 minutes — process Telegram bot messages + check new payments
+    - cron: '*/30 * * * *'
+
+  workflow_dispatch:
+    inputs:
+      command:
+        description: 'Command to run'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - payments
+          - telegram
+          - expiry
+          - stats
+
+permissions:
+  contents: write
+
+jobs:
+  manage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run subscription manager
+        env:
+          INSTAMOJO_API_KEY: ${{ secrets.INSTAMOJO_API_KEY }}
+          INSTAMOJO_AUTH_TOKEN: ${{ secrets.INSTAMOJO_AUTH_TOKEN }}
+          INSTAMOJO_ENV: ${{ secrets.INSTAMOJO_ENV }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_GROUP_ID: ${{ secrets.TELEGRAM_GROUP_ID }}
+          TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
+          WHATSAPP_INVITE_LINK: ${{ secrets.WHATSAPP_INVITE_LINK }}
+        run: |
+          cd subscription
+          python process_payments.py ${{ github.event.inputs.command || 'all' }}
+
+      - name: Commit subscription data
+        if: always()
+        run: |
+          git config user.name "Quantex Bot"
+          git config user.email "bot@quantex.local"
+          git add subscription/subscribers.json subscription/payments.json subscription/.telegram_offset -f
+          git diff --cached --quiet || git commit -m "Subscription update: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push

@@ -1,0 +1,20 @@
+name: Keep Alive
+
+on:
+  schedule:
+    # Runs 1st and 21st of each month (within GitHub's 60-day inactivity limit)
+    - cron: '0 0 1,21 * *'
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Keep alive
+        run: |
+          git config user.name "Quantex Bot"
+          git config user.email "bot@quantex.local"
+          git commit --allow-empty -m "chore: keep-alive $(date -u '+%Y-%m-%d')"
+          git push
