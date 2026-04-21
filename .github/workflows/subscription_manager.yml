@@ -2,8 +2,8 @@ name: Quantex Subscription Manager
 
 on:
   schedule:
-    # Every 30 minutes — process Telegram bot messages + check new payments
-    - cron: '*/30 * * * *'
+    # Every 10 minutes — process Telegram bot messages + check new payments
+    - cron: '*/10 * * * *'
 
   workflow_dispatch:
     inputs:
@@ -57,6 +57,7 @@ jobs:
         run: |
           git config user.name "Quantex Bot"
           git config user.email "bot@quantex.local"
-          git add subscription/subscribers.json subscription/payments.json subscription/.telegram_offset -f
+          git add subscription/subscribers.json subscription/payments.json -f
+          [ -f subscription/.telegram_offset ] && git add subscription/.telegram_offset -f || true
           git diff --cached --quiet || git commit -m "Subscription update: $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
