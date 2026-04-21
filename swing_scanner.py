@@ -38,17 +38,18 @@ except ImportError:
 
 # ─────────────────────────── CONFIGURATION ───────────────────────────
 
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8573365697:AAESTWF5H1ZAKE0bQg-yQbBaJoGLZwcZ9XQ")
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "854001335")
-TELEGRAM_SIGNAL_GROUP = os.environ.get("TELEGRAM_SIGNAL_GROUPS", "-1003754088976")
-TELEGRAM_ADMIN_GROUP = os.environ.get("TELEGRAM_ADMIN_GROUPS", "-5298634309")
+# Telegram — reads from GitHub Secrets, no hardcoded defaults
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
+TELEGRAM_SIGNAL_GROUP = os.environ.get("TELEGRAM_SIGNAL_GROUPS", "").strip()
+TELEGRAM_ADMIN_GROUP = os.environ.get("TELEGRAM_ADMIN_GROUPS", "").strip()
 
 # ── ZERODHA KITE API (for live quotes & OI data) ──
-KITE_API_KEY = os.environ.get("KITE_API_KEY", "7sa02mhb5t3onyt8")
-KITE_API_SECRET = os.environ.get("KITE_API_SECRET", "okmrcxgxsswyd4g4ydz4xw3utlh6cj5n")
-ZERODHA_USER_ID = os.environ.get("ZERODHA_USER_ID", "YSZ319")
-ZERODHA_PASSWORD = os.environ.get("ZERODHA_PASSWORD", "HelloJitu@2019")
-ZERODHA_TOTP_KEY = os.environ.get("ZERODHA_TOTP_KEY", "TWOA2OHXLR7VWLEJZPWVPTDROPQK7TFZ")
+KITE_API_KEY = os.environ.get("KITE_API_KEY", "").strip()
+KITE_API_SECRET = os.environ.get("KITE_API_SECRET", "").strip()
+ZERODHA_USER_ID = os.environ.get("ZERODHA_USER_ID", "").strip()
+ZERODHA_PASSWORD = os.environ.get("ZERODHA_PASSWORD", "").strip()
+ZERODHA_TOTP_KEY = os.environ.get("ZERODHA_TOTP_KEY", "").strip()
 MIN_SCORE_THRESHOLD = 60  # Minimum score to qualify
 
 # ── PRICE FILTERS ──

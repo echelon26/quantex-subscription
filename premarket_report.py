@@ -38,10 +38,10 @@ warnings.filterwarnings("ignore")
 # CONFIG
 # ═══════════════════════════════════════════════════════════════
 
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
-TELEGRAM_SIGNAL_GROUPS = os.environ.get("TELEGRAM_SIGNAL_GROUPS", "")
-TELEGRAM_ADMIN_GROUPS = os.environ.get("TELEGRAM_ADMIN_GROUPS", "")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
+TELEGRAM_SIGNAL_GROUPS = os.environ.get("TELEGRAM_SIGNAL_GROUPS", "").strip()
+TELEGRAM_ADMIN_GROUPS = os.environ.get("TELEGRAM_ADMIN_GROUPS", "").strip()
 
 BASE_DIR = Path(os.path.dirname(os.path.abspath(__file__)))
 LOG_DIR = BASE_DIR / "quantex_logs"
