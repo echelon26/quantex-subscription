@@ -1,0 +1,45 @@
+name: Quantex Pre-Market Report
+
+on:
+  schedule:
+    - cron: '30 2 * * 1-5'   # 8:00 AM IST (Mon-Fri)
+    - cron: '30 10 * * 1-5'  # 4:00 PM IST (Mon-Fri)
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Pre-Market Report
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_SIGNAL_GROUPS: ${{ secrets.TELEGRAM_SIGNAL_GROUPS }}
+          TELEGRAM_ADMIN_GROUPS: ${{ secrets.TELEGRAM_ADMIN_GROUPS }}
+        run: python premarket_report.py
+
+      - name: Commit report data
+        if: always()
+        run: |
+          git config user.name "Quantex Bot"
+          git config user.email "bot@quantex.local"
+          git add quantex_logs/ -f
+          git diff --cached --quiet || git commit -m "Pre-Market Report: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
