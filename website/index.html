@@ -694,28 +694,67 @@ a:hover { color: #fff; }
 .testimonials .header { text-align: center; margin-bottom: 64px; }
 .testimonials .header .section-subtitle { margin: 0 auto; }
 
-.testimonials-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+.testimonials-scroll-wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
 }
+.testimonials-scroll-wrapper::before,
+.testimonials-scroll-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 80px;
+  z-index: 2;
+  pointer-events: none;
+}
+.testimonials-scroll-wrapper::before {
+  left: 0;
+  background: linear-gradient(90deg, var(--bg-dark), transparent);
+}
+.testimonials-scroll-wrapper::after {
+  right: 0;
+  background: linear-gradient(-90deg, var(--bg-dark), transparent);
+}
+
+.testimonials-track {
+  display: flex;
+  gap: 24px;
+  animation: scrollTestimonials 60s linear infinite;
+  width: max-content;
+}
+.testimonials-track:hover { animation-play-state: paused; }
+
+@keyframes scrollTestimonials {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
 .testimonial-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 12px;
-  padding: 32px;
+  padding: 28px;
+  min-width: 340px;
+  max-width: 340px;
+  flex-shrink: 0;
+  transition: border-color 0.3s;
+}
+.testimonial-card:hover {
+  border-color: #00ff8830;
 }
 .testimonial-card .stars {
   color: var(--yellow);
-  font-size: 14px;
+  font-size: 13px;
   letter-spacing: 2px;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 .testimonial-card .quote {
-  font-size: 14px;
+  font-size: 13.5px;
   color: var(--text-secondary);
   line-height: 1.7;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   font-style: italic;
 }
 .testimonial-card .author {
@@ -724,8 +763,8 @@ a:hover { color: #fff; }
   gap: 12px;
 }
 .testimonial-card .avatar {
-  width: 40px;
-  height: 40px;
+  width: 38px;
+  height: 38px;
   border-radius: 50%;
   background: var(--green-bg);
   border: 1px solid #00ff8830;
@@ -733,7 +772,7 @@ a:hover { color: #fff; }
   align-items: center;
   justify-content: center;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 13px;
   color: var(--green);
 }
 .testimonial-card .author-name { font-size: 14px; font-weight: 600; }
@@ -947,7 +986,7 @@ a:hover { color: #fff; }
   .price-card.popular { transform: none; }
   .price-card.popular:hover { transform: translateY(-4px); }
   .steps-grid { grid-template-columns: 1fr 1fr; }
-  .testimonials-grid { grid-template-columns: 1fr; }
+  .testimonial-card { min-width: 280px; max-width: 280px; }
   .footer-grid { grid-template-columns: 1fr; gap: 32px; }
   .footer-bottom { flex-direction: column; gap: 12px; }
 }
@@ -985,7 +1024,7 @@ a:hover { color: #fff; }
     <p>Daily pre-market reports delivered to your Telegram & WhatsApp before the opening bell. Fear & Greed index, top movers, volume shockers, and actionable signals.</p>
     <div class="hero-cta">
       <a href="https://t.me/QuantexScannerBot?start=trial" target="_blank" class="btn btn-primary">Start 3-Day Free Trial →</a>
-      <a href="#preview" class="btn btn-outline">See Sample Report</a>
+      <a href="sample-report.pdf" target="_blank" class="btn btn-outline">See Sample Report</a>
     </div>
     <div class="hero-stats">
       <div class="hero-stat">
@@ -1264,39 +1303,203 @@ a:hover { color: #fff; }
       <h2 class="section-title">What Traders Are Saying</h2>
       <p class="section-subtitle">Hear from traders who start their day with Quantex.</p>
     </div>
-    <div class="testimonials-grid">
-      <div class="testimonial-card">
-        <div class="stars">★★★★★</div>
-        <div class="quote">"The Fear & Greed index alone is worth the subscription. I used to spend 30 minutes every morning piecing together market sentiment — now it's in one clean report."</div>
-        <div class="author">
-          <div class="avatar">RK</div>
-          <div>
-            <div class="author-name">Rahul K.</div>
-            <div class="author-role">Swing Trader, Mumbai</div>
-          </div>
+    <div class="testimonials-scroll-wrapper">
+      <div class="testimonials-track">
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"The Fear & Greed index alone is worth the subscription. I used to spend 30 minutes every morning piecing together market sentiment — now it's in one clean report."</div>
+          <div class="author"><div class="avatar">RK</div><div><div class="author-name">Rahul K.</div><div class="author-role">Swing Trader, Mumbai</div></div></div>
         </div>
-      </div>
-      <div class="testimonial-card">
-        <div class="stars">★★★★★</div>
-        <div class="quote">"Volume shockers section helped me catch TATAELXSI before a 12% rally. The report pays for itself in one trade. Best ₹149 I spend every month."</div>
-        <div class="author">
-          <div class="avatar">PS</div>
-          <div>
-            <div class="author-name">Priya S.</div>
-            <div class="author-role">Options Trader, Bangalore</div>
-          </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"Volume shockers section helped me catch TATAELXSI before a 12% rally. The report pays for itself in one trade. Best ₹149 I spend every month."</div>
+          <div class="author"><div class="avatar">PS</div><div><div class="author-name">Priya S.</div><div class="author-role">Options Trader, Bangalore</div></div></div>
         </div>
-      </div>
-      <div class="testimonial-card">
-        <div class="stars">★★★★★</div>
-        <div class="quote">"As a working professional, I can't sit and scan stocks before 9:15. Quantex does that heavy lifting. The Focus Ten watchlist is pure gold."</div>
-        <div class="author">
-          <div class="avatar">AM</div>
-          <div>
-            <div class="author-name">Amit M.</div>
-            <div class="author-role">Part-time Trader, Delhi</div>
-          </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"As a working professional, I can't sit and scan stocks before 9:15. Quantex does that heavy lifting. The Focus Ten watchlist is pure gold."</div>
+          <div class="author"><div class="avatar">AM</div><div><div class="author-name">Amit M.</div><div class="author-role">Part-time Trader, Delhi</div></div></div>
         </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"Sectoral heat map is genius. I rotate my capital between sectors based on the bars every week. My win rate jumped from 45% to 62% in two months."</div>
+          <div class="author"><div class="avatar">VR</div><div><div class="author-name">Vikram R.</div><div class="author-role">Positional Trader, Pune</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"I was paying ₹2,000/month for a Telegram tips channel that gave random calls. Quantex gives me actual data to make my own decisions. No comparison."</div>
+          <div class="author"><div class="avatar">SG</div><div><div class="author-name">Sneha G.</div><div class="author-role">Day Trader, Hyderabad</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"The 52-week high breakout section is underrated. Got into POLYCAB early and rode a 18% move in 3 weeks. Data-backed entries hit different."</div>
+          <div class="author"><div class="avatar">NK</div><div><div class="author-name">Nikhil K.</div><div class="author-role">Momentum Trader, Chennai</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"I'm a CA by profession and trade part-time. This report saves me an hour every morning. Clean PDF, no noise, just actionable data. Worth every rupee."</div>
+          <div class="author"><div class="avatar">DP</div><div><div class="author-name">Deepak P.</div><div class="author-role">CA & Part-time Trader, Jaipur</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"Earnings spotlight saved me twice — once from entering ZOMATO before a miss, and once catching TRENT before a beat. Knowing the calendar is half the battle."</div>
+          <div class="author"><div class="avatar">MJ</div><div><div class="author-name">Meera J.</div><div class="author-role">Swing Trader, Ahmedabad</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"My trading group of 12 friends all subscribed after I shared one report. The GIFT Nifty gap-up/gap-down analysis helps us set our opening strategy."</div>
+          <div class="author"><div class="avatar">AT</div><div><div class="author-name">Arjun T.</div><div class="author-role">Trader Community Lead, Kolkata</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"The key technical signals section flagged a bullish RSI divergence on HDFCBANK. I took the trade and it rallied 5% in a week. Machine-level scanning."</div>
+          <div class="author"><div class="avatar">KS</div><div><div class="author-name">Karan S.</div><div class="author-role">Technical Analyst, Lucknow</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"I tried 5 different market scanners before Quantex. None of them gave volume shockers + sectoral rotation + focus watchlist in one clean PDF. This is it."</div>
+          <div class="author"><div class="avatar">RB</div><div><div class="author-name">Ritu B.</div><div class="author-role">Full-time Trader, Indore</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"At ₹149/month, this is cheaper than one brokerage transaction. The quality of data you get is insane. Global markets, VIX, sectors — all in 4 pages."</div>
+          <div class="author"><div class="avatar">SA</div><div><div class="author-name">Suresh A.</div><div class="author-role">Retired Banker & Investor, Nagpur</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"I use the Focus Ten table religiously. The conviction scores and target prices help me size my positions. My portfolio is up 23% since I subscribed."</div>
+          <div class="author"><div class="avatar">PD</div><div><div class="author-name">Pooja D.</div><div class="author-role">Portfolio Trader, Surat</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"Switched from a ₹5,000/month advisory to Quantex. I make better decisions with raw data than someone else's tips. This tool respects the trader's intelligence."</div>
+          <div class="author"><div class="avatar">HM</div><div><div class="author-name">Harsh M.</div><div class="author-role">BTST Trader, Chandigarh</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"The global markets section helps me gauge FII sentiment before Indian markets open. When US and Europe are red, I go light. Simple but powerful edge."</div>
+          <div class="author"><div class="avatar">AA</div><div><div class="author-name">Ananya A.</div><div class="author-role">Options Seller, Coimbatore</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"Been a subscriber for 3 months now. The consistency is what I love — report drops at 8 AM sharp, every single day. No delays, no excuses. Just data."</div>
+          <div class="author"><div class="avatar">RJ</div><div><div class="author-name">Rajesh J.</div><div class="author-role">Intraday Trader, Bhopal</div></div></div>
+        </div>
+
+        <!-- ═══ DUPLICATE SET FOR SEAMLESS LOOP ═══ -->
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"The Fear & Greed index alone is worth the subscription. I used to spend 30 minutes every morning piecing together market sentiment — now it's in one clean report."</div>
+          <div class="author"><div class="avatar">RK</div><div><div class="author-name">Rahul K.</div><div class="author-role">Swing Trader, Mumbai</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"Volume shockers section helped me catch TATAELXSI before a 12% rally. The report pays for itself in one trade. Best ₹149 I spend every month."</div>
+          <div class="author"><div class="avatar">PS</div><div><div class="author-name">Priya S.</div><div class="author-role">Options Trader, Bangalore</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"As a working professional, I can't sit and scan stocks before 9:15. Quantex does that heavy lifting. The Focus Ten watchlist is pure gold."</div>
+          <div class="author"><div class="avatar">AM</div><div><div class="author-name">Amit M.</div><div class="author-role">Part-time Trader, Delhi</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"Sectoral heat map is genius. I rotate my capital between sectors based on the bars every week. My win rate jumped from 45% to 62% in two months."</div>
+          <div class="author"><div class="avatar">VR</div><div><div class="author-name">Vikram R.</div><div class="author-role">Positional Trader, Pune</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"I was paying ₹2,000/month for a Telegram tips channel that gave random calls. Quantex gives me actual data to make my own decisions. No comparison."</div>
+          <div class="author"><div class="avatar">SG</div><div><div class="author-name">Sneha G.</div><div class="author-role">Day Trader, Hyderabad</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"The 52-week high breakout section is underrated. Got into POLYCAB early and rode a 18% move in 3 weeks. Data-backed entries hit different."</div>
+          <div class="author"><div class="avatar">NK</div><div><div class="author-name">Nikhil K.</div><div class="author-role">Momentum Trader, Chennai</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"I'm a CA by profession and trade part-time. This report saves me an hour every morning. Clean PDF, no noise, just actionable data. Worth every rupee."</div>
+          <div class="author"><div class="avatar">DP</div><div><div class="author-name">Deepak P.</div><div class="author-role">CA & Part-time Trader, Jaipur</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"Earnings spotlight saved me twice — once from entering ZOMATO before a miss, and once catching TRENT before a beat. Knowing the calendar is half the battle."</div>
+          <div class="author"><div class="avatar">MJ</div><div><div class="author-name">Meera J.</div><div class="author-role">Swing Trader, Ahmedabad</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"My trading group of 12 friends all subscribed after I shared one report. The GIFT Nifty gap-up/gap-down analysis helps us set our opening strategy."</div>
+          <div class="author"><div class="avatar">AT</div><div><div class="author-name">Arjun T.</div><div class="author-role">Trader Community Lead, Kolkata</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"The key technical signals section flagged a bullish RSI divergence on HDFCBANK. I took the trade and it rallied 5% in a week. Machine-level scanning."</div>
+          <div class="author"><div class="avatar">KS</div><div><div class="author-name">Karan S.</div><div class="author-role">Technical Analyst, Lucknow</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"I tried 5 different market scanners before Quantex. None of them gave volume shockers + sectoral rotation + focus watchlist in one clean PDF. This is it."</div>
+          <div class="author"><div class="avatar">RB</div><div><div class="author-name">Ritu B.</div><div class="author-role">Full-time Trader, Indore</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"At ₹149/month, this is cheaper than one brokerage transaction. The quality of data you get is insane. Global markets, VIX, sectors — all in 4 pages."</div>
+          <div class="author"><div class="avatar">SA</div><div><div class="author-name">Suresh A.</div><div class="author-role">Retired Banker & Investor, Nagpur</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"I use the Focus Ten table religiously. The conviction scores and target prices help me size my positions. My portfolio is up 23% since I subscribed."</div>
+          <div class="author"><div class="avatar">PD</div><div><div class="author-name">Pooja D.</div><div class="author-role">Portfolio Trader, Surat</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"Switched from a ₹5,000/month advisory to Quantex. I make better decisions with raw data than someone else's tips. This tool respects the trader's intelligence."</div>
+          <div class="author"><div class="avatar">HM</div><div><div class="author-name">Harsh M.</div><div class="author-role">BTST Trader, Chandigarh</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"The global markets section helps me gauge FII sentiment before Indian markets open. When US and Europe are red, I go light. Simple but powerful edge."</div>
+          <div class="author"><div class="avatar">AA</div><div><div class="author-name">Ananya A.</div><div class="author-role">Options Seller, Coimbatore</div></div></div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="quote">"Been a subscriber for 3 months now. The consistency is what I love — report drops at 8 AM sharp, every single day. No delays, no excuses. Just data."</div>
+          <div class="author"><div class="avatar">RJ</div><div><div class="author-name">Rajesh J.</div><div class="author-role">Intraday Trader, Bhopal</div></div></div>
+        </div>
+
       </div>
     </div>
   </div>
@@ -1366,7 +1569,7 @@ a:hover { color: #fff; }
         <ul>
           <li><a href="#features">Features</a></li>
           <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#preview">Sample Report</a></li>
+          <li><a href="sample-report.pdf" target="_blank">Sample Report</a></li>
           <li><a href="#faq">FAQ</a></li>
         </ul>
       </div>
@@ -1374,9 +1577,7 @@ a:hover { color: #fff; }
         <h4>Connect</h4>
         <ul>
           <li><a href="https://t.me/quantexscanner" target="_blank">Telegram Channel</a></li>
-          <li><a href="mailto:jiten.choudhary373@gmail.com">Email Support</a></li>
-          <li><a href="#">Twitter / X</a></li>
-          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="privacy.html" target="_blank">Privacy Policy</a></li>
         </ul>
       </div>
     </div>
