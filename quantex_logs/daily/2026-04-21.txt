@@ -1,0 +1,58 @@
+============================================================
+QUANTEX SCANNER — 2026-04-21 at 07:16 PM IST
+Qualified: 66 stocks | Top 10 below
+============================================================
+
+1. TRENT — Score: 89/100
+   Entry: 4242.80 | SL: 4032.93 | T1: 4662.53 | T2: 4872.40 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:18 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 70 (Power Zone), MACD Bullish, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+2. HUDCO — Score: 87/100
+   Entry: 199.40 | SL: 189.43 | T1: 219.34 | T2: 229.31 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:18 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 69 (Power Zone), MACD Bullish, Vol Above Avg 1.5x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: POWER, Institutional Accumulation
+
+3. CESC — Score: 85/100
+   Entry: 179.42 | SL: 170.94 | T1: 196.38 | T2: 204.86 | RR: 1:2.0
+   Trend:20 Mom:8 Vol:20 PA:15 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, Vol Surge 3.7x, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Sector Top 3: POWER, Consistent Buying
+
+4. TIINDIA — Score: 85/100
+   Entry: 2873.10 | SL: 2729.45 | T1: 3160.41 | T2: 3304.07 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:20 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Bullish, Vol Surge 2.1x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+5. CGPOWER — Score: 84/100
+   Entry: 795.70 | SL: 756.24 | T1: 874.61 | T2: 914.07 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:18 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+6. WHIRLPOOL — Score: 83/100
+   Entry: 925.60 | SL: 879.32 | T1: 1018.16 | T2: 1064.44 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:20 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 66 (Power Zone), MACD Bullish, Vol Surge 2.8x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+7. JSWSTEEL — Score: 81/100
+   Entry: 1274.50 | SL: 1221.04 | T1: 1381.43 | T2: 1434.89 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:18 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 66 (Power Zone), MACD Bullish, Vol Above Avg 2.0x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+8. NAVINFLUOR — Score: 81/100
+   Entry: 6471.50 | SL: 6147.92 | T1: 7118.65 | T2: 7442.23 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:18 PA:15 RS:3 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Bullish, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Consistent Buying
+
+9. JSWENERGY — Score: 80/100
+   Entry: 543.05 | SL: 515.90 | T1: 597.35 | T2: 624.51 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:10 PA:10 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: POWER, Consistent Buying
+
+10. TORNTPOWER — Score: 80/100
+   Entry: 1606.30 | SL: 1527.66 | T1: 1763.59 | T2: 1842.23 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:15 PA:10 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, Vol Surge 2.3x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: POWER, Consistent Buying
+
+
+────────────────────────────────────────────────────────────
+
