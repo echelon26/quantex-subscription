@@ -1,9 +1,8 @@
 name: Quantex Subscription Expiry Check
 
 on:
-  schedule:
-    # Daily at 3:00 AM UTC (8:30 AM IST) — after pre-market report
-    - cron: '0 3 * * *'
+  repository_dispatch:
+    types: [subscription-expiry]
 
   workflow_dispatch:
 

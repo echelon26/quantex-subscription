@@ -1,9 +1,8 @@
 name: Quantex Subscription Manager
 
 on:
-  schedule:
-    # Every 10 minutes — process Telegram bot messages + check new payments
-    - cron: '*/10 * * * *'
+  repository_dispatch:
+    types: [subscription-manager]
 
   workflow_dispatch:
     inputs:
