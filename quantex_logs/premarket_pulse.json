@@ -48,5 +48,30 @@
       "SBILIFE"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/PreMarket_Report_2026-04-22.pdf"
+  },
+  {
+    "date": "Wed, 22 Apr 2026",
+    "fear_greed": 64.5,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24410.1,
+    "nifty": 24409.6,
+    "sensex": 78699.75,
+    "bank_nifty": 57362.4,
+    "vix": 18.24,
+    "top_gainers": [
+      "ARE&M",
+      "ITI",
+      "ABB",
+      "URBANCO",
+      "ADANIPOWER"
+    ],
+    "top_losers": [
+      "HCLTECH",
+      "TARIL",
+      "HEXT",
+      "TECHM",
+      "COFORGE"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-04-22.pdf"
   }
 ]
