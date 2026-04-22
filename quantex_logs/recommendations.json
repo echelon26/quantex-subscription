@@ -312,5 +312,198 @@
         "cmp": 1606.3
       }
     ]
+  },
+  {
+    "scan_date": "2026-04-22",
+    "scan_time": "2026-04-22T09:13:00.191162",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": true,
+      "vix": 18.297500610351562
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 5,
+    "sector_rankings": {
+      "FMCG": 1,
+      "CHEMICALS": 2,
+      "CONSUMER": 3,
+      "REALTY": 4,
+      "POWER": 5,
+      "RAILWAY": 6,
+      "BANKING": 7,
+      "ELECTRICALS": 8,
+      "INDEX_ETF": 9,
+      "METALS": 10,
+      "ENERGY": 11,
+      "INFRA": 12,
+      "DEFENCE": 13,
+      "FINANCE": 14,
+      "PHARMA": 15,
+      "GOLD_ETF": 16,
+      "AUTO": 17,
+      "SILVER_ETF": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "DATAPATTNS",
+        "score": 72,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 10,
+          "Volume": 15,
+          "Price Action": 13,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 26 (Strong Trend)",
+          "ADX Rising",
+          "MACD Bullish",
+          "Vol Above Avg 2.0x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 3749.0,
+        "sl": 3561.55,
+        "target1": 4123.9,
+        "target2": 4311.35,
+        "hold_period": "1-2 weeks",
+        "cmp": 3749.0
+      },
+      {
+        "symbol": "ADANIPOWER",
+        "score": 71,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 6,
+          "Volume": 15,
+          "Price Action": 13,
+          "Relative Strength": 10,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 35 (Strong Trend)",
+          "ADX Rising",
+          "MACD Bullish",
+          "Vol Above Avg 1.7x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 214.3,
+        "sl": 203.59,
+        "target1": 235.73,
+        "target2": 246.45,
+        "hold_period": "1-2 weeks",
+        "cmp": 214.3
+      },
+      {
+        "symbol": "TIMKEN",
+        "score": 70,
+        "breakdown": {
+          "Trend": 12,
+          "Momentum": 15,
+          "Volume": 15,
+          "Price Action": 13,
+          "Relative Strength": 8,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX Rising",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "Vol Above Avg 1.7x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 3649.8,
+        "sl": 3467.31,
+        "target1": 4014.78,
+        "target2": 4197.27,
+        "hold_period": "1-2 weeks",
+        "cmp": 3649.8
+      },
+      {
+        "symbol": "EMAMILTD",
+        "score": 70,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 10,
+          "Volume": 15,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 28 (Strong Trend)",
+          "MACD Bullish",
+          "Vol Above Avg 1.8x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: FMCG",
+          "Consistent Buying"
+        ],
+        "entry": 471.6,
+        "sl": 448.67,
+        "target1": 517.47,
+        "target2": 540.4,
+        "hold_period": "1-2 weeks",
+        "cmp": 471.6
+      },
+      {
+        "symbol": "ADANIENSOL",
+        "score": 69,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 6,
+          "Volume": 15,
+          "Price Action": 13,
+          "Relative Strength": 8,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 29 (Strong Trend)",
+          "ADX Rising",
+          "MACD Bullish",
+          "Vol Above Avg 1.6x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 1355.25,
+        "sl": 1287.49,
+        "target1": 1490.78,
+        "target2": 1558.54,
+        "hold_period": "1-2 weeks",
+        "cmp": 1355.25
+      }
+    ]
   }
 ]

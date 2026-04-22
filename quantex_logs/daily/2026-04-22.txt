@@ -1,0 +1,34 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-04-22 at 09:13 AM IST
+Regime: NEUTRAL (mixed) | VIX: 18.30 | Min Score: 68
+Qualified: 5 stocks | Top 10 below
+============================================================
+
+1. DATAPATTNS -- Score: 72/100
+   Entry: 3749.00 | SL: 3561.55 | T1: 4123.90 | T2: 4311.35 | RR: 1:2.0
+   Tr:16 Mo:10 Vo:15 PA:13 RS:8 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 26 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 2.0x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Institutional Accumulation
+
+2. ADANIPOWER -- Score: 71/100
+   Entry: 214.30 | SL: 203.59 | T1: 235.73 | T2: 246.45 | RR: 1:2.0
+   Tr:20 Mo:6 Vo:15 PA:13 RS:10 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 35 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.7x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Consistent Buying
+
+3. TIMKEN -- Score: 70/100
+   Entry: 3649.80 | SL: 3467.31 | T1: 4014.78 | T2: 4197.27 | RR: 1:2.0
+   Tr:12 Mo:15 Vo:15 PA:13 RS:8 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 66 (Power Zone), MACD Bullish, Vol Above Avg 1.7x, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Consistent Buying
+
+4. EMAMILTD -- Score: 70/100
+   Entry: 471.60 | SL: 448.67 | T1: 517.47 | T2: 540.40 | RR: 1:2.0
+   Tr:18 Mo:10 Vo:15 PA:8 RS:12 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), MACD Bullish, Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FMCG, Consistent Buying
+
+5. ADANIENSOL -- Score: 69/100
+   Entry: 1355.25 | SL: 1287.49 | T1: 1490.78 | T2: 1558.54 | RR: 1:2.0
+   Tr:20 Mo:6 Vo:15 PA:13 RS:8 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 29 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Consistent Buying
+
+
+────────────────────────────────────────────────────────────
+
