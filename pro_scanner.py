@@ -524,6 +524,392 @@ def fetch_nifty_data(period="3mo"):
         return None
 
 
+def find_swing_points(df, lookback=5):
+    """Detect swing highs and swing lows in price data."""
+    highs = df["High"].values
+    lows = df["Low"].values
+    swing_highs = []
+    swing_lows = []
+
+    for i in range(lookback, len(df) - lookback):
+        # Swing high: highest point in a window of ±lookback bars
+        if highs[i] == max(highs[i - lookback:i + lookback + 1]):
+            swing_highs.append({"index": i, "price": float(highs[i])})
+        # Swing low: lowest point in a window of ±lookback bars
+        if lows[i] == min(lows[i - lookback:i + lookback + 1]):
+            swing_lows.append({"index": i, "price": float(lows[i])})
+
+    return swing_highs, swing_lows
+
+
+def find_fibonacci_targets(df, cmp):
+    """Calculate Fibonacci extension targets from the most recent swing move.
+    Finds the last significant swing low → swing high → pullback,
+    then projects 1.0, 1.272, 1.618, 2.0, 2.618 extensions."""
+    targets = {}
+    try:
+        swing_highs, swing_lows = find_swing_points(df, lookback=5)
+        if len(swing_highs) < 1 or len(swing_lows) < 2:
+            return targets
+
+        # Find the most recent completed swing: low(A) → high(B) → low(C)
+        recent_high = swing_highs[-1]
+        # Find swing low before the high (point A)
+        point_a = None
+        for sl in reversed(swing_lows):
+            if sl["index"] < recent_high["index"]:
+                point_a = sl
+                break
+        # Find swing low after the high (point C = pullback)
+        point_c = None
+        for sl in reversed(swing_lows):
+            if sl["index"] > recent_high["index"]:
+                point_c = sl
+                break
+
+        if point_a is None:
+            return targets
+        if point_c is None:
+            # No pullback yet, use A→B extensions from A
+            point_c = point_a
+
+        swing_range = recent_high["price"] - point_a["price"]
+        if swing_range <= 0:
+            return targets
+
+        base = point_c["price"]
+        targets["fib_1.000"] = round(base + 1.000 * swing_range, 2)
+        targets["fib_1.272"] = round(base + 1.272 * swing_range, 2)
+        targets["fib_1.618"] = round(base + 1.618 * swing_range, 2)
+        targets["fib_2.000"] = round(base + 2.000 * swing_range, 2)
+        targets["fib_2.618"] = round(base + 2.618 * swing_range, 2)
+
+        # Only keep targets above CMP
+        targets = {k: v for k, v in targets.items() if v > cmp * 1.01}
+    except Exception:
+        pass
+    return targets
+
+
+def find_resistance_zones(df, cmp, lookback_days=120):
+    """Detect horizontal resistance levels where price reversed multiple times.
+    Returns list of resistance prices above CMP, sorted ascending."""
+    try:
+        highs = df["High"].values[-lookback_days:]
+        lows = df["Low"].values[-lookback_days:]
+        closes = df["Close"].values[-lookback_days:]
+        n = len(highs)
+        if n < 20:
+            return []
+
+        # Cluster high-touch price levels using a tolerance band
+        tolerance = float(closes[-1]) * 0.015  # 1.5% band
+        touch_levels = []
+
+        swing_highs, _ = find_swing_points(
+            df.iloc[-lookback_days:].reset_index(drop=True), lookback=3
+        )
+        for sh in swing_highs:
+            touch_levels.append(sh["price"])
+
+        if not touch_levels:
+            return []
+
+        # Cluster nearby levels
+        touch_levels.sort()
+        clusters = []
+        current_cluster = [touch_levels[0]]
+        for i in range(1, len(touch_levels)):
+            if touch_levels[i] - current_cluster[-1] <= tolerance:
+                current_cluster.append(touch_levels[i])
+            else:
+                clusters.append(current_cluster)
+                current_cluster = [touch_levels[i]]
+        clusters.append(current_cluster)
+
+        # Resistance = clusters with 2+ touches, above CMP
+        resistances = []
+        for c in clusters:
+            avg_price = sum(c) / len(c)
+            if avg_price > cmp * 1.005 and len(c) >= 2:
+                resistances.append({"price": round(avg_price, 2), "touches": len(c)})
+
+        resistances.sort(key=lambda x: x["price"])
+        return resistances[:5]  # Top 5 nearest resistance zones
+    except Exception:
+        return []
+
+
+def find_volume_profile_zones(df, cmp, bins=30, lookback_days=60):
+    """Simple volume profile: find high-volume price nodes above CMP.
+    These act as targets where price tends to gravitate."""
+    try:
+        subset = df.iloc[-lookback_days:]
+        closes = subset["Close"].values
+        volumes = subset["Volume"].values
+        if len(closes) < 10:
+            return []
+
+        price_min = float(min(closes))
+        price_max = float(max(closes))
+        if price_max <= price_min:
+            return []
+
+        bin_size = (price_max - price_min) / bins
+        vol_profile = {}
+        for i in range(len(closes)):
+            bin_idx = int((float(closes[i]) - price_min) / bin_size)
+            bin_idx = min(bin_idx, bins - 1)
+            bin_price = price_min + (bin_idx + 0.5) * bin_size
+            vol_profile[round(bin_price, 2)] = vol_profile.get(round(bin_price, 2), 0) + float(volumes[i])
+
+        # Find high-volume nodes (top 25% by volume) above CMP
+        if not vol_profile:
+            return []
+        vol_threshold = sorted(vol_profile.values(), reverse=True)[max(0, len(vol_profile) // 4)]
+        hvn = [p for p, v in vol_profile.items() if v >= vol_threshold and p > cmp * 1.01]
+        hvn.sort()
+        return hvn[:3]
+    except Exception:
+        return []
+
+
+def calculate_weekly_pivots(df):
+    """Calculate classic pivot points from the last completed week.
+    Returns R1, R2, R3 levels."""
+    try:
+        weekly = df.resample("W").agg({"High": "max", "Low": "min", "Close": "last"}).dropna()
+        if len(weekly) < 2:
+            return {}
+        last_week = weekly.iloc[-2]  # Last COMPLETED week
+        h = float(last_week["High"])
+        l = float(last_week["Low"])
+        c = float(last_week["Close"])
+        pivot = (h + l + c) / 3
+        return {
+            "pivot": round(pivot, 2),
+            "R1": round(2 * pivot - l, 2),
+            "R2": round(pivot + (h - l), 2),
+            "R3": round(h + 2 * (pivot - l), 2),
+            "S1": round(2 * pivot - h, 2),
+        }
+    except Exception:
+        return {}
+
+
+def round_number_adjust(target, cmp):
+    """Adjust target to account for round-number psychological resistance.
+    If target is within 1% of a major round number, cap it just below."""
+    try:
+        magnitude = 10 ** max(0, len(str(int(cmp))) - 2)  # Rs.100s → 10, Rs.1000s → 100
+        round_levels = []
+        base = int(cmp / magnitude) * magnitude
+        for i in range(1, 10):
+            lvl = base + i * magnitude
+            if lvl > cmp:
+                round_levels.append(lvl)
+
+        for rl in round_levels:
+            # If target is within 1.5% above a round number, pull back to just below
+            if rl < target and abs(target - rl) / rl < 0.015:
+                return round(rl - cmp * 0.002, 2)  # 0.2% below round number
+            # If target crosses a round number and is close to it, cap below
+            if cmp < rl < target and (rl - cmp) / (target - cmp) > 0.85:
+                return round(rl - cmp * 0.002, 2)
+    except Exception:
+        pass
+    return target
+
+
+def atr_projected_move(df, cmp, holding_days=7):
+    """Cap the maximum realistic target based on ATR × holding period.
+    Stock can realistically move ATR × sqrt(days) in a given period."""
+    try:
+        atr = ta.volatility.AverageTrueRange(
+            df["High"], df["Low"], df["Close"], window=14
+        ).average_true_range()
+        atr_val = float(atr.iloc[-1])
+        # Using square root of time for volatility scaling
+        max_move = atr_val * (holding_days ** 0.5) * 1.2  # 1.2x buffer
+        return round(cmp + max_move, 2)
+    except Exception:
+        return cmp * 1.15  # Fallback 15% cap
+
+
+def measured_move_target(df, cmp):
+    """AB=CD pattern: project the next leg based on the previous swing.
+    If A→B was Rs.100 and B→C pulled back Rs.40, target = C + Rs.100."""
+    try:
+        swing_highs, swing_lows = find_swing_points(df, lookback=5)
+        if len(swing_highs) < 1 or len(swing_lows) < 2:
+            return None
+
+        # Find A(low) → B(high) → C(low) pattern
+        recent_high = swing_highs[-1]
+        point_a = None
+        for sl in reversed(swing_lows):
+            if sl["index"] < recent_high["index"]:
+                point_a = sl
+                break
+        point_c = None
+        for sl in reversed(swing_lows):
+            if sl["index"] > recent_high["index"]:
+                point_c = sl
+                break
+
+        if point_a and point_c:
+            ab_move = recent_high["price"] - point_a["price"]
+            if ab_move > 0:
+                target = point_c["price"] + ab_move
+                if target > cmp * 1.01:
+                    return round(target, 2)
+    except Exception:
+        pass
+    return None
+
+
+def compute_smart_targets(df, cmp, atr_val, score):
+    """Master target engine: combines all factors into consensus T1, T2, T3.
+
+    Factors used:
+    1. Fibonacci extensions (1.272, 1.618, 2.618)
+    2. Horizontal resistance zones (multi-touch)
+    3. Volume profile high-volume nodes
+    4. Weekly pivot points (R1, R2, R3)
+    5. Measured move (AB=CD)
+    6. ATR-based projected move cap
+    7. Round-number psychological adjustment
+    8. RSI exhaustion estimate
+    9. 52-week high proximity
+
+    Each factor votes for a target zone. Final targets = weighted consensus.
+    """
+    cmp_f = float(cmp)
+    candidates = []  # list of (price, weight, source)
+
+    # ── 1. Fibonacci Extensions ──
+    fib_targets = find_fibonacci_targets(df, cmp_f)
+    for label, price in fib_targets.items():
+        if "1.272" in label:
+            candidates.append((price, 3.0, "Fib 1.272"))
+        elif "1.618" in label:
+            candidates.append((price, 2.5, "Fib 1.618"))
+        elif "2.000" in label:
+            candidates.append((price, 1.5, "Fib 2.0"))
+        elif "2.618" in label:
+            candidates.append((price, 1.0, "Fib 2.618"))
+        elif "1.000" in label:
+            candidates.append((price, 2.0, "Fib 1.0"))
+
+    # ── 2. Horizontal Resistance Zones ──
+    resistances = find_resistance_zones(df, cmp_f)
+    for r in resistances:
+        weight = min(3.0, 1.0 + r["touches"] * 0.5)  # More touches = stronger
+        candidates.append((r["price"], weight, f"Resistance ({r['touches']}x)"))
+
+    # ── 3. Volume Profile Nodes ──
+    vol_nodes = find_volume_profile_zones(df, cmp_f)
+    for vn in vol_nodes:
+        candidates.append((vn, 1.5, "Vol Profile"))
+
+    # ── 4. Weekly Pivots ──
+    pivots = calculate_weekly_pivots(df)
+    if pivots:
+        for level in ["R1", "R2", "R3"]:
+            if level in pivots and pivots[level] > cmp_f * 1.005:
+                wt = {"R1": 2.5, "R2": 2.0, "R3": 1.5}[level]
+                candidates.append((pivots[level], wt, f"Weekly {level}"))
+
+    # ── 5. Measured Move (AB=CD) ──
+    mm = measured_move_target(df, cmp_f)
+    if mm:
+        candidates.append((mm, 2.0, "Measured Move"))
+
+    # ── 6. 52-Week High as Target/Cap ──
+    high_52w = float(df["High"].max())
+    if high_52w > cmp_f * 1.005:
+        pct_to_52w = (high_52w - cmp_f) / cmp_f * 100
+        if pct_to_52w < 20:  # Only relevant if within 20%
+            candidates.append((high_52w * 0.995, 2.5, "52W High"))
+
+    # ── ATR Move Cap (holding period estimate) ──
+    if score >= 75:
+        hold_days = 10
+    elif score >= 60:
+        hold_days = 7
+    else:
+        hold_days = 5
+    atr_cap = atr_projected_move(df, cmp_f, hold_days)
+
+    # ── If no candidates found, fall back to R:R math ──
+    if not candidates:
+        return None, None, None, "R:R Fallback"
+
+    # ── Sort candidates by price ──
+    candidates.sort(key=lambda x: x[0])
+
+    # ── Cluster nearby candidates (within 2% of each other) ──
+    tolerance = cmp_f * 0.02
+    clusters = []
+    current = [candidates[0]]
+    for i in range(1, len(candidates)):
+        if candidates[i][0] - current[-1][0] <= tolerance:
+            current.append(candidates[i])
+        else:
+            clusters.append(current)
+            current = [candidates[i]]
+    clusters.append(current)
+
+    # ── Score each cluster: sum of weights × number of confluences ──
+    scored_zones = []
+    for cluster in clusters:
+        avg_price = sum(c[0] * c[1] for c in cluster) / sum(c[1] for c in cluster)
+        total_weight = sum(c[1] for c in cluster)
+        confluence = len(cluster)
+        zone_score = total_weight * (1 + 0.3 * (confluence - 1))  # Bonus for multi-factor zones
+        sources = [c[2] for c in cluster]
+        scored_zones.append({
+            "price": round(avg_price, 2),
+            "score": zone_score,
+            "confluence": confluence,
+            "sources": sources,
+        })
+
+    scored_zones.sort(key=lambda x: x["score"], reverse=True)
+
+    # ── Pick T1 (nearest high-score zone), T2 (next), T3 (furthest) ──
+    # Sort by price ascending for target ordering
+    target_zones = sorted(scored_zones, key=lambda x: x["price"])
+
+    t1 = t2 = t3 = None
+    method = []
+
+    if len(target_zones) >= 1:
+        t1 = target_zones[0]["price"]
+        t1 = min(t1, atr_cap)  # Cap by ATR projected move
+        t1 = round_number_adjust(t1, cmp_f)
+        method.extend(target_zones[0]["sources"])
+    if len(target_zones) >= 2:
+        t2 = target_zones[1]["price"]
+        t2 = min(t2, atr_cap * 1.15)  # Slightly relaxed cap for T2
+        t2 = round_number_adjust(t2, cmp_f)
+        method.extend(target_zones[1]["sources"])
+    if len(target_zones) >= 3:
+        t3 = target_zones[2]["price"]
+        t3 = round_number_adjust(t3, cmp_f)
+        method.extend(target_zones[2]["sources"])
+
+    # Deduplicate method sources
+    seen = set()
+    unique_methods = []
+    for m in method:
+        if m not in seen:
+            unique_methods.append(m)
+            seen.add(m)
+
+    return t1, t2, t3, " + ".join(unique_methods[:4])
+
+
 def compute_supertrend(df, atr_period=10, multiplier=3):
     """Compute Supertrend indicator."""
     hl2 = (df["High"] + df["Low"]) / 2
@@ -957,33 +1343,203 @@ def score_stock(symbol, df, nifty_df, sector_performance):
     total = layer1 + layer2 + layer3 + layer4 + layer5 + layer6 + layer7
     result["score"] = total
 
-    # ──── ENTRY, SL, TARGETS ────
+    # ──── ENTRY, SL, TARGETS (Advanced Multi-Factor Engine) ────
     atr = ta.volatility.AverageTrueRange(df["High"], df["Low"], df["Close"], window=14).average_true_range()
     atr_val = float(atr.iloc[-1])
+    cmp_f = float(cmp)
 
-    result["entry"] = round(float(cmp), 2)
+    # ── ENTRY: CMP (market order) ──
+    result["entry"] = round(cmp_f, 2)
 
-    swing_low = float(df["Low"].iloc[-5:].min())
-    atr_sl = float(cmp) - (1.5 * atr_val)
-    sl = max(swing_low, atr_sl)
-    sl = max(sl, float(cmp) * 0.95)
-    sl = min(sl, float(cmp) * 0.99)
+    # ── STOP LOSS: Multi-factor with swing structure ──
+    swing_low_20 = float(df["Low"].iloc[-20:].min())  # 20-day swing low (was 5)
+    swing_low_10 = float(df["Low"].iloc[-10:].min())   # 10-day swing low
+    atr_sl = cmp_f - (1.5 * atr_val)
+
+    # Use the highest of: 20-day swing low, ATR-based SL (tighter = better)
+    sl = max(swing_low_20, atr_sl)
+
+    # For strong uptrends (high score), use 10-day swing low (tighter SL)
+    if total >= 70 and swing_low_10 > sl:
+        sl = swing_low_10
+
+    # Clamp between 1% and 7% below CMP (was 5% max)
+    sl = max(sl, cmp_f * 0.93)   # Never wider than 7%
+    sl = min(sl, cmp_f * 0.99)   # Never tighter than 1%
+
+    # If supertrend value is a natural SL and falls within range, prefer it
+    try:
+        st_df = compute_supertrend(df)
+        if st_df is not None:
+            st_val = float(st_df["Supertrend"].iloc[-1])
+            if cmp_f * 0.93 <= st_val <= cmp_f * 0.99:
+                sl = max(sl, st_val)  # Use supertrend if it gives tighter SL
+    except Exception:
+        pass
+
+    # Weekly S1 pivot as SL floor
+    pivots = calculate_weekly_pivots(df)
+    if pivots and "S1" in pivots:
+        s1 = pivots["S1"]
+        if cmp_f * 0.93 <= s1 <= cmp_f * 0.99:
+            sl = max(sl, s1)
+
     result["sl"] = round(sl, 2)
 
-    risk = float(cmp) - sl
-    result["target1"] = round(float(cmp) + (2 * risk), 2)
+    risk = cmp_f - sl
 
-    next_resistance = float(df["High"].iloc[-20:].max())
-    t2_rr = float(cmp) + (3 * risk)
-    result["target2"] = round(max(t2_rr, next_resistance), 2)
+    # ── TARGETS: Smart Multi-Factor Consensus ──
+    smart_t1, smart_t2, smart_t3, target_method = compute_smart_targets(
+        df, cmp_f, atr_val, total
+    )
 
-    pct_to_t1 = (result["target1"] - float(cmp)) / float(cmp) * 100
-    if pct_to_t1 < 3:
-        result["hold_period"] = "1-3 days"
-    elif pct_to_t1 < 6:
-        result["hold_period"] = "3-7 days"
+    if smart_t1 and smart_t1 > cmp_f * 1.01:
+        result["target1"] = round(smart_t1, 2)
     else:
-        result["hold_period"] = "1-2 weeks"
+        # Fallback: 1:2 R:R
+        result["target1"] = round(cmp_f + (2 * risk), 2)
+        target_method = "R:R 1:2"
+
+    if smart_t2 and smart_t2 > result["target1"] * 1.005:
+        result["target2"] = round(smart_t2, 2)
+    else:
+        # Fallback: 1:3 R:R or 20-day high
+        next_resistance = float(df["High"].iloc[-20:].max())
+        t2_rr = cmp_f + (3 * risk)
+        result["target2"] = round(max(t2_rr, next_resistance), 2)
+
+    # Optional T3 for high-conviction trades
+    if smart_t3 and smart_t3 > result["target2"] * 1.005:
+        result["target3"] = round(smart_t3, 2)
+
+    # Store target method for transparency
+    result["target_method"] = target_method
+
+    # ── Sanity Checks ──
+    # T1 must give at least 1:1.5 R:R
+    min_t1 = cmp_f + (1.5 * risk)
+    if result["target1"] < min_t1:
+        result["target1"] = round(min_t1, 2)
+
+    # T2 must be above T1
+    if result["target2"] <= result["target1"]:
+        result["target2"] = round(result["target1"] + risk, 2)
+
+    # RSI exhaustion check: if RSI > 70, reduce targets by 10%
+    try:
+        rsi_ind = ta.momentum.RSIIndicator(df["Close"], window=14)
+        rsi_val = float(rsi_ind.rsi().iloc[-1])
+        if rsi_val > 75:
+            # Overbought: trim targets closer (stock may not have full runway)
+            trim = 0.9
+            result["target1"] = round(cmp_f + (result["target1"] - cmp_f) * trim, 2)
+            result["target2"] = round(cmp_f + (result["target2"] - cmp_f) * trim, 2)
+            if "target3" in result:
+                result["target3"] = round(cmp_f + (result["target3"] - cmp_f) * trim, 2)
+    except Exception:
+        pass
+
+    # ── HOLD PERIOD: Multi-Factor Estimation ──
+    # Factors: distance to T1, ATR, trend strength (ADX), directional bias,
+    #          recent win rate, score conviction, volatility regime
+    pct_to_t1 = (result["target1"] - cmp_f) / cmp_f * 100
+    daily_move_pct = (atr_val / cmp_f) * 100
+
+    if daily_move_pct > 0:
+        # 1. Base estimate: raw ATR days (old method)
+        raw_days = pct_to_t1 / daily_move_pct
+
+        # 2. Directional efficiency — what % of daily ATR actually moves toward target?
+        #    Stocks don't move full ATR in one direction every day. They zigzag.
+        #    Use recent up-day ratio to estimate directional bias.
+        try:
+            recent_closes = df["Close"].iloc[-20:].values
+            up_days = sum(1 for i in range(1, len(recent_closes)) if recent_closes[i] > recent_closes[i-1])
+            total_days = len(recent_closes) - 1
+            win_rate = up_days / total_days if total_days > 0 else 0.5
+
+            # Net directional efficiency: strong uptrend = 0.6-0.7, choppy = 0.3-0.4
+            # win_rate of 0.65 means 65% days are up → net efficiency ~0.30 (65%-35%)
+            dir_efficiency = max(0.15, (win_rate - (1 - win_rate)))  # Net up bias
+        except Exception:
+            dir_efficiency = 0.3  # Default: 30% efficiency
+
+        # 3. ADX trend strength multiplier
+        #    Strong trend (ADX>30) → stock moves faster toward target
+        #    Weak trend (ADX<20) → choppy, takes longer
+        try:
+            adx_indicator = ta.trend.ADXIndicator(df["High"], df["Low"], df["Close"], window=14)
+            adx_now = float(adx_indicator.adx().iloc[-1])
+            if adx_now > 35:
+                adx_factor = 1.3   # Strong trend accelerates movement
+            elif adx_now > 25:
+                adx_factor = 1.1   # Moderate trend
+            elif adx_now > 20:
+                adx_factor = 0.9   # Weak trend, slightly slower
+            else:
+                adx_factor = 0.7   # No trend, much slower (choppy)
+        except Exception:
+            adx_factor = 1.0
+
+        # 4. Score conviction multiplier
+        #    High score (80+) → strong setup, likely reaches target faster
+        #    Low score (60-) → weaker setup, may take longer or fail
+        if total >= 80:
+            score_factor = 1.25
+        elif total >= 70:
+            score_factor = 1.1
+        elif total >= 60:
+            score_factor = 0.95
+        else:
+            score_factor = 0.8
+
+        # 5. Volatility regime adjustment
+        #    High VIX / wide ATR → faster moves but also more risk of whipsaw
+        #    Compare current ATR to 50-day average ATR
+        try:
+            atr_series = ta.volatility.AverageTrueRange(
+                df["High"], df["Low"], df["Close"], window=14
+            ).average_true_range()
+            atr_50_avg = float(atr_series.iloc[-50:].mean())
+            vol_ratio = atr_val / atr_50_avg if atr_50_avg > 0 else 1.0
+            if vol_ratio > 1.3:
+                vol_factor = 1.15  # High vol: faster moves
+            elif vol_ratio < 0.7:
+                vol_factor = 0.8   # Low vol: slower moves
+            else:
+                vol_factor = 1.0
+        except Exception:
+            vol_factor = 1.0
+
+        # 6. Combined effective daily progress toward target
+        #    effective_daily_pct = ATR% × directional_efficiency × adx × score × vol
+        effective_daily_pct = daily_move_pct * dir_efficiency * adx_factor * score_factor * vol_factor
+        effective_daily_pct = max(effective_daily_pct, 0.1)  # Floor at 0.1% per day
+
+        est_days = pct_to_t1 / effective_daily_pct
+
+        # 7. Apply realistic bounds: minimum 2 days, max 25 trading days
+        est_days = max(2, min(est_days, 25))
+
+        # 8. Bucket with more granularity
+        if est_days <= 3:
+            result["hold_period"] = "2-3 days"
+        elif est_days <= 5:
+            result["hold_period"] = "3-5 days"
+        elif est_days <= 8:
+            result["hold_period"] = "5-8 days"
+        elif est_days <= 12:
+            result["hold_period"] = "1-2 weeks"
+        elif est_days <= 18:
+            result["hold_period"] = "2-3 weeks"
+        else:
+            result["hold_period"] = "3-4 weeks"
+
+        # Store estimated days for reference
+        result["est_days_to_t1"] = round(est_days, 1)
+    else:
+        result["hold_period"] = "5-10 days"
+        result["est_days_to_t1"] = 7
 
     return result
 
@@ -1055,8 +1611,21 @@ def format_telegram_message(top_stocks, scan_time, regime=None):
         msg += f"   💰 Entry: ₹{stock['entry']:.2f}\n"
         msg += f"   🛑 SL: ₹{stock['sl']:.2f} ({risk_pct:.1f}%)\n"
         msg += f"   🎯 T1: ₹{stock['target1']:.2f} ({reward_pct:.1f}%)\n"
-        msg += f"   🎯 T2: ₹{stock['target2']:.2f}\n"
-        msg += f"   ⏱ Hold: {stock['hold_period']} | R:R = 1:{rr_ratio:.1f}\n"
+        msg += f"   🎯 T2: ₹{stock['target2']:.2f}"
+        if stock.get("target3"):
+            t3_pct = abs(stock["target3"] - stock["entry"]) / stock["entry"] * 100
+            msg += f"  |  T3: ₹{stock['target3']:.2f} ({t3_pct:.1f}%)"
+        msg += "\n"
+
+        # Hold period with estimated days + R:R
+        est_days = stock.get("est_days_to_t1", "")
+        est_str = f" (~{est_days:.0f}d)" if est_days else ""
+        msg += f"   ⏱ Hold: {stock['hold_period']}{est_str} | R:R = 1:{rr_ratio:.1f}\n"
+
+        # Target method (shows what factors determined the targets)
+        method = stock.get("target_method", "")
+        if method and method != "R:R 1:2":
+            msg += f"   🧠 Target: _{method}_\n"
 
         signals = stock["signals"][:4]
         msg += f"   📊 _{', '.join(signals)}_\n"
@@ -1069,22 +1638,22 @@ def format_telegram_message(top_stocks, scan_time, regime=None):
 
     msg += f"━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
     msg += f"⚠️ _Disclaimer: For educational purposes only. Do your own research before trading. Past patterns don't guarantee future results._\n"
-    msg += f"🤖 _Powered by Quantex Pro Scanner_"
+    msg += f"🤖 _Powered by Quantex Pro Scanner v2_"
 
     return msg
 
 
 def format_signal_group_message(top_stocks, scan_time, regime=None):
-    """Format compact results for Signal Group (top 5 only)."""
+    """Format results for Subscriber Signal Group (top 5)."""
     now = scan_time.strftime("%d %b %Y, %I:%M %p IST")
 
-    msg = f"🟢 *QUANTEX PRO SCANNER* — {now}\n"
+    msg = f"🟢 *QUANTEX PRO SCANNER — {now}*\n"
     msg += f"#QuantexPro #SwingScanner #Daily\n"
     msg += f"━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
 
     if regime:
         vix_str = f"{regime['vix']:.2f}" if regime.get('vix') is not None else "N/A"
-        msg += f"*Regime:* {regime['label']}  |  *VIX:* {vix_str}\n"
+        msg += f"*Regime:* {regime['label']}  |  *VIX:* {vix_str}  |  *Threshold:* {regime['min_score']}\n"
 
     msg += f"_7-Layer Confluence Scanner (Top 5)_\n\n"
 
@@ -1105,11 +1674,14 @@ def format_signal_group_message(top_stocks, scan_time, regime=None):
         msg += f"   🛑 SL: ₹{stock['sl']:.2f} ({risk_pct:.1f}%)\n"
         msg += f"   🎯 T1: ₹{stock['target1']:.2f} ({reward_pct:.1f}%)\n"
         msg += f"   🎯 T2: ₹{stock['target2']:.2f}\n"
-        msg += f"   ⏱ Hold: {stock['hold_period']} | R:R = 1:{rr_ratio:.1f}\n\n"
+
+        est_days = stock.get("est_days_to_t1", "")
+        est_str = f" (~{est_days:.0f}d)" if est_days else ""
+        msg += f"   ⏱ Hold: {stock['hold_period']}{est_str} | R:R = 1:{rr_ratio:.1f}\n\n"
 
     msg += f"━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
     msg += f"⚠️ _Disclaimer: For educational purposes only. Do your own research before trading. Past patterns don't guarantee future results._\n"
-    msg += f"🤖 _Powered by Quantex Pro Scanner_"
+    msg += f"🤖 _Powered by Quantex Pro Scanner v2_"
 
     return msg
 
