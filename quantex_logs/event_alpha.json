@@ -1,0 +1,82 @@
+[
+  {
+    "scan_date": "2026-04-22",
+    "scan_time": "2026-04-22T06:56:02.062798",
+    "stocks_scanned": 500,
+    "results_found": 12,
+    "results": [
+      {
+        "Date": "2026-04-21",
+        "Symbol": "360ONE",
+        "Signals": "Muted Reaction | Flat -0.1%",
+        "CMP": 1055.15
+      },
+      {
+        "Date": "2026-04-21",
+        "Symbol": "HCLTECH",
+        "Signals": "Muted Reaction | Flat +0.9% | Heavy Selling -10.0%",
+        "CMP": 1285.7
+      },
+      {
+        "Date": "2026-04-22",
+        "Symbol": "HAVELLS",
+        "Signals": "Muted Reaction | Flat +0.1%",
+        "CMP": 1329.8
+      },
+      {
+        "Date": "2026-04-22",
+        "Symbol": "LTTS",
+        "Signals": "Selloff -2.8%",
+        "CMP": 3541.8
+      },
+      {
+        "Date": "2026-04-21",
+        "Symbol": "NESTLEIND",
+        "Signals": "Bullish Reaction | Surge +7.3% | Vol Explosion 7.0x | Strong Momentum +9.8%",
+        "CMP": 1412.7
+      },
+      {
+        "Date": "2026-04-22",
+        "Symbol": "OFSS",
+        "Signals": "Muted Reaction | Flat +0.7%",
+        "CMP": 7985.0
+      },
+      {
+        "Date": "2026-04-21",
+        "Symbol": "PERSISTENT",
+        "Signals": "Flat +0.1%",
+        "CMP": 5055.2
+      },
+      {
+        "Date": "2026-04-22",
+        "Symbol": "SBILIFE",
+        "Signals": "Flat -1.3%",
+        "CMP": 1885.8
+      },
+      {
+        "Date": "2026-04-22",
+        "Symbol": "TATACOMM",
+        "Signals": "Muted Reaction | Flat -0.8%",
+        "CMP": 1501.3
+      },
+      {
+        "Date": "2026-04-21",
+        "Symbol": "TATAELXSI",
+        "Signals": "Rally +3.0%",
+        "CMP": 4398.9
+      },
+      {
+        "Date": "2026-04-22",
+        "Symbol": "TECHM",
+        "Signals": "Bearish Reaction | Gap Down -2.5% | Decline -6.3% | Vol Surge 2.3x",
+        "CMP": 1406.7
+      },
+      {
+        "Date": "2026-04-22",
+        "Symbol": "TRENT",
+        "Signals": "Muted Reaction | Flat +0.7%",
+        "CMP": 4422.2
+      }
+    ]
+  }
+]
