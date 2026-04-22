@@ -17,4 +17,5 @@ jobs:
           git config user.name "Quantex Bot"
           git config user.email "bot@quantex.local"
           git commit --allow-empty -m "chore: keep-alive $(date -u '+%Y-%m-%d')"
+          git pull --rebase origin main
           git push

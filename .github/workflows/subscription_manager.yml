@@ -59,4 +59,5 @@ jobs:
           git add subscription/subscribers.json subscription/payments.json -f
           [ -f subscription/.telegram_offset ] && git add subscription/.telegram_offset -f || true
           git diff --cached --quiet || git commit -m "Subscription update: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main
           git push

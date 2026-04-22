@@ -40,4 +40,5 @@ jobs:
           git config user.email "bot@quantex-scanner.local"
           git add quantex_logs/ -f
           git diff --cached --quiet || git commit -m "Event alpha scan: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main
           git push

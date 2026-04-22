@@ -41,4 +41,5 @@ jobs:
           git config user.email "bot@quantex.local"
           git add quantex_logs/ -f
           git diff --cached --quiet || git commit -m "Pre-Market Report: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main
           git push
