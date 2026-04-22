@@ -32,3 +32,42 @@ Qualified: 5 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-04-22 at 10:30 AM IST
+Regime: NEUTRAL (mixed) | VIX: 18.30 | Min Score: 68
+Qualified: 6 stocks | Top 10 below
+============================================================
+
+1. ADANIPOWER -- Score: 73/100
+   Entry: 215.65 | SL: 204.87 | T1: 237.21 | T2: 248.00 | RR: 1:2.0
+   Tr:20 Mo:6 Vo:17 PA:13 RS:10 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 35 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 2.0x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Consistent Buying
+
+2. TIMKEN -- Score: 72/100
+   Entry: 3633.00 | SL: 3451.35 | T1: 3996.30 | T2: 4177.95 | RR: 1:2.0
+   Tr:12 Mo:15 Vo:17 PA:13 RS:8 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 65 (Power Zone), MACD Bullish, Vol Surge 2.3x, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Consistent Buying
+
+3. EMAMILTD -- Score: 72/100
+   Entry: 473.20 | SL: 450.27 | T1: 519.07 | T2: 542.00 | RR: 1:2.0
+   Tr:18 Mo:10 Vo:17 PA:8 RS:12 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), MACD Bullish, Vol Surge 2.1x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FMCG, Consistent Buying
+
+4. SIEMENS -- Score: 69/100
+   Entry: 3844.30 | SL: 3652.09 | T1: 4228.73 | T2: 4420.95 | RR: 1:2.0
+   Tr:20 Mo:6 Vo:15 PA:13 RS:8 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 29 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.5x, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Consistent Buying
+
+5. DATAPATTNS -- Score: 69/100
+   Entry: 3828.30 | SL: 3636.89 | T1: 4211.13 | T2: 4402.55 | RR: 1:2.0
+   Tr:16 Mo:10 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 27 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 2.9x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+6. TORNTPOWER -- Score: 68/100
+   Entry: 1657.40 | SL: 1580.68 | T1: 1810.84 | T2: 1887.56 | RR: 1:2.0
+   Tr:18 Mo:10 Vo:12 PA:8 RS:10 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 23 (Trending), ADX Rising, MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+
+────────────────────────────────────────────────────────────
+
