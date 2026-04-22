@@ -1,0 +1,43 @@
+name: Event Alpha Scanner
+
+on:
+  repository_dispatch:
+    types: [event-alpha]
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Event Alpha Scanner
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_ADMIN_GROUPS: ${{ secrets.TELEGRAM_ADMIN_GROUPS }}
+        run: python event_alpha_scanner.py
+
+      - name: Commit results to repo
+        if: always()
+        run: |
+          git config user.name "Quantex Scanner Bot"
+          git config user.email "bot@quantex-scanner.local"
+          git add quantex_logs/ -f
+          git diff --cached --quiet || git commit -m "Event alpha scan: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
