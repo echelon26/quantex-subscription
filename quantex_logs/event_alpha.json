@@ -78,5 +78,67 @@
         "CMP": 4422.2
       }
     ]
+  },
+  {
+    "scan_date": "2026-04-22",
+    "scan_time": "2026-04-22T13:37:51.471478",
+    "stocks_scanned": 500,
+    "results_found": 9,
+    "results": [
+      {
+        "Date": "2026-04-22",
+        "Symbol": "HAVELLS",
+        "Signals": "Flat +1.5% | Vol Explosion 5.5x",
+        "CMP": 1348.7
+      },
+      {
+        "Date": "2026-04-22",
+        "Symbol": "LTTS",
+        "Signals": "Selloff -2.5%",
+        "CMP": 3550.2
+      },
+      {
+        "Date": "2026-04-21",
+        "Symbol": "NESTLEIND",
+        "Signals": "Bullish Reaction | Surge +7.3% | Vol Explosion 7.0x | Strong Momentum +8.5%",
+        "CMP": 1395.8
+      },
+      {
+        "Date": "2026-04-22",
+        "Symbol": "OFSS",
+        "Signals": "Rally +2.5% | Vol Surge 2.1x",
+        "CMP": 8126.5
+      },
+      {
+        "Date": "2026-04-21",
+        "Symbol": "PERSISTENT",
+        "Signals": "Flat +0.1%",
+        "CMP": 5073.3
+      },
+      {
+        "Date": "2026-04-22",
+        "Symbol": "SBILIFE",
+        "Signals": "Flat -1.4% | Vol Surge 2.3x",
+        "CMP": 1884.8
+      },
+      {
+        "Date": "2026-04-22",
+        "Symbol": "TATACOMM",
+        "Signals": "Flat +0.8% | High Vol 1.6x",
+        "CMP": 1525.0
+      },
+      {
+        "Date": "2026-04-22",
+        "Symbol": "TECHM",
+        "Signals": "Gap Down -2.5% | Selloff -2.5% | Vol Explosion 6.7x",
+        "CMP": 1462.6
+      },
+      {
+        "Date": "2026-04-22",
+        "Symbol": "TRENT",
+        "Signals": "Flat +1.0% | High Vol 1.6x",
+        "CMP": 4434.5
+      }
+    ]
   }
 ]
