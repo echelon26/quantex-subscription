@@ -73,5 +73,30 @@
       "COFORGE"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-04-22.pdf"
+  },
+  {
+    "date": "Wed, 22 Apr 2026",
+    "fear_greed": 64.4,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24407.45,
+    "nifty": 24408.95,
+    "sensex": 78631.81,
+    "bank_nifty": 57314.2,
+    "vix": 18.31,
+    "top_gainers": [
+      "ARE&M",
+      "EXIDEIND",
+      "ABB",
+      "PIRAMALFIN",
+      "DATAPATTNS"
+    ],
+    "top_losers": [
+      "HCLTECH",
+      "HEXT",
+      "TARIL",
+      "TECHM",
+      "COFORGE"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-04-22.pdf"
   }
 ]
