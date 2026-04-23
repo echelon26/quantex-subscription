@@ -1267,5 +1267,311 @@
         "est_days_to_t1": 20.2
       }
     ]
+  },
+  {
+    "scan_date": "2026-04-23",
+    "scan_time": "2026-04-23T10:30:58.218016",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": true,
+      "vix": 18.59000015258789
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 8,
+    "sector_rankings": {
+      "CHEMICALS": 1,
+      "FMCG": 2,
+      "PHARMA": 3,
+      "INFRA": 4,
+      "POWER": 5,
+      "METALS": 6,
+      "REALTY": 7,
+      "CONSUMER": 8,
+      "DEFENCE": 9,
+      "BANKING": 10,
+      "INDEX_ETF": 11,
+      "RAILWAY": 12,
+      "ENERGY": 13,
+      "GOLD_ETF": 14,
+      "FINANCE": 15,
+      "AUTO": 16,
+      "SILVER_ETF": 17,
+      "ELECTRICALS": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "CIPLA",
+        "score": 74,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 15,
+          "Volume": 17,
+          "Price Action": 13,
+          "Relative Strength": 6,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 22 (Trending)",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 2.6x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Sector Top 3: PHARMA",
+          "Consistent Buying"
+        ],
+        "entry": 1305.9,
+        "sl": 1263.83,
+        "target1": 1369.0,
+        "target2": 1432.11,
+        "hold_period": "1-2 weeks",
+        "cmp": 1305.9,
+        "target_method": "Vol Profile + Resistance (5x) + 52W High",
+        "est_days_to_t1": 8.6
+      },
+      {
+        "symbol": "TORNTPOWER",
+        "score": 74,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 6,
+          "Volume": 15,
+          "Price Action": 13,
+          "Relative Strength": 10,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 26 (Strong Trend)",
+          "ADX Rising",
+          "MACD Bullish",
+          "Vol Above Avg 1.8x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 1737.0,
+        "sl": 1655.38,
+        "target1": 1847.2,
+        "target2": 1957.38,
+        "hold_period": "2-3 days",
+        "cmp": 1737.0,
+        "target_method": "Weekly R3 + Fib 2.618",
+        "est_days_to_t1": 2.9
+      },
+      {
+        "symbol": "COLPAL",
+        "score": 73,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 15,
+          "Volume": 8,
+          "Price Action": 13,
+          "Relative Strength": 12,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 31 (Strong Trend)",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Sector Top 3: FMCG",
+          "Consistent Buying"
+        ],
+        "entry": 2150.2,
+        "sl": 2058.12,
+        "target1": 2288.32,
+        "target2": 2380.4,
+        "hold_period": "3-5 days",
+        "cmp": 2150.2,
+        "target3": 2395.7,
+        "target_method": "Weekly R1 + Vol Profile + Weekly R2 + 52W High",
+        "est_days_to_t1": 3.9
+      },
+      {
+        "symbol": "DRREDDY",
+        "score": 72,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 15,
+          "Volume": 17,
+          "Price Action": 13,
+          "Relative Strength": 6,
+          "Smart Money": 3,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend FLIP Bullish",
+          "ADX 26 (Strong Trend)",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 5.6x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Morning Star",
+          "Sector Top 3: PHARMA"
+        ],
+        "entry": 1331.0,
+        "sl": 1273.25,
+        "target1": 1417.63,
+        "target2": 1475.38,
+        "hold_period": "1-2 weeks",
+        "cmp": 1331.0,
+        "target_method": "52W High + Fib 2.618",
+        "est_days_to_t1": 10.8
+      },
+      {
+        "symbol": "GLENMARK",
+        "score": 72,
+        "breakdown": {
+          "Trend": 10,
+          "Momentum": 15,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX Rising",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 2.6x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Institutional Accumulation"
+        ],
+        "entry": 2335.0,
+        "sl": 2230.45,
+        "target1": 2491.82,
+        "target2": 2596.37,
+        "hold_period": "3-4 weeks",
+        "cmp": 2335.0,
+        "target3": 2595.33,
+        "target_method": "52W High + Fib 1.0 + Measured Move + Weekly R2",
+        "est_days_to_t1": 18.5
+      },
+      {
+        "symbol": "AUBANK",
+        "score": 71,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 10,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 24 (Trending)",
+          "ADX Rising",
+          "MACD Bullish",
+          "Vol Surge 2.2x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 1056.25,
+        "sl": 1009.1,
+        "target1": 1150.56,
+        "target2": 1197.71,
+        "hold_period": "5-8 days",
+        "cmp": 1056.25,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 6.4
+      },
+      {
+        "symbol": "DATAPATTNS",
+        "score": 69,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 6,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 30 (Strong Trend)",
+          "ADX Rising",
+          "MACD Bullish",
+          "Vol Surge 4.6x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 4135.1,
+        "sl": 3845.64,
+        "target1": 4656.12,
+        "target2": 4916.63,
+        "hold_period": "5-8 days",
+        "cmp": 4135.1,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 6.8
+      },
+      {
+        "symbol": "ATUL",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 9,
+          "Price Action": 8,
+          "Relative Strength": 9,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 27 (Strong Trend)",
+          "ADX Rising",
+          "RSI 63 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 3.2x",
+          "20-Day Breakout",
+          "Outperforming Nifty",
+          "Sector Top 3: CHEMICALS",
+          "Consistent Buying"
+        ],
+        "entry": 6727.0,
+        "sl": 6444.78,
+        "target1": 7291.43,
+        "target2": 7573.65,
+        "hold_period": "5-8 days",
+        "cmp": 6727.0,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 6.1
+      }
+    ]
   }
 ]
