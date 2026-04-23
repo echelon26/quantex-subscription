@@ -123,5 +123,30 @@
       "360ONE"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-04-22.pdf"
+  },
+  {
+    "date": "Thu, 23 Apr 2026",
+    "fear_greed": 62.8,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24378.1,
+    "nifty": 24378.1,
+    "sensex": 78516.49,
+    "bank_nifty": 57124.45,
+    "vix": 18.3,
+    "top_gainers": [
+      "ARE&M",
+      "IREDA",
+      "DATAPATTNS",
+      "PIRAMALFIN",
+      "ADANIENSOL"
+    ],
+    "top_losers": [
+      "HCLTECH",
+      "TARIL",
+      "HEXT",
+      "TATAELXSI",
+      "360ONE"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-04-23.pdf"
   }
 ]
