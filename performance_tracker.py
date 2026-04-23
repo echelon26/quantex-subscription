@@ -2,624 +2,516 @@
 """
 Quantex Performance Tracker
 ============================
-Bi-weekly review (1st & 15th of each month).
-- Reads recommendations.csv
-- Fetches actual price history for each pick
-- Checks if T1, T2, or SL was hit (and when)
-- Updates recommendations.csv with outcome columns
-- Sends performance scorecard to Telegram
-- Commits updated CSV back to repo
+Tracks scanner recommendations against actual market outcomes.
+
+For each past recommendation:
+  1. Fetches price history from scan date to today
+  2. Checks day-by-day: did T1 hit? T2 hit? SL triggered? Or still active?
+  3. Records outcome: WIN (T1 hit), BIG WIN (T2 hit), LOSS (SL hit), ACTIVE (still open)
+  4. Calculates: win rate, avg return, avg holding days, best/worst picks
+  5. Sends weekly scorecard to Telegram
+
+Reads: quantex_logs/recommendations.json
+Writes: quantex_logs/performance.json
+Sends: Telegram summary to admin + signal groups
 """
 
-import csv
 import json
 import os
 import sys
 from datetime import datetime, timedelta
-from io import StringIO
 from pathlib import Path
 
 import numpy as np
-import pandas as pd
 import requests
 import yfinance as yf
 
-try:
-    import pyotp
-    HAS_PYOTP = True
-except ImportError:
-    HAS_PYOTP = False
-
 # ─────────────────────────── CONFIGURATION ───────────────────────────
 
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8573365697:AAESTWF5H1ZAKE0bQg-yQbBaJoGLZwcZ9XQ")
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "854001335")
-TELEGRAM_SIGNAL_GROUP = os.environ.get("TELEGRAM_SIGNAL_GROUPS", "-1003754088976")
-TELEGRAM_ADMIN_GROUP = os.environ.get("TELEGRAM_ADMIN_GROUPS", "-5298634309")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
+TELEGRAM_ADMIN_GROUP = os.environ.get("TELEGRAM_ADMIN_GROUPS", "").strip()
 
-KITE_API_KEY = os.environ.get("KITE_API_KEY", "7sa02mhb5t3onyt8")
-KITE_API_SECRET = os.environ.get("KITE_API_SECRET", "okmrcxgxsswyd4g4ydz4xw3utlh6cj5n")
-ZERODHA_USER_ID = os.environ.get("ZERODHA_USER_ID", "YSZ319")
-ZERODHA_PASSWORD = os.environ.get("ZERODHA_PASSWORD", "HelloJitu@2019")
-ZERODHA_TOTP_KEY = os.environ.get("ZERODHA_TOTP_KEY", "TWOA2OHXLR7VWLEJZPWVPTDROPQK7TFZ")
+_signal_groups_raw = os.environ.get("TELEGRAM_SIGNAL_GROUPS", "").strip()
+TELEGRAM_SIGNAL_GROUPS = [g.strip() for g in _signal_groups_raw.split(",") if g.strip()]
 
 SCRIPT_DIR = Path(os.path.dirname(os.path.abspath(__file__)))
 LOG_DIR = SCRIPT_DIR / "quantex_logs"
-CSV_PATH = LOG_DIR / "recommendations.csv"
+RECOMMENDATIONS_FILE = LOG_DIR / "recommendations.json"
+PERFORMANCE_FILE = LOG_DIR / "performance.json"
 
-# Outcome columns to add/update
-OUTCOME_COLUMNS = [
-    "Result",        # T1_HIT, T2_HIT, SL_HIT, OPEN, EXPIRED
-    "Hit_Price",     # Price at which T1/T2/SL was hit
-    "Hit_Date",      # Date when result was confirmed
-    "Days_Held",     # Days from entry to hit
-    "Actual_Return",  # Actual % return at hit
-    "Peak_High",     # Highest price reached since entry
-    "Max_Drawdown",  # Maximum drawdown % from entry
-]
+# How many days back to track (max)
+MAX_TRACK_DAYS = 30
 
-# Expire trades after 30 calendar days with no T1/T2/SL hit
-EXPIRY_DAYS = 30
+# After this many trading days, force-close as EXPIRED
+MAX_HOLD_DAYS = 20
 
 
-# ─────────────────────────── KITE SESSION ───────────────────────────
+# ─────────────────────────── HELPERS ───────────────────────────
 
-class KiteSession:
-    """Lightweight Kite login for fetching historical data."""
-
-    def __init__(self):
-        self.kite = None
-        self.logged_in = False
-
-    def login(self):
-        """Attempt automated Kite login."""
-        try:
-            from kiteconnect import KiteConnect
-        except ImportError:
-            print("⚠️ kiteconnect not installed, using Yahoo Finance only")
-            return False
-
-        try:
-            kite = KiteConnect(api_key=KITE_API_KEY)
-            session = requests.Session()
-
-            # Step 1: POST login
-            login_resp = session.post(
-                "https://kite.zerodha.com/api/login",
-                data={"user_id": ZERODHA_USER_ID, "password": ZERODHA_PASSWORD},
-                timeout=30,
-            )
-            login_data = login_resp.json().get("data", {})
-            request_id = login_data.get("request_id", "")
-            if not request_id:
-                print("❌ Kite login failed: no request_id")
-                return False
-
-            # Step 2: POST TOTP
-            if not HAS_PYOTP:
-                print("❌ pyotp not installed")
-                return False
-            totp = pyotp.TOTP(ZERODHA_TOTP_KEY)
-            totp_resp = session.post(
-                "https://kite.zerodha.com/api/twofa",
-                data={"user_id": ZERODHA_USER_ID, "request_id": request_id, "twofa_value": totp.now(), "twofa_type": "totp"},
-                timeout=30,
-            )
-
-            # Step 3: Extract request_token from OAuth redirect
-            redirect_url = f"https://kite.trade/connect/login?v=3&api_key={KITE_API_KEY}"
-            r = session.get(redirect_url, allow_redirects=False, timeout=30)
-            location = r.headers.get("Location", "")
-
-            if "request_token=" not in location:
-                if "/connect/finish" in location:
-                    r2 = session.get(location, allow_redirects=False, timeout=30)
-                    location = r2.headers.get("Location", "")
-
-            if "request_token=" not in location:
-                print("❌ Could not extract request_token")
-                return False
-
-            from urllib.parse import parse_qs, urlparse
-            token = parse_qs(urlparse(location).query).get("request_token", [None])[0]
-            if not token:
-                return False
-
-            # Step 4: Generate session
-            data = kite.generate_session(token, api_secret=KITE_API_SECRET)
-            kite.set_access_token(data["access_token"])
-            self.kite = kite
-            self.logged_in = True
-            profile = kite.profile()
-            print(f"✅ Kite logged in: {profile.get('user_name', ZERODHA_USER_ID)}")
-            return True
-        except Exception as e:
-            print(f"⚠️ Kite login failed: {e}")
-            return False
-
-    def get_historical(self, symbol, from_date, to_date):
-        """Fetch daily OHLCV from Kite."""
-        if not self.logged_in or not self.kite:
-            return None
-        try:
-            # Find instrument token
-            instruments = self.kite.instruments("NSE")
-            token = None
-            for inst in instruments:
-                if inst["tradingsymbol"] == symbol:
-                    token = inst["instrument_token"]
-                    break
-            if not token:
-                return None
-
-            data = self.kite.historical_data(token, from_date, to_date, "day")
-            if not data:
-                return None
-            df = pd.DataFrame(data)
-            df.columns = [c.capitalize() if c != "date" else "Date" for c in df.columns]
-            return df
-        except Exception as e:
-            print(f"  ⚠️ Kite historical error for {symbol}: {e}")
-            return None
-
-
-kite_session = KiteSession()
-
-
-# ─────────────────────────── DATA FETCHING ───────────────────────────
-
-def fetch_price_history(symbol, from_date, to_date):
-    """Fetch daily OHLCV data. Kite first, Yahoo fallback."""
-    # Try Kite
-    if kite_session.logged_in:
-        df = kite_session.get_historical(symbol, from_date, to_date)
-        if df is not None and len(df) > 0:
-            return df
-
-    # Yahoo Finance fallback
+def fetch_history(symbol, start_date, end_date=None):
+    """Fetch daily OHLC from scan date to today."""
     try:
         ticker = f"{symbol}.NS"
-        # Add 1 day buffer to to_date for Yahoo
-        yf_to = (to_date + timedelta(days=1)).strftime("%Y-%m-%d")
-        yf_from = from_date.strftime("%Y-%m-%d")
-        df = yf.download(ticker, start=yf_from, end=yf_to, progress=False)
-        if df is not None and len(df) > 0:
-            df = df.reset_index()
-            # Handle MultiIndex columns from yfinance
-            if isinstance(df.columns, pd.MultiIndex):
-                df.columns = [c[0] if isinstance(c, tuple) else c for c in df.columns]
+        df = yf.Ticker(ticker).history(start=start_date, end=end_date or datetime.now().strftime("%Y-%m-%d"))
+        if df is None or df.empty:
+            # Try BSE
+            ticker = f"{symbol}.BO"
+            df = yf.Ticker(ticker).history(start=start_date, end=end_date)
+        if df is not None and not df.empty:
+            if hasattr(df.columns, 'get_level_values'):
+                df.columns = df.columns.get_level_values(0)
             return df
-    except Exception:
-        pass
-
+    except Exception as e:
+        print(f"   Error fetching {symbol}: {e}")
     return None
 
 
-# ─────────────────────────── TRADE ANALYSIS ───────────────────────────
-
-def analyze_trade(symbol, entry_date, entry_price, sl_price, t1_price, t2_price):
+def evaluate_trade(entry, sl, t1, t2, df_after_entry):
     """
-    Analyze a trade by fetching price history from entry_date to today.
-    Returns dict with Result, Hit_Price, Hit_Date, Days_Held, Actual_Return, Peak_High, Max_Drawdown.
+    Walk through price bars day by day after entry.
+    Check if SL or T1/T2 was hit first.
+
+    Returns dict:
+      outcome: "T1_HIT" | "T2_HIT" | "SL_HIT" | "ACTIVE" | "EXPIRED"
+      exit_price: price at outcome
+      exit_date: date of outcome
+      days_held: trading days from entry to outcome
+      return_pct: % return from entry
+      max_gain_pct: max intraday gain before outcome
+      max_drawdown_pct: max intraday drawdown before outcome
     """
-    today = datetime.now().date()
-    from_date = entry_date
-    to_date = today
+    if df_after_entry is None or df_after_entry.empty:
+        return {"outcome": "NO_DATA", "days_held": 0, "return_pct": 0}
 
-    df = fetch_price_history(symbol, from_date, to_date)
-    if df is None or len(df) == 0:
-        return {
-            "Result": "NO_DATA",
-            "Hit_Price": "",
-            "Hit_Date": "",
-            "Days_Held": "",
-            "Actual_Return": "",
-            "Peak_High": "",
-            "Max_Drawdown": "",
-        }
+    highs = df_after_entry["High"].values
+    lows = df_after_entry["Low"].values
+    closes = df_after_entry["Close"].values
+    dates = df_after_entry.index
 
-    peak_high = float(entry_price)
-    max_drawdown = 0.0
-    result = None
-    hit_price = None
-    hit_date = None
-    days_held = None
+    max_high = entry
+    min_low = entry
+    t1_hit = False
 
-    for _, row in df.iterrows():
-        row_date = pd.Timestamp(row.get("Date", row.get("date", ""))).date() if "Date" in row or "date" in row else None
-        if row_date is None:
-            continue
-        if row_date <= entry_date:
-            continue
+    for i in range(len(df_after_entry)):
+        day_high = float(highs[i])
+        day_low = float(lows[i])
+        day_close = float(closes[i])
+        day_date = dates[i].strftime("%Y-%m-%d") if hasattr(dates[i], 'strftime') else str(dates[i])[:10]
 
-        high = float(row.get("High", row.get("high", 0)))
-        low = float(row.get("Low", row.get("low", 0)))
-        close = float(row.get("Close", row.get("close", 0)))
+        max_high = max(max_high, day_high)
+        min_low = min(min_low, day_low)
 
-        # Track peak and drawdown
-        if high > peak_high:
-            peak_high = high
-        current_dd = (low - entry_price) / entry_price * 100
-        if current_dd < max_drawdown:
-            max_drawdown = current_dd
+        # Check SL first (intraday low)
+        if day_low <= sl:
+            return {
+                "outcome": "SL_HIT",
+                "exit_price": round(sl, 2),
+                "exit_date": day_date,
+                "days_held": i + 1,
+                "return_pct": round(((sl - entry) / entry) * 100, 2),
+                "max_gain_pct": round(((max_high - entry) / entry) * 100, 2),
+                "max_drawdown_pct": round(((min_low - entry) / entry) * 100, 2),
+            }
 
-        # Check SL hit (intraday low)
-        if low <= sl_price and result is None:
-            result = "SL_HIT"
-            hit_price = sl_price
-            hit_date = row_date
-            days_held = (row_date - entry_date).days
-            # Don't break — continue to track if T1 was hit on same day before SL
-            # Actually, check if high hit T1 before low hit SL on same candle
-            if high >= t1_price:
-                # Ambiguous — conservatively assume T1 hit first if high > t1
-                result = "T1_HIT"
-                hit_price = t1_price
-            break
+        # Check T2 (intraday high)
+        if day_high >= t2:
+            return {
+                "outcome": "T2_HIT",
+                "exit_price": round(t2, 2),
+                "exit_date": day_date,
+                "days_held": i + 1,
+                "return_pct": round(((t2 - entry) / entry) * 100, 2),
+                "max_gain_pct": round(((max_high - entry) / entry) * 100, 2),
+                "max_drawdown_pct": round(((min_low - entry) / entry) * 100, 2),
+            }
 
-        # Check T2 hit first (intraday high)
-        if high >= t2_price and result is None:
-            result = "T2_HIT"
-            hit_price = t2_price
-            hit_date = row_date
-            days_held = (row_date - entry_date).days
-            break
+        # Check T1 (intraday high)
+        if not t1_hit and day_high >= t1:
+            t1_hit = True
+            # Don't exit yet — continue to see if T2 also hits
+            # But record T1 hit info
+            t1_info = {
+                "t1_hit_date": day_date,
+                "t1_hit_day": i + 1,
+            }
 
-        # Check T1 hit (intraday high)
-        if high >= t1_price and result is None:
-            result = "T1_HIT"
-            hit_price = t1_price
-            hit_date = row_date
-            days_held = (row_date - entry_date).days
-            # Continue to see if T2 also gets hit later
-            # But for simplicity, record T1 first — next review will catch T2
-            break
+        # Force expire after MAX_HOLD_DAYS
+        if i + 1 >= MAX_HOLD_DAYS:
+            outcome = "T1_HIT" if t1_hit else "EXPIRED"
+            return {
+                "outcome": outcome,
+                "exit_price": round(day_close, 2),
+                "exit_date": day_date,
+                "days_held": i + 1,
+                "return_pct": round(((day_close - entry) / entry) * 100, 2),
+                "max_gain_pct": round(((max_high - entry) / entry) * 100, 2),
+                "max_drawdown_pct": round(((min_low - entry) / entry) * 100, 2),
+                **(t1_info if t1_hit else {}),
+            }
 
-    # If no result yet
-    if result is None:
-        elapsed = (today - entry_date).days
-        if elapsed >= EXPIRY_DAYS:
-            # Expired — use last close as exit
-            last_close = float(df.iloc[-1].get("Close", df.iloc[-1].get("close", entry_price)))
-            result = "EXPIRED"
-            hit_price = last_close
-            hit_date = today
-            days_held = elapsed
-        else:
-            result = "OPEN"
-            hit_price = float(df.iloc[-1].get("Close", df.iloc[-1].get("close", entry_price)))
-            hit_date = ""
-            days_held = elapsed
-
-    # Calculate actual return
-    if hit_price and entry_price > 0:
-        actual_return = round((float(hit_price) - entry_price) / entry_price * 100, 2)
-    else:
-        actual_return = ""
-
+    # Still within hold period — trade is active
+    last_close = float(closes[-1])
+    outcome = "T1_HIT" if t1_hit else "ACTIVE"
     return {
-        "Result": result,
-        "Hit_Price": round(float(hit_price), 2) if hit_price else "",
-        "Hit_Date": str(hit_date) if hit_date else "",
-        "Days_Held": days_held if days_held is not None else "",
-        "Actual_Return": f"{actual_return}%" if actual_return != "" else "",
-        "Peak_High": round(peak_high, 2),
-        "Max_Drawdown": f"{round(max_drawdown, 2)}%",
+        "outcome": outcome,
+        "exit_price": round(last_close, 2),
+        "exit_date": dates[-1].strftime("%Y-%m-%d") if hasattr(dates[-1], 'strftime') else str(dates[-1])[:10],
+        "days_held": len(df_after_entry),
+        "return_pct": round(((last_close - entry) / entry) * 100, 2),
+        "max_gain_pct": round(((max_high - entry) / entry) * 100, 2),
+        "max_drawdown_pct": round(((min_low - entry) / entry) * 100, 2),
+        **(t1_info if t1_hit else {}),
     }
 
 
-# ─────────────────────────── CSV UPDATE ───────────────────────────
-
-def load_csv():
-    """Load recommendations.csv into list of dicts."""
-    if not CSV_PATH.exists():
-        print(f"❌ CSV not found: {CSV_PATH}")
+def load_recommendations():
+    """Load all past recommendations from JSON."""
+    if not RECOMMENDATIONS_FILE.exists():
+        print("No recommendations file found.")
         return []
-    with open(CSV_PATH, "r", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        return list(reader)
+    with open(RECOMMENDATIONS_FILE) as f:
+        data = json.load(f)
+    return data if isinstance(data, list) else []
 
 
-def save_csv(rows):
-    """Save updated rows back to recommendations.csv."""
-    if not rows:
+def load_existing_performance():
+    """Load existing performance data to avoid re-evaluating closed trades."""
+    if not PERFORMANCE_FILE.exists():
+        return {}
+    try:
+        with open(PERFORMANCE_FILE) as f:
+            data = json.load(f)
+        # Key: "symbol_scandate" → result
+        return {p["key"]: p for p in data.get("trades", [])}
+    except Exception:
+        return {}
+
+
+def run_tracker():
+    """Main tracker: evaluate all recommendations."""
+    print("=" * 60)
+    print("  QUANTEX PERFORMANCE TRACKER")
+    print(f"  Date: {datetime.now().strftime('%d %b %Y, %I:%M %p IST')}")
+    print("=" * 60)
+
+    recs = load_recommendations()
+    if not recs:
+        print("No recommendations to track.")
         return
-    # Ensure outcome columns exist in fieldnames
-    fieldnames = list(rows[0].keys())
-    for col in OUTCOME_COLUMNS:
-        if col not in fieldnames:
-            fieldnames.append(col)
 
-    with open(CSV_PATH, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
-    print(f"📝 CSV updated: {CSV_PATH}")
+    existing = load_existing_performance()
+    cutoff_date = (datetime.now() - timedelta(days=MAX_TRACK_DAYS)).strftime("%Y-%m-%d")
+
+    all_trades = []
+    new_evaluations = 0
+    seen_keys = set()  # Deduplicate: one entry per symbol per scan_date
+
+    today_str = datetime.now().strftime("%Y-%m-%d")
+
+    for scan in recs:
+        scan_date = scan.get("scan_date", "")
+        if not scan_date or scan_date < cutoff_date:
+            continue
+
+        stocks = scan.get("top_10", scan.get("top_stocks", []))
+        regime = scan.get("market_regime", {})
+
+        for stock in stocks:
+            symbol = stock["symbol"]
+            key = f"{symbol}_{scan_date}"
+
+            # Deduplicate: skip if we already processed this symbol+date
+            if key in seen_keys:
+                continue
+            seen_keys.add(key)
+
+            entry = stock.get("entry", 0)
+            sl = stock.get("sl", 0)
+            t1 = stock.get("target1", 0)
+            t2 = stock.get("target2", 0)
+            score = stock.get("score", 0)
+
+            if entry == 0 or sl == 0 or t1 == 0:
+                continue
+
+            # Skip today's scans — need at least 1 full trading day
+            if scan_date == today_str:
+                all_trades.append({
+                    "key": key, "symbol": symbol, "scan_date": scan_date,
+                    "score": score, "entry": entry, "sl": sl,
+                    "target1": t1, "target2": t2,
+                    "outcome": "ACTIVE", "days_held": 0,
+                    "return_pct": 0, "exit_price": entry,
+                    "exit_date": scan_date,
+                    "regime": regime.get("label", ""),
+                    "hold_period_est": stock.get("hold_period", ""),
+                    "target_method": stock.get("target_method", ""),
+                })
+                continue
+
+            # Skip already closed trades (SL_HIT, T2_HIT, EXPIRED)
+            if key in existing and existing[key].get("outcome") in ("SL_HIT", "T2_HIT", "EXPIRED"):
+                all_trades.append(existing[key])
+                continue
+
+            # Fetch price data from day AFTER scan (trade starts next day)
+            next_day = (datetime.strptime(scan_date, "%Y-%m-%d") + timedelta(days=1)).strftime("%Y-%m-%d")
+            print(f"  Tracking: {symbol} (scan: {scan_date}, entry: ₹{entry:.2f})...")
+
+            df = fetch_history(symbol, next_day)
+            if df is None or df.empty:
+                # No data after scan date — mark as active
+                all_trades.append({
+                    "key": key, "symbol": symbol, "scan_date": scan_date,
+                    "score": score, "entry": entry, "sl": sl,
+                    "target1": t1, "target2": t2,
+                    "outcome": "ACTIVE", "days_held": 0,
+                    "return_pct": 0, "exit_price": entry,
+                    "exit_date": scan_date,
+                    "regime": regime.get("label", ""),
+                })
+                continue
+
+            result = evaluate_trade(entry, sl, t1, t2, df)
+            new_evaluations += 1
+
+            trade = {
+                "key": key,
+                "symbol": symbol,
+                "scan_date": scan_date,
+                "score": score,
+                "entry": entry,
+                "sl": sl,
+                "target1": t1,
+                "target2": t2,
+                "regime": regime.get("label", ""),
+                "hold_period_est": stock.get("hold_period", ""),
+                "target_method": stock.get("target_method", ""),
+                **result,
+            }
+            all_trades.append(trade)
+
+    print(f"\n>> Evaluated {new_evaluations} new trades, {len(all_trades)} total tracked")
+
+    # ── Calculate Statistics ──
+    stats = calculate_stats(all_trades)
+
+    # ── Save Performance Data ──
+    save_performance(all_trades, stats)
+
+    # ── Generate & Send Report ──
+    report = format_performance_report(all_trades, stats)
+    print("\n" + report)
+    send_telegram(report)
+
+    return stats
 
 
-# ─────────────────────────── TELEGRAM ───────────────────────────
+def calculate_stats(trades):
+    """Calculate aggregate performance statistics."""
+    if not trades:
+        return {}
 
-def send_telegram(message):
-    """Send message to all Telegram destinations."""
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-    destinations = [
-        (TELEGRAM_CHAT_ID, "Personal Chat"),
-        (TELEGRAM_SIGNAL_GROUP, "Signal Group"),
-        (TELEGRAM_ADMIN_GROUP, "Admin Group"),
-    ]
-    print("📨 Sending performance report to Telegram...")
-    for chat_id, label in destinations:
-        if chat_id and chat_id not in ("", "YOUR_CHAT_ID"):
-            payload = {"chat_id": chat_id, "text": message, "parse_mode": "Markdown", "disable_web_page_preview": True}
-            try:
-                resp = requests.post(url, json=payload, timeout=30)
-                if resp.status_code == 200:
-                    print(f"  ✅ Sent to {label}")
-                else:
-                    # Retry without Markdown
-                    del payload["parse_mode"]
-                    resp2 = requests.post(url, json=payload, timeout=30)
-                    if resp2.status_code == 200:
-                        print(f"  ✅ Sent to {label} (plain text)")
-                    else:
-                        print(f"  ❌ Failed for {label}: {resp2.text}")
-            except Exception as e:
-                print(f"  ❌ Error for {label}: {e}")
+    closed = [t for t in trades if t["outcome"] in ("T1_HIT", "T2_HIT", "SL_HIT", "EXPIRED")]
+    active = [t for t in trades if t["outcome"] == "ACTIVE"]
+    wins = [t for t in closed if t["outcome"] in ("T1_HIT", "T2_HIT")]
+    losses = [t for t in closed if t["outcome"] == "SL_HIT"]
+    expired = [t for t in closed if t["outcome"] == "EXPIRED"]
+
+    total_closed = len(closed)
+    win_count = len(wins)
+    loss_count = len(losses)
+
+    win_rate = (win_count / total_closed * 100) if total_closed > 0 else 0
+
+    # Average returns
+    all_returns = [t["return_pct"] for t in closed if "return_pct" in t]
+    avg_return = np.mean(all_returns) if all_returns else 0
+    total_return = sum(all_returns)
+
+    win_returns = [t["return_pct"] for t in wins if "return_pct" in t]
+    loss_returns = [t["return_pct"] for t in losses if "return_pct" in t]
+    avg_win = np.mean(win_returns) if win_returns else 0
+    avg_loss = np.mean(loss_returns) if loss_returns else 0
+
+    # Average holding days
+    all_days = [t["days_held"] for t in closed if "days_held" in t]
+    avg_days = np.mean(all_days) if all_days else 0
+    win_days = [t["days_held"] for t in wins if "days_held" in t]
+    avg_win_days = np.mean(win_days) if win_days else 0
+
+    # Best and worst trades
+    best = max(closed, key=lambda t: t.get("return_pct", 0)) if closed else None
+    worst = min(closed, key=lambda t: t.get("return_pct", 0)) if closed else None
+
+    # Profit factor: total gains / total losses
+    total_gains = sum(t["return_pct"] for t in wins if "return_pct" in t)
+    total_losses = abs(sum(t["return_pct"] for t in losses if "return_pct" in t))
+    profit_factor = total_gains / total_losses if total_losses > 0 else float('inf')
+
+    # T1 vs T2 breakdown
+    t1_hits = len([t for t in wins if t["outcome"] == "T1_HIT"])
+    t2_hits = len([t for t in wins if t["outcome"] == "T2_HIT"])
+
+    # Score-based analysis
+    high_score_trades = [t for t in closed if t.get("score", 0) >= 75]
+    high_score_wins = [t for t in high_score_trades if t["outcome"] in ("T1_HIT", "T2_HIT")]
+    high_score_wr = (len(high_score_wins) / len(high_score_trades) * 100) if high_score_trades else 0
+
+    return {
+        "total_tracked": len(trades),
+        "total_closed": total_closed,
+        "active": len(active),
+        "wins": win_count,
+        "losses": loss_count,
+        "expired": len(expired),
+        "win_rate": round(win_rate, 1),
+        "avg_return": round(avg_return, 2),
+        "total_return": round(total_return, 2),
+        "avg_win": round(avg_win, 2),
+        "avg_loss": round(avg_loss, 2),
+        "avg_days_held": round(avg_days, 1),
+        "avg_win_days": round(avg_win_days, 1),
+        "profit_factor": round(profit_factor, 2),
+        "t1_hits": t1_hits,
+        "t2_hits": t2_hits,
+        "high_score_win_rate": round(high_score_wr, 1),
+        "best_trade": {
+            "symbol": best["symbol"],
+            "return_pct": best["return_pct"],
+            "scan_date": best["scan_date"],
+        } if best else None,
+        "worst_trade": {
+            "symbol": worst["symbol"],
+            "return_pct": worst["return_pct"],
+            "scan_date": worst["scan_date"],
+        } if worst else None,
+    }
 
 
-def format_scorecard(stats, updated_rows, review_period):
-    """Format performance scorecard for Telegram."""
-    msg = f"📊 *QUANTEX PERFORMANCE REVIEW*\n"
-    msg += f"#Performance #Monthly\n"
-    msg += f"_{review_period}_\n"
+def format_performance_report(trades, stats):
+    """Format Telegram performance report."""
+    now = datetime.now().strftime("%d %b %Y")
+
+    msg = f"📊 *QUANTEX SCANNER — PERFORMANCE REPORT*\n"
+    msg += f"_{now} | Last {MAX_TRACK_DAYS} Days_\n"
     msg += f"━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
 
-    msg += f"📋 *Summary*\n"
-    msg += f"   Total Picks: {stats['total']} | Reviewed: {stats['reviewed']}\n"
-    msg += f"   Still Open: {stats['open']} | No Data: {stats['no_data']}\n\n"
+    if not stats or stats.get("total_closed", 0) == 0:
+        msg += "No closed trades to report yet.\n"
+        active = [t for t in trades if t.get("outcome") == "ACTIVE"]
+        if active:
+            msg += f"\n📌 *Active Trades:* {len(active)}\n"
+            for t in active:
+                pnl_emoji = "🟢" if t.get("return_pct", 0) >= 0 else "🔴"
+                msg += f"   {pnl_emoji} {t['symbol']} — Entry: ₹{t['entry']:.0f} | Now: {t['return_pct']:+.1f}%\n"
+        return msg
 
-    if stats["reviewed"] > 0:
-        msg += f"✅ *Results*\n"
-        msg += f"   🎯 T1 Hit: {stats['t1_hit']} ({stats['t1_pct']:.0f}%)\n"
-        msg += f"   🎯 T2 Hit: {stats['t2_hit']} ({stats['t2_pct']:.0f}%)\n"
-        msg += f"   🛑 SL Hit: {stats['sl_hit']} ({stats['sl_pct']:.0f}%)\n"
-        msg += f"   ⏰ Expired: {stats['expired']} ({stats['expired_pct']:.0f}%)\n\n"
+    # ── Overall Scorecard ──
+    msg += f"*Overall Win Rate: {stats['win_rate']}%*\n"
+    msg += f"Closed: {stats['total_closed']} | Wins: {stats['wins']} | Losses: {stats['losses']}"
+    if stats['expired'] > 0:
+        msg += f" | Expired: {stats['expired']}"
+    msg += "\n"
+    msg += f"T1 Hits: {stats['t1_hits']} | T2 Hits: {stats['t2_hits']}\n\n"
 
-        msg += f"📈 *Performance*\n"
-        msg += f"   Win Rate: *{stats['win_rate']:.1f}%*\n"
-        msg += f"   Avg Return: *{stats['avg_return']:+.2f}%*\n"
-        msg += f"   Avg Days Held: {stats['avg_days']:.0f}\n"
+    msg += f"💰 *Returns*\n"
+    msg += f"   Avg Win: +{stats['avg_win']:.1f}% | Avg Loss: {stats['avg_loss']:.1f}%\n"
+    msg += f"   Avg Return: {stats['avg_return']:+.1f}% | Total: {stats['total_return']:+.1f}%\n"
+    msg += f"   Profit Factor: {stats['profit_factor']:.2f}\n\n"
 
-        if stats["best_pick"]:
-            msg += f"   🏆 Best: {stats['best_pick']} ({stats['best_return']:+.2f}%)\n"
-        if stats["worst_pick"]:
-            msg += f"   💔 Worst: {stats['worst_pick']} ({stats['worst_return']:+.2f}%)\n"
+    msg += f"⏱ *Timing*\n"
+    msg += f"   Avg Hold: {stats['avg_days_held']:.0f} days | Avg Win Hold: {stats['avg_win_days']:.0f} days\n\n"
+
+    if stats.get('high_score_win_rate') and stats['total_closed'] >= 5:
+        msg += f"⭐ *High Score (75+) Win Rate: {stats['high_score_win_rate']}%*\n\n"
+
+    # ── Best & Worst ──
+    if stats.get("best_trade"):
+        b = stats["best_trade"]
+        msg += f"🏆 Best: {b['symbol']} +{b['return_pct']:.1f}% ({b['scan_date']})\n"
+    if stats.get("worst_trade"):
+        w = stats["worst_trade"]
+        msg += f"💀 Worst: {w['symbol']} {w['return_pct']:.1f}% ({w['scan_date']})\n"
+
+    # ── Recent Closed Trades ──
+    closed = [t for t in trades if t["outcome"] in ("T1_HIT", "T2_HIT", "SL_HIT", "EXPIRED")]
+    closed.sort(key=lambda x: x.get("exit_date", ""), reverse=True)
+
+    if closed:
+        msg += f"\n*Recent Trades:*\n"
+        for t in closed[:10]:
+            if t["outcome"] == "SL_HIT":
+                emoji = "🔴 SL"
+            elif t["outcome"] == "T2_HIT":
+                emoji = "🟢 T2"
+            elif t["outcome"] == "T1_HIT":
+                emoji = "🟢 T1"
+            else:
+                emoji = "⚪ EXP"
+            msg += f"   {emoji} {t['symbol']} — {t['return_pct']:+.1f}% in {t['days_held']}d (score: {t.get('score', '?')})\n"
+
+    # ── Active Trades ──
+    active = [t for t in trades if t.get("outcome") == "ACTIVE"]
+    if active:
+        msg += f"\n📌 *Active Trades ({len(active)}):*\n"
+        for t in active:
+            pnl_emoji = "🟢" if t.get("return_pct", 0) >= 0 else "🔴"
+            msg += f"   {pnl_emoji} {t['symbol']} — Entry: ₹{t['entry']:.0f} | P&L: {t['return_pct']:+.1f}% | Day {t['days_held']}\n"
 
     msg += f"\n━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-
-    # Show details of completed trades
-    completed = [r for r in updated_rows if r.get("Result") in ("T1_HIT", "T2_HIT", "SL_HIT", "EXPIRED")]
-    if completed:
-        msg += f"\n📝 *Trade Details*\n\n"
-        for r in completed[:15]:  # Limit to 15 to avoid message length issues
-            symbol = r["Symbol"]
-            result = r["Result"]
-            actual_ret = r.get("Actual_Return", "")
-            days = r.get("Days_Held", "")
-            hit_date = r.get("Hit_Date", "")
-
-            emoji = "✅" if result in ("T1_HIT", "T2_HIT") else "🛑" if result == "SL_HIT" else "⏰"
-            msg += f"   {emoji} {symbol}: {result.replace('_', ' ')} | {actual_ret} | {days}d | {hit_date}\n"
-
-    msg += f"\n⚠️ _For educational purposes only._\n"
-    msg += f"🤖 _Quantex Performance Tracker_"
+    msg += f"🤖 _Quantex Performance Tracker v1_"
 
     return msg
 
 
-# ─────────────────────────── MAIN ───────────────────────────
+def save_performance(trades, stats):
+    """Save performance data to JSON."""
+    LOG_DIR.mkdir(parents=True, exist_ok=True)
 
-def run_tracker():
-    """Main performance tracker execution."""
-    print(f"📊 Quantex Performance Tracker started at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-
-    # Load CSV
-    rows = load_csv()
-    if not rows:
-        print("❌ No recommendations found. Nothing to track.")
-        return
-
-    print(f"📋 Loaded {len(rows)} recommendations")
-
-    # Login to Kite for price data
-    print("🔐 Connecting to Kite API...")
-    kite_session.login()
-
-    # Track stats
-    total = len(rows)
-    reviewed = 0
-    t1_hit = 0
-    t2_hit = 0
-    sl_hit = 0
-    expired = 0
-    open_trades = 0
-    no_data = 0
-    returns = []
-    days_list = []
-    best_pick = None
-    best_return = -999
-    worst_pick = None
-    worst_return = 999
-
-    updated_rows = []
-
-    for i, row in enumerate(rows):
-        symbol = row.get("Symbol", "")
-        date_str = row.get("Date", "")
-        entry = float(row.get("Entry", 0))
-        sl = float(row.get("SL", 0))
-        t1 = float(row.get("Target1", 0))
-        t2 = float(row.get("Target2", 0))
-
-        if not symbol or not date_str or entry == 0:
-            updated_rows.append(row)
-            continue
-
-        # Parse entry date
-        try:
-            entry_date = datetime.strptime(date_str, "%Y-%m-%d").date()
-        except ValueError:
-            updated_rows.append(row)
-            continue
-
-        # Skip if already has a final result (T1_HIT, T2_HIT, SL_HIT, EXPIRED)
-        existing_result = row.get("Result", "")
-        if existing_result in ("T1_HIT", "T2_HIT", "SL_HIT", "EXPIRED"):
-            # Already tracked — just count stats
-            updated_rows.append(row)
-            reviewed += 1
-            if existing_result == "T1_HIT":
-                t1_hit += 1
-            elif existing_result == "T2_HIT":
-                t2_hit += 1
-            elif existing_result == "SL_HIT":
-                sl_hit += 1
-            elif existing_result == "EXPIRED":
-                expired += 1
-
-            ret_str = row.get("Actual_Return", "").replace("%", "")
-            if ret_str:
-                ret = float(ret_str)
-                returns.append(ret)
-                d = row.get("Days_Held", "")
-                if d:
-                    days_list.append(int(d))
-                if ret > best_return:
-                    best_return = ret
-                    best_pick = symbol
-                if ret < worst_return:
-                    worst_return = ret
-                    worst_pick = symbol
-            continue
-
-        # Skip if trade is too fresh (less than 2 days)
-        elapsed = (datetime.now().date() - entry_date).days
-        if elapsed < 2:
-            row.update({col: row.get(col, "") for col in OUTCOME_COLUMNS})
-            if "Result" not in row or not row["Result"]:
-                row["Result"] = "OPEN"
-            updated_rows.append(row)
-            open_trades += 1
-            continue
-
-        # Analyze the trade
-        print(f"   Analyzing {i+1}/{total}: {symbol} (entered {date_str}, {elapsed}d ago)")
-        outcome = analyze_trade(symbol, entry_date, entry, sl, t1, t2)
-        row.update(outcome)
-        updated_rows.append(row)
-
-        result = outcome["Result"]
-        if result == "NO_DATA":
-            no_data += 1
-        elif result == "OPEN":
-            open_trades += 1
-        else:
-            reviewed += 1
-            if result == "T1_HIT":
-                t1_hit += 1
-            elif result == "T2_HIT":
-                t2_hit += 1
-            elif result == "SL_HIT":
-                sl_hit += 1
-            elif result == "EXPIRED":
-                expired += 1
-
-            ret_str = outcome.get("Actual_Return", "").replace("%", "")
-            if ret_str:
-                ret = float(ret_str)
-                returns.append(ret)
-                d = outcome.get("Days_Held", "")
-                if d:
-                    days_list.append(int(float(d)))
-                if ret > best_return:
-                    best_return = ret
-                    best_pick = symbol
-                if ret < worst_return:
-                    worst_return = ret
-                    worst_pick = symbol
-
-    # Save updated CSV
-    save_csv(updated_rows)
-
-    # Compute stats
-    wins = t1_hit + t2_hit
-    closed = wins + sl_hit + expired
-    win_rate = (wins / closed * 100) if closed > 0 else 0
-    avg_return = np.mean(returns) if returns else 0
-    avg_days = np.mean(days_list) if days_list else 0
-
-    stats = {
-        "total": total,
-        "reviewed": reviewed,
-        "t1_hit": t1_hit,
-        "t2_hit": t2_hit,
-        "sl_hit": sl_hit,
-        "expired": expired,
-        "open": open_trades,
-        "no_data": no_data,
-        "t1_pct": (t1_hit / reviewed * 100) if reviewed > 0 else 0,
-        "t2_pct": (t2_hit / reviewed * 100) if reviewed > 0 else 0,
-        "sl_pct": (sl_hit / reviewed * 100) if reviewed > 0 else 0,
-        "expired_pct": (expired / reviewed * 100) if reviewed > 0 else 0,
-        "win_rate": win_rate,
-        "avg_return": avg_return,
-        "avg_days": avg_days,
-        "best_pick": best_pick,
-        "best_return": best_return if best_pick else 0,
-        "worst_pick": worst_pick,
-        "worst_return": worst_return if worst_pick else 0,
+    data = {
+        "last_updated": datetime.now().isoformat(),
+        "stats": stats,
+        "trades": trades,
     }
 
-    # Print summary
-    print(f"\n{'='*50}")
-    print(f"📊 PERFORMANCE SUMMARY")
-    print(f"{'='*50}")
-    print(f"Total: {total} | Reviewed: {reviewed} | Open: {open_trades}")
-    print(f"T1 Hit: {t1_hit} | T2 Hit: {t2_hit} | SL Hit: {sl_hit} | Expired: {expired}")
-    print(f"Win Rate: {win_rate:.1f}% | Avg Return: {avg_return:+.2f}%")
-    if best_pick:
-        print(f"Best: {best_pick} ({best_return:+.2f}%)")
-    if worst_pick:
-        print(f"Worst: {worst_pick} ({worst_return:+.2f}%)")
+    with open(PERFORMANCE_FILE, "w") as f:
+        json.dump(data, f, indent=2, default=str)
 
-    # Format review period
-    today = datetime.now()
-    if today.day <= 15:
-        review_period = f"1-15 {today.strftime('%b %Y')}"
-    else:
-        review_period = f"16-{today.day} {today.strftime('%b %Y')}"
+    print(f">> Performance data saved to {PERFORMANCE_FILE}")
 
-    # Send Telegram
-    scorecard = format_scorecard(stats, updated_rows, review_period)
-    send_telegram(scorecard)
 
-    # Save stats to JSON
-    stats_path = LOG_DIR / "performance_history.json"
-    try:
-        existing = []
-        if stats_path.exists():
-            with open(stats_path, "r") as f:
-                existing = json.load(f)
-        stats["review_date"] = today.isoformat()
-        stats["review_period"] = review_period
-        existing.append(stats)
-        with open(stats_path, "w") as f:
-            json.dump(existing, f, indent=2, default=str)
-        print(f"📝 Performance history saved: {stats_path}")
-    except Exception as e:
-        print(f"⚠️ Error saving performance history: {e}")
+def send_telegram(message):
+    """Send report to Telegram."""
+    if not TELEGRAM_BOT_TOKEN:
+        print("   Telegram not configured — skipping send.")
+        return
 
-    return stats
+    destinations = [
+        (TELEGRAM_CHAT_ID, "Personal Chat"),
+        (TELEGRAM_ADMIN_GROUP, "Admin Group"),
+    ]
+    for grp_id in TELEGRAM_SIGNAL_GROUPS:
+        destinations.append((grp_id, "Signal Group"))
+
+    for chat_id, label in destinations:
+        if not chat_id or chat_id in ("", "YOUR_CHAT_ID"):
+            continue
+        try:
+            url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+            resp = requests.post(url, json={
+                "chat_id": chat_id,
+                "text": message,
+                "parse_mode": "Markdown",
+                "disable_web_page_preview": True,
+            }, timeout=15)
+            if resp.status_code == 200:
+                print(f"   ✅ Sent to {label}")
+            else:
+                print(f"   ❌ Failed {label}: {resp.text[:100]}")
+        except Exception as e:
+            print(f"   ❌ Error sending to {label}: {e}")
 
 
 if __name__ == "__main__":
