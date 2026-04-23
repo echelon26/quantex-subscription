@@ -140,5 +140,73 @@
         "CMP": 4434.5
       }
     ]
+  },
+  {
+    "scan_date": "2026-04-23",
+    "scan_time": "2026-04-23T13:37:48.067404",
+    "stocks_scanned": 500,
+    "results_found": 10,
+    "results": [
+      {
+        "Date": "2026-04-23",
+        "Symbol": "ADANIENSOL",
+        "Signals": "Muted Reaction | Flat -0.5%",
+        "CMP": 1361.25
+      },
+      {
+        "Date": "2026-04-23",
+        "Symbol": "CYIENT",
+        "Signals": "Selloff -2.7%",
+        "CMP": 935.9
+      },
+      {
+        "Date": "2026-04-23",
+        "Symbol": "IEX",
+        "Signals": "Muted Reaction | Flat +0.9%",
+        "CMP": 126.92
+      },
+      {
+        "Date": "2026-04-23",
+        "Symbol": "INFY",
+        "Signals": "Selloff -2.2%",
+        "CMP": 1240.6
+      },
+      {
+        "Date": "2026-04-23",
+        "Symbol": "LTM",
+        "Signals": "Flat -1.6%",
+        "CMP": 4531.5
+      },
+      {
+        "Date": "2026-04-21",
+        "Symbol": "NESTLEIND",
+        "Signals": "Bullish Reaction | Surge +7.3% | Vol Explosion 7.0x | Strong Momentum +9.6%",
+        "CMP": 1410.5
+      },
+      {
+        "Date": "2026-04-23",
+        "Symbol": "OFSS",
+        "Signals": "Bullish Reaction | Gap Up +3.7% | Surge +8.2% | Vol Explosion 10.1x",
+        "CMP": 8791.5
+      },
+      {
+        "Date": "2026-04-21",
+        "Symbol": "PERSISTENT",
+        "Signals": "Flat +0.1%",
+        "CMP": 5065.2
+      },
+      {
+        "Date": "2026-04-22",
+        "Symbol": "TRENT",
+        "Signals": "Flat +1.0% | High Vol 1.6x",
+        "CMP": 4251.4
+      },
+      {
+        "Date": "2026-04-23",
+        "Symbol": "UNIONBANK",
+        "Signals": "Bearish Reaction | Decline -7.4% | Vol Explosion 4.7x",
+        "CMP": 179.71
+      }
+    ]
   }
 ]
