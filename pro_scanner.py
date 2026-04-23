@@ -1897,6 +1897,33 @@ def run_scanner():
 
         scored = score_stock(symbol, df, nifty_df, sector_perf)
         if scored and scored["score"] >= dynamic_min_score:
+            # ── UPTREND GATE: Hard filter — reject stocks not in uptrend ──
+            # Must pass at least 2 of these 4 conditions:
+            #   1. CMP above 50 EMA (medium-term uptrend)
+            #   2. CMP above 200 EMA (long-term uptrend)
+            #   3. Trend layer scored at least 10/20 (EMA stack + supertrend partial)
+            #   4. 20-day return is positive (short-term uptrend)
+            try:
+                ema50 = df["Close"].ewm(span=50, adjust=False).mean().iloc[-1]
+                ema200 = df["Close"].ewm(span=200, adjust=False).mean().iloc[-1]
+                ret_20d = (cmp - float(df["Close"].iloc[-20])) / float(df["Close"].iloc[-20]) * 100
+                trend_score = scored["breakdown"].get("Trend", 0)
+
+                uptrend_checks = 0
+                if cmp > float(ema50):
+                    uptrend_checks += 1
+                if cmp > float(ema200):
+                    uptrend_checks += 1
+                if trend_score >= 10:
+                    uptrend_checks += 1
+                if ret_20d > 0:
+                    uptrend_checks += 1
+
+                if uptrend_checks < 2:
+                    continue  # Not in uptrend — skip this stock
+            except Exception:
+                pass  # If check fails, allow stock through
+
             results.append(scored)
 
     # Step 4: Rank and pick top 10
