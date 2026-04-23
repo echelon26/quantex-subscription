@@ -383,7 +383,67 @@ for name, ticker in SECTOR_INDICES.items():
     except:
         pass
 sector_df = pd.DataFrame(sector_data)
-# ── 5. EARNINGS DATA ──
+# ── 5. FII/DII DATA ──
+print(">> Fetching FII/DII activity data...")
+fii_dii_data = {}
+try:
+    # NSE publishes FII/DII data at:
+    # https://www.nseindia.com/api/fiidiiTradeReact
+    # Fallback: use moneycontrol/NSDL data via public API
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "Accept": "application/json",
+        "Referer": "https://www.nseindia.com/reports-indices",
+    }
+
+    # Method 1: Try NSE API
+    nse_session = requests.Session()
+    nse_session.get("https://www.nseindia.com", headers=headers, timeout=10)
+    resp = nse_session.get("https://www.nseindia.com/api/fiidiiTradeReact", headers=headers, timeout=10)
+
+    if resp.status_code == 200:
+        fii_dii_raw = resp.json()
+        # NSE returns list of dicts with category, date, buyValue, sellValue, netValue
+        for item in fii_dii_raw:
+            cat = item.get("category", "")
+            if "FII" in cat or "FPI" in cat:
+                fii_dii_data["fii_buy"] = float(item.get("buyValue", 0))
+                fii_dii_data["fii_sell"] = float(item.get("sellValue", 0))
+                fii_dii_data["fii_net"] = float(item.get("netValue", 0))
+                fii_dii_data["fii_date"] = item.get("date", "")
+            elif "DII" in cat:
+                fii_dii_data["dii_buy"] = float(item.get("buyValue", 0))
+                fii_dii_data["dii_sell"] = float(item.get("sellValue", 0))
+                fii_dii_data["dii_net"] = float(item.get("netValue", 0))
+                fii_dii_data["dii_date"] = item.get("date", "")
+        if fii_dii_data:
+            print(f"   FII Net: ₹{fii_dii_data.get('fii_net', 0):,.0f} Cr | DII Net: ₹{fii_dii_data.get('dii_net', 0):,.0f} Cr")
+        else:
+            print("   NSE API returned empty data")
+    else:
+        print(f"   NSE API returned status {resp.status_code}")
+
+except Exception as e:
+    print(f"   FII/DII fetch error: {e}")
+
+# Method 2: If NSE fails, try alternative public source
+if not fii_dii_data:
+    try:
+        # Try NSDL FPI data
+        resp2 = requests.get(
+            "https://www.fpi.nsdl.co.in/web/StaticReports/FPIInvestmentStatReport.html",
+            headers={"User-Agent": "Mozilla/5.0"}, timeout=10
+        )
+        print("   Trying NSDL fallback...")
+    except Exception:
+        pass
+
+# If still no data, create empty structure
+if not fii_dii_data:
+    print("   FII/DII data not available — section will be skipped")
+
+# ── 6. EARNINGS DATA ──
+# (was section 5, renumbered after adding FII/DII)
 print(">> Loading earnings data...")
 from datetime import date
 today_date = datetime.now().date()
@@ -900,6 +960,73 @@ if len(sector_df) > 0:
     story.append(Paragraph("SECTORAL PERFORMANCE", s_section))
     story.append(HBarFlowable([(r["name"],r["close"],r["chg_1d"],r["chg_7d"]) for _,r in sector_1d.iterrows()], width=page_w))
     story.append(Spacer(1, 2*mm))
+# FII/DII ACTIVITY
+if fii_dii_data and fii_dii_data.get("fii_net") is not None:
+    story.append(Paragraph("FII / DII ACTIVITY  <font color='#656d76' size='8'>(Previous Day — Cash Segment)</font>", s_section))
+
+    fii_net = fii_dii_data.get("fii_net", 0)
+    dii_net = fii_dii_data.get("dii_net", 0)
+    fii_buy = fii_dii_data.get("fii_buy", 0)
+    fii_sell = fii_dii_data.get("fii_sell", 0)
+    dii_buy = fii_dii_data.get("dii_buy", 0)
+    dii_sell = fii_dii_data.get("dii_sell", 0)
+    fii_date = fii_dii_data.get("fii_date", "")
+
+    fii_color = "#1a7f37" if fii_net >= 0 else "#cf222e"
+    dii_color = "#1a7f37" if dii_net >= 0 else "#cf222e"
+    total_net = fii_net + dii_net
+    total_color = "#1a7f37" if total_net >= 0 else "#cf222e"
+
+    fii_tag = "NET BUYERS" if fii_net >= 0 else "NET SELLERS"
+    dii_tag = "NET BUYERS" if dii_net >= 0 else "NET SELLERS"
+
+    rows = [
+        [p_txt("", s_hdr_c), p_txt("Buy (₹ Cr)", s_hdr_r), p_txt("Sell (₹ Cr)", s_hdr_r), p_txt("Net (₹ Cr)", s_hdr_r), p_txt("Activity", s_hdr_c)],
+        [
+            Paragraph('<font color="#00b4d8"><b>FII / FPI</b></font>', s_cell),
+            p_txt(f'{fii_buy:,.0f}', s_cell_r),
+            p_txt(f'{fii_sell:,.0f}', s_cell_r),
+            Paragraph(f'<font color="{fii_color}"><b>{fii_net:+,.0f}</b></font>', s_cell_r),
+            Paragraph(f'<font color="{fii_color}"><b>{fii_tag}</b></font>', s_cell_c),
+        ],
+        [
+            Paragraph('<font color="#bf8700"><b>DII</b></font>', s_cell),
+            p_txt(f'{dii_buy:,.0f}', s_cell_r),
+            p_txt(f'{dii_sell:,.0f}', s_cell_r),
+            Paragraph(f'<font color="{dii_color}"><b>{dii_net:+,.0f}</b></font>', s_cell_r),
+            Paragraph(f'<font color="{dii_color}"><b>{dii_tag}</b></font>', s_cell_c),
+        ],
+        [
+            Paragraph('<font color="#e0e0e0"><b>TOTAL</b></font>', s_cell),
+            p_txt(f'{fii_buy + dii_buy:,.0f}', s_cell_r),
+            p_txt(f'{fii_sell + dii_sell:,.0f}', s_cell_r),
+            Paragraph(f'<font color="{total_color}"><b>{total_net:+,.0f}</b></font>', s_cell_r),
+            Paragraph(f'<font color="{total_color}"><b>{"BULLISH" if total_net >= 0 else "BEARISH"}</b></font>', s_cell_c),
+        ],
+    ]
+    story.append(premium_table(rows, [0.18, 0.20, 0.20, 0.22, 0.20], page_w))
+
+    # Add FII/DII insight
+    if abs(fii_net) > 0:
+        if fii_net > 1000:
+            insight = "Strong FII buying — bullish signal for markets"
+        elif fii_net > 0:
+            insight = "Mild FII buying — cautiously positive"
+        elif fii_net > -1000:
+            insight = "Mild FII selling — watch for support levels"
+        else:
+            insight = "Heavy FII selling — expect selling pressure"
+
+        if dii_net > 0 and fii_net < 0:
+            insight += ". DII absorbing FII selling — supportive"
+        elif dii_net > 0 and fii_net > 0:
+            insight += ". Both FII + DII buying — strong bullish"
+        elif dii_net < 0 and fii_net < 0:
+            insight += ". Both selling — cautious approach advised"
+
+        story.append(Paragraph(f'<font color="#8c959f" size="6.5">💡 {insight}</font>', s_note))
+    story.append(Spacer(1, 2*mm))
+
 # EARNINGS SPOTLIGHT
 if len(recent_results) > 0 or len(upcoming_earnings) > 0:
     story.append(Paragraph("EARNINGS SPOTLIGHT", s_section))
