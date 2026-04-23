@@ -1197,5 +1197,75 @@
         "est_days_to_t1": 5.6
       }
     ]
+  },
+  {
+    "scan_date": "2026-04-23",
+    "scan_time": "2026-04-23T04:30:59.027459",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": true,
+      "vix": 18.600000381469727
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 1,
+    "sector_rankings": {
+      "FMCG": 1,
+      "CHEMICALS": 2,
+      "PHARMA": 3,
+      "POWER": 4,
+      "INDEX_ETF": 5,
+      "REALTY": 6,
+      "RAILWAY": 7,
+      "METALS": 8,
+      "BANKING": 9,
+      "CONSUMER": 10,
+      "INFRA": 11,
+      "ENERGY": 12,
+      "GOLD_ETF": 13,
+      "DEFENCE": 14,
+      "FINANCE": 15,
+      "AUTO": 16,
+      "ELECTRICALS": 17,
+      "SILVER_ETF": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "CLEAN",
+        "score": 74,
+        "breakdown": {
+          "Trend": 12,
+          "Momentum": 10,
+          "Volume": 17,
+          "Price Action": 13,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 21 (Trending)",
+          "ADX Rising",
+          "MACD Bullish",
+          "Vol Surge 7.9x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Sector Top 3: CHEMICALS",
+          "Institutional Accumulation"
+        ],
+        "entry": 836.9,
+        "sl": 790.41,
+        "target1": 929.87,
+        "target2": 976.36,
+        "hold_period": "3-4 weeks",
+        "cmp": 836.9,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 20.2
+      }
+    ]
   }
 ]

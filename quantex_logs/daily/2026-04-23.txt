@@ -1,0 +1,14 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-04-23 at 04:30 AM IST
+Regime: NEUTRAL (mixed) | VIX: 18.60 | Min Score: 68
+Qualified: 1 stocks | Top 10 below
+============================================================
+
+1. CLEAN -- Score: 74/100
+   Entry: 836.90 | SL: 790.41 | T1: 929.87 | T2: 976.36 | RR: 1:2.0
+   Tr:12 Mo:10 Vo:17 PA:13 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX 21 (Trending), ADX Rising, MACD Bullish, Vol Surge 7.9x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: CHEMICALS, Institutional Accumulation
+
+
+────────────────────────────────────────────────────────────
+
