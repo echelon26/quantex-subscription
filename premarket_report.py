@@ -133,6 +133,115 @@ for gt in GIFT_NIFTY_TICKERS:
     gift_close, gift_chg, gift_pct = get_change(gift_df)
     if gift_close is not None:
         break
+# ── 1b. COMMODITIES, CRYPTO, CURRENCIES ──
+print(">> Fetching commodities, crypto & currencies...")
+COMMODITIES = {
+    "Gold (Spot)": "GC=F",
+    "Silver (Spot)": "SI=F",
+    "Brent Crude": "BZ=F",
+    "WTI Crude": "CL=F",
+}
+CRYPTO = {
+    "Bitcoin": "BTC-USD",
+    "Ethereum": "ETH-USD",
+    "BNB": "BNB-USD",
+    "Solana": "SOL-USD",
+    "XRP": "XRP-USD",
+    "Dogecoin": "DOGE-USD",
+    "Cardano": "ADA-USD",
+    "Avalanche": "AVAX-USD",
+    "Polkadot": "DOT-USD",
+    "Polygon": "POL-USD",
+}
+CURRENCIES = {
+    "EUR/USD": "EURUSD=X",
+    "GBP/USD": "GBPUSD=X",
+    "USD/JPY": "JPY=X",
+}
+commodity_data = {}
+for name, ticker in COMMODITIES.items():
+    df = fetch_quote(ticker)
+    close, chg, pct = get_change(df)
+    commodity_data[name] = {"close": close, "chg": chg, "pct": pct}
+
+crypto_data = {}
+for name, ticker in CRYPTO.items():
+    df = fetch_quote(ticker)
+    close, chg, pct = get_change(df)
+    crypto_data[name] = {"close": close, "chg": chg, "pct": pct}
+
+currency_data = {}
+for name, ticker in CURRENCIES.items():
+    df = fetch_quote(ticker)
+    close, chg, pct = get_change(df)
+    currency_data[name] = {"close": close, "chg": chg, "pct": pct}
+# Add USD/INR from indian_data
+currency_data["USD/INR"] = indian_data.get("USD/INR", {})
+
+# ── 1c. NIFTY/BANKNIFTY PIVOT LEVELS ──
+print(">> Computing Nifty & BankNifty pivot levels...")
+pivot_data = {}
+for idx_name, idx_ticker in [("Nifty 50", "^NSEI"), ("Bank Nifty", "^NSEBANK")]:
+    try:
+        pdf_df = yf.download(idx_ticker, period="5d", progress=False)
+        if pdf_df is not None and len(pdf_df) >= 2:
+            if isinstance(pdf_df.columns, pd.MultiIndex):
+                pdf_df.columns = pdf_df.columns.get_level_values(0)
+            # Use previous day's OHLC for pivot calculation
+            prev = pdf_df.iloc[-2]
+            h = float(prev["High"])
+            l = float(prev["Low"])
+            c = float(prev["Close"])
+            pp = round((h + l + c) / 3, 2)
+
+            # Classic Pivots
+            classic = {
+                "PP": pp,
+                "R1": round(2 * pp - l, 2),
+                "R2": round(pp + (h - l), 2),
+                "R3": round(h + 2 * (pp - l), 2),
+                "S1": round(2 * pp - h, 2),
+                "S2": round(pp - (h - l), 2),
+                "S3": round(l - 2 * (h - pp), 2),
+            }
+
+            # Fibonacci Pivots
+            diff = h - l
+            fib = {
+                "PP": pp,
+                "R1": round(pp + 0.382 * diff, 2),
+                "R2": round(pp + 0.618 * diff, 2),
+                "R3": round(pp + 1.000 * diff, 2),
+                "S1": round(pp - 0.382 * diff, 2),
+                "S2": round(pp - 0.618 * diff, 2),
+                "S3": round(pp - 1.000 * diff, 2),
+            }
+
+            pivot_data[idx_name] = {"classic": classic, "fibonacci": fib}
+            print(f"   {idx_name}: PP={pp:.0f} | R1={classic['R1']:.0f} R2={classic['R2']:.0f} | S1={classic['S1']:.0f} S2={classic['S2']:.0f}")
+    except Exception as e:
+        print(f"   {idx_name} pivot error: {e}")
+
+# ── 1d. FEAR & GREED WEEKLY CHANGE ──
+# Load previous F&G from saved JSON for weekly comparison
+fg_prev = None
+try:
+    fg_log = LOG_DIR / "premarket_pulse.json"
+    if fg_log.exists():
+        with open(fg_log) as f:
+            fg_hist = json.load(f)
+        # Get F&G from ~7 days ago
+        if isinstance(fg_hist, dict) and "fear_greed" in fg_hist:
+            fg_prev = fg_hist.get("fear_greed_prev")  # stored from previous run
+        elif isinstance(fg_hist, list):
+            for entry in reversed(fg_hist):
+                entry_date = entry.get("date", "")
+                if entry_date and entry_date < (datetime.now() - timedelta(days=5)).strftime("%Y-%m-%d"):
+                    fg_prev = entry.get("fear_greed")
+                    break
+except Exception:
+    pass
+
 # ── 2. FEAR & GREED INDEX ──
 print(">> Computing Fear & Greed Index...")
 def compute_fear_greed():
@@ -383,27 +492,25 @@ for name, ticker in SECTOR_INDICES.items():
     except:
         pass
 sector_df = pd.DataFrame(sector_data)
-# ── 5. FII/DII DATA ──
-print(">> Fetching FII/DII activity data...")
-fii_dii_data = {}
+# ── 5. FII/DII DATA (Last 7 trading days) ──
+print(">> Fetching FII/DII activity data (last 7 days)...")
+fii_dii_data = {}       # Latest day (for summary)
+fii_dii_history = []    # Last 7 days date-wise
 try:
-    # NSE publishes FII/DII data at:
-    # https://www.nseindia.com/api/fiidiiTradeReact
-    # Fallback: use moneycontrol/NSDL data via public API
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
         "Accept": "application/json",
         "Referer": "https://www.nseindia.com/reports-indices",
     }
 
-    # Method 1: Try NSE API
     nse_session = requests.Session()
     nse_session.get("https://www.nseindia.com", headers=headers, timeout=10)
+
+    # Try NSE API for latest data
     resp = nse_session.get("https://www.nseindia.com/api/fiidiiTradeReact", headers=headers, timeout=10)
 
     if resp.status_code == 200:
         fii_dii_raw = resp.json()
-        # NSE returns list of dicts with category, date, buyValue, sellValue, netValue
         for item in fii_dii_raw:
             cat = item.get("category", "")
             if "FII" in cat or "FPI" in cat:
@@ -417,33 +524,202 @@ try:
                 fii_dii_data["dii_net"] = float(item.get("netValue", 0))
                 fii_dii_data["dii_date"] = item.get("date", "")
         if fii_dii_data:
-            print(f"   FII Net: ₹{fii_dii_data.get('fii_net', 0):,.0f} Cr | DII Net: ₹{fii_dii_data.get('dii_net', 0):,.0f} Cr")
-        else:
-            print("   NSE API returned empty data")
+            print(f"   Latest: FII Net: ₹{fii_dii_data.get('fii_net', 0):,.0f} Cr | DII Net: ₹{fii_dii_data.get('dii_net', 0):,.0f} Cr")
     else:
-        print(f"   NSE API returned status {resp.status_code}")
+        print(f"   NSE latest API returned status {resp.status_code}")
+
+    # Try NSE historical API for last 7 days
+    try:
+        from_date = (datetime.now() - timedelta(days=12)).strftime("%d-%b-%Y")
+        to_date = datetime.now().strftime("%d-%b-%Y")
+        hist_url = f"https://www.nseindia.com/api/fiidiiTradeReact?from={from_date}&to={to_date}"
+        resp_hist = nse_session.get(hist_url, headers=headers, timeout=10)
+
+        if resp_hist.status_code == 200:
+            hist_raw = resp_hist.json()
+            # Group by date
+            date_map = {}
+            for item in hist_raw:
+                dt = item.get("date", "")
+                cat = item.get("category", "")
+                if not dt:
+                    continue
+                if dt not in date_map:
+                    date_map[dt] = {"date": dt}
+                if "FII" in cat or "FPI" in cat:
+                    date_map[dt]["fii_buy"] = float(item.get("buyValue", 0))
+                    date_map[dt]["fii_sell"] = float(item.get("sellValue", 0))
+                    date_map[dt]["fii_net"] = float(item.get("netValue", 0))
+                elif "DII" in cat:
+                    date_map[dt]["dii_buy"] = float(item.get("buyValue", 0))
+                    date_map[dt]["dii_sell"] = float(item.get("sellValue", 0))
+                    date_map[dt]["dii_net"] = float(item.get("netValue", 0))
+
+            # Sort by date descending, take last 7
+            sorted_dates = sorted(date_map.values(),
+                key=lambda x: datetime.strptime(x["date"], "%d-%b-%Y") if "-" in x["date"] else datetime.min,
+                reverse=True)
+            fii_dii_history = sorted_dates[:7]
+            print(f"   Loaded {len(fii_dii_history)} days of FII/DII history")
+        else:
+            print(f"   NSE history API returned status {resp_hist.status_code}")
+    except Exception as e:
+        print(f"   FII/DII history fetch error: {e}")
 
 except Exception as e:
     print(f"   FII/DII fetch error: {e}")
 
-# Method 2: If NSE fails, try alternative public source
-if not fii_dii_data:
-    try:
-        # Try NSDL FPI data
-        resp2 = requests.get(
-            "https://www.fpi.nsdl.co.in/web/StaticReports/FPIInvestmentStatReport.html",
-            headers={"User-Agent": "Mozilla/5.0"}, timeout=10
-        )
-        print("   Trying NSDL fallback...")
-    except Exception:
-        pass
-
-# If still no data, create empty structure
 if not fii_dii_data:
     print("   FII/DII data not available — section will be skipped")
 
+# ── 5b. INDEX OI BUILDUP DATA ──
+print(">> Fetching Index OI buildup data...")
+oi_buildup_data = []
+try:
+    # OI Buildup Logic:
+    #   Price ↑ + OI ↑ = Long Buildup (Bullish)
+    #   Price ↓ + OI ↑ = Short Buildup (Bearish)
+    #   Price ↑ + OI ↓ = Short Covering (Mildly Bullish)
+    #   Price ↓ + OI ↓ = Long Unwinding (Mildly Bearish)
+
+    oi_headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "Accept": "application/json",
+        "Referer": "https://www.nseindia.com",
+    }
+
+    # Create NSE session with cookies
+    oi_session = requests.Session()
+    oi_session.get("https://www.nseindia.com", headers=oi_headers, timeout=10)
+
+    # Fetch index futures OI data from NSE
+    indices_to_track = [
+        {"name": "NIFTY 50", "symbol": "NIFTY", "nse_sym": "NIFTY"},
+        {"name": "BANK NIFTY", "symbol": "BANKNIFTY", "nse_sym": "BANKNIFTY"},
+        {"name": "NIFTY FIN SVC", "symbol": "FINNIFTY", "nse_sym": "FINNIFTY"},
+    ]
+
+    for idx in indices_to_track:
+        try:
+            # Method 1: NSE derivatives API for OI data
+            url = f"https://www.nseindia.com/api/derivativesAnalysis?index={idx['nse_sym']}"
+            resp = oi_session.get(url, headers=oi_headers, timeout=10)
+
+            if resp.status_code == 200:
+                data = resp.json()
+                fut_data = data.get("futuresAnalysis", {})
+
+                if fut_data:
+                    price_chg = float(fut_data.get("underlyingValue", 0)) - float(fut_data.get("previousClose", 0))
+                    price_chg_pct = (price_chg / float(fut_data.get("previousClose", 1))) * 100
+                    oi_val = float(fut_data.get("openInterest", 0))
+                    oi_chg = float(fut_data.get("changeinOpenInterest", 0))
+                    oi_chg_pct = (oi_chg / (oi_val - oi_chg)) * 100 if (oi_val - oi_chg) > 0 else 0
+
+                    # Determine buildup type
+                    if price_chg > 0 and oi_chg > 0:
+                        buildup = "LONG BUILDUP"
+                        buildup_color = "#1a7f37"
+                        buildup_emoji = "🟢"
+                    elif price_chg < 0 and oi_chg > 0:
+                        buildup = "SHORT BUILDUP"
+                        buildup_color = "#cf222e"
+                        buildup_emoji = "🔴"
+                    elif price_chg > 0 and oi_chg < 0:
+                        buildup = "SHORT COVERING"
+                        buildup_color = "#bf8700"
+                        buildup_emoji = "🟡"
+                    elif price_chg < 0 and oi_chg < 0:
+                        buildup = "LONG UNWINDING"
+                        buildup_color = "#bc4c00"
+                        buildup_emoji = "🟠"
+                    else:
+                        buildup = "NEUTRAL"
+                        buildup_color = "#8c959f"
+                        buildup_emoji = "⚪"
+
+                    oi_buildup_data.append({
+                        "name": idx["name"],
+                        "close": float(fut_data.get("underlyingValue", 0)),
+                        "price_chg": round(price_chg, 2),
+                        "price_chg_pct": round(price_chg_pct, 2),
+                        "oi": oi_val,
+                        "oi_chg": oi_chg,
+                        "oi_chg_pct": round(oi_chg_pct, 2),
+                        "buildup": buildup,
+                        "buildup_color": buildup_color,
+                        "buildup_emoji": buildup_emoji,
+                    })
+                    print(f"   {idx['name']}: {buildup} (Price: {price_chg:+.0f}, OI Chg: {oi_chg:+,.0f})")
+                    continue
+
+            # Method 2: Fallback — use yfinance futures for basic OI
+            # (limited, may not have OI for Indian indices)
+            print(f"   {idx['name']}: NSE API failed (status {resp.status_code}), trying yfinance...")
+
+        except Exception as e:
+            print(f"   {idx['name']} OI error: {e}")
+
+    if not oi_buildup_data:
+        # Method 3: Compute from spot price changes as proxy
+        print("   NSE OI API not available — computing from price action proxy...")
+        for idx in indices_to_track[:2]:  # Nifty and BankNifty only
+            try:
+                ticker_map = {"NIFTY": "^NSEI", "BANKNIFTY": "^NSEBANK"}
+                yf_sym = ticker_map.get(idx["symbol"])
+                if not yf_sym:
+                    continue
+                df_idx = yf.download(yf_sym, period="5d", progress=False)
+                if df_idx is not None and len(df_idx) >= 2:
+                    if isinstance(df_idx.columns, pd.MultiIndex):
+                        df_idx.columns = df_idx.columns.get_level_values(0)
+                    close_now = float(df_idx["Close"].iloc[-1])
+                    close_prev = float(df_idx["Close"].iloc[-2])
+                    vol_now = float(df_idx["Volume"].iloc[-1])
+                    vol_prev = float(df_idx["Volume"].iloc[-2])
+                    price_chg = close_now - close_prev
+                    price_chg_pct = (price_chg / close_prev) * 100
+                    vol_chg = vol_now - vol_prev
+
+                    # Use volume as OI proxy
+                    if price_chg > 0 and vol_chg > 0:
+                        buildup = "LONG BUILDUP"
+                        buildup_color = "#1a7f37"
+                    elif price_chg < 0 and vol_chg > 0:
+                        buildup = "SHORT BUILDUP"
+                        buildup_color = "#cf222e"
+                    elif price_chg > 0 and vol_chg < 0:
+                        buildup = "SHORT COVERING"
+                        buildup_color = "#bf8700"
+                    else:
+                        buildup = "LONG UNWINDING"
+                        buildup_color = "#bc4c00"
+
+                    oi_buildup_data.append({
+                        "name": idx["name"],
+                        "close": round(close_now, 2),
+                        "price_chg": round(price_chg, 2),
+                        "price_chg_pct": round(price_chg_pct, 2),
+                        "oi": 0,
+                        "oi_chg": 0,
+                        "oi_chg_pct": 0,
+                        "buildup": buildup,
+                        "buildup_color": buildup_color,
+                        "vol_proxy": True,
+                    })
+                    print(f"   {idx['name']}: {buildup} (from volume proxy)")
+            except Exception as e:
+                print(f"   {idx['name']} proxy error: {e}")
+
+    if oi_buildup_data:
+        print(f"   Loaded OI buildup for {len(oi_buildup_data)} indices")
+    else:
+        print("   OI buildup data not available — section will be skipped")
+
+except Exception as e:
+    print(f"   OI buildup fetch error: {e}")
+
 # ── 6. EARNINGS DATA ──
-# (was section 5, renumbered after adding FII/DII)
 print(">> Loading earnings data...")
 from datetime import date
 today_date = datetime.now().date()
@@ -597,73 +873,147 @@ C_ROW1 = HexColor("#ffffff")
 C_ROW2 = HexColor("#f6f8fa")
 # ═══════ CUSTOM FLOWABLES ═══════
 class GaugeFlowable(Flowable):
-    """Semicircle gauge for Fear & Greed Index."""
-    def __init__(self, score, label, tip, width=170*mm, height=80*mm):
+    """Semicircle gauge for Fear & Greed Index with definition legend and weekly change."""
+    def __init__(self, score, label, tip, width=170*mm, height=115*mm, prev_score=None):
         Flowable.__init__(self)
         self.score = score
         self.label = label
         self.tip = tip
         self.width = width
         self.height = height
+        self.prev_score = prev_score
     def draw(self):
         c = self.canv
         w, h = self.width, self.height
-        cx, cy = w / 2, 22 * mm
+        cx = w / 2
+        gauge_cy = h - 50 * mm  # Center of gauge arc
+
         # Card background
         c.setFillColor(C_CARD)
         c.setStrokeColor(C_BORDER)
         c.setLineWidth(0.5)
         c.roundRect(0, 0, w, h, 8, fill=1, stroke=1)
-        # Arc track (background)
-        radius = 30 * mm
-        c.setLineWidth(10)
+
+        # ── GAUGE ARC ──
+        radius = 32 * mm
+        c.setLineWidth(12)
         c.setStrokeColor(HexColor("#e1e4e8"))
-        c.arc(cx - radius, cy - radius, cx + radius, cy + radius, 0, 180)
-        # Gradient arc segments
-        arc_colors = ["#1a7f37", "#2da44e", "#bf8700", "#bc4c00", "#cf222e"]
-        for i, col in enumerate(arc_colors):
+        c.arc(cx - radius, gauge_cy - radius, cx + radius, gauge_cy + radius, 0, 180)
+
+        # Gradient arc segments with labels
+        arc_segments = [
+            ("#1a7f37", "EXTREME FEAR"),
+            ("#57ab5a", "FEAR"),
+            ("#bf8700", "GREED"),
+            ("#cf222e", "EXTREME GREED"),
+        ]
+        for i, (col, _) in enumerate(arc_segments):
             c.setStrokeColor(HexColor(col))
-            c.setLineWidth(10)
-            start = 180 - (i * 36)
-            c.arc(cx - radius, cy - radius, cx + radius, cy + radius, start, -36)
+            c.setLineWidth(12)
+            start = 180 - (i * 45)
+            c.arc(cx - radius, gauge_cy - radius, cx + radius, gauge_cy + radius, start, -45)
+
+        # Scale marks: 0, 30, 50, 70, 100
+        scale_marks = [
+            (0, "0"), (30, "30"), (50, "50"), (70, "70"), (100, "100")
+        ]
+        for val, txt in scale_marks:
+            angle = math.radians(180 - (val / 100 * 180))
+            mx = cx + (radius + 6 * mm) * math.cos(angle)
+            my = gauge_cy + (radius + 6 * mm) * math.sin(angle)
+            c.setFillColor(C_TEXT_DIM)
+            c.setFont("Helvetica-Bold", 7)
+            c.drawCentredString(mx, my - 2, txt)
+
         # Needle
         angle_deg = 180 - (self.score / 100 * 180)
         angle_rad = math.radians(angle_deg)
-        needle_len = radius - 4 * mm
+        needle_len = radius - 5 * mm
         nx = cx + needle_len * math.cos(angle_rad)
-        ny = cy + needle_len * math.sin(angle_rad)
+        ny = gauge_cy + needle_len * math.sin(angle_rad)
         c.setStrokeColor(HexColor("#1f2328"))
         c.setLineWidth(2.5)
-        c.line(cx, cy, nx, ny)
-        # Center dot with score BELOW the gauge
+        c.line(cx, gauge_cy, nx, ny)
+
+        # Center dot
         c.setFillColor(C_CARD)
         c.setStrokeColor(HexColor("#1f2328"))
         c.setLineWidth(1.5)
-        c.circle(cx, cy, 3.5 * mm, fill=1, stroke=1)
-        # Score number centered below gauge
+        c.circle(cx, gauge_cy, 3.5 * mm, fill=1, stroke=1)
+
+        # Score number below gauge
         c.setFillColor(HexColor("#1f2328"))
-        c.setFont("Helvetica-Bold", 18)
-        c.drawCentredString(cx, cy - 12 * mm, str(self.score))
-        # Label color
-        if self.score < 25: lc = "#1a7f37"
-        elif self.score < 40: lc = "#2da44e"
-        elif self.score < 60: lc = "#bf8700"
-        elif self.score < 75: lc = "#bc4c00"
+        c.setFont("Helvetica-Bold", 22)
+        c.drawCentredString(cx, gauge_cy - 14 * mm, str(self.score))
+
+        # Label
+        if self.score < 30: lc = "#1a7f37"
+        elif self.score < 50: lc = "#57ab5a"
+        elif self.score < 70: lc = "#bf8700"
         else: lc = "#cf222e"
         c.setFillColor(HexColor(lc))
-        c.setFont("Helvetica-Bold", 14)
-        c.drawCentredString(cx, h - 12 * mm, self.label)
-        c.setFillColor(C_TEXT_DIM)
-        c.setFont("Helvetica", 8)
-        c.drawCentredString(cx, h - 17 * mm, self.tip)
-        # Scale labels
-        c.setFont("Helvetica-Bold", 7)
-        c.setFillColor(HexColor("#1a7f37"))
-        c.drawString(cx - radius - 6 * mm, cy - 5 * mm, "0")
-        c.setFillColor(HexColor("#cf222e"))
-        c.drawRightString(cx + radius + 6 * mm, cy - 5 * mm, "100")
-        c.setFillColor(C_TEXT_DIM)
-        c.drawCentredString(cx, cy + radius + 3 * mm, "50")
+        c.setFont("Helvetica-Bold", 13)
+        c.drawCentredString(cx, gauge_cy - 20 * mm, self.label)
+
+        # ── DEFINITION LEGEND (left side) ──
+        def_x = 10 * mm
+        def_y = 28 * mm
+        c.setFont("Helvetica-Bold", 8)
+        c.setFillColor(HexColor("#656d76"))
+        c.drawString(def_x, def_y + 2 * mm, "Definition")
+
+        definitions = [
+            ("#1a7f37", "Extreme Fear (<30):", "Good time to open positions"),
+            ("#57ab5a", "Fear (30-50):", "Wait for market direction"),
+            ("#bf8700", "Greed (50-70):", "Be cautious with new positions"),
+            ("#cf222e", "Extreme Greed (>70):", "Avoid opening positions"),
+        ]
+        for i, (dot_col, zone, advice) in enumerate(definitions):
+            y_pos = def_y - (i + 1) * 4.5 * mm
+            # Colored dot
+            c.setFillColor(HexColor(dot_col))
+            c.circle(def_x + 2 * mm, y_pos + 1.5, 1.8 * mm, fill=1, stroke=0)
+            # Zone text
+            c.setFillColor(HexColor("#1f2328"))
+            c.setFont("Helvetica-Bold", 7.5)
+            c.drawString(def_x + 6 * mm, y_pos, zone)
+            # Advice text
+            c.setFillColor(HexColor("#656d76"))
+            c.setFont("Helvetica", 7)
+            c.drawString(def_x + 38 * mm, y_pos, advice)
+
+        # ── WEEKLY CHANGE BOX (right side) ──
+        if self.prev_score is not None:
+            box_x = w - 55 * mm
+            box_y = 8 * mm
+            box_w = 48 * mm
+            box_h = 22 * mm
+
+            # Box border
+            c.setStrokeColor(C_BORDER)
+            c.setLineWidth(0.5)
+            c.setFillColor(HexColor("#f6f8fa"))
+            c.roundRect(box_x, box_y, box_w, box_h, 4, fill=1, stroke=1)
+
+            # Title
+            c.setFillColor(HexColor("#656d76"))
+            c.setFont("Helvetica-Bold", 8)
+            c.drawCentredString(box_x + box_w / 2, box_y + box_h - 5 * mm, "Weekly Change")
+
+            # Previous → Current
+            c.setFillColor(HexColor("#1f2328"))
+            c.setFont("Helvetica-Bold", 12)
+            c.drawString(box_x + 4 * mm, box_y + 4 * mm, f"{self.prev_score:.1f}")
+
+            c.setFillColor(HexColor("#656d76"))
+            c.setFont("Helvetica", 12)
+            arrow_x = box_x + 18 * mm
+            c.drawCentredString(arrow_x, box_y + 4 * mm, "→")
+
+            chg_color = "#1a7f37" if self.score >= self.prev_score else "#cf222e"
+            c.setFillColor(HexColor(chg_color))
+            c.setFont("Helvetica-Bold", 12)
+            c.drawString(box_x + 24 * mm, box_y + 4 * mm, f"{self.score:.1f}")
 class HBarFlowable(Flowable):
     """Horizontal bar chart for sectoral performance."""
     def __init__(self, data, width=170*mm, row_h=14):
@@ -871,7 +1221,7 @@ elif fg_score < 40: fg_tip = "Cautious optimism - wait for confirmation"
 elif fg_score < 60: fg_tip = "Market balanced - be selective with entries"
 elif fg_score < 75: fg_tip = "Getting heated - tighten stop-losses"
 else: fg_tip = "Euphoria zone - avoid fresh positions"
-story.append(GaugeFlowable(fg_score, fg_label, fg_tip, width=page_w, height=75*mm))
+story.append(GaugeFlowable(fg_score, fg_label, fg_tip, width=page_w, height=115*mm, prev_score=fg_prev))
 story.append(Spacer(1, 2*mm))
 # GIFT NIFTY
 if gift_close is not None:
@@ -921,6 +1271,34 @@ for n in ["Sensex","Nifty 50","Bank Nifty","India VIX","USD/INR"]:
     if d.get("close") is None: continue
     rows.append([p_bold(n),p_price(d["close"]),p_val(d["chg"]),p_chg(d["pct"])])
 if len(rows) > 1: story.append(premium_table(rows, [0.30,0.26,0.22,0.22], page_w))
+
+# COMMODITIES
+story.append(Paragraph("COMMODITIES  <font color='#656d76' size='8'>(Global Spot)</font>", s_section))
+c_rows = [[p_txt("Commodity", s_hdr), p_txt("Price", s_hdr_r), p_txt("Change", s_hdr_r), p_txt("Chg%", s_hdr_r)]]
+for name in ["Gold (Spot)", "Silver (Spot)", "Brent Crude", "WTI Crude"]:
+    d = commodity_data.get(name, {})
+    if d.get("close") is None: continue
+    c_rows.append([p_bold(name), p_price(d["close"]), p_val(d["chg"]), p_chg(d["pct"])])
+if len(c_rows) > 1: story.append(premium_table(c_rows, [0.30, 0.26, 0.22, 0.22], page_w))
+
+# CRYPTO
+story.append(Paragraph("CRYPTO", s_section))
+cr_rows = [[p_txt("Crypto", s_hdr), p_txt("Price ($)", s_hdr_r), p_txt("Change", s_hdr_r), p_txt("Chg%", s_hdr_r)]]
+for name in ["Bitcoin", "Ethereum", "BNB", "Solana", "XRP", "Dogecoin", "Cardano", "Avalanche", "Polkadot", "Polygon"]:
+    d = crypto_data.get(name, {})
+    if d.get("close") is None: continue
+    cr_rows.append([p_bold(name), p_price(d["close"]), p_val(d["chg"]), p_chg(d["pct"])])
+if len(cr_rows) > 1: story.append(premium_table(cr_rows, [0.30, 0.26, 0.22, 0.22], page_w))
+
+# CURRENCIES
+story.append(Paragraph("CURRENCIES", s_section))
+fx_rows = [[p_txt("Pair", s_hdr), p_txt("Rate", s_hdr_r), p_txt("Change", s_hdr_r), p_txt("Chg%", s_hdr_r)]]
+for name in ["USD/INR", "EUR/USD", "GBP/USD", "USD/JPY"]:
+    d = currency_data.get(name, {})
+    if d.get("close") is None: continue
+    fx_rows.append([p_bold(name), p_price(d["close"]), p_val(d["chg"]), p_chg(d["pct"])])
+if len(fx_rows) > 1: story.append(premium_table(fx_rows, [0.30, 0.26, 0.22, 0.22], page_w))
+
 # GAINERS & LOSERS
 story.append(Paragraph("TOP GAINERS & LOSERS", s_section))
 g_list = top_gainers.to_dict("records") if len(top_gainers) > 0 else []
@@ -960,7 +1338,7 @@ if len(sector_df) > 0:
     story.append(Paragraph("SECTORAL PERFORMANCE", s_section))
     story.append(HBarFlowable([(r["name"],r["close"],r["chg_1d"],r["chg_7d"]) for _,r in sector_1d.iterrows()], width=page_w))
     story.append(Spacer(1, 2*mm))
-# FII/DII ACTIVITY
+# FII/DII ACTIVITY — Previous Day
 if fii_dii_data and fii_dii_data.get("fii_net") is not None:
     story.append(Paragraph("FII / DII ACTIVITY  <font color='#656d76' size='8'>(Previous Day — Cash Segment)</font>", s_section))
 
@@ -970,34 +1348,30 @@ if fii_dii_data and fii_dii_data.get("fii_net") is not None:
     fii_sell = fii_dii_data.get("fii_sell", 0)
     dii_buy = fii_dii_data.get("dii_buy", 0)
     dii_sell = fii_dii_data.get("dii_sell", 0)
-    fii_date = fii_dii_data.get("fii_date", "")
 
     fii_color = "#1a7f37" if fii_net >= 0 else "#cf222e"
     dii_color = "#1a7f37" if dii_net >= 0 else "#cf222e"
     total_net = fii_net + dii_net
     total_color = "#1a7f37" if total_net >= 0 else "#cf222e"
 
-    fii_tag = "NET BUYERS" if fii_net >= 0 else "NET SELLERS"
-    dii_tag = "NET BUYERS" if dii_net >= 0 else "NET SELLERS"
-
     rows = [
         [p_txt("", s_hdr_c), p_txt("Buy (₹ Cr)", s_hdr_r), p_txt("Sell (₹ Cr)", s_hdr_r), p_txt("Net (₹ Cr)", s_hdr_r), p_txt("Activity", s_hdr_c)],
         [
-            Paragraph('<font color="#00b4d8"><b>FII / FPI</b></font>', s_cell),
+            Paragraph('<b>FII / FPI</b>', s_cell),
             p_txt(f'{fii_buy:,.0f}', s_cell_r),
             p_txt(f'{fii_sell:,.0f}', s_cell_r),
             Paragraph(f'<font color="{fii_color}"><b>{fii_net:+,.0f}</b></font>', s_cell_r),
-            Paragraph(f'<font color="{fii_color}"><b>{fii_tag}</b></font>', s_cell_c),
+            Paragraph(f'<font color="{fii_color}"><b>{"NET BUYERS" if fii_net >= 0 else "NET SELLERS"}</b></font>', s_cell_c),
         ],
         [
-            Paragraph('<font color="#bf8700"><b>DII</b></font>', s_cell),
+            Paragraph('<b>DII</b>', s_cell),
             p_txt(f'{dii_buy:,.0f}', s_cell_r),
             p_txt(f'{dii_sell:,.0f}', s_cell_r),
             Paragraph(f'<font color="{dii_color}"><b>{dii_net:+,.0f}</b></font>', s_cell_r),
-            Paragraph(f'<font color="{dii_color}"><b>{dii_tag}</b></font>', s_cell_c),
+            Paragraph(f'<font color="{dii_color}"><b>{"NET BUYERS" if dii_net >= 0 else "NET SELLERS"}</b></font>', s_cell_c),
         ],
         [
-            Paragraph('<font color="#e0e0e0"><b>TOTAL</b></font>', s_cell),
+            Paragraph('<b>TOTAL</b>', s_cell),
             p_txt(f'{fii_buy + dii_buy:,.0f}', s_cell_r),
             p_txt(f'{fii_sell + dii_sell:,.0f}', s_cell_r),
             Paragraph(f'<font color="{total_color}"><b>{total_net:+,.0f}</b></font>', s_cell_r),
@@ -1006,7 +1380,9 @@ if fii_dii_data and fii_dii_data.get("fii_net") is not None:
     ]
     story.append(premium_table(rows, [0.18, 0.20, 0.20, 0.22, 0.20], page_w))
 
-    # Add FII/DII insight
+    # Insight based on latest day
+    fii_net = fii_dii_data.get("fii_net", 0)
+    dii_net = fii_dii_data.get("dii_net", 0)
     if abs(fii_net) > 0:
         if fii_net > 1000:
             insight = "Strong FII buying — bullish signal for markets"
@@ -1026,6 +1402,39 @@ if fii_dii_data and fii_dii_data.get("fii_net") is not None:
 
         story.append(Paragraph(f'<font color="#8c959f" size="6.5">💡 {insight}</font>', s_note))
     story.append(Spacer(1, 2*mm))
+
+# PIVOT LEVELS (Nifty & BankNifty)
+for idx_name in ["Nifty 50", "Bank Nifty"]:
+    if idx_name in pivot_data:
+        pv = pivot_data[idx_name]
+        story.append(Paragraph(f"{idx_name.upper()} PIVOT LEVELS  <font color='#656d76' size='8'>(Today)</font>", s_section))
+
+        # Header row
+        pv_rows = [[
+            p_txt("Type", s_hdr),
+            Paragraph('<font color="#cf222e"><b>R3</b></font>', s_hdr_c),
+            Paragraph('<font color="#cf222e"><b>R2</b></font>', s_hdr_c),
+            Paragraph('<font color="#cf222e"><b>R1</b></font>', s_hdr_c),
+            Paragraph('<font color="#0969da"><b>PP</b></font>', s_hdr_c),
+            Paragraph('<font color="#1a7f37"><b>S1</b></font>', s_hdr_c),
+            Paragraph('<font color="#1a7f37"><b>S2</b></font>', s_hdr_c),
+            Paragraph('<font color="#1a7f37"><b>S3</b></font>', s_hdr_c),
+        ]]
+
+        for ptype, pvals in [("Classic", pv["classic"]), ("Fibonacci", pv["fibonacci"])]:
+            pv_rows.append([
+                Paragraph(f'<b>{ptype}</b>', s_cell),
+                Paragraph(f'<font color="#cf222e"><b>{pvals["R3"]:,.0f}</b></font>', s_cell_c),
+                Paragraph(f'<font color="#cf222e"><b>{pvals["R2"]:,.0f}</b></font>', s_cell_c),
+                Paragraph(f'<font color="#cf222e"><b>{pvals["R1"]:,.0f}</b></font>', s_cell_c),
+                Paragraph(f'<font color="#0969da"><b>{pvals["PP"]:,.0f}</b></font>', s_cell_c),
+                Paragraph(f'<font color="#1a7f37"><b>{pvals["S1"]:,.0f}</b></font>', s_cell_c),
+                Paragraph(f'<font color="#1a7f37"><b>{pvals["S2"]:,.0f}</b></font>', s_cell_c),
+                Paragraph(f'<font color="#1a7f37"><b>{pvals["S3"]:,.0f}</b></font>', s_cell_c),
+            ])
+
+        story.append(premium_table(pv_rows, [0.14, 0.12, 0.12, 0.12, 0.12, 0.12, 0.12, 0.14], page_w))
+        story.append(Spacer(1, 2*mm))
 
 # EARNINGS SPOTLIGHT
 if len(recent_results) > 0 or len(upcoming_earnings) > 0:
@@ -1060,7 +1469,7 @@ if len(upcoming_earnings) > 0:
     story.append(Paragraph('<font color="#8c959f" size="6.5">Estimates via Yahoo Finance. Plan entries/exits around result dates.</font>',s_note))
 # TOP 10 FOCUS STOCKS
 if len(focus_stocks) > 0:
-    story.append(Paragraph(f"TOP {len(focus_stocks)} FOCUS STOCKS", s_section))
+    story.append(Paragraph(f"TOP TRADE IDEAS FOR TODAY  <font color='#656d76' size='8'>({len(focus_stocks)} Stocks)</font>", s_section))
     story.append(Paragraph(f'<font color="#656d76" size="7.5">Ranked by conviction score  |  {focus_source}</font>',s_note))
     story.append(Spacer(1, 2*mm))
     rows = [[p_txt("#",s_hdr_c),p_txt("Symbol",s_hdr),p_txt("Score",s_hdr_c),p_txt("CMP",s_hdr_r),p_txt("Entry",s_hdr_r),p_txt("Holding",s_hdr_c),p_txt("Target",s_hdr_r)]]
@@ -1161,6 +1570,7 @@ if not sent:
 log_data = {
     "date": TODAY,
     "fear_greed": fg_score,
+    "fear_greed_prev": fg_prev,
     "fear_greed_label": fg_label,
     "gift_nifty": gift_close,
     "nifty": indian_data.get("Nifty 50", {}).get("close"),
