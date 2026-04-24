@@ -89,6 +89,43 @@ def generate_order_id():
     code = ''.join(random.choices(chars, k=4))
     return f"QTX-{code}"
 
+def generate_upi_qr(upi_id, name, amount, order_id):
+    """Generate UPI QR code image and return the file path."""
+    try:
+        import qrcode
+        from io import BytesIO
+
+        upi_string = f"upi://pay?pa={upi_id}&pn={name}&am={amount}&cu=INR&tn={order_id}"
+
+        qr = qrcode.QRCode(version=1, error_correction=qrcode.constants.ERROR_CORRECT_H, box_size=10, border=4)
+        qr.add_data(upi_string)
+        qr.make(fit=True)
+        img = qr.make_image(fill_color="black", back_color="white")
+
+        qr_path = BASE_DIR / f"qr_{order_id}.png"
+        img.save(str(qr_path))
+        return str(qr_path)
+    except Exception as e:
+        print(f"   QR generation error: {e}")
+        return None
+
+def send_photo(chat_id, photo_path, caption=""):
+    """Send a photo to a Telegram chat."""
+    if not TELEGRAM_BOT_TOKEN:
+        return False
+    try:
+        url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
+        with open(photo_path, "rb") as f:
+            resp = requests.post(url, data={
+                "chat_id": chat_id,
+                "caption": caption,
+                "parse_mode": "HTML",
+            }, files={"photo": f}, timeout=30)
+        return resp.status_code == 200
+    except Exception as e:
+        print(f"   Send photo error: {e}")
+        return False
+
 def load_pending_orders():
     """Load pending UPI payment orders."""
     return load_json(PENDING_ORDERS_FILE)
@@ -720,6 +757,20 @@ def process_telegram_updates():
 
             upi_link = f"upi://pay?pa={UPI_ID}&pn={UPI_NAME}&am={amount}&cu=INR&tn={order_id}"
 
+            # Generate and send QR code
+            qr_path = generate_upi_qr(UPI_ID, UPI_NAME, amount, order_id)
+            if qr_path:
+                send_photo(chat_id, qr_path,
+                    f"💳 <b>Scan to Pay — {plan['label']} (₹{amount})</b>\n"
+                    f"Order ID: <code>{order_id}</code>\n\n"
+                    f"Scan this QR code with any UPI app (GPay/PhonePe/Paytm)"
+                )
+                # Clean up QR file
+                try:
+                    os.remove(qr_path)
+                except Exception:
+                    pass
+
             send_message(chat_id,
                 f"💳 <b>Payment Details</b>\n\n"
                 f"Plan: <b>{plan['label']} (₹{amount})</b>\n"
@@ -730,7 +781,7 @@ def process_telegram_updates():
                 f"<b>Note/Remark:</b> <code>{order_id}</code>\n"
                 f"━━━━━━━━━━━━━━━━━━━━\n\n"
                 f"📱 <b>Steps:</b>\n"
-                f"1. Open any UPI app (GPay/PhonePe/Paytm)\n"
+                f"1. Scan the QR code above, OR\n"
                 f"2. Pay ₹{amount} to <code>{UPI_ID}</code>\n"
                 f"3. Add <code>{order_id}</code> in payment note/remark\n"
                 f"4. Send payment screenshot here\n\n"
