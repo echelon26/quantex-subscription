@@ -1914,5 +1914,306 @@
       "IT": 19
     },
     "top_10": []
+  },
+  {
+    "scan_date": "2026-04-24",
+    "scan_time": "2026-04-24T04:39:32.417298",
+    "total_qualified": 27,
+    "sector_rankings": {
+      "FMCG": 1,
+      "CHEMICALS": 2,
+      "PHARMA": 3,
+      "INFRA": 4,
+      "REALTY": 5,
+      "RAILWAY": 6,
+      "DEFENCE": 7,
+      "POWER": 8,
+      "METALS": 9,
+      "INDEX_ETF": 10,
+      "GOLD_ETF": 11,
+      "CONSUMER": 12,
+      "BANKING": 13,
+      "ENERGY": 14,
+      "ELECTRICALS": 15,
+      "AUTO": 16,
+      "FINANCE": 17,
+      "SILVER_ETF": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "HUDCO",
+        "score": 73,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 13,
+          "Volume": 15,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "MACD Bullish",
+          "Vol Surge 2.3x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 22,416,450)",
+          "High F&O Activity"
+        ],
+        "entry": 211.91,
+        "sl": 201.31,
+        "target1": 233.1,
+        "target2": 243.7,
+        "hold_period": "1-2 weeks",
+        "cmp": 211.91
+      },
+      {
+        "symbol": "COCHINSHIP",
+        "score": 72,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 13,
+          "Volume": 15,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 9
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 1,122,800)"
+        ],
+        "entry": 1684.5,
+        "sl": 1600.27,
+        "target1": 1852.95,
+        "target2": 1937.18,
+        "hold_period": "1-2 weeks",
+        "cmp": 1684.5
+      },
+      {
+        "symbol": "ATUL",
+        "score": 70,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: CHEMICALS",
+          "Consistent Buying"
+        ],
+        "entry": 6869.0,
+        "sl": 6580.79,
+        "target1": 7445.43,
+        "target2": 7733.64,
+        "hold_period": "1-2 weeks",
+        "cmp": 6869.0
+      },
+      {
+        "symbol": "MAZDOCK",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 3,354,600)",
+          "High F&O Activity"
+        ],
+        "entry": 2708.8,
+        "sl": 2578.0,
+        "target1": 2970.4,
+        "target2": 3101.2,
+        "hold_period": "1-2 weeks",
+        "cmp": 2708.8
+      },
+      {
+        "symbol": "LAURUSLABS",
+        "score": 68,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 63 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 11,074,650)",
+          "High F&O Activity"
+        ],
+        "entry": 1131.95,
+        "sl": 1091.1,
+        "target1": 1213.65,
+        "target2": 1254.5,
+        "hold_period": "1-2 weeks",
+        "cmp": 1131.95
+      },
+      {
+        "symbol": "CUMMINSIND",
+        "score": 67,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 9,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 63 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Outperforming Nifty",
+          "Long Buildup (OI: 2,447,800)",
+          "High F&O Activity"
+        ],
+        "entry": 5193.5,
+        "sl": 5067.6,
+        "target1": 5445.3,
+        "target2": 5571.2,
+        "hold_period": "3-7 days",
+        "cmp": 5193.5
+      },
+      {
+        "symbol": "GLAXO",
+        "score": 66,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 7
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 62 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Consistent Buying"
+        ],
+        "entry": 2496.5,
+        "sl": 2397.78,
+        "target1": 2693.94,
+        "target2": 2792.66,
+        "hold_period": "1-2 weeks",
+        "cmp": 2496.5
+      },
+      {
+        "symbol": "HATSUN",
+        "score": 66,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: FMCG"
+        ],
+        "entry": 1010.0,
+        "sl": 964.0,
+        "target1": 1102.0,
+        "target2": 1147.99,
+        "hold_period": "1-2 weeks",
+        "cmp": 1010.0
+      },
+      {
+        "symbol": "SCHAEFFLER",
+        "score": 65,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 64 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 4329.7,
+        "sl": 4113.21,
+        "target1": 4762.67,
+        "target2": 4979.16,
+        "hold_period": "1-2 weeks",
+        "cmp": 4329.7
+      },
+      {
+        "symbol": "RATNAMANI",
+        "score": 65,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 63 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 2480.2,
+        "sl": 2395.0,
+        "target1": 2650.6,
+        "target2": 2735.8,
+        "hold_period": "1-2 weeks",
+        "cmp": 2480.2
+      }
+    ]
   }
 ]

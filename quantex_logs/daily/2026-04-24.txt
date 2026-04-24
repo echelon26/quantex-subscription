@@ -7,3 +7,61 @@ Qualified: 0 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-04-24 at 04:39 AM IST
+Qualified: 27 stocks | Top 10 below
+============================================================
+
+1. HUDCO — Score: 73/100
+   Entry: 211.91 | SL: 201.31 | T1: 233.10 | T2: 243.70 | RR: 1:2.0
+   Trend:15 Mom:13 Vol:15 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, MACD Bullish, Vol Surge 2.3x, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 22,416,450), High F&O Activity
+
+2. COCHINSHIP — Score: 72/100
+   Entry: 1684.50 | SL: 1600.27 | T1: 1852.95 | T2: 1937.18 | RR: 1:2.0
+   Trend:15 Mom:13 Vol:15 PA:10 RS:10 SM:9
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 1,122,800)
+
+3. ATUL — Score: 70/100
+   Entry: 6869.00 | SL: 6580.79 | T1: 7445.43 | T2: 7733.64 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: CHEMICALS, Consistent Buying
+
+4. MAZDOCK — Score: 68/100
+   Entry: 2708.80 | SL: 2578.00 | T1: 2970.40 | T2: 3101.20 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 69 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 3,354,600), High F&O Activity
+
+5. LAURUSLABS — Score: 68/100
+   Entry: 1131.95 | SL: 1091.10 | T1: 1213.65 | T2: 1254.50 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 63 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 11,074,650), High F&O Activity
+
+6. CUMMINSIND — Score: 67/100
+   Entry: 5193.50 | SL: 5067.60 | T1: 5445.30 | T2: 5571.20 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:9 SM:10
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 63 (Power Zone), MACD Bullish, Near Breakout, Outperforming Nifty, Long Buildup (OI: 2,447,800), High F&O Activity
+
+7. GLAXO — Score: 66/100
+   Entry: 2496.50 | SL: 2397.78 | T1: 2693.94 | T2: 2792.66 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:5 PA:5 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 62 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Consistent Buying
+
+8. HATSUN — Score: 66/100
+   Entry: 1010.00 | SL: 964.00 | T1: 1102.00 | T2: 1147.99 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:15 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: FMCG
+
+9. SCHAEFFLER — Score: 65/100
+   Entry: 4329.70 | SL: 4113.21 | T1: 4762.67 | T2: 4979.16 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 64 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Consistent Buying
+
+10. RATNAMANI — Score: 65/100
+   Entry: 2480.20 | SL: 2395.00 | T1: 2650.60 | T2: 2735.80 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 63 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Consistent Buying
+
+
+────────────────────────────────────────────────────────────
+
