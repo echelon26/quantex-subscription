@@ -65,3 +65,17 @@ Qualified: 27 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-04-24 at 10:31 AM IST
+Regime: BEARISH (risk-off) | VIX: 19.71 | Min Score: 75
+Qualified: 1 stocks | Top 10 below
+============================================================
+
+1. RATNAMANI -- Score: 76/100
+   Entry: 2628.00 | SL: 2478.73 | T1: 2851.90 | T2: 3075.81 | RR: 1:1.5
+   Tr:16 Mo:10 Vo:17 PA:13 RS:10 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, MACD Bullish, Vol Surge 3.1x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Institutional Accumulation
+
+
+────────────────────────────────────────────────────────────
+

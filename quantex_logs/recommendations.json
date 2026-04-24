@@ -2215,5 +2215,74 @@
         "cmp": 2480.2
       }
     ]
+  },
+  {
+    "scan_date": "2026-04-24",
+    "scan_time": "2026-04-24T10:31:02.496421",
+    "market_regime": {
+      "regime": "bearish",
+      "min_score": 75,
+      "label": "BEARISH (risk-off)",
+      "nifty_above_50dma": false,
+      "vix": 19.712499618530273
+    },
+    "min_score_threshold": 75,
+    "total_qualified": 1,
+    "sector_rankings": {
+      "FMCG": 1,
+      "CHEMICALS": 2,
+      "PHARMA": 3,
+      "INFRA": 4,
+      "METALS": 5,
+      "POWER": 6,
+      "RAILWAY": 7,
+      "REALTY": 8,
+      "INDEX_ETF": 9,
+      "DEFENCE": 10,
+      "GOLD_ETF": 11,
+      "ENERGY": 12,
+      "BANKING": 13,
+      "CONSUMER": 14,
+      "SILVER_ETF": 15,
+      "ELECTRICALS": 16,
+      "AUTO": 17,
+      "FINANCE": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "RATNAMANI",
+        "score": 76,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 10,
+          "Volume": 17,
+          "Price Action": 13,
+          "Relative Strength": 10,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "MACD Bullish",
+          "Vol Surge 3.1x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 2628.0,
+        "sl": 2478.73,
+        "target1": 2851.9,
+        "target2": 3075.81,
+        "hold_period": "3-4 weeks",
+        "cmp": 2628.0,
+        "target_method": "Weekly R3 + Fib 2.618",
+        "est_days_to_t1": 18.5
+      }
+    ]
   }
 ]
