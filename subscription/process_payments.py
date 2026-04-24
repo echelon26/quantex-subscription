@@ -56,17 +56,23 @@ WHATSAPP_INVITE_LINK = os.environ.get("WHATSAPP_INVITE_LINK", "").strip()
 
 # Plans — must match your Instamojo payment link titles/amounts
 PLANS = {
-    149:  {"name": "monthly",   "days": 30,  "label": "Monthly"},
-    399:  {"name": "quarterly", "days": 90,  "label": "Quarterly"},
-    999:  {"name": "yearly",    "days": 365, "label": "Yearly"},
+    99:   {"name": "monthly",   "days": 30,  "label": "Monthly"},
+    299:  {"name": "quarterly", "days": 90,  "label": "Quarterly"},
+    799:  {"name": "yearly",    "days": 365, "label": "Yearly"},
 }
 
 TRIAL_DAYS = 3
+
+# UPI Payment Config
+UPI_ID = os.environ.get("UPI_ID", "jiten.choudhary373@oksbi").strip()
+UPI_NAME = os.environ.get("UPI_NAME", "JITENDRA CHOUDHARY").strip()
 
 
 # ═══════════════════════════════════════════════════════════════
 # DATA HELPERS
 # ═══════════════════════════════════════════════════════════════
+
+PENDING_ORDERS_FILE = BASE_DIR / "pending_orders.json"
 
 def load_json(path):
     if path.exists():
@@ -75,6 +81,21 @@ def load_json(path):
 
 def save_json(path, data):
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+
+def generate_order_id():
+    """Generate unique short order ID like QTX-A3K7."""
+    import random, string
+    chars = string.ascii_uppercase + string.digits
+    code = ''.join(random.choices(chars, k=4))
+    return f"QTX-{code}"
+
+def load_pending_orders():
+    """Load pending UPI payment orders."""
+    return load_json(PENDING_ORDERS_FILE)
+
+def save_pending_orders(orders):
+    """Save pending UPI payment orders."""
+    save_json(PENDING_ORDERS_FILE, orders)
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -541,12 +562,25 @@ def process_telegram_updates():
                         f"Trial ends: {trial_end.strftime('%d %b %Y')}"
                     )
 
+            elif arg == "subscribe":
+                # Route to subscribe flow — handled below in /subscribe block
+                send_message(chat_id,
+                    f"📊 <b>Quantex Subscription Plans</b>\n\n"
+                    f"1️⃣ <b>Monthly</b> — ₹149/month\n"
+                    f"2️⃣ <b>Quarterly</b> — ₹399/quarter (₹133/mo)\n"
+                    f"3️⃣ <b>Yearly</b> — ₹999/year (₹83/mo) 🔥\n\n"
+                    f"Reply with the plan number:\n"
+                    f"<b>1</b> for Monthly\n"
+                    f"<b>2</b> for Quarterly\n"
+                    f"<b>3</b> for Yearly"
+                )
             else:
                 # Regular /start
                 send_message(chat_id,
                     f"👋 Welcome to <b>Quantex Scanner Bot</b>!\n\n"
                     f"Commands:\n"
                     f"/trial — Start your 3-day free trial\n"
+                    f"/subscribe — Subscribe to a paid plan\n"
                     f"/status — Check your subscription\n"
                     f"/help — Get help\n\n"
                     f"Get daily pre-market reports for Indian stocks! 📊"
@@ -638,11 +672,239 @@ def process_telegram_updates():
             send_message(chat_id,
                 f"📊 <b>Quantex Scanner Bot</b>\n\n"
                 f"/trial — Start 3-day free trial\n"
+                f"/subscribe — Subscribe to a paid plan\n"
                 f"/status — Check subscription status\n"
                 f"/help — Show this message\n\n"
                 f"After your trial, subscribe to keep receiving "
                 f"daily pre-market reports at 8:00 AM IST!"
             )
+
+        # ── /subscribe or /start subscribe ──
+        elif text in ("/subscribe", "/start subscribe") or (text.startswith("/start") and "subscribe" in text):
+            send_message(chat_id,
+                f"📊 <b>Quantex Subscription Plans</b>\n\n"
+                f"1️⃣ <b>Monthly</b> — ₹99/month\n"
+                f"2️⃣ <b>Quarterly</b> — ₹299/quarter (₹100/mo)\n"
+                f"3️⃣ <b>Yearly</b> — ₹799/year (₹67/mo) 🔥\n\n"
+                f"Reply with the plan number:\n"
+                f"<b>1</b> for Monthly\n"
+                f"<b>2</b> for Quarterly\n"
+                f"<b>3</b> for Yearly"
+            )
+
+        # ── Plan selection (1, 2, 3) ──
+        elif text in ("1", "2", "3"):
+            plan_map = {"1": 99, "2": 299, "3": 799}
+            amount = plan_map[text]
+            plan = PLANS[amount]
+            order_id = generate_order_id()
+
+            # Save pending order
+            pending = load_pending_orders()
+            pending.append({
+                "order_id": order_id,
+                "user_id": user_id,
+                "username": username,
+                "first_name": first_name,
+                "chat_id": chat_id,
+                "amount": amount,
+                "plan": plan["name"],
+                "plan_days": plan["days"],
+                "status": "pending",
+                "created_at": datetime.utcnow().isoformat(),
+            })
+            # Remove expired pending orders (older than 24 hours)
+            cutoff = (datetime.utcnow() - timedelta(hours=24)).isoformat()
+            pending = [p for p in pending if p.get("created_at", "") > cutoff or p.get("status") == "approved"]
+            save_pending_orders(pending)
+
+            upi_link = f"upi://pay?pa={UPI_ID}&pn={UPI_NAME}&am={amount}&cu=INR&tn={order_id}"
+
+            send_message(chat_id,
+                f"💳 <b>Payment Details</b>\n\n"
+                f"Plan: <b>{plan['label']} (₹{amount})</b>\n"
+                f"Order ID: <code>{order_id}</code>\n\n"
+                f"━━━━━━━━━━━━━━━━━━━━\n"
+                f"<b>UPI ID:</b> <code>{UPI_ID}</code>\n"
+                f"<b>Amount:</b> ₹{amount}\n"
+                f"<b>Note/Remark:</b> <code>{order_id}</code>\n"
+                f"━━━━━━━━━━━━━━━━━━━━\n\n"
+                f"📱 <b>Steps:</b>\n"
+                f"1. Open any UPI app (GPay/PhonePe/Paytm)\n"
+                f"2. Pay ₹{amount} to <code>{UPI_ID}</code>\n"
+                f"3. Add <code>{order_id}</code> in payment note/remark\n"
+                f"4. Send payment screenshot here\n\n"
+                f"⏰ Your subscription will be activated within 10 minutes after verification.\n\n"
+                f"<a href='{upi_link}'>📲 Click to Pay via UPI</a>"
+            )
+
+            notify_admin(
+                f"🛒 <b>New Order Created</b>\n\n"
+                f"Order: <code>{order_id}</code>\n"
+                f"User: {first_name} (@{username})\n"
+                f"Plan: {plan['label']} — ₹{amount}\n"
+                f"Status: ⏳ Awaiting payment"
+            )
+
+        # ── Admin: /approve ORDER_ID ──
+        elif text.startswith("/approve ") and str(chat_id) == TELEGRAM_ADMIN_CHAT_ID:
+            parts = text.split()
+            if len(parts) < 2:
+                send_message(chat_id, "Usage: /approve QTX-XXXX")
+            else:
+                approve_order_id = parts[1].upper()
+                pending = load_pending_orders()
+                order = None
+                for p in pending:
+                    if p["order_id"] == approve_order_id and p["status"] == "pending":
+                        order = p
+                        break
+
+                if not order:
+                    send_message(chat_id, f"❌ Order <code>{approve_order_id}</code> not found or already processed.")
+                else:
+                    # Activate subscription
+                    now = datetime.utcnow()
+                    plan_days = order["plan_days"]
+                    sub_end = now + timedelta(days=plan_days)
+
+                    # Find or create subscriber
+                    sub_user_id = order["user_id"]
+                    sub_username = order["username"]
+                    existing = None
+                    for s in subscribers:
+                        if s.get("telegram_user_id") == sub_user_id:
+                            existing = s
+                            break
+
+                    if existing:
+                        # Extend if already active
+                        if existing.get("status") == "active":
+                            current_end = datetime.fromisoformat(existing["subscription_end"])
+                            if current_end > now:
+                                sub_end = current_end + timedelta(days=plan_days)
+                        existing["status"] = "active"
+                        existing["plan"] = order["plan"]
+                        existing["subscription_start"] = now.isoformat()
+                        existing["subscription_end"] = sub_end.isoformat()
+                        existing["telegram_user_id"] = sub_user_id
+                        existing["telegram_username"] = sub_username
+                        existing["updated_at"] = now.isoformat()
+                    else:
+                        subscribers.append({
+                            "name": order["first_name"],
+                            "email": "",
+                            "phone": "",
+                            "telegram_username": sub_username,
+                            "telegram_user_id": sub_user_id,
+                            "plan": order["plan"],
+                            "status": "active",
+                            "subscription_start": now.isoformat(),
+                            "subscription_end": sub_end.isoformat(),
+                            "trial_used": True,
+                            "created_at": now.isoformat(),
+                            "updated_at": now.isoformat(),
+                        })
+
+                    # Record payment
+                    payments = load_json(PAYMENTS_FILE)
+                    payments.append({
+                        "order_id": approve_order_id,
+                        "amount": order["amount"],
+                        "plan": order["plan"],
+                        "user_id": sub_user_id,
+                        "username": sub_username,
+                        "name": order["first_name"],
+                        "method": "UPI",
+                        "status": "activated",
+                        "activated_at": now.isoformat(),
+                    })
+                    save_json(PAYMENTS_FILE, payments)
+
+                    # Mark order as approved
+                    order["status"] = "approved"
+                    order["approved_at"] = now.isoformat()
+                    save_pending_orders(pending)
+
+                    # Create invite link for subscriber
+                    invite = create_invite_link(expire_hours=72)
+
+                    # Notify subscriber
+                    sub_msg = (
+                        f"✅ <b>Payment Confirmed!</b>\n\n"
+                        f"Plan: <b>{order['plan'].title()}</b>\n"
+                        f"Valid till: <b>{sub_end.strftime('%d %b %Y')}</b>\n\n"
+                    )
+                    if invite:
+                        sub_msg += f"📲 <b>Join the group:</b>\n{invite}\n\n"
+                    if WHATSAPP_INVITE_LINK:
+                        sub_msg += f"💬 <b>WhatsApp:</b>\n{WHATSAPP_INVITE_LINK}\n\n"
+                    sub_msg += "Reports delivered every weekday at 8:00 AM IST! 📈"
+                    send_message(order["chat_id"], sub_msg)
+
+                    # Confirm to admin
+                    send_message(chat_id,
+                        f"✅ <b>Approved!</b>\n\n"
+                        f"Order: <code>{approve_order_id}</code>\n"
+                        f"User: {order['first_name']} (@{sub_username})\n"
+                        f"Plan: {order['plan'].title()} — ₹{order['amount']}\n"
+                        f"Expires: {sub_end.strftime('%d %b %Y')}"
+                    )
+
+        # ── Admin: /pending — show pending orders ──
+        elif text == "/pending" and str(chat_id) == TELEGRAM_ADMIN_CHAT_ID:
+            pending = load_pending_orders()
+            active_pending = [p for p in pending if p.get("status") == "pending"]
+            if not active_pending:
+                send_message(chat_id, "No pending orders.")
+            else:
+                msg_text = f"🛒 <b>Pending Orders ({len(active_pending)})</b>\n\n"
+                for p in active_pending:
+                    msg_text += (
+                        f"<code>{p['order_id']}</code> — {p['first_name']} (@{p['username']})\n"
+                        f"   {p['plan'].title()} ₹{p['amount']} | {p['created_at'][:16]}\n"
+                        f"   → /approve {p['order_id']}\n\n"
+                    )
+                send_message(chat_id, msg_text)
+
+        # ── Photo received (payment screenshot) ──
+        elif msg.get("photo"):
+            # User sent a screenshot — notify admin
+            pending = load_pending_orders()
+            user_order = None
+            for p in reversed(pending):
+                if p.get("user_id") == user_id and p.get("status") == "pending":
+                    user_order = p
+                    break
+
+            if user_order:
+                # Forward the photo to admin
+                try:
+                    telegram_api("forwardMessage", {
+                        "chat_id": TELEGRAM_ADMIN_CHAT_ID,
+                        "from_chat_id": chat_id,
+                        "message_id": msg["message_id"],
+                    })
+                except Exception:
+                    pass
+
+                notify_admin(
+                    f"📸 <b>Payment Screenshot Received!</b>\n\n"
+                    f"Order: <code>{user_order['order_id']}</code>\n"
+                    f"User: {first_name} (@{username})\n"
+                    f"Plan: {user_order['plan'].title()} — ₹{user_order['amount']}\n\n"
+                    f"To approve: /approve {user_order['order_id']}"
+                )
+
+                send_message(chat_id,
+                    f"✅ Screenshot received! Your payment is being verified.\n\n"
+                    f"Order ID: <code>{user_order['order_id']}</code>\n"
+                    f"You'll receive confirmation within 10 minutes."
+                )
+            else:
+                send_message(chat_id,
+                    f"Thanks for the screenshot! To subscribe, first use /subscribe to select a plan."
+                )
 
         # ── Capture telegram_user_id for existing subscribers ──
         if username:
