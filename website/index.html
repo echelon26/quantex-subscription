@@ -1202,7 +1202,7 @@ a:hover { color: #fff; }
     <div class="pricing-grid">
       <div class="price-card">
         <div class="plan-name">Monthly</div>
-        <div class="price"><span class="currency">₹</span>149</div>
+        <div class="price"><span class="currency">₹</span>99</div>
         <div class="period">per month</div>
         <div class="savings">&nbsp;</div>
         <div class="divider"></div>
@@ -1219,9 +1219,9 @@ a:hover { color: #fff; }
       <div class="price-card popular">
         <div class="popular-tag">Most Popular</div>
         <div class="plan-name">Quarterly</div>
-        <div class="price"><span class="currency">₹</span>399</div>
+        <div class="price"><span class="currency">₹</span>299</div>
         <div class="period">per quarter</div>
-        <div class="savings">Save ₹48 (11% off)</div>
+        <div class="savings">Save ₹2/mo vs monthly</div>
         <div class="divider"></div>
         <ul class="features-list">
           <li>Everything in Monthly</li>
@@ -1235,9 +1235,9 @@ a:hover { color: #fff; }
 
       <div class="price-card">
         <div class="plan-name">Yearly</div>
-        <div class="price"><span class="currency">₹</span>999</div>
+        <div class="price"><span class="currency">₹</span>799</div>
         <div class="period">per year</div>
-        <div class="savings">Save ₹789 (44% off)</div>
+        <div class="savings">Save ₹389 (33% off)</div>
         <div class="divider"></div>
         <ul class="features-list">
           <li>Everything in Quarterly</li>
@@ -1314,7 +1314,7 @@ a:hover { color: #fff; }
 
         <div class="testimonial-card">
           <div class="stars">★★★★★</div>
-          <div class="quote">"Volume shockers section helped me catch TATAELXSI before a 12% rally. The report pays for itself in one trade. Best ₹149 I spend every month."</div>
+          <div class="quote">"Volume shockers section helped me catch TATAELXSI before a 12% rally. The report pays for itself in one trade. Best ₹99 I spend every month."</div>
           <div class="author"><div class="avatar">PS</div><div><div class="author-name">Priya S.</div><div class="author-role">Options Trader, Bangalore</div></div></div>
         </div>
 
@@ -1374,7 +1374,7 @@ a:hover { color: #fff; }
 
         <div class="testimonial-card">
           <div class="stars">★★★★★</div>
-          <div class="quote">"At ₹149/month, this is cheaper than one brokerage transaction. The quality of data you get is insane. Global markets, VIX, sectors — all in 4 pages."</div>
+          <div class="quote">"At ₹99/month, this is cheaper than one brokerage transaction. The quality of data you get is insane. Global markets, VIX, sectors — all in 4 pages."</div>
           <div class="author"><div class="avatar">SA</div><div><div class="author-name">Suresh A.</div><div class="author-role">Retired Banker & Investor, Nagpur</div></div></div>
         </div>
 
@@ -1412,7 +1412,7 @@ a:hover { color: #fff; }
 
         <div class="testimonial-card">
           <div class="stars">★★★★★</div>
-          <div class="quote">"Volume shockers section helped me catch TATAELXSI before a 12% rally. The report pays for itself in one trade. Best ₹149 I spend every month."</div>
+          <div class="quote">"Volume shockers section helped me catch TATAELXSI before a 12% rally. The report pays for itself in one trade. Best ₹99 I spend every month."</div>
           <div class="author"><div class="avatar">PS</div><div><div class="author-name">Priya S.</div><div class="author-role">Options Trader, Bangalore</div></div></div>
         </div>
 
@@ -1472,7 +1472,7 @@ a:hover { color: #fff; }
 
         <div class="testimonial-card">
           <div class="stars">★★★★★</div>
-          <div class="quote">"At ₹149/month, this is cheaper than one brokerage transaction. The quality of data you get is insane. Global markets, VIX, sectors — all in 4 pages."</div>
+          <div class="quote">"At ₹99/month, this is cheaper than one brokerage transaction. The quality of data you get is insane. Global markets, VIX, sectors — all in 4 pages."</div>
           <div class="author"><div class="avatar">SA</div><div><div class="author-name">Suresh A.</div><div class="author-role">Retired Banker & Investor, Nagpur</div></div></div>
         </div>
 
@@ -1592,24 +1592,15 @@ a:hover { color: #fff; }
 <script>
 // ═══════════════════════════════════════════════════════════════
 // CONFIGURATION — Replace these with your actual Instamojo links
-// Create payment links at: https://instamojo.com/store/
 // ═══════════════════════════════════════════════════════════════
 const CONFIG = {
   telegramBot: 'https://t.me/QuantexReportBot',
-  // Replace with your Instamojo payment links after creating them
-  instamojoLinks: {
-    monthly:   'INSTAMOJO_MONTHLY_LINK',
-    quarterly: 'INSTAMOJO_QUARTERLY_LINK',
-    yearly:    'INSTAMOJO_YEARLY_LINK',
-  }
+  subscribeLink: 'https://t.me/QuantexReportBot?start=subscribe',
 };
 
-// Update Instamojo links on page load
+// Update all subscribe buttons to point to Telegram bot
 document.querySelectorAll('.instamojo-link').forEach(link => {
-  const plan = link.dataset.plan;
-  if (plan && CONFIG.instamojoLinks[plan]) {
-    link.href = CONFIG.instamojoLinks[plan];
-  }
+  link.href = CONFIG.subscribeLink;
 });
 
 // ── FAQ TOGGLE ─────────────────────────────────
