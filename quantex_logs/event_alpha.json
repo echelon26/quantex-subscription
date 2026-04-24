@@ -208,5 +208,91 @@
         "CMP": 179.71
       }
     ]
+  },
+  {
+    "scan_date": "2026-04-24",
+    "scan_time": "2026-04-24T13:38:55.431363",
+    "stocks_scanned": 500,
+    "results_found": 13,
+    "results": [
+      {
+        "Date": "2026-04-24",
+        "Symbol": "ATUL",
+        "Signals": "Flat -0.7% | Vol Explosion 8.2x",
+        "CMP": 6680.5
+      },
+      {
+        "Date": "2026-04-24",
+        "Symbol": "HINDZINC",
+        "Signals": "Flat -0.6% | Vol Surge 2.9x",
+        "CMP": 588.5
+      },
+      {
+        "Date": "2026-04-23",
+        "Symbol": "IEX",
+        "Signals": "Muted Reaction | Flat +0.9%",
+        "CMP": 123.23
+      },
+      {
+        "Date": "2026-04-24",
+        "Symbol": "INDUSINDBK",
+        "Signals": "Flat -1.4%",
+        "CMP": 847.95
+      },
+      {
+        "Date": "2026-04-23",
+        "Symbol": "INFY",
+        "Signals": "Selloff -2.2% | Heavy Selling -9.0%",
+        "CMP": 1154.6
+      },
+      {
+        "Date": "2026-04-24",
+        "Symbol": "LTF",
+        "Signals": "Muted Reaction | Flat -0.7%",
+        "CMP": 290.05
+      },
+      {
+        "Date": "2026-04-24",
+        "Symbol": "LODHA",
+        "Signals": "Flat -1.8%",
+        "CMP": 840.7
+      },
+      {
+        "Date": "2026-04-24",
+        "Symbol": "M&MFIN",
+        "Signals": "Muted Reaction | Flat -0.9%",
+        "CMP": 294.4
+      },
+      {
+        "Date": "2026-04-21",
+        "Symbol": "NESTLEIND",
+        "Signals": "Bullish Reaction | Surge +7.3% | Vol Explosion 7.0x | Strong Momentum +10.5%",
+        "CMP": 1421.3
+      },
+      {
+        "Date": "2026-04-21",
+        "Symbol": "PERSISTENT",
+        "Signals": "Flat +0.1% | Heavy Selling -10.9%",
+        "CMP": 4747.3
+      },
+      {
+        "Date": "2026-04-24",
+        "Symbol": "RELIANCE",
+        "Signals": "Flat -1.2%",
+        "CMP": 1327.8
+      },
+      {
+        "Date": "2026-04-24",
+        "Symbol": "SHRIRAMFIN",
+        "Signals": "Flat +0.2% | High Vol 1.9x",
+        "CMP": 1011.3
+      },
+      {
+        "Date": "2026-04-22",
+        "Symbol": "TRENT",
+        "Signals": "Flat +1.0% | High Vol 1.6x",
+        "CMP": 4297.3
+      }
+    ]
   }
 ]
