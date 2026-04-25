@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "name": "Manish Kumar",
+    "email": "",
+    "phone": "",
+    "telegram_username": "placidmanish",
+    "telegram_user_id": "8732346253",
+    "plan": "monthly",
+    "status": "active",
+    "subscription_start": "2026-04-25T09:21:13.021031",
+    "subscription_end": "2026-05-25T09:21:13.021031",
+    "trial_used": true,
+    "created_at": "2026-04-25T09:21:13.021031",
+    "updated_at": "2026-04-25T09:21:13.021031"
+  }
+]
