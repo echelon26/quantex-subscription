@@ -256,12 +256,34 @@ def telegram_api(method, data=None):
         print(f"   Telegram exception: {e}")
         return None
 
-def send_message(chat_id, text):
-    return telegram_api("sendMessage", {
+def send_message(chat_id, text, reply_markup=None):
+    """Send a Telegram message. `reply_markup` is an optional dict for inline
+    keyboards (e.g. {"inline_keyboard": [[{"text": ..., "callback_data": ...}]]})."""
+    payload = {
         "chat_id": chat_id,
         "text": text,
         "parse_mode": "HTML",
+    }
+    if reply_markup is not None:
+        payload["reply_markup"] = reply_markup
+    return telegram_api("sendMessage", payload)
+
+
+def answer_callback(callback_query_id, text="", alert=False):
+    """Acknowledge a callback_query so Telegram clears the loading spinner."""
+    return telegram_api("answerCallbackQuery", {
+        "callback_query_id": callback_query_id,
+        "text": text,
+        "show_alert": alert,
     })
+
+
+def edit_message_reply_markup(chat_id, message_id, reply_markup=None):
+    """Strip or replace inline buttons on a previously-sent message."""
+    payload = {"chat_id": chat_id, "message_id": message_id}
+    if reply_markup is not None:
+        payload["reply_markup"] = reply_markup
+    return telegram_api("editMessageReplyMarkup", payload)
 
 def create_invite_link(expire_hours=72):
     """Create a single-use Telegram group invite link."""
@@ -536,7 +558,126 @@ def check_expiry():
 
 
 # ═══════════════════════════════════════════════════════════════
-# 3. HANDLE TELEGRAM BOT UPDATES (for /trial and /status)
+# 3. APPROVAL ACTION (shared between /approve text command & inline button tap)
+# ═══════════════════════════════════════════════════════════════
+
+def approve_order_action(order_id, subscribers):
+    """Run the full approval flow for `order_id`.
+
+    Mutates `subscribers` in place (caller saves it). Writes pending_orders.json
+    and payments.json. Sends the user their welcome message + invite link.
+
+    Returns (success: bool, admin_message: str). The caller is responsible for
+    delivering admin_message back to whoever invoked the action.
+    """
+    pending = load_pending_orders()
+    order = None
+    for p in pending:
+        if p["order_id"] == order_id and p["status"] == "pending":
+            order = p
+            break
+
+    if not order:
+        return (False, f"❌ Order <code>{order_id}</code> not found or already processed.")
+
+    now = datetime.utcnow()
+    plan_days = order["plan_days"]
+    sub_end = now + timedelta(days=plan_days)
+    sub_user_id = order["user_id"]
+    sub_username = order["username"]
+
+    existing = None
+    for s in subscribers:
+        if s.get("telegram_user_id") == sub_user_id:
+            existing = s
+            break
+
+    if existing:
+        # Stack days on top if they're still active and not yet expired.
+        if existing.get("status") == "active":
+            current_end = datetime.fromisoformat(existing["subscription_end"])
+            if current_end > now:
+                sub_end = current_end + timedelta(days=plan_days)
+        existing["status"] = "active"
+        existing["plan"] = order["plan"]
+        existing["subscription_start"] = now.isoformat()
+        existing["subscription_end"] = sub_end.isoformat()
+        existing["telegram_user_id"] = sub_user_id
+        existing["telegram_username"] = sub_username
+        existing["updated_at"] = now.isoformat()
+    else:
+        subscribers.append({
+            "name": order["first_name"],
+            "email": "",
+            "phone": "",
+            "telegram_username": sub_username,
+            "telegram_user_id": sub_user_id,
+            "plan": order["plan"],
+            "status": "active",
+            "subscription_start": now.isoformat(),
+            "subscription_end": sub_end.isoformat(),
+            "trial_used": True,
+            "created_at": now.isoformat(),
+            "updated_at": now.isoformat(),
+        })
+
+    # Record payment
+    payments = load_json(PAYMENTS_FILE)
+    payments.append({
+        "order_id": order_id,
+        "amount": order["amount"],
+        "plan": order["plan"],
+        "user_id": sub_user_id,
+        "username": sub_username,
+        "name": order["first_name"],
+        "method": "UPI",
+        "status": "activated",
+        "activated_at": now.isoformat(),
+    })
+    save_json(PAYMENTS_FILE, payments)
+
+    # Mark order approved (saved back to file)
+    order["status"] = "approved"
+    order["approved_at"] = now.isoformat()
+    save_pending_orders(pending)
+
+    # Build the user's confirmation + invite link
+    invite = create_invite_link(expire_hours=72)
+    sub_msg = (
+        f"✅ <b>Payment Confirmed!</b>\n\n"
+        f"Plan: <b>{order['plan'].title()}</b>\n"
+        f"Valid till: <b>{sub_end.strftime('%d %b %Y')}</b>\n\n"
+    )
+    if invite:
+        sub_msg += f"📲 <b>Join the group:</b>\n{invite}\n\n"
+    if WHATSAPP_INVITE_LINK:
+        sub_msg += f"💬 <b>WhatsApp:</b>\n{WHATSAPP_INVITE_LINK}\n\n"
+    sub_msg += "Reports delivered every weekday at 8:00 AM IST! 📈"
+    send_message(order["chat_id"], sub_msg)
+
+    admin_msg = (
+        f"✅ <b>Approved!</b>\n\n"
+        f"Order: <code>{order_id}</code>\n"
+        f"User: {order['first_name']} (@{sub_username})\n"
+        f"Plan: {order['plan'].title()} — ₹{order['amount']}\n"
+        f"Expires: {sub_end.strftime('%d %b %Y')}\n"
+        + ("📲 Invite link delivered." if invite else "⚠️ No invite link — check TELEGRAM_GROUP_ID.")
+    )
+    return (True, admin_msg)
+
+
+def approve_keyboard(order_id):
+    """Inline keyboard with one-tap Approve / Reject buttons."""
+    return {
+        "inline_keyboard": [[
+            {"text": f"✅ Approve {order_id}", "callback_data": f"approve:{order_id}"},
+            {"text": "❌ Reject",              "callback_data": f"reject:{order_id}"},
+        ]]
+    }
+
+
+# ═══════════════════════════════════════════════════════════════
+# 4. HANDLE TELEGRAM BOT UPDATES (for /trial and /status)
 # ═══════════════════════════════════════════════════════════════
 
 def process_telegram_updates():
@@ -569,6 +710,55 @@ def process_telegram_updates():
 
     for update in updates:
         offset = update["update_id"] + 1
+
+        # ── Inline keyboard tap (callback_query) ──
+        # When the admin taps "✅ Approve" or "❌ Reject" on a screenshot
+        # notification, Telegram sends a callback_query update — NOT a regular
+        # message. We answer it (clears the loading spinner), strip the
+        # buttons from the original message, and run the approval action.
+        cq = update.get("callback_query")
+        if cq:
+            try:
+                cq_id = cq["id"]
+                cq_data = cq.get("data", "") or ""
+                cq_user_id = str(cq["from"]["id"])
+                cq_chat_id = cq.get("message", {}).get("chat", {}).get("id", cq_user_id)
+                cq_msg_id = cq.get("message", {}).get("message_id")
+
+                if not is_admin(cq_chat_id, cq_user_id):
+                    answer_callback(cq_id, "Unauthorized", alert=True)
+                    continue
+
+                if cq_data.startswith("approve:"):
+                    cb_order_id = cq_data.split(":", 1)[1].strip().upper()
+                    success, admin_msg = approve_order_action(cb_order_id, subscribers)
+                    answer_callback(cq_id, "✅ Approved" if success else "❌ Failed")
+                    if cq_msg_id:
+                        # Remove the buttons so admin can't double-tap.
+                        edit_message_reply_markup(cq_chat_id, cq_msg_id, reply_markup={"inline_keyboard": []})
+                    send_message(cq_chat_id, admin_msg)
+
+                elif cq_data.startswith("reject:"):
+                    cb_order_id = cq_data.split(":", 1)[1].strip().upper()
+                    pending = load_pending_orders()
+                    found = False
+                    for p in pending:
+                        if p["order_id"] == cb_order_id and p["status"] == "pending":
+                            p["status"] = "rejected"
+                            p["rejected_at"] = datetime.utcnow().isoformat()
+                            found = True
+                            break
+                    save_pending_orders(pending)
+                    answer_callback(cq_id, "Rejected" if found else "Not pending")
+                    if cq_msg_id:
+                        edit_message_reply_markup(cq_chat_id, cq_msg_id, reply_markup={"inline_keyboard": []})
+                    send_message(cq_chat_id, f"❌ Order <code>{cb_order_id}</code> marked rejected.")
+                else:
+                    answer_callback(cq_id, "")
+            except Exception as e:
+                print(f"   Callback error: {type(e).__name__}: {e}")
+            continue
+
         msg = update.get("message", {})
 
         if not msg or msg.get("chat", {}).get("type") != "private":
@@ -812,6 +1002,13 @@ def process_telegram_updates():
             save_pending_orders(pending)
 
             upi_link = build_upi_link(UPI_ID, UPI_NAME, amount, order_id)
+            # HTML-escape the link for safe inclusion in <a href="…">.
+            # Without this, Telegram's HTML parser sees the unescaped `&` as
+            # the start of an entity and silently truncates the href at the
+            # first `&` — which breaks UPI deep-links (everything after `pa=…`
+            # gets dropped, including amount and note).
+            from html import escape as _html_escape
+            upi_link_attr = _html_escape(upi_link, quote=True)
 
             # Generate and send QR code
             qr_path = generate_upi_qr(UPI_ID, UPI_NAME, amount, order_id)
@@ -841,8 +1038,17 @@ def process_telegram_updates():
                 f"2. Pay ₹{amount} to <code>{UPI_ID}</code>\n"
                 f"3. Add <code>{order_id}</code> in payment note/remark\n"
                 f"4. Send payment screenshot here\n\n"
-                f"⏰ Your subscription will be activated within 10 minutes after verification.\n\n"
-                f"<a href='{upi_link}'>📲 Click to Pay via UPI</a>"
+                f"⏰ Your subscription will be activated within 5 minutes after verification, "
+                f"and you'll receive your private Telegram group invite link here as soon as "
+                f"the payment is verified.\n\n"
+                # NOTE: href uses double quotes (Telegram drops single-quoted
+                # hrefs) and the URL is HTML-escaped (the raw `&` between query
+                # params would otherwise truncate the link).
+                f'📲 <a href="{upi_link_attr}">Tap here to pay via UPI app</a>\n'
+                # Fallback for desktop/web users where upi:// can't open any
+                # app: a tap-to-copy plain-text version of the same link.
+                f'<i>(Desktop/web? Long-press to copy this link and paste in '
+                f'your UPI app:)</i>\n<code>{upi_link_attr}</code>'
             )
 
             notify_admin(
@@ -892,110 +1098,36 @@ def process_telegram_updates():
                             s["updated_at"] = datetime.utcnow().isoformat()
                 continue
 
+            # Strip optional @bot_username suffix from the command token.
             parts = text.split()
+            if parts and "@" in parts[0]:
+                parts[0] = parts[0].split("@", 1)[0]
+
             if len(parts) < 2:
-                send_message(chat_id, "Usage: /approve QTX-XXXX")
+                # Admin probably tapped a /approve link. Re-send the pending
+                # orders WITH inline keyboards so they can one-tap approve.
+                pending = load_pending_orders()
+                active_pending = [p for p in pending if p.get("status") == "pending"]
+                if not active_pending:
+                    send_message(chat_id, "No pending orders right now.")
+                else:
+                    send_message(chat_id, "👇 <b>Tap to approve:</b>")
+                    for p in active_pending[:10]:
+                        send_message(
+                            chat_id,
+                            (
+                                f"<code>{p['order_id']}</code> — {p['first_name']} "
+                                f"(@{p.get('username') or '—'})\n"
+                                f"{p['plan'].title()} ₹{p['amount']} | {p['created_at'][:16]}"
+                            ),
+                            reply_markup=approve_keyboard(p["order_id"]),
+                        )
             else:
                 approve_order_id = parts[1].upper()
-                pending = load_pending_orders()
-                order = None
-                for p in pending:
-                    if p["order_id"] == approve_order_id and p["status"] == "pending":
-                        order = p
-                        break
+                _ok, admin_msg = approve_order_action(approve_order_id, subscribers)
+                send_message(chat_id, admin_msg)
 
-                if not order:
-                    send_message(chat_id, f"❌ Order <code>{approve_order_id}</code> not found or already processed.")
-                else:
-                    # Activate subscription
-                    now = datetime.utcnow()
-                    plan_days = order["plan_days"]
-                    sub_end = now + timedelta(days=plan_days)
-
-                    # Find or create subscriber
-                    sub_user_id = order["user_id"]
-                    sub_username = order["username"]
-                    existing = None
-                    for s in subscribers:
-                        if s.get("telegram_user_id") == sub_user_id:
-                            existing = s
-                            break
-
-                    if existing:
-                        # Extend if already active
-                        if existing.get("status") == "active":
-                            current_end = datetime.fromisoformat(existing["subscription_end"])
-                            if current_end > now:
-                                sub_end = current_end + timedelta(days=plan_days)
-                        existing["status"] = "active"
-                        existing["plan"] = order["plan"]
-                        existing["subscription_start"] = now.isoformat()
-                        existing["subscription_end"] = sub_end.isoformat()
-                        existing["telegram_user_id"] = sub_user_id
-                        existing["telegram_username"] = sub_username
-                        existing["updated_at"] = now.isoformat()
-                    else:
-                        subscribers.append({
-                            "name": order["first_name"],
-                            "email": "",
-                            "phone": "",
-                            "telegram_username": sub_username,
-                            "telegram_user_id": sub_user_id,
-                            "plan": order["plan"],
-                            "status": "active",
-                            "subscription_start": now.isoformat(),
-                            "subscription_end": sub_end.isoformat(),
-                            "trial_used": True,
-                            "created_at": now.isoformat(),
-                            "updated_at": now.isoformat(),
-                        })
-
-                    # Record payment
-                    payments = load_json(PAYMENTS_FILE)
-                    payments.append({
-                        "order_id": approve_order_id,
-                        "amount": order["amount"],
-                        "plan": order["plan"],
-                        "user_id": sub_user_id,
-                        "username": sub_username,
-                        "name": order["first_name"],
-                        "method": "UPI",
-                        "status": "activated",
-                        "activated_at": now.isoformat(),
-                    })
-                    save_json(PAYMENTS_FILE, payments)
-
-                    # Mark order as approved
-                    order["status"] = "approved"
-                    order["approved_at"] = now.isoformat()
-                    save_pending_orders(pending)
-
-                    # Create invite link for subscriber
-                    invite = create_invite_link(expire_hours=72)
-
-                    # Notify subscriber
-                    sub_msg = (
-                        f"✅ <b>Payment Confirmed!</b>\n\n"
-                        f"Plan: <b>{order['plan'].title()}</b>\n"
-                        f"Valid till: <b>{sub_end.strftime('%d %b %Y')}</b>\n\n"
-                    )
-                    if invite:
-                        sub_msg += f"📲 <b>Join the group:</b>\n{invite}\n\n"
-                    if WHATSAPP_INVITE_LINK:
-                        sub_msg += f"💬 <b>WhatsApp:</b>\n{WHATSAPP_INVITE_LINK}\n\n"
-                    sub_msg += "Reports delivered every weekday at 8:00 AM IST! 📈"
-                    send_message(order["chat_id"], sub_msg)
-
-                    # Confirm to admin
-                    send_message(chat_id,
-                        f"✅ <b>Approved!</b>\n\n"
-                        f"Order: <code>{approve_order_id}</code>\n"
-                        f"User: {order['first_name']} (@{sub_username})\n"
-                        f"Plan: {order['plan'].title()} — ₹{order['amount']}\n"
-                        f"Expires: {sub_end.strftime('%d %b %Y')}"
-                    )
-
-        # ── Admin: /pending — show pending orders ──
+        # ── Admin: /pending — show pending orders, each with one-tap buttons ──
         elif text == "/pending":
             if not is_admin(chat_id, user_id):
                 send_message(chat_id, "⚠️ Unauthorized. Send /whoami to see your ids.")
@@ -1005,14 +1137,17 @@ def process_telegram_updates():
                 if not active_pending:
                     send_message(chat_id, "No pending orders.")
                 else:
-                    msg_text = f"🛒 <b>Pending Orders ({len(active_pending)})</b>\n\n"
+                    send_message(chat_id, f"🛒 <b>Pending Orders ({len(active_pending)})</b>")
                     for p in active_pending:
-                        msg_text += (
-                            f"<code>{p['order_id']}</code> — {p['first_name']} (@{p['username']})\n"
-                            f"   {p['plan'].title()} ₹{p['amount']} | {p['created_at'][:16]}\n"
-                            f"   → /approve {p['order_id']}\n\n"
+                        send_message(
+                            chat_id,
+                            (
+                                f"<code>{p['order_id']}</code> — {p['first_name']} "
+                                f"(@{p.get('username') or '—'})\n"
+                                f"{p['plan'].title()} ₹{p['amount']} | {p['created_at'][:16]}"
+                            ),
+                            reply_markup=approve_keyboard(p["order_id"]),
                         )
-                    send_message(chat_id, msg_text)
 
         # ── Admin: /sendinvite USER_ID — one-shot recovery for cases where
         # /approve previously fell through silently and the user never got a
@@ -1061,18 +1196,27 @@ def process_telegram_updates():
                 except Exception:
                     pass
 
-                notify_admin(
-                    f"📸 <b>Payment Screenshot Received!</b>\n\n"
-                    f"Order: <code>{user_order['order_id']}</code>\n"
-                    f"User: {first_name} (@{username})\n"
-                    f"Plan: {user_order['plan'].title()} — ₹{user_order['amount']}\n\n"
-                    f"To approve: /approve {user_order['order_id']}"
-                )
+                # Admin notification with one-tap Approve / Reject buttons.
+                # Tapping "✅ Approve" runs the full approval flow (activates
+                # subscriber, records payment, generates invite link, DMs the
+                # user) — no copy-paste, no /approve typing.
+                if TELEGRAM_ADMIN_CHAT_ID:
+                    send_message(
+                        TELEGRAM_ADMIN_CHAT_ID,
+                        (
+                            f"📸 <b>Payment Screenshot Received!</b>\n\n"
+                            f"Order: <code>{user_order['order_id']}</code>\n"
+                            f"User: {first_name} (@{username or '—'})\n"
+                            f"Plan: {user_order['plan'].title()} — ₹{user_order['amount']}"
+                        ),
+                        reply_markup=approve_keyboard(user_order["order_id"]),
+                    )
 
                 send_message(chat_id,
                     f"✅ Screenshot received! Your payment is being verified.\n\n"
-                    f"Order ID: <code>{user_order['order_id']}</code>\n"
-                    f"You'll receive confirmation within 10 minutes."
+                    f"Order ID: <code>{user_order['order_id']}</code>\n\n"
+                    f"You'll receive your private Telegram group invite link here within "
+                    f"5 minutes — as soon as the payment is verified."
                 )
             else:
                 send_message(chat_id,
