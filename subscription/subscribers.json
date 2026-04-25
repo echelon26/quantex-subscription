@@ -26,5 +26,19 @@
     "trial_used": true,
     "created_at": "2026-04-25T17:24:15.602395",
     "updated_at": "2026-04-25T17:24:15.602395"
+  },
+  {
+    "name": "surya",
+    "email": "",
+    "phone": "",
+    "telegram_username": "smartboy12345batman",
+    "telegram_user_id": "6635347443",
+    "plan": "trial",
+    "status": "active",
+    "subscription_start": "2026-04-25T17:33:15.231787",
+    "subscription_end": "2026-04-28T17:33:15.231787",
+    "trial_used": true,
+    "created_at": "2026-04-25T17:33:15.231787",
+    "updated_at": "2026-04-25T17:33:15.231787"
   }
 ]
