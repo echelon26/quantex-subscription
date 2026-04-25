@@ -21,7 +21,8 @@
     "amount": 99,
     "plan": "monthly",
     "plan_days": 30,
-    "status": "pending",
-    "created_at": "2026-04-25T08:45:27.131706"
+    "status": "approved",
+    "created_at": "2026-04-25T08:45:27.131706",
+    "approved_at": "2026-04-25T08:54:16.610831"
   }
 ]
