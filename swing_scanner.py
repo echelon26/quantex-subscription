@@ -1062,8 +1062,10 @@ def _send_to_chat(chat_id, message, label=""):
 def send_telegram(detail_message, signal_message=None):
     """Send messages to all configured Telegram destinations.
 
-    detail_message: Full detailed format (top 10) → Personal Chat & Admin Group
-    signal_message: Compact format (top 5) → Signal Group. Falls back to detail_message if None.
+    detail_message: Full detailed format → Personal Chat & Admin Group
+    signal_message: kept for back-compat with callers but no longer routed
+        anywhere (the subscriber Signal Group is reserved for the 8 AM
+        pre-market report and 10 AM Pro Scanner only).
     """
     if TELEGRAM_BOT_TOKEN == "YOUR_BOT_TOKEN":
         print("⚠️  Telegram not configured.")
@@ -1071,10 +1073,13 @@ def send_telegram(detail_message, signal_message=None):
         print(detail_message)
         return False
 
-    # Destinations with their specific messages
+    # Destinations with their specific messages.
+    # NOTE: Swing scanner output goes to personal + admin only.
+    # The subscriber signal group is reserved for the 8 AM pre-market report
+    # (premarket_report.py) and the 10 AM Pro Scanner (pro_scanner.py); swing
+    # scans are admin-internal.
     destinations = [
         (TELEGRAM_CHAT_ID, "Personal Chat", detail_message),
-        (TELEGRAM_SIGNAL_GROUP, "Signal Group", signal_message or detail_message),
         (TELEGRAM_ADMIN_GROUP, "Admin Group", detail_message),
     ]
 

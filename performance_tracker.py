@@ -488,12 +488,13 @@ def send_telegram(message):
         print("   Telegram not configured — skipping send.")
         return
 
+    # NOTE: Performance tracker output goes to personal + admin only.
+    # The subscriber signal group is reserved for the 8 AM pre-market report
+    # and the 10 AM Pro Scanner; daily P&L recaps are admin-internal.
     destinations = [
         (TELEGRAM_CHAT_ID, "Personal Chat"),
         (TELEGRAM_ADMIN_GROUP, "Admin Group"),
     ]
-    for grp_id in TELEGRAM_SIGNAL_GROUPS:
-        destinations.append((grp_id, "Signal Group"))
 
     for chat_id, label in destinations:
         if not chat_id or chat_id in ("", "YOUR_CHAT_ID"):

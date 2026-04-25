@@ -1644,25 +1644,30 @@ def format_telegram_message(top_stocks, scan_time, regime=None):
 
 
 def format_signal_group_message(top_stocks, scan_time, regime=None):
-    """Format results for Subscriber Signal Group (top 5)."""
+    """Format results for Subscriber Signal Group (top 10).
+
+    Trimmed vs the admin/personal detail format:
+      - No "*Regime: ... | VIX: ... | Threshold:*" line (kept admin-only)
+      - No "7-Layer Confluence Scanner (Top 10)" subtitle — picks land
+        directly after the top separator, fastest path from scroll to action
+      - No "Powered by Quantex Pro Scanner v2" footer — disclaimer is the
+        last line.
+
+    `regime` is still accepted for signature compatibility with the caller,
+    but we no longer render it here.
+    """
     now = scan_time.strftime("%d %b %Y, %I:%M %p IST")
 
     msg = f"🟢 *QUANTEX PRO SCANNER — {now}*\n"
     msg += f"#QuantexPro #SwingScanner #Daily\n"
     msg += f"━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
 
-    if regime:
-        vix_str = f"{regime['vix']:.2f}" if regime.get('vix') is not None else "N/A"
-        msg += f"*Regime:* {regime['label']}  |  *VIX:* {vix_str}  |  *Threshold:* {regime['min_score']}\n"
-
-    msg += f"_7-Layer Confluence Scanner (Top 5)_\n\n"
-
     if not top_stocks:
         msg += "⚠️ No stocks met the minimum score threshold today.\n"
         msg += "Market conditions may not be favorable for new swing entries.\n"
         return msg
 
-    for i, stock in enumerate(top_stocks[:5], 1):
+    for i, stock in enumerate(top_stocks[:10], 1):
         score = stock["score"]
         stars = star_rating(score)
         risk_pct = abs(stock["entry"] - stock["sl"]) / stock["entry"] * 100
@@ -1680,8 +1685,7 @@ def format_signal_group_message(top_stocks, scan_time, regime=None):
         msg += f"   ⏱ Hold: {stock['hold_period']}{est_str} | R:R = 1:{rr_ratio:.1f}\n\n"
 
     msg += f"━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-    msg += f"⚠️ _Disclaimer: For educational purposes only. Do your own research before trading. Past patterns don't guarantee future results._\n"
-    msg += f"🤖 _Powered by Quantex Pro Scanner v2_"
+    msg += f"⚠️ _Disclaimer: For educational purposes only. Do your own research before trading. Past patterns don't guarantee future results._"
 
     return msg
 
