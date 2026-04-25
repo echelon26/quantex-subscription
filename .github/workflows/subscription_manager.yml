@@ -36,7 +36,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests "qrcode[pil]>=7.4" "Pillow>=10.0"
 
       - name: Run subscription manager
         env:
@@ -47,6 +47,8 @@ jobs:
           TELEGRAM_GROUP_ID: ${{ secrets.TELEGRAM_GROUP_ID }}
           TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
           WHATSAPP_INVITE_LINK: ${{ secrets.WHATSAPP_INVITE_LINK }}
+          UPI_ID: ${{ secrets.UPI_ID }}
+          UPI_NAME: ${{ secrets.UPI_NAME }}
         run: |
           cd subscription
           python process_payments.py ${{ github.event.inputs.command || 'all' }}
