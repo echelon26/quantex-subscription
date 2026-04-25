@@ -4,53 +4,90 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noindex" />
-  <title>Quantex — Opening your UPI app…</title>
+  <title>Quantex — Pay via UPI</title>
   <style>
-    html, body { margin: 0; padding: 0; height: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0e1116; color: #e6edf3; }
-    .wrap { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; padding: 24px; box-sizing: border-box; text-align: center; }
-    h1 { font-size: 22px; margin: 0 0 8px; }
-    p  { margin: 6px 0; opacity: .85; line-height: 1.5; max-width: 32em; }
-    code { display: inline-block; word-break: break-all; padding: 8px 12px; background: #161b22; border: 1px solid #30363d; border-radius: 6px; font-size: 13px; margin-top: 8px; }
-    a.btn { display: inline-block; margin-top: 16px; padding: 12px 22px; border-radius: 8px; background: #2da44e; color: #fff; text-decoration: none; font-weight: 600; }
-    a.btn:hover { background: #2c974b; }
-    .small { font-size: 13px; opacity: .65; margin-top: 24px; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; min-height: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0e1116; color: #e6edf3; }
+    .wrap { max-width: 480px; margin: 0 auto; padding: 32px 20px; text-align: center; }
+    h1 { font-size: 22px; margin: 0 0 4px; }
+    .sub { opacity: .8; margin: 0 0 20px; font-size: 14px; }
+    .summary { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 14px 16px; margin: 0 auto 24px; text-align: left; font-size: 14px; }
+    .summary div { margin: 4px 0; }
+    .summary .k { display: inline-block; min-width: 90px; opacity: .65; }
+    .summary code { background: #0d1117; padding: 2px 6px; border-radius: 4px; }
+    .apps { display: grid; gap: 10px; }
+    .apps a { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 14px 16px; border-radius: 10px; text-decoration: none; font-weight: 600; color: #fff; border: 1px solid transparent; }
+    .gpay { background: #1a73e8; }
+    .phonepe { background: #5f259f; }
+    .paytm { background: #00baf2; color: #002970; }
+    .bhim { background: #ee7e25; }
+    .other { background: #30363d; }
+    .small { font-size: 12px; opacity: .6; margin-top: 22px; }
+    .fallback { margin-top: 18px; }
+    .fallback code { display: block; word-break: break-all; padding: 10px 12px; background: #161b22; border: 1px solid #30363d; border-radius: 6px; font-size: 12px; }
   </style>
 </head>
 <body>
   <div class="wrap">
-    <h1>Opening your UPI app…</h1>
-    <p>If your UPI app does not open automatically in 2 seconds, tap the button below.</p>
-    <a id="pay-btn" class="btn" href="#">Open UPI app</a>
-    <p class="small">Or copy this link into your UPI app manually:</p>
-    <code id="upi-url">upi://pay?...</code>
-    <p class="small">Once the payment is done, return to the Telegram bot and send the screenshot.</p>
+    <h1>Pay via UPI</h1>
+    <p class="sub">Pick your UPI app — it will open with the amount &amp; note pre-filled.</p>
+
+    <div class="summary" id="summary"></div>
+
+    <!-- One button per UPI app, each using that app's exclusive URL scheme so
+         iOS / Android route to the right app without any OS arbitration. The
+         generic upi:// link at the bottom is the catch-all (BHIM and others). -->
+    <div class="apps">
+      <a id="btn-gpay"    class="gpay"    href="#">Google Pay (Tez)</a>
+      <a id="btn-phonepe" class="phonepe" href="#">PhonePe</a>
+      <a id="btn-paytm"   class="paytm"   href="#">Paytm</a>
+      <a id="btn-bhim"    class="bhim"    href="#">BHIM</a>
+      <a id="btn-other"   class="other"   href="#">Other UPI app</a>
+    </div>
+
+    <div class="fallback">
+      <p class="small">Or copy this raw UPI link into your app manually:</p>
+      <code id="upi-url">upi://pay?...</code>
+    </div>
+
+    <p class="small">After paying, return to the Telegram bot and send the screenshot.</p>
   </div>
 
   <script>
-    // Read query params from this page (?pa=...&am=...&tn=...) and rebuild
-    // them as a upi:// deep-link. Then trigger the OS handler.
-    //
-    // Why this page exists: Telegram on Android/iOS often refuses to open
-    // bare upi:// links from message text, while it opens HTTPS links cleanly.
-    // So the bot points users here over HTTPS, and we hand off to upi://
-    // from the browser — which the OS happily dispatches to GPay/PhonePe/etc.
+    // Read query params and rebuild a UPI payload for each app's scheme.
+    // Why per-app schemes: on iOS the first app to register `upi://` owns it
+    // for the OS, and there's no setting to change it. Many users have
+    // WhatsApp Pay enabled, which then steals every `upi://` open. App-
+    // specific schemes (`tez://`, `phonepe://`, `paytmmp://`) bypass that
+    // arbitration entirely — only the named app handles them.
     (function () {
       var params = new URLSearchParams(window.location.search);
-      // We trust only known UPI fields to avoid building junk URLs.
       var allowed = ["pa", "pn", "am", "cu", "tn", "tr", "mc", "url"];
       var parts = [];
       allowed.forEach(function (k) {
         if (params.has(k)) parts.push(k + "=" + encodeURIComponent(params.get(k)));
       });
       if (!params.get("cu")) parts.push("cu=INR");
-      var upiUrl = "upi://pay?" + parts.join("&");
-      document.getElementById("pay-btn").setAttribute("href", upiUrl);
-      document.getElementById("upi-url").textContent = upiUrl;
+      var qs = parts.join("&");
 
-      // Fire the redirect after a tick so the page paints the fallback UI first.
-      setTimeout(function () {
-        window.location.replace(upiUrl);
-      }, 250);
+      // App-specific deep links (path conventions vary per app).
+      document.getElementById("btn-gpay").href    = "tez://upi/pay?"     + qs;
+      document.getElementById("btn-phonepe").href = "phonepe://pay?"     + qs;
+      document.getElementById("btn-paytm").href   = "paytmmp://pay?"     + qs;
+      document.getElementById("btn-bhim").href    = "upi://pay?"         + qs;
+      document.getElementById("btn-other").href   = "upi://pay?"         + qs;
+      document.getElementById("upi-url").textContent = "upi://pay?"      + qs;
+
+      // Render a friendly summary so the user can verify before tapping.
+      var pa = params.get("pa") || "—";
+      var am = params.get("am") || "—";
+      var tn = params.get("tn") || "—";
+      var pn = params.get("pn") || "";
+      document.getElementById("summary").innerHTML =
+        '<div><span class="k">Amount</span> <code>₹' + am + '</code></div>' +
+        '<div><span class="k">UPI ID</span> <code>' + pa + '</code></div>' +
+        (pn ? '<div><span class="k">Payee</span> ' + pn + '</div>' : '') +
+        '<div><span class="k">Note</span> <code>' + tn + '</code></div>';
     })();
   </script>
 </body>
