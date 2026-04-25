@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <title>Quantex — Opening your UPI app…</title>
+  <style>
+    html, body { margin: 0; padding: 0; height: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0e1116; color: #e6edf3; }
+    .wrap { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; padding: 24px; box-sizing: border-box; text-align: center; }
+    h1 { font-size: 22px; margin: 0 0 8px; }
+    p  { margin: 6px 0; opacity: .85; line-height: 1.5; max-width: 32em; }
+    code { display: inline-block; word-break: break-all; padding: 8px 12px; background: #161b22; border: 1px solid #30363d; border-radius: 6px; font-size: 13px; margin-top: 8px; }
+    a.btn { display: inline-block; margin-top: 16px; padding: 12px 22px; border-radius: 8px; background: #2da44e; color: #fff; text-decoration: none; font-weight: 600; }
+    a.btn:hover { background: #2c974b; }
+    .small { font-size: 13px; opacity: .65; margin-top: 24px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Opening your UPI app…</h1>
+    <p>If your UPI app does not open automatically in 2 seconds, tap the button below.</p>
+    <a id="pay-btn" class="btn" href="#">Open UPI app</a>
+    <p class="small">Or copy this link into your UPI app manually:</p>
+    <code id="upi-url">upi://pay?...</code>
+    <p class="small">Once the payment is done, return to the Telegram bot and send the screenshot.</p>
+  </div>
+
+  <script>
+    // Read query params from this page (?pa=...&am=...&tn=...) and rebuild
+    // them as a upi:// deep-link. Then trigger the OS handler.
+    //
+    // Why this page exists: Telegram on Android/iOS often refuses to open
+    // bare upi:// links from message text, while it opens HTTPS links cleanly.
+    // So the bot points users here over HTTPS, and we hand off to upi://
+    // from the browser — which the OS happily dispatches to GPay/PhonePe/etc.
+    (function () {
+      var params = new URLSearchParams(window.location.search);
+      // We trust only known UPI fields to avoid building junk URLs.
+      var allowed = ["pa", "pn", "am", "cu", "tn", "tr", "mc", "url"];
+      var parts = [];
+      allowed.forEach(function (k) {
+        if (params.has(k)) parts.push(k + "=" + encodeURIComponent(params.get(k)));
+      });
+      if (!params.get("cu")) parts.push("cu=INR");
+      var upiUrl = "upi://pay?" + parts.join("&");
+      document.getElementById("pay-btn").setAttribute("href", upiUrl);
+      document.getElementById("upi-url").textContent = upiUrl;
+
+      // Fire the redirect after a tick so the page paints the fallback UI first.
+      setTimeout(function () {
+        window.location.replace(upiUrl);
+      }, 250);
+    })();
+  </script>
+</body>
+</html>
