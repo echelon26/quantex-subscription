@@ -286,35 +286,84 @@ def edit_message_reply_markup(chat_id, message_id, reply_markup=None):
     return telegram_api("editMessageReplyMarkup", payload)
 
 def create_invite_link(expire_hours=72):
-    """Create a single-use Telegram group invite link."""
+    """Create a single-use Telegram group invite link.
+
+    Uses time.time() instead of datetime.utcnow().timestamp() — the latter
+    treats a naive UTC datetime as local time and produces a wrong Unix
+    timestamp on any non-UTC host, which can result in expire_date in the
+    past (link born already-expired). time.time() is timezone-immune.
+    """
     if not TELEGRAM_GROUP_ID:
+        print("   create_invite_link: TELEGRAM_GROUP_ID is empty")
         return None
+    import time as _time
+    expire_date = int(_time.time()) + int(expire_hours * 3600)
     result = telegram_api("createChatInviteLink", {
         "chat_id": TELEGRAM_GROUP_ID,
         "member_limit": 1,
-        "expire_date": int((datetime.utcnow() + timedelta(hours=expire_hours)).timestamp()),
+        "expire_date": expire_date,
     })
     if result and result.get("ok"):
-        return result["result"]["invite_link"]
+        link = result["result"]["invite_link"]
+        # Log every successful creation — we want a paper trail when users
+        # report "expired on first tap" so we can correlate.
+        print(f"   create_invite_link OK: expire_date={expire_date} link={link}")
+        return link
+    err = (result or {}).get("description", "no response")
+    print(f"   create_invite_link FAILED: {err}")
     return None
 
-def remove_from_group(user_id):
-    """Remove user from Telegram group, then unban so they can rejoin later."""
+def unban_member(user_id):
+    """Unban a user (idempotent — Telegram noops if they aren't banned).
+
+    Critical to call BEFORE issuing a fresh invite link to a returning
+    customer: Telegram displays "this invite link has expired" to banned
+    users even on brand-new links, which makes the link look broken when
+    the real issue is the residual ban from a previous expiry sweep.
+    """
     if not TELEGRAM_GROUP_ID or not user_id:
         return False
-    result = telegram_api("banChatMember", {
-        "chat_id": TELEGRAM_GROUP_ID,
-        "user_id": int(user_id),
-        "revoke_messages": False,
-    })
-    if result and result.get("ok"):
-        telegram_api("unbanChatMember", {
+    try:
+        result = telegram_api("unbanChatMember", {
             "chat_id": TELEGRAM_GROUP_ID,
             "user_id": int(user_id),
             "only_if_banned": True,
         })
-        return True
-    return False
+        return bool(result and result.get("ok"))
+    except (ValueError, TypeError) as e:
+        print(f"   unban_member: bad user_id {user_id!r}: {e}")
+        return False
+
+
+def remove_from_group(user_id):
+    """Remove user from Telegram group, then unban so they can rejoin later.
+
+    Returns True only if BOTH the ban and the unban succeeded. The previous
+    version returned True after a successful ban regardless of whether the
+    unban worked — leaving users silently banned and producing the
+    "invite link has expired" symptom downstream when they tried to rejoin.
+    """
+    if not TELEGRAM_GROUP_ID or not user_id:
+        return False
+    ban = telegram_api("banChatMember", {
+        "chat_id": TELEGRAM_GROUP_ID,
+        "user_id": int(user_id),
+        "revoke_messages": False,
+    })
+    if not (ban and ban.get("ok")):
+        return False
+    if not unban_member(user_id):
+        # Ban succeeded but unban didn't — user is now stuck banned.
+        # Notify admin so they can intervene before the user gets stranded.
+        print(f"   ⚠️ remove_from_group: ban OK but unban FAILED for {user_id}")
+        notify_admin(
+            f"⚠️ <b>Unban failed for user</b> <code>{user_id}</code>\n"
+            f"They are now banned in the group. Manually unban them in "
+            f"the group settings or they will see \"link expired\" on every "
+            f"future invite link."
+        )
+        return False
+    return True
 
 def notify_admin(msg):
     if TELEGRAM_ADMIN_CHAT_ID:
@@ -641,6 +690,13 @@ def approve_order_action(order_id, subscribers):
     order["approved_at"] = now.isoformat()
     save_pending_orders(pending)
 
+    # CRITICAL: unban the user first. If they were previously kicked by the
+    # expiry sweep and the unban silently failed at that time, they are still
+    # banned now — and Telegram will show "this invite link has expired" on
+    # every brand-new link we issue. unban_member is idempotent.
+    if sub_user_id:
+        unban_member(sub_user_id)
+
     # Build the user's confirmation + invite link
     invite = create_invite_link(expire_hours=72)
     sub_msg = (
@@ -872,6 +928,10 @@ def process_telegram_updates():
                             "updated_at": now.isoformat(),
                         })
 
+                    # Idempotent unban — see approve_order_action note. A user
+                    # restarting after a past expiry sweep would otherwise see
+                    # "link expired" on this brand-new invite.
+                    unban_member(user_id)
                     # Create invite link
                     invite = create_invite_link(expire_hours=48)
 
@@ -961,6 +1021,8 @@ def process_telegram_updates():
                         "updated_at": now.isoformat(),
                     })
 
+                # Idempotent unban — see approve_order_action note.
+                unban_member(user_id)
                 invite = create_invite_link(expire_hours=48)
                 msg_text = f"🎉 Trial started! Ends on {trial_end.strftime('%d %b %Y')}.\n\n"
                 if invite:
@@ -1121,6 +1183,76 @@ def process_telegram_updates():
                 f"You are admin: <b>{'yes' if admin_match else 'no'}</b>"
             )
 
+        # ── Admin: /diag — full bot+group health check. Run this when users
+        # report "invite link expired" on first tap. It checks the four
+        # things that can cause that symptom: bot identity, group config,
+        # bot's admin status / invite permission in the group, and a live
+        # invite-link creation round-trip with the actual API response.
+        elif text == "/diag":
+            if not is_admin(chat_id, user_id):
+                send_message(chat_id, "⚠️ Unauthorized. Send /whoami to see your ids.")
+            else:
+                lines = ["🔬 <b>Diagnostics</b>\n"]
+                # 1. Bot identity
+                me = telegram_api("getMe")
+                if me and me.get("ok"):
+                    bot = me["result"]
+                    lines.append(f"• Bot: @{bot.get('username','?')} (id <code>{bot.get('id')}</code>)")
+                    bot_id = bot.get("id")
+                else:
+                    lines.append(f"• Bot: ❌ getMe failed — {(me or {}).get('description','no response')}")
+                    bot_id = None
+                # 2. Group config
+                if not TELEGRAM_GROUP_ID:
+                    lines.append("• Group: ❌ TELEGRAM_GROUP_ID is empty")
+                else:
+                    chat_info = telegram_api("getChat", {"chat_id": TELEGRAM_GROUP_ID})
+                    if chat_info and chat_info.get("ok"):
+                        c = chat_info["result"]
+                        lines.append(
+                            f"• Group: <code>{TELEGRAM_GROUP_ID}</code> "
+                            f"type=<b>{c.get('type','?')}</b> title={c.get('title','?')!r}"
+                        )
+                        if c.get("join_to_send_messages"):
+                            lines.append("  ⚠️ join_to_send_messages is ON")
+                        if c.get("join_by_request"):
+                            lines.append("  ⚠️ join_by_request is ON — links require admin approval")
+                    else:
+                        lines.append(
+                            f"• Group: ❌ getChat failed — {(chat_info or {}).get('description','no response')}"
+                        )
+                # 3. Bot's admin rights inside the group
+                if bot_id and TELEGRAM_GROUP_ID:
+                    member = telegram_api("getChatMember", {
+                        "chat_id": TELEGRAM_GROUP_ID, "user_id": bot_id
+                    })
+                    if member and member.get("ok"):
+                        m = member["result"]
+                        status = m.get("status", "?")
+                        lines.append(f"• Bot in group: status=<b>{status}</b>")
+                        if status == "administrator":
+                            lines.append(
+                                f"  can_invite_users=<b>{m.get('can_invite_users')}</b> "
+                                f"can_restrict_members=<b>{m.get('can_restrict_members')}</b>"
+                            )
+                            if not m.get("can_invite_users"):
+                                lines.append("  ❌ Missing can_invite_users — links will be born expired.")
+                        else:
+                            lines.append("  ❌ Bot is not an administrator. Make it admin.")
+                    else:
+                        lines.append(
+                            f"• Bot in group: ❌ getChatMember failed — "
+                            f"{(member or {}).get('description','no response')}"
+                        )
+                # 4. Live link round-trip
+                test_link = create_invite_link(expire_hours=1)
+                if test_link:
+                    lines.append(f"• Test link: ✅ <code>{test_link}</code>")
+                    lines.append("  (Single-use, valid 1h. Tap it yourself — if THIS shows expired, the bug is in Telegram's link issuance, not the user.)")
+                else:
+                    lines.append("• Test link: ❌ create_invite_link returned None (see workflow logs)")
+                send_message(chat_id, "\n".join(lines))
+
         # ── Admin: /approve ORDER_ID ──
         # NOTE: gate is split from the text match. If text starts with /approve
         # but the sender isn't admin, we now reply explicitly instead of
@@ -1208,6 +1340,8 @@ def process_telegram_updates():
                     send_message(chat_id, "Usage: /sendinvite USER_ID")
                 else:
                     target_user_id = parts[1].strip()
+                    # Idempotent unban first — see approve_order_action note.
+                    unban_member(target_user_id)
                     invite = create_invite_link(expire_hours=72)
                     if not invite:
                         send_message(chat_id, "❌ Could not create invite link (check TELEGRAM_GROUP_ID and bot permissions).")
