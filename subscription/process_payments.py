@@ -47,9 +47,27 @@ else:
     INSTAMOJO_BASE = "https://test.instamojo.com/api/1.1"
 
 # Telegram  (.strip() to remove accidental whitespace from GitHub Secrets)
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
-TELEGRAM_GROUP_ID = os.environ.get("TELEGRAM_GROUP_ID", "").strip()
-TELEGRAM_ADMIN_CHAT_ID = os.environ.get("TELEGRAM_ADMIN_CHAT_ID", "").strip()
+# Also strip stray quotes — a common foot-gun when secrets are pasted with
+# surrounding "" or '' characters, which previously caused /approve to silently
+# fail the admin check because '"123"' != '123'.
+def _clean_secret(value: str) -> str:
+    v = value.strip()
+    if len(v) >= 2 and v[0] == v[-1] and v[0] in ('"', "'"):
+        v = v[1:-1].strip()
+    return v
+
+TELEGRAM_BOT_TOKEN = _clean_secret(os.environ.get("TELEGRAM_BOT_TOKEN", ""))
+TELEGRAM_GROUP_ID = _clean_secret(os.environ.get("TELEGRAM_GROUP_ID", ""))
+TELEGRAM_ADMIN_CHAT_ID = _clean_secret(os.environ.get("TELEGRAM_ADMIN_CHAT_ID", ""))
+
+
+def is_admin(chat_id, user_id) -> bool:
+    """Admin gate: match either the chat_id (private DM) or the sender's user_id
+    against TELEGRAM_ADMIN_CHAT_ID. Previously only chat_id was checked, which
+    silently no-op'd /approve whenever the env var was unset/quoted/mismatched."""
+    if not TELEGRAM_ADMIN_CHAT_ID:
+        return False
+    return str(chat_id) == TELEGRAM_ADMIN_CHAT_ID or str(user_id) == TELEGRAM_ADMIN_CHAT_ID
 
 # WhatsApp
 WHATSAPP_INVITE_LINK = os.environ.get("WHATSAPP_INVITE_LINK", "").strip()
@@ -745,15 +763,24 @@ def process_telegram_updates():
 
         # ── /help ──
         elif text == "/help":
-            send_message(chat_id,
+            help_text = (
                 f"📊 <b>Quantex Scanner Bot</b>\n\n"
                 f"/trial — Start 3-day free trial\n"
                 f"/subscribe — Subscribe to a paid plan\n"
                 f"/status — Check subscription status\n"
+                f"/whoami — Show your chat_id / user_id\n"
                 f"/help — Show this message\n\n"
                 f"After your trial, subscribe to keep receiving "
                 f"daily pre-market reports at 8:00 AM IST!"
             )
+            if is_admin(chat_id, user_id):
+                help_text += (
+                    "\n\n<b>Admin commands</b>\n"
+                    "/pending — List pending orders\n"
+                    "/approve QTX-XXXX — Approve a pending order\n"
+                    "/sendinvite USER_ID — Send a group invite to a user"
+                )
+            send_message(chat_id, help_text)
 
         # ── /subscribe or /start subscribe ──
         elif text in ("/subscribe", "/start subscribe") or (text.startswith("/start") and "subscribe" in text):
@@ -826,8 +853,45 @@ def process_telegram_updates():
                 f"Status: ⏳ Awaiting payment"
             )
 
+        # ── /whoami — anyone can call this. Diagnostic for the admin to verify
+        # their chat_id matches TELEGRAM_ADMIN_CHAT_ID. Without this it's painful
+        # to debug why /approve "does nothing".
+        elif text == "/whoami":
+            admin_set = "yes" if TELEGRAM_ADMIN_CHAT_ID else "no"
+            admin_match = is_admin(chat_id, user_id)
+            send_message(chat_id,
+                f"🪪 <b>Identity</b>\n\n"
+                f"chat_id: <code>{chat_id}</code>\n"
+                f"user_id: <code>{user_id}</code>\n"
+                f"username: @{username or '—'}\n\n"
+                f"Admin env set: <b>{admin_set}</b>\n"
+                f"You are admin: <b>{'yes' if admin_match else 'no'}</b>"
+            )
+
         # ── Admin: /approve ORDER_ID ──
-        elif text.startswith("/approve ") and str(chat_id) == TELEGRAM_ADMIN_CHAT_ID:
+        # NOTE: gate is split from the text match. If text starts with /approve
+        # but the sender isn't admin, we now reply explicitly instead of
+        # silently consuming the message (which previously left admins thinking
+        # the bot had ignored their /approve and left orders stuck in pending).
+        elif text.startswith("/approve"):
+            if not is_admin(chat_id, user_id):
+                print(f"   /approve from non-admin: chat_id={chat_id} user_id={user_id} "
+                      f"expected={TELEGRAM_ADMIN_CHAT_ID!r}")
+                send_message(chat_id,
+                    f"⚠️ <b>Unauthorized.</b>\n\n"
+                    f"Your chat_id: <code>{chat_id}</code>\n"
+                    f"Your user_id: <code>{user_id}</code>\n\n"
+                    f"If you are the admin, set TELEGRAM_ADMIN_CHAT_ID to one of "
+                    f"the values above (no quotes) in repo Secrets and re-run."
+                )
+                # fall through — no further handling for this message
+                if username:
+                    for s in subscribers:
+                        if s.get("telegram_username") == username and not s.get("telegram_user_id"):
+                            s["telegram_user_id"] = user_id
+                            s["updated_at"] = datetime.utcnow().isoformat()
+                continue
+
             parts = text.split()
             if len(parts) < 2:
                 send_message(chat_id, "Usage: /approve QTX-XXXX")
@@ -932,20 +996,49 @@ def process_telegram_updates():
                     )
 
         # ── Admin: /pending — show pending orders ──
-        elif text == "/pending" and str(chat_id) == TELEGRAM_ADMIN_CHAT_ID:
-            pending = load_pending_orders()
-            active_pending = [p for p in pending if p.get("status") == "pending"]
-            if not active_pending:
-                send_message(chat_id, "No pending orders.")
+        elif text == "/pending":
+            if not is_admin(chat_id, user_id):
+                send_message(chat_id, "⚠️ Unauthorized. Send /whoami to see your ids.")
             else:
-                msg_text = f"🛒 <b>Pending Orders ({len(active_pending)})</b>\n\n"
-                for p in active_pending:
-                    msg_text += (
-                        f"<code>{p['order_id']}</code> — {p['first_name']} (@{p['username']})\n"
-                        f"   {p['plan'].title()} ₹{p['amount']} | {p['created_at'][:16]}\n"
-                        f"   → /approve {p['order_id']}\n\n"
-                    )
-                send_message(chat_id, msg_text)
+                pending = load_pending_orders()
+                active_pending = [p for p in pending if p.get("status") == "pending"]
+                if not active_pending:
+                    send_message(chat_id, "No pending orders.")
+                else:
+                    msg_text = f"🛒 <b>Pending Orders ({len(active_pending)})</b>\n\n"
+                    for p in active_pending:
+                        msg_text += (
+                            f"<code>{p['order_id']}</code> — {p['first_name']} (@{p['username']})\n"
+                            f"   {p['plan'].title()} ₹{p['amount']} | {p['created_at'][:16]}\n"
+                            f"   → /approve {p['order_id']}\n\n"
+                        )
+                    send_message(chat_id, msg_text)
+
+        # ── Admin: /sendinvite USER_ID — one-shot recovery for cases where
+        # /approve previously fell through silently and the user never got a
+        # group invite link. Creates a fresh single-use 72h link and DMs it.
+        elif text.startswith("/sendinvite"):
+            if not is_admin(chat_id, user_id):
+                send_message(chat_id, "⚠️ Unauthorized. Send /whoami to see your ids.")
+            else:
+                parts = text.split()
+                if len(parts) < 2:
+                    send_message(chat_id, "Usage: /sendinvite USER_ID")
+                else:
+                    target_user_id = parts[1].strip()
+                    invite = create_invite_link(expire_hours=72)
+                    if not invite:
+                        send_message(chat_id, "❌ Could not create invite link (check TELEGRAM_GROUP_ID and bot permissions).")
+                    else:
+                        sent = send_message(target_user_id,
+                            f"📲 <b>Your Quantex group invite</b>\n\n{invite}\n\n"
+                            f"This is a single-use link valid for 72 hours."
+                        )
+                        if sent and sent.get("ok"):
+                            send_message(chat_id, f"✅ Invite sent to <code>{target_user_id}</code>")
+                        else:
+                            err = (sent or {}).get("description", "unknown error")
+                            send_message(chat_id, f"❌ Could not DM <code>{target_user_id}</code>: {err}")
 
         # ── Photo received (payment screenshot) ──
         elif msg.get("photo"):
