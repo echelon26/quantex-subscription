@@ -3,22 +3,25 @@
 Quantex Subscription Manager — GitHub Actions Edition
 No server needed. Runs entirely via GitHub Actions cron.
 
+Payment flow: user picks plan → bot generates UPI QR/deep-link → user pays
+and sends a screenshot → admin taps Approve in Telegram → bot activates the
+subscriber, records the payment, DMs the group invite link.
+
 This script:
-1. Polls Instamojo API for new payments
-2. Matches payments to subscribers
-3. Activates subscriptions in subscribers.json
-4. Sends Telegram group invite links to new subscribers
-5. Sends WhatsApp community invite link
+1. Polls Telegram for messages and inline-button taps
+2. Activates subscriptions in subscribers.json on admin approval
+3. Sends Telegram group invite links to new subscribers
+4. Sends WhatsApp community invite link
+5. Sweeps expired subscribers and removes them from the group
 6. Commits updated JSON back to the repo
 
 Environment Variables (set as GitHub Secrets):
-  INSTAMOJO_API_KEY      — Instamojo API key
-  INSTAMOJO_AUTH_TOKEN   — Instamojo auth token
-  INSTAMOJO_ENV          — 'production' or 'test' (default: test)
   TELEGRAM_BOT_TOKEN     — Telegram bot token
   TELEGRAM_GROUP_ID      — Subscriber group chat ID
   TELEGRAM_ADMIN_CHAT_ID — Admin notification chat ID
   WHATSAPP_INVITE_LINK   — WhatsApp community invite link
+  UPI_ID                 — Receiving UPI VPA (required for /subscribe)
+  UPI_NAME               — Optional display name on the UPI deep-link
 """
 
 import os
@@ -35,16 +38,6 @@ import requests
 BASE_DIR = Path(__file__).parent
 SUBSCRIBERS_FILE = BASE_DIR / "subscribers.json"
 PAYMENTS_FILE = BASE_DIR / "payments.json"
-
-# Instamojo  (.strip() to remove accidental whitespace from GitHub Secrets)
-INSTAMOJO_API_KEY = os.environ.get("INSTAMOJO_API_KEY", "").strip()
-INSTAMOJO_AUTH_TOKEN = os.environ.get("INSTAMOJO_AUTH_TOKEN", "").strip()
-INSTAMOJO_ENV = os.environ.get("INSTAMOJO_ENV", "test").strip()
-
-if INSTAMOJO_ENV == "production":
-    INSTAMOJO_BASE = "https://www.instamojo.com/api/1.1"
-else:
-    INSTAMOJO_BASE = "https://test.instamojo.com/api/1.1"
 
 # Telegram  (.strip() to remove accidental whitespace from GitHub Secrets)
 # Also strip stray quotes — a common foot-gun when secrets are pasted with
@@ -153,6 +146,32 @@ def build_upi_link(upi_id, name, amount, order_id):
     parts.append(f"tn={quote(str(order_id), safe='')}")
     return "upi://pay?" + "&".join(parts)
 
+
+# Public HTTPS redirect page that hands off to upi://. Telegram on mobile
+# refuses to open bare upi:// links from message text reliably, but it
+# opens https:// fine — and the page does the upi:// hand-off in the
+# browser, which the OS dispatches to GPay/PhonePe/etc.
+# Override via PAY_REDIRECT_URL env if you ever move the page elsewhere.
+PAY_REDIRECT_URL = os.environ.get(
+    "PAY_REDIRECT_URL", "https://quantex.cibronix.com/pay.html"
+).strip()
+
+
+def build_upi_https_link(upi_id, name, amount, order_id):
+    """Build the HTTPS redirect URL that lands on pay.html and forwards to upi://.
+    Uses the same query params as the upi:// scheme so pay.html can rebuild
+    the deep-link cleanly."""
+    from urllib.parse import quote
+    if not upi_id:
+        raise ValueError("UPI_ID is not configured (set the UPI_ID GitHub secret)")
+    parts = [f"pa={quote(str(upi_id), safe='')}"]
+    if name:
+        parts.append(f"pn={quote(str(name), safe='')}")
+    parts.append(f"am={quote(str(amount), safe='')}")
+    parts.append("cu=INR")
+    parts.append(f"tn={quote(str(order_id), safe='')}")
+    return f"{PAY_REDIRECT_URL}?" + "&".join(parts)
+
 def generate_upi_qr(upi_id, name, amount, order_id):
     """Generate UPI QR code image and return the file path."""
     try:
@@ -199,38 +218,6 @@ def load_pending_orders():
 def save_pending_orders(orders):
     """Save pending UPI payment orders."""
     save_json(PENDING_ORDERS_FILE, orders)
-
-
-# ═══════════════════════════════════════════════════════════════
-# INSTAMOJO API
-# ═══════════════════════════════════════════════════════════════
-
-def instamojo_headers():
-    return {
-        "X-Api-Key": INSTAMOJO_API_KEY,
-        "X-Auth-Token": INSTAMOJO_AUTH_TOKEN,
-    }
-
-def fetch_recent_payments():
-    """Fetch recent payments from Instamojo API."""
-    if not INSTAMOJO_API_KEY or not INSTAMOJO_AUTH_TOKEN:
-        print("!! Instamojo credentials not set. Skipping payment fetch.")
-        return []
-
-    url = f"{INSTAMOJO_BASE}/payments/"
-    try:
-        resp = requests.get(url, headers=instamojo_headers(), timeout=30)
-        if resp.ok:
-            data = resp.json()
-            payments = data.get("payments", [])
-            print(f">> Fetched {len(payments)} payments from Instamojo")
-            return payments
-        else:
-            print(f"!! Instamojo API error: {resp.status_code} {resp.text[:200]}")
-            return []
-    except Exception as e:
-        print(f"!! Instamojo fetch error: {e}")
-        return []
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -371,153 +358,11 @@ def notify_admin(msg):
 
 
 # ═══════════════════════════════════════════════════════════════
-# 1. PROCESS NEW PAYMENTS
+# (Instamojo polling removed — UPI flow in process_telegram_updates is the
+# active payment path: user sends screenshot → admin taps Approve →
+# approve_order_action records the payment and DMs the invite link.)
 # ═══════════════════════════════════════════════════════════════
 
-def process_payments():
-    """Check Instamojo for new payments and activate subscriptions."""
-    print("\n" + "="*60)
-    print("  QUANTEX — PROCESS NEW PAYMENTS")
-    print("="*60)
-
-    subscribers = load_json(SUBSCRIBERS_FILE)
-    known_payments = load_json(PAYMENTS_FILE)
-    known_ids = {p["payment_id"] for p in known_payments}
-
-    new_payments = fetch_recent_payments()
-    activated = 0
-
-    for pay in new_payments:
-        pid = pay.get("payment_id", "")
-        status = pay.get("status", "")
-
-        # Skip already processed or failed payments
-        if pid in known_ids or status != "Credit":
-            continue
-
-        amount = float(pay.get("amount", 0))
-        buyer_name = pay.get("buyer_name", "Unknown")
-        buyer_email = pay.get("buyer_email", "")
-        buyer_phone = pay.get("buyer_phone", "")
-
-        print(f"\n>> New payment: {pid}")
-        print(f"   Name: {buyer_name}, Email: {buyer_email}, Phone: {buyer_phone}")
-        print(f"   Amount: ₹{amount}, Status: {status}")
-
-        # Determine plan from amount
-        amount_int = int(amount)
-        plan_info = PLANS.get(amount_int)
-        if not plan_info:
-            print(f"   !! Unknown amount ₹{amount} — skipping")
-            notify_admin(f"⚠️ Unknown payment amount ₹{amount} from {buyer_name} ({buyer_email})")
-            # Still record it
-            known_payments.append({
-                "payment_id": pid,
-                "amount": amount,
-                "buyer_name": buyer_name,
-                "buyer_email": buyer_email,
-                "buyer_phone": buyer_phone,
-                "status": "unknown_amount",
-                "processed_at": datetime.utcnow().isoformat(),
-            })
-            continue
-
-        now = datetime.utcnow()
-
-        # Find existing subscriber by email or phone
-        sub = None
-        for s in subscribers:
-            if s.get("email") == buyer_email or s.get("phone") == buyer_phone:
-                sub = s
-                break
-
-        if sub:
-            # Extend existing subscription
-            current_end = datetime.fromisoformat(sub["subscription_end"])
-            if current_end < now:
-                current_end = now
-            new_end = current_end + timedelta(days=plan_info["days"])
-            sub["plan"] = plan_info["name"]
-            sub["status"] = "active"
-            sub["subscription_end"] = new_end.isoformat()
-            sub["updated_at"] = now.isoformat()
-            sub["name"] = buyer_name  # Update in case changed
-            print(f"   Extended {buyer_name} — {plan_info['label']} until {new_end.strftime('%d %b %Y')}")
-        else:
-            # New subscriber
-            new_end = now + timedelta(days=plan_info["days"])
-            sub = {
-                "name": buyer_name,
-                "email": buyer_email,
-                "phone": buyer_phone,
-                "telegram_username": "",
-                "telegram_user_id": "",
-                "plan": plan_info["name"],
-                "status": "active",
-                "subscription_start": now.isoformat(),
-                "subscription_end": new_end.isoformat(),
-                "trial_used": False,
-                "created_at": now.isoformat(),
-                "updated_at": now.isoformat(),
-            }
-            subscribers.append(sub)
-            print(f"   New subscriber: {buyer_name} — {plan_info['label']} until {new_end.strftime('%d %b %Y')}")
-
-        # Create Telegram invite link
-        invite_link = create_invite_link(expire_hours=72)
-
-        # Send welcome message with invite links
-        welcome = (
-            f"🎉 <b>Welcome to Quantex Scanner!</b>\n\n"
-            f"Hi <b>{buyer_name}</b>, your <b>{plan_info['label']}</b> subscription is now active!\n\n"
-        )
-        if invite_link:
-            welcome += f"📲 <b>Join Telegram Group:</b>\n{invite_link}\n\n"
-        if WHATSAPP_INVITE_LINK:
-            welcome += f"💬 <b>Join WhatsApp Community:</b>\n{WHATSAPP_INVITE_LINK}\n\n"
-        welcome += (
-            f"Your subscription is valid until <b>{new_end.strftime('%d %b %Y')}</b>.\n"
-            f"Reports are delivered every weekday at 8:00 AM IST.\n\n"
-            f"Send /status to check your subscription anytime."
-        )
-
-        # Send via email notification (Instamojo sends receipt automatically)
-        # Send to Telegram if we have their user_id
-        if sub.get("telegram_user_id"):
-            send_message(sub["telegram_user_id"], welcome)
-
-        # Notify admin
-        notify_admin(
-            f"💰 <b>New Payment!</b>\n\n"
-            f"Name: {buyer_name}\n"
-            f"Plan: {plan_info['label']} (₹{amount_int})\n"
-            f"Email: {buyer_email}\n"
-            f"Phone: {buyer_phone}\n"
-            f"Active until: {new_end.strftime('%d %b %Y')}\n"
-            f"Payment ID: {pid}"
-        )
-
-        # Record payment
-        known_payments.append({
-            "payment_id": pid,
-            "amount": amount,
-            "plan": plan_info["name"],
-            "buyer_name": buyer_name,
-            "buyer_email": buyer_email,
-            "buyer_phone": buyer_phone,
-            "status": "activated",
-            "subscription_end": new_end.isoformat(),
-            "processed_at": now.isoformat(),
-        })
-
-        activated += 1
-
-    # Save
-    save_json(SUBSCRIBERS_FILE, subscribers)
-    save_json(PAYMENTS_FILE, known_payments)
-
-    print(f"\n>> Processed: {activated} new subscriptions activated")
-    return activated
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -1111,13 +956,15 @@ def process_telegram_updates():
             save_pending_orders(pending)
 
             upi_link = build_upi_link(UPI_ID, UPI_NAME, amount, order_id)
-            # HTML-escape the link for safe inclusion in <a href="…">.
+            https_link = build_upi_https_link(UPI_ID, UPI_NAME, amount, order_id)
+            # HTML-escape both links for safe inclusion in <a href="…">.
             # Without this, Telegram's HTML parser sees the unescaped `&` as
             # the start of an entity and silently truncates the href at the
             # first `&` — which breaks UPI deep-links (everything after `pa=…`
             # gets dropped, including amount and note).
             from html import escape as _html_escape
             upi_link_attr = _html_escape(upi_link, quote=True)
+            https_link_attr = _html_escape(https_link, quote=True)
 
             # Generate and send QR code
             qr_path = generate_upi_qr(UPI_ID, UPI_NAME, amount, order_id)
@@ -1150,14 +997,17 @@ def process_telegram_updates():
                 f"⏰ Your subscription will be activated within 5 minutes after verification, "
                 f"and you'll receive your private Telegram group invite link here as soon as "
                 f"the payment is verified.\n\n"
-                # NOTE: href uses double quotes (Telegram drops single-quoted
-                # hrefs) and the URL is HTML-escaped (the raw `&` between query
-                # params would otherwise truncate the link).
-                f'📲 <a href="{upi_link_attr}">Tap here to pay via UPI app</a>\n'
-                # Fallback for desktop/web users where upi:// can't open any
-                # app: a tap-to-copy plain-text version of the same link.
-                f'<i>(Desktop/web? Long-press to copy this link and paste in '
-                f'your UPI app:)</i>\n<code>{upi_link_attr}</code>'
+                # The clickable button uses an HTTPS redirect URL on our own
+                # domain (pay.html) which then hands off to upi:// in the
+                # browser. Telegram on mobile blocks/breaks bare upi:// links
+                # in message text, but opens https:// cleanly — and the
+                # browser successfully dispatches the upi:// hand-off to
+                # GPay/PhonePe/Paytm. The bare upi:// is still shown below
+                # in <code> as a manual fallback for power users on desktop.
+                f'📲 <a href="{https_link_attr}">Tap here to pay via UPI app</a>\n\n'
+                f'<i>Manual fallback (copy this into your UPI app if the '
+                f'button above does not open):</i>\n'
+                f'<code>{upi_link_attr}</code>'
             )
 
             notify_admin(
@@ -1453,24 +1303,23 @@ def print_stats():
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage:")
-        print("  python process_payments.py payments   — Poll Instamojo + activate")
-        print("  python process_payments.py expiry     — Check expiry + remove")
-        print("  python process_payments.py telegram   — Process bot messages")
-        print("  python process_payments.py all        — Run everything")
-        print("  python process_payments.py stats      — Show stats")
+        print("  python process_payments.py expiry   — Check expiry + remove")
+        print("  python process_payments.py telegram — Process bot messages")
+        print("  python process_payments.py all      — Run telegram + stats")
+        print("  python process_payments.py stats    — Show stats")
         sys.exit(1)
 
     cmd = sys.argv[1]
 
-    if cmd == "payments":
-        process_payments()
+    # Back-compat: "payments" used to mean "poll Instamojo". Instamojo path is
+    # gone — UPI flow runs inside process_telegram_updates. Forward old "payments"
+    # invocations there so any cron jobs / docs still using the old name keep working.
+    if cmd in ("payments", "telegram"):
+        process_telegram_updates()
     elif cmd == "expiry":
         check_expiry()
-    elif cmd == "telegram":
-        process_telegram_updates()
     elif cmd == "all":
         process_telegram_updates()
-        process_payments()
         print_stats()
     elif cmd == "stats":
         print_stats()
