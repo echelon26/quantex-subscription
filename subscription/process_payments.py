@@ -54,12 +54,40 @@ TELEGRAM_ADMIN_CHAT_ID = os.environ.get("TELEGRAM_ADMIN_CHAT_ID", "").strip()
 # WhatsApp
 WHATSAPP_INVITE_LINK = os.environ.get("WHATSAPP_INVITE_LINK", "").strip()
 
-# Plans — must match your Instamojo payment link titles/amounts
+# Plans — single source of truth for pricing. Both the Telegram menu text
+# and the "1"/"2"/"3" reply mapping are derived from this dict, so prices
+# can't drift between display and what we actually charge.
+# `months` is the period denominator for the per-month display in the menu.
 PLANS = {
-    99:   {"name": "monthly",   "days": 30,  "label": "Monthly"},
-    299:  {"name": "quarterly", "days": 90,  "label": "Quarterly"},
-    799:  {"name": "yearly",    "days": 365, "label": "Yearly"},
+    99:  {"name": "monthly",   "days": 30,  "months": 1,  "label": "Monthly",   "menu_key": "1"},
+    199: {"name": "quarterly", "days": 90,  "months": 3,  "label": "Quarterly", "menu_key": "2"},
+    499: {"name": "yearly",    "days": 365, "months": 12, "label": "Yearly",    "menu_key": "3"},
 }
+
+# Stable iteration order for display + menu mapping.
+PLAN_ORDER = [99, 199, 499]
+
+def subscription_plans_text():
+    """Render the Telegram subscription menu from PLANS so display & charge can't drift."""
+    lines = ["📊 <b>Quantex Subscription Plans</b>\n"]
+    emojis = {"1": "1️⃣", "2": "2️⃣", "3": "3️⃣"}
+    fire = {"yearly": " 🔥"}
+    for amount in PLAN_ORDER:
+        p = PLANS[amount]
+        period = {1: "month", 3: "quarter", 12: "year"}.get(p["months"], "period")
+        per_mo = round(amount / p["months"]) if p["months"] > 1 else None
+        suffix = f" (₹{per_mo}/mo)" if per_mo is not None else ""
+        lines.append(
+            f"{emojis[p['menu_key']]} <b>{p['label']}</b> — ₹{amount}/{period}{suffix}{fire.get(p['name'], '')}"
+        )
+    lines.append("\nReply with the plan number:")
+    for amount in PLAN_ORDER:
+        p = PLANS[amount]
+        lines.append(f"<b>{p['menu_key']}</b> for {p['label']}")
+    return "\n".join(lines)
+
+# {"1": 99, "2": 199, "3": 499} — derived from PLANS, not hardcoded.
+PLAN_MENU_MAP = {p["menu_key"]: amount for amount, p in PLANS.items()}
 
 TRIAL_DAYS = 3
 
@@ -621,16 +649,7 @@ def process_telegram_updates():
 
             elif arg == "subscribe":
                 # Route to subscribe flow — handled below in /subscribe block
-                send_message(chat_id,
-                    f"📊 <b>Quantex Subscription Plans</b>\n\n"
-                    f"1️⃣ <b>Monthly</b> — ₹149/month\n"
-                    f"2️⃣ <b>Quarterly</b> — ₹399/quarter (₹133/mo)\n"
-                    f"3️⃣ <b>Yearly</b> — ₹999/year (₹83/mo) 🔥\n\n"
-                    f"Reply with the plan number:\n"
-                    f"<b>1</b> for Monthly\n"
-                    f"<b>2</b> for Quarterly\n"
-                    f"<b>3</b> for Yearly"
-                )
+                send_message(chat_id, subscription_plans_text())
             else:
                 # Regular /start
                 send_message(chat_id,
@@ -738,21 +757,11 @@ def process_telegram_updates():
 
         # ── /subscribe or /start subscribe ──
         elif text in ("/subscribe", "/start subscribe") or (text.startswith("/start") and "subscribe" in text):
-            send_message(chat_id,
-                f"📊 <b>Quantex Subscription Plans</b>\n\n"
-                f"1️⃣ <b>Monthly</b> — ₹99/month\n"
-                f"2️⃣ <b>Quarterly</b> — ₹299/quarter (₹100/mo)\n"
-                f"3️⃣ <b>Yearly</b> — ₹799/year (₹67/mo) 🔥\n\n"
-                f"Reply with the plan number:\n"
-                f"<b>1</b> for Monthly\n"
-                f"<b>2</b> for Quarterly\n"
-                f"<b>3</b> for Yearly"
-            )
+            send_message(chat_id, subscription_plans_text())
 
         # ── Plan selection (1, 2, 3) ──
-        elif text in ("1", "2", "3"):
-            plan_map = {"1": 99, "2": 299, "3": 799}
-            amount = plan_map[text]
+        elif text in PLAN_MENU_MAP:
+            amount = PLAN_MENU_MAP[text]
             plan = PLANS[amount]
             order_id = generate_order_id()
 
