@@ -63,9 +63,11 @@ PLANS = {
 
 TRIAL_DAYS = 3
 
-# UPI Payment Config
-UPI_ID = os.environ.get("UPI_ID", "jiten.choudhary373@oksbi").strip()
-UPI_NAME = os.environ.get("UPI_NAME", "JITENDRA CHOUDHARY").strip()
+# UPI Payment Config — UPI_ID is required, UPI_NAME is optional display hint.
+# No hardcoded fallbacks: a misconfigured secret should fail loudly, not silently
+# route to someone else's VPA.
+UPI_ID = os.environ.get("UPI_ID", "").strip()
+UPI_NAME = os.environ.get("UPI_NAME", "").strip()
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -89,13 +91,28 @@ def generate_order_id():
     code = ''.join(random.choices(chars, k=4))
     return f"QTX-{code}"
 
+def build_upi_link(upi_id, name, amount, order_id):
+    """Build a properly URL-encoded upi:// deep-link.
+    `name` is optional — omitted from the link if empty/None."""
+    from urllib.parse import quote
+
+    if not upi_id:
+        raise ValueError("UPI_ID is not configured (set the UPI_ID GitHub secret)")
+
+    parts = [f"pa={quote(str(upi_id), safe='')}"]
+    if name:
+        parts.append(f"pn={quote(str(name), safe='')}")
+    parts.append(f"am={quote(str(amount), safe='')}")
+    parts.append("cu=INR")
+    parts.append(f"tn={quote(str(order_id), safe='')}")
+    return "upi://pay?" + "&".join(parts)
+
 def generate_upi_qr(upi_id, name, amount, order_id):
     """Generate UPI QR code image and return the file path."""
     try:
         import qrcode
-        from io import BytesIO
 
-        upi_string = f"upi://pay?pa={upi_id}&pn={name}&am={amount}&cu=INR&tn={order_id}"
+        upi_string = build_upi_link(upi_id, name, amount, order_id)
 
         qr = qrcode.QRCode(version=1, error_correction=qrcode.constants.ERROR_CORRECT_H, box_size=10, border=4)
         qr.add_data(upi_string)
@@ -106,7 +123,10 @@ def generate_upi_qr(upi_id, name, amount, order_id):
         img.save(str(qr_path))
         return str(qr_path)
     except Exception as e:
-        print(f"   QR generation error: {e}")
+        # Surface the full traceback — silent failures here cost us hours.
+        import traceback as _tb
+        print(f"   QR generation error: {type(e).__name__}: {e}")
+        _tb.print_exc()
         return None
 
 def send_photo(chat_id, photo_path, caption=""):
@@ -755,7 +775,7 @@ def process_telegram_updates():
             pending = [p for p in pending if p.get("created_at", "") > cutoff or p.get("status") == "approved"]
             save_pending_orders(pending)
 
-            upi_link = f"upi://pay?pa={UPI_ID}&pn={UPI_NAME}&am={amount}&cu=INR&tn={order_id}"
+            upi_link = build_upi_link(UPI_ID, UPI_NAME, amount, order_id)
 
             # Generate and send QR code
             qr_path = generate_upi_qr(UPI_ID, UPI_NAME, amount, order_id)
