@@ -990,26 +990,19 @@ def process_telegram_updates():
                 f"<b>Note/Remark:</b> <code>{order_id}</code>\n"
                 f"━━━━━━━━━━━━━━━━━━━━\n\n"
                 f"📱 <b>Steps:</b>\n"
-                f"1. Scan the QR code above, OR\n"
-                f"2. Pay ₹{amount} to <code>{UPI_ID}</code>\n"
-                f"3. Add <code>{order_id}</code> in payment note/remark\n"
-                f"4. Send payment screenshot here\n\n"
+                # Step 1 inlines the HTTPS pay link as the alternative to QR
+                # scanning, so users have one action: scan OR tap. Both lead
+                # to the same UPI payment. The HTTPS link goes to pay.html
+                # which hands off to upi:// in the browser — Telegram on
+                # mobile blocks bare upi:// links from message text but opens
+                # https:// cleanly, then the OS dispatches the upi:// to
+                # GPay/PhonePe/Paytm.
+                f'1. Scan the QR code above, OR '
+                f'📲 <a href="{https_link_attr}">Tap here to pay via UPI app</a>\n'
+                f"2. Send payment screenshot here\n\n"
                 f"⏰ Your subscription will be activated within 5 minutes after verification, "
                 f"and you'll receive your private Telegram group invite link here as soon as "
-                f"the payment is verified.\n\n"
-                # The clickable button opens an HTTPS picker page (pay.html)
-                # that lets the user choose GPay / PhonePe / Paytm / BHIM
-                # explicitly. Why a picker instead of a single auto-redirect:
-                # on iOS the first app to register `upi://` owns the scheme
-                # OS-wide, and many users have WhatsApp Pay enabled, which
-                # then hijacks every upi:// hand-off to WhatsApp. App-specific
-                # schemes (tez://, phonepe://, paytmmp://) bypass that
-                # arbitration entirely. The bare upi:// stays as a manual
-                # copy-paste fallback for desktop.
-                f'📲 <a href="{https_link_attr}">Tap to pick your UPI app</a>\n\n'
-                f'<i>Manual fallback (copy this into your UPI app if the '
-                f'picker page does not open the right app):</i>\n'
-                f'<code>{upi_link_attr}</code>'
+                f"the payment is verified."
             )
 
             notify_admin(
