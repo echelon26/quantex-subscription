@@ -127,6 +127,39 @@ PLAN_MENU_MAP = {p["menu_key"]: amount for amount, p in PLANS.items()}
 
 TRIAL_DAYS = 3
 
+
+def trial_end_datetime(start: "datetime", business_days: int = TRIAL_DAYS) -> "datetime":
+    """Return end-of-day on the Nth business day from `start`.
+
+    Indian markets run Mon-Fri only — counting calendar days for a 3-day
+    trial means a Saturday signup expires on Tuesday with at most 2 actual
+    8 AM reports delivered (Mon, Tue), the user feeling cheated. Counting
+    business days instead guarantees the user sees 3 weekday reports.
+
+    Rules:
+      • If `start` is a weekday, that day counts as day 1.
+      • If `start` is Sat/Sun, day 1 is the following Monday.
+      • Saturdays and Sundays in between are skipped.
+      • Result is set to 23:59:59 of the Nth business day so the
+        subscription is "active" for the entirety of the last day.
+
+    NOTE: this does NOT account for NSE holidays. A holiday-aware version
+    would import the NSE calendar; for now the cost of being slightly
+    generous (e.g. trial expires on a Republic Day) is one extra free day,
+    which is acceptable.
+    """
+    current = start
+    # Walk forward to the first weekday — that becomes day 1.
+    while current.weekday() >= 5:  # 5 = Sat, 6 = Sun
+        current += timedelta(days=1)
+    # We now have day 1; count (N-1) more weekdays.
+    remaining = business_days - 1
+    while remaining > 0:
+        current += timedelta(days=1)
+        if current.weekday() < 5:
+            remaining -= 1
+    return current.replace(hour=23, minute=59, second=59, microsecond=0)
+
 # UPI Payment Config — UPI_ID is required, UPI_NAME is optional display hint.
 # No hardcoded fallbacks: a misconfigured secret should fail loudly, not silently
 # route to someone else's VPA.
@@ -394,6 +427,30 @@ def notify_admin(msg):
 # 2. CHECK EXPIRY — SEND ALERTS & REMOVE EXPIRED
 # ═══════════════════════════════════════════════════════════════
 
+def renewal_block():
+    """Render the plan-list block used in expiry / farewell messages.
+
+    Pulls from PLANS so the prices in dunning messages can never drift
+    from /subscribe. Each plan is prefixed with its menu_key (1/2/3)
+    and reply digit — the existing PLAN_MENU_MAP handler triggers on
+    those digits, so the user can renew with a one-keystroke reply
+    instead of typing /subscribe and then picking a number.
+    """
+    cheapest_per_mo = min(amount / PLANS[amount]["months"] for amount in PLAN_ORDER)
+    emojis = {"1": "1️⃣", "2": "2️⃣", "3": "3️⃣"}
+    lines = ["<b>Renew with one tap — reply with the plan number:</b>"]
+    for amount in PLAN_ORDER:
+        p = PLANS[amount]
+        per_mo = round(amount / p["months"]) if p["months"] > 1 else None
+        suffix = f" (₹{per_mo}/mo)" if per_mo is not None else ""
+        flame = " 🔥" if (amount / p["months"]) == cheapest_per_mo and p["months"] > 1 else ""
+        emoji = emojis.get(p["menu_key"], p["menu_key"])
+        lines.append(
+            f"  Type <b>{p['menu_key']}</b> {emoji} <b>{p['label']}</b> — ₹{amount}{suffix}{flame}"
+        )
+    return "\n".join(lines)
+
+
 def check_expiry():
     """Send expiry alerts and remove expired subscribers."""
     print("\n" + "="*60)
@@ -417,12 +474,14 @@ def check_expiry():
             print(f"\n>> EXPIRED: {sub['name']} ({sub.get('plan', '?')})")
 
             if sub.get("telegram_user_id"):
-                # Send farewell
+                # Send farewell with concrete renewal options — users who see
+                # exact prices and a one-command CTA convert noticeably better
+                # than ones who see "resubscribe anytime" and have to guess.
                 send_message(sub["telegram_user_id"],
                     f"👋 Hi <b>{sub['name']}</b>,\n\n"
-                    f"Your Quantex subscription has expired.\n"
-                    f"You've been removed from the subscriber group.\n\n"
-                    f"Resubscribe anytime to rejoin!\n"
+                    f"Your Quantex subscription has expired and you've been "
+                    f"removed from the subscriber group.\n\n"
+                    f"{renewal_block()}\n\n"
                     f"We'd love to have you back! 📈"
                 )
                 # Remove from group
@@ -456,7 +515,8 @@ def check_expiry():
                 f"Hi <b>{sub['name']}</b>,\n\n"
                 f"Your Quantex subscription expires on <b>{end_str}</b> "
                 f"(<b>{days_left} day{'s' if days_left != 1 else ''}</b> left).\n\n"
-                f"Renew to keep receiving daily pre-market reports!"
+                f"Don't miss tomorrow's pre-market report and 10 AM scanner.\n\n"
+                f"{renewal_block()}"
             )
 
             if sub.get("telegram_user_id"):
@@ -769,9 +829,10 @@ def process_telegram_updates():
                         f"Days left: {max(0, (end - datetime.utcnow()).days)}"
                     )
                 else:
-                    # Start trial
+                    # Start trial — count BUSINESS days (Mon-Fri) so a
+                    # weekend signup still gets 3 actual 8 AM reports.
                     now = datetime.utcnow()
-                    trial_end = now + timedelta(days=TRIAL_DAYS)
+                    trial_end = trial_end_datetime(now, TRIAL_DAYS)
 
                     if existing:
                         existing["status"] = "active"
@@ -864,8 +925,9 @@ def process_telegram_updates():
             elif existing and existing.get("status") == "active":
                 send_message(chat_id, "✅ You already have an active subscription!")
             else:
+                # Count BUSINESS days for trial — see trial_end_datetime() docstring.
                 now = datetime.utcnow()
-                trial_end = now + timedelta(days=TRIAL_DAYS)
+                trial_end = trial_end_datetime(now, TRIAL_DAYS)
 
                 if existing:
                     existing["status"] = "active"
