@@ -59,5 +59,17 @@
     "plan_days": 30,
     "status": "pending",
     "created_at": "2026-04-25T11:08:14.952302"
+  },
+  {
+    "order_id": "QTX-0CHI",
+    "user_id": "854001335",
+    "username": "quantex_trader",
+    "first_name": "Quantex",
+    "chat_id": 854001335,
+    "amount": 99,
+    "plan": "monthly",
+    "plan_days": 30,
+    "status": "pending",
+    "created_at": "2026-04-25T12:36:21.041323"
   }
 ]
