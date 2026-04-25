@@ -997,16 +997,18 @@ def process_telegram_updates():
                 f"⏰ Your subscription will be activated within 5 minutes after verification, "
                 f"and you'll receive your private Telegram group invite link here as soon as "
                 f"the payment is verified.\n\n"
-                # The clickable button uses an HTTPS redirect URL on our own
-                # domain (pay.html) which then hands off to upi:// in the
-                # browser. Telegram on mobile blocks/breaks bare upi:// links
-                # in message text, but opens https:// cleanly — and the
-                # browser successfully dispatches the upi:// hand-off to
-                # GPay/PhonePe/Paytm. The bare upi:// is still shown below
-                # in <code> as a manual fallback for power users on desktop.
-                f'📲 <a href="{https_link_attr}">Tap here to pay via UPI app</a>\n\n'
+                # The clickable button opens an HTTPS picker page (pay.html)
+                # that lets the user choose GPay / PhonePe / Paytm / BHIM
+                # explicitly. Why a picker instead of a single auto-redirect:
+                # on iOS the first app to register `upi://` owns the scheme
+                # OS-wide, and many users have WhatsApp Pay enabled, which
+                # then hijacks every upi:// hand-off to WhatsApp. App-specific
+                # schemes (tez://, phonepe://, paytmmp://) bypass that
+                # arbitration entirely. The bare upi:// stays as a manual
+                # copy-paste fallback for desktop.
+                f'📲 <a href="{https_link_attr}">Tap to pick your UPI app</a>\n\n'
                 f'<i>Manual fallback (copy this into your UPI app if the '
-                f'button above does not open):</i>\n'
+                f'picker page does not open the right app):</i>\n'
                 f'<code>{upi_link_attr}</code>'
             )
 
