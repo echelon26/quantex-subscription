@@ -13,7 +13,6 @@ on:
         type: choice
         options:
           - all
-          - payments
           - telegram
           - expiry
           - stats
@@ -40,9 +39,6 @@ jobs:
 
       - name: Run subscription manager
         env:
-          INSTAMOJO_API_KEY: ${{ secrets.INSTAMOJO_API_KEY }}
-          INSTAMOJO_AUTH_TOKEN: ${{ secrets.INSTAMOJO_AUTH_TOKEN }}
-          INSTAMOJO_ENV: ${{ secrets.INSTAMOJO_ENV }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_GROUP_ID: ${{ secrets.TELEGRAM_GROUP_ID }}
           TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
