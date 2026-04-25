@@ -78,9 +78,34 @@ PLANS = {
 # Stable iteration order for display + menu mapping.
 PLAN_ORDER = [99, 199, 499]
 
+# All plans deliver the same feature set — they only differ in duration
+# (and therefore per-month effective price). Rendered once at the top of
+# the plan menu so the user sees the value prop before the price list.
+# Mirror of the bullets in website/index.html — keep these in sync if you
+# rephrase a feature.
+PLAN_FEATURES = [
+    "📄 Daily pre-market PDF report",
+    "💬 Telegram group access",
+    "🔍 500+ stocks scanned daily",
+    "📊 15+ sectoral analysis",
+    "📈 Weekly market outlook",
+    "📅 Earnings calendar updates",
+    "🔄 Sector rotation signals",
+    "💎 Exclusive stock ideas",
+    "🌅 End-of-day quick scan",
+    "🛟 Direct admin support",
+]
+
+
 def subscription_plans_text():
     """Render the Telegram subscription menu from PLANS so display & charge can't drift."""
-    lines = ["📊 <b>Quantex Subscription Plans</b>\n"]
+    lines = ["📊 <b>Quantex Subscription Plans</b>"]
+    # All plans get the same features — show the list once at the top so
+    # the plan cards below stay tight (just price + per-month equivalent).
+    lines.append("\n<b>What you get with every plan:</b>")
+    for feature in PLAN_FEATURES:
+        lines.append(f"   {feature}")
+    lines.append("\n<b>Choose a duration:</b>")
     emojis = {"1": "1️⃣", "2": "2️⃣", "3": "3️⃣"}
     fire = {"yearly": " 🔥"}
     for amount in PLAN_ORDER:
@@ -95,23 +120,12 @@ def subscription_plans_text():
     for amount in PLAN_ORDER:
         p = PLANS[amount]
         lines.append(f"<b>{p['menu_key']}</b> for {p['label']}")
-    lines.append(LAG_NOTICE)
     return "\n".join(lines)
 
 # {"1": 99, "2": 199, "3": 499} — derived from PLANS, not hardcoded.
 PLAN_MENU_MAP = {p["menu_key"]: amount for amount, p in PLANS.items()}
 
 TRIAL_DAYS = 3
-
-# A single shared line we paste at the bottom of messages that precede another
-# user action. Sets the expectation that replies are batched on a 1-minute
-# cron, so the silence between tap and response is normal — not a broken bot.
-# Centralised so we can rephrase or remove this in one place if/when we move
-# to webhooks (Layer 3).
-LAG_NOTICE = (
-    "\n<i>⏳ Heads up: I batch-process messages every minute, so my next "
-    "reply may take up to 60 seconds. That's normal — please don't re-send.</i>"
-)
 
 # UPI Payment Config — UPI_ID is required, UPI_NAME is optional display hint.
 # No hardcoded fallbacks: a misconfigured secret should fail loudly, not silently
@@ -822,10 +836,7 @@ def process_telegram_updates():
                 # Route to subscribe flow — handled below in /subscribe block
                 send_message(chat_id, subscription_plans_text())
             else:
-                # Regular /start. We append LAG_NOTICE so the user knows the
-                # next command they type will also take up to 60s — without
-                # it, people see the welcome land late, then send /subscribe,
-                # see another minute of silence, and assume the bot's broken.
+                # Regular /start
                 send_message(chat_id,
                     f"👋 Welcome to <b>Quantex Scanner Bot</b>!\n\n"
                     f"Commands:\n"
@@ -834,7 +845,6 @@ def process_telegram_updates():
                     f"/status — Check your subscription\n"
                     f"/help — Get help\n\n"
                     f"Get daily pre-market reports for Indian stocks! 📊"
-                    f"{LAG_NOTICE}"
                 )
 
         # ── /trial ──
@@ -931,7 +941,6 @@ def process_telegram_updates():
                 f"/help — Show this message\n\n"
                 f"After your trial, subscribe to keep receiving "
                 f"daily pre-market reports at 8:00 AM IST!"
-                f"{LAG_NOTICE}"
             )
             if is_admin(chat_id, user_id):
                 help_text += (
