@@ -708,14 +708,24 @@ def process_telegram_updates():
     updates = result.get("result", [])
     print(f">> {len(updates)} new updates")
 
+    # Per-run dedupe map for callback_query taps. If admin tapped the same
+    # Approve button N times before this run, we'd otherwise process the
+    # first as a real approval and the rest as "already processed" replies.
+    # Keyed by action ("approve"/"reject") -> set of order_ids handled.
+    processed_in_run: dict = {}
+
     for update in updates:
         offset = update["update_id"] + 1
 
         # ── Inline keyboard tap (callback_query) ──
-        # When the admin taps "✅ Approve" or "❌ Reject" on a screenshot
-        # notification, Telegram sends a callback_query update — NOT a regular
-        # message. We answer it (clears the loading spinner), strip the
-        # buttons from the original message, and run the approval action.
+        # Order matters here. Telegram shows a loading spinner on the tapped
+        # button until it receives answerCallbackQuery (or ~10s passes). The
+        # admin's perception of "did anything happen?" depends entirely on
+        # how fast we get the spinner to clear and the buttons to disappear.
+        # So we ACK + strip buttons FIRST, run the slow approval LAST.
+        # Cron at 1-minute granularity means there's already a 0-60s gap
+        # between tap and bot processing — don't add seconds of API calls
+        # on top of that before giving any visual feedback.
         cq = update.get("callback_query")
         if cq:
             try:
@@ -729,17 +739,54 @@ def process_telegram_updates():
                     answer_callback(cq_id, "Unauthorized", alert=True)
                     continue
 
+                # Dedupe: when admin tapped the same Approve button multiple
+                # times before this run, Telegram queues N callback_queries.
+                # Within this single run, we only act on the first; the rest
+                # get a quiet "already processed" toast and skip the slow
+                # path so admin doesn't get N "Failed" replies.
+                processed_in_run.setdefault("approve", set())
+                processed_in_run.setdefault("reject", set())
+
                 if cq_data.startswith("approve:"):
                     cb_order_id = cq_data.split(":", 1)[1].strip().upper()
-                    success, admin_msg = approve_order_action(cb_order_id, subscribers)
-                    answer_callback(cq_id, "✅ Approved" if success else "❌ Failed")
+
+                    if cb_order_id in processed_in_run["approve"]:
+                        answer_callback(cq_id, "Already processed in this run")
+                        continue
+                    processed_in_run["approve"].add(cb_order_id)
+
+                    # 1. ACK FAST — clears Telegram's loading spinner so the
+                    #    admin sees their tap registered. Toast text shows
+                    #    "Approving…" so it's obvious work is in progress.
+                    answer_callback(cq_id, "⏳ Approving…")
+
+                    # 2. Strip buttons IMMEDIATELY so admin can't tap again
+                    #    while the slow work below is still running.
                     if cq_msg_id:
-                        # Remove the buttons so admin can't double-tap.
-                        edit_message_reply_markup(cq_chat_id, cq_msg_id, reply_markup={"inline_keyboard": []})
+                        edit_message_reply_markup(cq_chat_id, cq_msg_id,
+                                                  reply_markup={"inline_keyboard": []})
+
+                    # 3. Slow path — creates invite link, DMs the user,
+                    #    writes 3 JSON files. Buttons are already gone, the
+                    #    admin already knows it's processing.
+                    success, admin_msg = approve_order_action(cb_order_id, subscribers)
+
+                    # 4. Final confirmation message in admin's chat.
                     send_message(cq_chat_id, admin_msg)
 
                 elif cq_data.startswith("reject:"):
                     cb_order_id = cq_data.split(":", 1)[1].strip().upper()
+
+                    if cb_order_id in processed_in_run["reject"]:
+                        answer_callback(cq_id, "Already processed in this run")
+                        continue
+                    processed_in_run["reject"].add(cb_order_id)
+
+                    answer_callback(cq_id, "Rejecting…")
+                    if cq_msg_id:
+                        edit_message_reply_markup(cq_chat_id, cq_msg_id,
+                                                  reply_markup={"inline_keyboard": []})
+
                     pending = load_pending_orders()
                     found = False
                     for p in pending:
@@ -749,10 +796,10 @@ def process_telegram_updates():
                             found = True
                             break
                     save_pending_orders(pending)
-                    answer_callback(cq_id, "Rejected" if found else "Not pending")
-                    if cq_msg_id:
-                        edit_message_reply_markup(cq_chat_id, cq_msg_id, reply_markup={"inline_keyboard": []})
-                    send_message(cq_chat_id, f"❌ Order <code>{cb_order_id}</code> marked rejected.")
+                    if found:
+                        send_message(cq_chat_id, f"❌ Order <code>{cb_order_id}</code> marked rejected.")
+                    else:
+                        send_message(cq_chat_id, f"⚠️ Order <code>{cb_order_id}</code> was not pending — no change.")
                 else:
                     answer_callback(cq_id, "")
             except Exception as e:
