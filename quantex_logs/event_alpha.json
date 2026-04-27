@@ -294,5 +294,103 @@
         "CMP": 4297.3
       }
     ]
+  },
+  {
+    "scan_date": "2026-04-27",
+    "scan_time": "2026-04-27T13:37:45.695232",
+    "stocks_scanned": 500,
+    "results_found": 15,
+    "results": [
+      {
+        "Date": "2026-04-27",
+        "Symbol": "AUBANK",
+        "Signals": "Selloff -2.1%",
+        "CMP": 1043.0
+      },
+      {
+        "Date": "2026-04-27",
+        "Symbol": "ATGL",
+        "Signals": "Flat +1.4%",
+        "CMP": 635.6
+      },
+      {
+        "Date": "2026-04-27",
+        "Symbol": "CUB",
+        "Signals": "Rally +3.3%",
+        "CMP": 271.21
+      },
+      {
+        "Date": "2026-04-27",
+        "Symbol": "COALINDIA",
+        "Signals": "Muted Reaction | Flat -0.8%",
+        "CMP": 452.5
+      },
+      {
+        "Date": "2026-04-27",
+        "Symbol": "IDFCFIRSTB",
+        "Signals": "Bullish Reaction | Rally +4.5% | Vol Explosion 3.1x",
+        "CMP": 70.27
+      },
+      {
+        "Date": "2026-04-24",
+        "Symbol": "INDUSINDBK",
+        "Signals": "Flat -1.4%",
+        "CMP": 900.15
+      },
+      {
+        "Date": "2026-04-24",
+        "Symbol": "LODHA",
+        "Signals": "Flat -1.8%",
+        "CMP": 879.45
+      },
+      {
+        "Date": "2026-04-24",
+        "Symbol": "M&MFIN",
+        "Signals": "Muted Reaction | Flat -0.9%",
+        "CMP": 317.7
+      },
+      {
+        "Date": "2026-04-27",
+        "Symbol": "OFSS",
+        "Signals": "Rally +4.6%",
+        "CMP": 9360.0
+      },
+      {
+        "Date": "2026-04-27",
+        "Symbol": "PHOENIXLTD",
+        "Signals": "Flat +1.3%",
+        "CMP": 1799.7
+      },
+      {
+        "Date": "2026-04-27",
+        "Symbol": "SBICARD",
+        "Signals": "Flat +0.1% | Vol Surge 2.3x",
+        "CMP": 670.7
+      },
+      {
+        "Date": "2026-04-24",
+        "Symbol": "SHRIRAMFIN",
+        "Signals": "Flat +0.2% | High Vol 1.9x",
+        "CMP": 974.65
+      },
+      {
+        "Date": "2026-04-27",
+        "Symbol": "SUPREMEIND",
+        "Signals": "Flat +0.8% | Vol Explosion 3.5x",
+        "CMP": 3692.4
+      },
+      {
+        "Date": "2026-04-27",
+        "Symbol": "ULTRACEMCO",
+        "Signals": "Flat +0.1% | High Vol 1.8x",
+        "CMP": 12010.0
+      },
+      {
+        "Date": "2026-04-27",
+        "Symbol": "VBL",
+        "Signals": "Bullish Reaction | Surge +5.8% | Vol Explosion 3.6x",
+        "CMP": 518.85
+      }
+    ]
   }
 ]
