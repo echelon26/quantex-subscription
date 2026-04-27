@@ -2629,5 +2629,112 @@
         "cmp": 1738.7
       }
     ]
+  },
+  {
+    "scan_date": "2026-04-27",
+    "scan_time": "2026-04-27T10:30:58.031807",
+    "market_regime": {
+      "regime": "bearish",
+      "min_score": 75,
+      "label": "BEARISH (risk-off)",
+      "nifty_above_50dma": false,
+      "vix": 18.377500534057617
+    },
+    "min_score_threshold": 75,
+    "total_qualified": 2,
+    "sector_rankings": {
+      "PHARMA": 1,
+      "POWER": 2,
+      "INFRA": 3,
+      "METALS": 4,
+      "CHEMICALS": 5,
+      "RAILWAY": 6,
+      "FMCG": 7,
+      "ENERGY": 8,
+      "REALTY": 9,
+      "GOLD_ETF": 10,
+      "DEFENCE": 11,
+      "INDEX_ETF": 12,
+      "ELECTRICALS": 13,
+      "CONSUMER": 14,
+      "BANKING": 15,
+      "SILVER_ETF": 16,
+      "AUTO": 17,
+      "FINANCE": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "JSWENERGY",
+        "score": 77,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 10,
+          "Volume": 15,
+          "Price Action": 13,
+          "Relative Strength": 12,
+          "Smart Money": 9,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 22 (Trending)",
+          "ADX Rising",
+          "MACD Bullish",
+          "Vol Above Avg 1.8x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Sector Top 3: POWER",
+          "Short Covering",
+          "High F&O Activity"
+        ],
+        "entry": 574.5,
+        "sl": 544.93,
+        "target1": 633.63,
+        "target2": 663.2,
+        "hold_period": "1-2 weeks",
+        "cmp": 574.5,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 8.2
+      },
+      {
+        "symbol": "HINDZINC",
+        "score": 76,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 15,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 10,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 22 (Trending)",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 3.2x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 13,722,450)",
+          "High F&O Activity"
+        ],
+        "entry": 628.65,
+        "sl": 596.02,
+        "target1": 677.59,
+        "target2": 698.74,
+        "hold_period": "2-3 weeks",
+        "cmp": 628.65,
+        "target3": 729.34,
+        "target_method": "Weekly R3 + Vol Profile + 52W High",
+        "est_days_to_t1": 15.2
+      }
+    ]
   }
 ]
