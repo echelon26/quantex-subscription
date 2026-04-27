@@ -7,3 +7,61 @@ Qualified: 0 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-04-27 at 04:35 AM IST
+Qualified: 67 stocks | Top 10 below
+============================================================
+
+1. DIVISLAB — Score: 78/100
+   Entry: 6493.50 | SL: 6274.48 | T1: 6931.53 | T2: 7150.55 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:15 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 69 (Power Zone), MACD Bullish, 20-Day Breakout, Bullish Engulfing, Marubozu, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 805,200), High F&O Activity
+
+2. HINDZINC — Score: 74/100
+   Entry: 613.45 | SL: 582.78 | T1: 674.80 | T2: 705.47 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 64 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: METALS, Long Buildup (OI: 13,574,225), High F&O Activity
+
+3. TATASTEEL — Score: 73/100
+   Entry: 213.63 | SL: 208.60 | T1: 223.69 | T2: 228.72 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:15 SM:10
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 64 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: METALS, Long Buildup (OI: 81,301,000), High F&O Activity
+
+4. JSWSTEEL — Score: 73/100
+   Entry: 1290.60 | SL: 1246.50 | T1: 1378.80 | T2: 1422.90 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: METALS, Long Buildup (OI: 10,235,700), High F&O Activity
+
+5. HINDALCO — Score: 73/100
+   Entry: 1063.05 | SL: 1020.36 | T1: 1148.44 | T2: 1191.13 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: METALS, Long Buildup (OI: 12,659,500), High F&O Activity
+
+6. NATIONALUM — Score: 73/100
+   Entry: 443.45 | SL: 421.43 | T1: 487.48 | T2: 509.50 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 66 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: METALS, Long Buildup (OI: 22,912,500), High F&O Activity
+
+7. NTPC — Score: 71/100
+   Entry: 408.30 | SL: 394.45 | T1: 436.00 | T2: 449.85 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 69 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 46,710,000), High F&O Activity
+
+8. JSWENERGY — Score: 71/100
+   Entry: 558.55 | SL: 538.35 | T1: 598.95 | T2: 619.15 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 6,576,000), High F&O Activity
+
+9. TORNTPOWER — Score: 71/100
+   Entry: 1803.60 | SL: 1714.36 | T1: 1982.07 | T2: 2071.31 | RR: 1:2.0
+   Trend:20 Mom:8 Vol:5 PA:15 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 2,043,400), High F&O Activity
+
+10. SUNPHARMA — Score: 70/100
+   Entry: 1738.70 | SL: 1666.15 | T1: 1883.80 | T2: 1956.34 | RR: 1:2.0
+   Trend:7 Mom:20 Vol:20 PA:5 RS:8 SM:10
+   Hold: 1-2 weeks | Signals: RSI 55 (Power Zone), MACD Fresh Crossover, Vol Surge 2.2x, Strong Delivery (Close near High), Marubozu, Sector Top 3: PHARMA, Long Buildup (OI: 6,629,350), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+

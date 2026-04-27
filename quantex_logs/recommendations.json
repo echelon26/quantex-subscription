@@ -2319,5 +2319,315 @@
       "IT": 19
     },
     "top_10": []
+  },
+  {
+    "scan_date": "2026-04-27",
+    "scan_time": "2026-04-27T04:35:34.082190",
+    "total_qualified": 67,
+    "sector_rankings": {
+      "PHARMA": 1,
+      "INFRA": 2,
+      "METALS": 3,
+      "CHEMICALS": 4,
+      "POWER": 5,
+      "FMCG": 6,
+      "RAILWAY": 7,
+      "GOLD_ETF": 8,
+      "DEFENCE": 9,
+      "ENERGY": 10,
+      "REALTY": 11,
+      "INDEX_ETF": 12,
+      "CONSUMER": 13,
+      "SILVER_ETF": 14,
+      "BANKING": 15,
+      "ELECTRICALS": 16,
+      "AUTO": 17,
+      "FINANCE": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "DIVISLAB",
+        "score": 78,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Bullish Engulfing, Marubozu",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 805,200)",
+          "High F&O Activity"
+        ],
+        "entry": 6493.5,
+        "sl": 6274.48,
+        "target1": 6931.53,
+        "target2": 7150.55,
+        "hold_period": "1-2 weeks",
+        "cmp": 6493.5
+      },
+      {
+        "symbol": "HINDZINC",
+        "score": 74,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 64 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: METALS",
+          "Long Buildup (OI: 13,574,225)",
+          "High F&O Activity"
+        ],
+        "entry": 613.45,
+        "sl": 582.78,
+        "target1": 674.8,
+        "target2": 705.47,
+        "hold_period": "1-2 weeks",
+        "cmp": 613.45
+      },
+      {
+        "symbol": "TATASTEEL",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 64 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: METALS",
+          "Long Buildup (OI: 81,301,000)",
+          "High F&O Activity"
+        ],
+        "entry": 213.63,
+        "sl": 208.6,
+        "target1": 223.69,
+        "target2": 228.72,
+        "hold_period": "3-7 days",
+        "cmp": 213.63
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: METALS",
+          "Long Buildup (OI: 10,235,700)",
+          "High F&O Activity"
+        ],
+        "entry": 1290.6,
+        "sl": 1246.5,
+        "target1": 1378.8,
+        "target2": 1422.9,
+        "hold_period": "1-2 weeks",
+        "cmp": 1290.6
+      },
+      {
+        "symbol": "HINDALCO",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: METALS",
+          "Long Buildup (OI: 12,659,500)",
+          "High F&O Activity"
+        ],
+        "entry": 1063.05,
+        "sl": 1020.36,
+        "target1": 1148.44,
+        "target2": 1191.13,
+        "hold_period": "1-2 weeks",
+        "cmp": 1063.05
+      },
+      {
+        "symbol": "NATIONALUM",
+        "score": 73,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: METALS",
+          "Long Buildup (OI: 22,912,500)",
+          "High F&O Activity"
+        ],
+        "entry": 443.45,
+        "sl": 421.43,
+        "target1": 487.48,
+        "target2": 509.5,
+        "hold_period": "1-2 weeks",
+        "cmp": 443.45
+      },
+      {
+        "symbol": "NTPC",
+        "score": 71,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 46,710,000)",
+          "High F&O Activity"
+        ],
+        "entry": 408.3,
+        "sl": 394.45,
+        "target1": 436.0,
+        "target2": 449.85,
+        "hold_period": "1-2 weeks",
+        "cmp": 408.3
+      },
+      {
+        "symbol": "JSWENERGY",
+        "score": 71,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 6,576,000)",
+          "High F&O Activity"
+        ],
+        "entry": 558.55,
+        "sl": 538.35,
+        "target1": 598.95,
+        "target2": 619.15,
+        "hold_period": "1-2 weeks",
+        "cmp": 558.55
+      },
+      {
+        "symbol": "TORNTPOWER",
+        "score": 71,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 8,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 2,043,400)",
+          "High F&O Activity"
+        ],
+        "entry": 1803.6,
+        "sl": 1714.36,
+        "target1": 1982.07,
+        "target2": 2071.31,
+        "hold_period": "1-2 weeks",
+        "cmp": 1803.6
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "score": 70,
+        "breakdown": {
+          "Trend": 7,
+          "Momentum": 20,
+          "Volume": 20,
+          "Price Action": 5,
+          "Relative Strength": 8,
+          "Smart Money": 10
+        },
+        "signals": [
+          "RSI 55 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 2.2x",
+          "Strong Delivery (Close near High)",
+          "Marubozu",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 6,629,350)",
+          "High F&O Activity"
+        ],
+        "entry": 1738.7,
+        "sl": 1666.15,
+        "target1": 1883.8,
+        "target2": 1956.34,
+        "hold_period": "1-2 weeks",
+        "cmp": 1738.7
+      }
+    ]
   }
 ]
