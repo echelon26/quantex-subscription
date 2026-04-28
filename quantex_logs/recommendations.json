@@ -3079,5 +3079,146 @@
         "cmp": 397.65
       }
     ]
+  },
+  {
+    "scan_date": "2026-04-28",
+    "scan_time": "2026-04-28T10:30:59.947979",
+    "market_regime": {
+      "regime": "bearish",
+      "min_score": 75,
+      "label": "BEARISH (risk-off)",
+      "nifty_above_50dma": false,
+      "vix": 18.047500610351562
+    },
+    "min_score_threshold": 75,
+    "total_qualified": 3,
+    "sector_rankings": {
+      "PHARMA": 1,
+      "INFRA": 2,
+      "ENERGY": 3,
+      "POWER": 4,
+      "METALS": 5,
+      "FMCG": 6,
+      "ELECTRICALS": 7,
+      "DEFENCE": 8,
+      "RAILWAY": 9,
+      "CHEMICALS": 10,
+      "INDEX_ETF": 11,
+      "REALTY": 12,
+      "GOLD_ETF": 13,
+      "CONSUMER": 14,
+      "AUTO": 15,
+      "BANKING": 16,
+      "FINANCE": 17,
+      "SILVER_ETF": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "ONGC",
+        "score": 78,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 13,
+          "Volume": 17,
+          "Price Action": 13,
+          "Relative Strength": 9,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 30 (Strong Trend)",
+          "ADX Rising",
+          "MACD Fresh Crossover",
+          "Vol Surge 2.2x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Morning Star, Marubozu",
+          "Outperforming Nifty",
+          "Sector Top 3: ENERGY",
+          "Long Buildup (OI: 39,746,250)",
+          "High F&O Activity"
+        ],
+        "entry": 302.15,
+        "sl": 291.74,
+        "target1": 317.76,
+        "target2": 319.52,
+        "hold_period": "1-2 weeks",
+        "cmp": 302.15,
+        "target_method": "Fib 2.0 + Fib 2.618",
+        "est_days_to_t1": 11.8
+      },
+      {
+        "symbol": "OLECTRA",
+        "score": 78,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 10,
+          "Volume": 15,
+          "Price Action": 13,
+          "Relative Strength": 10,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 39 (Strong Trend)",
+          "ADX Rising",
+          "MACD Bullish",
+          "Vol Above Avg 1.8x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 1294.0,
+        "sl": 1217.62,
+        "target1": 1446.77,
+        "target2": 1523.15,
+        "hold_period": "5-8 days",
+        "cmp": 1294.0,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 5.7
+      },
+      {
+        "symbol": "ADANIENT",
+        "score": 76,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 6,
+          "Volume": 15,
+          "Price Action": 13,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 38 (Strong Trend)",
+          "ADX Rising",
+          "MACD Bullish",
+          "Vol Above Avg 1.7x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Sector Top 3: INFRA",
+          "Long Buildup (OI: 4,105,065)",
+          "High F&O Activity"
+        ],
+        "entry": 2415.0,
+        "sl": 2296.7,
+        "target1": 2574.7,
+        "target2": 2734.42,
+        "hold_period": "3-5 days",
+        "cmp": 2415.0,
+        "target_method": "Weekly R3",
+        "est_days_to_t1": 3.8
+      }
+    ]
   }
 ]
