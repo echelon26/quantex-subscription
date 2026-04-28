@@ -7,3 +7,61 @@ Qualified: 0 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-04-28 at 04:35 AM IST
+Qualified: 62 stocks | Top 10 below
+============================================================
+
+1. TATASTEEL — Score: 78/100
+   Entry: 216.71 | SL: 208.98 | T1: 232.16 | T2: 239.89 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: METALS, Long Buildup (OI: 42,878,000), High F&O Activity
+
+2. JSWSTEEL — Score: 78/100
+   Entry: 1303.30 | SL: 1254.91 | T1: 1400.07 | T2: 1448.46 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: METALS, Long Buildup (OI: 4,619,700), High F&O Activity
+
+3. GLENMARK — Score: 78/100
+   Entry: 2396.00 | SL: 2291.40 | T1: 2605.20 | T2: 2709.80 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:15 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, 20-Day Breakout, Morning Star, Marubozu, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 766,875), High F&O Activity
+
+4. LT — Score: 74/100
+   Entry: 4080.50 | SL: 3978.50 | T1: 4284.50 | T2: 4386.50 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:11 SM:10
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 59 (Power Zone), MACD Bullish, Near Breakout, Morning Star, Outperforming Nifty, Sector Top 3: INFRA, Long Buildup (OI: 3,031,350), High F&O Activity
+
+5. ATGL — Score: 74/100
+   Entry: 656.65 | SL: 623.82 | T1: 722.31 | T2: 755.15 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:8 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, Vol Above Avg 1.9x, 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+6. OLECTRA — Score: 73/100
+   Entry: 1256.85 | SL: 1194.01 | T1: 1382.53 | T2: 1445.38 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:13 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+7. RATNAMANI — Score: 73/100
+   Entry: 2737.90 | SL: 2601.01 | T1: 3011.69 | T2: 3148.59 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: METALS, Institutional Accumulation
+
+8. KEI — Score: 73/100
+   Entry: 4934.40 | SL: 4750.00 | T1: 5303.20 | T2: 5487.60 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Bullish, Near Breakout, Morning Star, Strong RS vs Nifty, Long Buildup (OI: 219,975), High F&O Activity
+
+9. COALINDIA — Score: 71/100
+   Entry: 469.20 | SL: 451.13 | T1: 505.34 | T2: 523.40 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:10 RS:6 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 64 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Long Buildup (OI: 13,740,300), High F&O Activity
+
+10. MIDHANI — Score: 71/100
+   Entry: 397.65 | SL: 377.77 | T1: 437.41 | T2: 457.30 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:10 PA:15 RS:10 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, 20-Day Breakout, Morning Star, Strong RS vs Nifty
+
+
+────────────────────────────────────────────────────────────
+
