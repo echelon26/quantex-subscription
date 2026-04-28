@@ -226,5 +226,31 @@
       "CYIENT"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-04-27.pdf"
+  },
+  {
+    "date": "Tue, 28 Apr 2026",
+    "fear_greed": 57.2,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 24092.7,
+    "nifty": 24092.7,
+    "sensex": 77303.63,
+    "bank_nifty": 56264.3,
+    "vix": 18.38,
+    "top_gainers": [
+      "COHANCE",
+      "BLUEJET",
+      "ANANTRAJ",
+      "SHYAMMETL",
+      "M&MFIN"
+    ],
+    "top_losers": [
+      "MRPL",
+      "SPLPETRO",
+      "CHENNPETRO",
+      "SHRIRAMFIN",
+      "AXISBANK"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-04-28.pdf"
   }
 ]
