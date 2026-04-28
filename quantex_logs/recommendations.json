@@ -2736,5 +2736,40 @@
         "est_days_to_t1": 15.2
       }
     ]
+  },
+  {
+    "scan_date": "2026-04-28",
+    "scan_time": "2026-04-28T04:30:55.839813",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 17.702499389648438
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 0,
+    "sector_rankings": {
+      "PHARMA": 1,
+      "INFRA": 2,
+      "METALS": 3,
+      "POWER": 4,
+      "ENERGY": 5,
+      "FMCG": 6,
+      "RAILWAY": 7,
+      "AUTO": 8,
+      "DEFENCE": 9,
+      "GOLD_ETF": 10,
+      "INDEX_ETF": 11,
+      "REALTY": 12,
+      "CHEMICALS": 13,
+      "BANKING": 14,
+      "ELECTRICALS": 15,
+      "CONSUMER": 16,
+      "FINANCE": 17,
+      "SILVER_ETF": 18,
+      "IT": 19
+    },
+    "top_10": []
   }
 ]
