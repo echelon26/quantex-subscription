@@ -29,14 +29,7 @@ jobs:
       - name: Run Quantex Intraday Scanner
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          TELEGRAM_SIGNAL_GROUPS: ${{ secrets.TELEGRAM_SIGNAL_GROUPS }}
           TELEGRAM_ADMIN_GROUPS: ${{ secrets.TELEGRAM_ADMIN_GROUPS }}
-          KITE_API_KEY: ${{ secrets.KITE_API_KEY }}
-          KITE_API_SECRET: ${{ secrets.KITE_API_SECRET }}
-          ZERODHA_USER_ID: ${{ secrets.ZERODHA_USER_ID }}
-          ZERODHA_PASSWORD: ${{ secrets.ZERODHA_PASSWORD }}
-          ZERODHA_TOTP_KEY: ${{ secrets.ZERODHA_TOTP_KEY }}
         run: python intraday_scanner.py
 
       - name: Commit logs to repo
