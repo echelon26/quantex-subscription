@@ -392,5 +392,91 @@
         "CMP": 518.85
       }
     ]
+  },
+  {
+    "scan_date": "2026-04-28",
+    "scan_time": "2026-04-28T13:37:29.054544",
+    "stocks_scanned": 500,
+    "results_found": 13,
+    "results": [
+      {
+        "Date": "2026-04-28",
+        "Symbol": "BANDHANBNK",
+        "Signals": "Flat -1.8%",
+        "CMP": 178.65
+      },
+      {
+        "Date": "2026-04-28",
+        "Symbol": "CASTROLIND",
+        "Signals": "Flat -0.4% | High Vol 1.9x",
+        "CMP": 183.81
+      },
+      {
+        "Date": "2026-04-27",
+        "Symbol": "CUB",
+        "Signals": "Rally +3.3%",
+        "CMP": 275.65
+      },
+      {
+        "Date": "2026-04-27",
+        "Symbol": "COALINDIA",
+        "Signals": "Muted Reaction | Flat -0.8%",
+        "CMP": 467.0
+      },
+      {
+        "Date": "2026-04-28",
+        "Symbol": "DALBHARAT",
+        "Signals": "Selloff -2.7% | Vol Explosion 5.0x",
+        "CMP": 1918.8
+      },
+      {
+        "Date": "2026-04-28",
+        "Symbol": "ETERNAL",
+        "Signals": "Flat -0.9% | Vol Explosion 3.0x",
+        "CMP": 253.07
+      },
+      {
+        "Date": "2026-04-28",
+        "Symbol": "MARUTI",
+        "Signals": "Selloff -2.5% | Vol Surge 2.0x",
+        "CMP": 12892.0
+      },
+      {
+        "Date": "2026-04-28",
+        "Symbol": "MSUMI",
+        "Signals": "Bearish Reaction | Selloff -4.5% | Vol Surge 2.0x",
+        "CMP": 39.24
+      },
+      {
+        "Date": "2026-04-28",
+        "Symbol": "OBEROIRLTY",
+        "Signals": "Muted Reaction | Flat -0.8%",
+        "CMP": 1710.3
+      },
+      {
+        "Date": "2026-04-27",
+        "Symbol": "OFSS",
+        "Signals": "Rally +4.6%",
+        "CMP": 9570.0
+      },
+      {
+        "Date": "2026-04-28",
+        "Symbol": "PPLPHARMA",
+        "Signals": "Selloff -2.6%",
+        "CMP": 164.47
+      },
+      {
+        "Date": "2026-04-28",
+        "Symbol": "RECLTD",
+        "Signals": "Flat -0.6% | High Vol 1.8x",
+        "CMP": 375.8
+      },
+      {
+        "Date": "2026-04-28",
+        "Symbol": "STARHEALTH",
+        "Signals": "Muted Reaction | Flat +0.3%",
+        "CMP": 517.3
+      }
+    ]
   }
 ]
