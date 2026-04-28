@@ -24,7 +24,8 @@ same name is not re-alerted across cron runs.
 Outputs:
   - quantex_logs/intraday/<DATE>.json   (dedupe state for the day)
   - quantex_logs/intraday/signals.csv   (append-only audit log)
-  - Telegram message to configured channels (signal group + admin + personal)
+  - Telegram message to ADMIN group ONLY (audit/oversight channel — not pushed
+    to subscriber signal group; intraday is internal-only for now)
 """
 
 import json
@@ -430,22 +431,17 @@ def _send_to_chat(chat_id, message, label=""):
         return False
 
 
-def send_telegram(detail_msg, signal_msg=None):
+def send_telegram(detail_msg):
+    """Intraday scanner sends to ADMIN group only (audit/oversight channel)."""
     if not TELEGRAM_BOT_TOKEN:
         print("Telegram not configured. Preview:\n" + detail_msg)
         return False
-    destinations = [
-        (TELEGRAM_CHAT_ID, "Personal", detail_msg),
-        (TELEGRAM_SIGNAL_GROUP, "Signal Group", signal_msg or detail_msg),
-        (TELEGRAM_ADMIN_GROUP, "Admin", detail_msg),
-    ]
-    sent = 0
-    for chat, label, msg in destinations:
-        if chat and chat not in ("", "YOUR_CHAT_ID"):
-            if _send_to_chat(chat, msg, label):
-                sent += 1
-    print(f"Telegram delivered: {sent}/{len(destinations)}")
-    return sent > 0
+    if not TELEGRAM_ADMIN_GROUP or TELEGRAM_ADMIN_GROUP in ("", "YOUR_CHAT_ID"):
+        print("TELEGRAM_ADMIN_GROUPS not set. Preview:\n" + detail_msg)
+        return False
+    ok = _send_to_chat(TELEGRAM_ADMIN_GROUP, detail_msg, "Admin")
+    print(f"Telegram delivered: {1 if ok else 0}/1 (admin only)")
+    return ok
 
 
 def format_detail(signals, vix, nifty_pct):
@@ -542,8 +538,7 @@ def run():
 
     append_csv(new_signals)
     detail = format_detail(new_signals, vix, nifty_pct)
-    sig_msg = format_signal(new_signals)
-    send_telegram(detail, sig_msg)
+    send_telegram(detail)
     print(f"Cycle done. {len(new_signals)} new signal(s) emitted.")
 
 
