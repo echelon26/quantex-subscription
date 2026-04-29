@@ -3595,5 +3595,316 @@
         "est_days_to_t1": 5.6
       }
     ]
+  },
+  {
+    "scan_date": "2026-04-29",
+    "scan_time": "2026-04-29T04:35:32.863221",
+    "total_qualified": 55,
+    "sector_rankings": {
+      "ELECTRICALS": 1,
+      "ENERGY": 2,
+      "AUTO": 3,
+      "INFRA": 4,
+      "POWER": 5,
+      "REALTY": 6,
+      "PHARMA": 7,
+      "METALS": 8,
+      "FMCG": 9,
+      "CONSUMER": 10,
+      "FINANCE": 11,
+      "INDEX_ETF": 12,
+      "RAILWAY": 13,
+      "CHEMICALS": 14,
+      "DEFENCE": 15,
+      "GOLD_ETF": 16,
+      "SILVER_ETF": 17,
+      "BANKING": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "CROMPTON",
+        "score": 88,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 15,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: ELECTRICALS",
+          "Long Buildup (OI: 49,563,000)",
+          "High F&O Activity"
+        ],
+        "entry": 277.95,
+        "sl": 264.05,
+        "target1": 305.75,
+        "target2": 319.64,
+        "hold_period": "1-2 weeks",
+        "cmp": 277.95
+      },
+      {
+        "symbol": "BANDHANBNK",
+        "score": 83,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 20,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "Vol Surge 4.1x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 89,085,600)",
+          "High F&O Activity"
+        ],
+        "entry": 197.7,
+        "sl": 187.81,
+        "target1": 217.47,
+        "target2": 227.36,
+        "hold_period": "1-2 weeks",
+        "cmp": 197.7
+      },
+      {
+        "symbol": "BHARATFORG",
+        "score": 78,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: AUTO",
+          "Long Buildup (OI: 7,534,000)",
+          "High F&O Activity"
+        ],
+        "entry": 1929.5,
+        "sl": 1843.15,
+        "target1": 2102.21,
+        "target2": 2188.56,
+        "hold_period": "1-2 weeks",
+        "cmp": 1929.5
+      },
+      {
+        "symbol": "MCX",
+        "score": 78,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 70 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Hammer",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 12,650,625)",
+          "High F&O Activity"
+        ],
+        "entry": 2936.5,
+        "sl": 2800.5,
+        "target1": 3208.5,
+        "target2": 3344.5,
+        "hold_period": "1-2 weeks",
+        "cmp": 2936.5
+      },
+      {
+        "symbol": "RBLBANK",
+        "score": 75,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 63 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 61,214,000)",
+          "High F&O Activity"
+        ],
+        "entry": 336.6,
+        "sl": 320.05,
+        "target1": 369.7,
+        "target2": 386.25,
+        "hold_period": "1-2 weeks",
+        "cmp": 336.6
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "score": 74,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 63 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 35,109,900)",
+          "High F&O Activity"
+        ],
+        "entry": 915.95,
+        "sl": 874.37,
+        "target1": 999.12,
+        "target2": 1040.7,
+        "hold_period": "1-2 weeks",
+        "cmp": 915.95
+      },
+      {
+        "symbol": "MAZDOCK",
+        "score": 73,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 13,
+          "Volume": 10,
+          "Price Action": 15,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 4,099,800)",
+          "High F&O Activity"
+        ],
+        "entry": 2786.0,
+        "sl": 2651.09,
+        "target1": 3055.82,
+        "target2": 3190.72,
+        "hold_period": "1-2 weeks",
+        "cmp": 2786.0
+      },
+      {
+        "symbol": "GODREJPROP",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 6,229,300)",
+          "High F&O Activity"
+        ],
+        "entry": 1868.1,
+        "sl": 1776.75,
+        "target1": 2050.8,
+        "target2": 2142.16,
+        "hold_period": "1-2 weeks",
+        "cmp": 1868.1
+      },
+      {
+        "symbol": "PREMEXPLN",
+        "score": 70,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 70 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 561.35,
+        "sl": 533.28,
+        "target1": 617.49,
+        "target2": 645.55,
+        "hold_period": "1-2 weeks",
+        "cmp": 561.35
+      },
+      {
+        "symbol": "CARBORUNIV",
+        "score": 70,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: ELECTRICALS",
+          "Consistent Buying"
+        ],
+        "entry": 974.0,
+        "sl": 929.86,
+        "target1": 1062.29,
+        "target2": 1106.43,
+        "hold_period": "1-2 weeks",
+        "cmp": 974.0
+      }
+    ]
   }
 ]

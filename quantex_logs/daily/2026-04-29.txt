@@ -57,3 +57,61 @@ Qualified: 21 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-04-29 at 04:35 AM IST
+Qualified: 55 stocks | Top 10 below
+============================================================
+
+1. CROMPTON — Score: 88/100
+   Entry: 277.95 | SL: 264.05 | T1: 305.75 | T2: 319.64 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:15 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: ELECTRICALS, Long Buildup (OI: 49,563,000), High F&O Activity
+
+2. BANDHANBNK — Score: 83/100
+   Entry: 197.70 | SL: 187.81 | T1: 217.47 | T2: 227.36 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:20 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, Vol Surge 4.1x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 89,085,600), High F&O Activity
+
+3. BHARATFORG — Score: 78/100
+   Entry: 1929.50 | SL: 1843.15 | T1: 2102.21 | T2: 2188.56 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 65 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: AUTO, Long Buildup (OI: 7,534,000), High F&O Activity
+
+4. MCX — Score: 78/100
+   Entry: 2936.50 | SL: 2800.50 | T1: 3208.50 | T2: 3344.50 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:15 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 70 (Power Zone), MACD Bullish, 20-Day Breakout, Hammer, Strong RS vs Nifty, Long Buildup (OI: 12,650,625), High F&O Activity
+
+5. RBLBANK — Score: 75/100
+   Entry: 336.60 | SL: 320.05 | T1: 369.70 | T2: 386.25 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 63 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 61,214,000), High F&O Activity
+
+6. INDUSINDBK — Score: 74/100
+   Entry: 915.95 | SL: 874.37 | T1: 999.12 | T2: 1040.70 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:5 PA:15 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 63 (Power Zone), MACD Bullish, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 35,109,900), High F&O Activity
+
+7. MAZDOCK — Score: 73/100
+   Entry: 2786.00 | SL: 2651.09 | T1: 3055.82 | T2: 3190.72 | RR: 1:2.0
+   Trend:15 Mom:13 Vol:10 PA:15 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Long Buildup (OI: 4,099,800), High F&O Activity
+
+8. GODREJPROP — Score: 73/100
+   Entry: 1868.10 | SL: 1776.75 | T1: 2050.80 | T2: 2142.16 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 6,229,300), High F&O Activity
+
+9. PREMEXPLN — Score: 70/100
+   Entry: 561.35 | SL: 533.28 | T1: 617.49 | T2: 645.55 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 70 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+10. CARBORUNIV — Score: 70/100
+   Entry: 974.00 | SL: 929.86 | T1: 1062.29 | T2: 1106.43 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:10 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: ELECTRICALS, Consistent Buying
+
+
+────────────────────────────────────────────────────────────
+
