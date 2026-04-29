@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-04-29 at 04:31 AM IST
+Regime: BULLISH (risk-on) | VIX: 16.95 | Min Score: 60
+Qualified: 21 stocks | Top 10 below
+============================================================
+
+1. CROMPTON -- Score: 75/100
+   Entry: 276.39 | SL: 262.39 | T1: 297.39 | T2: 311.39 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:12 PA:8 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 21 (Trending), ADX Rising, RSI 67 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: ELECTRICALS, Long Buildup (OI: 48,999,600), High F&O Activity
+
+2. BHARATFORG -- Score: 72/100
+   Entry: 1936.90 | SL: 1850.55 | T1: 2066.43 | T2: 2152.78 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:4 PA:13 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), ADX Rising, RSI 66 (Power Zone), MACD Bullish, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: AUTO, Long Buildup (OI: 7,516,000), High F&O Activity
+
+3. BANDHANBNK -- Score: 71/100
+   Entry: 198.27 | SL: 186.85 | T1: 221.11 | T2: 232.53 | RR: 1:2.0
+   Tr:18 Mo:10 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 21 (Trending), ADX Rising, MACD Bullish, Vol Surge 4.0x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 89,064,000), High F&O Activity
+
+4. RBLBANK -- Score: 71/100
+   Entry: 335.90 | SL: 319.64 | T1: 360.28 | T2: 366.20 | RR: 1:1.5
+   Tr:18 Mo:18 Vo:4 PA:13 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), ADX Rising, RSI 63 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 60,620,275), High F&O Activity
+
+5. MCX -- Score: 66/100
+   Entry: 2930.30 | SL: 2794.70 | T1: 3133.70 | T2: 3269.30 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:4 PA:13 RS:8 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 69 (Power Zone), MACD Bullish, 20-Day Breakout, Hammer, Strong RS vs Nifty, Long Buildup (OI: 12,646,250), High F&O Activity
+
+6. SONACOMS -- Score: 65/100
+   Entry: 604.60 | SL: 574.76 | T1: 664.27 | T2: 694.11 | RR: 1:2.0
+   Tr:20 Mo:15 Vo:0 PA:8 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 26 (Strong Trend), ADX Rising, RSI 66 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: AUTO, Long Buildup (OI: 14,893,550), High F&O Activity
+
+7. INDUSINDBK -- Score: 64/100
+   Entry: 914.20 | SL: 872.69 | T1: 997.23 | T2: 1038.74 | RR: 1:2.0
+   Tr:14 Mo:15 Vo:4 PA:13 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 63 (Power Zone), MACD Bullish, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 35,109,200), High F&O Activity
+
+8. GRSE -- Score: 62/100
+   Entry: 3278.00 | SL: 3053.02 | T1: 3682.96 | T2: 3885.45 | RR: 1:1.8
+   Tr:20 Mo:6 Vo:17 PA:8 RS:8 SM:3 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 31 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 2.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty
+
+9. CONCOR -- Score: 61/100
+   Entry: 513.25 | SL: 495.07 | T1: 540.52 | T2: 567.79 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:4 PA:4 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, RSI 64 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 22,791,250), High F&O Activity
+
+10. LODHA -- Score: 61/100
+   Entry: 897.00 | SL: 847.42 | T1: 971.37 | T2: 1020.95 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:4 PA:8 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 21 (Trending), RSI 60 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 14,205,600), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
