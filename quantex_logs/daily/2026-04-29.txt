@@ -115,3 +115,47 @@ Qualified: 55 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-04-29 at 10:31 AM IST
+Regime: NEUTRAL (mixed) | VIX: 17.44 | Min Score: 68
+Qualified: 7 stocks | Top 10 below
+============================================================
+
+1. RBLBANK -- Score: 79/100
+   Entry: 341.30 | SL: 324.04 | T1: 367.19 | T2: 384.45 | RR: 1:1.5
+   Tr:18 Mo:18 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), ADX Rising, RSI 65 (Power Zone), MACD Fresh Crossover, Vol Surge 3.0x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 63,487,300), High F&O Activity
+
+2. COCHINSHIP -- Score: 74/100
+   Entry: 1776.00 | SL: 1678.03 | T1: 1908.26 | T2: 1996.43 | RR: 1:1.4
+   Tr:20 Mo:6 Vo:17 PA:13 RS:8 SM:10 MTF:0
+   Hold: 2-3 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 30 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 2.1x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 2,304,400), High F&O Activity
+
+3. GALAXYSURF -- Score: 74/100
+   Entry: 1950.00 | SL: 1841.05 | T1: 2113.42 | T2: 2222.37 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 67 (Power Zone), MACD Bullish, Vol Surge 3.3x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+4. CROMPTON -- Score: 72/100
+   Entry: 275.95 | SL: 261.53 | T1: 297.58 | T2: 312.00 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:9 PA:8 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 21 (Trending), ADX Rising, RSI 67 (Power Zone), MACD Bullish, Vol Surge 3.8x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: ELECTRICALS, Long Buildup (OI: 51,528,600), High F&O Activity
+
+5. LODHA -- Score: 69/100
+   Entry: 912.70 | SL: 860.50 | T1: 1017.10 | T2: 1069.30 | RR: 1:2.0
+   Tr:16 Mo:15 Vo:12 PA:8 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), RSI 63 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 14,333,400), High F&O Activity
+
+6. DEVYANI -- Score: 69/100
+   Entry: 127.50 | SL: 118.78 | T1: 140.58 | T2: 149.30 | RR: 1:1.5
+   Tr:16 Mo:10 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 24 (Trending), ADX Rising, MACD Bullish, Vol Surge 8.5x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+7. CARBORUNIV -- Score: 68/100
+   Entry: 976.20 | SL: 931.63 | T1: 1065.33 | T2: 1109.90 | RR: 1:2.0
+   Tr:20 Mo:10 Vo:8 PA:8 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 42 (Strong Trend), ADX Rising, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: ELECTRICALS, Institutional Accumulation
+
+
+────────────────────────────────────────────────────────────
+
