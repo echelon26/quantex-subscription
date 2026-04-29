@@ -478,5 +478,103 @@
         "CMP": 517.3
       }
     ]
+  },
+  {
+    "scan_date": "2026-04-29",
+    "scan_time": "2026-04-29T13:37:55.661082",
+    "stocks_scanned": 500,
+    "results_found": 15,
+    "results": [
+      {
+        "Date": "2026-04-29",
+        "Symbol": "ADANIPOWER",
+        "Signals": "Flat -1.8%",
+        "CMP": 219.28
+      },
+      {
+        "Date": "2026-04-29",
+        "Symbol": "BAJFINANCE",
+        "Signals": "Muted Reaction | Flat +0.7%",
+        "CMP": 930.0
+      },
+      {
+        "Date": "2026-04-28",
+        "Symbol": "CASTROLIND",
+        "Signals": "Flat -0.4% | High Vol 1.9x",
+        "CMP": 184.64
+      },
+      {
+        "Date": "2026-04-27",
+        "Symbol": "CUB",
+        "Signals": "Rally +3.3%",
+        "CMP": 277.37
+      },
+      {
+        "Date": "2026-04-27",
+        "Symbol": "COALINDIA",
+        "Signals": "Muted Reaction | Flat -0.8%",
+        "CMP": 479.9
+      },
+      {
+        "Date": "2026-04-29",
+        "Symbol": "FEDERALBNK",
+        "Signals": "Selloff -2.0% | Vol Explosion 3.8x",
+        "CMP": 284.75
+      },
+      {
+        "Date": "2026-04-29",
+        "Symbol": "IIFL",
+        "Signals": "Rally +2.1%",
+        "CMP": 447.05
+      },
+      {
+        "Date": "2026-04-29",
+        "Symbol": "INDIANB",
+        "Signals": "Selloff -2.3% | Vol Surge 2.7x",
+        "CMP": 875.55
+      },
+      {
+        "Date": "2026-04-28",
+        "Symbol": "MARUTI",
+        "Signals": "Selloff -2.5% | Vol Surge 2.0x",
+        "CMP": 13257.0
+      },
+      {
+        "Date": "2026-04-29",
+        "Symbol": "MPHASIS",
+        "Signals": "Muted Reaction | Flat -0.9%",
+        "CMP": 2250.7
+      },
+      {
+        "Date": "2026-04-29",
+        "Symbol": "NAVINFLUOR",
+        "Signals": "Flat +2.0%",
+        "CMP": 6758.5
+      },
+      {
+        "Date": "2026-04-27",
+        "Symbol": "OFSS",
+        "Signals": "Rally +4.6% | Strong Momentum +8.3%",
+        "CMP": 9688.0
+      },
+      {
+        "Date": "2026-04-29",
+        "Symbol": "SCHAEFFLER",
+        "Signals": "Flat +1.0%",
+        "CMP": 4326.8
+      },
+      {
+        "Date": "2026-04-29",
+        "Symbol": "SYNGENE",
+        "Signals": "Flat -1.8%",
+        "CMP": 432.15
+      },
+      {
+        "Date": "2026-04-29",
+        "Symbol": "VEDL",
+        "Signals": "Bullish Reaction | Rally +4.6% | Vol Surge 2.5x",
+        "CMP": 773.6
+      }
+    ]
   }
 ]
