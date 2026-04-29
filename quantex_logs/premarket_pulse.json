@@ -252,5 +252,31 @@
       "AXISBANK"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-04-28.pdf"
+  },
+  {
+    "date": "Wed, 29 Apr 2026",
+    "fear_greed": 54.5,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23995.7,
+    "nifty": 23995.7,
+    "sensex": 76886.91,
+    "bank_nifty": 55400.35,
+    "vix": 18.05,
+    "top_gainers": [
+      "COHANCE",
+      "TATACHEM",
+      "PIRAMALFIN",
+      "CHENNPETRO",
+      "RKFORGE"
+    ],
+    "top_losers": [
+      "MSUMI",
+      "TATATECH",
+      "ONESOURCE",
+      "ELECON",
+      "ZENSARTECH"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-04-29.pdf"
   }
 ]
