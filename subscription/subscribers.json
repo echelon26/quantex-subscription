@@ -42,20 +42,6 @@
     "updated_at": "2026-04-25T17:33:15.231787"
   },
   {
-    "name": "Quantex",
-    "email": "",
-    "phone": "",
-    "telegram_username": "quantex_trader",
-    "telegram_user_id": "854001335",
-    "plan": "trial",
-    "status": "active",
-    "subscription_start": "2026-04-25T17:46:13.598777",
-    "subscription_end": "2026-04-29T17:46:13.598777",
-    "trial_used": true,
-    "created_at": "2026-04-25T17:46:13.598777",
-    "updated_at": "2026-04-25T17:46:13.598777"
-  },
-  {
     "name": "Darshan",
     "email": "",
     "phone": "",
