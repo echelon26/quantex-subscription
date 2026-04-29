@@ -20,12 +20,12 @@
     "telegram_username": "",
     "telegram_user_id": "6333759241",
     "plan": "trial",
-    "status": "active",
+    "status": "expired",
     "subscription_start": "2026-04-25T17:24:15.602395",
     "subscription_end": "2026-04-28T17:24:15.602395",
     "trial_used": true,
     "created_at": "2026-04-25T17:24:15.602395",
-    "updated_at": "2026-04-25T17:24:15.602395"
+    "updated_at": "2026-04-29T03:00:52.796789"
   },
   {
     "name": "surya",
