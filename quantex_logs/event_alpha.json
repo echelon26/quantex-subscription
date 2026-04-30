@@ -576,5 +576,121 @@
         "CMP": 773.6
       }
     ]
+  },
+  {
+    "scan_date": "2026-04-30",
+    "scan_time": "2026-04-30T13:40:06.690916",
+    "stocks_scanned": 504,
+    "results_found": 18,
+    "results": [
+      {
+        "Date": "2026-04-30",
+        "Symbol": "ACC",
+        "Signals": "Flat -1.0%",
+        "CMP": 1422.1
+      },
+      {
+        "Date": "2026-04-30",
+        "Symbol": "ADANIENT",
+        "Signals": "Muted Reaction | Flat -0.7%",
+        "CMP": 2408.4
+      },
+      {
+        "Date": "2026-04-30",
+        "Symbol": "ADANIPORTS",
+        "Signals": "Flat -0.2% | Vol Surge 2.4x",
+        "CMP": 1657.3
+      },
+      {
+        "Date": "2026-04-29",
+        "Symbol": "ADANIPOWER",
+        "Signals": "Flat -1.8%",
+        "CMP": 221.85
+      },
+      {
+        "Date": "2026-04-30",
+        "Symbol": "BAJAJFINSV",
+        "Signals": "Flat -1.0% | Vol Surge 2.5x",
+        "CMP": 1747.2
+      },
+      {
+        "Date": "2026-04-28",
+        "Symbol": "CASTROLIND",
+        "Signals": "Flat -0.4% | High Vol 1.9x",
+        "CMP": 184.82
+      },
+      {
+        "Date": "2026-04-30",
+        "Symbol": "CHOLAFIN",
+        "Signals": "Gap Down -2.0% | Flat +0.6% | Vol Explosion 4.7x",
+        "CMP": 1562.9
+      },
+      {
+        "Date": "2026-04-27",
+        "Symbol": "CUB",
+        "Signals": "Rally +3.3%",
+        "CMP": 270.09
+      },
+      {
+        "Date": "2026-04-27",
+        "Symbol": "COALINDIA",
+        "Signals": "Muted Reaction | Flat -0.8%",
+        "CMP": 481.45
+      },
+      {
+        "Date": "2026-04-30",
+        "Symbol": "LALPATHLAB",
+        "Signals": "Selloff -2.2%",
+        "CMP": 1367.2
+      },
+      {
+        "Date": "2026-04-30",
+        "Symbol": "HINDUNILVR",
+        "Signals": "Selloff -2.7% | Vol Surge 2.7x",
+        "CMP": 2250.9
+      },
+      {
+        "Date": "2026-04-30",
+        "Symbol": "INDIAMART",
+        "Signals": "Flat -1.3%",
+        "CMP": 2103.6
+      },
+      {
+        "Date": "2026-04-30",
+        "Symbol": "INDUSTOWER",
+        "Signals": "Muted Reaction | Flat -1.0%",
+        "CMP": 409.95
+      },
+      {
+        "Date": "2026-04-30",
+        "Symbol": "KAJARIACER",
+        "Signals": "Bearish Reaction | Selloff -3.3% | Vol Explosion 3.9x",
+        "CMP": 1187.65
+      },
+      {
+        "Date": "2026-04-30",
+        "Symbol": "LAURUSLABS",
+        "Signals": "Flat -0.5%",
+        "CMP": 1100.95
+      },
+      {
+        "Date": "2026-04-28",
+        "Symbol": "MARUTI",
+        "Signals": "Selloff -2.5% | Vol Surge 2.0x",
+        "CMP": 13314.0
+      },
+      {
+        "Date": "2026-04-27",
+        "Symbol": "OFSS",
+        "Signals": "Rally +4.6% | Strong Momentum +8.7%",
+        "CMP": 9726.5
+      },
+      {
+        "Date": "2026-04-30",
+        "Symbol": "SONACOMS",
+        "Signals": "Flat +1.3%",
+        "CMP": 607.25
+      }
+    ]
   }
 ]
