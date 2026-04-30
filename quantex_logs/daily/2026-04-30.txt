@@ -65,3 +65,17 @@ Qualified: 13 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-04-30 at 10:30 AM IST
+Regime: BEARISH (risk-off) | VIX: 18.46 | Min Score: 75
+Qualified: 1 stocks | Top 10 below
+============================================================
+
+1. ADANIPORTS -- Score: 78/100
+   Entry: 1675.50 | SL: 1603.22 | T1: 1820.05 | T2: 1892.33 | RR: 1:2.0
+   Tr:18 Mo:10 Vo:15 PA:13 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 24 (Trending), ADX Rising, MACD Bullish, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Hammer, Strong RS vs Nifty, Sector Top 3: INFRA, Long Buildup (OI: 21,410,150), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+

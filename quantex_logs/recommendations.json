@@ -4519,5 +4519,77 @@
         "cmp": 5278.1
       }
     ]
+  },
+  {
+    "scan_date": "2026-04-30",
+    "scan_time": "2026-04-30T10:30:59.342919",
+    "market_regime": {
+      "regime": "bearish",
+      "min_score": 75,
+      "label": "BEARISH (risk-off)",
+      "nifty_above_50dma": false,
+      "vix": 18.459999084472656
+    },
+    "min_score_threshold": 75,
+    "total_qualified": 1,
+    "sector_rankings": {
+      "PHARMA": 1,
+      "ELECTRICALS": 2,
+      "INFRA": 3,
+      "ENERGY": 4,
+      "AUTO": 5,
+      "IT": 6,
+      "FMCG": 7,
+      "CHEMICALS": 8,
+      "FINANCE": 9,
+      "REALTY": 10,
+      "POWER": 11,
+      "METALS": 12,
+      "CONSUMER": 13,
+      "SILVER_ETF": 14,
+      "RAILWAY": 15,
+      "GOLD_ETF": 16,
+      "INDEX_ETF": 17,
+      "DEFENCE": 18,
+      "BANKING": 19
+    },
+    "top_10": [
+      {
+        "symbol": "ADANIPORTS",
+        "score": 78,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 10,
+          "Volume": 15,
+          "Price Action": 13,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 24 (Trending)",
+          "ADX Rising",
+          "MACD Bullish",
+          "Vol Above Avg 1.6x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Hammer",
+          "Strong RS vs Nifty",
+          "Sector Top 3: INFRA",
+          "Long Buildup (OI: 21,410,150)",
+          "High F&O Activity"
+        ],
+        "entry": 1675.5,
+        "sl": 1603.22,
+        "target1": 1820.05,
+        "target2": 1892.33,
+        "hold_period": "1-2 weeks",
+        "cmp": 1675.5,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 8.2
+      }
+    ]
   }
 ]
