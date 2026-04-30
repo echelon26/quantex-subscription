@@ -7,3 +7,61 @@ Qualified: 0 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-04-30 at 04:35 AM IST
+Qualified: 13 stocks | Top 10 below
+============================================================
+
+1. SYNGENE — Score: 76/100
+   Entry: 460.25 | SL: 437.24 | T1: 506.28 | T2: 529.29 | RR: 1:2.0
+   Trend:11 Mom:18 Vol:10 PA:15 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: RSI 64 (Power Zone), MACD Bullish, Vol Surge 7.3x, 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Sector Top 3: PHARMA, Consistent Buying
+
+2. SIEMENS — Score: 69/100
+   Entry: 3816.90 | SL: 3734.50 | T1: 3981.70 | T2: 4064.10 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:13 SM:8
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Bullish, Hammer, Strong RS vs Nifty, Long Buildup (OI: 2,931,075), High F&O Activity
+
+3. MOTILALOFS — Score: 69/100
+   Entry: 801.20 | SL: 770.05 | T1: 863.50 | T2: 894.65 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:15 PA:5 RS:6 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 59 (Power Zone), MACD Bullish, Strong Delivery (Close near High), Bullish Engulfing, Morning Star, Outperforming Nifty, Long Buildup (OI: 2,550,525), High F&O Activity
+
+4. NAVINFLUOR — Score: 65/100
+   Entry: 6790.50 | SL: 6450.97 | T1: 7469.55 | T2: 7809.08 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:10 PA:5 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 68 (Power Zone), MACD Bullish, Vol Surge 4.9x, Near Breakout, Strong RS vs Nifty, Consistent Buying
+
+5. BAJFINANCE — Score: 64/100
+   Entry: 952.50 | SL: 910.08 | T1: 1037.33 | T2: 1079.75 | RR: 1:2.0
+   Trend:11 Mom:18 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: RSI 61 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 62,380,500), High F&O Activity
+
+6. CIPLA — Score: 64/100
+   Entry: 1319.70 | SL: 1277.85 | T1: 1403.40 | T2: 1445.26 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:0 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 64 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 14,005,500), High F&O Activity
+
+7. POWERGRID — Score: 63/100
+   Entry: 319.50 | SL: 314.50 | T1: 329.50 | T2: 334.50 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:10 SM:5
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, High F&O Activity
+
+8. DIVISLAB — Score: 63/100
+   Entry: 6484.00 | SL: 6320.00 | T1: 6812.00 | T2: 6976.00 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:0 PA:5 RS:15 SM:5
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 65 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, High F&O Activity
+
+9. GSPL — Score: 61/100
+   Entry: 285.76 | SL: 275.15 | T1: 306.98 | T2: 317.59 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:0 PA:5 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 66 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: ENERGY, Consistent Buying
+
+10. CUMMINSIND — Score: 61/100
+   Entry: 5278.10 | SL: 5102.10 | T1: 5630.10 | T2: 5806.10 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:5 RS:13 SM:5
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 66 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+

@@ -4218,5 +4218,306 @@
       "BANKING": 19
     },
     "top_10": []
+  },
+  {
+    "scan_date": "2026-04-30",
+    "scan_time": "2026-04-30T04:35:40.041515",
+    "total_qualified": 13,
+    "sector_rankings": {
+      "PHARMA": 1,
+      "ELECTRICALS": 2,
+      "ENERGY": 3,
+      "FMCG": 4,
+      "INFRA": 5,
+      "FINANCE": 6,
+      "IT": 7,
+      "REALTY": 8,
+      "POWER": 9,
+      "CHEMICALS": 10,
+      "AUTO": 11,
+      "METALS": 12,
+      "CONSUMER": 13,
+      "RAILWAY": 14,
+      "INDEX_ETF": 15,
+      "DEFENCE": 16,
+      "GOLD_ETF": 17,
+      "SILVER_ETF": 18,
+      "BANKING": 19
+    },
+    "top_10": [
+      {
+        "symbol": "SYNGENE",
+        "score": 76,
+        "breakdown": {
+          "Trend": 11,
+          "Momentum": 18,
+          "Volume": 10,
+          "Price Action": 15,
+          "Relative Strength": 15,
+          "Smart Money": 7
+        },
+        "signals": [
+          "RSI 64 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 7.3x",
+          "20-Day Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Consistent Buying"
+        ],
+        "entry": 460.25,
+        "sl": 437.24,
+        "target1": 506.28,
+        "target2": 529.29,
+        "hold_period": "1-2 weeks",
+        "cmp": 460.25
+      },
+      {
+        "symbol": "SIEMENS",
+        "score": 69,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 13,
+          "Smart Money": 8
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "Hammer",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 2,931,075)",
+          "High F&O Activity"
+        ],
+        "entry": 3816.9,
+        "sl": 3734.5,
+        "target1": 3981.7,
+        "target2": 4064.1,
+        "hold_period": "3-7 days",
+        "cmp": 3816.9
+      },
+      {
+        "symbol": "MOTILALOFS",
+        "score": 69,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 15,
+          "Price Action": 5,
+          "Relative Strength": 6,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 59 (Power Zone)",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "Bullish Engulfing, Morning Star",
+          "Outperforming Nifty",
+          "Long Buildup (OI: 2,550,525)",
+          "High F&O Activity"
+        ],
+        "entry": 801.2,
+        "sl": 770.05,
+        "target1": 863.5,
+        "target2": 894.65,
+        "hold_period": "1-2 weeks",
+        "cmp": 801.2
+      },
+      {
+        "symbol": "NAVINFLUOR",
+        "score": 65,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 10,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 4.9x",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 6790.5,
+        "sl": 6450.97,
+        "target1": 7469.55,
+        "target2": 7809.08,
+        "hold_period": "1-2 weeks",
+        "cmp": 6790.5
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "score": 64,
+        "breakdown": {
+          "Trend": 11,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "RSI 61 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 62,380,500)",
+          "High F&O Activity"
+        ],
+        "entry": 952.5,
+        "sl": 910.08,
+        "target1": 1037.33,
+        "target2": 1079.75,
+        "hold_period": "1-2 weeks",
+        "cmp": 952.5
+      },
+      {
+        "symbol": "CIPLA",
+        "score": 64,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 0,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 64 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 14,005,500)",
+          "High F&O Activity"
+        ],
+        "entry": 1319.7,
+        "sl": 1277.85,
+        "target1": 1403.4,
+        "target2": 1445.26,
+        "hold_period": "1-2 weeks",
+        "cmp": 1319.7
+      },
+      {
+        "symbol": "POWERGRID",
+        "score": 63,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 5
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "High F&O Activity"
+        ],
+        "entry": 319.5,
+        "sl": 314.5,
+        "target1": 329.5,
+        "target2": 334.5,
+        "hold_period": "3-7 days",
+        "cmp": 319.5
+      },
+      {
+        "symbol": "DIVISLAB",
+        "score": 63,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 0,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 5
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "High F&O Activity"
+        ],
+        "entry": 6484.0,
+        "sl": 6320.0,
+        "target1": 6812.0,
+        "target2": 6976.0,
+        "hold_period": "3-7 days",
+        "cmp": 6484.0
+      },
+      {
+        "symbol": "GSPL",
+        "score": 61,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 0,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 7
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: ENERGY",
+          "Consistent Buying"
+        ],
+        "entry": 285.76,
+        "sl": 275.15,
+        "target1": 306.98,
+        "target2": 317.59,
+        "hold_period": "1-2 weeks",
+        "cmp": 285.76
+      },
+      {
+        "symbol": "CUMMINSIND",
+        "score": 61,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 13,
+          "Smart Money": 5
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "High F&O Activity"
+        ],
+        "entry": 5278.1,
+        "sl": 5102.1,
+        "target1": 5630.1,
+        "target2": 5806.1,
+        "hold_period": "1-2 weeks",
+        "cmp": 5278.1
+      }
+    ]
   }
 ]
