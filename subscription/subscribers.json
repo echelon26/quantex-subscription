@@ -34,12 +34,12 @@
     "telegram_username": "smartboy12345batman",
     "telegram_user_id": "6635347443",
     "plan": "trial",
-    "status": "active",
+    "status": "expired",
     "subscription_start": "2026-04-25T17:33:15.231787",
     "subscription_end": "2026-04-29T17:33:15.231787",
     "trial_used": true,
     "created_at": "2026-04-25T17:33:15.231787",
-    "updated_at": "2026-04-25T17:33:15.231787"
+    "updated_at": "2026-04-30T03:00:53.079131"
   },
   {
     "name": "Darshan",
@@ -48,11 +48,11 @@
     "telegram_username": "darshan2752",
     "telegram_user_id": "885741488",
     "plan": "trial",
-    "status": "active",
+    "status": "expired",
     "subscription_start": "2026-04-26T17:30:40.525338",
     "subscription_end": "2026-04-29T23:59:59",
     "trial_used": true,
     "created_at": "2026-04-26T17:30:40.525338",
-    "updated_at": "2026-04-26T17:30:40.525338"
+    "updated_at": "2026-04-30T03:00:53.079131"
   }
 ]
