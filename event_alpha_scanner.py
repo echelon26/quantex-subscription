@@ -115,6 +115,16 @@ def fetch_nifty500_symbols():
         "MCX", "CDSL", "BSE", "IEX", "ANGELONE",
         "DMART", "JUBLFOOD", "DEVYANI", "PVRINOX", "SUNTV",
         "TATACHEM", "UPL", "TATACOMM", "ZEEL", "IDEA",
+
+        # Extended watchlist (mirrors pro_scanner.py / swing_scanner.py).
+        # Catches earnings events on mid/small-caps outside Nifty 500.
+        "MTARTECH", "PARASD", "APOLLOMICRO", "HBLENGINE",
+        "NTPCGREEN", "WAAREEENER", "ACMESOLAR",
+        "SYRMA", "PGEL", "CYIENTDLM",
+        "ANUPAMRAS", "TATVA",
+        "PRAJIND", "TRITURBINE", "ELECON",
+        "SOBHA", "KOLTEPATIL",
+        "360ONE", "VEDANTFASH", "KEC",
     ]
 
 

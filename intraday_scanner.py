@@ -86,31 +86,159 @@ LOG_DIR.mkdir(parents=True, exist_ok=True)
 SIGNALS_CSV = LOG_DIR / "signals.csv"
 
 
-# Universe — Nifty 100 (kept compact so 5-min cron finishes in <5 mins)
-# NOTE: scanner is dominated by network IO; 100 symbols * 1 yfinance call ≈ 60-90s.
+# Universe — MIRRORS pro_scanner.py / swing_scanner.py (~374 unique tickers).
+# All scanners now scan the same names so what gets flagged for swing also
+# gets monitored for intraday breakouts.
+#
+# RUNTIME WARNING: 374 yfinance calls per 5-min bar fetch ≈ 3-5 minutes total
+# at typical IO speeds. If the workflow cron is at 5-min intervals you're
+# right at the edge — recommend stretching the cron to every 15 minutes
+# during market hours, OR parallelising the fetch loop with concurrent
+# ThreadPoolExecutor (set max_workers=8-10).
+#
+# IMPORTANT: keep this list in lockstep with pro_scanner.py STOCK_UNIVERSE.
+# When you add a name to one, add it to the other (and to swing_scanner.py
+# and event_alpha_scanner.py's fallback list).
 STOCK_UNIVERSE = [
-    # Nifty 50
+    # ── NIFTY 50 ──
     "RELIANCE", "TCS", "HDFCBANK", "INFY", "ICICIBANK", "HINDUNILVR",
     "SBIN", "BHARTIARTL", "KOTAKBANK", "ITC", "LT", "AXISBANK",
     "BAJFINANCE", "ASIANPAINT", "MARUTI", "HCLTECH", "SUNPHARMA",
-    "TITAN", "WIPRO", "ULTRACEMCO", "NESTLEIND", "NTPC", "POWERGRID",
-    "TECHM", "TATASTEEL", "ONGC", "BAJAJFINSV", "ADANIENT", "ADANIPORTS",
-    "JSWSTEEL", "COALINDIA", "GRASIM", "BPCL", "CIPLA", "DRREDDY",
-    "DIVISLAB", "EICHERMOT", "HEROMOTOCO", "INDUSINDBK", "SBILIFE",
-    "HDFCLIFE", "BRITANNIA", "APOLLOHOSP", "TATACONSUM", "HINDALCO",
-    "SHRIRAMFIN", "BEL", "TRENT", "ADANIPOWER", "DLF",
+    "TATAMOTOR", "TITAN", "WIPRO", "ULTRACEMCO", "NESTLEIND",
+    "NTPC", "POWERGRID", "M&M", "TECHM", "TATASTEEL", "ONGC",
+    "BAJAJFINSV", "ADANIENT", "ADANIPORTS", "JSWSTEEL", "COALINDIA",
+    "GRASIM", "BPCL", "CIPLA", "DRREDDY", "DIVISLAB", "EICHERMOT",
+    "HEROMOTOCO", "INDUSINDBK", "SBILIFE", "HDFCLIFE", "BRITANNIA",
+    "APOLLOHOSP", "TATACONSUM", "HINDALCO", "BAJAJ-AUTO", "SHRIRAMFIN", "BEL",
 
-    # Nifty Next 50 (selected high-liquidity names)
-    "ADANIGREEN", "AMBUJACEM", "BANKBARODA", "CANBK", "CHOLAFIN",
-    "DABUR", "GAIL", "GODREJCP", "HAVELLS", "ICICIGI", "ICICIPRULI",
-    "INDIGO", "IOC", "JIOFIN", "LICI", "LTIM", "MARICO", "NAUKRI",
-    "PERSISTENT", "PFC", "PIDILITIND", "POLYCAB", "RECLTD", "SBICARD",
-    "SIEMENS", "SRF", "TATAPOWER", "VEDL", "ZOMATO", "ZYDUSLIFE",
-    "PNB", "MUTHOOTFIN", "BOSCHLTD", "OBEROIRLTY", "LODHA", "MAXHEALTH",
-    "PAYTM", "OFSS", "JSWENERGY", "NHPC", "PETRONET", "TATACOMM",
-    "MFSL", "INDIANB", "ABCAPITAL", "TATATECH", "ASHOKLEY", "TVSMOTOR",
-    "HAL", "BDL",
+    # ── NIFTY NEXT 50 ──
+    "ADANIGREEN", "ADANIPOWER", "AMBUJACEM", "ATGL", "AWL", "BANKBARODA",
+    "BOSCHLTD", "CANBK", "CHOLAFIN", "COLPAL", "CONCOR", "DABUR", "DLF",
+    "GAIL", "GODREJCP", "HAVELLS", "ICICIGI", "ICICIPRULI", "IDEA", "INDIGO",
+    "INDUSTOWER", "IOC", "IRCTC", "JIOFIN", "JSWENERGY", "LICI", "LODHA",
+    "LTIM", "MARICO", "MAXHEALTH", "MUTHOOTFIN", "NAUKRI", "NHPC", "OBEROIRLTY",
+    "OFSS", "PAYTM", "PERSISTENT", "PETRONET", "PIDILITIND", "PFC", "PIIND",
+    "PNB", "POLYCAB", "RECLTD", "SBICARD", "SIEMENS", "SJVN", "SRF",
+    "TATAPOWER", "TRENT", "VEDL", "ZOMATO", "ZYDUSLIFE",
+
+    # ── DEFENCE SECTOR ──
+    "HAL", "BDL", "MAZDOCK", "COCHINSHIP", "GRSE", "DATAPATTNS",
+    "BEML", "MIDHANI", "SOLARINDS", "PARAS",
+    "ASTRAMICRO", "ZENTEC", "AVANTEL", "IDEAFORGE", "GARUDA",
+    "DCXINDIA", "GANDHAR", "PREMEXPLN", "JNKINDIA", "CEIGALL",
+
+    # ── AUTO & AUTO ANCILLARY ──
+    "TVSMOTOR", "ASHOKLEY", "BALKRISIND", "ENDURANCE", "EXIDEIND",
+    "MOTHERSON", "SCHAEFFLER", "TIMKEN", "SONACOMS", "BOSCHLTD",
+    "MRF", "APOLLOTYRE", "BHARATFORG", "CRAFTSMAN",
+    "AMARAJABAT", "SUNDRMFAST", "SUPRAJIT", "UNOMINDA", "LUMAXTECH",
+    "OLECTRA", "GREAVES",
+
+    # ── ENERGY / OIL & GAS ──
+    "HINDPETRO", "MRPL", "GSPL", "GUJGASLTD", "IGL",
+    "ADANIENSOL", "GPPL",
+
+    # ── POWER & RENEWABLES ──
+    "TORNTPOWER", "CESC", "JSWENERGY", "SUZLON", "SWSOLAR",
+    "IREDA", "HUDCO", "NLCINDIA", "INOXWIND", "WAABORIG",
+    "KPIGREEN", "JSWHLDGS",
+
+    # ── GOLD ETFs ──
+    "GOLDBEES", "SETFGOLD", "HDFCGOLD", "AXISGOLD", "BSLGOLDETF",
+    "LICMFGOLD", "QGOLDHALF", "GOLDETF", "GOLDCASE", "MOGSEC",
+    "EGOLD", "TATAGOLD",
+
+    # ── SILVER ETFs ──
+    "SILVERBEES", "SBISILVER", "HDFCSILVER", "SILVERCASE", "MOSILVER",
+
+    # ── INDEX / SECTOR ETFs ──
+    "NIFTYBEES", "BANKBEES", "JUNIORBEES",
+
+    # ── GOLD & SILVER PLAYS (stocks) ──
+    "GOLDIAM", "RAJESHEXPO",
+
+    # ── PSU BANKS ──
+    "UNIONBANK", "INDIANB", "CENTRALBK", "MAHABANK", "UCOBANK",
+    "IOB", "BANKINDIA", "IDBI", "CANFINHOME",
+
+    # ── RAILWAY & INFRA PSU ──
+    "IRFC", "RVNL", "IRCON", "RAILTEL", "RITES", "CGPOWER",
+
+    # ── IT & TECH ──
+    "LTTS", "COFORGE", "MPHASIS", "TATAELXSI", "KPITTECH", "CYIENT",
+    "HAPPSTMNDS", "MASTEK", "LATENTVIEW", "SONATSOFTW", "ECLERX",
+    "INTELLECT", "TANLA", "TATATECH", "ZENSARTECH", "SASKEN",
+    "NETWEB", "ROUTE",
+
+    # ── PHARMA & HEALTHCARE ──
+    "AUROPHARMA", "BIOCON", "TORNTPHARM", "LUPIN", "ALKEM", "IPCALAB",
+    "LAURUSLABS", "METROPOLIS", "FORTIS", "SYNGENE", "NATCOPHARM",
+    "GRANULES", "GLENMARK", "AJANTPHARM", "SUVENPHAR", "JBCHEPHARM",
+    "GLAXO", "SANOFI", "ABBOT",
+
+    # ── METALS & MINING ──
+    "SAIL", "NMDC", "NATIONALUM", "HINDCOPPER", "HINDZINC",
+    "JSL", "WELCORP", "RATNAMANI", "APLAPOLLO",
+
+    # ── CHEMICALS ──
+    "DEEPAKNTR", "ATUL", "CLEAN", "FLUOROCHEM", "PIIND",
+    "NAVINFLUOR", "SUMICHEM", "FINEORG", "CHAMBLFERT", "GNFC",
+    "DCMSHRIRAM", "VINATIORGA", "GALAXYSURF",
+
+    # ── FMCG & CONSUMER ──
+    "PAGEIND", "DMART", "DEVYANI", "JUBLFOOD", "UBL", "RADICO",
+    "BATAINDIA", "RELAXO", "EMAMILTD", "HATSUN", "PATANJALI",
+    "KALYANKJIL", "PVRINOX", "SUNTV",
+
+    # ── REALTY ──
+    "GODREJPROP", "PRESTIGE", "BRIGADE", "PHOENIXLTD", "CHALET",
+
+    # ── FINANCE / NBFC / INSURANCE ──
+    "MANAPPURAM", "IIFL", "ABCAPITAL", "LICHSGFIN", "MFSL",
+    "SUNDARMFIN", "POONAWALLA", "STARHEALTH", "POLICYBZR",
+    "ANGELONE", "MCX", "CDSL", "BSE", "IEX", "CRISIL",
+    "MOTILALOFS", "HDFCAMC", "JMFINANCIL",
+
+    # ── ELECTRICALS / ELECTRONICS / CAPITAL GOODS ──
+    "CROMPTON", "DIXON", "KAYNES", "VOLTAS", "BERGEPAINT",
+    "ABB", "CUMMINSIND", "THERMAX", "KIRLOSENG", "KEI", "VGUARD",
+    "BLUESTARCO", "KAJARIACER", "KANSAINER", "CENTURYPLY",
+    "SUPREMEIND", "GRINDWELL", "CARBORUNIV", "LAXMIMACH",
+
+    # ── TELECOM & MEDIA ──
+    "BHARTIARTL", "INDUSTOWER", "IDEA", "TATACOMM", "ZEEL",
+
+    # ── MISCELLANEOUS NIFTY 500 ──
+    "3MINDIA", "AARTIIND", "AAVAS", "ACC", "ABSLAMC", "APARINDS",
+    "ASTRAL", "BASF", "BECTORFOOD", "CASTROLIND", "CUB",
+    "DELTACORP", "EQUITASBNK", "FEDERALBNK", "IDFCFIRSTB", "BANDHANBNK",
+    "AUBANK", "RBLBANK", "FSL", "GILLETTE", "GMRAIRPORT",
+    "HONAUT", "ICRA", "IIFLWAM", "INDIAMART", "INDIANHOTELS",
+    "JKCEMENT", "RAMCOCEM", "HEIDELBERG", "KRBL", "POLYMED",
+    "PRSMJOHNSN", "QUESS", "RAJESHEXPO", "TATACHEM",
+    "TIINDIA", "TRIDENT", "UNITDSPR", "UPL", "WHIRLPOOL",
+    "YESBANK",
+
+    # ── EXTENDED WATCHLIST (mirrors pro/swing scanners) ──
+    # Defence / Aerospace / Precision Engineering
+    "MTARTECH", "PARASD", "APOLLOMICRO", "HBLENGINE",
+    # Renewable Energy / Solar
+    "NTPCGREEN", "WAAREEENER", "ACMESOLAR",
+    # EMS — Electronics Manufacturing Services
+    "SYRMA", "PGEL", "CYIENTDLM",
+    # Specialty Chemicals
+    "ANUPAMRAS", "TATVA",
+    # Capital Goods / Infrastructure
+    "PRAJIND", "TRITURBINE", "ELECON",
+    # Real Estate (mid-caps)
+    "SOBHA", "KOLTEPATIL",
+    # Financial Services / Other
+    "360ONE", "VEDANTFASH", "KEC",
 ]
+
+# Remove duplicates while preserving order (mirrors pro_scanner.py).
+_seen = set()
+STOCK_UNIVERSE = [s for s in STOCK_UNIVERSE if not (s in _seen or _seen.add(s))]
 
 
 # ─────────────────────────── TIME / GATE HELPERS ───────────────────────────

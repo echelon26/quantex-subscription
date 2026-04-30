@@ -209,6 +209,25 @@ STOCK_UNIVERSE = [
     "PRSMJOHNSN", "QUESS", "RAJESHEXPO", "TATACHEM",
     "TIINDIA", "TRIDENT", "UNITDSPR", "UPL", "WHIRLPOOL",
     "YESBANK",
+
+    # ────────────────────────────────────────────────────────────────────
+    # EXTENDED WATCHLIST — curated mid/small-caps outside Nifty 500.
+    # Mirrors the same block in pro_scanner.py; keep them in sync.
+    # ────────────────────────────────────────────────────────────────────
+    # Defence / Aerospace / Precision Engineering
+    "MTARTECH", "PARASD", "APOLLOMICRO", "HBLENGINE",
+    # Renewable Energy / Solar
+    "NTPCGREEN", "WAAREEENER", "ACMESOLAR",
+    # EMS — Electronics Manufacturing Services
+    "SYRMA", "PGEL", "CYIENTDLM",
+    # Specialty Chemicals
+    "ANUPAMRAS", "TATVA",
+    # Capital Goods / Infrastructure
+    "PRAJIND", "TRITURBINE", "ELECON",
+    # Real Estate (mid-caps)
+    "SOBHA", "KOLTEPATIL",
+    # Financial Services / Other
+    "360ONE", "VEDANTFASH", "KEC",
 ]
 
 # Remove duplicates while preserving order

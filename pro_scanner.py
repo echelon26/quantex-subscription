@@ -201,6 +201,42 @@ STOCK_UNIVERSE = [
     "PRSMJOHNSN", "QUESS", "RAJESHEXPO", "TATACHEM",
     "TIINDIA", "TRIDENT", "UNITDSPR", "UPL", "WHIRLPOOL",
     "YESBANK",
+
+    # ────────────────────────────────────────────────────────────────────
+    # EXTENDED WATCHLIST — curated mid/small-caps outside Nifty 500.
+    # ────────────────────────────────────────────────────────────────────
+    # Why these aren't in the Nifty index lists above: they're either
+    # smaller (sub-Nifty 500 by market cap) or recent IPOs that haven't
+    # been added yet. They're here because the underlying themes (defence,
+    # renewable, EMS, specialty chem, capex revival) have produced strong
+    # confluence setups historically.
+    #
+    # Maintenance: review quarterly. Drop any ticker that:
+    #   • gets added to Nifty 500 (avoids duplicate evaluation; the index
+    #     loaders above will pick it up automatically)
+    #   • drops below ~₹20 Cr daily turnover for >1 month (slippage risk)
+    #   • migrates to T2T / restricted segment
+
+    # Defence / Aerospace / Precision Engineering
+    "MTARTECH", "PARASD", "APOLLOMICRO", "HBLENGINE",
+
+    # Renewable Energy / Solar
+    "NTPCGREEN", "WAAREEENER", "ACMESOLAR",
+
+    # EMS — Electronics Manufacturing Services
+    "SYRMA", "PGEL", "CYIENTDLM",
+
+    # Specialty Chemicals
+    "ANUPAMRAS", "TATVA",
+
+    # Capital Goods / Infrastructure
+    "PRAJIND", "TRITURBINE", "ELECON",
+
+    # Real Estate (mid-caps)
+    "SOBHA", "KOLTEPATIL",
+
+    # Financial Services / Other
+    "360ONE", "VEDANTFASH", "KEC",
 ]
 
 # Remove duplicates while preserving order
