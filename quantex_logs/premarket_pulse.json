@@ -278,5 +278,31 @@
       "ZENSARTECH"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-04-29.pdf"
+  },
+  {
+    "date": "Thu, 30 Apr 2026",
+    "fear_greed": 60.8,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24177.65,
+    "nifty": 24177.65,
+    "sensex": 77496.36,
+    "bank_nifty": 55403.6,
+    "vix": 17.44,
+    "top_gainers": [
+      "SAPPHIRE",
+      "DEVYANI",
+      "BANDHANBNK",
+      "EMCURE",
+      "GODFRYPHLP"
+    ],
+    "top_losers": [
+      "COHANCE",
+      "NTPCGREEN",
+      "JINDALSAW",
+      "TARIL",
+      "INDIACEM"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-04-30.pdf"
   }
 ]
