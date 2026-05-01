@@ -692,5 +692,61 @@
         "CMP": 607.25
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-01",
+    "scan_time": "2026-05-01T13:38:29.266759",
+    "stocks_scanned": 504,
+    "results_found": 8,
+    "results": [
+      {
+        "Date": "2026-04-30",
+        "Symbol": "ACC",
+        "Signals": "Flat -1.0%",
+        "CMP": 1422.1
+      },
+      {
+        "Date": "2026-04-30",
+        "Symbol": "ADANIENT",
+        "Signals": "Muted Reaction | Flat -0.7%",
+        "CMP": 2408.4
+      },
+      {
+        "Date": "2026-04-30",
+        "Symbol": "ADANIPORTS",
+        "Signals": "Flat -0.2% | Vol Surge 2.4x",
+        "CMP": 1657.3
+      },
+      {
+        "Date": "2026-04-28",
+        "Symbol": "CASTROLIND",
+        "Signals": "Flat -0.4% | High Vol 1.9x",
+        "CMP": 184.82
+      },
+      {
+        "Date": "2026-04-30",
+        "Symbol": "LALPATHLAB",
+        "Signals": "Selloff -2.2%",
+        "CMP": 1367.2
+      },
+      {
+        "Date": "2026-04-30",
+        "Symbol": "HINDUNILVR",
+        "Signals": "Selloff -2.7% | Vol Surge 2.7x",
+        "CMP": 2250.9
+      },
+      {
+        "Date": "2026-04-28",
+        "Symbol": "MARUTI",
+        "Signals": "Selloff -2.5% | Vol Surge 2.0x",
+        "CMP": 13314.0
+      },
+      {
+        "Date": "2026-04-30",
+        "Symbol": "SONACOMS",
+        "Signals": "Flat +1.3%",
+        "CMP": 607.25
+      }
+    ]
   }
 ]
