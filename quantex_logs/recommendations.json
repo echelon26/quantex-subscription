@@ -4626,5 +4626,310 @@
       "BANKING": 19
     },
     "top_10": []
+  },
+  {
+    "scan_date": "2026-05-01",
+    "scan_time": "2026-05-01T04:35:38.394797",
+    "total_qualified": 36,
+    "sector_rankings": {
+      "PHARMA": 1,
+      "ELECTRICALS": 2,
+      "ENERGY": 3,
+      "INFRA": 4,
+      "AUTO": 5,
+      "IT": 6,
+      "FMCG": 7,
+      "FINANCE": 8,
+      "REALTY": 9,
+      "CHEMICALS": 10,
+      "POWER": 11,
+      "METALS": 12,
+      "SILVER_ETF": 13,
+      "CONSUMER": 14,
+      "GOLD_ETF": 15,
+      "INDEX_ETF": 16,
+      "RAILWAY": 17,
+      "DEFENCE": 18,
+      "BANKING": 19
+    },
+    "top_10": [
+      {
+        "symbol": "FLUOROCHEM",
+        "score": 81,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 20,
+          "Price Action": 15,
+          "Relative Strength": 10,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 70 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 5.2x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Bullish Engulfing, Marubozu",
+          "Strong RS vs Nifty"
+        ],
+        "entry": 3602.0,
+        "sl": 3421.9,
+        "target1": 3962.2,
+        "target2": 4142.3,
+        "hold_period": "1-2 weeks",
+        "cmp": 3602.0
+      },
+      {
+        "symbol": "SUNDRMFAST",
+        "score": 80,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 13,
+          "Price Action": 10,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 59 (Power Zone)",
+          "MACD Bullish",
+          "Vol Above Avg 1.7x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 846.2,
+        "sl": 804.68,
+        "target1": 929.25,
+        "target2": 970.77,
+        "hold_period": "1-2 weeks",
+        "cmp": 846.2
+      },
+      {
+        "symbol": "SYNGENE",
+        "score": 80,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 10,
+          "Price Action": 15,
+          "Relative Strength": 15,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 15.2x",
+          "20-Day Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Consistent Buying"
+        ],
+        "entry": 467.65,
+        "sl": 444.27,
+        "target1": 514.41,
+        "target2": 537.8,
+        "hold_period": "1-2 weeks",
+        "cmp": 467.65
+      },
+      {
+        "symbol": "NAVINFLUOR",
+        "score": 75,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 10,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 7.7x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 6821.0,
+        "sl": 6479.95,
+        "target1": 7503.1,
+        "target2": 7844.15,
+        "hold_period": "1-2 weeks",
+        "cmp": 6821.0
+      },
+      {
+        "symbol": "SONACOMS",
+        "score": 73,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 10,
+          "Price Action": 10,
+          "Relative Strength": 13,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 14,532,175)"
+        ],
+        "entry": 607.25,
+        "sl": 576.89,
+        "target1": 667.98,
+        "target2": 698.34,
+        "hold_period": "1-2 weeks",
+        "cmp": 607.25
+      },
+      {
+        "symbol": "MTARTECH",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 8,
+          "Volume": 15,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend FLIP Bullish",
+          "MACD Bullish",
+          "Vol Surge 4.0x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 6457.1,
+        "sl": 6134.24,
+        "target1": 7102.81,
+        "target2": 7425.67,
+        "hold_period": "1-2 weeks",
+        "cmp": 6457.1
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "score": 70,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 10,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 58 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 2.8x",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 60,931,500)"
+        ],
+        "entry": 937.0,
+        "sl": 908.3,
+        "target1": 994.4,
+        "target2": 1023.1,
+        "hold_period": "1-2 weeks",
+        "cmp": 937.0
+      },
+      {
+        "symbol": "BERGEPAINT",
+        "score": 70,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 10,
+          "Price Action": 0,
+          "Relative Strength": 15,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 61 (Power Zone)",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "Strong RS vs Nifty",
+          "Sector Top 3: ELECTRICALS",
+          "Consistent Buying"
+        ],
+        "entry": 473.1,
+        "sl": 455.75,
+        "target1": 507.8,
+        "target2": 525.15,
+        "hold_period": "1-2 weeks",
+        "cmp": 473.1
+      },
+      {
+        "symbol": "KPITTECH",
+        "score": 69,
+        "breakdown": {
+          "Trend": 11,
+          "Momentum": 18,
+          "Volume": 18,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "RSI 59 (Power Zone)",
+          "MACD Bullish",
+          "Vol Above Avg 1.7x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 5,983,150)"
+        ],
+        "entry": 759.05,
+        "sl": 721.1,
+        "target1": 834.95,
+        "target2": 872.91,
+        "hold_period": "1-2 weeks",
+        "cmp": 759.05
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 8,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 63 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 24,780,000)"
+        ],
+        "entry": 1808.3,
+        "sl": 1733.84,
+        "target1": 1957.22,
+        "target2": 2031.68,
+        "hold_period": "1-2 weeks",
+        "cmp": 1808.3
+      }
+    ]
   }
 ]

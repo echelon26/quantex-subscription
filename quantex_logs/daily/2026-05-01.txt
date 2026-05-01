@@ -7,3 +7,61 @@ Qualified: 0 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-05-01 at 04:35 AM IST
+Qualified: 36 stocks | Top 10 below
+============================================================
+
+1. FLUOROCHEM — Score: 81/100
+   Entry: 3602.00 | SL: 3421.90 | T1: 3962.20 | T2: 4142.30 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:20 PA:15 RS:10 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 70 (Power Zone), MACD Bullish, Vol Surge 5.2x, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Marubozu, Strong RS vs Nifty
+
+2. SUNDRMFAST — Score: 80/100
+   Entry: 846.20 | SL: 804.68 | T1: 929.25 | T2: 970.77 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:13 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 59 (Power Zone), MACD Bullish, Vol Above Avg 1.7x, 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+3. SYNGENE — Score: 80/100
+   Entry: 467.65 | SL: 444.27 | T1: 514.41 | T2: 537.80 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:10 PA:15 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 66 (Power Zone), MACD Bullish, Vol Surge 15.2x, 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Sector Top 3: PHARMA, Consistent Buying
+
+4. NAVINFLUOR — Score: 75/100
+   Entry: 6821.00 | SL: 6479.95 | T1: 7503.10 | T2: 7844.15 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:10 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Bullish, Vol Surge 7.7x, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+5. SONACOMS — Score: 73/100
+   Entry: 607.25 | SL: 576.89 | T1: 667.98 | T2: 698.34 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:10 PA:10 RS:13 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 67 (Power Zone), MACD Bullish, Strong Delivery (Close near High), Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Long Buildup (OI: 14,532,175)
+
+6. MTARTECH — Score: 73/100
+   Entry: 6457.10 | SL: 6134.24 | T1: 7102.81 | T2: 7425.67 | RR: 1:2.0
+   Trend:20 Mom:8 Vol:15 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, MACD Bullish, Vol Surge 4.0x, 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+7. BAJFINANCE — Score: 70/100
+   Entry: 937.00 | SL: 908.30 | T1: 994.40 | T2: 1023.10 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:10 PA:5 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 58 (Power Zone), MACD Bullish, Vol Surge 2.8x, Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 60,931,500)
+
+8. BERGEPAINT — Score: 70/100
+   Entry: 473.10 | SL: 455.75 | T1: 507.80 | T2: 525.15 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:10 PA:0 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Bullish, Strong Delivery (Close near High), Strong RS vs Nifty, Sector Top 3: ELECTRICALS, Consistent Buying
+
+9. KPITTECH — Score: 69/100
+   Entry: 759.05 | SL: 721.10 | T1: 834.95 | T2: 872.91 | RR: 1:2.0
+   Trend:11 Mom:18 Vol:18 PA:5 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: RSI 59 (Power Zone), MACD Bullish, Vol Above Avg 1.7x, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 5,983,150)
+
+10. SUNPHARMA — Score: 68/100
+   Entry: 1808.30 | SL: 1733.84 | T1: 1957.22 | T2: 2031.68 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:8 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 63 (Power Zone), MACD Bullish, 20-Day Breakout, Sector Top 3: PHARMA, Long Buildup (OI: 24,780,000)
+
+
+────────────────────────────────────────────────────────────
+
