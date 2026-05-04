@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-05-04 at 04:30 AM IST
+Regime: BULLISH (risk-on) | VIX: 17.98 | Min Score: 60
+Qualified: 18 stocks | Top 10 below
+============================================================
+
+1. SIEMENS -- Score: 69/100
+   Entry: 3906.60 | SL: 3731.13 | T1: 4169.80 | T2: 4433.01 | RR: 1:1.5
+   Tr:20 Mo:10 Vo:4 PA:13 RS:12 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 35 (Strong Trend), ADX Rising, MACD Bullish, 20-Day Breakout, Morning Star, Strong RS vs Nifty, Sector Top 3: INFRA, Long Buildup (OI: 2,931,075), High F&O Activity
+
+2. SUNDRMFAST -- Score: 68/100
+   Entry: 881.15 | SL: 835.10 | T1: 950.23 | T2: 996.28 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:9 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, ADX 25 (Strong Trend), RSI 66 (Power Zone), MACD Bullish, Vol Surge 2.7x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: AUTO, Institutional Accumulation
+
+3. POLYMED -- Score: 67/100
+   Entry: 1548.50 | SL: 1465.40 | T1: 1673.15 | T2: 1756.25 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:4 PA:13 RS:8 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 25 (Strong Trend), RSI 65 (Power Zone), MACD Bullish, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Consistent Buying
+
+4. CONCOR -- Score: 66/100
+   Entry: 518.70 | SL: 502.02 | T1: 543.72 | T2: 568.74 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:4 PA:9 RS:8 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 33 (Strong Trend), ADX Rising, RSI 64 (Power Zone), MACD Bullish, Near Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 22,495,000), High F&O Activity
+
+5. COLPAL -- Score: 65/100
+   Entry: 2172.70 | SL: 2083.45 | T1: 2306.58 | T2: 2440.46 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:4 PA:4 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 26 (Strong Trend), RSI 64 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: FMCG, Long Buildup (OI: 4,889,025), High F&O Activity
+
+6. POWERGRID -- Score: 63/100
+   Entry: 320.40 | SL: 314.55 | T1: 329.17 | T2: 339.36 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:4 PA:9 RS:5 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, RSI 65 (Power Zone), MACD Bullish, Near Breakout, Bullish Engulfing, Outperforming Nifty, Long Buildup (OI: 68,652,700), High F&O Activity
+
+7. INDUSINDBK -- Score: 63/100
+   Entry: 937.45 | SL: 895.56 | T1: 1000.29 | T2: 1042.18 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:4 PA:8 RS:8 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), ADX Rising, RSI 67 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 34,804,000), High F&O Activity
+
+8. HINDUNILVR -- Score: 62/100
+   Entry: 2353.80 | SL: 2248.56 | T1: 2511.65 | T2: 2646.24 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:4 PA:5 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 27 (Strong Trend), RSI 62 (Power Zone), MACD Bullish, Marubozu, Strong RS vs Nifty, Sector Top 3: FMCG, Long Buildup (OI: 14,919,900), High F&O Activity
+
+9. HAL -- Score: 62/100
+   Entry: 4536.70 | SL: 4369.07 | T1: 4788.14 | T2: 5090.93 | RR: 1:1.5
+   Tr:20 Mo:10 Vo:4 PA:8 RS:10 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 6,142,050), High F&O Activity
+
+10. DIVISLAB -- Score: 61/100
+   Entry: 6546.50 | SL: 6382.83 | T1: 6792.01 | T2: 7037.51 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:4 PA:4 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, RSI 68 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 2,154,100), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
