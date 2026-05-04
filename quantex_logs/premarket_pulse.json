@@ -330,5 +330,31 @@
       "KFINTECH"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-01.pdf"
+  },
+  {
+    "date": "Mon, 04 May 2026",
+    "fear_greed": 54.8,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23997.55,
+    "nifty": 23997.55,
+    "sensex": 76913.5,
+    "bank_nifty": 54863.35,
+    "vix": 18.46,
+    "top_gainers": [
+      "CEMPRO",
+      "MEESHO",
+      "HFCL",
+      "SYNGENE",
+      "FLUOROCHEM"
+    ],
+    "top_losers": [
+      "VEDL",
+      "WAAREEENER",
+      "EMMVEE",
+      "HEG",
+      "KFINTECH"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-04.pdf"
   }
 ]
