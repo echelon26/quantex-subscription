@@ -748,5 +748,85 @@
         "CMP": 607.25
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-04",
+    "scan_time": "2026-05-04T13:40:25.498139",
+    "stocks_scanned": 504,
+    "results_found": 12,
+    "results": [
+      {
+        "Date": "2026-05-04",
+        "Symbol": "AARTIIND",
+        "Signals": "Flat +1.1%",
+        "CMP": 513.1
+      },
+      {
+        "Date": "2026-05-04",
+        "Symbol": "ABCAPITAL",
+        "Signals": "Flat +0.1% | Vol Surge 2.5x",
+        "CMP": 345.85
+      },
+      {
+        "Date": "2026-05-04",
+        "Symbol": "AMBUJACEM",
+        "Signals": "Flat +0.2% | Vol Explosion 4.4x",
+        "CMP": 445.3
+      },
+      {
+        "Date": "2026-05-04",
+        "Symbol": "BHEL",
+        "Signals": "Bullish Reaction | Surge +7.0% | Vol Explosion 6.3x",
+        "CMP": 377.05
+      },
+      {
+        "Date": "2026-05-04",
+        "Symbol": "CAMS",
+        "Signals": "Flat -1.0%",
+        "CMP": 730.85
+      },
+      {
+        "Date": "2026-05-04",
+        "Symbol": "EXIDEIND",
+        "Signals": "Flat -0.4% | Vol Explosion 3.4x",
+        "CMP": 359.05
+      },
+      {
+        "Date": "2026-05-04",
+        "Symbol": "GODREJPROP",
+        "Signals": "Bullish Reaction | Rally +3.5% | Vol Explosion 3.2x",
+        "CMP": 1899.8
+      },
+      {
+        "Date": "2026-05-04",
+        "Symbol": "JSL",
+        "Signals": "Flat +1.4%",
+        "CMP": 778.4
+      },
+      {
+        "Date": "2026-05-04",
+        "Symbol": "KEI",
+        "Signals": "Bullish Reaction | Rally +4.1% | High Vol 1.7x",
+        "CMP": 5058.3
+      },
+      {
+        "Date": "2026-05-04",
+        "Symbol": "MANAPPURAM",
+        "Signals": "Bullish Reaction | Rally +3.7% | Vol Surge 2.2x",
+        "CMP": 305.15
+      },
+      {
+        "Date": "2026-05-04",
+        "Symbol": "PETRONET",
+        "Signals": "Muted Reaction | Flat -0.0%",
+        "CMP": 276.7
+      },
+      {
+        "Date": "2026-05-04",
+        "Symbol": "TATACHEM",
+        "Signals": "Muted Reaction | Flat -0.4%",
+        "CMP": 805.75
+      }
+    ]
   }
 ]
