@@ -5642,5 +5642,76 @@
         "cmp": 4532.6
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-04",
+    "scan_time": "2026-05-04T10:30:54.237780",
+    "market_regime": {
+      "regime": "bearish",
+      "min_score": 75,
+      "label": "BEARISH (risk-off)",
+      "nifty_above_50dma": false,
+      "vix": 18.299999237060547
+    },
+    "min_score_threshold": 75,
+    "total_qualified": 1,
+    "sector_rankings": {
+      "INFRA": 1,
+      "ELECTRICALS": 2,
+      "ENERGY": 3,
+      "REALTY": 4,
+      "FMCG": 5,
+      "DEFENCE": 6,
+      "AUTO": 7,
+      "FINANCE": 8,
+      "CHEMICALS": 9,
+      "PHARMA": 10,
+      "SILVER_ETF": 11,
+      "RAILWAY": 12,
+      "INDEX_ETF": 13,
+      "IT": 14,
+      "METALS": 15,
+      "GOLD_ETF": 16,
+      "POWER": 17,
+      "CONSUMER": 18,
+      "BANKING": 19
+    },
+    "top_10": [
+      {
+        "symbol": "LAURUSLABS",
+        "score": 82,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 17,
+          "Price Action": 13,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 65 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 2.6x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 18,310,700)",
+          "High F&O Activity"
+        ],
+        "entry": 1165.0,
+        "sl": 1111.99,
+        "target1": 1244.52,
+        "target2": 1273.73,
+        "hold_period": "2-3 weeks",
+        "cmp": 1165.0,
+        "target3": 1353.4,
+        "target_method": "52W High + Weekly R3 + Fib 1.272 + Fib 1.618",
+        "est_days_to_t1": 16.3
+      }
+    ]
   }
 ]

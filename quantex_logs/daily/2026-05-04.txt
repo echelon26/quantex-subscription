@@ -115,3 +115,17 @@ Qualified: 59 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-05-04 at 10:30 AM IST
+Regime: BEARISH (risk-off) | VIX: 18.30 | Min Score: 75
+Qualified: 1 stocks | Top 10 below
+============================================================
+
+1. LAURUSLABS -- Score: 82/100
+   Entry: 1165.00 | SL: 1111.99 | T1: 1244.52 | T2: 1273.73 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:17 PA:13 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 65 (Power Zone), MACD Fresh Crossover, Vol Surge 2.6x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 18,310,700), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
