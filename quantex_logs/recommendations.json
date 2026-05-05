@@ -5748,5 +5748,314 @@
       "CONSUMER": 19
     },
     "top_10": []
+  },
+  {
+    "scan_date": "2026-05-05",
+    "scan_time": "2026-05-05T04:35:42.085483",
+    "total_qualified": 52,
+    "sector_rankings": {
+      "INFRA": 1,
+      "AUTO": 2,
+      "DEFENCE": 3,
+      "FMCG": 4,
+      "SILVER_ETF": 5,
+      "IT": 6,
+      "CHEMICALS": 7,
+      "RAILWAY": 8,
+      "REALTY": 9,
+      "ELECTRICALS": 10,
+      "FINANCE": 11,
+      "ENERGY": 12,
+      "PHARMA": 13,
+      "INDEX_ETF": 14,
+      "GOLD_ETF": 15,
+      "POWER": 16,
+      "METALS": 17,
+      "BANKING": 18,
+      "CONSUMER": 19
+    },
+    "top_10": [
+      {
+        "symbol": "GARUDA",
+        "score": 86,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 20,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 4.5x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: DEFENCE"
+        ],
+        "entry": 193.56,
+        "sl": 183.88,
+        "target1": 212.92,
+        "target2": 222.59,
+        "hold_period": "1-2 weeks",
+        "cmp": 193.56
+      },
+      {
+        "symbol": "ABCAPITAL",
+        "score": 86,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 18,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 64 (Power Zone)",
+          "MACD Bullish",
+          "Vol Above Avg 1.6x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 44,946,900)",
+          "High F&O Activity"
+        ],
+        "entry": 360.8,
+        "sl": 342.76,
+        "target1": 396.88,
+        "target2": 414.92,
+        "hold_period": "1-2 weeks",
+        "cmp": 360.8
+      },
+      {
+        "symbol": "IDEAFORGE",
+        "score": 80,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 8,
+          "Volume": 20,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "Vol Surge 2.7x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: DEFENCE",
+          "Consistent Buying"
+        ],
+        "entry": 793.05,
+        "sl": 753.4,
+        "target1": 872.36,
+        "target2": 912.01,
+        "hold_period": "1-2 weeks",
+        "cmp": 793.05
+      },
+      {
+        "symbol": "TATATECH",
+        "score": 76,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 13,
+          "Volume": 20,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "Vol Surge 9.4x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 650.75,
+        "sl": 618.21,
+        "target1": 715.83,
+        "target2": 748.36,
+        "hold_period": "1-2 weeks",
+        "cmp": 650.75
+      },
+      {
+        "symbol": "MANAPPURAM",
+        "score": 76,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 18,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "Vol Above Avg 1.5x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 53,802,000)",
+          "High F&O Activity"
+        ],
+        "entry": 306.0,
+        "sl": 291.41,
+        "target1": 335.18,
+        "target2": 349.78,
+        "hold_period": "1-2 weeks",
+        "cmp": 306.0
+      },
+      {
+        "symbol": "HAL",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: DEFENCE",
+          "Long Buildup (OI: 5,944,050)",
+          "High F&O Activity"
+        ],
+        "entry": 4641.7,
+        "sl": 4465.83,
+        "target1": 4993.44,
+        "target2": 5169.31,
+        "hold_period": "1-2 weeks",
+        "cmp": 4641.7
+      },
+      {
+        "symbol": "QUESS",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 8,
+          "Volume": 15,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "Vol Surge 10.7x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 231.96,
+        "sl": 220.36,
+        "target1": 255.16,
+        "target2": 266.75,
+        "hold_period": "1-2 weeks",
+        "cmp": 231.96
+      },
+      {
+        "symbol": "SUMICHEM",
+        "score": 72,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 62 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 455.0,
+        "sl": 432.25,
+        "target1": 500.5,
+        "target2": 523.25,
+        "hold_period": "1-2 weeks",
+        "cmp": 455.0
+      },
+      {
+        "symbol": "PREMEXPLN",
+        "score": 70,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: DEFENCE",
+          "Consistent Buying"
+        ],
+        "entry": 564.6,
+        "sl": 537.55,
+        "target1": 618.7,
+        "target2": 645.75,
+        "hold_period": "1-2 weeks",
+        "cmp": 564.6
+      },
+      {
+        "symbol": "POLYMED",
+        "score": 70,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 1572.9,
+        "sl": 1494.26,
+        "target1": 1730.19,
+        "target2": 1808.84,
+        "hold_period": "1-2 weeks",
+        "cmp": 1572.9
+      }
+    ]
   }
 ]
