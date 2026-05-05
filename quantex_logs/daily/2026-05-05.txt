@@ -65,3 +65,62 @@ Qualified: 52 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-05-05 at 10:30 AM IST
+Regime: NEUTRAL (mixed) | VIX: 17.91 | Min Score: 68
+Qualified: 10 stocks | Top 10 below
+============================================================
+
+1. NETWEB -- Score: 81/100
+   Entry: 4189.00 | SL: 3904.93 | T1: 4615.11 | T2: 4899.18 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:15 PA:13 RS:8 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, RSI 70 (Power Zone), MACD Bullish, Vol Above Avg 1.9x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Institutional Accumulation
+
+2. CGPOWER -- Score: 79/100
+   Entry: 827.00 | SL: 798.17 | T1: 870.25 | T2: 888.35 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:17 PA:5 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 27 (Strong Trend), RSI 66 (Power Zone), MACD Bullish, Vol Surge 2.0x, Strong Delivery (Close near High), Bullish Engulfing, Strong RS vs Nifty, Sector Top 3: INFRA, Long Buildup (OI: 20,868,350), High F&O Activity
+
+3. SUMICHEM -- Score: 77/100
+   Entry: 478.45 | SL: 451.06 | T1: 519.54 | T2: 539.04 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Fresh Crossover, Vol Surge 4.8x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+4. MARICO -- Score: 76/100
+   Entry: 810.00 | SL: 782.41 | T1: 851.38 | T2: 878.97 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:17 PA:8 RS:10 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 69 (Power Zone), MACD Bullish, Vol Surge 2.7x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 22,692,000), High F&O Activity
+
+5. GARUDA -- Score: 76/100
+   Entry: 198.50 | SL: 185.38 | T1: 218.18 | T2: 231.30 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:17 PA:13 RS:12 SM:3 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 70 (Power Zone), MACD Bullish, Vol Surge 10.0x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: DEFENCE
+
+6. ABCAPITAL -- Score: 74/100
+   Entry: 360.50 | SL: 341.57 | T1: 398.36 | T2: 417.29 | RR: 1:2.0
+   Tr:16 Mo:15 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 64 (Power Zone), MACD Bullish, Vol Surge 2.9x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 44,788,800), High F&O Activity
+
+7. IDEAFORGE -- Score: 73/100
+   Entry: 804.10 | SL: 747.81 | T1: 905.41 | T2: 956.07 | RR: 1:1.8
+   Tr:20 Mo:6 Vo:17 PA:8 RS:12 SM:10 MTF:0
+   Hold: 2-3 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 39 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 4.4x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: DEFENCE, Institutional Accumulation
+
+8. POLYMED -- Score: 73/100
+   Entry: 1616.00 | SL: 1528.16 | T1: 1747.76 | T2: 1835.60 | RR: 1:1.5
+   Tr:20 Mo:10 Vo:15 PA:13 RS:8 SM:7 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 26 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.7x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Consistent Buying
+
+9. DABUR -- Score: 72/100
+   Entry: 462.00 | SL: 443.65 | T1: 489.53 | T2: 507.88 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:12 PA:9 RS:10 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), RSI 58 (Power Zone), MACD Bullish, Strong Delivery (Close near High), Near Breakout, Morning Star, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 28,171,250), High F&O Activity
+
+10. MANAPPURAM -- Score: 69/100
+   Entry: 308.30 | SL: 293.65 | T1: 337.60 | T2: 352.25 | RR: 1:2.0
+   Tr:20 Mo:10 Vo:17 PA:4 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 27 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 2.4x, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 51,684,000), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
