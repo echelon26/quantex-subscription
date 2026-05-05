@@ -828,5 +828,85 @@
         "CMP": 805.75
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-05",
+    "scan_time": "2026-05-05T13:37:45.235720",
+    "stocks_scanned": 504,
+    "results_found": 12,
+    "results": [
+      {
+        "Date": "2026-05-05",
+        "Symbol": "AAVAS",
+        "Signals": "Bullish Reaction | Rally +4.6% | Vol Explosion 3.5x",
+        "CMP": 1445.8
+      },
+      {
+        "Date": "2026-05-04",
+        "Symbol": "BHEL",
+        "Signals": "Bullish Reaction | Surge +7.0% | Vol Explosion 7.8x",
+        "CMP": 374.95
+      },
+      {
+        "Date": "2026-05-05",
+        "Symbol": "COFORGE",
+        "Signals": "Flat +1.5%",
+        "CMP": 1168.8
+      },
+      {
+        "Date": "2026-05-05",
+        "Symbol": "HEROMOTOCO",
+        "Signals": "Muted Reaction | Flat +0.8%",
+        "CMP": 5109.0
+      },
+      {
+        "Date": "2026-05-05",
+        "Symbol": "LT",
+        "Signals": "Flat -1.1% | Vol Surge 2.2x",
+        "CMP": 4054.5
+      },
+      {
+        "Date": "2026-05-05",
+        "Symbol": "M&M",
+        "Signals": "Bullish Reaction | Rally +3.4% | Vol Surge 2.5x",
+        "CMP": 3210.8
+      },
+      {
+        "Date": "2026-05-04",
+        "Symbol": "MANAPPURAM",
+        "Signals": "Bullish Reaction | Rally +3.7% | Vol Surge 2.6x",
+        "CMP": 307.25
+      },
+      {
+        "Date": "2026-05-05",
+        "Symbol": "MARICO",
+        "Signals": "Rally +2.9% | Vol Explosion 5.0x",
+        "CMP": 807.2
+      },
+      {
+        "Date": "2026-05-05",
+        "Symbol": "POONAWALLA",
+        "Signals": "Muted Reaction | Flat +0.4%",
+        "CMP": 439.0
+      },
+      {
+        "Date": "2026-05-05",
+        "Symbol": "PNB",
+        "Signals": "Flat -0.7% | Vol Explosion 4.3x",
+        "CMP": 107.89
+      },
+      {
+        "Date": "2026-05-05",
+        "Symbol": "SRF",
+        "Signals": "Flat -1.1% | High Vol 1.6x",
+        "CMP": 2522.8
+      },
+      {
+        "Date": "2026-05-05",
+        "Symbol": "UBL",
+        "Signals": "Muted Reaction | Flat -0.6%",
+        "CMP": 1453.8
+      }
+    ]
   }
 ]
