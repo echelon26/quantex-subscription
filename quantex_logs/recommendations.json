@@ -6543,5 +6543,313 @@
         "est_days_to_t1": 11.5
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-06",
+    "scan_time": "2026-05-06T04:35:39.070320",
+    "total_qualified": 49,
+    "sector_rankings": {
+      "SILVER_ETF": 1,
+      "AUTO": 2,
+      "FINANCE": 3,
+      "DEFENCE": 4,
+      "CHEMICALS": 5,
+      "GOLD_ETF": 6,
+      "RAILWAY": 7,
+      "INFRA": 8,
+      "ELECTRICALS": 9,
+      "INDEX_ETF": 10,
+      "PHARMA": 11,
+      "IT": 12,
+      "FMCG": 13,
+      "ENERGY": 14,
+      "METALS": 15,
+      "REALTY": 16,
+      "POWER": 17,
+      "BANKING": 18,
+      "CONSUMER": 19
+    },
+    "top_10": [
+      {
+        "symbol": "GANDHAR",
+        "score": 91,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 20,
+          "Price Action": 15,
+          "Relative Strength": 13,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 7.0x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty"
+        ],
+        "entry": 156.48,
+        "sl": 148.66,
+        "target1": 172.13,
+        "target2": 179.95,
+        "hold_period": "1-2 weeks",
+        "cmp": 156.48
+      },
+      {
+        "symbol": "POONAWALLA",
+        "score": 80,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 10,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 2.4x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: FINANCE",
+          "Consistent Buying"
+        ],
+        "entry": 449.8,
+        "sl": 427.31,
+        "target1": 494.78,
+        "target2": 517.27,
+        "hold_period": "1-2 weeks",
+        "cmp": 449.8
+      },
+      {
+        "symbol": "AJANTPHARM",
+        "score": 79,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 15,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 64 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 2.3x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 2980.4,
+        "sl": 2853.83,
+        "target1": 3233.54,
+        "target2": 3360.1,
+        "hold_period": "1-2 weeks",
+        "cmp": 2980.4
+      },
+      {
+        "symbol": "ABCAPITAL",
+        "score": 78,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: FINANCE",
+          "Long Buildup (OI: 39,804,000)",
+          "High F&O Activity"
+        ],
+        "entry": 369.85,
+        "sl": 351.36,
+        "target1": 406.84,
+        "target2": 425.33,
+        "hold_period": "1-2 weeks",
+        "cmp": 369.85
+      },
+      {
+        "symbol": "LICHSGFIN",
+        "score": 78,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: FINANCE",
+          "Long Buildup (OI: 30,309,000)",
+          "High F&O Activity"
+        ],
+        "entry": 577.15,
+        "sl": 554.63,
+        "target1": 622.19,
+        "target2": 644.7,
+        "hold_period": "1-2 weeks",
+        "cmp": 577.15
+      },
+      {
+        "symbol": "M&M",
+        "score": 76,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 59 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: AUTO",
+          "Long Buildup (OI: 17,329,800)",
+          "High F&O Activity"
+        ],
+        "entry": 3308.0,
+        "sl": 3161.58,
+        "target1": 3600.85,
+        "target2": 3747.27,
+        "hold_period": "1-2 weeks",
+        "cmp": 3308.0
+      },
+      {
+        "symbol": "GNFC",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 10,
+          "Price Action": 5,
+          "Relative Strength": 13,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 496.25,
+        "sl": 475.17,
+        "target1": 538.41,
+        "target2": 559.48,
+        "hold_period": "1-2 weeks",
+        "cmp": 496.25
+      },
+      {
+        "symbol": "CROMPTON",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 53,442,000)",
+          "High F&O Activity"
+        ],
+        "entry": 281.05,
+        "sl": 267.26,
+        "target1": 308.63,
+        "target2": 322.41,
+        "hold_period": "1-2 weeks",
+        "cmp": 281.05
+      },
+      {
+        "symbol": "SRF",
+        "score": 70,
+        "breakdown": {
+          "Trend": 11,
+          "Momentum": 18,
+          "Volume": 8,
+          "Price Action": 10,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "RSI 59 (Power Zone)",
+          "MACD Bullish",
+          "Vol Above Avg 1.9x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 3,788,800)",
+          "High F&O Activity"
+        ],
+        "entry": 2624.7,
+        "sl": 2509.19,
+        "target1": 2855.72,
+        "target2": 2971.23,
+        "hold_period": "1-2 weeks",
+        "cmp": 2624.7
+      },
+      {
+        "symbol": "NETWEB",
+        "score": 70,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 10,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 4397.0,
+        "sl": 4177.15,
+        "target1": 4836.7,
+        "target2": 5056.55,
+        "hold_period": "1-2 weeks",
+        "cmp": 4397.0
+      }
+    ]
   }
 ]

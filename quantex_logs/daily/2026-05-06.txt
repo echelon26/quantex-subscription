@@ -17,3 +17,61 @@ Qualified: 2 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-05-06 at 04:35 AM IST
+Qualified: 49 stocks | Top 10 below
+============================================================
+
+1. GANDHAR — Score: 91/100
+   Entry: 156.48 | SL: 148.66 | T1: 172.13 | T2: 179.95 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:20 PA:15 RS:13 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 69 (Power Zone), MACD Fresh Crossover, Vol Surge 7.0x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty
+
+2. POONAWALLA — Score: 80/100
+   Entry: 449.80 | SL: 427.31 | T1: 494.78 | T2: 517.27 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:10 PA:10 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Bullish, Vol Surge 2.4x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Consistent Buying
+
+3. AJANTPHARM — Score: 79/100
+   Entry: 2980.40 | SL: 2853.83 | T1: 3233.54 | T2: 3360.10 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:15 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 64 (Power Zone), MACD Bullish, Vol Surge 2.3x, 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+4. ABCAPITAL — Score: 78/100
+   Entry: 369.85 | SL: 351.36 | T1: 406.84 | T2: 425.33 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 39,804,000), High F&O Activity
+
+5. LICHSGFIN — Score: 78/100
+   Entry: 577.15 | SL: 554.63 | T1: 622.19 | T2: 644.70 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 30,309,000), High F&O Activity
+
+6. M&M — Score: 76/100
+   Entry: 3308.00 | SL: 3161.58 | T1: 3600.85 | T2: 3747.27 | RR: 1:2.0
+   Trend:16 Mom:20 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 59 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: AUTO, Long Buildup (OI: 17,329,800), High F&O Activity
+
+7. GNFC — Score: 73/100
+   Entry: 496.25 | SL: 475.17 | T1: 538.41 | T2: 559.48 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:10 PA:5 RS:13 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Consistent Buying
+
+8. CROMPTON — Score: 73/100
+   Entry: 281.05 | SL: 267.26 | T1: 308.63 | T2: 322.41 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 53,442,000), High F&O Activity
+
+9. SRF — Score: 70/100
+   Entry: 2624.70 | SL: 2509.19 | T1: 2855.72 | T2: 2971.23 | RR: 1:2.0
+   Trend:11 Mom:18 Vol:8 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: RSI 59 (Power Zone), MACD Bullish, Vol Above Avg 1.9x, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 3,788,800), High F&O Activity
+
+10. NETWEB — Score: 70/100
+   Entry: 4397.00 | SL: 4177.15 | T1: 4836.70 | T2: 5056.55 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:10 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+
+────────────────────────────────────────────────────────────
+
