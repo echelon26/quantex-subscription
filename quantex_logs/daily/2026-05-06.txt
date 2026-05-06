@@ -75,3 +75,62 @@ Qualified: 49 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-05-06 at 10:31 AM IST
+Regime: BULLISH (risk-on) | VIX: 16.68 | Min Score: 60
+Qualified: 48 stocks | Top 10 below
+============================================================
+
+1. LICHSGFIN -- Score: 80/100
+   Entry: 581.90 | SL: 558.95 | T1: 627.79 | T2: 650.74 | RR: 1:2.0
+   Tr:18 Mo:15 Vo:17 PA:8 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 20 (Trending), ADX Rising, RSI 69 (Power Zone), MACD Bullish, Vol Surge 2.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 31,281,000), High F&O Activity
+
+2. SUMICHEM -- Score: 78/100
+   Entry: 496.55 | SL: 468.54 | T1: 552.57 | T2: 580.58 | RR: 1:2.0
+   Tr:18 Mo:13 Vo:17 PA:8 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 21 (Trending), ADX Rising, MACD Fresh Crossover, Vol Surge 3.2x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: CHEMICALS, Institutional Accumulation
+
+3. INTELLECT -- Score: 77/100
+   Entry: 789.00 | SL: 743.95 | T1: 879.09 | T2: 924.14 | RR: 1:2.0
+   Tr:14 Mo:15 Vo:17 PA:13 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX 21 (Trending), ADX Rising, RSI 69 (Power Zone), MACD Bullish, Vol Surge 2.2x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Institutional Accumulation
+
+4. ABCAPITAL -- Score: 76/100
+   Entry: 370.70 | SL: 351.88 | T1: 408.35 | T2: 427.17 | RR: 1:2.0
+   Tr:16 Mo:15 Vo:15 PA:8 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 68 (Power Zone), MACD Bullish, Vol Above Avg 1.5x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 40,148,100), High F&O Activity
+
+5. GNFC -- Score: 75/100
+   Entry: 498.00 | SL: 476.39 | T1: 541.23 | T2: 562.84 | RR: 1:2.0
+   Tr:20 Mo:15 Vo:13 PA:8 RS:12 SM:7 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 25 (Strong Trend), RSI 68 (Power Zone), MACD Bullish, Vol Surge 2.8x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: CHEMICALS, Consistent Buying
+
+6. PIDILITIND -- Score: 74/100
+   Entry: 1423.00 | SL: 1371.39 | T1: 1500.42 | T2: 1590.60 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:17 PA:9 RS:9 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 59 (Power Zone), MACD Bullish, Vol Surge 2.4x, Strong Delivery (Close near High), Near Breakout, Morning Star, Marubozu, Outperforming Nifty, Sector Top 3: CHEMICALS, Long Buildup (OI: 7,731,500), High F&O Activity
+
+7. BASF -- Score: 74/100
+   Entry: 3807.20 | SL: 3629.55 | T1: 4073.68 | T2: 4192.39 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:17 PA:8 RS:5 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 64 (Power Zone), MACD Fresh Crossover, Vol Surge 2.5x, Strong Delivery (Close near High), 20-Day Breakout, Outperforming Nifty, Institutional Accumulation
+
+8. POLYMED -- Score: 74/100
+   Entry: 1661.00 | SL: 1572.27 | T1: 1794.10 | T2: 1882.83 | RR: 1:1.5
+   Tr:16 Mo:10 Vo:17 PA:13 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 27 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 2.2x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Institutional Accumulation
+
+9. AUROPHARMA -- Score: 71/100
+   Entry: 1484.50 | SL: 1425.67 | T1: 1602.16 | T2: 1660.99 | RR: 1:2.0
+   Tr:12 Mo:13 Vo:15 PA:13 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX Rising, MACD Fresh Crossover, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 20,150,900), High F&O Activity
+
+10. SRF -- Score: 70/100
+   Entry: 2725.00 | SL: 2598.54 | T1: 2914.69 | T2: 3041.15 | RR: 1:1.5
+   Tr:8 Mo:15 Vo:17 PA:8 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 65 (Power Zone), MACD Bullish, Vol Surge 5.9x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: CHEMICALS, Long Buildup (OI: 4,039,600), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
