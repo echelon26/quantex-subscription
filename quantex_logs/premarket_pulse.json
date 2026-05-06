@@ -382,5 +382,31 @@
       "PIRAMALFIN"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-05.pdf"
+  },
+  {
+    "date": "Wed, 06 May 2026",
+    "fear_greed": 56.8,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 24119.3,
+    "nifty": 24119.3,
+    "sensex": 77269.4,
+    "bank_nifty": 54878.5,
+    "vix": 18.3,
+    "top_gainers": [
+      "CREDITACC",
+      "TITAGARH",
+      "CAMS",
+      "WOCKPHARMA",
+      "NETWEB"
+    ],
+    "top_losers": [
+      "MEESHO",
+      "CESC",
+      "EMCURE",
+      "SYNGENE",
+      "VOLTAS"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-06.pdf"
   }
 ]
