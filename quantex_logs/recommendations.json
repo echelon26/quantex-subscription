@@ -6439,5 +6439,109 @@
         "est_days_to_t1": 18.2
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-06",
+    "scan_time": "2026-05-06T04:30:52.206622",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 17.405000686645508
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 2,
+    "sector_rankings": {
+      "SILVER_ETF": 1,
+      "AUTO": 2,
+      "FINANCE": 3,
+      "DEFENCE": 4,
+      "GOLD_ETF": 5,
+      "CHEMICALS": 6,
+      "RAILWAY": 7,
+      "INFRA": 8,
+      "ELECTRICALS": 9,
+      "PHARMA": 10,
+      "INDEX_ETF": 11,
+      "IT": 12,
+      "FMCG": 13,
+      "ENERGY": 14,
+      "METALS": 15,
+      "REALTY": 16,
+      "POWER": 17,
+      "BANKING": 18,
+      "CONSUMER": 19
+    },
+    "top_10": [
+      {
+        "symbol": "GANDHAR",
+        "score": 77,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 17,
+          "Price Action": 13,
+          "Relative Strength": 10,
+          "Smart Money": 3,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 5.4x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty"
+        ],
+        "entry": 153.43,
+        "sl": 144.46,
+        "target1": 166.89,
+        "target2": 175.86,
+        "hold_period": "3-4 weeks",
+        "cmp": 153.43,
+        "target3": 169.69,
+        "target_method": "Vol Profile + 52W High + Fib 1.0 + Measured Move",
+        "est_days_to_t1": 19.5
+      },
+      {
+        "symbol": "LICHSGFIN",
+        "score": 72,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 13,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 20 (Trending)",
+          "ADX Rising",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Sector Top 3: FINANCE",
+          "Long Buildup (OI: 30,281,000)",
+          "High F&O Activity"
+        ],
+        "entry": 580.5,
+        "sl": 558.03,
+        "target1": 625.44,
+        "target2": 647.91,
+        "hold_period": "1-2 weeks",
+        "cmp": 580.5,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 11.5
+      }
+    ]
   }
 ]

@@ -1,0 +1,19 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-05-06 at 04:30 AM IST
+Regime: NEUTRAL (mixed) | VIX: 17.41 | Min Score: 68
+Qualified: 2 stocks | Top 10 below
+============================================================
+
+1. GANDHAR -- Score: 77/100
+   Entry: 153.43 | SL: 144.46 | T1: 166.89 | T2: 175.86 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:17 PA:13 RS:10 SM:3 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Fresh Crossover, Vol Surge 5.4x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty
+
+2. LICHSGFIN -- Score: 72/100
+   Entry: 580.50 | SL: 558.03 | T1: 625.44 | T2: 647.91 | RR: 1:2.0
+   Tr:18 Mo:15 Vo:4 PA:13 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 20 (Trending), ADX Rising, RSI 68 (Power Zone), MACD Bullish, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 30,281,000), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
