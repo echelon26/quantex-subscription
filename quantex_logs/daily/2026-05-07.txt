@@ -105,3 +105,62 @@ Qualified: 37 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-05-07 at 10:31 AM IST
+Regime: BULLISH (risk-on) | VIX: 16.62 | Min Score: 60
+Qualified: 45 stocks | Top 10 below
+============================================================
+
+1. BDL -- Score: 84/100
+   Entry: 1473.10 | SL: 1403.01 | T1: 1578.23 | T2: 1648.32 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:15 PA:13 RS:12 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, ADX 29 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: DEFENCE, Long Buildup (OI: 3,540,950), High F&O Activity
+
+2. BHARATFORG -- Score: 79/100
+   Entry: 1998.00 | SL: 1895.14 | T1: 2203.73 | T2: 2306.59 | RR: 1:2.0
+   Tr:14 Mo:18 Vo:17 PA:8 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 23 (Trending), RSI 68 (Power Zone), MACD Fresh Crossover, Vol Surge 4.5x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: AUTO, Long Buildup (OI: 8,280,500), High F&O Activity
+
+3. PARAS -- Score: 78/100
+   Entry: 873.50 | SL: 817.62 | T1: 985.26 | T2: 1041.14 | RR: 1:2.0
+   Tr:16 Mo:13 Vo:17 PA:13 RS:12 SM:7 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, ADX 38 (Strong Trend), ADX Rising, MACD Fresh Crossover, Vol Surge 3.0x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: DEFENCE, Consistent Buying
+
+4. MIDHANI -- Score: 75/100
+   Entry: 414.80 | SL: 391.22 | T1: 461.96 | T2: 485.55 | RR: 1:2.0
+   Tr:16 Mo:10 Vo:17 PA:13 RS:12 SM:7 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, ADX 28 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 2.2x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: DEFENCE, Consistent Buying
+
+5. PAYTM -- Score: 73/100
+   Entry: 1195.00 | SL: 1131.45 | T1: 1322.10 | T2: 1385.66 | RR: 1:2.0
+   Tr:14 Mo:11 Vo:17 PA:13 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX 21 (Trending), RSI 63 (Power Zone), Vol Surge 3.9x, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Long Buildup (OI: 14,384,000), High F&O Activity
+
+6. DCXINDIA -- Score: 73/100
+   Entry: 221.95 | SL: 207.70 | T1: 243.32 | T2: 244.47 | RR: 1:1.5
+   Tr:16 Mo:10 Vo:17 PA:8 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 26 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 2.8x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: DEFENCE, Institutional Accumulation
+
+7. MOTHERSON -- Score: 73/100
+   Entry: 131.21 | SL: 124.16 | T1: 141.79 | T2: 148.84 | RR: 1:1.5
+   Tr:14 Mo:18 Vo:15 PA:4 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 23 (Trending), RSI 62 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.6x, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Sector Top 3: AUTO, Long Buildup (OI: 130,847,400), High F&O Activity
+
+8. EXIDEIND -- Score: 70/100
+   Entry: 365.05 | SL: 346.80 | T1: 392.43 | T2: 397.80 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:17 PA:0 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 34 (Strong Trend), ADX Rising, RSI 66 (Power Zone), MACD Bullish, Vol Surge 2.3x, Strong Delivery (Close near High), Strong RS vs Nifty, Sector Top 3: AUTO, Long Buildup (OI: 26,368,200), High F&O Activity
+
+9. ASTRAMICRO -- Score: 68/100
+   Entry: 1168.00 | SL: 1105.08 | T1: 1262.38 | T2: 1325.30 | RR: 1:1.5
+   Tr:12 Mo:11 Vo:17 PA:13 RS:12 SM:3 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 67 (Power Zone), Vol Surge 2.3x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: DEFENCE
+
+10. CONCOR -- Score: 67/100
+   Entry: 527.45 | SL: 509.09 | T1: 564.18 | T2: 582.54 | RR: 1:2.0
+   Tr:20 Mo:15 Vo:4 PA:8 RS:10 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 35 (Strong Trend), ADX Rising, RSI 68 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 22,535,000), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
