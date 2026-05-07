@@ -1006,5 +1006,115 @@
         "CMP": 24975.0
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-07",
+    "scan_time": "2026-05-07T13:39:38.304181",
+    "stocks_scanned": 504,
+    "results_found": 17,
+    "results": [
+      {
+        "Date": "2026-05-05",
+        "Symbol": "AAVAS",
+        "Signals": "Bullish Reaction | Rally +4.6% | Vol Explosion 4.5x",
+        "CMP": 1419.6
+      },
+      {
+        "Date": "2026-05-07",
+        "Symbol": "BAJAJHLDNG",
+        "Signals": "Flat -0.1% | Vol Explosion 3.9x",
+        "CMP": 10597.0
+      },
+      {
+        "Date": "2026-05-07",
+        "Symbol": "BHARATFORG",
+        "Signals": "Bullish Reaction | Surge +6.4% | Vol Explosion 6.4x",
+        "CMP": 1992.9
+      },
+      {
+        "Date": "2026-05-07",
+        "Symbol": "BIOCON",
+        "Signals": "Flat +0.4% | High Vol 1.9x",
+        "CMP": 382.25
+      },
+      {
+        "Date": "2026-05-06",
+        "Symbol": "BRIGADE",
+        "Signals": "Rally +2.2% | Vol Surge 2.0x",
+        "CMP": 773.15
+      },
+      {
+        "Date": "2026-05-07",
+        "Symbol": "BRITANNIA",
+        "Signals": "Muted Reaction | Flat +0.5%",
+        "CMP": 5814.0
+      },
+      {
+        "Date": "2026-05-07",
+        "Symbol": "COROMANDEL",
+        "Signals": "Selloff -2.6% | Vol Explosion 3.0x",
+        "CMP": 1965.0
+      },
+      {
+        "Date": "2026-05-07",
+        "Symbol": "DABUR",
+        "Signals": "Flat +0.8% | High Vol 1.7x",
+        "CMP": 470.0
+      },
+      {
+        "Date": "2026-05-07",
+        "Symbol": "ESCORTS",
+        "Signals": "Flat +0.9% | Vol Explosion 7.4x",
+        "CMP": 3345.9
+      },
+      {
+        "Date": "2026-05-07",
+        "Symbol": "KARURVYSYA",
+        "Signals": "Rally +2.7% | Vol Surge 2.6x",
+        "CMP": 313.55
+      },
+      {
+        "Date": "2026-05-07",
+        "Symbol": "LUPIN",
+        "Signals": "Muted Reaction | Flat +0.7%",
+        "CMP": 2460.1
+      },
+      {
+        "Date": "2026-05-07",
+        "Symbol": "MRF",
+        "Signals": "Flat -0.3% | Vol Explosion 3.0x",
+        "CMP": 129965.0
+      },
+      {
+        "Date": "2026-05-07",
+        "Symbol": "MGL",
+        "Signals": "Flat +1.1% | High Vol 1.5x",
+        "CMP": 1179.8
+      },
+      {
+        "Date": "2026-05-04",
+        "Symbol": "MANAPPURAM",
+        "Signals": "Bullish Reaction | Rally +3.7% | Vol Surge 2.6x",
+        "CMP": 316.3
+      },
+      {
+        "Date": "2026-05-07",
+        "Symbol": "PIDILITIND",
+        "Signals": "Rally +2.0%",
+        "CMP": 1450.4
+      },
+      {
+        "Date": "2026-05-07",
+        "Symbol": "SONATSOFTW",
+        "Signals": "Flat +0.4% | High Vol 1.6x",
+        "CMP": 270.75
+      },
+      {
+        "Date": "2026-05-07",
+        "Symbol": "THERMAX",
+        "Signals": "Rally +2.6% | Vol Surge 2.6x",
+        "CMP": 4182.3
+      }
+    ]
   }
 ]
