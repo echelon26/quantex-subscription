@@ -1,0 +1,49 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-05-07 at 04:30 AM IST
+Regime: BULLISH (risk-on) | VIX: 16.74 | Min Score: 60
+Qualified: 8 stocks | Top 10 below
+============================================================
+
+1. HINDCOPPER -- Score: 66/100
+   Entry: 573.80 | SL: 542.28 | T1: 621.09 | T2: 652.61 | RR: 1:1.5
+   Tr:14 Mo:18 Vo:11 PA:8 RS:8 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.5x, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+2. PAYTM -- Score: 64/100
+   Entry: 1173.90 | SL: 1112.77 | T1: 1265.60 | T2: 1326.73 | RR: 1:1.5
+   Tr:14 Mo:11 Vo:15 PA:9 RS:5 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 20 (Trending), RSI 61 (Power Zone), Vol Above Avg 1.7x, Strong Delivery (Close near High), Near Breakout, Morning Star, Outperforming Nifty, Long Buildup (OI: 14,146,200), High F&O Activity
+
+3. CLEAN -- Score: 62/100
+   Entry: 873.80 | SL: 830.73 | T1: 959.95 | T2: 1003.02 | RR: 1:2.0
+   Tr:16 Mo:10 Vo:4 PA:13 RS:12 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 34 (Strong Trend), ADX Rising, MACD Bullish, 20-Day Breakout, Hammer, Strong RS vs Nifty, Sector Top 3: CHEMICALS, Consistent Buying
+
+4. KANSAINER -- Score: 62/100
+   Entry: 212.21 | SL: 200.58 | T1: 229.66 | T2: 239.91 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:9 PA:8 RS:8 SM:3 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 26 (Strong Trend), RSI 67 (Power Zone), MACD Fresh Crossover, Vol Surge 8.6x, 20-Day Breakout, Strong RS vs Nifty
+
+5. BASF -- Score: 62/100
+   Entry: 3859.20 | SL: 3683.32 | T1: 4210.95 | T2: 4386.83 | RR: 1:2.0
+   Tr:12 Mo:18 Vo:4 PA:13 RS:8 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 67 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Hammer, Strong RS vs Nifty, Consistent Buying
+
+6. CGPOWER -- Score: 61/100
+   Entry: 860.45 | SL: 819.79 | T1: 941.77 | T2: 982.43 | RR: 1:2.0
+   Tr:16 Mo:10 Vo:12 PA:8 RS:5 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 26 (Strong Trend), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Outperforming Nifty, Long Buildup (OI: 22,536,900), High F&O Activity
+
+7. M&M -- Score: 60/100
+   Entry: 3378.00 | SL: 3233.34 | T1: 3594.98 | T2: 3739.64 | RR: 1:1.5
+   Tr:8 Mo:18 Vo:4 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 63 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: AUTO, Long Buildup (OI: 16,553,200), High F&O Activity
+
+8. TATASTEEL -- Score: 60/100
+   Entry: 218.42 | SL: 211.10 | T1: 233.06 | T2: 240.38 | RR: 1:2.0
+   Tr:12 Mo:18 Vo:4 PA:8 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 66 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 174,006,250), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
