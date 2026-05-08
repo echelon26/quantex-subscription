@@ -1116,5 +1116,91 @@
         "CMP": 4182.3
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-08",
+    "scan_time": "2026-05-08T13:40:03.608714",
+    "stocks_scanned": 504,
+    "results_found": 13,
+    "results": [
+      {
+        "Date": "2026-05-08",
+        "Symbol": "ABB",
+        "Signals": "Selloff -2.4% | High Vol 1.7x",
+        "CMP": 7012.5
+      },
+      {
+        "Date": "2026-05-05",
+        "Symbol": "AAVAS",
+        "Signals": "Bullish Reaction | Rally +4.6% | Vol Explosion 4.5x",
+        "CMP": 1443.6
+      },
+      {
+        "Date": "2026-05-08",
+        "Symbol": "BALKRISIND",
+        "Signals": "Flat +0.2% | High Vol 1.8x",
+        "CMP": 2262.5
+      },
+      {
+        "Date": "2026-05-08",
+        "Symbol": "BANKBARODA",
+        "Signals": "Selloff -2.4% | Vol Surge 2.1x",
+        "CMP": 263.9
+      },
+      {
+        "Date": "2026-05-06",
+        "Symbol": "BRIGADE",
+        "Signals": "Rally +2.2% | Vol Surge 2.0x",
+        "CMP": 758.25
+      },
+      {
+        "Date": "2026-05-08",
+        "Symbol": "CHOLAHLDNG",
+        "Signals": "Flat +1.5%",
+        "CMP": 1780.7
+      },
+      {
+        "Date": "2026-05-07",
+        "Symbol": "MRF",
+        "Signals": "Flat -0.3% | Vol Explosion 3.0x",
+        "CMP": 130425.0
+      },
+      {
+        "Date": "2026-05-08",
+        "Symbol": "MCX",
+        "Signals": "Flat +1.8% | Vol Surge 2.2x",
+        "CMP": 3097.8
+      },
+      {
+        "Date": "2026-05-08",
+        "Symbol": "OBEROIRLTY",
+        "Signals": "Flat +1.7% | High Vol 1.6x",
+        "CMP": 1703.0
+      },
+      {
+        "Date": "2026-05-07",
+        "Symbol": "PIDILITIND",
+        "Signals": "Rally +2.0%",
+        "CMP": 1476.0
+      },
+      {
+        "Date": "2026-05-08",
+        "Symbol": "SBIN",
+        "Signals": "Bearish Reaction | Decline -6.7% | Vol Explosion 4.4x",
+        "CMP": 1019.3
+      },
+      {
+        "Date": "2026-05-08",
+        "Symbol": "TATACONSUM",
+        "Signals": "Rally +2.1% | Vol Explosion 3.4x",
+        "CMP": 1176.2
+      },
+      {
+        "Date": "2026-05-08",
+        "Symbol": "TITAN",
+        "Signals": "Bullish Reaction | Rally +4.7% | Vol Explosion 5.4x",
+        "CMP": 4509.0
+      }
+    ]
   }
 ]
