@@ -67,6 +67,19 @@ except Exception:
     print("!! Couldn't import STOCK_UNIVERSE; using empty list")
     STOCK_UNIVERSE = []
 
+# Import pro_scanner's smart-target helpers so Realistic T1/T2 use the
+# SAME math as the pro scanner — single source of truth.
+try:
+    from pro_scanner import (  # type: ignore
+        find_resistance_zones,
+        round_number_adjust,
+        atr_projected_move,
+    )
+    _SMART_TARGETS_AVAILABLE = True
+except Exception as e:
+    print(f"!! Smart-target helpers unavailable ({e}); Realistic T1/T2 will fall back to ATR-only")
+    _SMART_TARGETS_AVAILABLE = False
+
 
 # ──────────────────────────────────────────────────────────────────────────────
 # DATA HELPERS
@@ -102,6 +115,89 @@ def annotate(df):
 # ──────────────────────────────────────────────────────────────────────────────
 # PATTERN DETECTION
 # ──────────────────────────────────────────────────────────────────────────────
+
+def compute_realistic_targets(df, cmp, atr_val, est_days_to_t1, est_days_to_t2):
+    """Pro-scanner-grade T1/T2 using ATR×√days + resistance-zone + round-number math.
+
+    Returns dict with realistic_t1, realistic_t2, and a 'basis' string so the
+    user can see WHY each target landed where it did (e.g. "Resistance ₹X
+    [3 touches]" vs "ATR cap" vs "Round-number adjusted").
+
+    Mirrors pro_scanner.compute_smart_targets() — single source of truth.
+    Falls back to ATR-projected cap if find_resistance_zones is unavailable.
+    """
+    # ATR-projected reachable price for each holding period (sqrt-of-time scaling)
+    if _SMART_TARGETS_AVAILABLE:
+        atr_cap_t1 = atr_projected_move(df, cmp, holding_days=max(3, est_days_to_t1))
+        atr_cap_t2 = atr_projected_move(df, cmp, holding_days=max(8, est_days_to_t2))
+    else:
+        # Fallback: ATR × sqrt(days) × 1.2 buffer (same formula, inlined)
+        atr_cap_t1 = round(cmp + atr_val * (max(3, est_days_to_t1) ** 0.5) * 1.2, 2)
+        atr_cap_t2 = round(cmp + atr_val * (max(8, est_days_to_t2) ** 0.5) * 1.2, 2)
+
+    # Resistance zones (clusters of swing-highs with 2+ touches in last 120 sessions)
+    resistances = []
+    if _SMART_TARGETS_AVAILABLE:
+        try:
+            resistances = find_resistance_zones(df, cmp, lookback_days=120) or []
+        except Exception:
+            resistances = []
+
+    # ── T1: nearest resistance above CMP, capped by ATR projection ──
+    rt1_basis = "ATR cap"
+    if resistances:
+        nearest = resistances[0]
+        if nearest["price"] <= atr_cap_t1:
+            rt1 = nearest["price"]
+            rt1_basis = f"Resistance ₹{nearest['price']:.0f} [{nearest['touches']} touches]"
+        else:
+            rt1 = atr_cap_t1
+            rt1_basis = f"ATR cap (resistance ₹{nearest['price']:.0f} too far in {est_days_to_t1}d)"
+    else:
+        rt1 = atr_cap_t1
+
+    # Round-number adjustment (pull back to just below ₹100/₹500/₹1000 etc)
+    if _SMART_TARGETS_AVAILABLE:
+        rt1_adj = round_number_adjust(rt1, cmp)
+        if rt1_adj != rt1:
+            rt1_basis += " + round-# adj"
+        rt1 = rt1_adj
+
+    # ── T2: next resistance above T1, capped by ATR × 1.15 (slightly relaxed) ──
+    atr_cap_t2_adj = atr_cap_t2 * 1.15
+    rt2_basis = "ATR cap (×1.15)"
+    higher_resistances = [r for r in resistances if r["price"] > rt1 * 1.005]
+    if higher_resistances:
+        nxt = higher_resistances[0]
+        if nxt["price"] <= atr_cap_t2_adj:
+            rt2 = nxt["price"]
+            rt2_basis = f"Resistance ₹{nxt['price']:.0f} [{nxt['touches']} touches]"
+        else:
+            rt2 = atr_cap_t2_adj
+            rt2_basis = f"ATR cap (×1.15) — next resistance ₹{nxt['price']:.0f} too far"
+    else:
+        rt2 = atr_cap_t2_adj
+
+    if _SMART_TARGETS_AVAILABLE:
+        rt2_adj = round_number_adjust(rt2, cmp)
+        if rt2_adj != rt2:
+            rt2_basis += " + round-# adj"
+        rt2 = rt2_adj
+
+    # Sanity: T2 must be meaningfully above T1 (≥3% gap), else widen
+    if rt2 <= rt1 * 1.03:
+        rt2 = round(rt1 * 1.05, 2)
+        rt2_basis = "Forced ≥5% above realistic T1"
+
+    return {
+        "realistic_t1": round(rt1, 2),
+        "realistic_t2": round(rt2, 2),
+        "realistic_t1_basis": rt1_basis,
+        "realistic_t2_basis": rt2_basis,
+        "atr_cap_t1": round(atr_cap_t1, 2),
+        "atr_cap_t2": round(atr_cap_t2, 2),
+    }
+
 
 def detect_pocket_pivot(df):
     """Return dict if today is a valid pocket pivot, else None."""
@@ -216,6 +312,9 @@ def detect_pocket_pivot(df):
     # Display as a tight band: "10-25 sessions" with point estimate
     hold_period = f"{est_days_to_t1}-{est_days_to_t2} sessions"
 
+    # ── REALISTIC T1 / T2 (pro-scanner-grade math, ADDITIONAL — not replacing R-multiple) ──
+    realistic = compute_realistic_targets(df, close, atr, est_days_to_t1, est_days_to_t2)
+
     return {
         "close": close,
         "dma50": dma50,
@@ -241,6 +340,8 @@ def detect_pocket_pivot(df):
         "est_days_to_t1": est_days_to_t1,
         "est_days_to_t2": est_days_to_t2,
         "hold_period": hold_period,
+        # Realistic targets (pro-scanner math: ATR×√days + resistance + round-#)
+        **realistic,
     }
 
 
@@ -277,7 +378,8 @@ def format_message(picks, scan_time):
     msg += "#PocketPivot #InstitutionalAccumulation #Daily\n"
     msg += "━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
     msg += "_Today's UP volume exceeded the highest DOWN volume of last 10 days,_\n"
-    msg += "_in stocks already in confirmed Stage 2 uptrend._\n\n"
+    msg += "_in stocks already in confirmed Stage 2 uptrend._\n"
+    msg += "_T1/T2 = R-multiple targets. Realistic T1/T2 = ATR×√days + resistance zones + round-#._\n\n"
 
     if not picks:
         msg += "⚠️ No pocket pivots fired today.\n"
@@ -287,6 +389,10 @@ def format_message(picks, scan_time):
 
     for i, p in enumerate(picks, 1):
         d = p["pattern"]
+        rt1 = d.get("realistic_t1")
+        rt2 = d.get("realistic_t2")
+        rt1_basis = d.get("realistic_t1_basis", "")
+        rt2_basis = d.get("realistic_t2_basis", "")
         msg += (
             f"*{i}. {p['symbol']}* — Score *{p['score']}/100*\n"
             f"   📊 Entry: ₹{d['entry']:.2f}  |  RSI {d['rsi']:.0f}  |  "
@@ -294,6 +400,15 @@ def format_message(picks, scan_time):
             f"   🛑 SL: ₹{d['sl']:.2f} ({(1-d['sl']/d['entry'])*100:.1f}% risk)\n"
             f"   🎯 T1: ₹{d['t1']:.2f} (+{(d['t1']/d['entry']-1)*100:.0f}%)  "
             f"T2: ₹{d['t2']:.2f}  R:R 1:{d['rr']:.1f}\n"
+        )
+        if rt1 is not None and rt2 is not None:
+            msg += (
+                f"   🧠 *Realistic T1*: ₹{rt1:.2f} (+{(rt1/d['entry']-1)*100:.1f}%)  "
+                f"_{rt1_basis}_\n"
+                f"   🧠 *Realistic T2*: ₹{rt2:.2f} (+{(rt2/d['entry']-1)*100:.1f}%)  "
+                f"_{rt2_basis}_\n"
+            )
+        msg += (
             f"   ⏱ Hold: {d['hold_period']}  (T1 ~{d['est_days_to_t1']}d / T2 ~{d['est_days_to_t2']}d)\n"
             f"   📈 Volume: today {d['today_volume']/1e5:.1f}L vs "
             f"max-down-10 {d['max_down_vol_10']/1e5:.1f}L → *{d['vol_strength']:.2f}× signature*\n"
