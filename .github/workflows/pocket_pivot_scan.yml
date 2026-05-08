@@ -1,0 +1,53 @@
+name: Quantex Pocket Pivot Scanner
+
+# Daily after market close. Hunts the Morales/Kacher/O'Neil pocket pivot —
+# the highest-conviction "bullish trend + institutional volume" signature.
+#
+# Output: admin chat + personal only (NOT subscriber signal group). Let the
+# scanner produce 2-3 weeks of signals against real data, track hit-rate,
+# THEN promote to signal group as a Yearly-tier perk.
+
+on:
+  workflow_dispatch:
+
+  repository_dispatch:
+    types: [pocket-pivot-scanner]
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Pocket Pivot Scanner
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_ADMIN_GROUPS: ${{ secrets.TELEGRAM_ADMIN_GROUPS }}
+        run: python pocket_pivot_scanner.py
+
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "Quantex Bot"
+          git config user.email "bot@quantex.local"
+          git add quantex_logs/pocket_pivot_picks.json -f || true
+          git diff --cached --quiet || git commit -m "Pocket pivot scan: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main || true
+          git push || true
