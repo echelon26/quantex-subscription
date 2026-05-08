@@ -8369,5 +8369,307 @@
         "est_days_to_t1": 18.2
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-08",
+    "scan_time": "2026-05-08T04:35:39.564292",
+    "total_qualified": 51,
+    "sector_rankings": {
+      "CHEMICALS": 1,
+      "DEFENCE": 2,
+      "AUTO": 3,
+      "SILVER_ETF": 4,
+      "RAILWAY": 5,
+      "FINANCE": 6,
+      "GOLD_ETF": 7,
+      "PHARMA": 8,
+      "ELECTRICALS": 9,
+      "INDEX_ETF": 10,
+      "CONSUMER": 11,
+      "BANKING": 12,
+      "METALS": 13,
+      "INFRA": 14,
+      "REALTY": 15,
+      "FMCG": 16,
+      "IT": 17,
+      "POWER": 18,
+      "ENERGY": 19
+    },
+    "top_10": [
+      {
+        "symbol": "METROPOLIS",
+        "score": 78,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 8,
+          "Volume": 20,
+          "Price Action": 15,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "MACD Bullish",
+          "Vol Surge 3.3x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Morning Star, Marubozu",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 542.15,
+        "sl": 515.95,
+        "target1": 594.55,
+        "target2": 620.76,
+        "hold_period": "1-2 weeks",
+        "cmp": 542.15
+      },
+      {
+        "symbol": "THERMAX",
+        "score": 78,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 20,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Fresh Crossover",
+          "Vol Surge 2.7x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty"
+        ],
+        "entry": 4530.0,
+        "sl": 4303.5,
+        "target1": 4983.0,
+        "target2": 5209.5,
+        "hold_period": "1-2 weeks",
+        "cmp": 4530.0
+      },
+      {
+        "symbol": "CONCOR",
+        "score": 76,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 22,443,750)",
+          "High F&O Activity"
+        ],
+        "entry": 531.65,
+        "sl": 513.62,
+        "target1": 567.7,
+        "target2": 585.73,
+        "hold_period": "1-2 weeks",
+        "cmp": 531.65
+      },
+      {
+        "symbol": "PIDILITIND",
+        "score": 74,
+        "breakdown": {
+          "Trend": 11,
+          "Momentum": 18,
+          "Volume": 10,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 2.7x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: CHEMICALS",
+          "Long Buildup (OI: 9,082,000)",
+          "High F&O Activity"
+        ],
+        "entry": 1477.3,
+        "sl": 1421.94,
+        "target1": 1588.02,
+        "target2": 1643.38,
+        "hold_period": "1-2 weeks",
+        "cmp": 1477.3
+      },
+      {
+        "symbol": "SONATSOFTW",
+        "score": 74,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 15,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 3.7x",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 290.75,
+        "sl": 276.21,
+        "target1": 319.83,
+        "target2": 334.36,
+        "hold_period": "1-2 weeks",
+        "cmp": 290.75
+      },
+      {
+        "symbol": "BIOCON",
+        "score": 74,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 30,387,500)",
+          "High F&O Activity"
+        ],
+        "entry": 392.8,
+        "sl": 377.05,
+        "target1": 424.29,
+        "target2": 440.04,
+        "hold_period": "1-2 weeks",
+        "cmp": 392.8
+      },
+      {
+        "symbol": "FORTIS",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 7,570,200)",
+          "High F&O Activity"
+        ],
+        "entry": 965.05,
+        "sl": 927.51,
+        "target1": 1040.13,
+        "target2": 1077.67,
+        "hold_period": "1-2 weeks",
+        "cmp": 965.05
+      },
+      {
+        "symbol": "BERGEPAINT",
+        "score": 72,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 15,
+          "Volume": 15,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "MACD Fresh Crossover",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 505.45,
+        "sl": 483.7,
+        "target1": 548.94,
+        "target2": 570.69,
+        "hold_period": "1-2 weeks",
+        "cmp": 505.45
+      },
+      {
+        "symbol": "GOLDIAM",
+        "score": 71,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 8,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 70 (Power Zone)",
+          "MACD Bullish",
+          "Vol Above Avg 1.7x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 426.15,
+        "sl": 404.84,
+        "target1": 468.76,
+        "target2": 490.07,
+        "hold_period": "1-2 weeks",
+        "cmp": 426.15
+      },
+      {
+        "symbol": "COFORGE",
+        "score": 71,
+        "breakdown": {
+          "Trend": 11,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "RSI 63 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Bullish Engulfing, Marubozu",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 19,170,375)",
+          "High F&O Activity"
+        ],
+        "entry": 1336.4,
+        "sl": 1269.58,
+        "target1": 1470.04,
+        "target2": 1536.86,
+        "hold_period": "1-2 weeks",
+        "cmp": 1336.4
+      }
+    ]
   }
 ]

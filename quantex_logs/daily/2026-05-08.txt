@@ -27,3 +27,61 @@ Qualified: 4 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-05-08 at 04:35 AM IST
+Qualified: 51 stocks | Top 10 below
+============================================================
+
+1. METROPOLIS — Score: 78/100
+   Entry: 542.15 | SL: 515.95 | T1: 594.55 | T2: 620.76 | RR: 1:2.0
+   Trend:15 Mom:8 Vol:20 PA:15 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, MACD Bullish, Vol Surge 3.3x, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Marubozu, Strong RS vs Nifty, Institutional Accumulation
+
+2. THERMAX — Score: 78/100
+   Entry: 4530.00 | SL: 4303.50 | T1: 4983.00 | T2: 5209.50 | RR: 1:2.0
+   Trend:20 Mom:15 Vol:20 PA:10 RS:10 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Fresh Crossover, Vol Surge 2.7x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty
+
+3. CONCOR — Score: 76/100
+   Entry: 531.65 | SL: 513.62 | T1: 567.70 | T2: 585.73 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:15 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 69 (Power Zone), MACD Bullish, 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Long Buildup (OI: 22,443,750), High F&O Activity
+
+4. PIDILITIND — Score: 74/100
+   Entry: 1477.30 | SL: 1421.94 | T1: 1588.02 | T2: 1643.38 | RR: 1:2.0
+   Trend:11 Mom:18 Vol:10 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: RSI 67 (Power Zone), MACD Bullish, Vol Surge 2.7x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: CHEMICALS, Long Buildup (OI: 9,082,000), High F&O Activity
+
+5. SONATSOFTW — Score: 74/100
+   Entry: 290.75 | SL: 276.21 | T1: 319.83 | T2: 334.36 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:15 PA:5 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 68 (Power Zone), MACD Bullish, Vol Surge 3.7x, Near Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+6. BIOCON — Score: 74/100
+   Entry: 392.80 | SL: 377.05 | T1: 424.29 | T2: 440.04 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:5 PA:15 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 69 (Power Zone), MACD Bullish, 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Long Buildup (OI: 30,387,500), High F&O Activity
+
+7. FORTIS — Score: 73/100
+   Entry: 965.05 | SL: 927.51 | T1: 1040.13 | T2: 1077.67 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 7,570,200), High F&O Activity
+
+8. BERGEPAINT — Score: 72/100
+   Entry: 505.45 | SL: 483.70 | T1: 548.94 | T2: 570.69 | RR: 1:2.0
+   Trend:15 Mom:15 Vol:15 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+9. GOLDIAM — Score: 71/100
+   Entry: 426.15 | SL: 404.84 | T1: 468.76 | T2: 490.07 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:8 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 70 (Power Zone), MACD Bullish, Vol Above Avg 1.7x, 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+10. COFORGE — Score: 71/100
+   Entry: 1336.40 | SL: 1269.58 | T1: 1470.04 | T2: 1536.86 | RR: 1:2.0
+   Trend:11 Mom:20 Vol:5 PA:15 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: RSI 63 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Bullish Engulfing, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 19,170,375), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
