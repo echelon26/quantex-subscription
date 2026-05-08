@@ -434,5 +434,31 @@
       "VTL"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-07.pdf"
+  },
+  {
+    "date": "Fri, 08 May 2026",
+    "fear_greed": 64.2,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24326.65,
+    "nifty": 24326.65,
+    "sensex": 77844.52,
+    "bank_nifty": 56047.4,
+    "vix": 16.62,
+    "top_gainers": [
+      "GODREJIND",
+      "TEJASNET",
+      "PPLPHARMA",
+      "CRAFTSMAN",
+      "ABLBL"
+    ],
+    "top_losers": [
+      "GODREJCP",
+      "WOCKPHARMA",
+      "BRIGADE",
+      "VEDL",
+      "KPITTECH"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-08.pdf"
   }
 ]
