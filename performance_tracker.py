@@ -72,14 +72,20 @@ def evaluate_trade(entry, sl, t1, t2, df_after_entry):
     Walk through price bars day by day after entry.
     Check if SL or T1/T2 was hit first.
 
+    BUG FIXES (2026-05-08):
+      • Fix #1 (lock-in T1): once T1 was hit on any day, a subsequent SL touch
+        resolves as T1_HIT (exit at T1 price), NEVER as SL_HIT. A disciplined
+        trader exits at T1 / trails SL to breakeven — they don't passively let
+        a 1R+ winner become a stop-out.
+      • Fix #2 (same-day whipsaw): if today's bar has BOTH high >= T1 AND
+        low <= SL, prefer T1_HIT (you'd have set GTT at T1 and tagged out).
+
     Returns dict:
-      outcome: "T1_HIT" | "T2_HIT" | "SL_HIT" | "ACTIVE" | "EXPIRED"
-      exit_price: price at outcome
-      exit_date: date of outcome
-      days_held: trading days from entry to outcome
-      return_pct: % return from entry
-      max_gain_pct: max intraday gain before outcome
-      max_drawdown_pct: max intraday drawdown before outcome
+      outcome: "T1_HIT" | "T2_HIT" | "SL_HIT" | "ACTIVE" | "EXPIRED" | "NO_DATA"
+      exit_price, exit_date, days_held, return_pct, max_gain_pct,
+      max_drawdown_pct,
+      period_to_t1_days, period_to_t2_days, period_to_sl_days,
+      period_total_days   ← explicit duration fields for CSV/Excel pivots
     """
     if df_after_entry is None or df_after_entry.empty:
         return {"outcome": "NO_DATA", "days_held": 0, "return_pct": 0}
@@ -92,6 +98,26 @@ def evaluate_trade(entry, sl, t1, t2, df_after_entry):
     max_high = entry
     min_low = entry
     t1_hit = False
+    t1_info = {}
+
+    def _build(outcome, exit_price, day_date, days_held, max_high, min_low,
+               t1_info, period_t2=None, period_sl=None):
+        """Common return-builder so we never forget to attach the period fields."""
+        period_t1 = t1_info.get("t1_hit_day") if t1_info else None
+        return {
+            "outcome": outcome,
+            "exit_price": round(exit_price, 2),
+            "exit_date": day_date,
+            "days_held": days_held,
+            "return_pct": round(((exit_price - entry) / entry) * 100, 2),
+            "max_gain_pct": round(((max_high - entry) / entry) * 100, 2),
+            "max_drawdown_pct": round(((min_low - entry) / entry) * 100, 2),
+            "period_to_t1_days": period_t1,
+            "period_to_t2_days": period_t2,
+            "period_to_sl_days": period_sl,
+            "period_total_days": days_held,
+            **t1_info,
+        }
 
     for i in range(len(df_after_entry)):
         day_high = float(highs[i])
@@ -102,67 +128,46 @@ def evaluate_trade(entry, sl, t1, t2, df_after_entry):
         max_high = max(max_high, day_high)
         min_low = min(min_low, day_low)
 
-        # Check SL first (intraday low)
-        if day_low <= sl:
-            return {
-                "outcome": "SL_HIT",
-                "exit_price": round(sl, 2),
-                "exit_date": day_date,
-                "days_held": i + 1,
-                "return_pct": round(((sl - entry) / entry) * 100, 2),
-                "max_gain_pct": round(((max_high - entry) / entry) * 100, 2),
-                "max_drawdown_pct": round(((min_low - entry) / entry) * 100, 2),
-            }
+        # ── Detect what got tagged TODAY before deciding the outcome ──
+        sl_tagged_today = day_low <= sl
+        t1_tagged_today = day_high >= t1
+        t2_tagged_today = day_high >= t2
 
-        # Check T2 (intraday high)
-        if day_high >= t2:
-            return {
-                "outcome": "T2_HIT",
-                "exit_price": round(t2, 2),
-                "exit_date": day_date,
-                "days_held": i + 1,
-                "return_pct": round(((t2 - entry) / entry) * 100, 2),
-                "max_gain_pct": round(((max_high - entry) / entry) * 100, 2),
-                "max_drawdown_pct": round(((min_low - entry) / entry) * 100, 2),
-            }
-
-        # Check T1 (intraday high)
-        if not t1_hit and day_high >= t1:
+        # Record T1 hit (sticky — cannot be un-set on later days)
+        if not t1_hit and t1_tagged_today:
             t1_hit = True
-            # Don't exit yet — continue to see if T2 also hits
-            # But record T1 hit info
-            t1_info = {
-                "t1_hit_date": day_date,
-                "t1_hit_day": i + 1,
-            }
+            t1_info = {"t1_hit_date": day_date, "t1_hit_day": i + 1}
 
-        # Force expire after MAX_HOLD_DAYS
+        # ── EXIT LOGIC (priority order matters) ──
+        # Priority 1: T2_HIT (extended winner) — always wins, settle here.
+        if t2_tagged_today:
+            return _build("T2_HIT", t2, day_date, i + 1, max_high, min_low,
+                          t1_info, period_t2=i + 1)
+
+        # Priority 2: SL touch — outcome depends on whether T1 was already hit.
+        if sl_tagged_today:
+            if t1_hit:
+                # FIX #1 + #2: T1 was already a winner (either prior day, or
+                # this same day's high also hit T1). Trader would have exited
+                # at T1 with profit. Mark as T1_HIT.
+                return _build("T1_HIT", t1, day_date, i + 1, max_high, min_low,
+                              t1_info, period_sl=None)
+            else:
+                return _build("SL_HIT", sl, day_date, i + 1, max_high, min_low,
+                              t1_info={}, period_sl=i + 1)
+
+        # Priority 3: MAX_HOLD reached — close at last close as T1_HIT or EXPIRED.
         if i + 1 >= MAX_HOLD_DAYS:
             outcome = "T1_HIT" if t1_hit else "EXPIRED"
-            return {
-                "outcome": outcome,
-                "exit_price": round(day_close, 2),
-                "exit_date": day_date,
-                "days_held": i + 1,
-                "return_pct": round(((day_close - entry) / entry) * 100, 2),
-                "max_gain_pct": round(((max_high - entry) / entry) * 100, 2),
-                "max_drawdown_pct": round(((min_low - entry) / entry) * 100, 2),
-                **(t1_info if t1_hit else {}),
-            }
+            return _build(outcome, day_close, day_date, i + 1, max_high, min_low,
+                          t1_info)
 
-    # Still within hold period — trade is active
+    # ── Still within hold window — trade is open OR T1 hit but no exit yet ──
     last_close = float(closes[-1])
+    last_date = dates[-1].strftime("%Y-%m-%d") if hasattr(dates[-1], 'strftime') else str(dates[-1])[:10]
     outcome = "T1_HIT" if t1_hit else "ACTIVE"
-    return {
-        "outcome": outcome,
-        "exit_price": round(last_close, 2),
-        "exit_date": dates[-1].strftime("%Y-%m-%d") if hasattr(dates[-1], 'strftime') else str(dates[-1])[:10],
-        "days_held": len(df_after_entry),
-        "return_pct": round(((last_close - entry) / entry) * 100, 2),
-        "max_gain_pct": round(((max_high - entry) / entry) * 100, 2),
-        "max_drawdown_pct": round(((min_low - entry) / entry) * 100, 2),
-        **(t1_info if t1_hit else {}),
-    }
+    return _build(outcome, last_close, last_date, len(df_after_entry),
+                  max_high, min_low, t1_info)
 
 
 def load_recommendations():
@@ -467,19 +472,54 @@ def format_performance_report(trades, stats):
 
 
 def save_performance(trades, stats):
-    """Save performance data to JSON."""
+    """Save performance data to JSON + CSV (Excel-friendly)."""
     LOG_DIR.mkdir(parents=True, exist_ok=True)
 
+    # Stamp every trade with last_evaluated_date and a default scanner_type
+    # so CSV pivots / Excel filters work cleanly.
+    now_iso = datetime.now().isoformat()
+    for t in trades:
+        t.setdefault("scanner_type", "pro")
+        t["last_evaluated_date"] = now_iso
+
     data = {
-        "last_updated": datetime.now().isoformat(),
+        "last_updated": now_iso,
         "stats": stats,
         "trades": trades,
     }
 
+    # ── 1. JSON (canonical) ──
     with open(PERFORMANCE_FILE, "w") as f:
         json.dump(data, f, indent=2, default=str)
 
+    # ── 2. CSV mirror — opens directly in Excel; one row per pick ──
+    import csv as _csv
+    csv_path = LOG_DIR / "performance.csv"
+    if trades:
+        # Stable column order: most useful for sort/filter at the front.
+        cols = [
+            "scan_date", "symbol", "scanner_type", "score",
+            "entry", "sl", "target1", "target2",
+            "outcome",
+            "period_to_t1_days", "period_to_t2_days",
+            "period_to_sl_days", "period_total_days",
+            "exit_date", "exit_price", "return_pct",
+            "max_gain_pct", "max_drawdown_pct",
+            "t1_hit_date", "t1_hit_day",
+            "regime", "hold_period_est", "target_method",
+            "last_evaluated_date", "key",
+        ]
+        # Include any extra fields not in the canonical list at the end.
+        extras = sorted({k for t in trades for k in t.keys()} - set(cols))
+        cols = cols + extras
+        with open(csv_path, "w", newline="", encoding="utf-8") as f:
+            writer = _csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
+            writer.writeheader()
+            for t in trades:
+                writer.writerow({c: t.get(c, "") for c in cols})
+
     print(f">> Performance data saved to {PERFORMANCE_FILE}")
+    print(f">> CSV mirror saved to {csv_path} ({len(trades)} rows)")
 
 
 def send_telegram(message):
