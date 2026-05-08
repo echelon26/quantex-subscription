@@ -1,0 +1,29 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-05-08 at 04:30 AM IST
+Regime: NEUTRAL (mixed) | VIX: 17.15 | Min Score: 68
+Qualified: 4 stocks | Top 10 below
+============================================================
+
+1. METROPOLIS -- Score: 70/100
+   Entry: 541.00 | SL: 514.80 | T1: 588.16 | T2: 611.75 | RR: 1:1.8
+   Tr:16 Mo:6 Vo:17 PA:13 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 30 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 3.0x, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Institutional Accumulation
+
+2. THERMAX -- Score: 69/100
+   Entry: 4515.00 | SL: 4262.44 | T1: 5020.12 | T2: 5090.97 | RR: 1:2.0
+   Tr:20 Mo:13 Vo:17 PA:8 RS:8 SM:3 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 47 (Strong Trend), ADX Rising, MACD Fresh Crossover, Vol Surge 2.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty
+
+3. CONCOR -- Score: 68/100
+   Entry: 531.75 | SL: 513.72 | T1: 567.80 | T2: 585.83 | RR: 1:2.0
+   Tr:16 Mo:15 Vo:4 PA:13 RS:10 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 36 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Bullish, 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Long Buildup (OI: 22,451,250), High F&O Activity
+
+4. SONATSOFTW -- Score: 68/100
+   Entry: 289.45 | SL: 272.21 | T1: 323.93 | T2: 341.17 | RR: 1:2.0
+   Tr:18 Mo:15 Vo:13 PA:4 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, RSI 68 (Power Zone), MACD Bullish, Vol Surge 3.6x, Near Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+
+────────────────────────────────────────────────────────────
+

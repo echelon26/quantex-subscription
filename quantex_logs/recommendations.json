@@ -8201,5 +8201,173 @@
         "est_days_to_t1": 6.6
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-08",
+    "scan_time": "2026-05-08T04:30:57.816921",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 17.15250015258789
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 4,
+    "sector_rankings": {
+      "CHEMICALS": 1,
+      "DEFENCE": 2,
+      "AUTO": 3,
+      "SILVER_ETF": 4,
+      "RAILWAY": 5,
+      "FINANCE": 6,
+      "GOLD_ETF": 7,
+      "ELECTRICALS": 8,
+      "INDEX_ETF": 9,
+      "CONSUMER": 10,
+      "PHARMA": 11,
+      "BANKING": 12,
+      "METALS": 13,
+      "INFRA": 14,
+      "REALTY": 15,
+      "FMCG": 16,
+      "IT": 17,
+      "POWER": 18,
+      "ENERGY": 19
+    },
+    "top_10": [
+      {
+        "symbol": "METROPOLIS",
+        "score": 70,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 6,
+          "Volume": 17,
+          "Price Action": 13,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 30 (Strong Trend)",
+          "ADX Rising",
+          "MACD Bullish",
+          "Vol Surge 3.0x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 541.0,
+        "sl": 514.8,
+        "target1": 588.16,
+        "target2": 611.75,
+        "hold_period": "2-3 weeks",
+        "cmp": 541.0,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 14.9
+      },
+      {
+        "symbol": "THERMAX",
+        "score": 69,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 3,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 47 (Strong Trend)",
+          "ADX Rising",
+          "MACD Fresh Crossover",
+          "Vol Surge 2.6x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty"
+        ],
+        "entry": 4515.0,
+        "sl": 4262.44,
+        "target1": 5020.12,
+        "target2": 5090.97,
+        "hold_period": "1-2 weeks",
+        "cmp": 4515.0,
+        "target3": 5390.97,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 8.0
+      },
+      {
+        "symbol": "CONCOR",
+        "score": 68,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 13,
+          "Relative Strength": 10,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 36 (Strong Trend)",
+          "ADX Rising",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 22,451,250)",
+          "High F&O Activity"
+        ],
+        "entry": 531.75,
+        "sl": 513.72,
+        "target1": 567.8,
+        "target2": 585.83,
+        "hold_period": "5-8 days",
+        "cmp": 531.75,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 6.6
+      },
+      {
+        "symbol": "SONATSOFTW",
+        "score": 68,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 15,
+          "Volume": 13,
+          "Price Action": 4,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 28 (Strong Trend)",
+          "ADX Rising",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 3.6x",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 289.45,
+        "sl": 272.21,
+        "target1": 323.93,
+        "target2": 341.17,
+        "hold_period": "3-4 weeks",
+        "cmp": 289.45,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 18.2
+      }
+    ]
   }
 ]
