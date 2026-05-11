@@ -1,0 +1,14 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-05-11 at 04:31 AM IST
+Regime: BEARISH (risk-off) | VIX: 18.66 | Min Score: 75
+Qualified: 1 stocks | Top 10 below
+============================================================
+
+1. TATACONSUM -- Score: 78/100
+   Entry: 1250.50 | SL: 1202.64 | T1: 1346.23 | T2: 1394.09 | RR: 1:2.0
+   Tr:20 Mo:10 Vo:17 PA:13 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 3.0x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 9,837,300), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+

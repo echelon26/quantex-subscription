@@ -9049,5 +9049,76 @@
         "est_days_to_t1": 8.6
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-11",
+    "scan_time": "2026-05-11T04:31:01.602631",
+    "market_regime": {
+      "regime": "bearish",
+      "min_score": 75,
+      "label": "BEARISH (risk-off)",
+      "nifty_above_50dma": false,
+      "vix": 18.662500381469727
+    },
+    "min_score_threshold": 75,
+    "total_qualified": 1,
+    "sector_rankings": {
+      "CHEMICALS": 1,
+      "SILVER_ETF": 2,
+      "DEFENCE": 3,
+      "AUTO": 4,
+      "GOLD_ETF": 5,
+      "PHARMA": 6,
+      "FINANCE": 7,
+      "METALS": 8,
+      "ELECTRICALS": 9,
+      "REALTY": 10,
+      "INDEX_ETF": 11,
+      "IT": 12,
+      "INFRA": 13,
+      "CONSUMER": 14,
+      "FMCG": 15,
+      "POWER": 16,
+      "RAILWAY": 17,
+      "BANKING": 18,
+      "ENERGY": 19
+    },
+    "top_10": [
+      {
+        "symbol": "TATACONSUM",
+        "score": 78,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 10,
+          "Volume": 17,
+          "Price Action": 13,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 28 (Strong Trend)",
+          "ADX Rising",
+          "MACD Bullish",
+          "Vol Surge 3.0x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 9,837,300)",
+          "High F&O Activity"
+        ],
+        "entry": 1250.5,
+        "sl": 1202.64,
+        "target1": 1346.23,
+        "target2": 1394.09,
+        "hold_period": "2-3 weeks",
+        "cmp": 1250.5,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 13.7
+      }
+    ]
   }
 ]
