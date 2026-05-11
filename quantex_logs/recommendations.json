@@ -9120,5 +9120,317 @@
         "est_days_to_t1": 13.7
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-11",
+    "scan_time": "2026-05-11T04:35:38.004384",
+    "total_qualified": 35,
+    "sector_rankings": {
+      "CHEMICALS": 1,
+      "SILVER_ETF": 2,
+      "DEFENCE": 3,
+      "AUTO": 4,
+      "GOLD_ETF": 5,
+      "PHARMA": 6,
+      "FINANCE": 7,
+      "ELECTRICALS": 8,
+      "METALS": 9,
+      "INFRA": 10,
+      "REALTY": 11,
+      "INDEX_ETF": 12,
+      "IT": 13,
+      "CONSUMER": 14,
+      "POWER": 15,
+      "FMCG": 16,
+      "RAILWAY": 17,
+      "BANKING": 18,
+      "ENERGY": 19
+    },
+    "top_10": [
+      {
+        "symbol": "TATACONSUM",
+        "score": 83,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 20,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "Vol Surge 3.1x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 9,845,550)",
+          "High F&O Activity"
+        ],
+        "entry": 1248.4,
+        "sl": 1200.54,
+        "target1": 1344.13,
+        "target2": 1391.99,
+        "hold_period": "1-2 weeks",
+        "cmp": 1248.4
+      },
+      {
+        "symbol": "SASKEN",
+        "score": 78,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 8,
+          "Volume": 20,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend FLIP Bullish",
+          "MACD Bullish",
+          "Vol Surge 10.4x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 1588.8,
+        "sl": 1509.36,
+        "target1": 1747.68,
+        "target2": 1827.12,
+        "hold_period": "1-2 weeks",
+        "cmp": 1588.8
+      },
+      {
+        "symbol": "TORNTPHARM",
+        "score": 78,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Hammer",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 2,611,000)",
+          "High F&O Activity"
+        ],
+        "entry": 4437.3,
+        "sl": 4293.97,
+        "target1": 4723.95,
+        "target2": 4867.28,
+        "hold_period": "1-2 weeks",
+        "cmp": 4437.3
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 23,883,300)",
+          "High F&O Activity"
+        ],
+        "entry": 1854.9,
+        "sl": 1798.6,
+        "target1": 1967.5,
+        "target2": 2023.8,
+        "hold_period": "1-2 weeks",
+        "cmp": 1854.9
+      },
+      {
+        "symbol": "ASTRAMICRO",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Sector Top 3: DEFENCE"
+        ],
+        "entry": 1172.3,
+        "sl": 1113.68,
+        "target1": 1289.53,
+        "target2": 1348.14,
+        "hold_period": "1-2 weeks",
+        "cmp": 1172.3
+      },
+      {
+        "symbol": "KEI",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 1,675,625)",
+          "High F&O Activity"
+        ],
+        "entry": 5158.3,
+        "sl": 4900.39,
+        "target1": 5674.13,
+        "target2": 5932.05,
+        "hold_period": "1-2 weeks",
+        "cmp": 5158.3
+      },
+      {
+        "symbol": "GRINDWELL",
+        "score": 71,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 8,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "Vol Above Avg 1.6x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 1772.3,
+        "sl": 1685.23,
+        "target1": 1946.43,
+        "target2": 2033.5,
+        "hold_period": "1-2 weeks",
+        "cmp": 1772.3
+      },
+      {
+        "symbol": "LTTS",
+        "score": 70,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 3830.0,
+        "sl": 3687.4,
+        "target1": 4115.2,
+        "target2": 4257.8,
+        "hold_period": "1-2 weeks",
+        "cmp": 3830.0
+      },
+      {
+        "symbol": "FORTIS",
+        "score": 69,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 6,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Morning Star",
+          "Outperforming Nifty",
+          "Long Buildup (OI: 7,660,875)",
+          "High F&O Activity"
+        ],
+        "entry": 962.1,
+        "sl": 933.3,
+        "target1": 1019.7,
+        "target2": 1048.5,
+        "hold_period": "3-7 days",
+        "cmp": 962.1
+      },
+      {
+        "symbol": "360ONE",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 5,397,500)",
+          "High F&O Activity"
+        ],
+        "entry": 1128.9,
+        "sl": 1079.21,
+        "target1": 1228.28,
+        "target2": 1277.97,
+        "hold_period": "1-2 weeks",
+        "cmp": 1128.9
+      }
+    ]
   }
 ]

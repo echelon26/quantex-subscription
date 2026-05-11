@@ -12,3 +12,61 @@ Qualified: 1 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-05-11 at 04:35 AM IST
+Qualified: 35 stocks | Top 10 below
+============================================================
+
+1. TATACONSUM — Score: 83/100
+   Entry: 1248.40 | SL: 1200.54 | T1: 1344.13 | T2: 1391.99 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:20 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, Vol Surge 3.1x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 9,845,550), High F&O Activity
+
+2. SASKEN — Score: 78/100
+   Entry: 1588.80 | SL: 1509.36 | T1: 1747.68 | T2: 1827.12 | RR: 1:2.0
+   Trend:20 Mom:8 Vol:20 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, MACD Bullish, Vol Surge 10.4x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+3. TORNTPHARM — Score: 78/100
+   Entry: 4437.30 | SL: 4293.97 | T1: 4723.95 | T2: 4867.28 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:15 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, 20-Day Breakout, Hammer, Strong RS vs Nifty, Long Buildup (OI: 2,611,000), High F&O Activity
+
+4. SUNPHARMA — Score: 73/100
+   Entry: 1854.90 | SL: 1798.60 | T1: 1967.50 | T2: 2023.80 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Bullish, Near Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 23,883,300), High F&O Activity
+
+5. ASTRAMICRO — Score: 73/100
+   Entry: 1172.30 | SL: 1113.68 | T1: 1289.53 | T2: 1348.14 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:10 RS:15 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Fresh Crossover, Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Sector Top 3: DEFENCE
+
+6. KEI — Score: 73/100
+   Entry: 5158.30 | SL: 4900.39 | T1: 5674.13 | T2: 5932.05 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Long Buildup (OI: 1,675,625), High F&O Activity
+
+7. GRINDWELL — Score: 71/100
+   Entry: 1772.30 | SL: 1685.23 | T1: 1946.43 | T2: 2033.50 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:8 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, Vol Above Avg 1.6x, 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+8. LTTS — Score: 70/100
+   Entry: 3830.00 | SL: 3687.40 | T1: 4115.20 | T2: 4257.80 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, Near Breakout, Morning Star, Strong RS vs Nifty, Consistent Buying
+
+9. FORTIS — Score: 69/100
+   Entry: 962.10 | SL: 933.30 | T1: 1019.70 | T2: 1048.50 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:6 SM:10
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, Near Breakout, Morning Star, Outperforming Nifty, Long Buildup (OI: 7,660,875), High F&O Activity
+
+10. 360ONE — Score: 68/100
+   Entry: 1128.90 | SL: 1079.21 | T1: 1228.28 | T2: 1277.97 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 5,397,500), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
