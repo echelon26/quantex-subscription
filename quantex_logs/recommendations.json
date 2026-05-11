@@ -9432,5 +9432,148 @@
         "cmp": 1128.9
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-11",
+    "scan_time": "2026-05-11T10:30:53.075058",
+    "market_regime": {
+      "regime": "bearish",
+      "min_score": 75,
+      "label": "BEARISH (risk-off)",
+      "nifty_above_50dma": false,
+      "vix": 18.552499771118164
+    },
+    "min_score_threshold": 75,
+    "total_qualified": 3,
+    "sector_rankings": {
+      "CHEMICALS": 1,
+      "SILVER_ETF": 2,
+      "DEFENCE": 3,
+      "GOLD_ETF": 4,
+      "AUTO": 5,
+      "PHARMA": 6,
+      "INFRA": 7,
+      "ELECTRICALS": 8,
+      "FINANCE": 9,
+      "INDEX_ETF": 10,
+      "IT": 11,
+      "METALS": 12,
+      "CONSUMER": 13,
+      "FMCG": 14,
+      "REALTY": 15,
+      "RAILWAY": 16,
+      "POWER": 17,
+      "BANKING": 18,
+      "ENERGY": 19
+    },
+    "top_10": [
+      {
+        "symbol": "FORTIS",
+        "score": 79,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 15,
+          "Volume": 15,
+          "Price Action": 13,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 24 (Trending)",
+          "ADX Rising",
+          "RSI 70 (Power Zone)",
+          "MACD Bullish",
+          "Vol Above Avg 1.8x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 7,963,125)",
+          "High F&O Activity"
+        ],
+        "entry": 977.4,
+        "sl": 939.03,
+        "target1": 1054.13,
+        "target2": 1092.5,
+        "hold_period": "1-2 weeks",
+        "cmp": 977.4,
+        "target3": 1108.25,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 8.2
+      },
+      {
+        "symbol": "TIMKEN",
+        "score": 75,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 15,
+          "Price Action": 9,
+          "Relative Strength": 10,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 61 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Above Avg 1.6x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Hammer",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 3625.1,
+        "sl": 3440.63,
+        "target1": 3901.8,
+        "target2": 4086.27,
+        "hold_period": "3-4 weeks",
+        "cmp": 3625.1,
+        "target3": 3892.75,
+        "target_method": "52W High + Weekly R1 + Weekly R2 + Weekly R3",
+        "est_days_to_t1": 19.3
+      },
+      {
+        "symbol": "LICHSGFIN",
+        "score": 75,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 13,
+          "Price Action": 9,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 25 (Strong Trend)",
+          "ADX Rising",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 2.1x",
+          "Near Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 31,930,000)",
+          "High F&O Activity"
+        ],
+        "entry": 588.95,
+        "sl": 565.38,
+        "target1": 636.09,
+        "target2": 659.67,
+        "hold_period": "1-2 weeks",
+        "cmp": 588.95,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 9.4
+      }
+    ]
   }
 ]
