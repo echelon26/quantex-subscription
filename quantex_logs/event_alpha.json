@@ -1202,5 +1202,61 @@
         "CMP": 4509.0
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-11",
+    "scan_time": "2026-05-11T13:39:28.701962",
+    "stocks_scanned": 504,
+    "results_found": 8,
+    "results": [
+      {
+        "Date": "2026-05-11",
+        "Symbol": "ABBOTINDIA",
+        "Signals": "Bullish Reaction | Rally +4.1% | Vol Surge 2.5x",
+        "CMP": 27795.0
+      },
+      {
+        "Date": "2026-05-11",
+        "Symbol": "CANBK",
+        "Signals": "Bearish Reaction | Selloff -3.7% | Vol Explosion 4.0x",
+        "CMP": 129.43
+      },
+      {
+        "Date": "2026-05-11",
+        "Symbol": "INDHOTEL",
+        "Signals": "Flat -1.7%",
+        "CMP": 661.3
+      },
+      {
+        "Date": "2026-05-11",
+        "Symbol": "JBCHEPHARM",
+        "Signals": "Rally +2.8% | Vol Surge 2.1x",
+        "CMP": 2209.2
+      },
+      {
+        "Date": "2026-05-11",
+        "Symbol": "JSWENERGY",
+        "Signals": "Selloff -2.5% | High Vol 1.6x",
+        "CMP": 556.65
+      },
+      {
+        "Date": "2026-05-11",
+        "Symbol": "PVRINOX",
+        "Signals": "Bearish Reaction | Selloff -4.5% | Vol Explosion 13.3x",
+        "CMP": 1026.0
+      },
+      {
+        "Date": "2026-05-11",
+        "Symbol": "NIACL",
+        "Signals": "Muted Reaction | Flat -0.6%",
+        "CMP": 163.13
+      },
+      {
+        "Date": "2026-05-11",
+        "Symbol": "UPL",
+        "Signals": "Bullish Reaction | Rally +3.6% | Vol Explosion 4.2x",
+        "CMP": 669.0
+      }
+    ]
   }
 ]
