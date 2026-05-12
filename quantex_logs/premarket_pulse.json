@@ -486,5 +486,31 @@
       "ESCORTS"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-11.pdf"
+  },
+  {
+    "date": "Tue, 12 May 2026",
+    "fear_greed": 45.8,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23815.85,
+    "nifty": 23815.85,
+    "sensex": 76015.28,
+    "bank_nifty": 54439.9,
+    "vix": 18.55,
+    "top_gainers": [
+      "MAPMYINDIA",
+      "AFFLE",
+      "KIMS",
+      "IDEA",
+      "TATACONSUM"
+    ],
+    "top_losers": [
+      "URBANCO",
+      "KALYANKJIL",
+      "ABB",
+      "TEJASNET",
+      "BLUEDART"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-12.pdf"
   }
 ]
