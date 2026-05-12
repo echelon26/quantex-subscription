@@ -7,3 +7,61 @@ Qualified: 0 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-05-12 at 04:35 AM IST
+Qualified: 17 stocks | Top 10 below
+============================================================
+
+1. HINDZINC — Score: 76/100
+   Entry: 647.85 | SL: 618.60 | T1: 706.34 | T2: 735.59 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 34,361,250), High F&O Activity
+
+2. BIOCON — Score: 73/100
+   Entry: 402.05 | SL: 384.68 | T1: 436.78 | T2: 454.15 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:15 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 32,140,000), High F&O Activity
+
+3. SILVERCASE — Score: 70/100
+   Entry: 27.15 | SL: 25.79 | T1: 29.87 | T2: 31.22 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:0 PA:10 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: SILVER_ETF, Consistent Buying
+
+4. PIDILITIND — Score: 68/100
+   Entry: 1458.20 | SL: 1401.97 | T1: 1570.65 | T2: 1626.88 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:0 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Bullish, Strong RS vs Nifty, Sector Top 3: CHEMICALS, Long Buildup (OI: 8,371,000), High F&O Activity
+
+5. HDFCSILVER — Score: 68/100
+   Entry: 256.32 | SL: 245.41 | T1: 278.14 | T2: 289.04 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:0 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 67 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: SILVER_ETF, Institutional Accumulation
+
+6. SASKEN — Score: 68/100
+   Entry: 1681.30 | SL: 1597.23 | T1: 1849.43 | T2: 1933.50 | RR: 1:2.0
+   Trend:20 Mom:8 Vol:10 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, MACD Bullish, Vol Surge 9.7x, 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+7. KEI — Score: 68/100
+   Entry: 5140.10 | SL: 4956.60 | T1: 5507.10 | T2: 5690.60 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 1,653,925), High F&O Activity
+
+8. SILVERBEES — Score: 65/100
+   Entry: 256.00 | SL: 245.34 | T1: 277.33 | T2: 287.99 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:0 PA:10 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 68 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: SILVER_ETF, Consistent Buying
+
+9. SBISILVER — Score: 65/100
+   Entry: 261.86 | SL: 248.77 | T1: 288.05 | T2: 301.14 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:0 PA:10 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 68 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: SILVER_ETF, Consistent Buying
+
+10. ONGC — Score: 64/100
+   Entry: 297.50 | SL: 285.95 | T1: 320.61 | T2: 332.16 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:10 PA:5 RS:6 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 60 (Power Zone), Strong Delivery (Close near High), Morning Star, Marubozu, Outperforming Nifty, Long Buildup (OI: 82,518,750), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
