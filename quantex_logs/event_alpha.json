@@ -1258,5 +1258,61 @@
         "CMP": 669.0
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-12",
+    "scan_time": "2026-05-12T13:38:26.355871",
+    "stocks_scanned": 504,
+    "results_found": 8,
+    "results": [
+      {
+        "Date": "2026-05-12",
+        "Symbol": "BERGEPAINT",
+        "Signals": "Flat -1.2%",
+        "CMP": 488.1
+      },
+      {
+        "Date": "2026-05-12",
+        "Symbol": "DIXON",
+        "Signals": "Decline -5.9%",
+        "CMP": 10138.0
+      },
+      {
+        "Date": "2026-05-12",
+        "Symbol": "DRREDDY",
+        "Signals": "Muted Reaction | Flat -0.8%",
+        "CMP": 1270.0
+      },
+      {
+        "Date": "2026-05-12",
+        "Symbol": "KPRMILL",
+        "Signals": "Flat -1.7% | Vol Surge 2.6x",
+        "CMP": 921.45
+      },
+      {
+        "Date": "2026-05-12",
+        "Symbol": "MFSL",
+        "Signals": "Selloff -2.5%",
+        "CMP": 1653.7
+      },
+      {
+        "Date": "2026-05-12",
+        "Symbol": "PFIZER",
+        "Signals": "Selloff -3.1%",
+        "CMP": 4725.9
+      },
+      {
+        "Date": "2026-05-12",
+        "Symbol": "TATAPOWER",
+        "Signals": "Selloff -3.4%",
+        "CMP": 418.4
+      },
+      {
+        "Date": "2026-05-12",
+        "Symbol": "TORNTPOWER",
+        "Signals": "Selloff -5.0%",
+        "CMP": 1597.6
+      }
+    ]
   }
 ]
