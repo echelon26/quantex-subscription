@@ -9949,5 +9949,40 @@
       "RAILWAY": 19
     },
     "top_10": []
+  },
+  {
+    "scan_date": "2026-05-13",
+    "scan_time": "2026-05-13T04:30:59.917623",
+    "market_regime": {
+      "regime": "bearish",
+      "min_score": 75,
+      "label": "BEARISH (risk-off)",
+      "nifty_above_50dma": false,
+      "vix": 19.977500915527344
+    },
+    "min_score_threshold": 75,
+    "total_qualified": 0,
+    "sector_rankings": {
+      "SILVER_ETF": 1,
+      "GOLD_ETF": 2,
+      "METALS": 3,
+      "FMCG": 4,
+      "CHEMICALS": 5,
+      "PHARMA": 6,
+      "ENERGY": 7,
+      "INFRA": 8,
+      "IT": 9,
+      "CONSUMER": 10,
+      "INDEX_ETF": 11,
+      "ELECTRICALS": 12,
+      "FINANCE": 13,
+      "DEFENCE": 14,
+      "POWER": 15,
+      "AUTO": 16,
+      "RAILWAY": 17,
+      "REALTY": 18,
+      "BANKING": 19
+    },
+    "top_10": []
   }
 ]
