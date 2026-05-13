@@ -512,5 +512,31 @@
       "BLUEDART"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-12.pdf"
+  },
+  {
+    "date": "Wed, 13 May 2026",
+    "fear_greed": 34.9,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Fear",
+    "gift_nifty": 23379.55,
+    "nifty": 23379.55,
+    "sensex": 74559.24,
+    "bank_nifty": 53555.2,
+    "vix": 19.28,
+    "top_gainers": [
+      "OIL",
+      "ONGC",
+      "PARADEEP",
+      "BIOCON",
+      "FIRSTCRY"
+    ],
+    "top_losers": [
+      "SONATSOFTW",
+      "GALLANTT",
+      "OLECTRA",
+      "KAYNES",
+      "JSWENERGY"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-13.pdf"
   }
 ]
