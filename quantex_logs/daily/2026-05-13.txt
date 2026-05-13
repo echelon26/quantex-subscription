@@ -65,3 +65,32 @@ Qualified: 41 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-05-13 at 10:30 AM IST
+Regime: BEARISH (risk-off) | VIX: 19.42 | Min Score: 75
+Qualified: 4 stocks | Top 10 below
+============================================================
+
+1. SAIL -- Score: 82/100
+   Entry: 201.35 | SL: 191.10 | T1: 221.84 | T2: 232.09 | RR: 1:2.0
+   Tr:20 Mo:13 Vo:17 PA:13 RS:12 SM:7 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 35 (Strong Trend), MACD Fresh Crossover, Vol Surge 5.7x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: METALS, Long Buildup (OI: 170,149,400)
+
+2. HINDCOPPER -- Score: 78/100
+   Entry: 595.15 | SL: 561.91 | T1: 645.01 | T2: 648.81 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:17 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 65 (Power Zone), MACD Bullish, Vol Surge 2.8x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: METALS, Institutional Accumulation
+
+3. TATASTEEL -- Score: 77/100
+   Entry: 220.00 | SL: 212.55 | T1: 231.18 | T2: 238.63 | RR: 1:1.5
+   Tr:16 Mo:11 Vo:15 PA:13 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 65 (Power Zone), Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Sector Top 3: METALS, Long Buildup (OI: 171,396,500), High F&O Activity
+
+4. LICHSGFIN -- Score: 77/100
+   Entry: 586.50 | SL: 561.35 | T1: 636.79 | T2: 661.94 | RR: 1:2.0
+   Tr:20 Mo:15 Vo:15 PA:9 RS:8 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 27 (Strong Trend), ADX Rising, RSI 64 (Power Zone), MACD Bullish, Vol Above Avg 1.7x, Strong Delivery (Close near High), Near Breakout, Bullish Engulfing, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 34,158,000), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+

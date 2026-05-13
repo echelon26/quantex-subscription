@@ -10284,5 +10284,181 @@
         "cmp": 273.0
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-13",
+    "scan_time": "2026-05-13T10:30:52.798324",
+    "market_regime": {
+      "regime": "bearish",
+      "min_score": 75,
+      "label": "BEARISH (risk-off)",
+      "nifty_above_50dma": false,
+      "vix": 19.424999237060547
+    },
+    "min_score_threshold": 75,
+    "total_qualified": 4,
+    "sector_rankings": {
+      "SILVER_ETF": 1,
+      "GOLD_ETF": 2,
+      "METALS": 3,
+      "FMCG": 4,
+      "CHEMICALS": 5,
+      "INFRA": 6,
+      "ENERGY": 7,
+      "PHARMA": 8,
+      "ELECTRICALS": 9,
+      "CONSUMER": 10,
+      "INDEX_ETF": 11,
+      "IT": 12,
+      "DEFENCE": 13,
+      "POWER": 14,
+      "FINANCE": 15,
+      "RAILWAY": 16,
+      "AUTO": 17,
+      "REALTY": 18,
+      "BANKING": 19
+    },
+    "top_10": [
+      {
+        "symbol": "SAIL",
+        "score": 82,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 17,
+          "Price Action": 13,
+          "Relative Strength": 12,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 35 (Strong Trend)",
+          "MACD Fresh Crossover",
+          "Vol Surge 5.7x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Sector Top 3: METALS",
+          "Long Buildup (OI: 170,149,400)"
+        ],
+        "entry": 201.35,
+        "sl": 191.1,
+        "target1": 221.84,
+        "target2": 232.09,
+        "hold_period": "5-8 days",
+        "cmp": 201.35,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 5.9
+      },
+      {
+        "symbol": "HINDCOPPER",
+        "score": 78,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 15,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 2.8x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: METALS",
+          "Institutional Accumulation"
+        ],
+        "entry": 595.15,
+        "sl": 561.91,
+        "target1": 645.01,
+        "target2": 648.81,
+        "hold_period": "3-4 weeks",
+        "cmp": 595.15,
+        "target3": 678.81,
+        "target_method": "Weekly R2 + 52W High + Weekly R3 + Fib 1.0",
+        "est_days_to_t1": 19.5
+      },
+      {
+        "symbol": "TATASTEEL",
+        "score": 77,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 11,
+          "Volume": 15,
+          "Price Action": 13,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 65 (Power Zone)",
+          "Vol Above Avg 1.8x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Sector Top 3: METALS",
+          "Long Buildup (OI: 171,396,500)",
+          "High F&O Activity"
+        ],
+        "entry": 220.0,
+        "sl": 212.55,
+        "target1": 231.18,
+        "target2": 238.63,
+        "hold_period": "3-4 weeks",
+        "cmp": 220.0,
+        "target3": 246.44,
+        "target_method": "Weekly R2 + Weekly R3 + Fib 1.0 + Measured Move",
+        "est_days_to_t1": 18.5
+      },
+      {
+        "symbol": "LICHSGFIN",
+        "score": 77,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 15,
+          "Price Action": 9,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 27 (Strong Trend)",
+          "ADX Rising",
+          "RSI 64 (Power Zone)",
+          "MACD Bullish",
+          "Vol Above Avg 1.7x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Bullish Engulfing, Marubozu",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 34,158,000)",
+          "High F&O Activity"
+        ],
+        "entry": 586.5,
+        "sl": 561.35,
+        "target1": 636.79,
+        "target2": 661.94,
+        "hold_period": "1-2 weeks",
+        "cmp": 586.5,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 9.4
+      }
+    ]
   }
 ]
