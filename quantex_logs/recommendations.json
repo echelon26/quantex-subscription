@@ -9984,5 +9984,305 @@
       "BANKING": 19
     },
     "top_10": []
+  },
+  {
+    "scan_date": "2026-05-13",
+    "scan_time": "2026-05-13T04:35:40.437768",
+    "total_qualified": 41,
+    "sector_rankings": {
+      "SILVER_ETF": 1,
+      "GOLD_ETF": 2,
+      "FMCG": 3,
+      "METALS": 4,
+      "CHEMICALS": 5,
+      "ENERGY": 6,
+      "INFRA": 7,
+      "PHARMA": 8,
+      "IT": 9,
+      "INDEX_ETF": 10,
+      "CONSUMER": 11,
+      "ELECTRICALS": 12,
+      "FINANCE": 13,
+      "DEFENCE": 14,
+      "POWER": 15,
+      "AUTO": 16,
+      "RAILWAY": 17,
+      "REALTY": 18,
+      "BANKING": 19
+    },
+    "top_10": [
+      {
+        "symbol": "BERGEPAINT",
+        "score": 76,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 15,
+          "Price Action": 15,
+          "Relative Strength": 10,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 8.9x",
+          "20-Day Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty"
+        ],
+        "entry": 522.6,
+        "sl": 496.47,
+        "target1": 574.86,
+        "target2": 600.99,
+        "hold_period": "1-2 weeks",
+        "cmp": 522.6
+      },
+      {
+        "symbol": "GOLDETF",
+        "score": 72,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 15,
+          "Smart Money": 3
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Sector Top 3: GOLD_ETF"
+        ],
+        "entry": 152.61,
+        "sl": 147.37,
+        "target1": 163.09,
+        "target2": 168.34,
+        "hold_period": "1-2 weeks",
+        "cmp": 152.61
+      },
+      {
+        "symbol": "TATASTEEL",
+        "score": 71,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 59 (Power Zone)",
+          "Near Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 166,014,750)",
+          "High F&O Activity"
+        ],
+        "entry": 215.27,
+        "sl": 211.5,
+        "target1": 222.81,
+        "target2": 226.58,
+        "hold_period": "3-7 days",
+        "cmp": 215.27
+      },
+      {
+        "symbol": "HINDZINC",
+        "score": 71,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 33,856,550)",
+          "High F&O Activity"
+        ],
+        "entry": 670.4,
+        "sl": 639.32,
+        "target1": 732.57,
+        "target2": 763.65,
+        "hold_period": "1-2 weeks",
+        "cmp": 670.4
+      },
+      {
+        "symbol": "GOLDBEES",
+        "score": 70,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 8,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 3
+        },
+        "signals": [
+          "Supertrend FLIP Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "Vol Above Avg 1.7x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: GOLD_ETF"
+        ],
+        "entry": 130.35,
+        "sl": 126.51,
+        "target1": 138.03,
+        "target2": 141.87,
+        "hold_period": "3-7 days",
+        "cmp": 130.35
+      },
+      {
+        "symbol": "ATUL",
+        "score": 69,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 13,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 62 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty"
+        ],
+        "entry": 7038.0,
+        "sl": 6804.0,
+        "target1": 7506.0,
+        "target2": 7740.0,
+        "hold_period": "1-2 weeks",
+        "cmp": 7038.0
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "score": 68,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 10,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 64 (Power Zone)",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 11,549,250)",
+          "High F&O Activity"
+        ],
+        "entry": 2607.0,
+        "sl": 2505.81,
+        "target1": 2809.37,
+        "target2": 2910.56,
+        "hold_period": "1-2 weeks",
+        "cmp": 2607.0
+      },
+      {
+        "symbol": "HDFCSILVER",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 0,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: SILVER_ETF",
+          "Institutional Accumulation"
+        ],
+        "entry": 266.18,
+        "sl": 253.27,
+        "target1": 292.0,
+        "target2": 304.91,
+        "hold_period": "1-2 weeks",
+        "cmp": 266.18
+      },
+      {
+        "symbol": "SILVERCASE",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 0,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: SILVER_ETF",
+          "Institutional Accumulation"
+        ],
+        "entry": 28.15,
+        "sl": 26.74,
+        "target1": 30.97,
+        "target2": 32.37,
+        "hold_period": "1-2 weeks",
+        "cmp": 28.15
+      },
+      {
+        "symbol": "MOSILVER",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 0,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: SILVER_ETF",
+          "Institutional Accumulation"
+        ],
+        "entry": 273.0,
+        "sl": 259.35,
+        "target1": 300.3,
+        "target2": 313.95,
+        "hold_period": "1-2 weeks",
+        "cmp": 273.0
+      }
+    ]
   }
 ]

@@ -7,3 +7,61 @@ Qualified: 0 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-05-13 at 04:35 AM IST
+Qualified: 41 stocks | Top 10 below
+============================================================
+
+1. BERGEPAINT — Score: 76/100
+   Entry: 522.60 | SL: 496.47 | T1: 574.86 | T2: 600.99 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:15 PA:15 RS:10 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 69 (Power Zone), MACD Bullish, Vol Surge 8.9x, 20-Day Breakout, Morning Star, Strong RS vs Nifty
+
+2. GOLDETF — Score: 72/100
+   Entry: 152.61 | SL: 147.37 | T1: 163.09 | T2: 168.34 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:5 PA:15 RS:15 SM:3
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 66 (Power Zone), MACD Bullish, 20-Day Breakout, Morning Star, Strong RS vs Nifty, Sector Top 3: GOLD_ETF
+
+3. TATASTEEL — Score: 71/100
+   Entry: 215.27 | SL: 211.50 | T1: 222.81 | T2: 226.58 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:10 RS:13 SM:10
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 59 (Power Zone), Near Breakout, Morning Star, Strong RS vs Nifty, Long Buildup (OI: 166,014,750), High F&O Activity
+
+4. HINDZINC — Score: 71/100
+   Entry: 670.40 | SL: 639.32 | T1: 732.57 | T2: 763.65 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 33,856,550), High F&O Activity
+
+5. GOLDBEES — Score: 70/100
+   Entry: 130.35 | SL: 126.51 | T1: 138.03 | T2: 141.87 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:8 PA:10 RS:15 SM:3
+   Hold: 3-7 days | Signals: Supertrend FLIP Bullish, RSI 66 (Power Zone), MACD Bullish, Vol Above Avg 1.7x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: GOLD_ETF
+
+6. ATUL — Score: 69/100
+   Entry: 7038.00 | SL: 6804.00 | T1: 7506.00 | T2: 7740.00 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:13 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 62 (Power Zone), MACD Bullish, Near Breakout, Morning Star, Strong RS vs Nifty
+
+7. ASIANPAINT — Score: 68/100
+   Entry: 2607.00 | SL: 2505.81 | T1: 2809.37 | T2: 2910.56 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:10 PA:5 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 64 (Power Zone), MACD Bullish, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 11,549,250), High F&O Activity
+
+8. HDFCSILVER — Score: 68/100
+   Entry: 266.18 | SL: 253.27 | T1: 292.00 | T2: 304.91 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:0 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: SILVER_ETF, Institutional Accumulation
+
+9. SILVERCASE — Score: 68/100
+   Entry: 28.15 | SL: 26.74 | T1: 30.97 | T2: 32.37 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:0 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: SILVER_ETF, Institutional Accumulation
+
+10. MOSILVER — Score: 68/100
+   Entry: 273.00 | SL: 259.35 | T1: 300.30 | T2: 313.95 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:0 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: SILVER_ETF, Institutional Accumulation
+
+
+────────────────────────────────────────────────────────────
+
