@@ -1314,5 +1314,85 @@
         "CMP": 1597.6
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-13",
+    "scan_time": "2026-05-13T13:38:40.617753",
+    "stocks_scanned": 504,
+    "results_found": 12,
+    "results": [
+      {
+        "Date": "2026-05-13",
+        "Symbol": "BHARTIARTL",
+        "Signals": "Flat +1.8%",
+        "CMP": 1789.2
+      },
+      {
+        "Date": "2026-05-13",
+        "Symbol": "CIPLA",
+        "Signals": "Rally +2.7% | Vol Explosion 4.3x",
+        "CMP": 1327.6
+      },
+      {
+        "Date": "2026-05-13",
+        "Symbol": "CROMPTON",
+        "Signals": "Muted Reaction | Flat +1.0%",
+        "CMP": 284.8
+      },
+      {
+        "Date": "2026-05-13",
+        "Symbol": "DLF",
+        "Signals": "Muted Reaction | Flat +0.9%",
+        "CMP": 574.15
+      },
+      {
+        "Date": "2026-05-13",
+        "Symbol": "HINDPETRO",
+        "Signals": "Bullish Reaction | Surge +5.5% | High Vol 1.8x",
+        "CMP": 390.1
+      },
+      {
+        "Date": "2026-05-13",
+        "Symbol": "LICHSGFIN",
+        "Signals": "Rally +3.2%",
+        "CMP": 585.65
+      },
+      {
+        "Date": "2026-05-13",
+        "Symbol": "OIL",
+        "Signals": "Rally +3.3%",
+        "CMP": 507.1
+      },
+      {
+        "Date": "2026-05-13",
+        "Symbol": "PFC",
+        "Signals": "Flat +1.2% | Vol Surge 2.3x",
+        "CMP": 446.0
+      },
+      {
+        "Date": "2026-05-13",
+        "Symbol": "REDINGTON",
+        "Signals": "Muted Reaction | Flat -0.3%",
+        "CMP": 210.05
+      },
+      {
+        "Date": "2026-05-13",
+        "Symbol": "TVSMOTOR",
+        "Signals": "Flat -0.9% | Vol Surge 2.0x",
+        "CMP": 3527.2
+      },
+      {
+        "Date": "2026-05-13",
+        "Symbol": "TMPV",
+        "Signals": "Muted Reaction | Flat +0.0%",
+        "CMP": 336.85
+      },
+      {
+        "Date": "2026-05-13",
+        "Symbol": "TIINDIA",
+        "Signals": "Flat -0.4% | High Vol 1.5x",
+        "CMP": 2941.0
+      }
+    ]
   }
 ]
