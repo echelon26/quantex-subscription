@@ -1394,5 +1394,85 @@
         "CMP": 2941.0
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-14",
+    "scan_time": "2026-05-14T13:38:37.945483",
+    "stocks_scanned": 504,
+    "results_found": 12,
+    "results": [
+      {
+        "Date": "2026-05-14",
+        "Symbol": "APOLLOTYRE",
+        "Signals": "Flat +1.3% | High Vol 1.6x",
+        "CMP": 401.8
+      },
+      {
+        "Date": "2026-05-14",
+        "Symbol": "CARBORUNIV",
+        "Signals": "Muted Reaction | Flat +0.4%",
+        "CMP": 1037.35
+      },
+      {
+        "Date": "2026-05-14",
+        "Symbol": "CHAMBLFERT",
+        "Signals": "Muted Reaction | Flat -0.9%",
+        "CMP": 424.6
+      },
+      {
+        "Date": "2026-05-14",
+        "Symbol": "CLEAN",
+        "Signals": "Flat +0.1% | Vol Surge 2.1x",
+        "CMP": 818.0
+      },
+      {
+        "Date": "2026-05-14",
+        "Symbol": "HAL",
+        "Signals": "Flat -0.2% | Vol Surge 2.2x",
+        "CMP": 4608.0
+      },
+      {
+        "Date": "2026-05-14",
+        "Symbol": "IRFC",
+        "Signals": "Flat -1.3% | High Vol 1.9x",
+        "CMP": 100.19
+      },
+      {
+        "Date": "2026-05-14",
+        "Symbol": "JSWSTEEL",
+        "Signals": "Flat +1.7% | Vol Surge 2.2x",
+        "CMP": 1296.9
+      },
+      {
+        "Date": "2026-05-14",
+        "Symbol": "KPIL",
+        "Signals": "Muted Reaction | Flat -0.2%",
+        "CMP": 1226.6
+      },
+      {
+        "Date": "2026-05-14",
+        "Symbol": "MUTHOOTFIN",
+        "Signals": "Muted Reaction | Flat +0.7%",
+        "CMP": 3531.1
+      },
+      {
+        "Date": "2026-05-14",
+        "Symbol": "TMPV",
+        "Signals": "Flat +0.6%",
+        "CMP": 338.75
+      },
+      {
+        "Date": "2026-05-14",
+        "Symbol": "UNITDSPR",
+        "Signals": "Flat +1.3%",
+        "CMP": 1272.5
+      },
+      {
+        "Date": "2026-05-14",
+        "Symbol": "VOLTAS",
+        "Signals": "Rally +2.7%",
+        "CMP": 1293.5
+      }
+    ]
   }
 ]
