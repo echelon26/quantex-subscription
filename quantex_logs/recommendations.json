@@ -10808,5 +10808,211 @@
         "cmp": 136.91
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-14",
+    "scan_time": "2026-05-14T10:30:50.611271",
+    "market_regime": {
+      "regime": "bearish",
+      "min_score": 75,
+      "label": "BEARISH (risk-off)",
+      "nifty_above_50dma": false,
+      "vix": 18.612499237060547
+    },
+    "min_score_threshold": 75,
+    "total_qualified": 5,
+    "sector_rankings": {
+      "SILVER_ETF": 1,
+      "GOLD_ETF": 2,
+      "METALS": 3,
+      "INFRA": 4,
+      "PHARMA": 5,
+      "ENERGY": 6,
+      "ELECTRICALS": 7,
+      "FMCG": 8,
+      "CHEMICALS": 9,
+      "INDEX_ETF": 10,
+      "BANKING": 11,
+      "FINANCE": 12,
+      "POWER": 13,
+      "CONSUMER": 14,
+      "DEFENCE": 15,
+      "AUTO": 16,
+      "REALTY": 17,
+      "RAILWAY": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "CIPLA",
+        "score": 80,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 10,
+          "Volume": 17,
+          "Price Action": 13,
+          "Relative Strength": 10,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 34 (Strong Trend)",
+          "MACD Bullish",
+          "Vol Surge 3.9x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 14,946,375)",
+          "High F&O Activity"
+        ],
+        "entry": 1435.0,
+        "sl": 1377.65,
+        "target1": 1549.7,
+        "target2": 1607.05,
+        "hold_period": "2-3 weeks",
+        "cmp": 1435.0,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 12.6
+      },
+      {
+        "symbol": "ZYDUSLIFE",
+        "score": 78,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 15,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 10,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 22 (Trending)",
+          "ADX Rising",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 4.8x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 10,443,600)",
+          "High F&O Activity"
+        ],
+        "entry": 993.0,
+        "sl": 954.29,
+        "target1": 1051.07,
+        "target2": 1089.78,
+        "hold_period": "2-3 weeks",
+        "cmp": 993.0,
+        "target3": 1096.53,
+        "target_method": "Fib 1.0 + Measured Move + Weekly R3 + Fib 1.272",
+        "est_days_to_t1": 14.4
+      },
+      {
+        "symbol": "IPCALAB",
+        "score": 77,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 17,
+          "Price Action": 9,
+          "Relative Strength": 10,
+          "Smart Money": 3,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 29 (Strong Trend)",
+          "RSI 64 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 2.2x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty"
+        ],
+        "entry": 1590.8,
+        "sl": 1515.77,
+        "target1": 1703.35,
+        "target2": 1758.79,
+        "hold_period": "2-3 weeks",
+        "cmp": 1590.8,
+        "target_method": "Weekly R1 + Resistance (4x) + 52W High + Fib 1.618",
+        "est_days_to_t1": 12.4
+      },
+      {
+        "symbol": "ADANIENT",
+        "score": 76,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 6,
+          "Volume": 17,
+          "Price Action": 13,
+          "Relative Strength": 10,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 44 (Strong Trend)",
+          "MACD Bullish",
+          "Vol Surge 3.2x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 19,569,279)",
+          "High F&O Activity"
+        ],
+        "entry": 2719.0,
+        "sl": 2582.07,
+        "target1": 2903.86,
+        "target2": 3088.71,
+        "hold_period": "5-8 days",
+        "cmp": 2719.0,
+        "target_method": "Weekly R3",
+        "est_days_to_t1": 7.8
+      },
+      {
+        "symbol": "TATACOMM",
+        "score": 75,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 17,
+          "Price Action": 13,
+          "Relative Strength": 8,
+          "Smart Money": 3,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 2.2x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty"
+        ],
+        "entry": 1669.0,
+        "sl": 1587.71,
+        "target1": 1790.93,
+        "target2": 1872.22,
+        "hold_period": "3-4 weeks",
+        "cmp": 1669.0,
+        "target3": 1836.74,
+        "target_method": "Weekly R3 + 52W High + Fib 1.618 + Fib 2.0",
+        "est_days_to_t1": 19.5
+      }
+    ]
   }
 ]

@@ -65,3 +65,37 @@ Qualified: 35 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-05-14 at 10:30 AM IST
+Regime: BEARISH (risk-off) | VIX: 18.61 | Min Score: 75
+Qualified: 5 stocks | Top 10 below
+============================================================
+
+1. CIPLA -- Score: 80/100
+   Entry: 1435.00 | SL: 1377.65 | T1: 1549.70 | T2: 1607.05 | RR: 1:2.0
+   Tr:20 Mo:10 Vo:17 PA:13 RS:10 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 34 (Strong Trend), MACD Bullish, Vol Surge 3.9x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 14,946,375), High F&O Activity
+
+2. ZYDUSLIFE -- Score: 78/100
+   Entry: 993.00 | SL: 954.29 | T1: 1051.07 | T2: 1089.78 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:17 PA:8 RS:10 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), ADX Rising, RSI 67 (Power Zone), MACD Bullish, Vol Surge 4.8x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 10,443,600), High F&O Activity
+
+3. IPCALAB -- Score: 77/100
+   Entry: 1590.80 | SL: 1515.77 | T1: 1703.35 | T2: 1758.79 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:17 PA:9 RS:10 SM:3 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 29 (Strong Trend), RSI 64 (Power Zone), MACD Fresh Crossover, Vol Surge 2.2x, Strong Delivery (Close near High), Near Breakout, Marubozu, Strong RS vs Nifty
+
+4. ADANIENT -- Score: 76/100
+   Entry: 2719.00 | SL: 2582.07 | T1: 2903.86 | T2: 3088.71 | RR: 1:1.4
+   Tr:20 Mo:6 Vo:17 PA:13 RS:10 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 44 (Strong Trend), MACD Bullish, Vol Surge 3.2x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 19,569,279), High F&O Activity
+
+5. TATACOMM -- Score: 75/100
+   Entry: 1669.00 | SL: 1587.71 | T1: 1790.93 | T2: 1872.22 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:17 PA:13 RS:8 SM:3 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Fresh Crossover, Vol Surge 2.2x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty
+
+
+────────────────────────────────────────────────────────────
+
