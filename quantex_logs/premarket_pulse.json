@@ -538,5 +538,31 @@
       "JSWENERGY"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-13.pdf"
+  },
+  {
+    "date": "Thu, 14 May 2026",
+    "fear_greed": 35.7,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Fear",
+    "gift_nifty": 23412.6,
+    "nifty": 23412.6,
+    "sensex": 74608.98,
+    "bank_nifty": 53456.15,
+    "vix": 19.43,
+    "top_gainers": [
+      "SAIL",
+      "DIXON",
+      "IDEA",
+      "IFCI",
+      "VEDL"
+    ],
+    "top_losers": [
+      "PINELABS",
+      "TORNTPOWER",
+      "ECLERX",
+      "COHANCE",
+      "SUNTV"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-14.pdf"
   }
 ]
