@@ -10495,5 +10495,318 @@
       "REALTY": 19
     },
     "top_10": []
+  },
+  {
+    "scan_date": "2026-05-14",
+    "scan_time": "2026-05-14T04:35:35.919742",
+    "total_qualified": 35,
+    "sector_rankings": {
+      "SILVER_ETF": 1,
+      "GOLD_ETF": 2,
+      "METALS": 3,
+      "INFRA": 4,
+      "PHARMA": 5,
+      "ENERGY": 6,
+      "FMCG": 7,
+      "CHEMICALS": 8,
+      "ELECTRICALS": 9,
+      "INDEX_ETF": 10,
+      "BANKING": 11,
+      "POWER": 12,
+      "DEFENCE": 13,
+      "FINANCE": 14,
+      "CONSUMER": 15,
+      "RAILWAY": 16,
+      "AUTO": 17,
+      "IT": 18,
+      "REALTY": 19
+    },
+    "top_10": [
+      {
+        "symbol": "CIPLA",
+        "score": 89,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 18,
+          "Price Action": 10,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "Vol Above Avg 1.7x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 14,166,375)",
+          "High F&O Activity"
+        ],
+        "entry": 1417.7,
+        "sl": 1361.41,
+        "target1": 1530.28,
+        "target2": 1586.57,
+        "hold_period": "1-2 weeks",
+        "cmp": 1417.7
+      },
+      {
+        "symbol": "ZYDUSLIFE",
+        "score": 89,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 18,
+          "Price Action": 10,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "Vol Above Avg 1.9x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 10,344,600)",
+          "High F&O Activity"
+        ],
+        "entry": 981.75,
+        "sl": 944.38,
+        "target1": 1056.49,
+        "target2": 1093.87,
+        "hold_period": "1-2 weeks",
+        "cmp": 981.75
+      },
+      {
+        "symbol": "ADANIENT",
+        "score": 86,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 15,
+          "Price Action": 15,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 19,493,883)",
+          "High F&O Activity"
+        ],
+        "entry": 2638.3,
+        "sl": 2509.15,
+        "target1": 2896.6,
+        "target2": 3025.75,
+        "hold_period": "1-2 weeks",
+        "cmp": 2638.3
+      },
+      {
+        "symbol": "NLCINDIA",
+        "score": 80,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 15,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend FLIP Bullish",
+          "MACD Fresh Crossover",
+          "Vol Surge 3.2x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 363.65,
+        "sl": 345.47,
+        "target1": 400.01,
+        "target2": 418.2,
+        "hold_period": "1-2 weeks",
+        "cmp": 363.65
+      },
+      {
+        "symbol": "TATASTEEL",
+        "score": 75,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 0,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: METALS",
+          "Long Buildup (OI: 169,138,750)",
+          "High F&O Activity"
+        ],
+        "entry": 221.1,
+        "sl": 213.76,
+        "target1": 235.77,
+        "target2": 243.11,
+        "hold_period": "1-2 weeks",
+        "cmp": 221.1
+      },
+      {
+        "symbol": "GOLDETF",
+        "score": 75,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 15,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 70 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Sector Top 3: GOLD_ETF",
+          "Consistent Buying"
+        ],
+        "entry": 155.59,
+        "sl": 150.42,
+        "target1": 165.94,
+        "target2": 171.11,
+        "hold_period": "1-2 weeks",
+        "cmp": 155.59
+      },
+      {
+        "symbol": "HINDALCO",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: METALS",
+          "Long Buildup (OI: 29,139,600)",
+          "High F&O Activity"
+        ],
+        "entry": 1092.9,
+        "sl": 1051.06,
+        "target1": 1176.58,
+        "target2": 1218.42,
+        "hold_period": "1-2 weeks",
+        "cmp": 1092.9
+      },
+      {
+        "symbol": "GOLDBEES",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend FLIP Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: GOLD_ETF",
+          "Institutional Accumulation"
+        ],
+        "entry": 132.61,
+        "sl": 128.8,
+        "target1": 140.23,
+        "target2": 144.04,
+        "hold_period": "3-7 days",
+        "cmp": 132.61
+      },
+      {
+        "symbol": "HINDCOPPER",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 0,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: METALS",
+          "Institutional Accumulation"
+        ],
+        "entry": 608.05,
+        "sl": 577.65,
+        "target1": 668.86,
+        "target2": 699.26,
+        "hold_period": "1-2 weeks",
+        "cmp": 608.05
+      },
+      {
+        "symbol": "HDFCGOLD",
+        "score": 70,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend FLIP Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: GOLD_ETF",
+          "Consistent Buying"
+        ],
+        "entry": 136.91,
+        "sl": 132.59,
+        "target1": 145.55,
+        "target2": 149.87,
+        "hold_period": "1-2 weeks",
+        "cmp": 136.91
+      }
+    ]
   }
 ]

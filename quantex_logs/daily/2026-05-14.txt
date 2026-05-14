@@ -7,3 +7,61 @@ Qualified: 0 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-05-14 at 04:35 AM IST
+Qualified: 35 stocks | Top 10 below
+============================================================
+
+1. CIPLA — Score: 89/100
+   Entry: 1417.70 | SL: 1361.41 | T1: 1530.28 | T2: 1586.57 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:18 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 69 (Power Zone), MACD Bullish, Vol Above Avg 1.7x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 14,166,375), High F&O Activity
+
+2. ZYDUSLIFE — Score: 89/100
+   Entry: 981.75 | SL: 944.38 | T1: 1056.49 | T2: 1093.87 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:18 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 65 (Power Zone), MACD Bullish, Vol Above Avg 1.9x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 10,344,600), High F&O Activity
+
+3. ADANIENT — Score: 86/100
+   Entry: 2638.30 | SL: 2509.15 | T1: 2896.60 | T2: 3025.75 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:15 PA:15 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 19,493,883), High F&O Activity
+
+4. NLCINDIA — Score: 80/100
+   Entry: 363.65 | SL: 345.47 | T1: 400.01 | T2: 418.20 | RR: 1:2.0
+   Trend:20 Mom:15 Vol:15 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, MACD Fresh Crossover, Vol Surge 3.2x, 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+5. TATASTEEL — Score: 75/100
+   Entry: 221.10 | SL: 213.76 | T1: 235.77 | T2: 243.11 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:0 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: METALS, Long Buildup (OI: 169,138,750), High F&O Activity
+
+6. GOLDETF — Score: 75/100
+   Entry: 155.59 | SL: 150.42 | T1: 165.94 | T2: 171.11 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:15 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 70 (Power Zone), MACD Bullish, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: GOLD_ETF, Consistent Buying
+
+7. HINDALCO — Score: 73/100
+   Entry: 1092.90 | SL: 1051.06 | T1: 1176.58 | T2: 1218.42 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: METALS, Long Buildup (OI: 29,139,600), High F&O Activity
+
+8. GOLDBEES — Score: 73/100
+   Entry: 132.61 | SL: 128.80 | T1: 140.23 | T2: 144.04 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:15 SM:10
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, RSI 69 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: GOLD_ETF, Institutional Accumulation
+
+9. HINDCOPPER — Score: 73/100
+   Entry: 608.05 | SL: 577.65 | T1: 668.86 | T2: 699.26 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:0 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: METALS, Institutional Accumulation
+
+10. HDFCGOLD — Score: 70/100
+   Entry: 136.91 | SL: 132.59 | T1: 145.55 | T2: 149.87 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, RSI 69 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: GOLD_ETF, Consistent Buying
+
+
+────────────────────────────────────────────────────────────
+
