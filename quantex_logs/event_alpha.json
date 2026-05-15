@@ -1474,5 +1474,85 @@
         "CMP": 1293.5
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-15",
+    "scan_time": "2026-05-15T13:37:41.689620",
+    "stocks_scanned": 504,
+    "results_found": 12,
+    "results": [
+      {
+        "Date": "2026-05-15",
+        "Symbol": "DEEPAKNTR",
+        "Signals": "Muted Reaction | Flat -0.7%",
+        "CMP": 1826.4
+      },
+      {
+        "Date": "2026-05-15",
+        "Symbol": "DEVYANI",
+        "Signals": "Flat +0.0% | Vol Surge 2.2x",
+        "CMP": 118.08
+      },
+      {
+        "Date": "2026-05-15",
+        "Symbol": "GLAND",
+        "Signals": "Flat -1.6%",
+        "CMP": 1868.3
+      },
+      {
+        "Date": "2026-05-15",
+        "Symbol": "GODREJIND",
+        "Signals": "Flat -1.6%",
+        "CMP": 1135.05
+      },
+      {
+        "Date": "2026-05-15",
+        "Symbol": "KIMS",
+        "Signals": "Flat -1.5%",
+        "CMP": 761.65
+      },
+      {
+        "Date": "2026-05-15",
+        "Symbol": "NCC",
+        "Signals": "Muted Reaction | Flat -0.9%",
+        "CMP": 160.68
+      },
+      {
+        "Date": "2026-05-15",
+        "Symbol": "NHPC",
+        "Signals": "Selloff -2.1%",
+        "CMP": 76.79
+      },
+      {
+        "Date": "2026-05-15",
+        "Symbol": "POWERGRID",
+        "Signals": "Gap Up +2.0% | Flat +1.4%",
+        "CMP": 305.85
+      },
+      {
+        "Date": "2026-05-15",
+        "Symbol": "SOLARINDS",
+        "Signals": "Bullish Reaction | Rally +3.9% | Vol Explosion 3.6x",
+        "CMP": 17314.0
+      },
+      {
+        "Date": "2026-05-15",
+        "Symbol": "SAIL",
+        "Signals": "Selloff -3.4%",
+        "CMP": 192.4
+      },
+      {
+        "Date": "2026-05-15",
+        "Symbol": "TATASTEEL",
+        "Signals": "Flat -1.9%",
+        "CMP": 216.84
+      },
+      {
+        "Date": "2026-05-14",
+        "Symbol": "UNITDSPR",
+        "Signals": "Flat +1.3%",
+        "CMP": 1320.7
+      }
+    ]
   }
 ]
