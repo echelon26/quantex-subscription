@@ -11049,5 +11049,305 @@
       "IT": 19
     },
     "top_10": []
+  },
+  {
+    "scan_date": "2026-05-15",
+    "scan_time": "2026-05-15T04:35:31.807220",
+    "total_qualified": 32,
+    "sector_rankings": {
+      "SILVER_ETF": 1,
+      "GOLD_ETF": 2,
+      "PHARMA": 3,
+      "METALS": 4,
+      "INFRA": 5,
+      "ELECTRICALS": 6,
+      "ENERGY": 7,
+      "BANKING": 8,
+      "FMCG": 9,
+      "INDEX_ETF": 10,
+      "CHEMICALS": 11,
+      "CONSUMER": 12,
+      "FINANCE": 13,
+      "AUTO": 14,
+      "POWER": 15,
+      "REALTY": 16,
+      "RAILWAY": 17,
+      "DEFENCE": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "TATACOMM",
+        "score": 75,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 1697.0,
+        "sl": 1616.98,
+        "target1": 1857.04,
+        "target2": 1937.07,
+        "hold_period": "1-2 weeks",
+        "cmp": 1697.0
+      },
+      {
+        "symbol": "ZYDUSLIFE",
+        "score": 73,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 10,418,400)",
+          "High F&O Activity"
+        ],
+        "entry": 1007.15,
+        "sl": 969.49,
+        "target1": 1082.47,
+        "target2": 1120.13,
+        "hold_period": "1-2 weeks",
+        "cmp": 1007.15
+      },
+      {
+        "symbol": "DRREDDY",
+        "score": 70,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 0,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 58 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 21,455,625)",
+          "High F&O Activity"
+        ],
+        "entry": 1323.2,
+        "sl": 1265.81,
+        "target1": 1437.98,
+        "target2": 1495.37,
+        "hold_period": "1-2 weeks",
+        "cmp": 1323.2
+      },
+      {
+        "symbol": "GOLDETF",
+        "score": 70,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: GOLD_ETF",
+          "Consistent Buying"
+        ],
+        "entry": 153.49,
+        "sl": 148.46,
+        "target1": 163.56,
+        "target2": 168.59,
+        "hold_period": "1-2 weeks",
+        "cmp": 153.49
+      },
+      {
+        "symbol": "GNFC",
+        "score": 70,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 527.15,
+        "sl": 502.89,
+        "target1": 575.68,
+        "target2": 599.94,
+        "hold_period": "1-2 weeks",
+        "cmp": 527.15
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "score": 68,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 22,612,100)",
+          "High F&O Activity"
+        ],
+        "entry": 1879.8,
+        "sl": 1820.0,
+        "target1": 1999.4,
+        "target2": 2059.2,
+        "hold_period": "1-2 weeks",
+        "cmp": 1879.8
+      },
+      {
+        "symbol": "BIOCON",
+        "score": 68,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 8,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 35,022,500)",
+          "High F&O Activity"
+        ],
+        "entry": 426.8,
+        "sl": 409.13,
+        "target1": 462.14,
+        "target2": 479.81,
+        "hold_period": "1-2 weeks",
+        "cmp": 426.8
+      },
+      {
+        "symbol": "IPCALAB",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA"
+        ],
+        "entry": 1603.1,
+        "sl": 1528.05,
+        "target1": 1753.21,
+        "target2": 1828.26,
+        "hold_period": "1-2 weeks",
+        "cmp": 1603.1
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "score": 66,
+        "breakdown": {
+          "Trend": 11,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "RSI 61 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 53,320,175)",
+          "High F&O Activity"
+        ],
+        "entry": 1918.7,
+        "sl": 1849.52,
+        "target1": 2057.06,
+        "target2": 2126.24,
+        "hold_period": "1-2 weeks",
+        "cmp": 1918.7
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "score": 66,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 13,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 21,833,375)",
+          "High F&O Activity"
+        ],
+        "entry": 1802.6,
+        "sl": 1723.06,
+        "target1": 1961.68,
+        "target2": 2041.22,
+        "hold_period": "1-2 weeks",
+        "cmp": 1802.6
+      }
+    ]
   }
 ]

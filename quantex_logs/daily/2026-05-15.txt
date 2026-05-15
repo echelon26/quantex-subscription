@@ -7,3 +7,61 @@ Qualified: 0 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-05-15 at 04:35 AM IST
+Qualified: 32 stocks | Top 10 below
+============================================================
+
+1. TATACOMM — Score: 75/100
+   Entry: 1697.00 | SL: 1616.98 | T1: 1857.04 | T2: 1937.07 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:15 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 68 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Institutional Accumulation
+
+2. ZYDUSLIFE — Score: 73/100
+   Entry: 1007.15 | SL: 969.49 | T1: 1082.47 | T2: 1120.13 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 69 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 10,418,400), High F&O Activity
+
+3. DRREDDY — Score: 70/100
+   Entry: 1323.20 | SL: 1265.81 | T1: 1437.98 | T2: 1495.37 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:0 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 58 (Power Zone), MACD Fresh Crossover, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 21,455,625), High F&O Activity
+
+4. GOLDETF — Score: 70/100
+   Entry: 153.49 | SL: 148.46 | T1: 163.56 | T2: 168.59 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 65 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: GOLD_ETF, Consistent Buying
+
+5. GNFC — Score: 70/100
+   Entry: 527.15 | SL: 502.89 | T1: 575.68 | T2: 599.94 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 69 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+6. SUNPHARMA — Score: 68/100
+   Entry: 1879.80 | SL: 1820.00 | T1: 1999.40 | T2: 2059.20 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 65 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 22,612,100), High F&O Activity
+
+7. BIOCON — Score: 68/100
+   Entry: 426.80 | SL: 409.13 | T1: 462.14 | T2: 479.81 | RR: 1:2.0
+   Trend:15 Mom:8 Vol:5 PA:15 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, MACD Bullish, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 35,022,500), High F&O Activity
+
+8. IPCALAB — Score: 68/100
+   Entry: 1603.10 | SL: 1528.05 | T1: 1753.21 | T2: 1828.26 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:5 RS:15 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA
+
+9. BHARTIARTL — Score: 66/100
+   Entry: 1918.70 | SL: 1849.52 | T1: 2057.06 | T2: 2126.24 | RR: 1:2.0
+   Trend:11 Mom:20 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: RSI 61 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 53,320,175), High F&O Activity
+
+10. ADANIPORTS — Score: 66/100
+   Entry: 1802.60 | SL: 1723.06 | T1: 1961.68 | T2: 2041.22 | RR: 1:2.0
+   Trend:15 Mom:13 Vol:5 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 21,833,375), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
