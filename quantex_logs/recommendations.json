@@ -11419,5 +11419,299 @@
       "DEFENCE": 19
     },
     "top_10": []
+  },
+  {
+    "scan_date": "2026-05-18",
+    "scan_time": "2026-05-18T04:35:34.899339",
+    "total_qualified": 17,
+    "sector_rankings": {
+      "PHARMA": 1,
+      "INFRA": 2,
+      "GOLD_ETF": 3,
+      "ELECTRICALS": 4,
+      "SILVER_ETF": 5,
+      "METALS": 6,
+      "FMCG": 7,
+      "CONSUMER": 8,
+      "INDEX_ETF": 9,
+      "FINANCE": 10,
+      "BANKING": 11,
+      "IT": 12,
+      "ENERGY": 13,
+      "AUTO": 14,
+      "RAILWAY": 15,
+      "REALTY": 16,
+      "POWER": 17,
+      "CHEMICALS": 18,
+      "DEFENCE": 19
+    },
+    "top_10": [
+      {
+        "symbol": "SUNPHARMA",
+        "score": 68,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 22,387,050)",
+          "High F&O Activity"
+        ],
+        "entry": 1878.6,
+        "sl": 1820.0,
+        "target1": 1995.8,
+        "target2": 2054.4,
+        "hold_period": "1-2 weeks",
+        "cmp": 1878.6
+      },
+      {
+        "symbol": "AXISGOLD",
+        "score": 67,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 10,
+          "Price Action": 0,
+          "Relative Strength": 15,
+          "Smart Money": 4
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 59 (Power Zone)",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "Strong RS vs Nifty",
+          "Sector Top 3: GOLD_ETF",
+          "Consistent Buying"
+        ],
+        "entry": 130.03,
+        "sl": 124.08,
+        "target1": 141.93,
+        "target2": 147.88,
+        "hold_period": "1-2 weeks",
+        "cmp": 130.03
+      },
+      {
+        "symbol": "CARBORUNIV",
+        "score": 66,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 8,
+          "Volume": 13,
+          "Price Action": 10,
+          "Relative Strength": 13,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "MACD Bullish",
+          "Vol Above Avg 2.0x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 1140.85,
+        "sl": 1083.81,
+        "target1": 1254.93,
+        "target2": 1311.98,
+        "hold_period": "1-2 weeks",
+        "cmp": 1140.85
+      },
+      {
+        "symbol": "CIPLA",
+        "score": 63,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 0,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 5
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "High F&O Activity"
+        ],
+        "entry": 1415.7,
+        "sl": 1362.31,
+        "target1": 1522.48,
+        "target2": 1575.87,
+        "hold_period": "1-2 weeks",
+        "cmp": 1415.7
+      },
+      {
+        "symbol": "IPCALAB",
+        "score": 62,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 0,
+          "Relative Strength": 15,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Consistent Buying"
+        ],
+        "entry": 1618.9,
+        "sl": 1543.28,
+        "target1": 1770.15,
+        "target2": 1845.77,
+        "hold_period": "1-2 weeks",
+        "cmp": 1618.9
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "score": 61,
+        "breakdown": {
+          "Trend": 11,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "RSI 61 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 48,498,925)",
+          "High F&O Activity"
+        ],
+        "entry": 1913.2,
+        "sl": 1846.02,
+        "target1": 2047.56,
+        "target2": 2114.74,
+        "hold_period": "1-2 weeks",
+        "cmp": 1913.2
+      },
+      {
+        "symbol": "SETFGOLD",
+        "score": 61,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 0,
+          "Relative Strength": 15,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 60 (Power Zone)",
+          "MACD Bullish",
+          "Strong RS vs Nifty",
+          "Sector Top 3: GOLD_ETF"
+        ],
+        "entry": 133.28,
+        "sl": 128.37,
+        "target1": 143.1,
+        "target2": 148.01,
+        "hold_period": "1-2 weeks",
+        "cmp": 133.28
+      },
+      {
+        "symbol": "HDFCGOLD",
+        "score": 61,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 0,
+          "Relative Strength": 15,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 60 (Power Zone)",
+          "MACD Bullish",
+          "Strong RS vs Nifty",
+          "Sector Top 3: GOLD_ETF"
+        ],
+        "entry": 133.57,
+        "sl": 129.37,
+        "target1": 141.96,
+        "target2": 146.16,
+        "hold_period": "1-2 weeks",
+        "cmp": 133.57
+      },
+      {
+        "symbol": "QGOLDHALF",
+        "score": 61,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 0,
+          "Relative Strength": 15,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 60 (Power Zone)",
+          "MACD Bullish",
+          "Strong RS vs Nifty",
+          "Sector Top 3: GOLD_ETF"
+        ],
+        "entry": 129.6,
+        "sl": 124.42,
+        "target1": 139.96,
+        "target2": 145.14,
+        "hold_period": "1-2 weeks",
+        "cmp": 129.6
+      },
+      {
+        "symbol": "TATAGOLD",
+        "score": 61,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 0,
+          "Relative Strength": 15,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 61 (Power Zone)",
+          "MACD Bullish",
+          "Strong RS vs Nifty",
+          "Sector Top 3: GOLD_ETF"
+        ],
+        "entry": 15.18,
+        "sl": 14.58,
+        "target1": 16.38,
+        "target2": 16.98,
+        "hold_period": "1-2 weeks",
+        "cmp": 15.18
+      }
+    ]
   }
 ]

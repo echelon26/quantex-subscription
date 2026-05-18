@@ -7,3 +7,61 @@ Qualified: 0 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-05-18 at 04:35 AM IST
+Qualified: 17 stocks | Top 10 below
+============================================================
+
+1. SUNPHARMA — Score: 68/100
+   Entry: 1878.60 | SL: 1820.00 | T1: 1995.80 | T2: 2054.40 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 65 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 22,387,050), High F&O Activity
+
+2. AXISGOLD — Score: 67/100
+   Entry: 130.03 | SL: 124.08 | T1: 141.93 | T2: 147.88 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:10 PA:0 RS:15 SM:4
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 59 (Power Zone), MACD Bullish, Strong Delivery (Close near High), Strong RS vs Nifty, Sector Top 3: GOLD_ETF, Consistent Buying
+
+3. CARBORUNIV — Score: 66/100
+   Entry: 1140.85 | SL: 1083.81 | T1: 1254.93 | T2: 1311.98 | RR: 1:2.0
+   Trend:15 Mom:8 Vol:13 PA:10 RS:13 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, MACD Bullish, Vol Above Avg 2.0x, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+4. CIPLA — Score: 63/100
+   Entry: 1415.70 | SL: 1362.31 | T1: 1522.48 | T2: 1575.87 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:0 PA:5 RS:15 SM:5
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, High F&O Activity
+
+5. IPCALAB — Score: 62/100
+   Entry: 1618.90 | SL: 1543.28 | T1: 1770.15 | T2: 1845.77 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:0 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 68 (Power Zone), MACD Fresh Crossover, Strong RS vs Nifty, Sector Top 3: PHARMA, Consistent Buying
+
+6. BHARTIARTL — Score: 61/100
+   Entry: 1913.20 | SL: 1846.02 | T1: 2047.56 | T2: 2114.74 | RR: 1:2.0
+   Trend:11 Mom:20 Vol:5 PA:5 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: RSI 61 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 48,498,925), High F&O Activity
+
+7. SETFGOLD — Score: 61/100
+   Entry: 133.28 | SL: 128.37 | T1: 143.10 | T2: 148.01 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:0 RS:15 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 60 (Power Zone), MACD Bullish, Strong RS vs Nifty, Sector Top 3: GOLD_ETF
+
+8. HDFCGOLD — Score: 61/100
+   Entry: 133.57 | SL: 129.37 | T1: 141.96 | T2: 146.16 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:0 RS:15 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 60 (Power Zone), MACD Bullish, Strong RS vs Nifty, Sector Top 3: GOLD_ETF
+
+9. QGOLDHALF — Score: 61/100
+   Entry: 129.60 | SL: 124.42 | T1: 139.96 | T2: 145.14 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:0 RS:15 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 60 (Power Zone), MACD Bullish, Strong RS vs Nifty, Sector Top 3: GOLD_ETF
+
+10. TATAGOLD — Score: 61/100
+   Entry: 15.18 | SL: 14.58 | T1: 16.38 | T2: 16.98 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:0 RS:15 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Bullish, Strong RS vs Nifty, Sector Top 3: GOLD_ETF
+
+
+────────────────────────────────────────────────────────────
+
