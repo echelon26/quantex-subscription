@@ -590,5 +590,31 @@
       "TIINDIA"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-15.pdf"
+  },
+  {
+    "date": "Mon, 18 May 2026",
+    "fear_greed": 43.9,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23643.5,
+    "nifty": 23643.5,
+    "sensex": 75237.99,
+    "bank_nifty": 53710.35,
+    "vix": 18.79,
+    "top_gainers": [
+      "JPPOWER",
+      "KIRLOSENG",
+      "SAREGAMA",
+      "CARBORUNIV",
+      "CHAMBLFERT"
+    ],
+    "top_losers": [
+      "NAVA",
+      "HUDCO",
+      "CLEAN",
+      "MUTHOOTFIN",
+      "HINDCOPPER"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-18.pdf"
   }
 ]
