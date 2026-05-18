@@ -1554,5 +1554,37 @@
         "CMP": 1320.7
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-18",
+    "scan_time": "2026-05-18T13:39:22.462496",
+    "stocks_scanned": 504,
+    "results_found": 4,
+    "results": [
+      {
+        "Date": "2026-05-18",
+        "Symbol": "ASTRAL",
+        "Signals": "Muted Reaction | Flat -0.3%",
+        "CMP": 1545.7
+      },
+      {
+        "Date": "2026-05-18",
+        "Symbol": "IOC",
+        "Signals": "Flat -2.0%",
+        "CMP": 131.81
+      },
+      {
+        "Date": "2026-05-18",
+        "Symbol": "IGL",
+        "Signals": "Muted Reaction | Flat -0.3%",
+        "CMP": 151.64
+      },
+      {
+        "Date": "2026-05-18",
+        "Symbol": "TIMKEN",
+        "Signals": "Selloff -2.7%",
+        "CMP": 3435.0
+      }
+    ]
   }
 ]
