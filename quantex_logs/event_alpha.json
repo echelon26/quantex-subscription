@@ -1586,5 +1586,43 @@
         "CMP": 3435.0
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-19",
+    "scan_time": "2026-05-19T13:36:46.394925",
+    "stocks_scanned": 504,
+    "results_found": 5,
+    "results": [
+      {
+        "Date": "2026-05-19",
+        "Symbol": "BEL",
+        "Signals": "Muted Reaction | Flat -0.9%",
+        "CMP": 422.95
+      },
+      {
+        "Date": "2026-05-19",
+        "Symbol": "BPCL",
+        "Signals": "Rally +2.0%",
+        "CMP": 286.45
+      },
+      {
+        "Date": "2026-05-19",
+        "Symbol": "MANKIND",
+        "Signals": "Muted Reaction | Flat -0.1%",
+        "CMP": 2492.6
+      },
+      {
+        "Date": "2026-05-19",
+        "Symbol": "PIIND",
+        "Signals": "Flat +0.9%",
+        "CMP": 3124.6
+      },
+      {
+        "Date": "2026-05-19",
+        "Symbol": "ZEEL",
+        "Signals": "Rally +3.7%",
+        "CMP": 87.68
+      }
+    ]
   }
 ]
