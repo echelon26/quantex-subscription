@@ -7,3 +7,61 @@ Qualified: 0 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-05-19 at 04:35 AM IST
+Qualified: 28 stocks | Top 10 below
+============================================================
+
+1. COFORGE — Score: 78/100
+   Entry: 1412.70 | SL: 1342.07 | T1: 1553.97 | T2: 1624.61 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Long Buildup (OI: 16,177,500), High F&O Activity
+
+2. PIIND — Score: 75/100
+   Entry: 3148.80 | SL: 3024.38 | T1: 3397.64 | T2: 3522.06 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 60 (Power Zone), MACD Fresh Crossover, Near Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 2,583,525), High F&O Activity
+
+3. SUNPHARMA — Score: 73/100
+   Entry: 1907.50 | SL: 1844.06 | T1: 2034.38 | T2: 2097.82 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 22,413,300), High F&O Activity
+
+4. POLICYBZR — Score: 73/100
+   Entry: 1805.90 | SL: 1716.60 | T1: 1984.51 | T2: 2073.81 | RR: 1:2.0
+   Trend:20 Mom:15 Vol:5 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 7,329,000), High F&O Activity
+
+5. AJANTPHARM — Score: 70/100
+   Entry: 3229.90 | SL: 3096.30 | T1: 3497.10 | T2: 3630.70 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 69 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Consistent Buying
+
+6. JBCHEPHARM — Score: 70/100
+   Entry: 2167.10 | SL: 2083.71 | T1: 2333.89 | T2: 2417.28 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Bullish, Morning Star, Strong RS vs Nifty, Sector Top 3: PHARMA, Consistent Buying
+
+7. GNFC — Score: 70/100
+   Entry: 542.85 | SL: 516.49 | T1: 595.57 | T2: 621.93 | RR: 1:2.0
+   Trend:15 Mom:13 Vol:15 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, MACD Bullish, Vol Surge 5.5x, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+8. ADANIPORTS — Score: 68/100
+   Entry: 1795.70 | SL: 1719.54 | T1: 1948.02 | T2: 2024.19 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 69 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: INFRA, Long Buildup (OI: 21,965,425), High F&O Activity
+
+9. DIVISLAB — Score: 68/100
+   Entry: 6921.00 | SL: 6702.17 | T1: 7358.66 | T2: 7577.49 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 70 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 2,076,200), High F&O Activity
+
+10. MARICO — Score: 68/100
+   Entry: 840.90 | SL: 825.20 | T1: 872.30 | T2: 888.00 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:10 RS:10 SM:10
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, RSI 69 (Power Zone), MACD Bullish, Near Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 18,213,600), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
