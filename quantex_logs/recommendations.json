@@ -12091,5 +12091,75 @@
         "cmp": 840.9
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-19",
+    "scan_time": "2026-05-19T10:30:57.290061",
+    "market_regime": {
+      "regime": "bearish",
+      "min_score": 75,
+      "label": "BEARISH (risk-off)",
+      "nifty_above_50dma": false,
+      "vix": 18.674999237060547
+    },
+    "min_score_threshold": 75,
+    "total_qualified": 1,
+    "sector_rankings": {
+      "PHARMA": 1,
+      "IT": 2,
+      "INFRA": 3,
+      "FINANCE": 4,
+      "ELECTRICALS": 5,
+      "INDEX_ETF": 6,
+      "POWER": 7,
+      "REALTY": 8,
+      "BANKING": 9,
+      "GOLD_ETF": 10,
+      "CONSUMER": 11,
+      "FMCG": 12,
+      "AUTO": 13,
+      "CHEMICALS": 14,
+      "ENERGY": 15,
+      "METALS": 16,
+      "DEFENCE": 17,
+      "RAILWAY": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "TRITURBINE",
+        "score": 81,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 17,
+          "Price Action": 13,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 37 (Strong Trend)",
+          "ADX Rising",
+          "MACD Fresh Crossover",
+          "Vol Surge 8.8x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 646.0,
+        "sl": 601.66,
+        "target1": 734.68,
+        "target2": 779.02,
+        "hold_period": "1-2 weeks",
+        "cmp": 646.0,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 10.2
+      }
+    ]
   }
 ]
