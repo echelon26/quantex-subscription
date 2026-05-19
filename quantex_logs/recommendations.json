@@ -11748,5 +11748,40 @@
       "CHEMICALS": 19
     },
     "top_10": []
+  },
+  {
+    "scan_date": "2026-05-19",
+    "scan_time": "2026-05-19T04:30:54.790439",
+    "market_regime": {
+      "regime": "bearish",
+      "min_score": 75,
+      "label": "BEARISH (risk-off)",
+      "nifty_above_50dma": false,
+      "vix": 18.917499542236328
+    },
+    "min_score_threshold": 75,
+    "total_qualified": 0,
+    "sector_rankings": {
+      "PHARMA": 1,
+      "IT": 2,
+      "INFRA": 3,
+      "FINANCE": 4,
+      "ELECTRICALS": 5,
+      "INDEX_ETF": 6,
+      "FMCG": 7,
+      "BANKING": 8,
+      "CONSUMER": 9,
+      "POWER": 10,
+      "CHEMICALS": 11,
+      "REALTY": 12,
+      "GOLD_ETF": 13,
+      "AUTO": 14,
+      "ENERGY": 15,
+      "METALS": 16,
+      "RAILWAY": 17,
+      "DEFENCE": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": []
   }
 ]
