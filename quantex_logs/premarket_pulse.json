@@ -616,5 +616,31 @@
       "HINDCOPPER"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-18.pdf"
+  },
+  {
+    "date": "Tue, 19 May 2026",
+    "fear_greed": 41.5,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23649.95,
+    "nifty": 23649.95,
+    "sensex": 75315.04,
+    "bank_nifty": 53537.0,
+    "vix": 19.63,
+    "top_gainers": [
+      "GLAND",
+      "GESHIP",
+      "COFORGE",
+      "PERSISTENT",
+      "OFSS"
+    ],
+    "top_losers": [
+      "JAINREC",
+      "AMBER",
+      "KEC",
+      "HSCL",
+      "GALLANTT"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-19.pdf"
   }
 ]
