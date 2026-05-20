@@ -7,3 +7,61 @@ Qualified: 0 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-05-20 at 04:35 AM IST
+Qualified: 21 stocks | Top 10 below
+============================================================
+
+1. MOGSEC — Score: 85/100
+   Entry: 65.52 | SL: 63.93 | T1: 68.70 | T2: 70.29 | RR: 1:2.0
+   Trend:20 Mom:15 Vol:15 PA:15 RS:10 SM:10
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Institutional Accumulation
+
+2. ZYDUSLIFE — Score: 83/100
+   Entry: 1078.00 | SL: 1030.98 | T1: 1172.03 | T2: 1219.05 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:15 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, Vol Surge 3.9x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 10,670,400), High F&O Activity
+
+3. TRITURBINE — Score: 75/100
+   Entry: 654.70 | SL: 621.97 | T1: 720.17 | T2: 752.91 | RR: 1:2.0
+   Trend:20 Mom:15 Vol:18 PA:5 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Fresh Crossover, Vol Above Avg 1.5x, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Consistent Buying
+
+4. SUNPHARMA — Score: 73/100
+   Entry: 1884.60 | SL: 1829.70 | T1: 1994.40 | T2: 2049.30 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:15 SM:10
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 63 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 21,905,800), High F&O Activity
+
+5. AUROPHARMA — Score: 73/100
+   Entry: 1533.00 | SL: 1491.60 | T1: 1615.80 | T2: 1657.20 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:10 RS:15 SM:10
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 12,462,450), High F&O Activity
+
+6. TATATECH — Score: 70/100
+   Entry: 674.45 | SL: 642.48 | T1: 738.38 | T2: 770.35 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:10 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Consistent Buying
+
+7. MANAPPURAM — Score: 70/100
+   Entry: 315.50 | SL: 299.74 | T1: 347.03 | T2: 362.79 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 64 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 53,526,000), High F&O Activity
+
+8. POLICYBZR — Score: 70/100
+   Entry: 1808.60 | SL: 1718.17 | T1: 1989.46 | T2: 2079.89 | RR: 1:2.0
+   Trend:20 Mom:15 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 7,355,600), High F&O Activity
+
+9. DIVISLAB — Score: 68/100
+   Entry: 6933.00 | SL: 6722.49 | T1: 7354.03 | T2: 7564.54 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 2,069,900), High F&O Activity
+
+10. HINDALCO — Score: 68/100
+   Entry: 1084.00 | SL: 1039.08 | T1: 1173.83 | T2: 1218.75 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 60 (Power Zone), Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Long Buildup (OI: 27,559,700), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
