@@ -12161,5 +12161,40 @@
         "est_days_to_t1": 10.2
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-20",
+    "scan_time": "2026-05-20T04:30:52.318703",
+    "market_regime": {
+      "regime": "bearish",
+      "min_score": 75,
+      "label": "BEARISH (risk-off)",
+      "nifty_above_50dma": false,
+      "vix": 19.207500457763672
+    },
+    "min_score_threshold": 75,
+    "total_qualified": 0,
+    "sector_rankings": {
+      "IT": 1,
+      "PHARMA": 2,
+      "FINANCE": 3,
+      "ELECTRICALS": 4,
+      "INFRA": 5,
+      "POWER": 6,
+      "FMCG": 7,
+      "INDEX_ETF": 8,
+      "GOLD_ETF": 9,
+      "AUTO": 10,
+      "CONSUMER": 11,
+      "REALTY": 12,
+      "BANKING": 13,
+      "ENERGY": 14,
+      "CHEMICALS": 15,
+      "METALS": 16,
+      "RAILWAY": 17,
+      "DEFENCE": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": []
   }
 ]
