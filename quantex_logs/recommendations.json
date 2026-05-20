@@ -12505,5 +12505,111 @@
         "cmp": 1084.0
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-20",
+    "scan_time": "2026-05-20T10:30:53.670892",
+    "market_regime": {
+      "regime": "bearish",
+      "min_score": 75,
+      "label": "BEARISH (risk-off)",
+      "nifty_above_50dma": false,
+      "vix": 18.440000534057617
+    },
+    "min_score_threshold": 75,
+    "total_qualified": 2,
+    "sector_rankings": {
+      "IT": 1,
+      "FINANCE": 2,
+      "POWER": 3,
+      "PHARMA": 4,
+      "ELECTRICALS": 5,
+      "INFRA": 6,
+      "ENERGY": 7,
+      "REALTY": 8,
+      "INDEX_ETF": 9,
+      "GOLD_ETF": 10,
+      "AUTO": 11,
+      "FMCG": 12,
+      "BANKING": 13,
+      "CONSUMER": 14,
+      "CHEMICALS": 15,
+      "METALS": 16,
+      "RAILWAY": 17,
+      "DEFENCE": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "POLICYBZR",
+        "score": 78,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 15,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 25 (Strong Trend)",
+          "ADX Rising",
+          "MACD Fresh Crossover",
+          "Vol Above Avg 1.8x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: FINANCE",
+          "Long Buildup (OI: 8,526,700)",
+          "High F&O Activity"
+        ],
+        "entry": 1834.2,
+        "sl": 1740.66,
+        "target1": 2021.27,
+        "target2": 2114.81,
+        "hold_period": "5-8 days",
+        "cmp": 1834.2,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 6.7
+      },
+      {
+        "symbol": "HINDALCO",
+        "score": 75,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 11,
+          "Volume": 17,
+          "Price Action": 9,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 28 (Strong Trend)",
+          "RSI 61 (Power Zone)",
+          "Vol Surge 2.4x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 27,568,800)",
+          "High F&O Activity"
+        ],
+        "entry": 1085.0,
+        "sl": 1040.03,
+        "target1": 1152.45,
+        "target2": 1197.42,
+        "hold_period": "1-2 weeks",
+        "cmp": 1085.0,
+        "target3": 1190.53,
+        "target_method": "52W High + Weekly R1 + Weekly R2 + Weekly R3",
+        "est_days_to_t1": 11.8
+      }
+    ]
   }
 ]

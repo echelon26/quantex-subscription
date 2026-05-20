@@ -65,3 +65,22 @@ Qualified: 21 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-05-20 at 10:30 AM IST
+Regime: BEARISH (risk-off) | VIX: 18.44 | Min Score: 75
+Qualified: 2 stocks | Top 10 below
+============================================================
+
+1. POLICYBZR -- Score: 78/100
+   Entry: 1834.20 | SL: 1740.66 | T1: 2021.27 | T2: 2114.81 | RR: 1:2.0
+   Tr:20 Mo:13 Vo:15 PA:8 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 25 (Strong Trend), ADX Rising, MACD Fresh Crossover, Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 8,526,700), High F&O Activity
+
+2. HINDALCO -- Score: 75/100
+   Entry: 1085.00 | SL: 1040.03 | T1: 1152.45 | T2: 1197.42 | RR: 1:1.5
+   Tr:20 Mo:11 Vo:17 PA:9 RS:8 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), RSI 61 (Power Zone), Vol Surge 2.4x, Strong Delivery (Close near High), Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Long Buildup (OI: 27,568,800), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
