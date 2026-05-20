@@ -642,5 +642,31 @@
       "GALLANTT"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-19.pdf"
+  },
+  {
+    "date": "Wed, 20 May 2026",
+    "fear_greed": 43.6,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23618.0,
+    "nifty": 23618.0,
+    "sensex": 75200.85,
+    "bank_nifty": 53409.15,
+    "vix": 18.68,
+    "top_gainers": [
+      "ANGELONE",
+      "TRITURBINE",
+      "TATATECH",
+      "IGIL",
+      "TEJASNET"
+    ],
+    "top_losers": [
+      "JAINREC",
+      "ASTRAL",
+      "KEC",
+      "BERGEPAINT",
+      "DATAPATTNS"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-20.pdf"
   }
 ]
