@@ -1624,5 +1624,61 @@
         "CMP": 87.68
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-20",
+    "scan_time": "2026-05-20T13:37:28.081044",
+    "stocks_scanned": 504,
+    "results_found": 8,
+    "results": [
+      {
+        "Date": "2026-05-20",
+        "Symbol": "APOLLOHOSP",
+        "Signals": "Flat +0.7%",
+        "CMP": 8078.5
+      },
+      {
+        "Date": "2026-05-20",
+        "Symbol": "BOSCHLTD",
+        "Signals": "Flat -0.8% | High Vol 1.8x",
+        "CMP": 36830.0
+      },
+      {
+        "Date": "2026-05-20",
+        "Symbol": "GRASIM",
+        "Signals": "Flat +1.2%",
+        "CMP": 2971.1
+      },
+      {
+        "Date": "2026-05-20",
+        "Symbol": "HONAUT",
+        "Signals": "Bullish Reaction | Rally +3.8% | Vol Explosion 5.2x",
+        "CMP": 30180.0
+      },
+      {
+        "Date": "2026-05-20",
+        "Symbol": "JUBLFOOD",
+        "Signals": "Muted Reaction | Flat -0.1%",
+        "CMP": 472.55
+      },
+      {
+        "Date": "2026-05-20",
+        "Symbol": "SAMMAANCAP",
+        "Signals": "Rally +2.6% | High Vol 1.9x",
+        "CMP": 141.8
+      },
+      {
+        "Date": "2026-05-20",
+        "Symbol": "MOTHERSON",
+        "Signals": "Flat +0.5% | Vol Explosion 3.2x",
+        "CMP": 132.17
+      },
+      {
+        "Date": "2026-05-20",
+        "Symbol": "WHIRLPOOL",
+        "Signals": "Muted Reaction | Flat +0.7%",
+        "CMP": 856.0
+      }
+    ]
   }
 ]
