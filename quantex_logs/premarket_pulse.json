@@ -668,5 +668,31 @@
       "DATAPATTNS"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-20.pdf"
+  },
+  {
+    "date": "Thu, 21 May 2026",
+    "fear_greed": 43.9,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23659.0,
+    "nifty": 23659.0,
+    "sensex": 75318.39,
+    "bank_nifty": 53562.2,
+    "vix": 18.44,
+    "top_gainers": [
+      "ENRIN",
+      "ERIS",
+      "TATACOMM",
+      "PCBL",
+      "GVT&D"
+    ],
+    "top_losers": [
+      "PIIND",
+      "MAPMYINDIA",
+      "ZEEL",
+      "BALRAMCHIN",
+      "M&MFIN"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-21.pdf"
   }
 ]
