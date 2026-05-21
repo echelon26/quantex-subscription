@@ -65,3 +65,32 @@ Qualified: 21 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-05-21 at 10:30 AM IST
+Regime: NEUTRAL (mixed) | VIX: 17.82 | Min Score: 68
+Qualified: 4 stocks | Top 10 below
+============================================================
+
+1. JNKINDIA -- Score: 71/100
+   Entry: 410.45 | SL: 381.72 | T1: 467.91 | T2: 496.64 | RR: 1:2.0
+   Tr:20 Mo:11 Vo:17 PA:8 RS:8 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 32 (Strong Trend), RSI 70 (Power Zone), Vol Surge 3.3x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+2. MANAPPURAM -- Score: 69/100
+   Entry: 323.50 | SL: 307.53 | T1: 355.45 | T2: 371.42 | RR: 1:2.0
+   Tr:14 Mo:18 Vo:15 PA:4 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX 22 (Trending), RSI 67 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.6x, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 63,249,000), High F&O Activity
+
+3. TRITURBINE -- Score: 69/100
+   Entry: 705.25 | SL: 656.37 | T1: 793.23 | T2: 837.22 | RR: 1:1.8
+   Tr:20 Mo:9 Vo:17 PA:8 RS:8 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 40 (Strong Trend), ADX Rising, MACD Fresh Crossover, Vol Surge 4.8x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+4. MOTHERSON -- Score: 68/100
+   Entry: 136.80 | SL: 129.66 | T1: 151.08 | T2: 158.23 | RR: 1:2.0
+   Tr:14 Mo:15 Vo:13 PA:8 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX 23 (Trending), ADX Rising, RSI 65 (Power Zone), MACD Bullish, Vol Surge 3.0x, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 143,381,100), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+

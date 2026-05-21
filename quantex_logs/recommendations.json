@@ -12947,5 +12947,172 @@
         "cmp": 1100.8
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-21",
+    "scan_time": "2026-05-21T10:30:53.887504",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 17.822500228881836
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 4,
+    "sector_rankings": {
+      "IT": 1,
+      "REALTY": 2,
+      "ENERGY": 3,
+      "SILVER_ETF": 4,
+      "GOLD_ETF": 5,
+      "FINANCE": 6,
+      "INDEX_ETF": 7,
+      "METALS": 8,
+      "INFRA": 9,
+      "ELECTRICALS": 10,
+      "BANKING": 11,
+      "POWER": 12,
+      "PHARMA": 13,
+      "DEFENCE": 14,
+      "AUTO": 15,
+      "CHEMICALS": 16,
+      "CONSUMER": 17,
+      "FMCG": 18,
+      "RAILWAY": 19
+    },
+    "top_10": [
+      {
+        "symbol": "JNKINDIA",
+        "score": 71,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 11,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 32 (Strong Trend)",
+          "RSI 70 (Power Zone)",
+          "Vol Surge 3.3x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 410.45,
+        "sl": 381.72,
+        "target1": 467.91,
+        "target2": 496.64,
+        "hold_period": "1-2 weeks",
+        "cmp": 410.45,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 11.7
+      },
+      {
+        "symbol": "MANAPPURAM",
+        "score": 69,
+        "breakdown": {
+          "Trend": 14,
+          "Momentum": 18,
+          "Volume": 15,
+          "Price Action": 4,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 22 (Trending)",
+          "RSI 67 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Above Avg 1.6x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 63,249,000)",
+          "High F&O Activity"
+        ],
+        "entry": 323.5,
+        "sl": 307.53,
+        "target1": 355.45,
+        "target2": 371.42,
+        "hold_period": "3-4 weeks",
+        "cmp": 323.5,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 22.2
+      },
+      {
+        "symbol": "TRITURBINE",
+        "score": 69,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 9,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 40 (Strong Trend)",
+          "ADX Rising",
+          "MACD Fresh Crossover",
+          "Vol Surge 4.8x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 705.25,
+        "sl": 656.37,
+        "target1": 793.23,
+        "target2": 837.22,
+        "hold_period": "2-3 weeks",
+        "cmp": 705.25,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 12.0
+      },
+      {
+        "symbol": "MOTHERSON",
+        "score": 68,
+        "breakdown": {
+          "Trend": 14,
+          "Momentum": 15,
+          "Volume": 13,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 23 (Trending)",
+          "ADX Rising",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 3.0x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 143,381,100)",
+          "High F&O Activity"
+        ],
+        "entry": 136.8,
+        "sl": 129.66,
+        "target1": 151.08,
+        "target2": 158.23,
+        "hold_period": "3-4 weeks",
+        "cmp": 136.8,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 23.4
+      }
+    ]
   }
 ]
