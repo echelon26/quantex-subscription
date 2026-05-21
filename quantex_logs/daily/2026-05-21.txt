@@ -7,3 +7,61 @@ Qualified: 0 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-05-21 at 04:35 AM IST
+Qualified: 21 stocks | Top 10 below
+============================================================
+
+1. ANGELONE — Score: 76/100
+   Entry: 338.45 | SL: 321.53 | T1: 372.30 | T2: 389.22 | RR: 1:2.0
+   Trend:15 Mom:13 Vol:10 PA:15 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 67 (Power Zone), Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 26,072,500), High F&O Activity
+
+2. HINDALCO — Score: 75/100
+   Entry: 1108.50 | SL: 1064.09 | T1: 1197.32 | T2: 1241.74 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 64 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 25,218,200), High F&O Activity
+
+3. TRITURBINE — Score: 75/100
+   Entry: 697.00 | SL: 662.15 | T1: 766.70 | T2: 801.55 | RR: 1:2.0
+   Trend:20 Mom:10 Vol:18 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Fresh Crossover, Vol Above Avg 2.0x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+4. GRASIM — Score: 73/100
+   Entry: 3096.90 | SL: 2989.32 | T1: 3312.05 | T2: 3419.63 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:10 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 11,619,000), High F&O Activity
+
+5. TIMKEN — Score: 70/100
+   Entry: 3723.70 | SL: 3537.51 | T1: 4096.07 | T2: 4282.25 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:5 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 63 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+6. INDUSTOWER — Score: 69/100
+   Entry: 434.15 | SL: 420.95 | T1: 460.55 | T2: 473.75 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 60 (Power Zone), MACD Bullish, Near Breakout, Morning Star, Strong RS vs Nifty, Long Buildup (OI: 56,798,700), High F&O Activity
+
+7. ASTRAMICRO — Score: 65/100
+   Entry: 1186.60 | SL: 1127.27 | T1: 1305.26 | T2: 1364.59 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+8. GANDHAR — Score: 65/100
+   Entry: 164.29 | SL: 156.08 | T1: 180.72 | T2: 188.93 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 69 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Consistent Buying
+
+9. TATATECH — Score: 65/100
+   Entry: 683.50 | SL: 652.22 | T1: 746.06 | T2: 777.35 | RR: 1:2.0
+   Trend:20 Mom:8 Vol:5 PA:10 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Consistent Buying
+
+10. MAXHEALTH — Score: 63/100
+   Entry: 1100.80 | SL: 1059.03 | T1: 1184.33 | T2: 1226.10 | RR: 1:2.0
+   Trend:15 Mom:13 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 11,080,650), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
