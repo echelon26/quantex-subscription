@@ -1680,5 +1680,73 @@
         "CMP": 856.0
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-21",
+    "scan_time": "2026-05-21T13:40:49.443900",
+    "stocks_scanned": 504,
+    "results_found": 10,
+    "results": [
+      {
+        "Date": "2026-05-21",
+        "Symbol": "AUROPHARMA",
+        "Signals": "Flat +1.9%",
+        "CMP": 1546.7
+      },
+      {
+        "Date": "2026-05-21",
+        "Symbol": "EMAMILTD",
+        "Signals": "Bearish Reaction | Selloff -3.1% | Vol Explosion 8.9x",
+        "CMP": 415.65
+      },
+      {
+        "Date": "2026-05-21",
+        "Symbol": "NYKAA",
+        "Signals": "Flat +0.4% | High Vol 1.7x",
+        "CMP": 274.5
+      },
+      {
+        "Date": "2026-05-21",
+        "Symbol": "GAIL",
+        "Signals": "Muted Reaction | Flat +0.2%",
+        "CMP": 155.9
+      },
+      {
+        "Date": "2026-05-21",
+        "Symbol": "ITC",
+        "Signals": "Flat +0.2% | High Vol 1.6x",
+        "CMP": 308.05
+      },
+      {
+        "Date": "2026-05-21",
+        "Symbol": "LICI",
+        "Signals": "Flat -0.0% | Vol Explosion 3.4x",
+        "CMP": 800.2
+      },
+      {
+        "Date": "2026-05-21",
+        "Symbol": "MAXHEALTH",
+        "Signals": "Flat +1.4% | High Vol 1.6x",
+        "CMP": 1091.1
+      },
+      {
+        "Date": "2026-05-21",
+        "Symbol": "PAGEIND",
+        "Signals": "Flat +0.2% | Vol Explosion 3.6x",
+        "CMP": 38380.0
+      },
+      {
+        "Date": "2026-05-21",
+        "Symbol": "PRESTIGE",
+        "Signals": "Flat -0.2% | Vol Explosion 3.1x",
+        "CMP": 1385.6
+      },
+      {
+        "Date": "2026-05-21",
+        "Symbol": "SUNTV",
+        "Signals": "Muted Reaction | Flat +0.3%",
+        "CMP": 518.75
+      }
+    ]
   }
 ]
