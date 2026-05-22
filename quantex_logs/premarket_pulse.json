@@ -694,5 +694,31 @@
       "M&MFIN"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-21.pdf"
+  },
+  {
+    "date": "Fri, 22 May 2026",
+    "fear_greed": 44.6,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": null,
+    "nifty": 23654.7,
+    "sensex": 75183.36,
+    "bank_nifty": 53439.4,
+    "vix": 17.82,
+    "top_gainers": [
+      "HONAUT",
+      "SAMMAANCAP",
+      "IRB",
+      "TECHNOE",
+      "TRITURBINE"
+    ],
+    "top_losers": [
+      "JUBLFOOD",
+      "PIIND",
+      "ERIS",
+      "BOSCHLTD",
+      "OLAELEC"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-22.pdf"
   }
 ]
