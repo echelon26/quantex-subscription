@@ -13444,5 +13444,74 @@
         "cmp": 1744.8
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-22",
+    "scan_time": "2026-05-22T10:30:53.727336",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 17.822500228881836
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 1,
+    "sector_rankings": {
+      "ELECTRICALS": 1,
+      "REALTY": 2,
+      "IT": 3,
+      "METALS": 4,
+      "ENERGY": 5,
+      "INDEX_ETF": 6,
+      "BANKING": 7,
+      "GOLD_ETF": 8,
+      "CHEMICALS": 9,
+      "INFRA": 10,
+      "CONSUMER": 11,
+      "FINANCE": 12,
+      "POWER": 13,
+      "AUTO": 14,
+      "SILVER_ETF": 15,
+      "DEFENCE": 16,
+      "RAILWAY": 17,
+      "FMCG": 18,
+      "PHARMA": 19
+    },
+    "top_10": [
+      {
+        "symbol": "ENDURANCE",
+        "score": 71,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 15,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 27 (Strong Trend)",
+          "ADX Rising",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 2.0x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 2727.5,
+        "sl": 2580.56,
+        "target1": 3021.38,
+        "target2": 3168.33,
+        "hold_period": "2-3 weeks",
+        "cmp": 2727.5,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 15.7
+      }
+    ]
   }
 ]

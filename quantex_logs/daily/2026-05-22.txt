@@ -65,3 +65,17 @@ Qualified: 17 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-05-22 at 10:30 AM IST
+Regime: NEUTRAL (mixed) | VIX: 17.82 | Min Score: 68
+Qualified: 1 stocks | Top 10 below
+============================================================
+
+1. ENDURANCE -- Score: 71/100
+   Entry: 2727.50 | SL: 2580.56 | T1: 3021.38 | T2: 3168.33 | RR: 1:2.0
+   Tr:16 Mo:15 Vo:17 PA:8 RS:8 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 27 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Bullish, Vol Surge 2.0x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+
+────────────────────────────────────────────────────────────
+
