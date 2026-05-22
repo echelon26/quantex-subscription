@@ -1748,5 +1748,67 @@
         "CMP": 518.75
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-22",
+    "scan_time": "2026-05-22T13:38:31.115921",
+    "stocks_scanned": 504,
+    "results_found": 9,
+    "results": [
+      {
+        "Date": "2026-05-22",
+        "Symbol": "COLPAL",
+        "Signals": "Muted Reaction | Flat -0.4%",
+        "CMP": 2156.9
+      },
+      {
+        "Date": "2026-05-22",
+        "Symbol": "EICHERMOT",
+        "Signals": "Flat +1.3%",
+        "CMP": 6981.5
+      },
+      {
+        "Date": "2026-05-22",
+        "Symbol": "FORTIS",
+        "Signals": "Muted Reaction | Flat -0.7%",
+        "CMP": 960.4
+      },
+      {
+        "Date": "2026-05-22",
+        "Symbol": "HINDALCO",
+        "Signals": "Muted Reaction | Flat +0.9%",
+        "CMP": 1109.2
+      },
+      {
+        "Date": "2026-05-22",
+        "Symbol": "NAUKRI",
+        "Signals": "Bullish Reaction | Rally +3.7% | Vol Explosion 4.5x",
+        "CMP": 960.95
+      },
+      {
+        "Date": "2026-05-22",
+        "Symbol": "JUBLPHARMA",
+        "Signals": "Flat -0.5% | Vol Explosion 4.3x",
+        "CMP": 1006.35
+      },
+      {
+        "Date": "2026-05-22",
+        "Symbol": "SUNPHARMA",
+        "Signals": "Selloff -2.5% | High Vol 1.6x",
+        "CMP": 1844.6
+      },
+      {
+        "Date": "2026-05-22",
+        "Symbol": "RAMCOCEM",
+        "Signals": "Flat +0.9%",
+        "CMP": 914.55
+      },
+      {
+        "Date": "2026-05-22",
+        "Symbol": "TORNTPHARM",
+        "Signals": "Muted Reaction | Flat +0.4%",
+        "CMP": 4486.2
+      }
+    ]
   }
 ]
