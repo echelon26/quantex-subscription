@@ -7,3 +7,61 @@ Qualified: 0 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-05-22 at 04:35 AM IST
+Qualified: 17 stocks | Top 10 below
+============================================================
+
+1. ICRA — Score: 76/100
+   Entry: 5601.50 | SL: 5408.45 | T1: 5987.61 | T2: 6180.66 | RR: 1:2.0
+   Trend:11 Mom:20 Vol:15 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: RSI 65 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+2. PREMEXPLN — Score: 75/100
+   Entry: 599.50 | SL: 569.52 | T1: 659.45 | T2: 689.43 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:13 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 67 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.6x, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+3. KEI — Score: 75/100
+   Entry: 5295.00 | SL: 5030.25 | T1: 5824.50 | T2: 6089.25 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 67 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: ELECTRICALS, Long Buildup (OI: 1,342,775), High F&O Activity
+
+4. ASIANPAINT — Score: 70/100
+   Entry: 2658.60 | SL: 2562.65 | T1: 2850.50 | T2: 2946.45 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 67 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Sector Top 3: ELECTRICALS, Long Buildup (OI: 8,428,750), High F&O Activity
+
+5. ASTRAMICRO — Score: 67/100
+   Entry: 1191.90 | SL: 1132.31 | T1: 1311.09 | T2: 1370.69 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 67 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+6. GANDHAR — Score: 65/100
+   Entry: 168.71 | SL: 160.27 | T1: 185.58 | T2: 194.02 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+7. FLUOROCHEM — Score: 65/100
+   Entry: 3804.40 | SL: 3631.48 | T1: 4150.24 | T2: 4323.16 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:0 PA:5 RS:13 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Consistent Buying
+
+8. TRITURBINE — Score: 65/100
+   Entry: 727.00 | SL: 690.65 | T1: 799.70 | T2: 836.05 | RR: 1:2.0
+   Trend:20 Mom:8 Vol:10 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+9. HINDPETRO — Score: 64/100
+   Entry: 389.60 | SL: 370.12 | T1: 428.56 | T2: 448.04 | RR: 1:2.0
+   Trend:11 Mom:20 Vol:5 PA:5 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: RSI 56 (Power Zone), MACD Fresh Crossover, Hammer, Strong RS vs Nifty, Long Buildup (OI: 25,808,625), High F&O Activity
+
+10. SASKEN — Score: 63/100
+   Entry: 1744.80 | SL: 1657.56 | T1: 1919.28 | T2: 2006.52 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:15 SM:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, Hammer, Strong RS vs Nifty, Sector Top 3: IT
+
+
+────────────────────────────────────────────────────────────
+
