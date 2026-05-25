@@ -7,3 +7,61 @@ Qualified: 0 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-05-25 at 04:35 AM IST
+Qualified: 33 stocks | Top 10 below
+============================================================
+
+1. PREMEXPLN — Score: 80/100
+   Entry: 643.00 | SL: 610.85 | T1: 707.30 | T2: 739.45 | RR: 1:2.0
+   Trend:15 Mom:15 Vol:15 PA:15 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Institutional Accumulation
+
+2. GAIL — Score: 78/100
+   Entry: 169.96 | SL: 162.60 | T1: 184.68 | T2: 192.04 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:15 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 65 (Power Zone), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: ENERGY, Long Buildup (OI: 27,464,850), High F&O Activity
+
+3. TORNTPHARM — Score: 78/100
+   Entry: 4683.10 | SL: 4508.60 | T1: 5032.09 | T2: 5206.59 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:10 PA:15 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 842,750), High F&O Activity
+
+4. ANGELONE — Score: 75/100
+   Entry: 348.15 | SL: 330.74 | T1: 382.97 | T2: 400.37 | RR: 1:2.0
+   Trend:20 Mom:15 Vol:5 PA:15 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Fresh Crossover, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 14,140,000), High F&O Activity
+
+5. ASIANPAINT — Score: 73/100
+   Entry: 2668.70 | SL: 2574.18 | T1: 2857.75 | T2: 2952.27 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:0 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 5,631,500), High F&O Activity
+
+6. ASTRAMICRO — Score: 72/100
+   Entry: 1208.00 | SL: 1147.60 | T1: 1328.80 | T2: 1389.20 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+7. HINDPETRO — Score: 71/100
+   Entry: 406.30 | SL: 385.99 | T1: 446.93 | T2: 467.25 | RR: 1:2.0
+   Trend:16 Mom:20 Vol:0 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 62 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: ENERGY, Long Buildup (OI: 13,686,975), High F&O Activity
+
+8. KPITTECH — Score: 70/100
+   Entry: 762.40 | SL: 724.28 | T1: 838.64 | T2: 876.76 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:5 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Fresh Crossover, Morning Star, Strong RS vs Nifty, Long Buildup (OI: 3,317,975), High F&O Activity
+
+9. CHAMBLFERT — Score: 70/100
+   Entry: 464.85 | SL: 445.21 | T1: 504.12 | T2: 523.76 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 59 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+10. DIVISLAB — Score: 69/100
+   Entry: 6926.50 | SL: 6696.52 | T1: 7386.47 | T2: 7616.45 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:10 PA:5 RS:6 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Bullish, Strong Delivery (Close near High), Near Breakout, Outperforming Nifty, Long Buildup (OI: 847,800), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
