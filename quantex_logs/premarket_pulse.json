@@ -720,5 +720,31 @@
       "OLAELEC"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-22.pdf"
+  },
+  {
+    "date": "Mon, 25 May 2026",
+    "fear_greed": 46.8,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23719.3,
+    "nifty": 23719.3,
+    "sensex": 75415.35,
+    "bank_nifty": 54055.35,
+    "vix": 17.91,
+    "top_gainers": [
+      "JSWCEMENT",
+      "MINDACORP",
+      "HONASA",
+      "DEEPAKFERT",
+      "TRAVELFOOD"
+    ],
+    "top_losers": [
+      "ENGINERSIN",
+      "CENTRALBK",
+      "MAXHEALTH",
+      "SUNTV",
+      "GLENMARK"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-25.pdf"
   }
 ]
