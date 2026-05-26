@@ -27,3 +27,61 @@ Qualified: 4 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-05-26 at 04:35 AM IST
+Qualified: 26 stocks | Top 10 below
+============================================================
+
+1. PREMEXPLN — Score: 83/100
+   Entry: 762.85 | SL: 724.71 | T1: 839.14 | T2: 877.28 | RR: 1:2.0
+   Trend:20 Mom:10 Vol:20 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, MACD Fresh Crossover, Vol Surge 4.9x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+2. ATGL — Score: 72/100
+   Entry: 686.30 | SL: 651.98 | T1: 754.93 | T2: 789.25 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+3. ASTRAMICRO — Score: 70/100
+   Entry: 1263.70 | SL: 1200.52 | T1: 1390.07 | T2: 1453.25 | RR: 1:2.0
+   Trend:20 Mom:15 Vol:5 PA:10 RS:13 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+4. SUPRAJIT — Score: 70/100
+   Entry: 492.60 | SL: 468.18 | T1: 541.44 | T2: 565.86 | RR: 1:2.0
+   Trend:20 Mom:10 Vol:10 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Fresh Crossover, Vol Surge 12.0x, 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+5. CHAMBLFERT — Score: 70/100
+   Entry: 470.20 | SL: 450.49 | T1: 509.62 | T2: 529.33 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 62 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+6. HINDALCO — Score: 66/100
+   Entry: 1112.70 | SL: 1068.65 | T1: 1200.79 | T2: 1244.84 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:5 RS:6 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 64 (Power Zone), MACD Fresh Crossover, Near Breakout, Outperforming Nifty, Long Buildup (OI: 3,595,200), High F&O Activity
+
+7. PARAS — Score: 65/100
+   Entry: 873.10 | SL: 829.44 | T1: 960.41 | T2: 1004.07 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:5 RS:13 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 66 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Consistent Buying
+
+8. KEI — Score: 65/100
+   Entry: 5313.10 | SL: 5061.31 | T1: 5816.68 | T2: 6068.47 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:5 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 68 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 354,550), High F&O Activity
+
+9. CGPOWER — Score: 64/100
+   Entry: 876.20 | SL: 838.29 | T1: 952.02 | T2: 989.92 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:5 RS:11 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 65 (Power Zone), Near Breakout, Outperforming Nifty, Sector Top 3: INFRA, Long Buildup (OI: 2,349,400), High F&O Activity
+
+10. TATAELXSI — Score: 64/100
+   Entry: 4331.40 | SL: 4170.46 | T1: 4653.27 | T2: 4814.21 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:5 PA:5 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 57 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 239,700), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
