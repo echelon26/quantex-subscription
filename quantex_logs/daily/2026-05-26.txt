@@ -1,0 +1,29 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-05-26 at 04:30 AM IST
+Regime: BULLISH (risk-on) | VIX: 16.32 | Min Score: 60
+Qualified: 4 stocks | Top 10 below
+============================================================
+
+1. PREMEXPLN -- Score: 72/100
+   Entry: 770.15 | SL: 716.24 | T1: 842.93 | T2: 876.17 | RR: 1:1.4
+   Tr:18 Mo:9 Vo:17 PA:8 RS:10 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX 23 (Trending), ADX Rising, MACD Fresh Crossover, Vol Surge 4.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+2. HINDALCO -- Score: 61/100
+   Entry: 1115.50 | SL: 1071.45 | T1: 1181.57 | T2: 1225.62 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:4 PA:4 RS:5 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 29 (Strong Trend), ADX Rising, RSI 64 (Power Zone), MACD Fresh Crossover, Near Breakout, Outperforming Nifty, Long Buildup (OI: 3,600,100), High F&O Activity
+
+3. ATGL -- Score: 61/100
+   Entry: 681.20 | SL: 639.29 | T1: 744.07 | T2: 785.98 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:4 PA:4 RS:8 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 31 (Strong Trend), ADX Rising, RSI 67 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Consistent Buying
+
+4. SUPRAJIT -- Score: 60/100
+   Entry: 489.30 | SL: 464.88 | T1: 522.27 | T2: 555.23 | RR: 1:1.4
+   Tr:16 Mo:9 Vo:9 PA:8 RS:8 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, MACD Fresh Crossover, Vol Surge 11.8x, 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+
+────────────────────────────────────────────────────────────
+

@@ -14230,5 +14230,173 @@
         "est_days_to_t1": 25
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-26",
+    "scan_time": "2026-05-26T04:30:59.980870",
+    "market_regime": {
+      "regime": "bullish",
+      "min_score": 60,
+      "label": "BULLISH (risk-on)",
+      "nifty_above_50dma": true,
+      "vix": 16.3174991607666
+    },
+    "min_score_threshold": 60,
+    "total_qualified": 4,
+    "sector_rankings": {
+      "INFRA": 1,
+      "BANKING": 2,
+      "REALTY": 3,
+      "INDEX_ETF": 4,
+      "DEFENCE": 5,
+      "ELECTRICALS": 6,
+      "METALS": 7,
+      "FINANCE": 8,
+      "AUTO": 9,
+      "CHEMICALS": 10,
+      "RAILWAY": 11,
+      "CONSUMER": 12,
+      "ENERGY": 13,
+      "POWER": 14,
+      "SILVER_ETF": 15,
+      "PHARMA": 16,
+      "GOLD_ETF": 17,
+      "FMCG": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "PREMEXPLN",
+        "score": 72,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 9,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 10,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend FLIP Bullish",
+          "ADX 23 (Trending)",
+          "ADX Rising",
+          "MACD Fresh Crossover",
+          "Vol Surge 4.6x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 770.15,
+        "sl": 716.24,
+        "target1": 842.93,
+        "target2": 876.17,
+        "hold_period": "5-8 days",
+        "cmp": 770.15,
+        "target3": 985.47,
+        "target_method": "Fib 1.618 + Fib 2.0 + Fib 2.618",
+        "est_days_to_t1": 6.3
+      },
+      {
+        "symbol": "HINDALCO",
+        "score": 61,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 4,
+          "Price Action": 4,
+          "Relative Strength": 5,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 29 (Strong Trend)",
+          "ADX Rising",
+          "RSI 64 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Outperforming Nifty",
+          "Long Buildup (OI: 3,600,100)",
+          "High F&O Activity"
+        ],
+        "entry": 1115.5,
+        "sl": 1071.45,
+        "target1": 1181.57,
+        "target2": 1225.62,
+        "hold_period": "2-3 weeks",
+        "cmp": 1115.5,
+        "target3": 1197.77,
+        "target_method": "Weekly R1 + Weekly R2 + Weekly R3",
+        "est_days_to_t1": 14.4
+      },
+      {
+        "symbol": "ATGL",
+        "score": 61,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 4,
+          "Price Action": 4,
+          "Relative Strength": 8,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 31 (Strong Trend)",
+          "ADX Rising",
+          "RSI 67 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 681.2,
+        "sl": 639.29,
+        "target1": 744.07,
+        "target2": 785.98,
+        "hold_period": "1-2 weeks",
+        "cmp": 681.2,
+        "target3": 758.64,
+        "target_method": "52W High + Weekly R2 + Weekly R3 + Fib 1.0",
+        "est_days_to_t1": 8.2
+      },
+      {
+        "symbol": "SUPRAJIT",
+        "score": 60,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 9,
+          "Volume": 9,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "MACD Fresh Crossover",
+          "Vol Surge 11.8x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 489.3,
+        "sl": 464.88,
+        "target1": 522.27,
+        "target2": 555.23,
+        "hold_period": "1-2 weeks",
+        "cmp": 489.3,
+        "target_method": "52W High + Fib 2.618",
+        "est_days_to_t1": 11.6
+      }
+    ]
   }
 ]
