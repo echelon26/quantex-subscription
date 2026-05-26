@@ -85,3 +85,32 @@ Qualified: 26 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-05-26 at 10:30 AM IST
+Regime: NEUTRAL (mixed) | VIX: 16.13 | Min Score: 68
+Qualified: 4 stocks | Top 10 below
+============================================================
+
+1. ATGL -- Score: 73/100
+   Entry: 712.90 | SL: 667.06 | T1: 781.66 | T2: 827.50 | RR: 1:1.5
+   Tr:20 Mo:13 Vo:17 PA:8 RS:8 SM:7 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 32 (Strong Trend), ADX Rising, MACD Fresh Crossover, Vol Surge 5.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+2. CHAMBLFERT -- Score: 72/100
+   Entry: 478.60 | SL: 457.92 | T1: 519.96 | T2: 540.63 | RR: 1:2.0
+   Tr:14 Mo:15 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 65 (Power Zone), MACD Bullish, Vol Surge 2.2x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+3. AVANTEL -- Score: 70/100
+   Entry: 176.50 | SL: 164.74 | T1: 200.02 | T2: 211.78 | RR: 1:2.0
+   Tr:14 Mo:13 Vo:15 PA:8 RS:10 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 23 (Trending), ADX Rising, MACD Fresh Crossover, Vol Above Avg 2.0x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+4. LICI -- Score: 68/100
+   Entry: 855.70 | SL: 826.78 | T1: 913.55 | T2: 942.47 | RR: 1:2.0
+   Tr:10 Mo:18 Vo:15 PA:8 RS:8 SM:9 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 68 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Short Covering, High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+

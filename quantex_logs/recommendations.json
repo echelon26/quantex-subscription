@@ -14697,5 +14697,173 @@
         "cmp": 4331.4
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-26",
+    "scan_time": "2026-05-26T10:30:58.478842",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 16.13249969482422
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 4,
+    "sector_rankings": {
+      "INFRA": 1,
+      "REALTY": 2,
+      "BANKING": 3,
+      "INDEX_ETF": 4,
+      "DEFENCE": 5,
+      "ELECTRICALS": 6,
+      "METALS": 7,
+      "FINANCE": 8,
+      "CONSUMER": 9,
+      "AUTO": 10,
+      "CHEMICALS": 11,
+      "RAILWAY": 12,
+      "ENERGY": 13,
+      "PHARMA": 14,
+      "POWER": 15,
+      "FMCG": 16,
+      "GOLD_ETF": 17,
+      "SILVER_ETF": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "ATGL",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 32 (Strong Trend)",
+          "ADX Rising",
+          "MACD Fresh Crossover",
+          "Vol Surge 5.6x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 712.9,
+        "sl": 667.06,
+        "target1": 781.66,
+        "target2": 827.5,
+        "hold_period": "5-8 days",
+        "cmp": 712.9,
+        "target3": 820.18,
+        "target_method": "52W High + Weekly R3 + Fib 1.0 + Measured Move",
+        "est_days_to_t1": 7.1
+      },
+      {
+        "symbol": "CHAMBLFERT",
+        "score": 72,
+        "breakdown": {
+          "Trend": 14,
+          "Momentum": 15,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 2.2x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 478.6,
+        "sl": 457.92,
+        "target1": 519.96,
+        "target2": 540.63,
+        "hold_period": "2-3 weeks",
+        "cmp": 478.6,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 14.8
+      },
+      {
+        "symbol": "AVANTEL",
+        "score": 70,
+        "breakdown": {
+          "Trend": 14,
+          "Momentum": 13,
+          "Volume": 15,
+          "Price Action": 8,
+          "Relative Strength": 10,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 23 (Trending)",
+          "ADX Rising",
+          "MACD Fresh Crossover",
+          "Vol Above Avg 2.0x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 176.5,
+        "sl": 164.74,
+        "target1": 200.02,
+        "target2": 211.78,
+        "hold_period": "1-2 weeks",
+        "cmp": 176.5,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 11.5
+      },
+      {
+        "symbol": "LICI",
+        "score": 68,
+        "breakdown": {
+          "Trend": 10,
+          "Momentum": 18,
+          "Volume": 15,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 9,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX Rising",
+          "RSI 68 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Above Avg 1.6x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Short Covering",
+          "High F&O Activity"
+        ],
+        "entry": 855.7,
+        "sl": 826.78,
+        "target1": 913.55,
+        "target2": 942.47,
+        "hold_period": "3-4 weeks",
+        "cmp": 855.7,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 25
+      }
+    ]
   }
 ]
