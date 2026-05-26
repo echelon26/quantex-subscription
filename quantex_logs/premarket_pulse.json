@@ -746,5 +746,31 @@
       "GLENMARK"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-25.pdf"
+  },
+  {
+    "date": "Tue, 26 May 2026",
+    "fear_greed": 59.9,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 24031.7,
+    "nifty": 24031.7,
+    "sensex": 76488.96,
+    "bank_nifty": 55293.65,
+    "vix": 16.7,
+    "top_gainers": [
+      "TITAGARH",
+      "HFCL",
+      "EMMVEE",
+      "BLUEJET",
+      "ARE&M"
+    ],
+    "top_losers": [
+      "SARDAEN",
+      "SCI",
+      "SIEMENS",
+      "OIL",
+      "TIMKEN"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-26.pdf"
   }
 ]
