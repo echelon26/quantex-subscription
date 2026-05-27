@@ -90,3 +90,62 @@ Qualified: 29 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-05-27 at 10:30 AM IST
+Regime: NEUTRAL (mixed) | VIX: 14.98 | Min Score: 68
+Qualified: 12 stocks | Top 10 below
+============================================================
+
+1. CGPOWER -- Score: 83/100
+   Entry: 937.00 | SL: 894.10 | T1: 1001.34 | T2: 1044.24 | RR: 1:1.5
+   Tr:18 Mo:13 Vo:17 PA:13 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 25 (Trending), ADX Rising, MACD Fresh Crossover, Vol Surge 2.2x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: INFRA, Long Buildup (OI: 17,952,850), High F&O Activity
+
+2. HINDALCO -- Score: 82/100
+   Entry: 1150.50 | SL: 1104.16 | T1: 1220.01 | T2: 1266.35 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:12 PA:13 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 29 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Sector Top 3: METALS, Long Buildup (OI: 31,899,700), High F&O Activity
+
+3. KIRLOSENG -- Score: 81/100
+   Entry: 1833.90 | SL: 1719.57 | T1: 2005.40 | T2: 2119.73 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:12 PA:13 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 68 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: INFRA, Institutional Accumulation
+
+4. EXIDEIND -- Score: 79/100
+   Entry: 394.60 | SL: 375.31 | T1: 433.18 | T2: 452.47 | RR: 1:2.0
+   Tr:18 Mo:13 Vo:17 PA:13 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX 20 (Trending), ADX Rising, MACD Fresh Crossover, Vol Surge 4.9x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 26,571,600), High F&O Activity
+
+5. SIEMENS -- Score: 77/100
+   Entry: 3898.00 | SL: 3674.94 | T1: 4344.13 | T2: 4567.19 | RR: 1:2.0
+   Tr:18 Mo:11 Vo:17 PA:9 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 21 (Trending), RSI 62 (Power Zone), Vol Surge 3.3x, Strong Delivery (Close near High), Near Breakout, Bullish Engulfing, Morning Star, Marubozu, Strong RS vs Nifty, Sector Top 3: INFRA, Long Buildup (OI: 2,892,925), High F&O Activity
+
+6. CUMMINSIND -- Score: 77/100
+   Entry: 6069.00 | SL: 5813.56 | T1: 6413.84 | T2: 6445.97 | RR: 1:1.3
+   Tr:16 Mo:9 Vo:17 PA:13 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, MACD Fresh Crossover, Vol Surge 3.8x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: INFRA, Long Buildup (OI: 3,527,600), High F&O Activity
+
+7. TIINDIA -- Score: 76/100
+   Entry: 3220.00 | SL: 3051.44 | T1: 3472.85 | T2: 3641.41 | RR: 1:1.5
+   Tr:12 Mo:18 Vo:15 PA:13 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 70 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 2,346,000), High F&O Activity
+
+8. JSWENERGY -- Score: 74/100
+   Entry: 604.90 | SL: 577.26 | T1: 660.18 | T2: 687.82 | RR: 1:2.0
+   Tr:16 Mo:13 Vo:17 PA:8 RS:10 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, MACD Fresh Crossover, Vol Surge 2.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 24,895,000), High F&O Activity
+
+9. ATGL -- Score: 69/100
+   Entry: 813.20 | SL: 758.01 | T1: 912.55 | T2: 962.22 | RR: 1:1.8
+   Tr:20 Mo:9 Vo:17 PA:8 RS:8 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 34 (Strong Trend), ADX Rising, MACD Fresh Crossover, Vol Surge 7.8x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+10. JUNIORBEES -- Score: 68/100
+   Entry: 776.50 | SL: 753.79 | T1: 821.93 | T2: 844.64 | RR: 1:2.0
+   Tr:12 Mo:18 Vo:12 PA:4 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, RSI 64 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Sector Top 3: INDEX_ETF, Institutional Accumulation
+
+
+────────────────────────────────────────────────────────────
+
