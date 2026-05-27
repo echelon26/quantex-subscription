@@ -772,5 +772,31 @@
       "TIMKEN"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-26.pdf"
+  },
+  {
+    "date": "Wed, 27 May 2026",
+    "fear_greed": 56.6,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23913.7,
+    "nifty": 23913.7,
+    "sensex": 76009.7,
+    "bank_nifty": 55092.9,
+    "vix": 16.13,
+    "top_gainers": [
+      "ATGL",
+      "CEMPRO",
+      "AFCONS",
+      "TEJASNET",
+      "EXIDEIND"
+    ],
+    "top_losers": [
+      "TECHNOE",
+      "CONCOR",
+      "POLYMED",
+      "PINELABS",
+      "CARTRADE"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-27.pdf"
   }
 ]
