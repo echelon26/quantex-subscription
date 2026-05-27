@@ -14865,5 +14865,210 @@
         "est_days_to_t1": 25
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-27",
+    "scan_time": "2026-05-27T04:30:58.288481",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 15.857500076293945
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 5,
+    "sector_rankings": {
+      "INFRA": 1,
+      "METALS": 2,
+      "REALTY": 3,
+      "INDEX_ETF": 4,
+      "BANKING": 5,
+      "FINANCE": 6,
+      "POWER": 7,
+      "DEFENCE": 8,
+      "ELECTRICALS": 9,
+      "AUTO": 10,
+      "CONSUMER": 11,
+      "CHEMICALS": 12,
+      "FMCG": 13,
+      "SILVER_ETF": 14,
+      "PHARMA": 15,
+      "GOLD_ETF": 16,
+      "ENERGY": 17,
+      "RAILWAY": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "HINDALCO",
+        "score": 74,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 13,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 29 (Strong Trend)",
+          "ADX Rising",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Sector Top 3: METALS",
+          "Long Buildup (OI: 31,648,400)",
+          "High F&O Activity"
+        ],
+        "entry": 1149.0,
+        "sl": 1102.82,
+        "target1": 1218.27,
+        "target2": 1264.45,
+        "hold_period": "1-2 weeks",
+        "cmp": 1149.0,
+        "target3": 1266.15,
+        "target_method": "Weekly R2 + Weekly R3 + Fib 1.0 + Measured Move",
+        "est_days_to_t1": 11.8
+      },
+      {
+        "symbol": "CGPOWER",
+        "score": 70,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 13,
+          "Volume": 4,
+          "Price Action": 13,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 24 (Trending)",
+          "ADX Rising",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Sector Top 3: INFRA",
+          "Long Buildup (OI: 17,894,200)",
+          "High F&O Activity"
+        ],
+        "entry": 916.4,
+        "sl": 875.55,
+        "target1": 977.67,
+        "target2": 978.17,
+        "hold_period": "5-8 days",
+        "cmp": 916.4,
+        "target3": 1047.29,
+        "target_method": "Fib 1.618 + Weekly R3 + Fib 2.0 + Fib 2.618",
+        "est_days_to_t1": 6.2
+      },
+      {
+        "symbol": "ATGL",
+        "score": 69,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 9,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 33 (Strong Trend)",
+          "ADX Rising",
+          "MACD Fresh Crossover",
+          "Vol Surge 2.4x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 759.25,
+        "sl": 710.93,
+        "target1": 846.23,
+        "target2": 889.71,
+        "hold_period": "1-2 weeks",
+        "cmp": 759.25,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 9.8
+      },
+      {
+        "symbol": "CUMMINSIND",
+        "score": 68,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 4,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 65 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: INFRA",
+          "Long Buildup (OI: 3,352,200)",
+          "High F&O Activity"
+        ],
+        "entry": 5524.0,
+        "sl": 5328.77,
+        "target1": 5816.84,
+        "target2": 6012.07,
+        "hold_period": "3-4 weeks",
+        "cmp": 5524.0,
+        "target3": 6188.95,
+        "target_method": "Weekly R2 + Weekly R3 + Fib 1.0 + Measured Move",
+        "est_days_to_t1": 22.6
+      },
+      {
+        "symbol": "KIRLOSENG",
+        "score": 68,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 4,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 64 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: INFRA",
+          "Institutional Accumulation"
+        ],
+        "entry": 1778.6,
+        "sl": 1668.77,
+        "target1": 1998.27,
+        "target2": 2108.1,
+        "hold_period": "3-4 weeks",
+        "cmp": 1778.6,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 25
+      }
+    ]
   }
 ]

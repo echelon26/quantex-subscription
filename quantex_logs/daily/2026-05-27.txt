@@ -1,0 +1,34 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-05-27 at 04:30 AM IST
+Regime: NEUTRAL (mixed) | VIX: 15.86 | Min Score: 68
+Qualified: 5 stocks | Top 10 below
+============================================================
+
+1. HINDALCO -- Score: 74/100
+   Entry: 1149.00 | SL: 1102.82 | T1: 1218.27 | T2: 1264.45 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:4 PA:13 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 29 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Bullish, 20-Day Breakout, Morning Star, Strong RS vs Nifty, Sector Top 3: METALS, Long Buildup (OI: 31,648,400), High F&O Activity
+
+2. CGPOWER -- Score: 70/100
+   Entry: 916.40 | SL: 875.55 | T1: 977.67 | T2: 978.17 | RR: 1:1.5
+   Tr:18 Mo:13 Vo:4 PA:13 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 24 (Trending), ADX Rising, MACD Fresh Crossover, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: INFRA, Long Buildup (OI: 17,894,200), High F&O Activity
+
+3. ATGL -- Score: 69/100
+   Entry: 759.25 | SL: 710.93 | T1: 846.23 | T2: 889.71 | RR: 1:1.8
+   Tr:20 Mo:9 Vo:17 PA:8 RS:8 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 33 (Strong Trend), ADX Rising, MACD Fresh Crossover, Vol Surge 2.4x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+4. CUMMINSIND -- Score: 68/100
+   Entry: 5524.00 | SL: 5328.77 | T1: 5816.84 | T2: 6012.07 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:4 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 65 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: INFRA, Long Buildup (OI: 3,352,200), High F&O Activity
+
+5. KIRLOSENG -- Score: 68/100
+   Entry: 1778.60 | SL: 1668.77 | T1: 1998.27 | T2: 2108.10 | RR: 1:2.0
+   Tr:16 Mo:18 Vo:4 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 64 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: INFRA, Institutional Accumulation
+
+
+────────────────────────────────────────────────────────────
+
