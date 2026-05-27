@@ -15070,5 +15070,317 @@
         "est_days_to_t1": 25
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-27",
+    "scan_time": "2026-05-27T04:35:30.723856",
+    "total_qualified": 29,
+    "sector_rankings": {
+      "INFRA": 1,
+      "METALS": 2,
+      "REALTY": 3,
+      "INDEX_ETF": 4,
+      "BANKING": 5,
+      "FINANCE": 6,
+      "POWER": 7,
+      "DEFENCE": 8,
+      "AUTO": 9,
+      "ELECTRICALS": 10,
+      "CONSUMER": 11,
+      "CHEMICALS": 12,
+      "FMCG": 13,
+      "SILVER_ETF": 14,
+      "PHARMA": 15,
+      "ENERGY": 16,
+      "GOLD_ETF": 17,
+      "RAILWAY": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "HINDALCO",
+        "score": 83,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Sector Top 3: METALS",
+          "Long Buildup (OI: 31,683,400)",
+          "High F&O Activity"
+        ],
+        "entry": 1149.0,
+        "sl": 1102.71,
+        "target1": 1241.58,
+        "target2": 1287.87,
+        "hold_period": "1-2 weeks",
+        "cmp": 1149.0
+      },
+      {
+        "symbol": "CGPOWER",
+        "score": 80,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Sector Top 3: INFRA",
+          "Long Buildup (OI: 17,878,900)",
+          "High F&O Activity"
+        ],
+        "entry": 916.45,
+        "sl": 875.6,
+        "target1": 998.15,
+        "target2": 1039.0,
+        "hold_period": "1-2 weeks",
+        "cmp": 916.45
+      },
+      {
+        "symbol": "KIRLOSENG",
+        "score": 80,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 64 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: INFRA",
+          "Institutional Accumulation"
+        ],
+        "entry": 1781.9,
+        "sl": 1692.81,
+        "target1": 1960.09,
+        "target2": 2049.19,
+        "hold_period": "1-2 weeks",
+        "cmp": 1781.9
+      },
+      {
+        "symbol": "ATGL",
+        "score": 77,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 10,
+          "Volume": 20,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Fresh Crossover",
+          "Vol Surge 2.7x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 763.05,
+        "sl": 724.9,
+        "target1": 839.36,
+        "target2": 877.51,
+        "hold_period": "1-2 weeks",
+        "cmp": 763.05
+      },
+      {
+        "symbol": "CUMMINSIND",
+        "score": 76,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 11,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 65 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Outperforming Nifty",
+          "Sector Top 3: INFRA",
+          "Long Buildup (OI: 3,356,600)",
+          "High F&O Activity"
+        ],
+        "entry": 5524.5,
+        "sl": 5335.5,
+        "target1": 5902.5,
+        "target2": 6091.5,
+        "hold_period": "1-2 weeks",
+        "cmp": 5524.5
+      },
+      {
+        "symbol": "JSWENERGY",
+        "score": 75,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 22,335,000)",
+          "High F&O Activity"
+        ],
+        "entry": 591.8,
+        "sl": 565.97,
+        "target1": 643.46,
+        "target2": 669.29,
+        "hold_period": "1-2 weeks",
+        "cmp": 591.8
+      },
+      {
+        "symbol": "TIINDIA",
+        "score": 75,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 2,264,000)",
+          "High F&O Activity"
+        ],
+        "entry": 3182.8,
+        "sl": 3023.66,
+        "target1": 3501.08,
+        "target2": 3660.22,
+        "hold_period": "1-2 weeks",
+        "cmp": 3182.8
+      },
+      {
+        "symbol": "SIEMENS",
+        "score": 74,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 15,
+          "Price Action": 5,
+          "Relative Strength": 11,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 58 (Power Zone)",
+          "Strong Delivery (Close near High)",
+          "Bullish Engulfing, Morning Star",
+          "Outperforming Nifty",
+          "Sector Top 3: INFRA",
+          "Long Buildup (OI: 2,891,350)",
+          "High F&O Activity"
+        ],
+        "entry": 3800.0,
+        "sl": 3610.0,
+        "target1": 4180.0,
+        "target2": 4370.0,
+        "hold_period": "1-2 weeks",
+        "cmp": 3800.0
+      },
+      {
+        "symbol": "GRANULES",
+        "score": 73,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 15,
+          "Volume": 20,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "MACD Fresh Crossover",
+          "Vol Surge 4.5x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty"
+        ],
+        "entry": 794.7,
+        "sl": 759.3,
+        "target1": 865.5,
+        "target2": 900.9,
+        "hold_period": "1-2 weeks",
+        "cmp": 794.7
+      },
+      {
+        "symbol": "SAIL",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: METALS",
+          "Long Buildup (OI: 172,259,700)",
+          "High F&O Activity"
+        ],
+        "entry": 206.16,
+        "sl": 195.92,
+        "target1": 226.65,
+        "target2": 236.89,
+        "hold_period": "1-2 weeks",
+        "cmp": 206.16
+      }
+    ]
   }
 ]
