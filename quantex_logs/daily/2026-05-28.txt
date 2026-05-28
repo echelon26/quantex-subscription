@@ -57,3 +57,61 @@ Qualified: 10 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-05-28 at 04:35 AM IST
+Qualified: 35 stocks | Top 10 below
+============================================================
+
+1. KIRLOSENG — Score: 95/100
+   Entry: 1830.00 | SL: 1738.50 | T1: 2013.00 | T2: 2104.50 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:15 PA:15 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: INFRA, Institutional Accumulation
+
+2. CGPOWER — Score: 87/100
+   Entry: 934.80 | SL: 891.89 | T1: 1020.62 | T2: 1063.54 | RR: 1:2.0
+   Trend:15 Mom:15 Vol:20 PA:15 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, MACD Fresh Crossover, Vol Surge 2.2x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: INFRA, Long Buildup (OI: 17,834,700)
+
+3. HINDALCO — Score: 85/100
+   Entry: 1149.70 | SL: 1103.27 | T1: 1242.57 | T2: 1289.00 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:15 PA:15 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 69 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Sector Top 3: METALS, Long Buildup (OI: 31,273,900)
+
+4. JSWENERGY — Score: 85/100
+   Entry: 602.05 | SL: 574.40 | T1: 657.35 | T2: 685.00 | RR: 1:2.0
+   Trend:20 Mom:15 Vol:20 PA:10 RS:13 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Fresh Crossover, Vol Surge 2.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 23,832,000)
+
+5. TIINDIA — Score: 85/100
+   Entry: 3210.50 | SL: 3049.97 | T1: 3531.55 | T2: 3692.08 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:18 PA:15 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 70 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 2,336,200)
+
+6. EXIDEIND — Score: 82/100
+   Entry: 394.15 | SL: 374.84 | T1: 432.77 | T2: 452.08 | RR: 1:2.0
+   Trend:20 Mom:15 Vol:20 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, MACD Fresh Crossover, Vol Surge 4.9x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 26,271,000)
+
+7. CUMMINSIND — Score: 82/100
+   Entry: 6027.50 | SL: 5771.57 | T1: 6539.35 | T2: 6795.28 | RR: 1:2.0
+   Trend:20 Mom:10 Vol:20 PA:10 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Fresh Crossover, Vol Surge 3.8x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: INFRA, Long Buildup (OI: 3,439,200)
+
+8. JUNIORBEES — Score: 81/100
+   Entry: 775.11 | SL: 752.35 | T1: 820.63 | T2: 843.39 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:15 PA:10 RS:11 SM:10
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, RSI 64 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), Near Breakout, Bullish Engulfing, Outperforming Nifty, Sector Top 3: INDEX_ETF, Institutional Accumulation
+
+9. SIEMENS — Score: 80/100
+   Entry: 3878.70 | SL: 3684.76 | T1: 4266.57 | T2: 4460.50 | RR: 1:2.0
+   Trend:15 Mom:13 Vol:20 PA:10 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 61 (Power Zone), Vol Surge 3.3x, Strong Delivery (Close near High), Near Breakout, Bullish Engulfing, Morning Star, Strong RS vs Nifty, Sector Top 3: INFRA, Long Buildup (OI: 2,808,575)
+
+10. ATGL — Score: 77/100
+   Entry: 808.55 | SL: 768.12 | T1: 889.40 | T2: 929.83 | RR: 1:2.0
+   Trend:20 Mom:10 Vol:20 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, MACD Fresh Crossover, Vol Surge 7.9x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+
+────────────────────────────────────────────────────────────
+
