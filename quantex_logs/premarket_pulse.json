@@ -798,5 +798,31 @@
       "CARTRADE"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-27.pdf"
+  },
+  {
+    "date": "Thu, 28 May 2026",
+    "fear_greed": 58.3,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23907.15,
+    "nifty": 23907.15,
+    "sensex": 75867.8,
+    "bank_nifty": 54853.85,
+    "vix": 14.98,
+    "top_gainers": [
+      "JPPOWER",
+      "ATGL",
+      "CUMMINSIND",
+      "ZEEL",
+      "ENRIN"
+    ],
+    "top_losers": [
+      "TECHNOE",
+      "GESHIP",
+      "POLYMED",
+      "BLUEJET",
+      "ONGC"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-28.pdf"
   }
 ]
