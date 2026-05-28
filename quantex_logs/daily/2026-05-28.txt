@@ -115,3 +115,62 @@ Qualified: 35 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-05-28 at 10:30 AM IST
+Regime: NEUTRAL (mixed) | VIX: 14.98 | Min Score: 68
+Qualified: 10 stocks | Top 10 below
+============================================================
+
+1. KIRLOSENG -- Score: 81/100
+   Entry: 1830.00 | SL: 1715.58 | T1: 2001.62 | T2: 2116.04 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:12 PA:13 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 67 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: INFRA, Institutional Accumulation
+
+2. CGPOWER -- Score: 76/100
+   Entry: 934.80 | SL: 891.89 | T1: 999.17 | T2: 1042.08 | RR: 1:1.5
+   Tr:14 Mo:13 Vo:17 PA:13 RS:12 SM:7 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 24 (Trending), ADX Rising, MACD Fresh Crossover, Vol Surge 2.2x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: INFRA, Long Buildup (OI: 17,834,700)
+
+3. HINDALCO -- Score: 75/100
+   Entry: 1149.70 | SL: 1103.27 | T1: 1219.35 | T2: 1265.78 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:12 PA:13 RS:12 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 29 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Sector Top 3: METALS, Long Buildup (OI: 31,273,900)
+
+4. TIINDIA -- Score: 73/100
+   Entry: 3210.50 | SL: 3041.96 | T1: 3463.31 | T2: 3631.85 | RR: 1:1.5
+   Tr:12 Mo:18 Vo:15 PA:13 RS:8 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 70 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 2,336,200)
+
+5. JSWENERGY -- Score: 71/100
+   Entry: 602.05 | SL: 574.40 | T1: 643.52 | T2: 671.17 | RR: 1:1.5
+   Tr:16 Mo:13 Vo:17 PA:8 RS:10 SM:7 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, MACD Fresh Crossover, Vol Surge 2.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 23,832,000)
+
+6. SIEMENS -- Score: 70/100
+   Entry: 3878.70 | SL: 3655.34 | T1: 4325.43 | T2: 4548.79 | RR: 1:2.0
+   Tr:14 Mo:11 Vo:17 PA:9 RS:12 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 21 (Trending), RSI 61 (Power Zone), Vol Surge 3.3x, Strong Delivery (Close near High), Near Breakout, Bullish Engulfing, Morning Star, Strong RS vs Nifty, Sector Top 3: INFRA, Long Buildup (OI: 2,808,575)
+
+7. JUNIORBEES -- Score: 70/100
+   Entry: 775.11 | SL: 752.35 | T1: 820.63 | T2: 843.39 | RR: 1:2.0
+   Tr:12 Mo:18 Vo:12 PA:9 RS:9 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 64 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), Near Breakout, Bullish Engulfing, Outperforming Nifty, Sector Top 3: INDEX_ETF, Institutional Accumulation
+
+8. ATGL -- Score: 69/100
+   Entry: 808.55 | SL: 753.23 | T1: 883.24 | T2: 933.03 | RR: 1:1.4
+   Tr:20 Mo:9 Vo:17 PA:8 RS:8 SM:7 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX 34 (Strong Trend), ADX Rising, MACD Fresh Crossover, Vol Surge 7.9x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+9. EXIDEIND -- Score: 69/100
+   Entry: 394.15 | SL: 374.84 | T1: 432.77 | T2: 452.08 | RR: 1:2.0
+   Tr:16 Mo:13 Vo:17 PA:8 RS:8 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX Rising, MACD Fresh Crossover, Vol Surge 4.9x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 26,271,000)
+
+10. CUMMINSIND -- Score: 69/100
+   Entry: 6027.50 | SL: 5771.57 | T1: 6488.16 | T2: 6718.50 | RR: 1:1.8
+   Tr:16 Mo:9 Vo:17 PA:8 RS:12 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, MACD Fresh Crossover, Vol Surge 3.8x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: INFRA, Long Buildup (OI: 3,439,200)
+
+
+────────────────────────────────────────────────────────────
+
