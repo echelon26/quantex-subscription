@@ -16822,5 +16822,74 @@
         "est_days_to_t1": 25
       }
     ]
+  },
+  {
+    "scan_date": "2026-05-29",
+    "scan_time": "2026-05-29T04:30:53.904335",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 14.952500343322754
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 1,
+    "sector_rankings": {
+      "INFRA": 1,
+      "REALTY": 2,
+      "POWER": 3,
+      "AUTO": 4,
+      "METALS": 5,
+      "INDEX_ETF": 6,
+      "IT": 7,
+      "FINANCE": 8,
+      "CONSUMER": 9,
+      "PHARMA": 10,
+      "BANKING": 11,
+      "CHEMICALS": 12,
+      "ELECTRICALS": 13,
+      "FMCG": 14,
+      "SILVER_ETF": 15,
+      "GOLD_ETF": 16,
+      "ENERGY": 17,
+      "RAILWAY": 18,
+      "DEFENCE": 19
+    },
+    "top_10": [
+      {
+        "symbol": "RELAXO",
+        "score": 73,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 9,
+          "Volume": 17,
+          "Price Action": 13,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend FLIP Bullish",
+          "ADX Rising",
+          "MACD Fresh Crossover",
+          "Vol Surge 9.8x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 344.0,
+        "sl": 325.74,
+        "target1": 376.87,
+        "target2": 393.3,
+        "hold_period": "5-8 days",
+        "cmp": 344.0,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 7.4
+      }
+    ]
   }
 ]

@@ -1,0 +1,14 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-05-29 at 04:30 AM IST
+Regime: NEUTRAL (mixed) | VIX: 14.95 | Min Score: 68
+Qualified: 1 stocks | Top 10 below
+============================================================
+
+1. RELAXO -- Score: 73/100
+   Entry: 344.00 | SL: 325.74 | T1: 376.87 | T2: 393.30 | RR: 1:1.8
+   Tr:16 Mo:9 Vo:17 PA:13 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX Rising, MACD Fresh Crossover, Vol Surge 9.8x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Institutional Accumulation
+
+
+────────────────────────────────────────────────────────────
+
