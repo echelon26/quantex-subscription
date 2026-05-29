@@ -12,3 +12,61 @@ Qualified: 1 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-05-29 at 04:35 AM IST
+Qualified: 28 stocks | Top 10 below
+============================================================
+
+1. RELAXO — Score: 85/100
+   Entry: 345.15 | SL: 327.89 | T1: 379.66 | T2: 396.92 | RR: 1:2.0
+   Trend:20 Mom:10 Vol:20 PA:15 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, MACD Fresh Crossover, Vol Surge 10.6x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Institutional Accumulation
+
+2. GMRAIRPORT — Score: 85/100
+   Entry: 103.26 | SL: 98.88 | T1: 112.02 | T2: 116.40 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:20 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 65 (Power Zone), MACD Fresh Crossover, Vol Surge 2.4x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 121,051,125), High F&O Activity
+
+3. JSWENERGY — Score: 75/100
+   Entry: 616.95 | SL: 589.66 | T1: 671.53 | T2: 698.83 | RR: 1:2.0
+   Trend:15 Mom:15 Vol:5 PA:15 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, MACD Fresh Crossover, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: POWER, Long Buildup (OI: 24,410,000), High F&O Activity
+
+4. TRENT — Score: 75/100
+   Entry: 4317.00 | SL: 4157.30 | T1: 4636.40 | T2: 4796.10 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Fresh Crossover, Near Breakout, Morning Star, Strong RS vs Nifty, Long Buildup (OI: 6,125,000), High F&O Activity
+
+5. ALKEM — Score: 75/100
+   Entry: 5690.50 | SL: 5450.00 | T1: 6171.50 | T2: 6411.99 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:10 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 62 (Power Zone), MACD Fresh Crossover, Vol Surge 2.9x, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 1,366,375), High F&O Activity
+
+6. GPPL — Score: 71/100
+   Entry: 163.39 | SL: 156.60 | T1: 176.97 | T2: 183.76 | RR: 1:2.0
+   Trend:11 Mom:20 Vol:15 PA:5 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: RSI 63 (Power Zone), MACD Fresh Crossover, Vol Surge 3.4x, Near Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+7. LODHA — Score: 70/100
+   Entry: 955.40 | SL: 908.10 | T1: 1050.00 | T2: 1097.30 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 64 (Power Zone), MACD Fresh Crossover, Marubozu, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 12,314,700), High F&O Activity
+
+8. KIRLOSENG — Score: 70/100
+   Entry: 1831.90 | SL: 1740.31 | T1: 2015.09 | T2: 2106.69 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:0 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Sector Top 3: INFRA, Institutional Accumulation
+
+9. BANDHANBNK — Score: 70/100
+   Entry: 210.55 | SL: 200.86 | T1: 229.94 | T2: 239.63 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 70 (Power Zone), MACD Fresh Crossover, Near Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 103,024,800), High F&O Activity
+
+10. PERSISTENT — Score: 68/100
+   Entry: 5235.00 | SL: 4996.85 | T1: 5711.31 | T2: 5949.46 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 60 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 3,373,300), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
