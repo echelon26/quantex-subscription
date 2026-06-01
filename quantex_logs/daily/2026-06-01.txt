@@ -12,3 +12,61 @@ Qualified: 1 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-06-01 at 04:35 AM IST
+Qualified: 22 stocks | Top 10 below
+============================================================
+
+1. LUMAXTECH — Score: 82/100
+   Entry: 1776.50 | SL: 1687.67 | T1: 1954.15 | T2: 2042.98 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:15 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 63 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+2. TECHM — Score: 78/100
+   Entry: 1530.00 | SL: 1467.84 | T1: 1654.32 | T2: 1716.48 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 64 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Long Buildup (OI: 20,139,000), High F&O Activity
+
+3. PERSISTENT — Score: 78/100
+   Entry: 5445.50 | SL: 5195.98 | T1: 5944.55 | T2: 6194.07 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:15 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 67 (Power Zone), MACD Bullish, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: IT, Long Buildup (OI: 3,242,000), High F&O Activity
+
+4. COFORGE — Score: 73/100
+   Entry: 1468.00 | SL: 1394.60 | T1: 1614.80 | T2: 1688.20 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 67 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Long Buildup (OI: 15,261,375), High F&O Activity
+
+5. KIRLOSENG — Score: 70/100
+   Entry: 1970.50 | SL: 1871.97 | T1: 2167.55 | T2: 2266.08 | RR: 1:2.0
+   Trend:15 Mom:15 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: INFRA, Institutional Accumulation
+
+6. KPITTECH — Score: 68/100
+   Entry: 784.35 | SL: 753.95 | T1: 845.15 | T2: 875.55 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:0 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 65 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: IT, Long Buildup (OI: 7,492,750), High F&O Activity
+
+7. CHAMBLFERT — Score: 65/100
+   Entry: 474.40 | SL: 456.10 | T1: 511.00 | T2: 529.30 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Consistent Buying
+
+8. THERMAX — Score: 65/100
+   Entry: 4913.10 | SL: 4667.44 | T1: 5404.41 | T2: 5650.07 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:0 PA:0 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 70 (Power Zone), MACD Fresh Crossover, Strong RS vs Nifty, Sector Top 3: INFRA, Institutional Accumulation
+
+9. ACMESOLAR — Score: 65/100
+   Entry: 321.60 | SL: 305.52 | T1: 353.76 | T2: 369.84 | RR: 1:2.0
+   Trend:15 Mom:13 Vol:10 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+10. MPHASIS — Score: 64/100
+   Entry: 2349.10 | SL: 2238.59 | T1: 2570.12 | T2: 2680.63 | RR: 1:2.0
+   Trend:11 Mom:18 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: RSI 63 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: IT, Long Buildup (OI: 4,217,400), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
