@@ -850,5 +850,31 @@
       "ONGC"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-29.pdf"
+  },
+  {
+    "date": "Mon, 01 Jun 2026",
+    "fear_greed": 46.0,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23547.75,
+    "nifty": 23547.75,
+    "sensex": 74775.74,
+    "bank_nifty": 54239.2,
+    "vix": 16.19,
+    "top_gainers": [
+      "NETWEB",
+      "WOCKPHARMA",
+      "TEGA",
+      "CPPLUS",
+      "THERMAX"
+    ],
+    "top_losers": [
+      "NATCOPHARM",
+      "JYOTICNC",
+      "MCX",
+      "GESHIP",
+      "BDL"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-01.pdf"
   }
 ]
