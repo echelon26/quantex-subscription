@@ -17841,5 +17841,76 @@
         "cmp": 2349.1
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-01",
+    "scan_time": "2026-06-01T10:30:56.955085",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 16.542499542236328
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 1,
+    "sector_rankings": {
+      "METALS": 1,
+      "IT": 2,
+      "INFRA": 3,
+      "POWER": 4,
+      "INDEX_ETF": 5,
+      "GOLD_ETF": 6,
+      "CHEMICALS": 7,
+      "PHARMA": 8,
+      "CONSUMER": 9,
+      "SILVER_ETF": 10,
+      "REALTY": 11,
+      "AUTO": 12,
+      "BANKING": 13,
+      "FMCG": 14,
+      "FINANCE": 15,
+      "ENERGY": 16,
+      "ELECTRICALS": 17,
+      "DEFENCE": 18,
+      "RAILWAY": 19
+    },
+    "top_10": [
+      {
+        "symbol": "TECHM",
+        "score": 74,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 15,
+          "Volume": 13,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 2.2x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: IT",
+          "Long Buildup (OI: 22,123,800)",
+          "High F&O Activity"
+        ],
+        "entry": 1539.0,
+        "sl": 1473.84,
+        "target1": 1636.74,
+        "target2": 1701.9,
+        "hold_period": "3-4 weeks",
+        "cmp": 1539.0,
+        "target3": 1686.3,
+        "target_method": "52W High + Fib 1.272 + Weekly R3 + Fib 1.618",
+        "est_days_to_t1": 19.5
+      }
+    ]
   }
 ]

@@ -70,3 +70,17 @@ Qualified: 22 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-06-01 at 10:30 AM IST
+Regime: NEUTRAL (mixed) | VIX: 16.54 | Min Score: 68
+Qualified: 1 stocks | Top 10 below
+============================================================
+
+1. TECHM -- Score: 74/100
+   Entry: 1539.00 | SL: 1473.84 | T1: 1636.74 | T2: 1701.90 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:13 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 65 (Power Zone), MACD Bullish, Vol Surge 2.2x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Long Buildup (OI: 22,123,800), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
