@@ -876,5 +876,31 @@
       "BDL"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-01.pdf"
+  },
+  {
+    "date": "Tue, 02 Jun 2026",
+    "fear_greed": 40.0,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23382.6,
+    "nifty": 23382.6,
+    "sensex": 74267.34,
+    "bank_nifty": 53643.1,
+    "vix": 16.54,
+    "top_gainers": [
+      "PTCIL",
+      "NSLNISP",
+      "SAREGAMA",
+      "CPPLUS",
+      "WOCKPHARMA"
+    ],
+    "top_losers": [
+      "JPPOWER",
+      "FINCABLES",
+      "RHIM",
+      "INOXWIND",
+      "JMFINANCIL"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-02.pdf"
   }
 ]
