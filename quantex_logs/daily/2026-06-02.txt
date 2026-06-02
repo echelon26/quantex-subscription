@@ -1,0 +1,19 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-06-02 at 04:30 AM IST
+Regime: NEUTRAL (mixed) | VIX: 16.03 | Min Score: 68
+Qualified: 2 stocks | Top 10 below
+============================================================
+
+1. ZENSARTECH -- Score: 76/100
+   Entry: 527.00 | SL: 500.79 | T1: 579.43 | T2: 605.64 | RR: 1:2.0
+   Tr:13 Mo:15 Vo:17 PA:9 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: Supertrend Bullish, ADX 23 (Trending), RSI 58 (Power Zone), MACD Bullish, Vol Surge 2.8x, Strong Delivery (Close near High), Near Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: IT, Institutional Accumulation
+
+2. HINDALCO -- Score: 70/100
+   Entry: 1156.00 | SL: 1108.98 | T1: 1226.53 | T2: 1273.55 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:4 PA:9 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 33 (Strong Trend), ADX Rising, RSI 67 (Power Zone), MACD Bullish, Near Breakout, Morning Star, Strong RS vs Nifty, Sector Top 3: METALS, Long Buildup (OI: 31,033,800), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+

@@ -17912,5 +17912,111 @@
         "est_days_to_t1": 19.5
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-02",
+    "scan_time": "2026-06-02T04:30:59.308169",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 16.030000686645508
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 2,
+    "sector_rankings": {
+      "IT": 1,
+      "METALS": 2,
+      "SILVER_ETF": 3,
+      "GOLD_ETF": 4,
+      "INFRA": 5,
+      "CONSUMER": 6,
+      "REALTY": 7,
+      "INDEX_ETF": 8,
+      "CHEMICALS": 9,
+      "POWER": 10,
+      "ELECTRICALS": 11,
+      "PHARMA": 12,
+      "AUTO": 13,
+      "BANKING": 14,
+      "ENERGY": 15,
+      "FMCG": 16,
+      "FINANCE": 17,
+      "RAILWAY": 18,
+      "DEFENCE": 19
+    },
+    "top_10": [
+      {
+        "symbol": "ZENSARTECH",
+        "score": 76,
+        "breakdown": {
+          "Trend": 13,
+          "Momentum": 15,
+          "Volume": 17,
+          "Price Action": 9,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "ADX 23 (Trending)",
+          "RSI 58 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 2.8x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Sector Top 3: IT",
+          "Institutional Accumulation"
+        ],
+        "entry": 527.0,
+        "sl": 500.79,
+        "target1": 579.43,
+        "target2": 605.64,
+        "hold_period": "3-4 weeks",
+        "cmp": 527.0,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 20.2
+      },
+      {
+        "symbol": "HINDALCO",
+        "score": 70,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 9,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 33 (Strong Trend)",
+          "ADX Rising",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Sector Top 3: METALS",
+          "Long Buildup (OI: 31,033,800)",
+          "High F&O Activity"
+        ],
+        "entry": 1156.0,
+        "sl": 1108.98,
+        "target1": 1226.53,
+        "target2": 1273.55,
+        "hold_period": "1-2 weeks",
+        "cmp": 1156.0,
+        "target3": 1267.07,
+        "target_method": "52W High + Weekly R1 + Weekly R2 + Fib 1.0",
+        "est_days_to_t1": 11.8
+      }
+    ]
   }
 ]
