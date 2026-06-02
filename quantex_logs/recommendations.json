@@ -18018,5 +18018,315 @@
         "est_days_to_t1": 11.8
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-02",
+    "scan_time": "2026-06-02T04:35:33.995226",
+    "total_qualified": 31,
+    "sector_rankings": {
+      "IT": 1,
+      "METALS": 2,
+      "SILVER_ETF": 3,
+      "GOLD_ETF": 4,
+      "INFRA": 5,
+      "REALTY": 6,
+      "CONSUMER": 7,
+      "INDEX_ETF": 8,
+      "CHEMICALS": 9,
+      "ELECTRICALS": 10,
+      "AUTO": 11,
+      "POWER": 12,
+      "BANKING": 13,
+      "PHARMA": 14,
+      "ENERGY": 15,
+      "FMCG": 16,
+      "FINANCE": 17,
+      "RAILWAY": 18,
+      "DEFENCE": 19
+    },
+    "top_10": [
+      {
+        "symbol": "MASTEK",
+        "score": 82,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 20,
+          "Volume": 15,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 61 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: IT",
+          "Consistent Buying"
+        ],
+        "entry": 1724.5,
+        "sl": 1638.27,
+        "target1": 1896.95,
+        "target2": 1983.18,
+        "hold_period": "1-2 weeks",
+        "cmp": 1724.5
+      },
+      {
+        "symbol": "TATAELXSI",
+        "score": 79,
+        "breakdown": {
+          "Trend": 11,
+          "Momentum": 18,
+          "Volume": 10,
+          "Price Action": 15,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "RSI 63 (Power Zone)",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Bullish Engulfing, Morning Star, Marubozu",
+          "Strong RS vs Nifty",
+          "Sector Top 3: IT",
+          "Long Buildup (OI: 1,707,400)",
+          "High F&O Activity"
+        ],
+        "entry": 4447.9,
+        "sl": 4282.44,
+        "target1": 4778.82,
+        "target2": 4944.27,
+        "hold_period": "1-2 weeks",
+        "cmp": 4447.9
+      },
+      {
+        "symbol": "HINDALCO",
+        "score": 78,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Sector Top 3: METALS",
+          "Long Buildup (OI: 31,081,400)",
+          "High F&O Activity"
+        ],
+        "entry": 1153.8,
+        "sl": 1106.78,
+        "target1": 1247.84,
+        "target2": 1294.87,
+        "hold_period": "1-2 weeks",
+        "cmp": 1153.8
+      },
+      {
+        "symbol": "ACMESOLAR",
+        "score": 78,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 13,
+          "Volume": 18,
+          "Price Action": 15,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "MACD Bullish",
+          "Vol Above Avg 1.8x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 326.0,
+        "sl": 309.7,
+        "target1": 358.6,
+        "target2": 374.9,
+        "hold_period": "1-2 weeks",
+        "cmp": 326.0
+      },
+      {
+        "symbol": "INFY",
+        "score": 74,
+        "breakdown": {
+          "Trend": 11,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "RSI 63 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Sector Top 3: IT",
+          "Long Buildup (OI: 86,035,600)",
+          "High F&O Activity"
+        ],
+        "entry": 1258.6,
+        "sl": 1207.34,
+        "target1": 1361.12,
+        "target2": 1412.38,
+        "hold_period": "1-2 weeks",
+        "cmp": 1258.6
+      },
+      {
+        "symbol": "PERSISTENT",
+        "score": 73,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: IT",
+          "Long Buildup (OI: 3,195,800)",
+          "High F&O Activity"
+        ],
+        "entry": 5519.0,
+        "sl": 5267.81,
+        "target1": 6021.39,
+        "target2": 6272.58,
+        "hold_period": "1-2 weeks",
+        "cmp": 5519.0
+      },
+      {
+        "symbol": "MPHASIS",
+        "score": 73,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: IT",
+          "Long Buildup (OI: 4,177,250)",
+          "High F&O Activity"
+        ],
+        "entry": 2387.0,
+        "sl": 2272.41,
+        "target1": 2616.18,
+        "target2": 2730.77,
+        "hold_period": "1-2 weeks",
+        "cmp": 2387.0
+      },
+      {
+        "symbol": "KPITTECH",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: IT",
+          "Long Buildup (OI: 7,712,900)",
+          "High F&O Activity"
+        ],
+        "entry": 813.0,
+        "sl": 772.35,
+        "target1": 894.3,
+        "target2": 934.95,
+        "hold_period": "1-2 weeks",
+        "cmp": 813.0
+      },
+      {
+        "symbol": "SONATSOFTW",
+        "score": 73,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 20,
+          "Volume": 20,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 64 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 2.4x",
+          "Strong Delivery (Close near High)",
+          "Morning Star",
+          "Strong RS vs Nifty"
+        ],
+        "entry": 288.95,
+        "sl": 274.5,
+        "target1": 317.84,
+        "target2": 332.29,
+        "hold_period": "1-2 weeks",
+        "cmp": 288.95
+      },
+      {
+        "symbol": "ZENSARTECH",
+        "score": 72,
+        "breakdown": {
+          "Trend": 9,
+          "Momentum": 18,
+          "Volume": 20,
+          "Price Action": 0,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 56 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 3.2x",
+          "Strong Delivery (Close near High)",
+          "Strong RS vs Nifty",
+          "Sector Top 3: IT",
+          "Institutional Accumulation"
+        ],
+        "entry": 522.5,
+        "sl": 496.38,
+        "target1": 574.75,
+        "target2": 600.88,
+        "hold_period": "1-2 weeks",
+        "cmp": 522.5
+      }
+    ]
   }
 ]

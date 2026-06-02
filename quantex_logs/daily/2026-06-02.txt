@@ -17,3 +17,61 @@ Qualified: 2 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-06-02 at 04:35 AM IST
+Qualified: 31 stocks | Top 10 below
+============================================================
+
+1. MASTEK — Score: 82/100
+   Entry: 1724.50 | SL: 1638.27 | T1: 1896.95 | T2: 1983.18 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:15 PA:10 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 61 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Consistent Buying
+
+2. TATAELXSI — Score: 79/100
+   Entry: 4447.90 | SL: 4282.44 | T1: 4778.82 | T2: 4944.27 | RR: 1:2.0
+   Trend:11 Mom:18 Vol:10 PA:15 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: RSI 63 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Morning Star, Marubozu, Strong RS vs Nifty, Sector Top 3: IT, Long Buildup (OI: 1,707,400), High F&O Activity
+
+3. HINDALCO — Score: 78/100
+   Entry: 1153.80 | SL: 1106.78 | T1: 1247.84 | T2: 1294.87 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, Near Breakout, Morning Star, Strong RS vs Nifty, Sector Top 3: METALS, Long Buildup (OI: 31,081,400), High F&O Activity
+
+4. ACMESOLAR — Score: 78/100
+   Entry: 326.00 | SL: 309.70 | T1: 358.60 | T2: 374.90 | RR: 1:2.0
+   Trend:15 Mom:13 Vol:18 PA:15 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, MACD Bullish, Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Consistent Buying
+
+5. INFY — Score: 74/100
+   Entry: 1258.60 | SL: 1207.34 | T1: 1361.12 | T2: 1412.38 | RR: 1:2.0
+   Trend:11 Mom:18 Vol:5 PA:15 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: RSI 63 (Power Zone), MACD Bullish, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: IT, Long Buildup (OI: 86,035,600), High F&O Activity
+
+6. PERSISTENT — Score: 73/100
+   Entry: 5519.00 | SL: 5267.81 | T1: 6021.39 | T2: 6272.58 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 69 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Long Buildup (OI: 3,195,800), High F&O Activity
+
+7. MPHASIS — Score: 73/100
+   Entry: 2387.00 | SL: 2272.41 | T1: 2616.18 | T2: 2730.77 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 66 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Long Buildup (OI: 4,177,250), High F&O Activity
+
+8. KPITTECH — Score: 73/100
+   Entry: 813.00 | SL: 772.35 | T1: 894.30 | T2: 934.95 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Long Buildup (OI: 7,712,900), High F&O Activity
+
+9. SONATSOFTW — Score: 73/100
+   Entry: 288.95 | SL: 274.50 | T1: 317.84 | T2: 332.29 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:20 PA:5 RS:10 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 64 (Power Zone), MACD Fresh Crossover, Vol Surge 2.4x, Strong Delivery (Close near High), Morning Star, Strong RS vs Nifty
+
+10. ZENSARTECH — Score: 72/100
+   Entry: 522.50 | SL: 496.38 | T1: 574.75 | T2: 600.88 | RR: 1:2.0
+   Trend:9 Mom:18 Vol:20 PA:0 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 56 (Power Zone), MACD Bullish, Vol Surge 3.2x, Strong Delivery (Close near High), Strong RS vs Nifty, Sector Top 3: IT, Institutional Accumulation
+
+
+────────────────────────────────────────────────────────────
+
