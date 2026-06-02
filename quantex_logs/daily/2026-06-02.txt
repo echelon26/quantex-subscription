@@ -75,3 +75,62 @@ Qualified: 31 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-06-02 at 10:31 AM IST
+Regime: NEUTRAL (mixed) | VIX: 15.35 | Min Score: 68
+Qualified: 11 stocks | Top 10 below
+============================================================
+
+1. TATAELXSI -- Score: 77/100
+   Entry: 4534.00 | SL: 4359.67 | T1: 4795.49 | T2: 4969.82 | RR: 1:1.5
+   Tr:10 Mo:15 Vo:17 PA:13 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 67 (Power Zone), MACD Bullish, Vol Surge 3.5x, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Morning Star, Marubozu, Strong RS vs Nifty, Sector Top 3: IT, Long Buildup (OI: 1,762,000), High F&O Activity
+
+2. EXIDEIND -- Score: 76/100
+   Entry: 407.80 | SL: 387.72 | T1: 437.92 | T2: 449.18 | RR: 1:1.5
+   Tr:20 Mo:10 Vo:15 PA:13 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 25 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.5x, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Long Buildup (OI: 26,982,000), High F&O Activity
+
+3. TCS -- Score: 75/100
+   Entry: 2451.10 | SL: 2354.78 | T1: 2595.58 | T2: 2691.90 | RR: 1:1.5
+   Tr:9 Mo:18 Vo:17 PA:9 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: ADX 22 (Trending), RSI 60 (Power Zone), MACD Fresh Crossover, Vol Surge 2.2x, Strong Delivery (Close near High), Near Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: IT, Long Buildup (OI: 40,990,600), High F&O Activity
+
+4. INFY -- Score: 72/100
+   Entry: 1268.10 | SL: 1214.88 | T1: 1347.93 | T2: 1370.02 | RR: 1:1.5
+   Tr:10 Mo:15 Vo:17 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, RSI 64 (Power Zone), MACD Bullish, Vol Surge 2.2x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Long Buildup (OI: 87,876,000), High F&O Activity
+
+5. WIPRO -- Score: 72/100
+   Entry: 210.10 | SL: 202.96 | T1: 220.81 | T2: 227.95 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:12 PA:9 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 21 (Trending), ADX Rising, RSI 65 (Power Zone), MACD Bullish, Strong Delivery (Close near High), Near Breakout, Morning Star, Strong RS vs Nifty, Sector Top 3: IT, Long Buildup (OI: 253,509,000), High F&O Activity
+
+6. GOLDIAM -- Score: 72/100
+   Entry: 424.00 | SL: 394.32 | T1: 468.52 | T2: 498.20 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:9 PA:5 RS:10 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 25 (Strong Trend), ADX Rising, RSI 65 (Power Zone), MACD Fresh Crossover, Vol Surge 2.4x, Morning Star, Strong RS vs Nifty, Institutional Accumulation
+
+7. MASTEK -- Score: 70/100
+   Entry: 1731.30 | SL: 1629.13 | T1: 1884.55 | T2: 1986.72 | RR: 1:1.5
+   Tr:12 Mo:18 Vo:13 PA:8 RS:12 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 61 (Power Zone), MACD Fresh Crossover, Vol Surge 5.6x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Consistent Buying
+
+8. NETWEB -- Score: 70/100
+   Entry: 4812.00 | SL: 4475.16 | T1: 5317.26 | T2: 5654.10 | RR: 1:1.5
+   Tr:18 Mo:13 Vo:15 PA:5 RS:12 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 23 (Trending), ADX Rising, MACD Fresh Crossover, Vol Above Avg 2.0x, Strong Delivery (Close near High), Bullish Engulfing, Strong RS vs Nifty, Sector Top 3: IT, Consistent Buying
+
+9. STARHEALTH -- Score: 70/100
+   Entry: 537.00 | SL: 519.40 | T1: 572.20 | T2: 578.93 | RR: 1:2.0
+   Tr:16 Mo:18 Vo:12 PA:9 RS:8 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 36 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), Near Breakout, Hammer, Strong RS vs Nifty, Consistent Buying
+
+10. ACMESOLAR -- Score: 70/100
+   Entry: 335.00 | SL: 313.55 | T1: 373.62 | T2: 392.92 | RR: 1:1.8
+   Tr:16 Mo:6 Vo:17 PA:13 RS:8 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 32 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 4.7x, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Institutional Accumulation
+
+
+────────────────────────────────────────────────────────────
+
