@@ -7,3 +7,56 @@ Qualified: 0 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-06-03 at 04:35 AM IST
+Qualified: 9 stocks | Top 10 below
+============================================================
+
+1. JSWSTEEL — Score: 73/100
+   Entry: 1311.30 | SL: 1271.30 | T1: 1391.31 | T2: 1431.31 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:5 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 42,356,250), High F&O Activity
+
+2. WIPRO — Score: 68/100
+   Entry: 207.70 | SL: 200.66 | T1: 221.78 | T2: 228.82 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:15 SM:5
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: IT, High F&O Activity
+
+3. MOTHERSON — Score: 68/100
+   Entry: 145.09 | SL: 137.84 | T1: 159.60 | T2: 166.85 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Bullish, Hammer, Strong RS vs Nifty, Long Buildup (OI: 154,235,850), High F&O Activity
+
+4. GOLDIAM — Score: 65/100
+   Entry: 432.15 | SL: 410.54 | T1: 475.37 | T2: 496.97 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:0 RS:13 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Fresh Crossover, Strong RS vs Nifty, Consistent Buying
+
+5. STARHEALTH — Score: 62/100
+   Entry: 535.80 | SL: 519.35 | T1: 568.70 | T2: 585.15 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:0 PA:5 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Consistent Buying
+
+6. NATIONALUM — Score: 61/100
+   Entry: 434.65 | SL: 416.80 | T1: 470.35 | T2: 488.20 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:0 PA:0 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Bullish, Strong RS vs Nifty, Long Buildup (OI: 43,905,000), High F&O Activity
+
+7. RELAXO — Score: 60/100
+   Entry: 336.95 | SL: 320.10 | T1: 370.65 | T2: 387.49 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:0 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, Strong RS vs Nifty, Consistent Buying
+
+8. IIFL — Score: 60/100
+   Entry: 492.50 | SL: 467.88 | T1: 541.75 | T2: 566.38 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:5 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 62 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Consistent Buying
+
+9. FEDERALBNK — Score: 60/100
+   Entry: 293.00 | SL: 283.60 | T1: 311.80 | T2: 321.20 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:0 PA:5 RS:10 SM:5
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 57 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+

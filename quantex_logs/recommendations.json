@@ -18744,5 +18744,276 @@
       "POWER": 19
     },
     "top_10": []
+  },
+  {
+    "scan_date": "2026-06-03",
+    "scan_time": "2026-06-03T04:35:36.073223",
+    "total_qualified": 9,
+    "sector_rankings": {
+      "IT": 1,
+      "SILVER_ETF": 2,
+      "CHEMICALS": 3,
+      "GOLD_ETF": 4,
+      "METALS": 5,
+      "CONSUMER": 6,
+      "INFRA": 7,
+      "BANKING": 8,
+      "INDEX_ETF": 9,
+      "AUTO": 10,
+      "PHARMA": 11,
+      "REALTY": 12,
+      "ENERGY": 13,
+      "FMCG": 14,
+      "ELECTRICALS": 15,
+      "RAILWAY": 16,
+      "DEFENCE": 17,
+      "FINANCE": 18,
+      "POWER": 19
+    },
+    "top_10": [
+      {
+        "symbol": "JSWSTEEL",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 61 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 42,356,250)",
+          "High F&O Activity"
+        ],
+        "entry": 1311.3,
+        "sl": 1271.3,
+        "target1": 1391.31,
+        "target2": 1431.31,
+        "hold_period": "1-2 weeks",
+        "cmp": 1311.3
+      },
+      {
+        "symbol": "WIPRO",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 5
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 61 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: IT",
+          "High F&O Activity"
+        ],
+        "entry": 207.7,
+        "sl": 200.66,
+        "target1": 221.78,
+        "target2": 228.82,
+        "hold_period": "1-2 weeks",
+        "cmp": 207.7
+      },
+      {
+        "symbol": "MOTHERSON",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "Hammer",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 154,235,850)",
+          "High F&O Activity"
+        ],
+        "entry": 145.09,
+        "sl": 137.84,
+        "target1": 159.6,
+        "target2": 166.85,
+        "hold_period": "1-2 weeks",
+        "cmp": 145.09
+      },
+      {
+        "symbol": "GOLDIAM",
+        "score": 65,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 0,
+          "Relative Strength": 13,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 432.15,
+        "sl": 410.54,
+        "target1": 475.37,
+        "target2": 496.97,
+        "hold_period": "1-2 weeks",
+        "cmp": 432.15
+      },
+      {
+        "symbol": "STARHEALTH",
+        "score": 62,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 0,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 535.8,
+        "sl": 519.35,
+        "target1": 568.7,
+        "target2": 585.15,
+        "hold_period": "1-2 weeks",
+        "cmp": 535.8
+      },
+      {
+        "symbol": "NATIONALUM",
+        "score": 61,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 0,
+          "Price Action": 0,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 61 (Power Zone)",
+          "MACD Bullish",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 43,905,000)",
+          "High F&O Activity"
+        ],
+        "entry": 434.65,
+        "sl": 416.8,
+        "target1": 470.35,
+        "target2": 488.2,
+        "hold_period": "1-2 weeks",
+        "cmp": 434.65
+      },
+      {
+        "symbol": "RELAXO",
+        "score": 60,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 0,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 336.95,
+        "sl": 320.1,
+        "target1": 370.65,
+        "target2": 387.49,
+        "hold_period": "1-2 weeks",
+        "cmp": 336.95
+      },
+      {
+        "symbol": "IIFL",
+        "score": 60,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 62 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 492.5,
+        "sl": 467.88,
+        "target1": 541.75,
+        "target2": 566.38,
+        "hold_period": "1-2 weeks",
+        "cmp": 492.5
+      },
+      {
+        "symbol": "FEDERALBNK",
+        "score": 60,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 0,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 5
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 57 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "High F&O Activity"
+        ],
+        "entry": 293.0,
+        "sl": 283.6,
+        "target1": 311.8,
+        "target2": 321.2,
+        "hold_period": "1-2 weeks",
+        "cmp": 293.0
+      }
+    ]
   }
 ]
