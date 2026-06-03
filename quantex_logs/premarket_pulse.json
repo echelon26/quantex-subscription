@@ -902,5 +902,31 @@
       "JMFINANCIL"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-02.pdf"
+  },
+  {
+    "date": "Wed, 03 Jun 2026",
+    "fear_greed": 45.9,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23483.55,
+    "nifty": 23483.55,
+    "sensex": 74649.84,
+    "bank_nifty": 53714.65,
+    "vix": 15.36,
+    "top_gainers": [
+      "NEWGEN",
+      "CONCORDBIO",
+      "ACMESOLAR",
+      "JMFINANCIL",
+      "HEXT"
+    ],
+    "top_losers": [
+      "WOCKPHARMA",
+      "NHPC",
+      "FORCEMOT",
+      "RHIM",
+      "SCHNEIDER"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-03.pdf"
   }
 ]
