@@ -19015,5 +19015,74 @@
         "cmp": 293.0
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-03",
+    "scan_time": "2026-06-03T10:31:02.105604",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 16.27750015258789
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 1,
+    "sector_rankings": {
+      "IT": 1,
+      "CONSUMER": 2,
+      "METALS": 3,
+      "BANKING": 4,
+      "CHEMICALS": 5,
+      "GOLD_ETF": 6,
+      "SILVER_ETF": 7,
+      "INFRA": 8,
+      "INDEX_ETF": 9,
+      "AUTO": 10,
+      "ENERGY": 11,
+      "REALTY": 12,
+      "PHARMA": 13,
+      "DEFENCE": 14,
+      "RAILWAY": 15,
+      "FMCG": 16,
+      "ELECTRICALS": 17,
+      "FINANCE": 18,
+      "POWER": 19
+    },
+    "top_10": [
+      {
+        "symbol": "WELCORP",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 6,
+          "Volume": 15,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 45 (Strong Trend)",
+          "Vol Above Avg 2.0x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: METALS",
+          "Consistent Buying"
+        ],
+        "entry": 1419.8,
+        "sl": 1348.51,
+        "target1": 1526.73,
+        "target2": 1529.4,
+        "hold_period": "3-5 days",
+        "cmp": 1419.8,
+        "target3": 1870.6,
+        "target_method": "Weekly R2 + Weekly R3 + Fib 1.0 + Measured Move",
+        "est_days_to_t1": 4.9
+      }
+    ]
   }
 ]

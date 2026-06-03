@@ -60,3 +60,17 @@ Qualified: 9 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-06-03 at 10:31 AM IST
+Regime: NEUTRAL (mixed) | VIX: 16.28 | Min Score: 68
+Qualified: 1 stocks | Top 10 below
+============================================================
+
+1. WELCORP -- Score: 68/100
+   Entry: 1419.80 | SL: 1348.51 | T1: 1526.73 | T2: 1529.40 | RR: 1:1.5
+   Tr:20 Mo:6 Vo:15 PA:8 RS:12 SM:7 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 45 (Strong Trend), Vol Above Avg 2.0x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: METALS, Consistent Buying
+
+
+────────────────────────────────────────────────────────────
+
