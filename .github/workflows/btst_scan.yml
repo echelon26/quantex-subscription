@@ -41,7 +41,13 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TELEGRAM_ADMIN_GROUPS: ${{ secrets.TELEGRAM_ADMIN_GROUPS }}
-          TELEGRAM_SIGNAL_GROUPS: ${{ secrets.TELEGRAM_SIGNAL_GROUPS }}
+          # Kite Connect — live data for today's bar (critical at 3:20 PM IST
+          # when yfinance daily bar is still incomplete)
+          KITE_API_KEY: ${{ secrets.KITE_API_KEY }}
+          KITE_API_SECRET: ${{ secrets.KITE_API_SECRET }}
+          ZERODHA_USER_ID: ${{ secrets.ZERODHA_USER_ID }}
+          ZERODHA_PASSWORD: ${{ secrets.ZERODHA_PASSWORD }}
+          ZERODHA_TOTP_KEY: ${{ secrets.ZERODHA_TOTP_KEY }}
         run: python btst_scanner.py
 
       - name: Commit results
