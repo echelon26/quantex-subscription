@@ -36,7 +36,7 @@ import time
 import io
 import contextlib
 import logging
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 from pathlib import Path
 
 import pandas as pd
@@ -60,6 +60,55 @@ import yfinance as yf
 import ta
 import requests
 
+# Kite integration — reuse pro_scanner's KiteSession (single source of truth
+# for login + instrument mapping + quote API)
+try:
+    from pro_scanner import KiteSession  # type: ignore
+    _KITE_CLASS_AVAILABLE = True
+except Exception as _kite_imp_err:
+    _KITE_CLASS_AVAILABLE = False
+    KiteSession = None
+    print(f"!! Kite class unavailable ({_kite_imp_err}); will use yfinance only")
+
+_kite = None  # global Kite session, lazily initialised
+
+def _kite_credentials_present():
+    return all([KITE_API_KEY, KITE_API_SECRET, ZERODHA_USER_ID, ZERODHA_PASSWORD, ZERODHA_TOTP_KEY])
+
+
+def _init_kite():
+    """Lazily login to Kite. Returns logged-in session or None if unavailable."""
+    global _kite
+    if _kite is not None:
+        return _kite if _kite.logged_in else None
+    if not _KITE_CLASS_AVAILABLE or not _kite_credentials_present():
+        _kite = type('NullKite', (), {'logged_in': False})()  # sentinel so we don't retry
+        return None
+    _kite = KiteSession()
+    if _kite.login():
+        return _kite
+    return None
+
+
+def _augment_with_live(df, quote):
+    """Replace the last row of df with live OHLCV from a Kite quote dict."""
+    if quote is None or 'last_price' not in quote:
+        return df
+    ohlc = quote.get('ohlc', {}) or {}
+    last_price = float(quote['last_price'])
+    o = float(ohlc.get('open', df.iloc[-1]['Open']))
+    h = max(float(ohlc.get('high', df.iloc[-1]['High'])), last_price)
+    l = min(float(ohlc.get('low', df.iloc[-1]['Low'])), last_price)
+    v = float(quote.get('volume', df.iloc[-1]['Volume']))
+    # Use .iloc indexers safely
+    idx = df.index[-1]
+    df.at[idx, 'Open'] = o
+    df.at[idx, 'High'] = h
+    df.at[idx, 'Low'] = l
+    df.at[idx, 'Close'] = last_price
+    df.at[idx, 'Volume'] = v
+    return df
+
 
 # ──────────────────────────────────────────────────────────────────────────────
 # CONFIG
@@ -68,6 +117,14 @@ import requests
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
 TELEGRAM_ADMIN_GROUPS = os.environ.get("TELEGRAM_ADMIN_GROUPS", "").strip()
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
+
+# Kite Connect — live data for today's bar (critical for BTST since scanner
+# runs at 3:20 PM IST when yfinance daily bar is still incomplete)
+KITE_API_KEY = os.environ.get("KITE_API_KEY", "").strip()
+KITE_API_SECRET = os.environ.get("KITE_API_SECRET", "").strip()
+ZERODHA_USER_ID = os.environ.get("ZERODHA_USER_ID", "").strip()
+ZERODHA_PASSWORD = os.environ.get("ZERODHA_PASSWORD", "").strip()
+ZERODHA_TOTP_KEY = os.environ.get("ZERODHA_TOTP_KEY", "").strip()
 
 MAX_SIGNALS_PER_DAY = 5
 SCORE_THRESHOLD = 65          # Fire signals at score ≥65
@@ -153,26 +210,79 @@ except Exception as e:
 # ──────────────────────────────────────────────────────────────────────────────
 
 def fetch_daily(symbol, period="1y"):
+    """Daily bars EXCLUSIVELY from Kite Connect (no yfinance fallback).
+
+    Returns 250+ trading days of OHLCV via Kite's historical_data API, with
+    today's row refreshed from the live quote. Returns None if Kite is not
+    logged in — the scanner is intended to run with live Kite data only.
+    """
+    kite = _init_kite()
+    if kite is None:
+        return None  # Kite not available — strict mode, no yfinance fallback
+
     try:
-        with _silence_stdio():
-            df = yf.Ticker(f"{symbol}.NS").history(period=period, interval="1d")
+        # 1. Historical 400 calendar days → ~250 trading days (enough for 200-DMA)
+        df = kite.get_historical(symbol, days=400)
         if df is None or df.empty or len(df) < 200:
             return None
-        df.columns = [c.title() for c in df.columns]
-        return df.dropna(subset=["Close"])
+
+        # 2. Refresh today's bar with live quote
+        try:
+            quote = kite.get_quote(symbol)
+            if quote:
+                df = _augment_with_live(df, quote)
+        except Exception:
+            pass  # historical alone is still usable — keep df
+
+        return df
     except Exception:
         return None
 
 
 def fetch_nifty(period="1y"):
-    """Nifty 50 index for relative strength calculation."""
+    """Nifty 50 index EXCLUSIVELY from Kite (no yfinance fallback).
+
+    Critical for RS calc: stock's today move vs Nifty's today move both
+    measured from the same live data source.
+    """
+    kite = _init_kite()
+    if kite is None:
+        return None
+
+    # NIFTY 50 token lookup (mirror pro_scanner.fetch_nifty_data logic)
+    token = kite.instrument_map.get("NIFTY 50") if kite.instrument_map else None
+    if not token:
+        for key in (kite.instrument_map or {}):
+            if "NIFTY" in key and "BANK" not in key and "50" in key:
+                token = kite.instrument_map[key]
+                break
+    if not token:
+        return None
+
     try:
-        with _silence_stdio():
-            df = yf.Ticker("^NSEI").history(period=period, interval="1d")
-        if df is None or df.empty or len(df) < 20:
+        from_date = (datetime.now() - timedelta(days=400)).strftime("%Y-%m-%d")
+        to_date = datetime.now().strftime("%Y-%m-%d")
+        hist = kite.kite.historical_data(token, from_date, to_date, interval="day")
+        if not hist:
             return None
-        df.columns = [c.title() for c in df.columns]
-        return df.dropna(subset=["Close"])
+        df = pd.DataFrame(hist)
+        df.set_index("date", inplace=True)
+        df.index = pd.to_datetime(df.index)
+        df.rename(columns={"open": "Open", "high": "High", "low": "Low",
+                           "close": "Close", "volume": "Volume"}, inplace=True)
+        if len(df) < 20:
+            return None
+
+        # Refresh today's Nifty bar with live quote
+        try:
+            q = kite.kite.quote(["NSE:NIFTY 50"])
+            nq = q.get("NSE:NIFTY 50") if isinstance(q, dict) else None
+            if nq:
+                df = _augment_with_live(df, nq)
+        except Exception:
+            pass
+
+        return df
     except Exception:
         return None
 
@@ -667,7 +777,27 @@ def append_to_recommendations(picks, scan_time):
 def main():
     print(f"\n{'='*60}\n  QUANTEX BTST SCANNER — {datetime.now()}\n{'='*60}")
     print(f">> Universe: {len(UNIVERSE)} symbols")
-    print(f">> Score threshold: {SCORE_THRESHOLD}  |  Max signals: {MAX_SIGNALS_PER_DAY}\n")
+    print(f">> Score threshold: {SCORE_THRESHOLD}  |  Max signals: {MAX_SIGNALS_PER_DAY}")
+
+    # Kite is MANDATORY — strict mode, no yfinance fallback.
+    kite_at_start = _init_kite()
+    if kite_at_start is not None:
+        print(f">> Data source: Kite Connect (historical + live) ✅")
+    else:
+        if not _KITE_CLASS_AVAILABLE:
+            print(f"❌ ABORT: KiteSession class unavailable (pro_scanner import failed)")
+        elif not _kite_credentials_present():
+            missing = [k for k, v in {
+                "KITE_API_KEY": KITE_API_KEY, "KITE_API_SECRET": KITE_API_SECRET,
+                "ZERODHA_USER_ID": ZERODHA_USER_ID, "ZERODHA_PASSWORD": ZERODHA_PASSWORD,
+                "ZERODHA_TOTP_KEY": ZERODHA_TOTP_KEY,
+            }.items() if not v]
+            print(f"❌ ABORT: Kite credentials missing: {', '.join(missing)}")
+        else:
+            print(f"❌ ABORT: Kite login failed (check TOTP / password / network)")
+        print(f"   BTST scanner runs Kite-only. Set required secrets and retry.")
+        sys.exit(1)
+    print()
 
     nifty_df = fetch_nifty()
     if nifty_df is None:
