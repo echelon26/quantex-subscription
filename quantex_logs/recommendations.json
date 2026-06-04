@@ -19420,5 +19420,175 @@
         "cmp": 271.5
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-04",
+    "scan_time": "2026-06-04T10:31:04.408026",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 15.885000228881836
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 4,
+    "sector_rankings": {
+      "CONSUMER": 1,
+      "METALS": 2,
+      "BANKING": 3,
+      "IT": 4,
+      "GOLD_ETF": 5,
+      "CHEMICALS": 6,
+      "ENERGY": 7,
+      "RAILWAY": 8,
+      "AUTO": 9,
+      "DEFENCE": 10,
+      "INDEX_ETF": 11,
+      "INFRA": 12,
+      "SILVER_ETF": 13,
+      "PHARMA": 14,
+      "ELECTRICALS": 15,
+      "FMCG": 16,
+      "POWER": 17,
+      "FINANCE": 18,
+      "REALTY": 19
+    },
+    "top_10": [
+      {
+        "symbol": "JNKINDIA",
+        "score": 78,
+        "breakdown": {
+          "Trend": 14,
+          "Momentum": 18,
+          "Volume": 15,
+          "Price Action": 13,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 24 (Trending)",
+          "RSI 67 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Above Avg 2.0x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 421.6,
+        "sl": 392.09,
+        "target1": 465.87,
+        "target2": 495.38,
+        "hold_period": "1-2 weeks",
+        "cmp": 421.6,
+        "target3": 469.16,
+        "target_method": "Weekly R3 + Fib 1.272 + Fib 1.618",
+        "est_days_to_t1": 10.5
+      },
+      {
+        "symbol": "MIDHANI",
+        "score": 70,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 17,
+          "Price Action": 4,
+          "Relative Strength": 8,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 30 (Strong Trend)",
+          "ADX Rising",
+          "RSI 68 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 4.1x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 444.55,
+        "sl": 413.52,
+        "target1": 506.61,
+        "target2": 537.64,
+        "hold_period": "1-2 weeks",
+        "cmp": 444.55,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 9.4
+      },
+      {
+        "symbol": "RBLBANK",
+        "score": 69,
+        "breakdown": {
+          "Trend": 12,
+          "Momentum": 15,
+          "Volume": 12,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 64 (Power Zone)",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: BANKING",
+          "Long Buildup (OI: 64,252,475)",
+          "High F&O Activity"
+        ],
+        "entry": 354.0,
+        "sl": 337.53,
+        "target1": 378.7,
+        "target2": 389.32,
+        "hold_period": "2-3 weeks",
+        "cmp": 354.0,
+        "target3": 399.29,
+        "target_method": "52W High + Weekly R2 + Fib 1.0 + Measured Move",
+        "est_days_to_t1": 12.9
+      },
+      {
+        "symbol": "CGPOWER",
+        "score": 68,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 15,
+          "Volume": 15,
+          "Price Action": 4,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 28 (Strong Trend)",
+          "ADX Rising",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "Vol Above Avg 1.9x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 18,626,050)",
+          "High F&O Activity"
+        ],
+        "entry": 941.0,
+        "sl": 895.77,
+        "target1": 1031.45,
+        "target2": 1076.68,
+        "hold_period": "1-2 weeks",
+        "cmp": 941.0,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 10.9
+      }
+    ]
   }
 ]
