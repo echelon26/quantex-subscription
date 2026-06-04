@@ -25,11 +25,29 @@ import os
 import sys
 import json
 import time
+import io
+import contextlib
+import logging
 from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
 import numpy as np
+
+# Silence yfinance noise (delisted/404 warnings flooding GitHub Actions logs)
+logging.getLogger("yfinance").setLevel(logging.CRITICAL)
+logging.getLogger("urllib3").setLevel(logging.CRITICAL)
+logging.getLogger("peewee").setLevel(logging.CRITICAL)
+
+@contextlib.contextmanager
+def _silence_stdio():
+    se = sys.stderr
+    sys.stderr = io.StringIO()
+    try:
+        yield
+    finally:
+        sys.stderr = se
+
 import yfinance as yf
 import ta
 import requests
@@ -86,9 +104,14 @@ except Exception as e:
 # ──────────────────────────────────────────────────────────────────────────────
 
 def fetch_daily(symbol, period="1y"):
-    """1-year daily bars; need ≥200 sessions for the 200-DMA."""
+    """1-year daily bars; need ≥200 sessions for the 200-DMA.
+
+    Silently skips delisted/renamed tickers without polluting CI logs.
+    Use universe_cleanup.py periodically to prune dead symbols from the universe.
+    """
     try:
-        df = yf.Ticker(f"{symbol}.NS").history(period=period, interval="1d")
+        with _silence_stdio():
+            df = yf.Ticker(f"{symbol}.NS").history(period=period, interval="1d")
         if df is None or df.empty or len(df) < 200:
             return None
         df.columns = [c.title() for c in df.columns]
