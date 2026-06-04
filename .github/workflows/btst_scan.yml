@@ -41,6 +41,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TELEGRAM_ADMIN_GROUPS: ${{ secrets.TELEGRAM_ADMIN_GROUPS }}
+          TELEGRAM_SIGNAL_GROUPS: ${{ secrets.TELEGRAM_SIGNAL_GROUPS }}
         run: python btst_scanner.py
 
       - name: Commit results
