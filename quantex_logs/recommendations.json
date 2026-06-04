@@ -19590,5 +19590,34 @@
         "est_days_to_t1": 10.9
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-04",
+    "scan_time": "2026-06-04T16:52:30.172222",
+    "scanner_type": "btst",
+    "total_qualified": 1,
+    "top_10": [
+      {
+        "symbol": "HSCL",
+        "scanner_type": "btst",
+        "score": 76.0,
+        "entry": 642.0,
+        "sl": 629.16,
+        "target1": 658.05,
+        "target2": 674.1,
+        "hold_period": "1 session (BTST)",
+        "cmp": 642.0,
+        "signals": [
+          "Close top 91%",
+          "Green +6.6%",
+          "Vol 1.8x",
+          "RS +6.6% vs Nifty",
+          "Near 52w high (pre-breakout zone)",
+          "Pocket Pivot volume signature",
+          "New 5-day high",
+          "Strong 5-day RS vs Nifty"
+        ]
+      }
+    ]
   }
 ]
