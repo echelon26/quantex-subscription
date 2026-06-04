@@ -7,3 +7,61 @@ Qualified: 0 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-06-04 at 04:35 AM IST
+Qualified: 22 stocks | Top 10 below
+============================================================
+
+1. ZENTEC — Score: 80/100
+   Entry: 1818.70 | SL: 1727.76 | T1: 2000.57 | T2: 2091.51 | RR: 1:2.0
+   Trend:15 Mom:13 Vol:20 PA:15 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, MACD Bullish, Vol Surge 2.2x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Consistent Buying
+
+2. OLECTRA — Score: 77/100
+   Entry: 1384.60 | SL: 1315.37 | T1: 1523.06 | T2: 1592.29 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:15 PA:5 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 69 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Consistent Buying
+
+3. JNKINDIA — Score: 72/100
+   Entry: 418.00 | SL: 397.10 | T1: 459.80 | T2: 480.70 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:15 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 66 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Consistent Buying
+
+4. PARAS — Score: 71/100
+   Entry: 893.00 | SL: 848.35 | T1: 982.30 | T2: 1026.95 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:10 PA:15 RS:10 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 65 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty
+
+5. SONACOMS — Score: 71/100
+   Entry: 610.05 | SL: 590.80 | T1: 648.55 | T2: 667.80 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 59 (Power Zone), MACD Bullish, Near Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 15,438,675), High F&O Activity
+
+6. FEDERALBNK — Score: 70/100
+   Entry: 302.55 | SL: 291.40 | T1: 324.86 | T2: 336.01 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 67 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 115,052,500), High F&O Activity
+
+7. RBLBANK — Score: 68/100
+   Entry: 348.45 | SL: 333.00 | T1: 379.35 | T2: 394.80 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 61 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 63,109,475), High F&O Activity
+
+8. IDEAFORGE — Score: 65/100
+   Entry: 900.00 | SL: 855.00 | T1: 990.00 | T2: 1035.00 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 69 (Power Zone), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+9. IIFL — Score: 65/100
+   Entry: 520.00 | SL: 494.00 | T1: 572.00 | T2: 598.00 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 70 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+10. BANKBARODA — Score: 64/100
+   Entry: 271.50 | SL: 261.31 | T1: 291.88 | T2: 302.06 | RR: 1:2.0
+   Trend:11 Mom:18 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: RSI 54 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 122,071,950), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
