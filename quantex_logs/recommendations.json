@@ -19654,5 +19654,306 @@
       "SILVER_ETF": 19
     },
     "top_10": []
+  },
+  {
+    "scan_date": "2026-06-05",
+    "scan_time": "2026-06-05T04:35:37.073166",
+    "total_qualified": 27,
+    "sector_rankings": {
+      "CONSUMER": 1,
+      "BANKING": 2,
+      "INFRA": 3,
+      "AUTO": 4,
+      "CHEMICALS": 5,
+      "INDEX_ETF": 6,
+      "ELECTRICALS": 7,
+      "DEFENCE": 8,
+      "RAILWAY": 9,
+      "GOLD_ETF": 10,
+      "FMCG": 11,
+      "REALTY": 12,
+      "ENERGY": 13,
+      "FINANCE": 14,
+      "PHARMA": 15,
+      "IT": 16,
+      "METALS": 17,
+      "POWER": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "PARAS",
+        "score": 78,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 13,
+          "Volume": 18,
+          "Price Action": 15,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "MACD Bullish",
+          "Vol Above Avg 1.9x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 964.65,
+        "sl": 916.42,
+        "target1": 1061.12,
+        "target2": 1109.35,
+        "hold_period": "1-2 weeks",
+        "cmp": 964.65
+      },
+      {
+        "symbol": "BANKBARODA",
+        "score": 74,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 61 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: BANKING",
+          "Long Buildup (OI: 123,271,200)",
+          "High F&O Activity"
+        ],
+        "entry": 268.65,
+        "sl": 258.78,
+        "target1": 288.4,
+        "target2": 298.27,
+        "hold_period": "1-2 weeks",
+        "cmp": 268.65
+      },
+      {
+        "symbol": "ZEEL",
+        "score": 70,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 13,
+          "Volume": 15,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "MACD Bullish",
+          "Vol Surge 2.2x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 110.22,
+        "sl": 104.71,
+        "target1": 121.24,
+        "target2": 126.75,
+        "hold_period": "1-2 weeks",
+        "cmp": 110.22
+      },
+      {
+        "symbol": "BANKINDIA",
+        "score": 69,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 57 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: BANKING",
+          "Long Buildup (OI: 69,118,400)",
+          "High F&O Activity"
+        ],
+        "entry": 142.61,
+        "sl": 136.74,
+        "target1": 154.35,
+        "target2": 160.22,
+        "hold_period": "1-2 weeks",
+        "cmp": 142.61
+      },
+      {
+        "symbol": "ADANIENSOL",
+        "score": 68,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 70 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 20,316,150)",
+          "High F&O Activity"
+        ],
+        "entry": 1555.6,
+        "sl": 1477.82,
+        "target1": 1711.16,
+        "target2": 1788.94,
+        "hold_period": "1-2 weeks",
+        "cmp": 1555.6
+      },
+      {
+        "symbol": "DATAPATTNS",
+        "score": 67,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 60 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Hammer",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 4235.4,
+        "sl": 4023.63,
+        "target1": 4658.94,
+        "target2": 4870.71,
+        "hold_period": "1-2 weeks",
+        "cmp": 4235.4
+      },
+      {
+        "symbol": "JNKINDIA",
+        "score": 65,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 0,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 420.4,
+        "sl": 399.38,
+        "target1": 462.44,
+        "target2": 483.46,
+        "hold_period": "1-2 weeks",
+        "cmp": 420.4
+      },
+      {
+        "symbol": "FINEORG",
+        "score": 65,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 13,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 59 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 4784.5,
+        "sl": 4562.99,
+        "target1": 5227.52,
+        "target2": 5449.03,
+        "hold_period": "1-2 weeks",
+        "cmp": 4784.5
+      },
+      {
+        "symbol": "ADANIENT",
+        "score": 63,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 8,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: INFRA",
+          "Long Buildup (OI: 18,912,654)",
+          "High F&O Activity"
+        ],
+        "entry": 3041.8,
+        "sl": 2904.85,
+        "target1": 3315.7,
+        "target2": 3452.65,
+        "hold_period": "1-2 weeks",
+        "cmp": 3041.8
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "score": 63,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 0,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 62 (Power Zone)",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: INFRA",
+          "Long Buildup (OI: 21,446,725)",
+          "High F&O Activity"
+        ],
+        "entry": 1806.0,
+        "sl": 1745.2,
+        "target1": 1927.6,
+        "target2": 1988.4,
+        "hold_period": "1-2 weeks",
+        "cmp": 1806.0
+      }
+    ]
   }
 ]

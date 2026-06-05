@@ -7,3 +7,61 @@ Qualified: 0 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-06-05 at 04:35 AM IST
+Qualified: 27 stocks | Top 10 below
+============================================================
+
+1. PARAS — Score: 78/100
+   Entry: 964.65 | SL: 916.42 | T1: 1061.12 | T2: 1109.35 | RR: 1:2.0
+   Trend:15 Mom:13 Vol:18 PA:15 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, MACD Bullish, Vol Above Avg 1.9x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Consistent Buying
+
+2. BANKBARODA — Score: 74/100
+   Entry: 268.65 | SL: 258.78 | T1: 288.40 | T2: 298.27 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 61 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 123,271,200), High F&O Activity
+
+3. ZEEL — Score: 70/100
+   Entry: 110.22 | SL: 104.71 | T1: 121.24 | T2: 126.75 | RR: 1:2.0
+   Trend:15 Mom:13 Vol:15 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, MACD Bullish, Vol Surge 2.2x, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+4. BANKINDIA — Score: 69/100
+   Entry: 142.61 | SL: 136.74 | T1: 154.35 | T2: 160.22 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 57 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 69,118,400), High F&O Activity
+
+5. ADANIENSOL — Score: 68/100
+   Entry: 1555.60 | SL: 1477.82 | T1: 1711.16 | T2: 1788.94 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 70 (Power Zone), MACD Bullish, Near Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 20,316,150), High F&O Activity
+
+6. DATAPATTNS — Score: 67/100
+   Entry: 4235.40 | SL: 4023.63 | T1: 4658.94 | T2: 4870.71 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 60 (Power Zone), MACD Fresh Crossover, Near Breakout, Hammer, Strong RS vs Nifty, Consistent Buying
+
+7. JNKINDIA — Score: 65/100
+   Entry: 420.40 | SL: 399.38 | T1: 462.44 | T2: 483.46 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:0 PA:5 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+8. FINEORG — Score: 65/100
+   Entry: 4784.50 | SL: 4562.99 | T1: 5227.52 | T2: 5449.03 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:5 RS:13 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 59 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Consistent Buying
+
+9. ADANIENT — Score: 63/100
+   Entry: 3041.80 | SL: 2904.85 | T1: 3315.70 | T2: 3452.65 | RR: 1:2.0
+   Trend:15 Mom:8 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: INFRA, Long Buildup (OI: 18,912,654), High F&O Activity
+
+10. ADANIPORTS — Score: 63/100
+   Entry: 1806.00 | SL: 1745.20 | T1: 1927.60 | T2: 1988.40 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:0 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 62 (Power Zone), Near Breakout, Strong RS vs Nifty, Sector Top 3: INFRA, Long Buildup (OI: 21,446,725), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
