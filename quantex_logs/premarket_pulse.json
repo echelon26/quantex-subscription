@@ -954,5 +954,31 @@
       "TECHM"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-04.pdf"
+  },
+  {
+    "date": "Fri, 05 Jun 2026",
+    "fear_greed": 41.6,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23405.6,
+    "nifty": 23405.6,
+    "sensex": 74346.17,
+    "bank_nifty": 54185.95,
+    "vix": 16.28,
+    "top_gainers": [
+      "PWL",
+      "ZEEL",
+      "CEMPRO",
+      "ANANTRAJ",
+      "ZENTEC"
+    ],
+    "top_losers": [
+      "MEESHO",
+      "ZENSARTECH",
+      "NATIONALUM",
+      "BHEL",
+      "NEWGEN"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-05.pdf"
   }
 ]
