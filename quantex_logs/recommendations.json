@@ -19955,5 +19955,109 @@
         "cmp": 1806.0
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-05",
+    "scan_time": "2026-06-05T10:31:07.193810",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 15.787500381469727
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 2,
+    "sector_rankings": {
+      "CONSUMER": 1,
+      "INFRA": 2,
+      "BANKING": 3,
+      "AUTO": 4,
+      "INDEX_ETF": 5,
+      "FMCG": 6,
+      "CHEMICALS": 7,
+      "RAILWAY": 8,
+      "GOLD_ETF": 9,
+      "DEFENCE": 10,
+      "PHARMA": 11,
+      "ELECTRICALS": 12,
+      "REALTY": 13,
+      "ENERGY": 14,
+      "FINANCE": 15,
+      "METALS": 16,
+      "SILVER_ETF": 17,
+      "POWER": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "TATATECH",
+        "score": 72,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 6,
+          "Volume": 15,
+          "Price Action": 13,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 51 (Strong Trend)",
+          "ADX Rising",
+          "MACD Bullish",
+          "Vol Above Avg 1.8x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 775.85,
+        "sl": 739.35,
+        "target1": 841.55,
+        "target2": 874.4,
+        "hold_period": "3-5 days",
+        "cmp": 775.85,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 4.5
+      },
+      {
+        "symbol": "JNKINDIA",
+        "score": 69,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 9,
+          "Price Action": 4,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 26 (Strong Trend)",
+          "ADX Rising",
+          "RSI 66 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 3.4x",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 421.35,
+        "sl": 391.86,
+        "target1": 465.59,
+        "target2": 495.08,
+        "hold_period": "1-2 weeks",
+        "cmp": 421.35,
+        "target3": 449.09,
+        "target_method": "Weekly R3 + Fib 1.272 + 52W High",
+        "est_days_to_t1": 9.7
+      }
+    ]
   }
 ]
