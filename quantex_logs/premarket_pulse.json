@@ -980,5 +980,31 @@
       "NEWGEN"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-05.pdf"
+  },
+  {
+    "date": "Mon, 08 Jun 2026",
+    "fear_greed": 41.3,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23366.7,
+    "nifty": 23366.7,
+    "sensex": 74243.34,
+    "bank_nifty": 54496.25,
+    "vix": 15.79,
+    "top_gainers": [
+      "ZEEL",
+      "ADANIGREEN",
+      "HSCL",
+      "JYOTICNC",
+      "SCHNEIDER"
+    ],
+    "top_losers": [
+      "WOCKPHARMA",
+      "HINDZINC",
+      "NETWEB",
+      "HFCL",
+      "NATIONALUM"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-08.pdf"
   }
 ]
