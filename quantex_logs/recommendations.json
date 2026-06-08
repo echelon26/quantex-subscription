@@ -20094,5 +20094,74 @@
       "SILVER_ETF": 19
     },
     "top_10": []
+  },
+  {
+    "scan_date": "2026-06-08",
+    "scan_time": "2026-06-08T10:30:58.143522",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 17.02750015258789
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 1,
+    "sector_rankings": {
+      "BANKING": 1,
+      "PHARMA": 2,
+      "FMCG": 3,
+      "CONSUMER": 4,
+      "POWER": 5,
+      "DEFENCE": 6,
+      "INDEX_ETF": 7,
+      "AUTO": 8,
+      "CHEMICALS": 9,
+      "INFRA": 10,
+      "ENERGY": 11,
+      "FINANCE": 12,
+      "RAILWAY": 13,
+      "GOLD_ETF": 14,
+      "ELECTRICALS": 15,
+      "REALTY": 16,
+      "METALS": 17,
+      "IT": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "IPCALAB",
+        "score": 70,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 13,
+          "Price Action": 4,
+          "Relative Strength": 12,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 26 (Strong Trend)",
+          "RSI 62 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 2.2x",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Consistent Buying"
+        ],
+        "entry": 1645.0,
+        "sl": 1559.16,
+        "target1": 1773.76,
+        "target2": 1781.49,
+        "hold_period": "2-3 weeks",
+        "cmp": 1645.0,
+        "target3": 1874.1,
+        "target_method": "52W High + Fib 1.0 + Weekly R1 + Fib 1.272",
+        "est_days_to_t1": 12.4
+      }
+    ]
   }
 ]
