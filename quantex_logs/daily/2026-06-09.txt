@@ -7,3 +7,61 @@ Qualified: 0 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-06-09 at 04:35 AM IST
+Qualified: 19 stocks | Top 10 below
+============================================================
+
+1. FEDERALBNK — Score: 73/100
+   Entry: 310.05 | SL: 298.31 | T1: 333.53 | T2: 345.28 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 114,637,500), High F&O Activity
+
+2. RBLBANK — Score: 73/100
+   Entry: 352.85 | SL: 337.05 | T1: 384.45 | T2: 400.25 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 61,439,425), High F&O Activity
+
+3. PARAS — Score: 70/100
+   Entry: 1019.20 | SL: 968.24 | T1: 1121.12 | T2: 1172.08 | RR: 1:2.0
+   Trend:20 Mom:8 Vol:15 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+4. FORTIS — Score: 70/100
+   Entry: 990.00 | SL: 950.86 | T1: 1068.27 | T2: 1107.41 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:0 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 9,140,350), High F&O Activity
+
+5. BANKINDIA — Score: 69/100
+   Entry: 141.82 | SL: 135.93 | T1: 153.60 | T2: 159.48 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 55 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 70,319,600), High F&O Activity
+
+6. ZYDUSLIFE — Score: 68/100
+   Entry: 1103.10 | SL: 1060.77 | T1: 1187.75 | T2: 1230.08 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 10,588,500), High F&O Activity
+
+7. BANDHANBNK — Score: 68/100
+   Entry: 208.62 | SL: 201.00 | T1: 223.86 | T2: 231.48 | RR: 1:2.0
+   Trend:15 Mom:13 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 64 (Power Zone), Near Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 108,813,600), High F&O Activity
+
+8. DATAPATTNS — Score: 67/100
+   Entry: 4270.00 | SL: 4056.50 | T1: 4697.00 | T2: 4910.50 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:5 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 60 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Consistent Buying
+
+9. IDEAFORGE — Score: 67/100
+   Entry: 978.00 | SL: 929.10 | T1: 1075.80 | T2: 1124.70 | RR: 1:2.0
+   Trend:20 Mom:15 Vol:5 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Fresh Crossover, Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Consistent Buying
+
+10. IPCALAB — Score: 67/100
+   Entry: 1644.90 | SL: 1562.65 | T1: 1809.39 | T2: 1891.64 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:0 PA:5 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 62 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Consistent Buying
+
+
+────────────────────────────────────────────────────────────
+
