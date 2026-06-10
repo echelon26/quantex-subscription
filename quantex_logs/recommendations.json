@@ -21507,5 +21507,145 @@
         "cmp": 4571.2
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-10",
+    "scan_time": "2026-06-10T10:30:58.928935",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 15.632499694824219
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 3,
+    "sector_rankings": {
+      "FMCG": 1,
+      "BANKING": 2,
+      "CHEMICALS": 3,
+      "INFRA": 4,
+      "INDEX_ETF": 5,
+      "PHARMA": 6,
+      "DEFENCE": 7,
+      "AUTO": 8,
+      "FINANCE": 9,
+      "ELECTRICALS": 10,
+      "POWER": 11,
+      "RAILWAY": 12,
+      "REALTY": 13,
+      "CONSUMER": 14,
+      "IT": 15,
+      "ENERGY": 16,
+      "METALS": 17,
+      "GOLD_ETF": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "CHAMBLFERT",
+        "score": 73,
+        "breakdown": {
+          "Trend": 14,
+          "Momentum": 11,
+          "Volume": 17,
+          "Price Action": 9,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 59 (Power Zone)",
+          "Vol Surge 3.2x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Sector Top 3: CHEMICALS",
+          "Institutional Accumulation"
+        ],
+        "entry": 477.05,
+        "sl": 456.67,
+        "target1": 507.62,
+        "target2": 519.05,
+        "hold_period": "5-8 days",
+        "cmp": 477.05,
+        "target3": 539.05,
+        "target_method": "52W High + Fib 1.0 + Weekly R2 + Fib 1.272",
+        "est_days_to_t1": 7.8
+      },
+      {
+        "symbol": "ABSLAMC",
+        "score": 71,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 15,
+          "Volume": 15,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 23 (Trending)",
+          "ADX Rising",
+          "RSI 64 (Power Zone)",
+          "MACD Bullish",
+          "Vol Above Avg 1.9x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 1110.0,
+        "sl": 1049.99,
+        "target1": 1200.02,
+        "target2": 1260.03,
+        "hold_period": "1-2 weeks",
+        "cmp": 1110.0,
+        "target3": 1199.9,
+        "target_method": "52W High + Weekly R3 + Fib 1.618 + Fib 2.0",
+        "est_days_to_t1": 8.6
+      },
+      {
+        "symbol": "AXISBANK",
+        "score": 69,
+        "breakdown": {
+          "Trend": 14,
+          "Momentum": 18,
+          "Volume": 11,
+          "Price Action": 4,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 60 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Above Avg 1.7x",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: BANKING",
+          "Long Buildup (OI: 63,648,125)",
+          "High F&O Activity"
+        ],
+        "entry": 1314.0,
+        "sl": 1270.89,
+        "target1": 1378.67,
+        "target2": 1397.37,
+        "hold_period": "3-4 weeks",
+        "cmp": 1314.0,
+        "target3": 1478.75,
+        "target_method": "Weekly R2 + Fib 1.272 + Vol Profile + Weekly R3",
+        "est_days_to_t1": 22.6
+      }
+    ]
   }
 ]

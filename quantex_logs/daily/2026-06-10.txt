@@ -65,3 +65,27 @@ Qualified: 21 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-06-10 at 10:30 AM IST
+Regime: NEUTRAL (mixed) | VIX: 15.63 | Min Score: 68
+Qualified: 3 stocks | Top 10 below
+============================================================
+
+1. CHAMBLFERT -- Score: 73/100
+   Entry: 477.05 | SL: 456.67 | T1: 507.62 | T2: 519.05 | RR: 1:1.5
+   Tr:14 Mo:11 Vo:17 PA:9 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 59 (Power Zone), Vol Surge 3.2x, Strong Delivery (Close near High), Near Breakout, Morning Star, Strong RS vs Nifty, Sector Top 3: CHEMICALS, Institutional Accumulation
+
+2. ABSLAMC -- Score: 71/100
+   Entry: 1110.00 | SL: 1049.99 | T1: 1200.02 | T2: 1260.03 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:15 PA:8 RS:8 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 23 (Trending), ADX Rising, RSI 64 (Power Zone), MACD Bullish, Vol Above Avg 1.9x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+3. AXISBANK -- Score: 69/100
+   Entry: 1314.00 | SL: 1270.89 | T1: 1378.67 | T2: 1397.37 | RR: 1:1.5
+   Tr:14 Mo:18 Vo:11 PA:4 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 60 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.7x, Near Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 63,648,125), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
