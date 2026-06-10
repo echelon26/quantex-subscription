@@ -1032,5 +1032,31 @@
       "GVT&D"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-09.pdf"
+  },
+  {
+    "date": "Wed, 10 Jun 2026",
+    "fear_greed": 36.7,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Fear",
+    "gift_nifty": 23123.0,
+    "nifty": 23123.0,
+    "sensex": 73524.26,
+    "bank_nifty": 54063.75,
+    "vix": 17.03,
+    "top_gainers": [
+      "DATAPATTNS",
+      "CEMPRO",
+      "BELRISE",
+      "JAINREC",
+      "LTTS"
+    ],
+    "top_losers": [
+      "TATATECH",
+      "SCHNEIDER",
+      "ACUTAAS",
+      "ZEEL",
+      "ZYDUSWELL"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-10.pdf"
   }
 ]
