@@ -7,3 +7,61 @@ Qualified: 0 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-06-10 at 04:35 AM IST
+Qualified: 21 stocks | Top 10 below
+============================================================
+
+1. ADANIPORTS — Score: 73/100
+   Entry: 1837.00 | SL: 1786.20 | T1: 1938.60 | T2: 1989.40 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:10 RS:15 SM:10
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 64 (Power Zone), Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Sector Top 3: INFRA, Long Buildup (OI: 21,034,900), High F&O Activity
+
+2. MRPL — Score: 72/100
+   Entry: 165.88 | SL: 157.59 | T1: 182.47 | T2: 190.76 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:15 PA:10 RS:10 SM:3
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 59 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty
+
+3. CHAMBLFERT — Score: 72/100
+   Entry: 473.80 | SL: 453.38 | T1: 514.65 | T2: 535.07 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:10 PA:10 RS:9 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 58 (Power Zone), Strong Delivery (Close near High), Near Breakout, Morning Star, Outperforming Nifty, Institutional Accumulation
+
+4. AXISBANK — Score: 71/100
+   Entry: 1299.00 | SL: 1258.53 | T1: 1379.93 | T2: 1420.40 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:5 RS:11 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 57 (Power Zone), MACD Fresh Crossover, Near Breakout, Outperforming Nifty, Sector Top 3: BANKING, Long Buildup (OI: 60,698,125), High F&O Activity
+
+5. PIDILITIND — Score: 71/100
+   Entry: 1510.90 | SL: 1464.24 | T1: 1604.22 | T2: 1650.88 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 65 (Power Zone), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 6,696,000), High F&O Activity
+
+6. INTELLECT — Score: 70/100
+   Entry: 772.60 | SL: 733.97 | T1: 849.86 | T2: 888.49 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 63 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+7. ABSLAMC — Score: 70/100
+   Entry: 1096.10 | SL: 1041.29 | T1: 1205.71 | T2: 1260.52 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 62 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+8. ICICIBANK — Score: 69/100
+   Entry: 1285.10 | SL: 1247.32 | T1: 1360.66 | T2: 1398.44 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:5 PA:5 RS:15 SM:10
+   Hold: 3-7 days | Signals: Supertrend Bullish, RSI 56 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 157,049,900), High F&O Activity
+
+9. BANKINDIA — Score: 69/100
+   Entry: 148.14 | SL: 141.86 | T1: 160.70 | T2: 166.98 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:0 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 64 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 77,183,600), High F&O Activity
+
+10. INDIGO — Score: 68/100
+   Entry: 4571.20 | SL: 4373.44 | T1: 4966.72 | T2: 5164.47 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 57 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 7,192,800), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+

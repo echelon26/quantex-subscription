@@ -21202,5 +21202,310 @@
       "SILVER_ETF": 19
     },
     "top_10": []
+  },
+  {
+    "scan_date": "2026-06-10",
+    "scan_time": "2026-06-10T04:35:34.539165",
+    "total_qualified": 21,
+    "sector_rankings": {
+      "FMCG": 1,
+      "BANKING": 2,
+      "INFRA": 3,
+      "CHEMICALS": 4,
+      "FINANCE": 5,
+      "DEFENCE": 6,
+      "INDEX_ETF": 7,
+      "PHARMA": 8,
+      "AUTO": 9,
+      "CONSUMER": 10,
+      "REALTY": 11,
+      "ELECTRICALS": 12,
+      "RAILWAY": 13,
+      "POWER": 14,
+      "IT": 15,
+      "ENERGY": 16,
+      "METALS": 17,
+      "GOLD_ETF": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "ADANIPORTS",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 64 (Power Zone)",
+          "Near Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Sector Top 3: INFRA",
+          "Long Buildup (OI: 21,034,900)",
+          "High F&O Activity"
+        ],
+        "entry": 1837.0,
+        "sl": 1786.2,
+        "target1": 1938.6,
+        "target2": 1989.4,
+        "hold_period": "3-7 days",
+        "cmp": 1837.0
+      },
+      {
+        "symbol": "MRPL",
+        "score": 72,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 15,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 3
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 59 (Power Zone)",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty"
+        ],
+        "entry": 165.88,
+        "sl": 157.59,
+        "target1": 182.47,
+        "target2": 190.76,
+        "hold_period": "1-2 weeks",
+        "cmp": 165.88
+      },
+      {
+        "symbol": "CHAMBLFERT",
+        "score": 72,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 10,
+          "Price Action": 10,
+          "Relative Strength": 9,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 58 (Power Zone)",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Morning Star",
+          "Outperforming Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 473.8,
+        "sl": 453.38,
+        "target1": 514.65,
+        "target2": 535.07,
+        "hold_period": "1-2 weeks",
+        "cmp": 473.8
+      },
+      {
+        "symbol": "AXISBANK",
+        "score": 71,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 11,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 57 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Outperforming Nifty",
+          "Sector Top 3: BANKING",
+          "Long Buildup (OI: 60,698,125)",
+          "High F&O Activity"
+        ],
+        "entry": 1299.0,
+        "sl": 1258.53,
+        "target1": 1379.93,
+        "target2": 1420.4,
+        "hold_period": "1-2 weeks",
+        "cmp": 1299.0
+      },
+      {
+        "symbol": "PIDILITIND",
+        "score": 71,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 65 (Power Zone)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 6,696,000)",
+          "High F&O Activity"
+        ],
+        "entry": 1510.9,
+        "sl": 1464.24,
+        "target1": 1604.22,
+        "target2": 1650.88,
+        "hold_period": "1-2 weeks",
+        "cmp": 1510.9
+      },
+      {
+        "symbol": "INTELLECT",
+        "score": 70,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 63 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 772.6,
+        "sl": 733.97,
+        "target1": 849.86,
+        "target2": 888.49,
+        "hold_period": "1-2 weeks",
+        "cmp": 772.6
+      },
+      {
+        "symbol": "ABSLAMC",
+        "score": 70,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 62 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 1096.1,
+        "sl": 1041.29,
+        "target1": 1205.71,
+        "target2": 1260.52,
+        "hold_period": "1-2 weeks",
+        "cmp": 1096.1
+      },
+      {
+        "symbol": "ICICIBANK",
+        "score": 69,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 56 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: BANKING",
+          "Long Buildup (OI: 157,049,900)",
+          "High F&O Activity"
+        ],
+        "entry": 1285.1,
+        "sl": 1247.32,
+        "target1": 1360.66,
+        "target2": 1398.44,
+        "hold_period": "3-7 days",
+        "cmp": 1285.1
+      },
+      {
+        "symbol": "BANKINDIA",
+        "score": 69,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 0,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 64 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: BANKING",
+          "Long Buildup (OI: 77,183,600)",
+          "High F&O Activity"
+        ],
+        "entry": 148.14,
+        "sl": 141.86,
+        "target1": 160.7,
+        "target2": 166.98,
+        "hold_period": "1-2 weeks",
+        "cmp": 148.14
+      },
+      {
+        "symbol": "INDIGO",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 57 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 7,192,800)",
+          "High F&O Activity"
+        ],
+        "entry": 4571.2,
+        "sl": 4373.44,
+        "target1": 4966.72,
+        "target2": 5164.47,
+        "hold_period": "1-2 weeks",
+        "cmp": 4571.2
+      }
+    ]
   }
 ]
