@@ -1,0 +1,14 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-06-11 at 04:31 AM IST
+Regime: NEUTRAL (mixed) | VIX: 15.72 | Min Score: 68
+Qualified: 1 stocks | Top 10 below
+============================================================
+
+1. RBLBANK -- Score: 68/100
+   Entry: 363.55 | SL: 346.83 | T1: 388.63 | T2: 405.35 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:4 PA:13 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 23 (Trending), ADX Rising, RSI 65 (Power Zone), MACD Bullish, 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 61,677,550), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+

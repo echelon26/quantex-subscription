@@ -21647,5 +21647,76 @@
         "est_days_to_t1": 22.6
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-11",
+    "scan_time": "2026-06-11T04:31:06.649830",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 15.717499732971191
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 1,
+    "sector_rankings": {
+      "FMCG": 1,
+      "BANKING": 2,
+      "CHEMICALS": 3,
+      "PHARMA": 4,
+      "INDEX_ETF": 5,
+      "DEFENCE": 6,
+      "ELECTRICALS": 7,
+      "AUTO": 8,
+      "INFRA": 9,
+      "POWER": 10,
+      "FINANCE": 11,
+      "RAILWAY": 12,
+      "ENERGY": 13,
+      "REALTY": 14,
+      "CONSUMER": 15,
+      "METALS": 16,
+      "IT": 17,
+      "GOLD_ETF": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "RBLBANK",
+        "score": 68,
+        "breakdown": {
+          "Trend": 14,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 13,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 23 (Trending)",
+          "ADX Rising",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Sector Top 3: BANKING",
+          "Long Buildup (OI: 61,677,550)",
+          "High F&O Activity"
+        ],
+        "entry": 363.55,
+        "sl": 346.83,
+        "target1": 388.63,
+        "target2": 405.35,
+        "hold_period": "1-2 weeks",
+        "cmp": 363.55,
+        "target3": 399.27,
+        "target_method": "52W High + Weekly R2 + Fib 1.0 + Measured Move",
+        "est_days_to_t1": 10.0
+      }
+    ]
   }
 ]
