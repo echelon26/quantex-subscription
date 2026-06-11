@@ -12,3 +12,56 @@ Qualified: 1 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-06-11 at 04:35 AM IST
+Qualified: 9 stocks | Top 10 below
+============================================================
+
+1. RBLBANK — Score: 78/100
+   Entry: 363.65 | SL: 346.93 | T1: 397.09 | T2: 413.80 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:15 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 65 (Power Zone), MACD Bullish, 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 61,645,800), High F&O Activity
+
+2. KOTAKBANK — Score: 70/100
+   Entry: 388.75 | SL: 375.90 | T1: 414.45 | T2: 427.30 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 58 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 172,918,000), High F&O Activity
+
+3. AXISBANK — Score: 70/100
+   Entry: 1320.00 | SL: 1278.00 | T1: 1404.00 | T2: 1446.00 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 61 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 59,395,000), High F&O Activity
+
+4. ICICIBANK — Score: 69/100
+   Entry: 1308.60 | SL: 1268.98 | T1: 1387.83 | T2: 1427.45 | RR: 1:2.0
+   Trend:11 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: RSI 61 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 152,257,000), High F&O Activity
+
+5. JBCHEPHARM — Score: 65/100
+   Entry: 2230.60 | SL: 2140.16 | T1: 2411.49 | T2: 2501.93 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:5 RS:13 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 63 (Power Zone), MACD Fresh Crossover, Bullish Engulfing, Strong RS vs Nifty, Consistent Buying
+
+6. TORNTPHARM — Score: 63/100
+   Entry: 4518.40 | SL: 4335.78 | T1: 4883.65 | T2: 5066.27 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:0 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 59 (Power Zone), MACD Fresh Crossover, Strong RS vs Nifty, Long Buildup (OI: 3,041,375), High F&O Activity
+
+7. CUB — Score: 63/100
+   Entry: 259.20 | SL: 246.83 | T1: 283.94 | T2: 296.31 | RR: 1:2.0
+   Trend:16 Mom:20 Vol:5 PA:5 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 57 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Consistent Buying
+
+8. RELAXO — Score: 61/100
+   Entry: 347.10 | SL: 329.75 | T1: 381.81 | T2: 399.17 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:0 RS:15 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 65 (Power Zone), MACD Bullish, Strong RS vs Nifty, Sector Top 3: FMCG
+
+9. MOGSEC — Score: 60/100
+   Entry: 64.55 | SL: 63.40 | T1: 66.85 | T2: 68.00 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:5 RS:10 SM:7
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, RSI 65 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Consistent Buying
+
+
+────────────────────────────────────────────────────────────
+

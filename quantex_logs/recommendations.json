@@ -21718,5 +21718,275 @@
         "est_days_to_t1": 10.0
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-11",
+    "scan_time": "2026-06-11T04:35:38.785249",
+    "total_qualified": 9,
+    "sector_rankings": {
+      "FMCG": 1,
+      "BANKING": 2,
+      "CHEMICALS": 3,
+      "PHARMA": 4,
+      "INDEX_ETF": 5,
+      "ELECTRICALS": 6,
+      "DEFENCE": 7,
+      "AUTO": 8,
+      "INFRA": 9,
+      "POWER": 10,
+      "FINANCE": 11,
+      "RAILWAY": 12,
+      "ENERGY": 13,
+      "CONSUMER": 14,
+      "REALTY": 15,
+      "METALS": 16,
+      "IT": 17,
+      "GOLD_ETF": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "RBLBANK",
+        "score": 78,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Sector Top 3: BANKING",
+          "Long Buildup (OI: 61,645,800)",
+          "High F&O Activity"
+        ],
+        "entry": 363.65,
+        "sl": 346.93,
+        "target1": 397.09,
+        "target2": 413.8,
+        "hold_period": "1-2 weeks",
+        "cmp": 363.65
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "score": 70,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 58 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: BANKING",
+          "Long Buildup (OI: 172,918,000)",
+          "High F&O Activity"
+        ],
+        "entry": 388.75,
+        "sl": 375.9,
+        "target1": 414.45,
+        "target2": 427.3,
+        "hold_period": "1-2 weeks",
+        "cmp": 388.75
+      },
+      {
+        "symbol": "AXISBANK",
+        "score": 70,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 61 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: BANKING",
+          "Long Buildup (OI: 59,395,000)",
+          "High F&O Activity"
+        ],
+        "entry": 1320.0,
+        "sl": 1278.0,
+        "target1": 1404.0,
+        "target2": 1446.0,
+        "hold_period": "1-2 weeks",
+        "cmp": 1320.0
+      },
+      {
+        "symbol": "ICICIBANK",
+        "score": 69,
+        "breakdown": {
+          "Trend": 11,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "RSI 61 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: BANKING",
+          "Long Buildup (OI: 152,257,000)",
+          "High F&O Activity"
+        ],
+        "entry": 1308.6,
+        "sl": 1268.98,
+        "target1": 1387.83,
+        "target2": 1427.45,
+        "hold_period": "1-2 weeks",
+        "cmp": 1308.6
+      },
+      {
+        "symbol": "JBCHEPHARM",
+        "score": 65,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 13,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 63 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 2230.6,
+        "sl": 2140.16,
+        "target1": 2411.49,
+        "target2": 2501.93,
+        "hold_period": "1-2 weeks",
+        "cmp": 2230.6
+      },
+      {
+        "symbol": "TORNTPHARM",
+        "score": 63,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 0,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 59 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 3,041,375)",
+          "High F&O Activity"
+        ],
+        "entry": 4518.4,
+        "sl": 4335.78,
+        "target1": 4883.65,
+        "target2": 5066.27,
+        "hold_period": "1-2 weeks",
+        "cmp": 4518.4
+      },
+      {
+        "symbol": "CUB",
+        "score": 63,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 57 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 259.2,
+        "sl": 246.83,
+        "target1": 283.94,
+        "target2": 296.31,
+        "hold_period": "1-2 weeks",
+        "cmp": 259.2
+      },
+      {
+        "symbol": "RELAXO",
+        "score": 61,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 0,
+          "Relative Strength": 15,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "Strong RS vs Nifty",
+          "Sector Top 3: FMCG"
+        ],
+        "entry": 347.1,
+        "sl": 329.75,
+        "target1": 381.81,
+        "target2": 399.17,
+        "hold_period": "1-2 weeks",
+        "cmp": 347.1
+      },
+      {
+        "symbol": "MOGSEC",
+        "score": 60,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 64.55,
+        "sl": 63.4,
+        "target1": 66.85,
+        "target2": 68.0,
+        "hold_period": "3-7 days",
+        "cmp": 64.55
+      }
+    ]
   }
 ]
