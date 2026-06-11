@@ -21988,5 +21988,76 @@
         "cmp": 64.55
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-11",
+    "scan_time": "2026-06-11T10:30:59.665286",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 15.612500190734863
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 1,
+    "sector_rankings": {
+      "BANKING": 1,
+      "FMCG": 2,
+      "PHARMA": 3,
+      "AUTO": 4,
+      "INDEX_ETF": 5,
+      "CHEMICALS": 6,
+      "ELECTRICALS": 7,
+      "DEFENCE": 8,
+      "POWER": 9,
+      "FINANCE": 10,
+      "INFRA": 11,
+      "ENERGY": 12,
+      "REALTY": 13,
+      "RAILWAY": 14,
+      "METALS": 15,
+      "CONSUMER": 16,
+      "IT": 17,
+      "GOLD_ETF": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "JBCHEPHARM",
+        "score": 77,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 12,
+          "Price Action": 9,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 28 (Strong Trend)",
+          "ADX Rising",
+          "RSI 67 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Institutional Accumulation"
+        ],
+        "entry": 2264.8,
+        "sl": 2170.19,
+        "target1": 2406.72,
+        "target2": 2501.33,
+        "hold_period": "1-2 weeks",
+        "cmp": 2264.8,
+        "target3": 2490.5,
+        "target_method": "52W High + Weekly R3 + Fib 1.272 + Fib 1.618",
+        "est_days_to_t1": 11.8
+      }
+    ]
   }
 ]

@@ -65,3 +65,17 @@ Qualified: 9 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-06-11 at 10:30 AM IST
+Regime: NEUTRAL (mixed) | VIX: 15.61 | Min Score: 68
+Qualified: 1 stocks | Top 10 below
+============================================================
+
+1. JBCHEPHARM -- Score: 77/100
+   Entry: 2264.80 | SL: 2170.19 | T1: 2406.72 | T2: 2501.33 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:12 PA:9 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 28 (Strong Trend), ADX Rising, RSI 67 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Sector Top 3: PHARMA, Institutional Accumulation
+
+
+────────────────────────────────────────────────────────────
+
