@@ -69,6 +69,38 @@ ZERODHA_TOTP_KEY = os.environ.get("ZERODHA_TOTP_KEY", "").strip()
 MAX_SIGNALS_PER_DAY = 5
 SCORE_THRESHOLD = 65
 
+# Time-of-day scaling — at 11:30 AM, only ~36% of the trading day has elapsed.
+# Volume + range thresholds need to be scaled down accordingly, otherwise
+# the filters mathematically reject everything.
+def _fraction_of_trading_day(now=None):
+    if now is None:
+        now = datetime.now()
+    market_open = now.replace(hour=9, minute=15, second=0, microsecond=0)
+    market_close = now.replace(hour=15, minute=30, second=0, microsecond=0)
+    if now < market_open:
+        return 0.10  # pre-market — use minimum
+    if now > market_close:
+        return 1.00  # post-market — use full day
+    return max(0.10, min(1.0, (now - market_open).total_seconds() /
+                              (market_close - market_open).total_seconds()))
+
+# Diagnostic funnel — incremented during the scan loop to show which filter
+# is killing the candidate pool. Printed at end of main().
+FUNNEL = {
+    "scanned": 0, "no_data": 0,
+    "L1_price": 0, "L1_turnover": 0,
+    "L2_indicators_missing": 0, "L2_stage": 0, "L2_slope": 0,
+    "L2_ema20": 0, "L2_adx": 0,
+    "L3_close_pos": 0, "L3_body": 0, "L3_range": 0, "L3_prev_low": 0,
+    "L4_vol_mult": 0, "L4_vwap": 0,
+    "L5_rsi": 0, "L5_5d": 0, "L5_rs": 0,
+    "L7_streak": 0, "L7_gap": 0, "L7_doji": 0, "L7_hammer": 0,
+    "L7_support": 0,
+    "PASSED_ALL_FILTERS": 0,
+    "SCORE_BELOW_THRESHOLD": 0,
+    "PICKED": 0,
+}
+
 LOG_DIR = Path(__file__).parent / "quantex_logs"
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 PICKS_JSON = LOG_DIR / "intraday_sell_picks.json"
@@ -316,11 +348,16 @@ def detect_intraday_sell(symbol, df_daily, intraday, nifty_df):
     prev_low = float(prev['Low'])
     vwap = float(intraday['vwap'])
 
+    # Time-of-day fraction for volume/range scaling
+    tod = _fraction_of_trading_day()
+
     # ── LAYER 1: UNIVERSE FILTERS ──
     if not (PRICE_MIN <= close <= PRICE_MAX):
+        FUNNEL["L1_price"] += 1
         return None
     avg_turnover_cr = float((df["Close"].tail(20) * df["Volume"].tail(20)).mean()) / 1e7
     if avg_turnover_cr < TURNOVER_MIN_CR:
+        FUNNEL["L1_turnover"] += 1
         return None
 
     # ── LAYER 2: TREND HEALTH (must be SELL side) ──
@@ -333,20 +370,24 @@ def detect_intraday_sell(symbol, df_daily, intraday, nifty_df):
     adx = float(last['ADX']) if not pd.isna(last['ADX']) else 20
 
     if not all([dma50, dma200, ema20, rsi, atr, vol20]):
+        FUNNEL["L2_indicators_missing"] += 1
         return None
 
     # Stage 3 (close < 50-DMA, 50-DMA > 200-DMA) OR Stage 4 (close < 50-DMA < 200-DMA)
-    # NEVER short Stage 2 (close > 50 > 200)
     if close >= dma50:
+        FUNNEL["L2_stage"] += 1
         return None  # Not in breakdown stage
     dma50_prev = float(df['DMA50'].iloc[-1 - SLOPE_DAYS]) if len(df) > SLOPE_DAYS else dma50
     slope_50_pct = (dma50 - dma50_prev) / dma50_prev * 100 if dma50_prev > 0 else 0
     if slope_50_pct > 0.5:
-        return None  # 50-DMA still rising — not yet broken
+        FUNNEL["L2_slope"] += 1
+        return None
     if close > ema20:
-        return None  # short-term momentum still bullish
+        FUNNEL["L2_ema20"] += 1
+        return None
     if adx < ADX_MIN:
-        return None  # not trending
+        FUNNEL["L2_adx"] += 1
+        return None
 
     is_stage_4 = close < dma50 < dma200
     is_stage_3 = close < dma50 and dma50 >= dma200
@@ -354,21 +395,31 @@ def detect_intraday_sell(symbol, df_daily, intraday, nifty_df):
     # ── LAYER 3: TODAY'S BREAKDOWN SIGNATURE ──
     today_range = high - low
     if today_range <= 0:
+        FUNNEL["L3_range"] += 1
         return None
     close_pos = (close - low) / today_range
     if close_pos > CLOSE_POS_MAX:
-        return None  # close not in bottom 10%
+        FUNNEL["L3_close_pos"] += 1
+        return None
     body_pct = (close - open_) / open_ * 100 if open_ > 0 else 0
     if body_pct > BODY_PCT_MAX:
-        return None  # not a real red body
-    if today_range / atr < RANGE_VS_ATR_MIN:
+        FUNNEL["L3_body"] += 1
+        return None
+    # TOD-adjusted range threshold (full ATR is full-day expectation)
+    range_threshold = RANGE_VS_ATR_MIN * max(0.4, tod)
+    if today_range / atr < range_threshold:
+        FUNNEL["L3_range"] += 1
         return None
     if close >= prev_low:
-        return None  # didn't break yesterday's low
+        FUNNEL["L3_prev_low"] += 1
+        return None
 
     # ── LAYER 4: VOLUME SIGNATURE (anti-Pocket-Pivot) ──
     vol_mult = vol / vol20 if vol20 > 0 else 0
-    if vol_mult < VOL_MULT_MIN:
+    # TOD-adjusted: 1.5× of full-day avg expected ≈ 1.5×tod of intraday accumulated volume
+    vol_threshold = VOL_MULT_MIN * max(0.4, tod)
+    if vol_mult < vol_threshold:
+        FUNNEL["L4_vol_mult"] += 1
         return None
     # Today DOWN-vol must exceed MAX UP-vol of prior 10 days
     last_10 = df.iloc[-(UP_VOL_LOOKBACK + 1):-1]
@@ -384,17 +435,21 @@ def detect_intraday_sell(symbol, df_daily, intraday, nifty_df):
 
     # ── LAYER 4b: VWAP REJECTION ──
     if close >= vwap:
-        return None  # close above VWAP = bulls still in control
+        FUNNEL["L4_vwap"] += 1
+        return None
 
     # ── LAYER 5: MOMENTUM + RS NEGATIVE ──
     if not (RSI_MIN <= rsi <= RSI_MAX):
-        return None  # too oversold (bounce risk) or too strong
+        FUNNEL["L5_rsi"] += 1
+        return None
     move_5d = (close / float(df['Close'].iloc[-6]) - 1) * 100 if len(df) >= 6 else 0
     if move_5d >= 0:
-        return None  # 5-day return not declining
+        FUNNEL["L5_5d"] += 1
+        return None
     rs_today_diff, s_today_pct, n_today_pct = stock_vs_nifty_today(df, nifty_df)
     if rs_today_diff >= 0:
-        return None  # stock outperformed Nifty — not weak enough
+        FUNNEL["L5_rs"] += 1
+        return None
     last_252 = df.tail(252) if len(df) >= 252 else df
     low_52w = float(last_252['Low'].min())
     pct_from_52w_low = (close - low_52w) / low_52w * 100
@@ -412,18 +467,19 @@ def detect_intraday_sell(symbol, df_daily, intraday, nifty_df):
         else:
             break
     if red_streak >= RED_STREAK_MAX:
-        return None  # too oversold, reversal due
-    # Gap-down at open > 4%?
+        FUNNEL["L7_streak"] += 1
+        return None
     gap_at_open_pct = (open_ - prev_close) / prev_close * 100 if prev_close > 0 else 0
     if gap_at_open_pct < GAP_DOWN_AT_OPEN_MAX_PCT:
-        return None  # don't chase a gap-down
-    # Doji
+        FUNNEL["L7_gap"] += 1
+        return None
     body = abs(close - open_)
     if body / today_range < DOJI_BODY_RATIO_MAX:
-        return None  # indecision
-    # Hammer (long lower wick = bullish reversal candidate)
+        FUNNEL["L7_doji"] += 1
+        return None
     lower_wick = min(open_, close) - low
     if body > 0 and lower_wick > HAMMER_LOWER_WICK_RATIO * body:
+        FUNNEL["L7_hammer"] += 1
         return None
     # Friday afternoon shorts are risky (weekend gap-up)
     is_friday = datetime.now().weekday() == 4
@@ -442,7 +498,9 @@ def detect_intraday_sell(symbol, df_daily, intraday, nifty_df):
                 near_support = True
                 break
     if near_support:
-        return None  # at multi-touch support = high bounce risk
+        FUNNEL["L7_support"] += 1
+        return None
+    FUNNEL["PASSED_ALL_FILTERS"] += 1
 
     # ── LAYER 6: CATALYSTS (score bonuses) ──
     catalysts = []
@@ -718,12 +776,15 @@ def main():
     for idx, sym in enumerate(fno_symbols, 1):
         if idx % 25 == 0:
             print(f"   ... {idx}/{len(fno_symbols)} ({time.time()-start:.0f}s)")
+        FUNNEL["scanned"] += 1
         df_daily = fetch_daily(sym)
         if df_daily is None:
+            FUNNEL["no_data"] += 1
             continue
         df_daily = annotate(df_daily)
         intraday = fetch_intraday_ohlc_and_vwap(sym)
         if intraday is None:
+            FUNNEL["no_data"] += 1
             continue
         p = detect_intraday_sell(sym, df_daily, intraday, nifty_df)
         if p is None:
@@ -731,12 +792,46 @@ def main():
         s = score_intraday_sell(p)
         if s >= SCORE_THRESHOLD:
             candidates.append({"symbol": sym, "score": s, "pattern": p})
+            FUNNEL["PICKED"] += 1
+        else:
+            FUNNEL["SCORE_BELOW_THRESHOLD"] += 1
 
     candidates.sort(key=lambda x: x["score"], reverse=True)
     picks = candidates[:MAX_SIGNALS_PER_DAY]
 
     elapsed = time.time() - start
     print(f"\n>> Scan complete in {elapsed:.0f}s — {len(candidates)} qualified, top {len(picks)} fired\n")
+
+    # Diagnostic funnel — shows which filter killed the candidate pool
+    tod_now = _fraction_of_trading_day()
+    print(f">> Filter funnel (TOD={tod_now*100:.0f}% of day elapsed):")
+    print(f"   Scanned:                   {FUNNEL['scanned']}")
+    print(f"   No data fetched:           {FUNNEL['no_data']}")
+    print(f"   L1 price band rejected:    {FUNNEL['L1_price']}")
+    print(f"   L1 turnover < ₹50Cr:       {FUNNEL['L1_turnover']}")
+    print(f"   L2 missing indicators:     {FUNNEL['L2_indicators_missing']}")
+    print(f"   L2 NOT Stage 3/4:          {FUNNEL['L2_stage']}")
+    print(f"   L2 50-DMA slope positive:  {FUNNEL['L2_slope']}")
+    print(f"   L2 above EMA20:            {FUNNEL['L2_ema20']}")
+    print(f"   L2 ADX < 20:               {FUNNEL['L2_adx']}")
+    print(f"   L3 close not in bot 10%:   {FUNNEL['L3_close_pos']}")
+    print(f"   L3 body not red enough:    {FUNNEL['L3_body']}")
+    print(f"   L3 range < TOD threshold:  {FUNNEL['L3_range']}")
+    print(f"   L3 close >= yest low:      {FUNNEL['L3_prev_low']}")
+    print(f"   L4 vol < TOD threshold:    {FUNNEL['L4_vol_mult']}")
+    print(f"   L4 close >= VWAP:          {FUNNEL['L4_vwap']}")
+    print(f"   L5 RSI outside 30-60:      {FUNNEL['L5_rsi']}")
+    print(f"   L5 5d return >= 0:         {FUNNEL['L5_5d']}")
+    print(f"   L5 RS positive vs Nifty:   {FUNNEL['L5_rs']}")
+    print(f"   L7 red streak ≥ 5:         {FUNNEL['L7_streak']}")
+    print(f"   L7 gap-down > 4%:          {FUNNEL['L7_gap']}")
+    print(f"   L7 doji:                   {FUNNEL['L7_doji']}")
+    print(f"   L7 hammer:                 {FUNNEL['L7_hammer']}")
+    print(f"   L7 near support cluster:   {FUNNEL['L7_support']}")
+    print(f"   *PASSED ALL FILTERS:       {FUNNEL['PASSED_ALL_FILTERS']}")
+    print(f"   SCORE < 65 (below cutoff): {FUNNEL['SCORE_BELOW_THRESHOLD']}")
+    print(f"   *FINAL PICKED:             {FUNNEL['PICKED']}")
+    print()
     for p in picks:
         d = p["pattern"]
         stage = "S4" if d["is_stage_4"] else "S3"
