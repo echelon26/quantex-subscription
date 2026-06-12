@@ -65,3 +65,62 @@ Qualified: 18 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-06-12 at 10:30 AM IST
+Regime: BULLISH (risk-on) | VIX: 14.72 | Min Score: 60
+Qualified: 17 stocks | Top 10 below
+============================================================
+
+1. RBLBANK -- Score: 79/100
+   Entry: 366.90 | SL: 349.76 | T1: 401.18 | T2: 418.32 | RR: 1:2.0
+   Tr:14 Mo:15 Vo:15 PA:13 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 25 (Trending), ADX Rising, RSI 66 (Power Zone), MACD Bullish, Vol Above Avg 1.9x, Strong Delivery (Close near High), 20-Day Breakout, Hammer, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 62,277,625), High F&O Activity
+
+2. INDIGO -- Score: 68/100
+   Entry: 4705.00 | SL: 4502.10 | T1: 5009.35 | T2: 5090.59 | RR: 1:1.5
+   Tr:10 Mo:15 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 63 (Power Zone), MACD Bullish, Vol Surge 2.4x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 7,978,500), High F&O Activity
+
+3. PNB -- Score: 68/100
+   Entry: 106.91 | SL: 102.67 | T1: 113.27 | T2: 117.51 | RR: 1:1.5
+   Tr:10 Mo:15 Vo:12 PA:9 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 58 (Power Zone), MACD Bullish, Strong Delivery (Close near High), Near Breakout, Morning Star, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 295,488,000), High F&O Activity
+
+4. KRBL -- Score: 67/100
+   Entry: 367.75 | SL: 346.44 | T1: 399.72 | T2: 431.68 | RR: 1:1.5
+   Tr:10 Mo:18 Vo:15 PA:9 RS:8 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, RSI 59 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.9x, Strong Delivery (Close near High), Near Breakout, Marubozu, Strong RS vs Nifty, Consistent Buying
+
+5. KOTAKBANK -- Score: 66/100
+   Entry: 404.00 | SL: 389.87 | T1: 425.19 | T2: 439.32 | RR: 1:1.5
+   Tr:10 Mo:18 Vo:8 PA:8 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 68 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 175,700,000), High F&O Activity
+
+6. BANKBARODA -- Score: 66/100
+   Entry: 274.55 | SL: 263.54 | T1: 291.07 | T2: 302.08 | RR: 1:1.5
+   Tr:10 Mo:15 Vo:15 PA:4 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, RSI 62 (Power Zone), MACD Bullish, Vol Above Avg 1.8x, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 126,403,875), High F&O Activity
+
+7. AXISBANK -- Score: 65/100
+   Entry: 1353.00 | SL: 1308.14 | T1: 1420.29 | T2: 1465.15 | RR: 1:1.5
+   Tr:12 Mo:15 Vo:8 PA:8 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 68 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 62,625,000), High F&O Activity
+
+8. PARAS -- Score: 65/100
+   Entry: 1099.50 | SL: 1022.54 | T1: 1238.04 | T2: 1307.30 | RR: 1:1.8
+   Tr:16 Mo:6 Vo:15 PA:13 RS:8 SM:7 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 34 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Consistent Buying
+
+9. AUBANK -- Score: 65/100
+   Entry: 1017.80 | SL: 974.61 | T1: 1082.59 | T2: 1095.40 | RR: 1:1.5
+   Tr:7 Mo:18 Vo:17 PA:4 RS:9 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: RSI 59 (Power Zone), MACD Fresh Crossover, Vol Surge 2.2x, Strong Delivery (Close near High), Near Breakout, Outperforming Nifty, Sector Top 3: BANKING, Long Buildup (OI: 26,748,000), High F&O Activity
+
+10. CANFINHOME -- Score: 64/100
+   Entry: 864.00 | SL: 828.63 | T1: 934.74 | T2: 970.12 | RR: 1:2.0
+   Tr:11 Mo:18 Vo:15 PA:8 RS:5 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: ADX 27 (Strong Trend), RSI 59 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Outperforming Nifty, Consistent Buying
+
+
+────────────────────────────────────────────────────────────
+
