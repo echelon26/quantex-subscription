@@ -1084,5 +1084,31 @@
       "JINDALSAW"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-11.pdf"
+  },
+  {
+    "date": "Fri, 12 Jun 2026",
+    "fear_greed": 37.9,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Fear",
+    "gift_nifty": 23161.6,
+    "nifty": 23161.6,
+    "sensex": 73832.55,
+    "bank_nifty": 55176.75,
+    "vix": 15.61,
+    "top_gainers": [
+      "AEGISLOG",
+      "ZEEL",
+      "DOMS",
+      "ABDL",
+      "BLUEJET"
+    ],
+    "top_losers": [
+      "JAINREC",
+      "BALKRISIND",
+      "CCL",
+      "CEMPRO",
+      "MRPL"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-12.pdf"
   }
 ]
