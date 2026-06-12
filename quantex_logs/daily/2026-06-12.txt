@@ -7,3 +7,61 @@ Qualified: 0 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-06-12 at 04:35 AM IST
+Qualified: 18 stocks | Top 10 below
+============================================================
+
+1. AAVAS — Score: 76/100
+   Entry: 1423.10 | SL: 1351.94 | T1: 1565.41 | T2: 1636.56 | RR: 1:2.0
+   Trend:11 Mom:20 Vol:18 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: RSI 63 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+2. GOLDIAM — Score: 71/100
+   Entry: 462.00 | SL: 438.90 | T1: 508.20 | T2: 531.30 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:10 PA:15 RS:10 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 68 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty
+
+3. BANKBARODA — Score: 68/100
+   Entry: 272.20 | SL: 261.59 | T1: 293.42 | T2: 304.03 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 60 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 128,623,950), High F&O Activity
+
+4. INDIGO — Score: 68/100
+   Entry: 4657.00 | SL: 4458.92 | T1: 5053.16 | T2: 5251.23 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 61 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 7,364,400), High F&O Activity
+
+5. PIDILITIND — Score: 68/100
+   Entry: 1531.00 | SL: 1483.30 | T1: 1626.40 | T2: 1674.11 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:5 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 68 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 7,003,000), High F&O Activity
+
+6. MOTILALOFS — Score: 66/100
+   Entry: 875.25 | SL: 831.49 | T1: 962.78 | T2: 1006.54 | RR: 1:2.0
+   Trend:15 Mom:13 Vol:18 PA:0 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 57 (Power Zone), Vol Above Avg 1.5x, Strong Delivery (Close near High), Strong RS vs Nifty, Long Buildup (OI: 4,607,375), High F&O Activity
+
+7. KOTAKBANK — Score: 65/100
+   Entry: 397.75 | SL: 384.10 | T1: 425.04 | T2: 438.69 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:0 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 65 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 172,782,000), High F&O Activity
+
+8. CUB — Score: 65/100
+   Entry: 200.10 | SL: 190.46 | T1: 219.38 | T2: 229.02 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 63 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+9. AXISBANK — Score: 63/100
+   Entry: 1324.90 | SL: 1282.67 | T1: 1409.36 | T2: 1451.60 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:0 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 62 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 59,366,250), High F&O Activity
+
+10. BANKBEES — Score: 63/100
+   Entry: 575.72 | SL: 561.63 | T1: 603.91 | T2: 618.00 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:0 PA:10 RS:13 SM:7
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, RSI 60 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+
+────────────────────────────────────────────────────────────
+

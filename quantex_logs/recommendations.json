@@ -22094,5 +22094,304 @@
       "IT": 19
     },
     "top_10": []
+  },
+  {
+    "scan_date": "2026-06-12",
+    "scan_time": "2026-06-12T04:35:33.098518",
+    "total_qualified": 18,
+    "sector_rankings": {
+      "BANKING": 1,
+      "AUTO": 2,
+      "FMCG": 3,
+      "CHEMICALS": 4,
+      "INDEX_ETF": 5,
+      "REALTY": 6,
+      "SILVER_ETF": 7,
+      "ELECTRICALS": 8,
+      "INFRA": 9,
+      "PHARMA": 10,
+      "RAILWAY": 11,
+      "ENERGY": 12,
+      "FINANCE": 13,
+      "METALS": 14,
+      "CONSUMER": 15,
+      "DEFENCE": 16,
+      "GOLD_ETF": 17,
+      "POWER": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "AAVAS",
+        "score": 76,
+        "breakdown": {
+          "Trend": 11,
+          "Momentum": 20,
+          "Volume": 18,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "RSI 63 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Above Avg 1.6x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 1423.1,
+        "sl": 1351.94,
+        "target1": 1565.41,
+        "target2": 1636.56,
+        "hold_period": "1-2 weeks",
+        "cmp": 1423.1
+      },
+      {
+        "symbol": "GOLDIAM",
+        "score": 71,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 10,
+          "Price Action": 15,
+          "Relative Strength": 10,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty"
+        ],
+        "entry": 462.0,
+        "sl": 438.9,
+        "target1": 508.2,
+        "target2": 531.3,
+        "hold_period": "1-2 weeks",
+        "cmp": 462.0
+      },
+      {
+        "symbol": "BANKBARODA",
+        "score": 68,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 60 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: BANKING",
+          "Long Buildup (OI: 128,623,950)",
+          "High F&O Activity"
+        ],
+        "entry": 272.2,
+        "sl": 261.59,
+        "target1": 293.42,
+        "target2": 304.03,
+        "hold_period": "1-2 weeks",
+        "cmp": 272.2
+      },
+      {
+        "symbol": "INDIGO",
+        "score": 68,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 61 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 7,364,400)",
+          "High F&O Activity"
+        ],
+        "entry": 4657.0,
+        "sl": 4458.92,
+        "target1": 5053.16,
+        "target2": 5251.23,
+        "hold_period": "1-2 weeks",
+        "cmp": 4657.0
+      },
+      {
+        "symbol": "PIDILITIND",
+        "score": 68,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 7,003,000)",
+          "High F&O Activity"
+        ],
+        "entry": 1531.0,
+        "sl": 1483.3,
+        "target1": 1626.4,
+        "target2": 1674.11,
+        "hold_period": "1-2 weeks",
+        "cmp": 1531.0
+      },
+      {
+        "symbol": "MOTILALOFS",
+        "score": 66,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 13,
+          "Volume": 18,
+          "Price Action": 0,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 57 (Power Zone)",
+          "Vol Above Avg 1.5x",
+          "Strong Delivery (Close near High)",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 4,607,375)",
+          "High F&O Activity"
+        ],
+        "entry": 875.25,
+        "sl": 831.49,
+        "target1": 962.78,
+        "target2": 1006.54,
+        "hold_period": "1-2 weeks",
+        "cmp": 875.25
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "score": 65,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 20,
+          "Volume": 0,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 65 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: BANKING",
+          "Long Buildup (OI: 172,782,000)",
+          "High F&O Activity"
+        ],
+        "entry": 397.75,
+        "sl": 384.1,
+        "target1": 425.04,
+        "target2": 438.69,
+        "hold_period": "1-2 weeks",
+        "cmp": 397.75
+      },
+      {
+        "symbol": "CUB",
+        "score": 65,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 63 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 200.1,
+        "sl": 190.46,
+        "target1": 219.38,
+        "target2": 229.02,
+        "hold_period": "1-2 weeks",
+        "cmp": 200.1
+      },
+      {
+        "symbol": "AXISBANK",
+        "score": 63,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 0,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 62 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: BANKING",
+          "Long Buildup (OI: 59,366,250)",
+          "High F&O Activity"
+        ],
+        "entry": 1324.9,
+        "sl": 1282.67,
+        "target1": 1409.36,
+        "target2": 1451.6,
+        "hold_period": "1-2 weeks",
+        "cmp": 1324.9
+      },
+      {
+        "symbol": "BANKBEES",
+        "score": 63,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 0,
+          "Price Action": 10,
+          "Relative Strength": 13,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 60 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 575.72,
+        "sl": 561.63,
+        "target1": 603.91,
+        "target2": 618.0,
+        "hold_period": "3-7 days",
+        "cmp": 575.72
+      }
+    ]
   }
 ]
