@@ -23449,14 +23449,35 @@
   },
   {
     "scan_date": "2026-06-15",
-    "scan_time": "2026-06-15T06:53:24.860206",
+    "scan_time": "2026-06-15T09:54:05.408888",
     "scanner_type": "btst",
-    "total_qualified": 1,
+    "total_qualified": 2,
     "top_10": [
+      {
+        "symbol": "ABSLAMC",
+        "scanner_type": "btst",
+        "score": 85.4,
+        "entry": 1150.9,
+        "sl": 1127.88,
+        "target1": 1179.67,
+        "target2": 1208.45,
+        "hold_period": "1 session (BTST)",
+        "cmp": 1150.9,
+        "signals": [
+          "Close top 100%",
+          "Green +2.9%",
+          "Vol 2.4x",
+          "RS +3.5% vs Nifty",
+          "52w high breakout",
+          "Pocket Pivot volume signature",
+          "New 20-day high",
+          "Strong 5-day RS vs Nifty"
+        ]
+      },
       {
         "symbol": "SCHNEIDER",
         "scanner_type": "btst",
-        "score": 75.2,
+        "score": 77.3,
         "entry": 1216.2,
         "sl": 1191.88,
         "target1": 1246.61,
@@ -23466,8 +23487,8 @@
         "signals": [
           "Close top 100%",
           "Green +8.2%",
-          "Vol 1.6x",
-          "RS +8.8% vs Nifty",
+          "Vol 1.9x",
+          "RS +9.0% vs Nifty",
           "Pocket Pivot volume signature",
           "New 5-day high"
         ]
