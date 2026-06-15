@@ -57,3 +57,61 @@ Qualified: 13 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-06-15 at 04:35 AM IST
+Qualified: 54 stocks | Top 10 below
+============================================================
+
+1. MOTILALOFS — Score: 83/100
+   Entry: 936.60 | SL: 889.77 | T1: 1030.26 | T2: 1077.09 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:15 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 65 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 4,618,225), High F&O Activity
+
+2. CHOLAFIN — Score: 79/100
+   Entry: 1651.90 | SL: 1569.31 | T1: 1817.09 | T2: 1899.69 | RR: 1:2.0
+   Trend:16 Mom:20 Vol:10 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 63 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 16,649,375), High F&O Activity
+
+3. EICHERMOT — Score: 78/100
+   Entry: 7493.00 | SL: 7223.28 | T1: 8032.45 | T2: 8302.17 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 64 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: AUTO, Long Buildup (OI: 3,547,100), High F&O Activity
+
+4. LT — Score: 75/100
+   Entry: 4186.00 | SL: 4050.26 | T1: 4457.49 | T2: 4593.23 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 13,496,000), High F&O Activity
+
+5. PHOENIXLTD — Score: 75/100
+   Entry: 1802.50 | SL: 1724.06 | T1: 1959.38 | T2: 2037.82 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 59 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 3,927,350), High F&O Activity
+
+6. CASTROLIND — Score: 75/100
+   Entry: 186.73 | SL: 183.63 | T1: 192.93 | T2: 196.03 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:18 PA:10 RS:0 SM:7
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 65 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.5x, Strong Delivery (Close near High), 20-Day Breakout, Consistent Buying
+
+7. ICICIBANK — Score: 73/100
+   Entry: 1347.50 | SL: 1306.55 | T1: 1429.39 | T2: 1470.34 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:0 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 138,733,000), High F&O Activity
+
+8. AXISBANK — Score: 73/100
+   Entry: 1364.10 | SL: 1320.12 | T1: 1452.06 | T2: 1496.04 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:0 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 69 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 59,450,000), High F&O Activity
+
+9. BANKBARODA — Score: 73/100
+   Entry: 280.65 | SL: 269.60 | T1: 302.76 | T2: 313.81 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:0 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 122,958,225), High F&O Activity
+
+10. GAIL — Score: 73/100
+   Entry: 175.88 | SL: 169.16 | T1: 189.32 | T2: 196.04 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 72,191,700), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
