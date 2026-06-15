@@ -115,3 +115,62 @@ Qualified: 54 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-06-15 at 10:31 AM IST
+Regime: BULLISH (risk-on) | VIX: 14.35 | Min Score: 60
+Qualified: 34 stocks | Top 10 below
+============================================================
+
+1. ABSLAMC -- Score: 80/100
+   Entry: 1155.00 | SL: 1089.46 | T1: 1253.31 | T2: 1318.85 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:17 PA:13 RS:8 SM:7 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 29 (Strong Trend), ADX Rising, RSI 66 (Power Zone), MACD Bullish, Vol Surge 2.6x, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Consistent Buying
+
+2. MOTILALOFS -- Score: 79/100
+   Entry: 939.40 | SL: 889.92 | T1: 1038.36 | T2: 1087.84 | RR: 1:2.0
+   Tr:18 Mo:18 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 21 (Trending), ADX Rising, RSI 66 (Power Zone), MACD Fresh Crossover, Vol Surge 2.4x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 4,889,475), High F&O Activity
+
+3. ELECON -- Score: 79/100
+   Entry: 562.00 | SL: 526.92 | T1: 614.62 | T2: 649.70 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:15 PA:8 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 25 (Strong Trend), ADX Rising, RSI 65 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.9x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+4. PRESTIGE -- Score: 77/100
+   Entry: 1467.30 | SL: 1388.73 | T1: 1585.16 | T2: 1663.73 | RR: 1:1.5
+   Tr:14 Mo:18 Vo:15 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 62 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.7x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 6,023,250), High F&O Activity
+
+5. RBLBANK -- Score: 76/100
+   Entry: 373.30 | SL: 356.38 | T1: 398.68 | T2: 399.25 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:11 PA:8 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 26 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Bullish, Vol Above Avg 1.8x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 61,734,700), High F&O Activity
+
+6. DLF -- Score: 75/100
+   Entry: 615.40 | SL: 587.97 | T1: 670.26 | T2: 697.69 | RR: 1:2.0
+   Tr:10 Mo:18 Vo:17 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 62 (Power Zone), MACD Fresh Crossover, Vol Surge 2.3x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 41,956,200), High F&O Activity
+
+7. PHOENIXLTD -- Score: 74/100
+   Entry: 1860.00 | SL: 1775.88 | T1: 1986.18 | T2: 1996.28 | RR: 1:1.5
+   Tr:14 Mo:18 Vo:12 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 65 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 4,081,700), High F&O Activity
+
+8. CHOLAFIN -- Score: 73/100
+   Entry: 1655.00 | SL: 1568.54 | T1: 1784.69 | T2: 1796.69 | RR: 1:1.5
+   Tr:12 Mo:18 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 63 (Power Zone), MACD Fresh Crossover, Vol Surge 2.7x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 17,237,500), High F&O Activity
+
+9. BHARATFORG -- Score: 73/100
+   Entry: 2020.00 | SL: 1930.50 | T1: 2154.25 | T2: 2179.42 | RR: 1:1.5
+   Tr:10 Mo:18 Vo:15 PA:8 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 66 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: AUTO, Long Buildup (OI: 7,184,500), High F&O Activity
+
+10. KALYANKJIL -- Score: 73/100
+   Entry: 382.50 | SL: 358.18 | T1: 418.98 | T2: 443.30 | RR: 1:1.5
+   Tr:13 Mo:15 Vo:17 PA:8 RS:10 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: Supertrend Bullish, ADX 23 (Trending), ADX Rising, RSI 57 (Power Zone), MACD Bullish, Vol Surge 3.8x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 42,443,350), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
