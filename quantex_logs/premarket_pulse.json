@@ -1110,5 +1110,31 @@
       "MRPL"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-12.pdf"
+  },
+  {
+    "date": "Mon, 15 Jun 2026",
+    "fear_greed": 56.7,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23622.9,
+    "nifty": 23622.9,
+    "sensex": 75527.95,
+    "bank_nifty": 56814.8,
+    "vix": 14.72,
+    "top_gainers": [
+      "IFCI",
+      "AIIL",
+      "TTML",
+      "TMCV",
+      "ASHOKLEY"
+    ],
+    "top_losers": [
+      "CEMPRO",
+      "NESTLEIND",
+      "OIL",
+      "ONGC",
+      "TECHM"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-15.pdf"
   }
 ]
