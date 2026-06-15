@@ -23446,5 +23446,32 @@
         "cmp": 175.88
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-15",
+    "scan_time": "2026-06-15T06:53:24.860206",
+    "scanner_type": "btst",
+    "total_qualified": 1,
+    "top_10": [
+      {
+        "symbol": "SCHNEIDER",
+        "scanner_type": "btst",
+        "score": 75.2,
+        "entry": 1216.2,
+        "sl": 1191.88,
+        "target1": 1246.61,
+        "target2": 1277.01,
+        "hold_period": "1 session (BTST)",
+        "cmp": 1216.2,
+        "signals": [
+          "Close top 100%",
+          "Green +8.2%",
+          "Vol 1.6x",
+          "RS +8.8% vs Nifty",
+          "Pocket Pivot volume signature",
+          "New 5-day high"
+        ]
+      }
+    ]
   }
 ]

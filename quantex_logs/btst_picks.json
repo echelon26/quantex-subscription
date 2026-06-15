@@ -1,1 +1,65 @@
-[]
+[
+  {
+    "symbol": "SCHNEIDER",
+    "score": 75.2,
+    "scan_time": "2026-06-15T06:53:24.860206",
+    "close": 1216.2,
+    "open": 1123.7,
+    "high": 1216.2,
+    "low": 1100.0,
+    "volume": 795905.0,
+    "dma50": 1168.027,
+    "dma200": 892.30125,
+    "ema20": 1185.025058629089,
+    "rsi": 52.843862089882045,
+    "atr": 66.72136384077692,
+    "atr_pct": 5.486051952045463,
+    "adx": 24.643251044676088,
+    "slope_50_pct": 2.1224899475497785,
+    "today_range": 116.20000000000005,
+    "close_position": 1.0,
+    "body_pct": 8.23173444869627,
+    "range_vs_atr": 1.7415711147226902,
+    "vol_mult": 1.5683371681061065,
+    "max_down_vol_10": 568036.0,
+    "pp_signature": true,
+    "vol_rank_top25": "True",
+    "new_5d_high": true,
+    "new_20d_high": false,
+    "high_52w": 1417.8,
+    "pct_from_52w": 14.21921286500211,
+    "avg_turnover_cr": 59.747009027999994,
+    "move_5d": 6.413509493393987,
+    "s_today_pct": 9.993669168852314,
+    "n_today_pct": 1.2005299942005276,
+    "rs_today_diff": 8.793139174651786,
+    "rs_5d_diff": 3.0251083343748375,
+    "gap_at_open_pct": 1.6279280094058064,
+    "green_streak": 1,
+    "is_friday": false,
+    "catalysts": [
+      [
+        "Pocket Pivot volume signature",
+        10
+      ],
+      [
+        "New 5-day high",
+        2
+      ]
+    ],
+    "entry": 1216.2,
+    "sl": 1191.88,
+    "t1": 1246.61,
+    "t2": 1277.01,
+    "rr": 1.2504111842105237,
+    "risk_pct": 1.9996711067258643,
+    "t1_pct": 2.5,
+    "t2_pct": 5.0,
+    "est_days_t1": 1,
+    "est_days_t2": 3,
+    "realistic_t1": 1296.27,
+    "realistic_t2": 1558.11,
+    "realistic_t1_basis": "ATR cap (1-day)",
+    "realistic_t2_basis": "ATR cap (3-day \u00d71.15)"
+  }
+]
