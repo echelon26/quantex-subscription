@@ -22765,5 +22765,372 @@
         "est_days_to_t1": 19.1
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-15",
+    "scan_time": "2026-06-15T04:31:02.393393",
+    "market_regime": {
+      "regime": "bullish",
+      "min_score": 60,
+      "label": "BULLISH (risk-on)",
+      "nifty_above_50dma": true,
+      "vix": 14.1850004196167
+    },
+    "min_score_threshold": 60,
+    "total_qualified": 13,
+    "sector_rankings": {
+      "AUTO": 1,
+      "BANKING": 2,
+      "REALTY": 3,
+      "FINANCE": 4,
+      "INDEX_ETF": 5,
+      "SILVER_ETF": 6,
+      "CHEMICALS": 7,
+      "RAILWAY": 8,
+      "INFRA": 9,
+      "ELECTRICALS": 10,
+      "CONSUMER": 11,
+      "ENERGY": 12,
+      "FMCG": 13,
+      "PHARMA": 14,
+      "POWER": 15,
+      "DEFENCE": 16,
+      "GOLD_ETF": 17,
+      "METALS": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "MOTILALOFS",
+        "score": 73,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 18,
+          "Volume": 4,
+          "Price Action": 13,
+          "Relative Strength": 10,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 20 (Trending)",
+          "ADX Rising",
+          "RSI 65 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 4,633,725)",
+          "High F&O Activity"
+        ],
+        "entry": 933.0,
+        "sl": 884.86,
+        "target1": 1029.27,
+        "target2": 1077.41,
+        "hold_period": "3-4 weeks",
+        "cmp": 933.0,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 20.2
+      },
+      {
+        "symbol": "CHOLAFIN",
+        "score": 66,
+        "breakdown": {
+          "Trend": 12,
+          "Momentum": 18,
+          "Volume": 8,
+          "Price Action": 8,
+          "Relative Strength": 10,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 63 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 16,667,500)",
+          "High F&O Activity"
+        ],
+        "entry": 1651.7,
+        "sl": 1565.77,
+        "target1": 1823.55,
+        "target2": 1909.48,
+        "hold_period": "3-4 weeks",
+        "cmp": 1651.7,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 25
+      },
+      {
+        "symbol": "BANKBARODA",
+        "score": 65,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: BANKING",
+          "Long Buildup (OI: 122,943,600)",
+          "High F&O Activity"
+        ],
+        "entry": 280.9,
+        "sl": 269.85,
+        "target1": 303.01,
+        "target2": 314.06,
+        "hold_period": "2-3 weeks",
+        "cmp": 280.9,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 17.1
+      },
+      {
+        "symbol": "RBLBANK",
+        "score": 65,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 0,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 26 (Strong Trend)",
+          "ADX Rising",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: BANKING",
+          "Long Buildup (OI: 60,452,000)",
+          "High F&O Activity"
+        ],
+        "entry": 370.1,
+        "sl": 353.18,
+        "target1": 395.48,
+        "target2": 412.4,
+        "hold_period": "5-8 days",
+        "cmp": 370.1,
+        "target3": 399.26,
+        "target_method": "52W High + Weekly R1 + Fib 1.0 + Measured Move",
+        "est_days_to_t1": 5.8
+      },
+      {
+        "symbol": "AUBANK",
+        "score": 64,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 0,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 61 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: BANKING",
+          "Long Buildup (OI: 25,993,000)",
+          "High F&O Activity"
+        ],
+        "entry": 1026.0,
+        "sl": 981.53,
+        "target1": 1092.71,
+        "target2": 1137.18,
+        "hold_period": "3-4 weeks",
+        "cmp": 1026.0,
+        "target3": 1097.95,
+        "target_method": "Fib 1.272 + Weekly R1 + Fib 1.618 + Weekly R2",
+        "est_days_to_t1": 22.6
+      },
+      {
+        "symbol": "EICHERMOT",
+        "score": 63,
+        "breakdown": {
+          "Trend": 14,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 64 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: AUTO",
+          "Long Buildup (OI: 3,547,600)",
+          "High F&O Activity"
+        ],
+        "entry": 7500.0,
+        "sl": 7230.28,
+        "target1": 7904.59,
+        "target2": 8174.31,
+        "hold_period": "3-4 weeks",
+        "cmp": 7500.0,
+        "target3": 7985.0,
+        "target_method": "Weekly R2 + Fib 1.0 + Measured Move + Fib 1.272",
+        "est_days_to_t1": 22.6
+      },
+      {
+        "symbol": "MOTHERSON",
+        "score": 63,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 11,
+          "Volume": 4,
+          "Price Action": 9,
+          "Relative Strength": 9,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 38 (Strong Trend)",
+          "RSI 66 (Power Zone)",
+          "Near Breakout",
+          "Marubozu",
+          "Outperforming Nifty",
+          "Sector Top 3: AUTO",
+          "Long Buildup (OI: 152,612,250)",
+          "High F&O Activity"
+        ],
+        "entry": 149.26,
+        "sl": 141.76,
+        "target1": 164.26,
+        "target2": 169.7,
+        "hold_period": "2-3 weeks",
+        "cmp": 149.26,
+        "target3": 179.7,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 16.2
+      },
+      {
+        "symbol": "LT",
+        "score": 62,
+        "breakdown": {
+          "Trend": 14,
+          "Momentum": 18,
+          "Volume": 4,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 65 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 13,497,400)",
+          "High F&O Activity"
+        ],
+        "entry": 4178.4,
+        "sl": 4042.66,
+        "target1": 4382.02,
+        "target2": 4582.66,
+        "hold_period": "3-4 weeks",
+        "cmp": 4178.4,
+        "target_method": "Fib 1.618 + Weekly R3 + Fib 2.0 + Fib 2.618",
+        "est_days_to_t1": 21.4
+      },
+      {
+        "symbol": "PETRONET",
+        "score": 62,
+        "breakdown": {
+          "Trend": 14,
+          "Momentum": 18,
+          "Volume": 4,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 64 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 31,733,800)",
+          "High F&O Activity"
+        ],
+        "entry": 286.35,
+        "sl": 275.32,
+        "target1": 302.9,
+        "target2": 319.44,
+        "hold_period": "3-4 weeks",
+        "cmp": 286.35,
+        "target_method": "Weekly R3 + 52W High",
+        "est_days_to_t1": 22.6
+      },
+      {
+        "symbol": "PHOENIXLTD",
+        "score": 62,
+        "breakdown": {
+          "Trend": 14,
+          "Momentum": 18,
+          "Volume": 4,
+          "Price Action": 4,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 59 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: REALTY",
+          "Long Buildup (OI: 3,920,000)",
+          "High F&O Activity"
+        ],
+        "entry": 1805.0,
+        "sl": 1726.56,
+        "target1": 1922.66,
+        "target2": 1996.39,
+        "hold_period": "3-4 weeks",
+        "cmp": 1805.0,
+        "target_method": "Resistance (5x) + Fib 1.272 + 52W High + Weekly R2",
+        "est_days_to_t1": 22.6
+      }
+    ]
   }
 ]

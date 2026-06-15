@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-06-15 at 04:31 AM IST
+Regime: BULLISH (risk-on) | VIX: 14.19 | Min Score: 60
+Qualified: 13 stocks | Top 10 below
+============================================================
+
+1. MOTILALOFS -- Score: 73/100
+   Entry: 933.00 | SL: 884.86 | T1: 1029.27 | T2: 1077.41 | RR: 1:2.0
+   Tr:18 Mo:18 Vo:4 PA:13 RS:10 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 20 (Trending), ADX Rising, RSI 65 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 4,633,725), High F&O Activity
+
+2. CHOLAFIN -- Score: 66/100
+   Entry: 1651.70 | SL: 1565.77 | T1: 1823.55 | T2: 1909.48 | RR: 1:2.0
+   Tr:12 Mo:18 Vo:8 PA:8 RS:10 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 63 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 16,667,500), High F&O Activity
+
+3. BANKBARODA -- Score: 65/100
+   Entry: 280.90 | SL: 269.85 | T1: 303.01 | T2: 314.06 | RR: 1:2.0
+   Tr:16 Mo:15 Vo:4 PA:8 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 122,943,600), High F&O Activity
+
+4. RBLBANK -- Score: 65/100
+   Entry: 370.10 | SL: 353.18 | T1: 395.48 | T2: 412.40 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:0 PA:8 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 26 (Strong Trend), ADX Rising, RSI 68 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 60,452,000), High F&O Activity
+
+5. AUBANK -- Score: 64/100
+   Entry: 1026.00 | SL: 981.53 | T1: 1092.71 | T2: 1137.18 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:0 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 61 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 25,993,000), High F&O Activity
+
+6. EICHERMOT -- Score: 63/100
+   Entry: 7500.00 | SL: 7230.28 | T1: 7904.59 | T2: 8174.31 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:4 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 64 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: AUTO, Long Buildup (OI: 3,547,600), High F&O Activity
+
+7. MOTHERSON -- Score: 63/100
+   Entry: 149.26 | SL: 141.76 | T1: 164.26 | T2: 169.70 | RR: 1:2.0
+   Tr:20 Mo:11 Vo:4 PA:9 RS:9 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 38 (Strong Trend), RSI 66 (Power Zone), Near Breakout, Marubozu, Outperforming Nifty, Sector Top 3: AUTO, Long Buildup (OI: 152,612,250), High F&O Activity
+
+8. LT -- Score: 62/100
+   Entry: 4178.40 | SL: 4042.66 | T1: 4382.02 | T2: 4582.66 | RR: 1:1.5
+   Tr:14 Mo:18 Vo:4 PA:8 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 65 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 13,497,400), High F&O Activity
+
+9. PETRONET -- Score: 62/100
+   Entry: 286.35 | SL: 275.32 | T1: 302.90 | T2: 319.44 | RR: 1:1.5
+   Tr:14 Mo:18 Vo:4 PA:8 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 64 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 31,733,800), High F&O Activity
+
+10. PHOENIXLTD -- Score: 62/100
+   Entry: 1805.00 | SL: 1726.56 | T1: 1922.66 | T2: 1996.39 | RR: 1:1.5
+   Tr:14 Mo:18 Vo:4 PA:4 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 59 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 3,920,000), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
