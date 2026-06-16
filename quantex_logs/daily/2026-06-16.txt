@@ -47,3 +47,61 @@ Qualified: 8 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-06-16 at 04:35 AM IST
+Qualified: 27 stocks | Top 10 below
+============================================================
+
+1. DLF — Score: 80/100
+   Entry: 622.95 | SL: 596.16 | T1: 676.52 | T2: 703.31 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 64 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 42,114,600), High F&O Activity
+
+2. PHOENIXLTD — Score: 80/100
+   Entry: 1867.90 | SL: 1786.97 | T1: 2029.77 | T2: 2110.70 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 4,211,200), High F&O Activity
+
+3. CHOLAFIN — Score: 75/100
+   Entry: 1664.00 | SL: 1581.28 | T1: 1829.44 | T2: 1912.15 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 64 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 15,187,500), High F&O Activity
+
+4. TITAN — Score: 74/100
+   Entry: 4311.70 | SL: 4149.39 | T1: 4636.31 | T2: 4798.62 | RR: 1:2.0
+   Trend:16 Mom:20 Vol:5 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 58 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 7,195,125), High F&O Activity
+
+5. HUDCO — Score: 72/100
+   Entry: 214.50 | SL: 204.87 | T1: 233.77 | T2: 243.40 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+6. BAJFINANCE — Score: 71/100
+   Entry: 960.15 | SL: 920.82 | T1: 1038.82 | T2: 1078.15 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:10 RS:11 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 63 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Outperforming Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 74,508,000), High F&O Activity
+
+7. IIFL — Score: 70/100
+   Entry: 537.45 | SL: 510.58 | T1: 591.20 | T2: 618.07 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:10 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 65 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Consistent Buying
+
+8. MOTILALOFS — Score: 70/100
+   Entry: 942.40 | SL: 895.28 | T1: 1036.64 | T2: 1083.76 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:0 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 4,853,825), High F&O Activity
+
+9. TIINDIA — Score: 70/100
+   Entry: 3293.00 | SL: 3128.35 | T1: 3622.30 | T2: 3786.95 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 65 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 2,107,200), High F&O Activity
+
+10. ELECON — Score: 70/100
+   Entry: 565.90 | SL: 537.60 | T1: 622.49 | T2: 650.79 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:0 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+
+────────────────────────────────────────────────────────────
+
