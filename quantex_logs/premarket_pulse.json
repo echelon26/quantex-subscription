@@ -1136,5 +1136,31 @@
       "TECHM"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-15.pdf"
+  },
+  {
+    "date": "Tue, 16 Jun 2026",
+    "fear_greed": 58.9,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23622.9,
+    "nifty": 23622.9,
+    "sensex": 75527.95,
+    "bank_nifty": 56814.8,
+    "vix": 14.35,
+    "top_gainers": [
+      "AARTIIND",
+      "KALYANKJIL",
+      "GABRIEL",
+      "SCHNEIDER",
+      "BALKRISIND"
+    ],
+    "top_losers": [
+      "AUROPHARMA",
+      "ZEEL",
+      "TENNIND",
+      "OLAELEC",
+      "ASTERDM"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-16.pdf"
   }
 ]
