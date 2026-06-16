@@ -23877,5 +23877,304 @@
         "est_days_to_t1": 15.2
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-16",
+    "scan_time": "2026-06-16T04:31:09.656696",
+    "market_regime": {
+      "regime": "bullish",
+      "min_score": 60,
+      "label": "BULLISH (risk-on)",
+      "nifty_above_50dma": true,
+      "vix": 13.664999961853027
+    },
+    "min_score_threshold": 60,
+    "total_qualified": 8,
+    "sector_rankings": {
+      "REALTY": 1,
+      "SILVER_ETF": 2,
+      "FINANCE": 3,
+      "AUTO": 4,
+      "CONSUMER": 5,
+      "ELECTRICALS": 6,
+      "RAILWAY": 7,
+      "ENERGY": 8,
+      "INDEX_ETF": 9,
+      "BANKING": 10,
+      "INFRA": 11,
+      "GOLD_ETF": 12,
+      "CHEMICALS": 13,
+      "DEFENCE": 14,
+      "IT": 15,
+      "PHARMA": 16,
+      "POWER": 17,
+      "FMCG": 18,
+      "METALS": 19
+    },
+    "top_10": [
+      {
+        "symbol": "DLF",
+        "score": 68,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 4,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 64 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: REALTY",
+          "Long Buildup (OI: 42,098,100)",
+          "High F&O Activity"
+        ],
+        "entry": 621.7,
+        "sl": 594.91,
+        "target1": 661.88,
+        "target2": 688.67,
+        "hold_period": "3-4 weeks",
+        "cmp": 621.7,
+        "target3": 688.76,
+        "target_method": "Weekly R3 + Fib 1.618 + Fib 2.0 + Fib 2.618",
+        "est_days_to_t1": 22.6
+      },
+      {
+        "symbol": "AAVAS",
+        "score": 66,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 4,
+          "Price Action": 9,
+          "Relative Strength": 8,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 28 (Strong Trend)",
+          "ADX Rising",
+          "RSI 63 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 1418.0,
+        "sl": 1345.51,
+        "target1": 1526.74,
+        "target2": 1599.23,
+        "hold_period": "2-3 weeks",
+        "cmp": 1418.0,
+        "target3": 1563.23,
+        "target_method": "Vol Profile + Fib 2.0 + Weekly R1 + 52W High",
+        "est_days_to_t1": 14.4
+      },
+      {
+        "symbol": "ELECON",
+        "score": 64,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 0,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 25 (Strong Trend)",
+          "ADX Rising",
+          "RSI 66 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 566.9,
+        "sl": 532.66,
+        "target1": 635.39,
+        "target2": 669.63,
+        "hold_period": "5-8 days",
+        "cmp": 566.9,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 7.8
+      },
+      {
+        "symbol": "TITAN",
+        "score": 62,
+        "breakdown": {
+          "Trend": 12,
+          "Momentum": 18,
+          "Volume": 4,
+          "Price Action": 8,
+          "Relative Strength": 10,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 58 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 7,194,775)",
+          "High F&O Activity"
+        ],
+        "entry": 4311.5,
+        "sl": 4149.19,
+        "target1": 4554.96,
+        "target2": 4779.25,
+        "hold_period": "3-4 weeks",
+        "cmp": 4311.5,
+        "target_method": "Fib 1.272 + Weekly R2 + Vol Profile + Fib 1.618",
+        "est_days_to_t1": 22.6
+      },
+      {
+        "symbol": "MOTILALOFS",
+        "score": 62,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 18,
+          "Volume": 0,
+          "Price Action": 4,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 21 (Trending)",
+          "ADX Rising",
+          "RSI 66 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: FINANCE",
+          "Long Buildup (OI: 4,855,375)",
+          "High F&O Activity"
+        ],
+        "entry": 943.45,
+        "sl": 895.92,
+        "target1": 1038.51,
+        "target2": 1086.04,
+        "hold_period": "3-4 weeks",
+        "cmp": 943.45,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 23.4
+      },
+      {
+        "symbol": "TIINDIA",
+        "score": 62,
+        "breakdown": {
+          "Trend": 14,
+          "Momentum": 18,
+          "Volume": 4,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 21 (Trending)",
+          "ADX Rising",
+          "RSI 64 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 2,107,000)",
+          "High F&O Activity"
+        ],
+        "entry": 3277.5,
+        "sl": 3105.8,
+        "target1": 3620.9,
+        "target2": 3792.6,
+        "hold_period": "2-3 weeks",
+        "cmp": 3277.5,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 13.3
+      },
+      {
+        "symbol": "PHOENIXLTD",
+        "score": 60,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 0,
+          "Price Action": 4,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 65 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: REALTY",
+          "Long Buildup (OI: 4,203,850)",
+          "High F&O Activity"
+        ],
+        "entry": 1858.5,
+        "sl": 1777.57,
+        "target1": 1979.9,
+        "target2": 1996.28,
+        "hold_period": "3-4 weeks",
+        "cmp": 1858.5,
+        "target_method": "52W High + Fib 1.618 + Weekly R3 + Fib 2.0",
+        "est_days_to_t1": 21.4
+      },
+      {
+        "symbol": "IIFL",
+        "score": 60,
+        "breakdown": {
+          "Trend": 14,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 23 (Trending)",
+          "ADX Rising",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: FINANCE",
+          "Consistent Buying"
+        ],
+        "entry": 540.95,
+        "sl": 509.73,
+        "target1": 587.77,
+        "target2": 618.99,
+        "hold_period": "1-2 weeks",
+        "cmp": 540.95,
+        "target3": 578.92,
+        "target_method": "52W High + Weekly R2 + Fib 1.272 + Weekly R3",
+        "est_days_to_t1": 10.0
+      }
+    ]
   }
 ]
