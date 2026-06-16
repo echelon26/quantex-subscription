@@ -105,3 +105,62 @@ Qualified: 27 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-06-16 at 10:31 AM IST
+Regime: BULLISH (risk-on) | VIX: 13.36 | Min Score: 60
+Qualified: 26 stocks | Top 10 below
+============================================================
+
+1. BRIGADE -- Score: 77/100
+   Entry: 723.00 | SL: 689.87 | T1: 789.26 | T2: 798.55 | RR: 1:2.0
+   Tr:15 Mo:15 Vo:17 PA:8 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: Supertrend Bullish, ADX 29 (Strong Trend), RSI 64 (Power Zone), MACD Bullish, Vol Surge 3.7x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Institutional Accumulation
+
+2. DLF -- Score: 76/100
+   Entry: 632.00 | SL: 604.35 | T1: 673.48 | T2: 701.13 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:12 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 66 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 43,014,675), High F&O Activity
+
+3. PRESTIGE -- Score: 73/100
+   Entry: 1520.00 | SL: 1439.81 | T1: 1680.38 | T2: 1760.56 | RR: 1:2.0
+   Tr:10 Mo:18 Vo:15 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 67 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.9x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 6,318,900), High F&O Activity
+
+4. PHOENIXLTD -- Score: 73/100
+   Entry: 1863.80 | SL: 1781.51 | T1: 1987.24 | T2: 1996.27 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:9 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 66 (Power Zone), MACD Fresh Crossover, Vol Surge 2.3x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 4,250,400), High F&O Activity
+
+5. SONATSOFTW -- Score: 72/100
+   Entry: 312.40 | SL: 291.76 | T1: 343.37 | T2: 364.01 | RR: 1:1.5
+   Tr:18 Mo:13 Vo:17 PA:13 RS:8 SM:3 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), ADX Rising, MACD Fresh Crossover, Vol Surge 10.3x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty
+
+6. CHOLAFIN -- Score: 70/100
+   Entry: 1679.20 | SL: 1595.00 | T1: 1805.50 | T2: 1889.70 | RR: 1:1.5
+   Tr:10 Mo:18 Vo:12 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 65 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 15,786,250), High F&O Activity
+
+7. MOTILALOFS -- Score: 70/100
+   Entry: 946.55 | SL: 898.43 | T1: 1018.74 | T2: 1028.11 | RR: 1:1.5
+   Tr:18 Mo:18 Vo:4 PA:8 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 21 (Trending), ADX Rising, RSI 67 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 4,839,100), High F&O Activity
+
+8. BANDHANBNK -- Score: 70/100
+   Entry: 216.55 | SL: 205.38 | T1: 238.88 | T2: 250.05 | RR: 1:2.0
+   Tr:14 Mo:18 Vo:15 PA:8 RS:5 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 21 (Trending), RSI 65 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.5x, Strong Delivery (Close near High), 20-Day Breakout, Outperforming Nifty, Long Buildup (OI: 114,210,000), High F&O Activity
+
+9. NETWEB -- Score: 68/100
+   Entry: 4899.80 | SL: 4556.81 | T1: 5585.77 | T2: 5928.76 | RR: 1:2.0
+   Tr:18 Mo:18 Vo:8 PA:9 RS:5 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 25 (Trending), RSI 64 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), Near Breakout, Marubozu, Outperforming Nifty, Institutional Accumulation
+
+10. ROUTE -- Score: 68/100
+   Entry: 544.00 | SL: 515.48 | T1: 601.04 | T2: 629.56 | RR: 1:2.0
+   Tr:16 Mo:18 Vo:15 PA:4 RS:5 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 59 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.9x, Strong Delivery (Close near High), Near Breakout, Outperforming Nifty, Institutional Accumulation
+
+
+────────────────────────────────────────────────────────────
+
