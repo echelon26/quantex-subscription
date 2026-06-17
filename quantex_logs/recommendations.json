@@ -25221,5 +25221,316 @@
         "est_days_to_t1": 14.4
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-17",
+    "scan_time": "2026-06-17T04:35:38.660005",
+    "total_qualified": 53,
+    "sector_rankings": {
+      "ELECTRICALS": 1,
+      "REALTY": 2,
+      "CONSUMER": 3,
+      "FINANCE": 4,
+      "SILVER_ETF": 5,
+      "AUTO": 6,
+      "RAILWAY": 7,
+      "ENERGY": 8,
+      "DEFENCE": 9,
+      "INDEX_ETF": 10,
+      "IT": 11,
+      "INFRA": 12,
+      "GOLD_ETF": 13,
+      "CHEMICALS": 14,
+      "BANKING": 15,
+      "FMCG": 16,
+      "POWER": 17,
+      "PHARMA": 18,
+      "METALS": 19
+    },
+    "top_10": [
+      {
+        "symbol": "TRENT",
+        "score": 85,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 10,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: CONSUMER",
+          "Long Buildup (OI: 10,201,500)",
+          "High F&O Activity"
+        ],
+        "entry": 2993.3,
+        "sl": 2859.9,
+        "target1": 3260.09,
+        "target2": 3393.49,
+        "hold_period": "1-2 weeks",
+        "cmp": 2993.3
+      },
+      {
+        "symbol": "PHOENIXLTD",
+        "score": 80,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: REALTY",
+          "Long Buildup (OI: 3,947,650)",
+          "High F&O Activity"
+        ],
+        "entry": 1895.8,
+        "sl": 1815.5,
+        "target1": 2056.39,
+        "target2": 2136.69,
+        "hold_period": "1-2 weeks",
+        "cmp": 1895.8
+      },
+      {
+        "symbol": "VOLTAS",
+        "score": 79,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 62 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Sector Top 3: ELECTRICALS",
+          "Long Buildup (OI: 7,558,125)",
+          "High F&O Activity"
+        ],
+        "entry": 1371.2,
+        "sl": 1304.93,
+        "target1": 1503.74,
+        "target2": 1570.01,
+        "hold_period": "1-2 weeks",
+        "cmp": 1371.2
+      },
+      {
+        "symbol": "MOTILALOFS",
+        "score": 78,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 4,901,875)",
+          "High F&O Activity"
+        ],
+        "entry": 955.4,
+        "sl": 909.06,
+        "target1": 1048.08,
+        "target2": 1094.42,
+        "hold_period": "1-2 weeks",
+        "cmp": 955.4
+      },
+      {
+        "symbol": "KAJARIACER",
+        "score": 77,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: ELECTRICALS",
+          "Consistent Buying"
+        ],
+        "entry": 1153.4,
+        "sl": 1109.09,
+        "target1": 1242.01,
+        "target2": 1286.32,
+        "hold_period": "1-2 weeks",
+        "cmp": 1153.4
+      },
+      {
+        "symbol": "KEI",
+        "score": 76,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 11,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 63 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Outperforming Nifty",
+          "Sector Top 3: ELECTRICALS",
+          "Long Buildup (OI: 1,344,525)",
+          "High F&O Activity"
+        ],
+        "entry": 5534.5,
+        "sl": 5278.12,
+        "target1": 6047.26,
+        "target2": 6303.64,
+        "hold_period": "1-2 weeks",
+        "cmp": 5534.5
+      },
+      {
+        "symbol": "BPCL",
+        "score": 75,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 65 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 42,110,950)",
+          "High F&O Activity"
+        ],
+        "entry": 318.55,
+        "sl": 305.37,
+        "target1": 344.92,
+        "target2": 358.1,
+        "hold_period": "1-2 weeks",
+        "cmp": 318.55
+      },
+      {
+        "symbol": "PETRONET",
+        "score": 75,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 32,231,600)",
+          "High F&O Activity"
+        ],
+        "entry": 292.05,
+        "sl": 281.07,
+        "target1": 314.01,
+        "target2": 324.98,
+        "hold_period": "1-2 weeks",
+        "cmp": 292.05
+      },
+      {
+        "symbol": "APOLLOTYRE",
+        "score": 74,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 10,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 430.0,
+        "sl": 411.99,
+        "target1": 466.02,
+        "target2": 484.03,
+        "hold_period": "1-2 weeks",
+        "cmp": 430.0
+      },
+      {
+        "symbol": "BRIGADE",
+        "score": 74,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 13,
+          "Volume": 10,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "Vol Surge 7.0x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: REALTY",
+          "Institutional Accumulation"
+        ],
+        "entry": 572.8,
+        "sl": 544.16,
+        "target1": 630.08,
+        "target2": 658.72,
+        "hold_period": "1-2 weeks",
+        "cmp": 572.8
+      }
+    ]
   }
 ]
