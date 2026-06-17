@@ -1162,5 +1162,31 @@
       "ASTERDM"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-16.pdf"
+  },
+  {
+    "date": "Wed, 17 Jun 2026",
+    "fear_greed": 69.4,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 23989.15,
+    "nifty": 23989.15,
+    "sensex": 76808.48,
+    "bank_nifty": 57297.15,
+    "vix": 14.35,
+    "top_gainers": [
+      "SONATSOFTW",
+      "FACT",
+      "MMTC",
+      "PGEL",
+      "ABREL"
+    ],
+    "top_losers": [
+      "GICRE",
+      "PTCIL",
+      "NATIONALUM",
+      "GROWW",
+      "ACUTAAS"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-17.pdf"
   }
 ]
