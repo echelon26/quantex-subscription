@@ -1188,5 +1188,31 @@
       "ACUTAAS"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-17.pdf"
+  },
+  {
+    "date": "Thu, 18 Jun 2026",
+    "fear_greed": 72.6,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24085.7,
+    "nifty": 24085.7,
+    "sensex": 77155.62,
+    "bank_nifty": 57585.05,
+    "vix": 13.19,
+    "top_gainers": [
+      "IDBI",
+      "CARTRADE",
+      "SCHNEIDER",
+      "UCOBANK",
+      "TRENT"
+    ],
+    "top_losers": [
+      "TMPV",
+      "BSE",
+      "AARTIIND",
+      "CYIENT",
+      "FACT"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-18.pdf"
   }
 ]
