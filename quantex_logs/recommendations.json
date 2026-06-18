@@ -25914,5 +25914,371 @@
         "est_days_to_t1": 14.4
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-18",
+    "scan_time": "2026-06-18T04:31:07.338046",
+    "market_regime": {
+      "regime": "bullish",
+      "min_score": 60,
+      "label": "BULLISH (risk-on)",
+      "nifty_above_50dma": true,
+      "vix": 12.899999618530273
+    },
+    "min_score_threshold": 60,
+    "total_qualified": 17,
+    "sector_rankings": {
+      "CONSUMER": 1,
+      "ELECTRICALS": 2,
+      "DEFENCE": 3,
+      "REALTY": 4,
+      "FINANCE": 5,
+      "RAILWAY": 6,
+      "ENERGY": 7,
+      "AUTO": 8,
+      "INDEX_ETF": 9,
+      "IT": 10,
+      "INFRA": 11,
+      "FMCG": 12,
+      "BANKING": 13,
+      "POWER": 14,
+      "GOLD_ETF": 15,
+      "SILVER_ETF": 16,
+      "CHEMICALS": 17,
+      "METALS": 18,
+      "PHARMA": 19
+    },
+    "top_10": [
+      {
+        "symbol": "GANDHAR",
+        "score": 77,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 15,
+          "Price Action": 9,
+          "Relative Strength": 12,
+          "Smart Money": 3,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 30 (Strong Trend)",
+          "ADX Rising",
+          "RSI 67 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Above Avg 1.6x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Sector Top 3: DEFENCE"
+        ],
+        "entry": 173.53,
+        "sl": 162.03,
+        "target1": 196.54,
+        "target2": 208.04,
+        "hold_period": "2-3 weeks",
+        "cmp": 173.53,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 16.5
+      },
+      {
+        "symbol": "STARHEALTH",
+        "score": 74,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 13,
+          "Price Action": 8,
+          "Relative Strength": 10,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 34 (Strong Trend)",
+          "ADX Rising",
+          "MACD Fresh Crossover",
+          "Vol Surge 2.2x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 561.4,
+        "sl": 537.01,
+        "target1": 597.99,
+        "target2": 598.88,
+        "hold_period": "2-3 weeks",
+        "cmp": 561.4,
+        "target3": 628.88,
+        "target_method": "Fib 1.272 + 52W High + Fib 1.618 + Fib 2.0",
+        "est_days_to_t1": 12.4
+      },
+      {
+        "symbol": "SASKEN",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 4,
+          "Price Action": 13,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 53 (Strong Trend)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 2647.9,
+        "sl": 2462.55,
+        "target1": 2925.93,
+        "target2": 3194.7,
+        "hold_period": "2-3 days",
+        "cmp": 2647.9,
+        "target3": 3494.7,
+        "target_method": "Weekly R3 + Fib 1.0 + Measured Move + Fib 1.272",
+        "est_days_to_t1": 2.7
+      },
+      {
+        "symbol": "KAJARIACER",
+        "score": 67,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 22 (Trending)",
+          "ADX Rising",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: ELECTRICALS",
+          "Institutional Accumulation"
+        ],
+        "entry": 1165.6,
+        "sl": 1122.31,
+        "target1": 1230.53,
+        "target2": 1279.49,
+        "hold_period": "2-3 weeks",
+        "cmp": 1165.6,
+        "target_method": "Vol Profile + Fib 1.618 + Fib 2.0 + 52W High",
+        "est_days_to_t1": 16.7
+      },
+      {
+        "symbol": "RBLBANK",
+        "score": 66,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 9,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 29 (Strong Trend)",
+          "ADX Rising",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 58,308,875)",
+          "High F&O Activity"
+        ],
+        "entry": 373.65,
+        "sl": 357.9,
+        "target1": 397.27,
+        "target2": 399.25,
+        "hold_period": "1-2 weeks",
+        "cmp": 373.65,
+        "target3": 419.25,
+        "target_method": "Weekly R2 + Fib 1.272 + Weekly R3 + Fib 1.618",
+        "est_days_to_t1": 8.2
+      },
+      {
+        "symbol": "NETWEB",
+        "score": 65,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 4,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 27 (Strong Trend)",
+          "ADX Rising",
+          "RSI 67 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 5095.0,
+        "sl": 4738.35,
+        "target1": 5808.3,
+        "target2": 6164.95,
+        "hold_period": "1-2 weeks",
+        "cmp": 5095.0,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 8.7
+      },
+      {
+        "symbol": "CARBORUNIV",
+        "score": 65,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 9,
+          "Volume": 9,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 44 (Strong Trend)",
+          "ADX Rising",
+          "MACD Fresh Crossover",
+          "Vol Surge 4.5x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: ELECTRICALS",
+          "Consistent Buying"
+        ],
+        "entry": 1204.0,
+        "sl": 1131.59,
+        "target1": 1301.76,
+        "target2": 1366.93,
+        "hold_period": "1-2 weeks",
+        "cmp": 1204.0,
+        "target3": 1331.62,
+        "target_method": "Fib 1.272 + 52W High + Fib 1.618 + Fib 2.0",
+        "est_days_to_t1": 9.5
+      },
+      {
+        "symbol": "HDFCBANK",
+        "score": 64,
+        "breakdown": {
+          "Trend": 14,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 13,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 356,980,250)",
+          "High F&O Activity"
+        ],
+        "entry": 800.0,
+        "sl": 774.7,
+        "target1": 837.94,
+        "target2": 838.4,
+        "hold_period": "3-4 weeks",
+        "cmp": 800.0,
+        "target_method": "52W High + Resistance (2x) + Fib 2.0 + Weekly R3",
+        "est_days_to_t1": 21.4
+      },
+      {
+        "symbol": "LICI",
+        "score": 64,
+        "breakdown": {
+          "Trend": 14,
+          "Momentum": 18,
+          "Volume": 4,
+          "Price Action": 8,
+          "Relative Strength": 10,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 68 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 20,735,400)",
+          "High F&O Activity"
+        ],
+        "entry": 435.15,
+        "sl": 420.28,
+        "target1": 457.46,
+        "target2": 472.33,
+        "hold_period": "3-4 weeks",
+        "cmp": 435.15,
+        "target3": 469.13,
+        "target_method": "52W High + Fib 1.272 + Fib 1.618 + Fib 2.0",
+        "est_days_to_t1": 21.4
+      },
+      {
+        "symbol": "GALAXYSURF",
+        "score": 64,
+        "breakdown": {
+          "Trend": 13,
+          "Momentum": 18,
+          "Volume": 8,
+          "Price Action": 13,
+          "Relative Strength": 5,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 63 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Bullish Engulfing",
+          "Outperforming Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 1865.1,
+        "sl": 1779.68,
+        "target1": 1993.23,
+        "target2": 2045.89,
+        "hold_period": "3-4 weeks",
+        "cmp": 1865.1,
+        "target_method": "Fib 1.272 + Vol Profile + Fib 1.618 + 52W High",
+        "est_days_to_t1": 22.6
+      }
+    ]
   }
 ]
