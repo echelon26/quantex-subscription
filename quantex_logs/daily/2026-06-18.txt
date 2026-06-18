@@ -57,3 +57,61 @@ Qualified: 17 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-06-18 at 04:35 AM IST
+Qualified: 60 stocks | Top 10 below
+============================================================
+
+1. GANDHAR — Score: 88/100
+   Entry: 178.47 | SL: 169.55 | T1: 196.32 | T2: 205.24 | RR: 1:2.0
+   Trend:20 Mom:15 Vol:20 PA:15 RS:15 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Fresh Crossover, Vol Surge 2.5x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: DEFENCE
+
+2. STARHEALTH — Score: 83/100
+   Entry: 563.05 | SL: 538.66 | T1: 611.83 | T2: 636.22 | RR: 1:2.0
+   Trend:20 Mom:15 Vol:15 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Fresh Crossover, Vol Surge 2.6x, 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+3. LICI — Score: 78/100
+   Entry: 433.90 | SL: 419.03 | T1: 463.65 | T2: 478.52 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 20,664,000), High F&O Activity
+
+4. KAJARIACER — Score: 78/100
+   Entry: 1164.90 | SL: 1121.61 | T1: 1251.47 | T2: 1294.76 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: ELECTRICALS, Institutional Accumulation
+
+5. RECLTD — Score: 76/100
+   Entry: 362.30 | SL: 349.41 | T1: 388.09 | T2: 400.98 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 62 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 57,740,200), High F&O Activity
+
+6. CDSL — Score: 76/100
+   Entry: 1310.90 | SL: 1265.69 | T1: 1401.31 | T2: 1446.52 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 9,025,950), High F&O Activity
+
+7. TRENT — Score: 75/100
+   Entry: 3167.70 | SL: 3025.97 | T1: 3451.16 | T2: 3592.90 | RR: 1:2.0
+   Trend:20 Mom:15 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: CONSUMER, Long Buildup (OI: 10,428,150), High F&O Activity
+
+8. SASKEN — Score: 75/100
+   Entry: 2647.90 | SL: 2515.51 | T1: 2912.69 | T2: 3045.09 | RR: 1:2.0
+   Trend:20 Mom:15 Vol:5 PA:15 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Fresh Crossover, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Institutional Accumulation
+
+9. HDFCBANK — Score: 74/100
+   Entry: 800.35 | SL: 775.05 | T1: 850.94 | T2: 876.24 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:5 PA:15 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 65 (Power Zone), MACD Bullish, 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Long Buildup (OI: 357,143,600), High F&O Activity
+
+10. GALAXYSURF — Score: 74/100
+   Entry: 1867.80 | SL: 1782.38 | T1: 2038.63 | T2: 2124.05 | RR: 1:2.0
+   Trend:16 Mom:20 Vol:10 PA:15 RS:6 SM:7
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 63 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Bullish Engulfing, Outperforming Nifty, Consistent Buying
+
+
+────────────────────────────────────────────────────────────
+
