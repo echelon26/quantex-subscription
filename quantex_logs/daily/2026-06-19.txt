@@ -57,3 +57,61 @@ Qualified: 23 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-06-19 at 04:35 AM IST
+Qualified: 65 stocks | Top 10 below
+============================================================
+
+1. BERGEPAINT — Score: 81/100
+   Entry: 537.75 | SL: 510.86 | T1: 591.53 | T2: 618.41 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:18 PA:5 RS:15 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 64 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.9x, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Sector Top 3: ELECTRICALS
+
+2. GANDHAR — Score: 78/100
+   Entry: 183.18 | SL: 174.02 | T1: 201.50 | T2: 210.66 | RR: 1:2.0
+   Trend:20 Mom:15 Vol:15 PA:10 RS:15 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: DEFENCE
+
+3. OLECTRA — Score: 78/100
+   Entry: 1506.30 | SL: 1430.98 | T1: 1656.93 | T2: 1732.25 | RR: 1:2.0
+   Trend:20 Mom:15 Vol:13 PA:10 RS:13 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Fresh Crossover, Vol Above Avg 1.8x, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+4. GRSE — Score: 77/100
+   Entry: 2832.60 | SL: 2690.97 | T1: 3115.86 | T2: 3257.49 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:10 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Fresh Crossover, Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Sector Top 3: DEFENCE, Consistent Buying
+
+5. CHOLAFIN — Score: 76/100
+   Entry: 1693.60 | SL: 1618.98 | T1: 1842.84 | T2: 1917.46 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 14,820,625), High F&O Activity
+
+6. DATAPATTNS — Score: 75/100
+   Entry: 4884.60 | SL: 4640.37 | T1: 5373.06 | T2: 5617.29 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: DEFENCE, Consistent Buying
+
+7. POONAWALLA — Score: 74/100
+   Entry: 420.85 | SL: 401.14 | T1: 460.27 | T2: 479.98 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:5 PA:15 RS:13 SM:7
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 62 (Power Zone), MACD Bullish, 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Consistent Buying
+
+8. LICI — Score: 73/100
+   Entry: 441.60 | SL: 426.34 | T1: 472.12 | T2: 487.38 | RR: 1:2.0
+   Trend:20 Mom:15 Vol:5 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 21,617,400), High F&O Activity
+
+9. SWSOLAR — Score: 73/100
+   Entry: 227.02 | SL: 215.67 | T1: 249.72 | T2: 261.07 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:13 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 69 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+10. FINEORG — Score: 73/100
+   Entry: 5332.50 | SL: 5089.08 | T1: 5819.35 | T2: 6062.77 | RR: 1:2.0
+   Trend:20 Mom:8 Vol:18 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, Vol Above Avg 1.5x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+
+────────────────────────────────────────────────────────────
+
