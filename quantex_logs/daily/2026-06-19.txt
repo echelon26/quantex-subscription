@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-06-19 at 04:31 AM IST
+Regime: BULLISH (risk-on) | VIX: 13.23 | Min Score: 60
+Qualified: 23 stocks | Top 10 below
+============================================================
+
+1. BERGEPAINT -- Score: 78/100
+   Entry: 542.45 | SL: 514.90 | T1: 583.78 | T2: 611.33 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:12 PA:13 RS:12 SM:3 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 27 (Strong Trend), RSI 65 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: ELECTRICALS
+
+2. OLECTRA -- Score: 67/100
+   Entry: 1505.50 | SL: 1408.98 | T1: 1650.28 | T2: 1746.80 | RR: 1:1.5
+   Tr:18 Mo:13 Vo:11 PA:8 RS:10 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), ADX Rising, MACD Fresh Crossover, Vol Above Avg 1.8x, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+3. GRSE -- Score: 66/100
+   Entry: 2833.10 | SL: 2687.47 | T1: 3051.54 | T2: 3075.12 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:4 PA:9 RS:12 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 61 (Power Zone), MACD Fresh Crossover, Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Sector Top 3: DEFENCE, Consistent Buying
+
+4. DATAPATTNS -- Score: 66/100
+   Entry: 4905.90 | SL: 4562.49 | T1: 5592.73 | T2: 5936.14 | RR: 1:2.0
+   Tr:20 Mo:15 Vo:4 PA:8 RS:12 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 26 (Strong Trend), ADX Rising, RSI 68 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: DEFENCE, Consistent Buying
+
+5. CHOLAFIN -- Score: 65/100
+   Entry: 1693.60 | SL: 1618.98 | T1: 1805.53 | T2: 1880.15 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:4 PA:8 RS:10 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 20 (Trending), ADX Rising, RSI 66 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 14,823,125), High F&O Activity
+
+6. AVANTEL -- Score: 64/100
+   Entry: 180.50 | SL: 168.68 | T1: 198.23 | T2: 199.66 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:4 PA:0 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, RSI 63 (Power Zone), MACD Fresh Crossover, Strong RS vs Nifty, Sector Top 3: DEFENCE, Institutional Accumulation
+
+7. CGPOWER -- Score: 64/100
+   Entry: 960.00 | SL: 920.04 | T1: 1039.92 | T2: 1079.89 | RR: 1:2.0
+   Tr:20 Mo:18 Vo:4 PA:4 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 33 (Strong Trend), ADX Rising, RSI 67 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 19,461,600), High F&O Activity
+
+8. ABCAPITAL -- Score: 64/100
+   Entry: 375.40 | SL: 359.09 | T1: 399.87 | T2: 409.25 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:4 PA:9 RS:10 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 62 (Power Zone), MACD Bullish, Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Long Buildup (OI: 43,716,200), High F&O Activity
+
+9. BDL -- Score: 63/100
+   Entry: 1328.00 | SL: 1267.59 | T1: 1418.62 | T2: 1479.03 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:4 PA:9 RS:9 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 23 (Trending), RSI 61 (Power Zone), MACD Bullish, Near Breakout, Bullish Engulfing, Outperforming Nifty, Sector Top 3: DEFENCE, Long Buildup (OI: 5,770,450), High F&O Activity
+
+10. POONAWALLA -- Score: 63/100
+   Entry: 421.50 | SL: 401.90 | T1: 450.90 | T2: 470.50 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:4 PA:13 RS:10 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 62 (Power Zone), MACD Bullish, 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Consistent Buying
+
+
+────────────────────────────────────────────────────────────
+
