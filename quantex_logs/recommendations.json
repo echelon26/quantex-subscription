@@ -28685,5 +28685,33 @@
         "cmp": 1381.2
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-22",
+    "scan_time": "2026-06-22T09:53:24.759166",
+    "scanner_type": "btst",
+    "total_qualified": 1,
+    "top_10": [
+      {
+        "symbol": "MANKIND",
+        "scanner_type": "btst",
+        "score": 78.9,
+        "entry": 2537.5,
+        "sl": 2486.75,
+        "target1": 2600.94,
+        "target2": 2664.38,
+        "hold_period": "1 session (BTST)",
+        "cmp": 2537.5,
+        "signals": [
+          "Close top 96%",
+          "Green +4.6%",
+          "Vol 1.8x",
+          "RS +4.8% vs Nifty",
+          "Pocket Pivot volume signature",
+          "New 5-day high",
+          "Strong 5-day RS vs Nifty"
+        ]
+      }
+    ]
   }
 ]

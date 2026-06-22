@@ -1,1 +1,69 @@
-[]
+[
+  {
+    "symbol": "MANKIND",
+    "score": 78.9,
+    "scan_time": "2026-06-22T09:53:24.759166",
+    "close": 2537.5,
+    "open": 2426.1,
+    "high": 2543.5,
+    "low": 2404.1,
+    "volume": 949812.0,
+    "dma50": 2339.208,
+    "dma200": 2278.538,
+    "ema20": 2395.99794523843,
+    "rsi": 68.32327261912744,
+    "atr": 66.45560886492524,
+    "atr_pct": 2.618940250834492,
+    "adx": 20.05849207354532,
+    "slope_50_pct": 1.7207056067085211,
+    "today_range": 139.4000000000001,
+    "close_position": 0.956958393113343,
+    "body_pct": 4.591731585672482,
+    "range_vs_atr": 2.0976408520060126,
+    "vol_mult": 1.7622121587206554,
+    "max_down_vol_10": 484809.0,
+    "pp_signature": true,
+    "vol_rank_top25": "True",
+    "new_5d_high": true,
+    "new_20d_high": false,
+    "high_52w": 2716.5,
+    "pct_from_52w": 6.589361310509847,
+    "avg_turnover_cr": 128.93698125299997,
+    "move_5d": 6.604209553417628,
+    "s_today_pct": 5.107281915334272,
+    "n_today_pct": 0.35126660031401524,
+    "rs_today_diff": 4.756015315020257,
+    "rs_5d_diff": 5.583202506351959,
+    "gap_at_open_pct": 0.4929169082926059,
+    "green_streak": 1,
+    "is_friday": false,
+    "catalysts": [
+      [
+        "Pocket Pivot volume signature",
+        10
+      ],
+      [
+        "New 5-day high",
+        2
+      ],
+      [
+        "Strong 5-day RS vs Nifty",
+        4
+      ]
+    ],
+    "entry": 2537.5,
+    "sl": 2486.75,
+    "t1": 2600.94,
+    "t2": 2664.38,
+    "rr": 1.2500492610837448,
+    "risk_pct": 2.0000000000000018,
+    "t1_pct": 2.5,
+    "t2_pct": 5.0,
+    "est_days_t1": 1,
+    "est_days_t2": 3,
+    "realistic_t1": 2594.93,
+    "realistic_t2": 2994.93,
+    "realistic_t1_basis": "ATR cap (1-day) + round-# adj",
+    "realistic_t2_basis": "ATR cap (3-day \u00d71.15) + round-# adj"
+  }
+]
