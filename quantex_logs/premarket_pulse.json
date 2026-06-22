@@ -1240,5 +1240,31 @@
       "JSL"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-19.pdf"
+  },
+  {
+    "date": "Mon, 22 Jun 2026",
+    "fear_greed": 71.0,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24013.1,
+    "nifty": 24013.1,
+    "sensex": 76802.9,
+    "bank_nifty": 57685.75,
+    "vix": 12.97,
+    "top_gainers": [
+      "NIACL",
+      "TARIL",
+      "BERGEPAINT",
+      "THELEELA",
+      "PIRAMALFIN"
+    ],
+    "top_losers": [
+      "FACT",
+      "INFY",
+      "BATAINDIA",
+      "ICICIPRULI",
+      "LTM"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-22.pdf"
   }
 ]
