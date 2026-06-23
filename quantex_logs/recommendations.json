@@ -29776,5 +29776,33 @@
         "cmp": 4403.8
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-23",
+    "scan_time": "2026-06-23T09:53:06.479247",
+    "scanner_type": "btst",
+    "total_qualified": 1,
+    "top_10": [
+      {
+        "symbol": "GLAND",
+        "scanner_type": "btst",
+        "score": 88.7,
+        "entry": 2302.8,
+        "sl": 2256.74,
+        "target1": 2360.37,
+        "target2": 2417.94,
+        "hold_period": "1 session (BTST)",
+        "cmp": 2302.8,
+        "signals": [
+          "Close top 97%",
+          "Green +5.0%",
+          "Vol 3.0x",
+          "RS +6.5% vs Nifty",
+          "Pocket Pivot volume signature",
+          "New 5-day high",
+          "Strong 5-day RS vs Nifty"
+        ]
+      }
+    ]
   }
 ]
