@@ -29465,5 +29465,316 @@
         "est_days_to_t1": 13.3
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-23",
+    "scan_time": "2026-06-23T04:35:36.461037",
+    "total_qualified": 65,
+    "sector_rankings": {
+      "PHARMA": 1,
+      "DEFENCE": 2,
+      "CHEMICALS": 3,
+      "CONSUMER": 4,
+      "POWER": 5,
+      "REALTY": 6,
+      "INFRA": 7,
+      "BANKING": 8,
+      "FINANCE": 9,
+      "INDEX_ETF": 10,
+      "RAILWAY": 11,
+      "FMCG": 12,
+      "ENERGY": 13,
+      "METALS": 14,
+      "ELECTRICALS": 15,
+      "AUTO": 16,
+      "GOLD_ETF": 17,
+      "IT": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "GARUDA",
+        "score": 86,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 20,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 4.7x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: DEFENCE"
+        ],
+        "entry": 185.37,
+        "sl": 176.1,
+        "target1": 203.91,
+        "target2": 213.18,
+        "hold_period": "1-2 weeks",
+        "cmp": 185.37
+      },
+      {
+        "symbol": "BASF",
+        "score": 84,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 20,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 4.0x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 3840.0,
+        "sl": 3650.7,
+        "target1": 4218.61,
+        "target2": 4407.91,
+        "hold_period": "1-2 weeks",
+        "cmp": 3840.0
+      },
+      {
+        "symbol": "CIPLA",
+        "score": 76,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 11,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Outperforming Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 13,652,250)",
+          "High F&O Activity"
+        ],
+        "entry": 1442.8,
+        "sl": 1399.24,
+        "target1": 1529.91,
+        "target2": 1573.47,
+        "hold_period": "1-2 weeks",
+        "cmp": 1442.8
+      },
+      {
+        "symbol": "MAXHEALTH",
+        "score": 76,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Bullish Engulfing, Marubozu",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 11,373,075)",
+          "High F&O Activity"
+        ],
+        "entry": 1105.0,
+        "sl": 1063.39,
+        "target1": 1188.22,
+        "target2": 1229.83,
+        "hold_period": "1-2 weeks",
+        "cmp": 1105.0
+      },
+      {
+        "symbol": "AUROPHARMA",
+        "score": 76,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 11,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 63 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Outperforming Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 13,120,250)",
+          "High F&O Activity"
+        ],
+        "entry": 1517.8,
+        "sl": 1461.46,
+        "target1": 1630.49,
+        "target2": 1686.83,
+        "hold_period": "1-2 weeks",
+        "cmp": 1517.8
+      },
+      {
+        "symbol": "CHOLAFIN",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 14,205,000)",
+          "High F&O Activity"
+        ],
+        "entry": 1733.5,
+        "sl": 1663.01,
+        "target1": 1874.48,
+        "target2": 1944.97,
+        "hold_period": "1-2 weeks",
+        "cmp": 1733.5
+      },
+      {
+        "symbol": "BDL",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 0,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 70 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: DEFENCE",
+          "Long Buildup (OI: 5,439,700)",
+          "High F&O Activity"
+        ],
+        "entry": 1415.3,
+        "sl": 1351.93,
+        "target1": 1542.03,
+        "target2": 1605.4,
+        "hold_period": "1-2 weeks",
+        "cmp": 1415.3
+      },
+      {
+        "symbol": "PRESTIGE",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 5,517,900)",
+          "High F&O Activity"
+        ],
+        "entry": 1538.7,
+        "sl": 1473.0,
+        "target1": 1670.1,
+        "target2": 1735.8,
+        "hold_period": "1-2 weeks",
+        "cmp": 1538.7
+      },
+      {
+        "symbol": "DMART",
+        "score": 72,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 63 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 2,810,550)",
+          "High F&O Activity"
+        ],
+        "entry": 4354.0,
+        "sl": 4205.76,
+        "target1": 4650.48,
+        "target2": 4798.72,
+        "hold_period": "1-2 weeks",
+        "cmp": 4354.0
+      },
+      {
+        "symbol": "TITAN",
+        "score": 71,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 61 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 7,478,625)",
+          "High F&O Activity"
+        ],
+        "entry": 4403.8,
+        "sl": 4327.5,
+        "target1": 4556.4,
+        "target2": 4632.7,
+        "hold_period": "3-7 days",
+        "cmp": 4403.8
+      }
+    ]
   }
 ]
