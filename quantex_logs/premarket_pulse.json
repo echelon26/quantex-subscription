@@ -1266,5 +1266,31 @@
       "LTM"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-22.pdf"
+  },
+  {
+    "date": "Tue, 23 Jun 2026",
+    "fear_greed": 74.7,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24102.9,
+    "nifty": 24102.9,
+    "sensex": 77094.07,
+    "bank_nifty": 57935.6,
+    "vix": 12.84,
+    "top_gainers": [
+      "KIRLOSENG",
+      "TRITURBINE",
+      "POLYMED",
+      "AEGISLOG",
+      "IDBI"
+    ],
+    "top_losers": [
+      "AADHARHFC",
+      "ANTHEM",
+      "PIRAMALFIN",
+      "VBL",
+      "FIVESTAR"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-23.pdf"
   }
 ]
