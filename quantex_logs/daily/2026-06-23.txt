@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-06-23 at 04:31 AM IST
+Regime: BULLISH (risk-on) | VIX: 12.54 | Min Score: 60
+Qualified: 22 stocks | Top 10 below
+============================================================
+
+1. BASF -- Score: 72/100
+   Entry: 3834.50 | SL: 3645.20 | T1: 4118.46 | T2: 4402.41 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 68 (Power Zone), MACD Bullish, Vol Surge 3.7x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+2. GARUDA -- Score: 69/100
+   Entry: 186.32 | SL: 176.03 | T1: 201.75 | T2: 212.04 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:17 PA:8 RS:12 SM:3 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 66 (Power Zone), MACD Bullish, Vol Surge 4.4x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: DEFENCE
+
+3. CIPLA -- Score: 65/100
+   Entry: 1440.20 | SL: 1396.64 | T1: 1505.53 | T2: 1554.09 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:4 PA:8 RS:9 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 66 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Outperforming Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 13,642,875), High F&O Activity
+
+4. AUROPHARMA -- Score: 65/100
+   Entry: 1518.00 | SL: 1461.66 | T1: 1602.51 | T2: 1658.85 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:4 PA:8 RS:9 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 63 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Outperforming Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 13,123,000), High F&O Activity
+
+5. LUPIN -- Score: 65/100
+   Entry: 2378.10 | SL: 2311.82 | T1: 2477.52 | T2: 2576.95 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:4 PA:13 RS:9 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 65 (Power Zone), MACD Bullish, 20-Day Breakout, Marubozu, Outperforming Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 5,614,675), High F&O Activity
+
+6. GLAXO -- Score: 64/100
+   Entry: 2382.40 | SL: 2295.89 | T1: 2512.17 | T2: 2656.67 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:4 PA:8 RS:12 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, RSI 68 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Consistent Buying
+
+7. CHOLAFIN -- Score: 63/100
+   Entry: 1734.30 | SL: 1663.81 | T1: 1840.03 | T2: 1910.52 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:4 PA:8 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 23 (Trending), ADX Rising, RSI 69 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 14,198,125), High F&O Activity
+
+8. MAXHEALTH -- Score: 63/100
+   Entry: 1103.35 | SL: 1061.74 | T1: 1186.57 | T2: 1228.18 | RR: 1:2.0
+   Tr:16 Mo:10 Vo:4 PA:13 RS:10 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, MACD Bullish, 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Long Buildup (OI: 11,356,275), High F&O Activity
+
+9. BDL -- Score: 63/100
+   Entry: 1414.20 | SL: 1350.83 | T1: 1509.25 | T2: 1572.62 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:0 PA:8 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 25 (Trending), ADX Rising, RSI 70 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: DEFENCE, Long Buildup (OI: 5,440,750), High F&O Activity
+
+10. DMART -- Score: 63/100
+   Entry: 4356.10 | SL: 4207.86 | T1: 4652.58 | T2: 4800.82 | RR: 1:2.0
+   Tr:16 Mo:15 Vo:4 PA:8 RS:10 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 21 (Trending), RSI 63 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 2,808,300), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
