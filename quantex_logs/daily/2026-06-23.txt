@@ -115,3 +115,62 @@ Qualified: 65 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-06-23 at 10:31 AM IST
+Regime: BULLISH (risk-on) | VIX: 13.94 | Min Score: 60
+Qualified: 14 stocks | Top 10 below
+============================================================
+
+1. AUROPHARMA -- Score: 79/100
+   Entry: 1535.50 | SL: 1477.56 | T1: 1622.41 | T2: 1680.35 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:15 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 65 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 13,143,350), High F&O Activity
+
+2. LAURUSLABS -- Score: 73/100
+   Entry: 1482.00 | SL: 1424.69 | T1: 1567.97 | T2: 1697.04 | RR: 1:1.5
+   Tr:20 Mo:6 Vo:17 PA:8 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 38 (Strong Trend), Vol Surge 2.1x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 15,209,900), High F&O Activity
+
+3. SANOFI -- Score: 70/100
+   Entry: 3414.00 | SL: 3297.76 | T1: 3588.37 | T2: 3762.73 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:12 PA:8 RS:12 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 20 (Trending), RSI 66 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Consistent Buying
+
+4. KAJARIACER -- Score: 70/100
+   Entry: 1191.00 | SL: 1146.82 | T1: 1279.37 | T2: 1323.55 | RR: 1:2.0
+   Tr:20 Mo:10 Vo:17 PA:8 RS:8 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 31 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 2.1x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+5. CIPLA -- Score: 65/100
+   Entry: 1435.00 | SL: 1389.59 | T1: 1503.11 | T2: 1548.52 | RR: 1:1.5
+   Tr:18 Mo:11 Vo:9 PA:8 RS:9 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 20 (Trending), ADX Rising, RSI 65 (Power Zone), Vol Surge 2.6x, 20-Day Breakout, Outperforming Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 13,942,500), High F&O Activity
+
+6. GARUDA -- Score: 65/100
+   Entry: 190.91 | SL: 179.39 | T1: 208.19 | T2: 219.71 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:13 PA:8 RS:12 SM:3 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 69 (Power Zone), MACD Bullish, Vol Surge 15.5x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: DEFENCE
+
+7. GANDHAR -- Score: 65/100
+   Entry: 181.25 | SL: 168.56 | T1: 200.28 | T2: 212.97 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:7 PA:4 RS:12 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 36 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Bullish, Vol Above Avg 1.8x, Near Breakout, Strong RS vs Nifty, Sector Top 3: DEFENCE, Consistent Buying
+
+8. DMART -- Score: 65/100
+   Entry: 4389.00 | SL: 4233.68 | T1: 4699.64 | T2: 4854.96 | RR: 1:2.0
+   Tr:18 Mo:15 Vo:4 PA:8 RS:10 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), ADX Rising, RSI 65 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 2,862,900), High F&O Activity
+
+9. GLAXO -- Score: 64/100
+   Entry: 2400.10 | SL: 2312.19 | T1: 2531.96 | T2: 2656.67 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:4 PA:8 RS:12 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Consistent Buying
+
+10. BASF -- Score: 64/100
+   Entry: 3748.00 | SL: 3558.70 | T1: 4031.96 | T2: 4221.26 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:9 PA:8 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 65 (Power Zone), MACD Bullish, Vol Surge 7.7x, 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+
+────────────────────────────────────────────────────────────
+
