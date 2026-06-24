@@ -1292,5 +1292,31 @@
       "FIVESTAR"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-23.pdf"
+  },
+  {
+    "date": "Wed, 24 Jun 2026",
+    "fear_greed": 63.2,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 23824.1,
+    "nifty": 23824.1,
+    "sensex": 76200.68,
+    "bank_nifty": 57183.75,
+    "vix": 13.94,
+    "top_gainers": [
+      "COHANCE",
+      "MEESHO",
+      "PPLPHARMA",
+      "GLAND",
+      "NEULANDLAB"
+    ],
+    "top_losers": [
+      "NIACL",
+      "VEDL",
+      "NATIONALUM",
+      "AEGISVOPAK",
+      "HINDZINC"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-24.pdf"
   }
 ]
