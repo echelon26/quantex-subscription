@@ -1,0 +1,39 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-06-24 at 04:31 AM IST
+Regime: BULLISH (risk-on) | VIX: 13.81 | Min Score: 60
+Qualified: 6 stocks | Top 10 below
+============================================================
+
+1. LUPIN -- Score: 65/100
+   Entry: 2390.70 | SL: 2325.06 | T1: 2489.15 | T2: 2587.61 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:4 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 67 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 5,444,675), High F&O Activity
+
+2. ICICIBANK -- Score: 63/100
+   Entry: 1363.80 | SL: 1326.97 | T1: 1419.04 | T2: 1454.78 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:4 PA:9 RS:5 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 27 (Strong Trend), ADX Rising, RSI 67 (Power Zone), MACD Bullish, Near Breakout, Marubozu, Outperforming Nifty, Long Buildup (OI: 124,280,800), High F&O Activity
+
+3. MAXHEALTH -- Score: 62/100
+   Entry: 1083.80 | SL: 1043.08 | T1: 1144.88 | T2: 1185.60 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:4 PA:5 RS:12 SM:8 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 21 (Trending), ADX Rising, RSI 66 (Power Zone), MACD Bullish, Bullish Engulfing, Strong RS vs Nifty, Sector Top 3: CONSUMER, Long Buildup (OI: 10,124,625), High F&O Activity
+
+4. BDL -- Score: 62/100
+   Entry: 1408.90 | SL: 1344.03 | T1: 1506.20 | T2: 1571.07 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:4 PA:5 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 27 (Strong Trend), ADX Rising, RSI 68 (Power Zone), MACD Bullish, Marubozu, Strong RS vs Nifty, Sector Top 3: DEFENCE, Long Buildup (OI: 5,065,550), High F&O Activity
+
+5. DRREDDY -- Score: 61/100
+   Entry: 1335.50 | SL: 1294.33 | T1: 1397.25 | T2: 1397.33 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:4 PA:4 RS:9 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 66 (Power Zone), MACD Fresh Crossover, Near Breakout, Outperforming Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 13,701,875), High F&O Activity
+
+6. RADICO -- Score: 61/100
+   Entry: 3744.00 | SL: 3624.40 | T1: 3923.40 | T2: 4043.00 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:4 PA:4 RS:8 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 36 (Strong Trend), ADX Rising, RSI 67 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 388,350), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+

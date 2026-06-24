@@ -30176,5 +30176,246 @@
         "est_days_to_t1": 22.6
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-24",
+    "scan_time": "2026-06-24T04:31:09.459884",
+    "market_regime": {
+      "regime": "bullish",
+      "min_score": 60,
+      "label": "BULLISH (risk-on)",
+      "nifty_above_50dma": true,
+      "vix": 13.807499885559082
+    },
+    "min_score_threshold": 60,
+    "total_qualified": 6,
+    "sector_rankings": {
+      "PHARMA": 1,
+      "DEFENCE": 2,
+      "CONSUMER": 3,
+      "POWER": 4,
+      "INDEX_ETF": 5,
+      "CHEMICALS": 6,
+      "BANKING": 7,
+      "FINANCE": 8,
+      "INFRA": 9,
+      "ENERGY": 10,
+      "FMCG": 11,
+      "REALTY": 12,
+      "AUTO": 13,
+      "ELECTRICALS": 14,
+      "GOLD_ETF": 15,
+      "RAILWAY": 16,
+      "METALS": 17,
+      "IT": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "LUPIN",
+        "score": 65,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 5,444,675)",
+          "High F&O Activity"
+        ],
+        "entry": 2390.7,
+        "sl": 2325.06,
+        "target1": 2489.15,
+        "target2": 2587.61,
+        "hold_period": "3-4 weeks",
+        "cmp": 2390.7,
+        "target_method": "Weekly R2 + Fib 2.618 + 52W High + Weekly R3",
+        "est_days_to_t1": 22.6
+      },
+      {
+        "symbol": "ICICIBANK",
+        "score": 63,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 9,
+          "Relative Strength": 5,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 27 (Strong Trend)",
+          "ADX Rising",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Marubozu",
+          "Outperforming Nifty",
+          "Long Buildup (OI: 124,280,800)",
+          "High F&O Activity"
+        ],
+        "entry": 1363.8,
+        "sl": 1326.97,
+        "target1": 1419.04,
+        "target2": 1454.78,
+        "hold_period": "5-8 days",
+        "cmp": 1363.8,
+        "target3": 1497.27,
+        "target_method": "Weekly R2 + 52W High + Weekly R3 + Fib 1.272",
+        "est_days_to_t1": 5.6
+      },
+      {
+        "symbol": "MAXHEALTH",
+        "score": 62,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 5,
+          "Relative Strength": 12,
+          "Smart Money": 8,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 21 (Trending)",
+          "ADX Rising",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Sector Top 3: CONSUMER",
+          "Long Buildup (OI: 10,124,625)",
+          "High F&O Activity"
+        ],
+        "entry": 1083.8,
+        "sl": 1043.08,
+        "target1": 1144.88,
+        "target2": 1185.6,
+        "hold_period": "5-8 days",
+        "cmp": 1083.8,
+        "target3": 1161.22,
+        "target_method": "52W High + Weekly R1 + Fib 2.0 + Weekly R2",
+        "est_days_to_t1": 7.1
+      },
+      {
+        "symbol": "BDL",
+        "score": 62,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 5,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 27 (Strong Trend)",
+          "ADX Rising",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Sector Top 3: DEFENCE",
+          "Long Buildup (OI: 5,065,550)",
+          "High F&O Activity"
+        ],
+        "entry": 1408.9,
+        "sl": 1344.03,
+        "target1": 1506.2,
+        "target2": 1571.07,
+        "hold_period": "2-3 weeks",
+        "cmp": 1408.9,
+        "target3": 1597.18,
+        "target_method": "Weekly R1 + 52W High + Weekly R2 + Weekly R3",
+        "est_days_to_t1": 13.6
+      },
+      {
+        "symbol": "DRREDDY",
+        "score": 61,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 4,
+          "Price Action": 4,
+          "Relative Strength": 9,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 66 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Outperforming Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 13,701,875)",
+          "High F&O Activity"
+        ],
+        "entry": 1335.5,
+        "sl": 1294.33,
+        "target1": 1397.25,
+        "target2": 1397.33,
+        "hold_period": "3-4 weeks",
+        "cmp": 1335.5,
+        "target3": 1449.88,
+        "target_method": "Resistance (2x) + 52W High + Fib 1.0 + Measured Move",
+        "est_days_to_t1": 22.6
+      },
+      {
+        "symbol": "RADICO",
+        "score": 61,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 4,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 36 (Strong Trend)",
+          "ADX Rising",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 388,350)",
+          "High F&O Activity"
+        ],
+        "entry": 3744.0,
+        "sl": 3624.4,
+        "target1": 3923.4,
+        "target2": 4043.0,
+        "hold_period": "1-2 weeks",
+        "cmp": 3744.0,
+        "target3": 4067.6,
+        "target_method": "52W High + Weekly R1 + Weekly R2 + Weekly R3",
+        "est_days_to_t1": 10.9
+      }
+    ]
   }
 ]
