@@ -30731,5 +30731,53 @@
         "cmp": 618.3
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-24",
+    "scan_time": "2026-06-24T09:53:48.087573",
+    "scanner_type": "btst",
+    "total_qualified": 2,
+    "top_10": [
+      {
+        "symbol": "OFSS",
+        "scanner_type": "btst",
+        "score": 91.2,
+        "entry": 10498.0,
+        "sl": 10288.04,
+        "target1": 10760.45,
+        "target2": 11022.9,
+        "hold_period": "1 session (BTST)",
+        "cmp": 10498.0,
+        "signals": [
+          "Close top 98%",
+          "Green +6.0%",
+          "Vol 2.4x",
+          "RS +5.6% vs Nifty",
+          "52w high breakout",
+          "Pocket Pivot volume signature",
+          "New 5-day high",
+          "Strong 5-day RS vs Nifty"
+        ]
+      },
+      {
+        "symbol": "JSWCEMENT",
+        "scanner_type": "btst",
+        "score": 67.3,
+        "entry": 133.88,
+        "sl": 131.2,
+        "target1": 137.23,
+        "target2": 140.57,
+        "hold_period": "1 session (BTST)",
+        "cmp": 133.88,
+        "signals": [
+          "Close top 93%",
+          "Green +3.7%",
+          "Vol 1.6x",
+          "RS +2.7% vs Nifty",
+          "Pocket Pivot volume signature",
+          "New 5-day high"
+        ]
+      }
+    ]
   }
 ]
