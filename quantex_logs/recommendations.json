@@ -31843,5 +31843,33 @@
         "cmp": 436.45
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-25",
+    "scan_time": "2026-06-25T09:53:07.380745",
+    "scanner_type": "btst",
+    "total_qualified": 1,
+    "top_10": [
+      {
+        "symbol": "WELCORP",
+        "scanner_type": "btst",
+        "score": 83.7,
+        "entry": 1456.9,
+        "sl": 1427.76,
+        "target1": 1493.32,
+        "target2": 1529.75,
+        "hold_period": "1 session (BTST)",
+        "cmp": 1456.9,
+        "signals": [
+          "Close top 99%",
+          "Green +2.5%",
+          "Vol 2.4x",
+          "RS +3.5% vs Nifty",
+          "52w high breakout",
+          "Pocket Pivot volume signature",
+          "New 20-day high"
+        ]
+      }
+    ]
   }
 ]
