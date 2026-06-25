@@ -115,3 +115,62 @@ Qualified: 35 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-06-25 at 10:30 AM IST
+Regime: BULLISH (risk-on) | VIX: 13.05 | Min Score: 60
+Qualified: 20 stocks | Top 10 below
+============================================================
+
+1. TVSMOTOR -- Score: 73/100
+   Entry: 3577.90 | SL: 3444.84 | T1: 3777.49 | T2: 3792.84 | RR: 1:1.5
+   Tr:8 Mo:15 Vo:15 PA:13 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, RSI 62 (Power Zone), MACD Bullish, Vol Above Avg 1.9x, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Sector Top 3: AUTO, Long Buildup (OI: 10,016,475), High F&O Activity
+
+2. INDIGO -- Score: 70/100
+   Entry: 5462.00 | SL: 5245.62 | T1: 5754.11 | T2: 6046.23 | RR: 1:1.3
+   Tr:16 Mo:6 Vo:17 PA:13 RS:8 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 34 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 3.8x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 5,659,650), High F&O Activity
+
+3. AUROPHARMA -- Score: 68/100
+   Entry: 1557.20 | SL: 1501.04 | T1: 1669.52 | T2: 1725.67 | RR: 1:2.0
+   Tr:12 Mo:15 Vo:12 PA:8 RS:12 SM:9 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 67 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Short Covering, High F&O Activity
+
+4. POONAWALLA -- Score: 68/100
+   Entry: 439.20 | SL: 418.72 | T1: 469.93 | T2: 479.12 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:12 PA:8 RS:8 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), ADX Rising, RSI 69 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+5. MOTHERSON -- Score: 67/100
+   Entry: 151.85 | SL: 144.56 | T1: 162.79 | T2: 170.08 | RR: 1:1.5
+   Tr:16 Mo:11 Vo:13 PA:8 RS:9 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 39 (Strong Trend), RSI 67 (Power Zone), Vol Surge 3.1x, 20-Day Breakout, Outperforming Nifty, Sector Top 3: AUTO, Long Buildup (OI: 120,238,650), High F&O Activity
+
+6. WELCORP -- Score: 67/100
+   Entry: 1459.00 | SL: 1392.85 | T1: 1558.22 | T2: 1624.37 | RR: 1:1.5
+   Tr:20 Mo:11 Vo:17 PA:8 RS:8 SM:3 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 39 (Strong Trend), ADX Rising, RSI 66 (Power Zone), Vol Surge 2.5x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty
+
+7. SUNDRMFAST -- Score: 66/100
+   Entry: 927.55 | SL: 890.46 | T1: 1001.72 | T2: 1038.81 | RR: 1:2.0
+   Tr:12 Mo:10 Vo:17 PA:8 RS:12 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX Rising, MACD Bullish, Vol Surge 2.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: AUTO, Consistent Buying
+
+8. RELAXO -- Score: 66/100
+   Entry: 416.00 | SL: 389.71 | T1: 463.32 | T2: 486.98 | RR: 1:1.8
+   Tr:20 Mo:6 Vo:17 PA:8 RS:8 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 44 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 11.7x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+9. MOTILALOFS -- Score: 65/100
+   Entry: 948.00 | SL: 917.07 | T1: 994.39 | T2: 1028.10 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:8 PA:9 RS:8 SM:9 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 33 (Strong Trend), ADX Rising, RSI 64 (Power Zone), MACD Bullish, Near Breakout, Morning Star, Strong RS vs Nifty, Short Covering, High F&O Activity
+
+10. MAXHEALTH -- Score: 64/100
+   Entry: 1122.90 | SL: 1077.78 | T1: 1190.58 | T2: 1235.70 | RR: 1:1.5
+   Tr:18 Mo:10 Vo:11 PA:8 RS:8 SM:9 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 23 (Trending), ADX Rising, MACD Bullish, Vol Above Avg 1.5x, 20-Day Breakout, Strong RS vs Nifty, Short Covering, High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
