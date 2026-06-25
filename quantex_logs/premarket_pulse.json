@@ -1318,5 +1318,31 @@
       "HINDZINC"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-24.pdf"
+  },
+  {
+    "date": "Thu, 25 Jun 2026",
+    "fear_greed": 68.7,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24021.65,
+    "nifty": 24021.65,
+    "sensex": 76991.22,
+    "bank_nifty": 58150.35,
+    "vix": 13.39,
+    "top_gainers": [
+      "KPRMILL",
+      "PINELABS",
+      "JSWINFRA",
+      "M&MFIN",
+      "CREDITACC"
+    ],
+    "top_losers": [
+      "GVT&D",
+      "IRFC",
+      "POWERINDIA",
+      "TRITURBINE",
+      "SCHNEIDER"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-25.pdf"
   }
 ]
