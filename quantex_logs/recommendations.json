@@ -31532,5 +31532,316 @@
         "est_days_to_t1": 21.4
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-25",
+    "scan_time": "2026-06-25T04:35:38.042421",
+    "total_qualified": 35,
+    "sector_rankings": {
+      "PHARMA": 1,
+      "BANKING": 2,
+      "REALTY": 3,
+      "AUTO": 4,
+      "CHEMICALS": 5,
+      "INDEX_ETF": 6,
+      "FINANCE": 7,
+      "ENERGY": 8,
+      "INFRA": 9,
+      "IT": 10,
+      "CONSUMER": 11,
+      "FMCG": 12,
+      "ELECTRICALS": 13,
+      "DEFENCE": 14,
+      "POWER": 15,
+      "RAILWAY": 16,
+      "GOLD_ETF": 17,
+      "METALS": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "RELAXO",
+        "score": 80,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 8,
+          "Volume": 20,
+          "Price Action": 15,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "Vol Surge 5.8x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 418.4,
+        "sl": 397.48,
+        "target1": 460.24,
+        "target2": 481.16,
+        "hold_period": "1-2 weeks",
+        "cmp": 418.4
+      },
+      {
+        "symbol": "PHOENIXLTD",
+        "score": 78,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: REALTY",
+          "Long Buildup (OI: 2,793,350)",
+          "High F&O Activity"
+        ],
+        "entry": 1933.0,
+        "sl": 1851.96,
+        "target1": 2095.09,
+        "target2": 2176.13,
+        "hold_period": "1-2 weeks",
+        "cmp": 1933.0
+      },
+      {
+        "symbol": "SBIN",
+        "score": 74,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 11,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 64 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Outperforming Nifty",
+          "Sector Top 3: BANKING",
+          "Long Buildup (OI: 53,346,750)",
+          "High F&O Activity"
+        ],
+        "entry": 1050.05,
+        "sl": 1020.5,
+        "target1": 1109.15,
+        "target2": 1138.7,
+        "hold_period": "3-7 days",
+        "cmp": 1050.05
+      },
+      {
+        "symbol": "DRREDDY",
+        "score": 74,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 11,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Marubozu",
+          "Outperforming Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 9,496,875)",
+          "High F&O Activity"
+        ],
+        "entry": 1358.3,
+        "sl": 1316.8,
+        "target1": 1441.31,
+        "target2": 1482.81,
+        "hold_period": "1-2 weeks",
+        "cmp": 1358.3
+      },
+      {
+        "symbol": "MAXHEALTH",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 8,279,775)",
+          "High F&O Activity"
+        ],
+        "entry": 1101.9,
+        "sl": 1072.9,
+        "target1": 1159.9,
+        "target2": 1188.9,
+        "hold_period": "3-7 days",
+        "cmp": 1101.9
+      },
+      {
+        "symbol": "SUNDRMFAST",
+        "score": 73,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 13,
+          "Volume": 15,
+          "Price Action": 10,
+          "Relative Strength": 13,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 929.6,
+        "sl": 893.01,
+        "target1": 1002.79,
+        "target2": 1039.38,
+        "hold_period": "1-2 weeks",
+        "cmp": 929.6
+      },
+      {
+        "symbol": "UNITDSPR",
+        "score": 73,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 5,678,000)",
+          "High F&O Activity"
+        ],
+        "entry": 1387.6,
+        "sl": 1342.28,
+        "target1": 1478.25,
+        "target2": 1523.57,
+        "hold_period": "1-2 weeks",
+        "cmp": 1387.6
+      },
+      {
+        "symbol": "CIPLA",
+        "score": 71,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 11,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Outperforming Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 7,791,000)",
+          "High F&O Activity"
+        ],
+        "entry": 1444.5,
+        "sl": 1401.52,
+        "target1": 1530.46,
+        "target2": 1573.43,
+        "hold_period": "3-7 days",
+        "cmp": 1444.5
+      },
+      {
+        "symbol": "GLAXO",
+        "score": 70,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Consistent Buying"
+        ],
+        "entry": 2372.3,
+        "sl": 2289.21,
+        "target1": 2538.48,
+        "target2": 2621.57,
+        "hold_period": "1-2 weeks",
+        "cmp": 2372.3
+      },
+      {
+        "symbol": "POONAWALLA",
+        "score": 70,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 436.45,
+        "sl": 416.6,
+        "target1": 476.14,
+        "target2": 495.99,
+        "hold_period": "1-2 weeks",
+        "cmp": 436.45
+      }
+    ]
   }
 ]
