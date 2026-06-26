@@ -57,3 +57,61 @@ Qualified: 19 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-06-26 at 04:35 AM IST
+Qualified: 46 stocks | Top 10 below
+============================================================
+
+1. TVSMOTOR — Score: 89/100
+   Entry: 3569.70 | SL: 3436.65 | T1: 3835.81 | T2: 3968.86 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:18 PA:15 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 62 (Power Zone), MACD Bullish, Vol Above Avg 1.9x, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Sector Top 3: AUTO, Long Buildup (OI: 3,613,050)
+
+2. SUNDRMFAST — Score: 85/100
+   Entry: 929.00 | SL: 892.00 | T1: 1003.00 | T2: 1040.00 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:20 PA:10 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, Vol Surge 2.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: AUTO, Consistent Buying
+
+3. M&M — Score: 81/100
+   Entry: 3182.20 | SL: 3061.83 | T1: 3422.93 | T2: 3543.30 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:15 PA:10 RS:11 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 59 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Outperforming Nifty, Sector Top 3: AUTO, Long Buildup (OI: 6,885,400)
+
+4. INDIGO — Score: 80/100
+   Entry: 5450.00 | SL: 5233.47 | T1: 5883.06 | T2: 6099.59 | RR: 1:2.0
+   Trend:20 Mom:8 Vol:20 PA:15 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, Vol Surge 3.8x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 4,684,200)
+
+5. AUROPHARMA — Score: 80/100
+   Entry: 1555.20 | SL: 1499.03 | T1: 1667.54 | T2: 1723.72 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:10 PA:10 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 8,887,450)
+
+6. POONAWALLA — Score: 80/100
+   Entry: 440.30 | SL: 419.79 | T1: 481.32 | T2: 501.83 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:15 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 69 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+7. UNITDSPR — Score: 78/100
+   Entry: 1384.90 | SL: 1338.81 | T1: 1477.08 | T2: 1523.17 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:13 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 69 (Power Zone), MACD Bullish, Vol Above Avg 1.9x, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 3,347,600)
+
+8. RELAXO — Score: 75/100
+   Entry: 413.55 | SL: 392.87 | T1: 454.91 | T2: 475.58 | RR: 1:2.0
+   Trend:20 Mom:8 Vol:20 PA:10 RS:10 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, Vol Surge 11.7x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+9. UNOMINDA — Score: 74/100
+   Entry: 1136.50 | SL: 1089.00 | T1: 1231.50 | T2: 1279.00 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:13 PA:5 RS:11 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 58 (Power Zone), MACD Bullish, Vol Above Avg 1.8x, Near Breakout, Outperforming Nifty, Sector Top 3: AUTO, Long Buildup (OI: 1,359,600)
+
+10. GODREJPROP — Score: 74/100
+   Entry: 1850.60 | SL: 1778.10 | T1: 1995.60 | T2: 2068.10 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:8 PA:10 RS:11 SM:7
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 64 (Power Zone), MACD Bullish, Vol Above Avg 1.7x, 20-Day Breakout, Outperforming Nifty, Sector Top 3: REALTY, Long Buildup (OI: 2,998,600)
+
+
+────────────────────────────────────────────────────────────
+
