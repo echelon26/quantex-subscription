@@ -33640,5 +33640,321 @@
         "est_days_to_t1": 12.1
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-29",
+    "scan_time": "2026-06-29T04:35:33.335916",
+    "total_qualified": 31,
+    "sector_rankings": {
+      "PHARMA": 1,
+      "AUTO": 2,
+      "REALTY": 3,
+      "BANKING": 4,
+      "FMCG": 5,
+      "CONSUMER": 6,
+      "INDEX_ETF": 7,
+      "CHEMICALS": 8,
+      "FINANCE": 9,
+      "ELECTRICALS": 10,
+      "INFRA": 11,
+      "ENERGY": 12,
+      "IT": 13,
+      "POWER": 14,
+      "GOLD_ETF": 15,
+      "DEFENCE": 16,
+      "METALS": 17,
+      "RAILWAY": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "DRREDDY",
+        "score": 83,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 8,
+          "Volume": 20,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "Vol Surge 2.1x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 4,525,000)",
+          "High F&O Activity"
+        ],
+        "entry": 1412.3,
+        "sl": 1366.51,
+        "target1": 1503.87,
+        "target2": 1549.66,
+        "hold_period": "1-2 weeks",
+        "cmp": 1412.3
+      },
+      {
+        "symbol": "CIPLA",
+        "score": 80,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 5,241,000)",
+          "High F&O Activity"
+        ],
+        "entry": 1478.3,
+        "sl": 1433.25,
+        "target1": 1568.4,
+        "target2": 1613.44,
+        "hold_period": "1-2 weeks",
+        "cmp": 1478.3
+      },
+      {
+        "symbol": "LAURUSLABS",
+        "score": 80,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Morning Star, Marubozu",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 4,318,000)",
+          "High F&O Activity"
+        ],
+        "entry": 1478.2,
+        "sl": 1421.92,
+        "target1": 1590.77,
+        "target2": 1647.05,
+        "hold_period": "1-2 weeks",
+        "cmp": 1478.2
+      },
+      {
+        "symbol": "AUROPHARMA",
+        "score": 78,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 70 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 8,874,800)",
+          "High F&O Activity"
+        ],
+        "entry": 1578.8,
+        "sl": 1523.15,
+        "target1": 1690.1,
+        "target2": 1745.76,
+        "hold_period": "1-2 weeks",
+        "cmp": 1578.8
+      },
+      {
+        "symbol": "MOTHERSON",
+        "score": 75,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: AUTO",
+          "Long Buildup (OI: 85,903,200)",
+          "High F&O Activity"
+        ],
+        "entry": 152.56,
+        "sl": 145.31,
+        "target1": 167.06,
+        "target2": 174.31,
+        "hold_period": "1-2 weeks",
+        "cmp": 152.56
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "score": 69,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 11,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Outperforming Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 10,139,150)",
+          "High F&O Activity"
+        ],
+        "entry": 1894.0,
+        "sl": 1846.86,
+        "target1": 1988.28,
+        "target2": 2035.42,
+        "hold_period": "3-7 days",
+        "cmp": 1894.0
+      },
+      {
+        "symbol": "MARICO",
+        "score": 69,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 20,
+          "Volume": 10,
+          "Price Action": 5,
+          "Relative Strength": 9,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 63 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Outperforming Nifty",
+          "Long Buildup (OI: 6,681,600)",
+          "High F&O Activity"
+        ],
+        "entry": 839.75,
+        "sl": 814.01,
+        "target1": 891.24,
+        "target2": 916.98,
+        "hold_period": "1-2 weeks",
+        "cmp": 839.75
+      },
+      {
+        "symbol": "OBEROIRLTY",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 0,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 64 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: REALTY",
+          "Long Buildup (OI: 2,973,250)",
+          "High F&O Activity"
+        ],
+        "entry": 1749.4,
+        "sl": 1681.62,
+        "target1": 1884.96,
+        "target2": 1952.74,
+        "hold_period": "1-2 weeks",
+        "cmp": 1749.4
+      },
+      {
+        "symbol": "RECLTD",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 61 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 32,013,800)",
+          "High F&O Activity"
+        ],
+        "entry": 366.25,
+        "sl": 355.35,
+        "target1": 388.05,
+        "target2": 398.95,
+        "hold_period": "3-7 days",
+        "cmp": 366.25
+      },
+      {
+        "symbol": "IPCALAB",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 63 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA"
+        ],
+        "entry": 1659.5,
+        "sl": 1588.35,
+        "target1": 1801.8,
+        "target2": 1872.96,
+        "hold_period": "1-2 weeks",
+        "cmp": 1659.5
+      }
+    ]
   }
 ]

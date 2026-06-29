@@ -52,3 +52,61 @@ Qualified: 9 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-06-29 at 04:35 AM IST
+Qualified: 31 stocks | Top 10 below
+============================================================
+
+1. DRREDDY — Score: 83/100
+   Entry: 1412.30 | SL: 1366.51 | T1: 1503.87 | T2: 1549.66 | RR: 1:2.0
+   Trend:20 Mom:8 Vol:20 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, Vol Surge 2.1x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 4,525,000), High F&O Activity
+
+2. CIPLA — Score: 80/100
+   Entry: 1478.30 | SL: 1433.25 | T1: 1568.40 | T2: 1613.44 | RR: 1:2.0
+   Trend:20 Mom:15 Vol:5 PA:15 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Fresh Crossover, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 5,241,000), High F&O Activity
+
+3. LAURUSLABS — Score: 80/100
+   Entry: 1478.20 | SL: 1421.92 | T1: 1590.77 | T2: 1647.05 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Fresh Crossover, Near Breakout, Morning Star, Marubozu, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 4,318,000), High F&O Activity
+
+4. AUROPHARMA — Score: 78/100
+   Entry: 1578.80 | SL: 1523.15 | T1: 1690.10 | T2: 1745.76 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 70 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 8,874,800), High F&O Activity
+
+5. MOTHERSON — Score: 75/100
+   Entry: 152.56 | SL: 145.31 | T1: 167.06 | T2: 174.31 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Sector Top 3: AUTO, Long Buildup (OI: 85,903,200), High F&O Activity
+
+6. SUNPHARMA — Score: 69/100
+   Entry: 1894.00 | SL: 1846.86 | T1: 1988.28 | T2: 2035.42 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:11 SM:10
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 69 (Power Zone), MACD Bullish, Near Breakout, Outperforming Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 10,139,150), High F&O Activity
+
+7. MARICO — Score: 69/100
+   Entry: 839.75 | SL: 814.01 | T1: 891.24 | T2: 916.98 | RR: 1:2.0
+   Trend:15 Mom:20 Vol:10 PA:5 RS:9 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 63 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), Near Breakout, Outperforming Nifty, Long Buildup (OI: 6,681,600), High F&O Activity
+
+8. OBEROIRLTY — Score: 68/100
+   Entry: 1749.40 | SL: 1681.62 | T1: 1884.96 | T2: 1952.74 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:0 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 64 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 2,973,250), High F&O Activity
+
+9. RECLTD — Score: 68/100
+   Entry: 366.25 | SL: 355.35 | T1: 388.05 | T2: 398.95 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:10 SM:10
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 32,013,800), High F&O Activity
+
+10. IPCALAB — Score: 68/100
+   Entry: 1659.50 | SL: 1588.35 | T1: 1801.80 | T2: 1872.96 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:5 RS:15 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 63 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA
+
+
+────────────────────────────────────────────────────────────
+
