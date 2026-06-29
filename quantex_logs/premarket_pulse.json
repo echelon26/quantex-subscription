@@ -1370,5 +1370,31 @@
       "JAINREC"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-26.pdf"
+  },
+  {
+    "date": "Mon, 29 Jun 2026",
+    "fear_greed": 69.4,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24056.0,
+    "nifty": 24056.0,
+    "sensex": 77100.47,
+    "bank_nifty": 58177.05,
+    "vix": 13.05,
+    "top_gainers": [
+      "MSUMI",
+      "AEGISLOG",
+      "M&MFIN",
+      "HFCL",
+      "TMCV"
+    ],
+    "top_losers": [
+      "MMTC",
+      "BANDHANBNK",
+      "NATIONALUM",
+      "ABSLAMC",
+      "JAINREC"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-29.pdf"
   }
 ]
