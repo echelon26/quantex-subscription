@@ -1,0 +1,54 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-06-29 at 04:31 AM IST
+Regime: BULLISH (risk-on) | VIX: 13.56 | Min Score: 60
+Qualified: 9 stocks | Top 10 below
+============================================================
+
+1. LAURUSLABS -- Score: 73/100
+   Entry: 1478.60 | SL: 1422.32 | T1: 1591.17 | T2: 1647.45 | RR: 1:2.0
+   Tr:20 Mo:18 Vo:4 PA:9 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 39 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Fresh Crossover, Near Breakout, Morning Star, Marubozu, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 4,314,600), High F&O Activity
+
+2. CIPLA -- Score: 70/100
+   Entry: 1475.30 | SL: 1430.30 | T1: 1542.81 | T2: 1655.70 | RR: 1:1.5
+   Tr:18 Mo:13 Vo:4 PA:13 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 24 (Trending), ADX Rising, MACD Fresh Crossover, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 5,226,750), High F&O Activity
+
+3. DRREDDY -- Score: 69/100
+   Entry: 1410.90 | SL: 1365.22 | T1: 1493.12 | T2: 1534.24 | RR: 1:1.8
+   Tr:18 Mo:6 Vo:15 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 21 (Trending), ADX Rising, MACD Bullish, Vol Above Avg 2.0x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 4,510,000), High F&O Activity
+
+4. MOTHERSON -- Score: 68/100
+   Entry: 152.65 | SL: 145.40 | T1: 163.52 | T2: 170.77 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:4 PA:4 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 42 (Strong Trend), RSI 68 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Sector Top 3: AUTO, Long Buildup (OI: 86,093,850), High F&O Activity
+
+5. AUROPHARMA -- Score: 67/100
+   Entry: 1579.60 | SL: 1523.95 | T1: 1663.08 | T2: 1676.47 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:4 PA:8 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 20 (Trending), ADX Rising, RSI 70 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 8,889,100), High F&O Activity
+
+6. MARICO -- Score: 64/100
+   Entry: 841.25 | SL: 815.52 | T1: 892.71 | T2: 918.43 | RR: 1:2.0
+   Tr:14 Mo:18 Vo:8 PA:9 RS:5 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX 25 (Trending), ADX Rising, RSI 64 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), Near Breakout, Marubozu, Outperforming Nifty, Long Buildup (OI: 6,691,200), High F&O Activity
+
+7. TRENT -- Score: 63/100
+   Entry: 3293.60 | SL: 3149.26 | T1: 3510.10 | T2: 3654.44 | RR: 1:1.5
+   Tr:20 Mo:10 Vo:4 PA:9 RS:10 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 33 (Strong Trend), ADX Rising, MACD Bullish, Near Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 3,571,650), High F&O Activity
+
+8. LICI -- Score: 62/100
+   Entry: 428.40 | SL: 416.33 | T1: 446.50 | T2: 469.14 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:4 PA:5 RS:8 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 31 (Strong Trend), ADX Rising, RSI 66 (Power Zone), MACD Bullish, Morning Star, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 8,195,600), High F&O Activity
+
+9. ZYDUSLIFE -- Score: 60/100
+   Entry: 1114.40 | SL: 1076.36 | T1: 1171.46 | T2: 1193.53 | RR: 1:1.5
+   Tr:20 Mo:11 Vo:4 PA:9 RS:6 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 45 (Strong Trend), RSI 65 (Power Zone), Near Breakout, Morning Star, Sector Top 3: PHARMA, Long Buildup (OI: 3,560,400), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
