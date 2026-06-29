@@ -33956,5 +33956,92 @@
         "cmp": 1659.5
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-29",
+    "scan_time": "2026-06-29T09:53:25.607929",
+    "scanner_type": "btst",
+    "total_qualified": 4,
+    "top_10": [
+      {
+        "symbol": "ATHERENERG",
+        "scanner_type": "btst",
+        "score": 92.1,
+        "entry": 1089.9,
+        "sl": 1068.1,
+        "target1": 1117.15,
+        "target2": 1144.4,
+        "hold_period": "1 session (BTST)",
+        "cmp": 1089.9,
+        "signals": [
+          "Close top 98%",
+          "Green +10.1%",
+          "Vol 2.5x",
+          "RS +9.6% vs Nifty",
+          "52w high breakout",
+          "Pocket Pivot volume signature",
+          "New 20-day high",
+          "Strong 5-day RS vs Nifty"
+        ]
+      },
+      {
+        "symbol": "PREMEXPLN",
+        "scanner_type": "btst",
+        "score": 87.3,
+        "entry": 808.85,
+        "sl": 792.67,
+        "target1": 829.07,
+        "target2": 849.29,
+        "hold_period": "1 session (BTST)",
+        "cmp": 808.85,
+        "signals": [
+          "Close top 99%",
+          "Green +9.1%",
+          "Vol 2.3x",
+          "RS +9.5% vs Nifty",
+          "52w high breakout",
+          "Pocket Pivot volume signature",
+          "New 20-day high"
+        ]
+      },
+      {
+        "symbol": "BHEL",
+        "scanner_type": "btst",
+        "score": 86.3,
+        "entry": 415.9,
+        "sl": 407.58,
+        "target1": 426.3,
+        "target2": 436.69,
+        "hold_period": "1 session (BTST)",
+        "cmp": 415.9,
+        "signals": [
+          "Close top 98%",
+          "Green +3.3%",
+          "Vol 3.0x",
+          "RS +3.7% vs Nifty",
+          "Near 52w high (pre-breakout zone)",
+          "Pocket Pivot volume signature"
+        ]
+      },
+      {
+        "symbol": "FINCABLES",
+        "scanner_type": "btst",
+        "score": 78.4,
+        "entry": 1189.2,
+        "sl": 1165.42,
+        "target1": 1218.93,
+        "target2": 1248.66,
+        "hold_period": "1 session (BTST)",
+        "cmp": 1189.2,
+        "signals": [
+          "Close top 99%",
+          "Green +6.5%",
+          "Vol 1.7x",
+          "RS +7.0% vs Nifty",
+          "Near 52w high (pre-breakout zone)",
+          "Pocket Pivot volume signature"
+        ]
+      }
+    ]
   }
 ]
