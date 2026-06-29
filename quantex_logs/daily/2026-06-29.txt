@@ -110,3 +110,62 @@ Qualified: 31 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-06-29 at 10:30 AM IST
+Regime: BULLISH (risk-on) | VIX: 13.61 | Min Score: 60
+Qualified: 36 stocks | Top 10 below
+============================================================
+
+1. PREMEXPLN -- Score: 79/100
+   Entry: 815.00 | SL: 757.95 | T1: 900.57 | T2: 934.55 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:17 PA:13 RS:8 SM:3 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 38 (Strong Trend), RSI 69 (Power Zone), MACD Fresh Crossover, Vol Surge 2.4x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty
+
+2. LAURUSLABS -- Score: 77/100
+   Entry: 1487.60 | SL: 1425.81 | T1: 1580.29 | T2: 1642.08 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:9 PA:9 RS:12 SM:9 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 40 (Strong Trend), ADX Rising, RSI 70 (Power Zone), MACD Fresh Crossover, Vol Surge 5.0x, Near Breakout, Morning Star, Strong RS vs Nifty, Sector Top 3: PHARMA, Short Covering, High F&O Activity
+
+3. WELCORP -- Score: 76/100
+   Entry: 1510.80 | SL: 1441.44 | T1: 1614.84 | T2: 1684.20 | RR: 1:1.5
+   Tr:20 Mo:13 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 41 (Strong Trend), ADX Rising, MACD Fresh Crossover, Vol Surge 2.8x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+4. BHARATFORG -- Score: 72/100
+   Entry: 2199.40 | SL: 2106.88 | T1: 2324.31 | T2: 2407.58 | RR: 1:1.4
+   Tr:20 Mo:6 Vo:13 PA:13 RS:10 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 5.1x, 20-Day Breakout, Morning Star, Strong RS vs Nifty, Long Buildup (OI: 3,252,000), High F&O Activity
+
+5. ZYDUSLIFE -- Score: 70/100
+   Entry: 1122.00 | SL: 1083.29 | T1: 1180.07 | T2: 1193.53 | RR: 1:1.5
+   Tr:20 Mo:11 Vo:12 PA:9 RS:9 SM:9 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 45 (Strong Trend), RSI 67 (Power Zone), Strong Delivery (Close near High), Near Breakout, Morning Star, Outperforming Nifty, Sector Top 3: PHARMA, Short Covering, High F&O Activity
+
+6. CGPOWER -- Score: 70/100
+   Entry: 960.00 | SL: 919.87 | T1: 1040.25 | T2: 1080.38 | RR: 1:2.0
+   Tr:20 Mo:11 Vo:17 PA:4 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 30 (Strong Trend), RSI 62 (Power Zone), Vol Surge 3.0x, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 6,720,100), High F&O Activity
+
+7. RAMCOCEM -- Score: 70/100
+   Entry: 930.00 | SL: 889.56 | T1: 990.66 | T2: 1052.19 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:17 PA:9 RS:5 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 60 (Power Zone), MACD Bullish, Vol Surge 2.9x, Strong Delivery (Close near High), Near Breakout, Bullish Engulfing, Outperforming Nifty, Institutional Accumulation
+
+8. LUPIN -- Score: 69/100
+   Entry: 2400.60 | SL: 2329.65 | T1: 2507.03 | T2: 2613.45 | RR: 1:1.5
+   Tr:12 Mo:15 Vo:13 PA:8 RS:12 SM:9 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 66 (Power Zone), MACD Bullish, Vol Surge 2.5x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Short Covering, High F&O Activity
+
+9. RADICO -- Score: 68/100
+   Entry: 3865.00 | SL: 3745.53 | T1: 4103.94 | T2: 4223.41 | RR: 1:2.0
+   Tr:20 Mo:10 Vo:13 PA:8 RS:8 SM:9 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 40 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 2.4x, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 194,700)
+
+10. PHOENIXLTD -- Score: 68/100
+   Entry: 1929.00 | SL: 1848.65 | T1: 2089.70 | T2: 2170.05 | RR: 1:2.0
+   Tr:18 Mo:15 Vo:4 PA:9 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 24 (Trending), ADX Rising, RSI 68 (Power Zone), MACD Bullish, Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 1,986,950), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
