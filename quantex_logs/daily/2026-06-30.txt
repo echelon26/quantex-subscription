@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-06-30 at 04:31 AM IST
+Regime: BULLISH (risk-on) | VIX: 13.81 | Min Score: 60
+Qualified: 10 stocks | Top 10 below
+============================================================
+
+1. ALKEM -- Score: 67/100
+   Entry: 5473.50 | SL: 5337.00 | T1: 5678.25 | T2: 5889.05 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:4 PA:9 RS:9 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 25 (Strong Trend), ADX Rising, RSI 60 (Power Zone), MACD Bullish, Near Breakout, Morning Star, Outperforming Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 419,375), High F&O Activity
+
+2. PRESTIGE -- Score: 65/100
+   Entry: 1556.20 | SL: 1506.40 | T1: 1630.90 | T2: 1680.70 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:4 PA:4 RS:12 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 27 (Strong Trend), ADX Rising, RSI 67 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 715,950), High F&O Activity
+
+3. OBEROIRLTY -- Score: 63/100
+   Entry: 1762.00 | SL: 1694.15 | T1: 1863.78 | T2: 1931.63 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:4 PA:4 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), ADX Rising, RSI 66 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 1,514,100), High F&O Activity
+
+4. AUROPHARMA -- Score: 63/100
+   Entry: 1577.70 | SL: 1521.33 | T1: 1662.25 | T2: 1676.47 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:4 PA:4 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), ADX Rising, RSI 69 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 4,930,750), High F&O Activity
+
+5. ZYDUSLIFE -- Score: 62/100
+   Entry: 1126.00 | SL: 1088.07 | T1: 1182.90 | T2: 1193.53 | RR: 1:1.5
+   Tr:20 Mo:11 Vo:4 PA:8 RS:9 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 45 (Strong Trend), RSI 67 (Power Zone), 20-Day Breakout, Outperforming Nifty, Sector Top 3: PHARMA, Long Buildup (OI: 1,578,600), High F&O Activity
+
+6. PHOENIXLTD -- Score: 62/100
+   Entry: 1931.60 | SL: 1854.31 | T1: 2086.18 | T2: 2163.46 | RR: 1:2.0
+   Tr:18 Mo:15 Vo:4 PA:4 RS:12 SM:9 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 25 (Trending), ADX Rising, RSI 69 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 662,900)
+
+7. LICI -- Score: 61/100
+   Entry: 435.85 | SL: 421.00 | T1: 458.12 | T2: 469.13 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:4 PA:4 RS:8 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 33 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 3,291,400), High F&O Activity
+
+8. PREMEXPLN -- Score: 61/100
+   Entry: 816.00 | SL: 758.88 | T1: 930.24 | T2: 987.36 | RR: 1:2.0
+   Tr:20 Mo:18 Vo:0 PA:8 RS:8 SM:7 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 39 (Strong Trend), RSI 69 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying
+
+9. TANLA -- Score: 60/100
+   Entry: 548.15 | SL: 522.16 | T1: 600.13 | T2: 626.12 | RR: 1:2.0
+   Tr:18 Mo:18 Vo:4 PA:8 RS:2 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 23 (Trending), ADX Rising, RSI 63 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Institutional Accumulation
+
+10. FEDERALBNK -- Score: 60/100
+   Entry: 328.75 | SL: 319.17 | T1: 347.91 | T2: 357.49 | RR: 1:2.0
+   Tr:16 Mo:10 Vo:4 PA:8 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 41 (Strong Trend), ADX Rising, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 11,350,000), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
