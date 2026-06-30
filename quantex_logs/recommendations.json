@@ -35104,5 +35104,33 @@
         "cmp": 435.9
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-30",
+    "scan_time": "2026-06-30T09:54:11.974605",
+    "scanner_type": "btst",
+    "total_qualified": 1,
+    "top_10": [
+      {
+        "symbol": "LTF",
+        "scanner_type": "btst",
+        "score": 78.0,
+        "entry": 311.95,
+        "sl": 305.71,
+        "target1": 319.75,
+        "target2": 327.55,
+        "hold_period": "1 session (BTST)",
+        "cmp": 311.95,
+        "signals": [
+          "Close top 100%",
+          "Green +3.7%",
+          "Vol 1.6x",
+          "RS +4.6% vs Nifty",
+          "Pocket Pivot volume signature",
+          "New 20-day high",
+          "Strong 5-day RS vs Nifty"
+        ]
+      }
+    ]
   }
 ]
