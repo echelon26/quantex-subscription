@@ -34790,5 +34790,319 @@
         "est_days_to_t1": 15.4
       }
     ]
+  },
+  {
+    "scan_date": "2026-06-30",
+    "scan_time": "2026-06-30T04:35:36.339154",
+    "total_qualified": 41,
+    "sector_rankings": {
+      "BANKING": 1,
+      "REALTY": 2,
+      "PHARMA": 3,
+      "AUTO": 4,
+      "CONSUMER": 5,
+      "INFRA": 6,
+      "FINANCE": 7,
+      "INDEX_ETF": 8,
+      "FMCG": 9,
+      "ELECTRICALS": 10,
+      "IT": 11,
+      "DEFENCE": 12,
+      "CHEMICALS": 13,
+      "METALS": 14,
+      "POWER": 15,
+      "SILVER_ETF": 16,
+      "ENERGY": 17,
+      "GOLD_ETF": 18,
+      "RAILWAY": 19
+    },
+    "top_10": [
+      {
+        "symbol": "ALKEM",
+        "score": 74,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 11,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 60 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Morning Star",
+          "Outperforming Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 419,875)",
+          "High F&O Activity"
+        ],
+        "entry": 5471.5,
+        "sl": 5394.0,
+        "target1": 5626.5,
+        "target2": 5704.0,
+        "hold_period": "1-3 days",
+        "cmp": 5471.5
+      },
+      {
+        "symbol": "OBEROIRLTY",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: REALTY",
+          "Long Buildup (OI: 1,514,450)",
+          "High F&O Activity"
+        ],
+        "entry": 1764.9,
+        "sl": 1697.05,
+        "target1": 1900.6,
+        "target2": 1968.45,
+        "hold_period": "1-2 weeks",
+        "cmp": 1764.9
+      },
+      {
+        "symbol": "AUROPHARMA",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 4,935,700)",
+          "High F&O Activity"
+        ],
+        "entry": 1576.1,
+        "sl": 1519.73,
+        "target1": 1688.83,
+        "target2": 1745.2,
+        "hold_period": "1-2 weeks",
+        "cmp": 1576.1
+      },
+      {
+        "symbol": "PRESTIGE",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: REALTY",
+          "Long Buildup (OI: 711,000)",
+          "High F&O Activity"
+        ],
+        "entry": 1558.4,
+        "sl": 1498.0,
+        "target1": 1679.2,
+        "target2": 1739.6,
+        "hold_period": "1-2 weeks",
+        "cmp": 1558.4
+      },
+      {
+        "symbol": "PHOENIXLTD",
+        "score": 72,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 9
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: REALTY",
+          "Long Buildup (OI: 663,250)"
+        ],
+        "entry": 1933.0,
+        "sl": 1855.71,
+        "target1": 2087.58,
+        "target2": 2164.86,
+        "hold_period": "1-2 weeks",
+        "cmp": 1933.0
+      },
+      {
+        "symbol": "FLUOROCHEM",
+        "score": 70,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 3934.9,
+        "sl": 3791.9,
+        "target1": 4220.9,
+        "target2": 4363.9,
+        "hold_period": "1-2 weeks",
+        "cmp": 3934.9
+      },
+      {
+        "symbol": "SBIN",
+        "score": 68,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 60 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: BANKING",
+          "Long Buildup (OI: 15,042,750)",
+          "High F&O Activity"
+        ],
+        "entry": 1041.25,
+        "sl": 1020.5,
+        "target1": 1082.75,
+        "target2": 1103.5,
+        "hold_period": "3-7 days",
+        "cmp": 1041.25
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "score": 68,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Hammer",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 12,207,750)",
+          "High F&O Activity"
+        ],
+        "entry": 990.0,
+        "sl": 955.92,
+        "target1": 1058.17,
+        "target2": 1092.25,
+        "hold_period": "1-2 weeks",
+        "cmp": 990.0
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 0,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Long Buildup (OI: 4,192,650)",
+          "High F&O Activity"
+        ],
+        "entry": 1883.7,
+        "sl": 1855.9,
+        "target1": 1939.3,
+        "target2": 1967.1,
+        "hold_period": "1-3 days",
+        "cmp": 1883.7
+      },
+      {
+        "symbol": "LICI",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 3,298,400)",
+          "High F&O Activity"
+        ],
+        "entry": 435.9,
+        "sl": 421.03,
+        "target1": 465.65,
+        "target2": 480.52,
+        "hold_period": "1-2 weeks",
+        "cmp": 435.9
+      }
+    ]
   }
 ]
