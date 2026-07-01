@@ -36200,5 +36200,56 @@
         "cmp": 1442.2
       }
     ]
+  },
+  {
+    "scan_date": "2026-07-01",
+    "scan_time": "2026-07-01T09:53:20.713882",
+    "scanner_type": "btst",
+    "total_qualified": 2,
+    "top_10": [
+      {
+        "symbol": "DELHIVERY",
+        "scanner_type": "btst",
+        "score": 89.5,
+        "entry": 507.55,
+        "sl": 497.4,
+        "target1": 520.24,
+        "target2": 532.93,
+        "hold_period": "1 session (BTST)",
+        "cmp": 507.55,
+        "signals": [
+          "Close top 96%",
+          "Green +7.5%",
+          "Vol 3.9x",
+          "RS +7.0% vs Nifty",
+          "52w high breakout",
+          "Pocket Pivot volume signature",
+          "New 20-day high",
+          "Heavy volume surge (3\u00d7+)",
+          "Strong 5-day RS vs Nifty"
+        ]
+      },
+      {
+        "symbol": "ADANIENT",
+        "scanner_type": "btst",
+        "score": 84.9,
+        "entry": 3146.4,
+        "sl": 3083.47,
+        "target1": 3225.06,
+        "target2": 3303.72,
+        "hold_period": "1 session (BTST)",
+        "cmp": 3146.4,
+        "signals": [
+          "Close top 98%",
+          "Green +3.5%",
+          "Vol 1.5x",
+          "RS +3.1% vs Nifty",
+          "52w high breakout",
+          "Pocket Pivot volume signature",
+          "New 20-day high",
+          "Strong 5-day RS vs Nifty"
+        ]
+      }
+    ]
   }
 ]
