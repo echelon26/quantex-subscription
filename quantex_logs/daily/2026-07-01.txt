@@ -115,3 +115,62 @@ Qualified: 39 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-07-01 at 10:30 AM IST
+Regime: BULLISH (risk-on) | VIX: 13.24 | Min Score: 60
+Qualified: 25 stocks | Top 10 below
+============================================================
+
+1. DABUR -- Score: 78/100
+   Entry: 445.35 | SL: 430.71 | T1: 474.64 | T2: 489.28 | RR: 1:2.0
+   Tr:11 Mo:15 Vo:17 PA:13 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: Supertrend Bullish, RSI 60 (Power Zone), MACD Bullish, Vol Surge 4.0x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: FMCG, Long Buildup (OI: 30,827,500), High F&O Activity
+
+2. LODHA -- Score: 77/100
+   Entry: 993.00 | SL: 944.69 | T1: 1089.62 | T2: 1137.92 | RR: 1:2.0
+   Tr:20 Mo:15 Vo:12 PA:8 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 29 (Strong Trend), ADX Rising, RSI 67 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 12,681,875), High F&O Activity
+
+3. DLF -- Score: 76/100
+   Entry: 648.00 | SL: 619.93 | T1: 690.10 | T2: 718.17 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:8 PA:13 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), RSI 65 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 39,184,650), High F&O Activity
+
+4. PAYTM -- Score: 75/100
+   Entry: 1206.00 | SL: 1148.66 | T1: 1320.68 | T2: 1378.03 | RR: 1:2.0
+   Tr:14 Mo:15 Vo:15 PA:13 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 68 (Power Zone), MACD Bullish, Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 20,510,250), High F&O Activity
+
+5. GODREJPROP -- Score: 73/100
+   Entry: 1950.00 | SL: 1864.09 | T1: 2078.87 | T2: 2096.10 | RR: 1:1.5
+   Tr:18 Mo:10 Vo:15 PA:8 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 23 (Trending), ADX Rising, MACD Bullish, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 8,600,475), High F&O Activity
+
+6. HDFCAMC -- Score: 73/100
+   Entry: 2750.00 | SL: 2638.19 | T1: 2917.71 | T2: 2953.90 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:12 PA:13 RS:7 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Outperforming Nifty, Long Buildup (OI: 5,932,200), High F&O Activity
+
+7. ADANIENT -- Score: 72/100
+   Entry: 3143.00 | SL: 3008.52 | T1: 3344.72 | T2: 3479.20 | RR: 1:1.5
+   Tr:20 Mo:11 Vo:15 PA:8 RS:8 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 51 (Strong Trend), RSI 66 (Power Zone), Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 18,057,960), High F&O Activity
+
+8. PRESTIGE -- Score: 72/100
+   Entry: 1629.70 | SL: 1553.43 | T1: 1744.11 | T2: 1858.51 | RR: 1:1.5
+   Tr:20 Mo:10 Vo:12 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 30 (Strong Trend), ADX Rising, MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 6,248,700), High F&O Activity
+
+9. PHOENIXLTD -- Score: 71/100
+   Entry: 2011.00 | SL: 1927.65 | T1: 2161.03 | T2: 2236.04 | RR: 1:1.8
+   Tr:20 Mo:6 Vo:15 PA:8 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 4,160,100), High F&O Activity
+
+10. NESTLEIND -- Score: 69/100
+   Entry: 1453.00 | SL: 1403.44 | T1: 1527.35 | T2: 1527.94 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:12 PA:4 RS:9 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 62 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), Near Breakout, Outperforming Nifty, Sector Top 3: FMCG, Long Buildup (OI: 11,882,500), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
