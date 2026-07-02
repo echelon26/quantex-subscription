@@ -37001,5 +37001,316 @@
         "est_days_to_t1": 12.9
       }
     ]
+  },
+  {
+    "scan_date": "2026-07-02",
+    "scan_time": "2026-07-02T04:35:46.319548",
+    "total_qualified": 39,
+    "sector_rankings": {
+      "REALTY": 1,
+      "SILVER_ETF": 2,
+      "FINANCE": 3,
+      "GOLD_ETF": 4,
+      "AUTO": 5,
+      "DEFENCE": 6,
+      "CONSUMER": 7,
+      "FMCG": 8,
+      "INFRA": 9,
+      "PHARMA": 10,
+      "BANKING": 11,
+      "ENERGY": 12,
+      "INDEX_ETF": 13,
+      "ELECTRICALS": 14,
+      "METALS": 15,
+      "POWER": 16,
+      "CHEMICALS": 17,
+      "RAILWAY": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "BAJAJFINSV",
+        "score": 78,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 62 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: FINANCE",
+          "Long Buildup (OI: 14,736,600)",
+          "High F&O Activity"
+        ],
+        "entry": 1818.9,
+        "sl": 1760.3,
+        "target1": 1936.1,
+        "target2": 1994.69,
+        "hold_period": "1-2 weeks",
+        "cmp": 1818.9
+      },
+      {
+        "symbol": "NAUKRI",
+        "score": 76,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 6,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 62 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Marubozu",
+          "Outperforming Nifty",
+          "Long Buildup (OI: 17,664,350)",
+          "High F&O Activity"
+        ],
+        "entry": 1043.2,
+        "sl": 994.24,
+        "target1": 1141.12,
+        "target2": 1190.08,
+        "hold_period": "1-2 weeks",
+        "cmp": 1043.2
+      },
+      {
+        "symbol": "POLICYBZR",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 61 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: FINANCE",
+          "Long Buildup (OI: 7,045,500)",
+          "High F&O Activity"
+        ],
+        "entry": 1703.2,
+        "sl": 1624.71,
+        "target1": 1860.18,
+        "target2": 1938.67,
+        "hold_period": "1-2 weeks",
+        "cmp": 1703.2
+      },
+      {
+        "symbol": "MOTILALOFS",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: FINANCE",
+          "Long Buildup (OI: 4,757,725)",
+          "High F&O Activity"
+        ],
+        "entry": 968.0,
+        "sl": 933.4,
+        "target1": 1037.2,
+        "target2": 1071.8,
+        "hold_period": "1-2 weeks",
+        "cmp": 968.0
+      },
+      {
+        "symbol": "SONACOMS",
+        "score": 71,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 16,364,775)",
+          "High F&O Activity"
+        ],
+        "entry": 637.7,
+        "sl": 613.92,
+        "target1": 685.26,
+        "target2": 709.04,
+        "hold_period": "1-2 weeks",
+        "cmp": 637.7
+      },
+      {
+        "symbol": "MCX",
+        "score": 70,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 11,
+          "Smart Money": 10
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 58 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Outperforming Nifty",
+          "Sector Top 3: FINANCE",
+          "Long Buildup (OI: 8,367,750)",
+          "High F&O Activity"
+        ],
+        "entry": 3022.5,
+        "sl": 2871.38,
+        "target1": 3324.75,
+        "target2": 3475.88,
+        "hold_period": "1-2 weeks",
+        "cmp": 3022.5
+      },
+      {
+        "symbol": "EXIDEIND",
+        "score": 69,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 15,
+          "Price Action": 5,
+          "Relative Strength": 6,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 65 (Power Zone)",
+          "Vol Surge 2.5x",
+          "Near Breakout",
+          "Long Buildup (OI: 24,471,000)",
+          "High F&O Activity"
+        ],
+        "entry": 409.7,
+        "sl": 391.23,
+        "target1": 446.63,
+        "target2": 465.1,
+        "hold_period": "1-2 weeks",
+        "cmp": 409.7
+      },
+      {
+        "symbol": "HDFCAMC",
+        "score": 69,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 0,
+          "Price Action": 10,
+          "Relative Strength": 11,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 61 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Outperforming Nifty",
+          "Sector Top 3: FINANCE",
+          "Long Buildup (OI: 5,566,200)",
+          "High F&O Activity"
+        ],
+        "entry": 2754.0,
+        "sl": 2648.24,
+        "target1": 2965.52,
+        "target2": 3071.29,
+        "hold_period": "1-2 weeks",
+        "cmp": 2754.0
+      },
+      {
+        "symbol": "ICICIBANK",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 114,569,700)",
+          "High F&O Activity"
+        ],
+        "entry": 1390.3,
+        "sl": 1366.1,
+        "target1": 1438.7,
+        "target2": 1462.9,
+        "hold_period": "3-7 days",
+        "cmp": 1390.3
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: FINANCE",
+          "Long Buildup (OI: 76,231,500)",
+          "High F&O Activity"
+        ],
+        "entry": 1018.2,
+        "sl": 981.37,
+        "target1": 1091.85,
+        "target2": 1128.68,
+        "hold_period": "1-2 weeks",
+        "cmp": 1018.2
+      }
+    ]
   }
 ]

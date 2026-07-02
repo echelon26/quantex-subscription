@@ -57,3 +57,61 @@ Qualified: 15 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-07-02 at 04:35 AM IST
+Qualified: 39 stocks | Top 10 below
+============================================================
+
+1. BAJAJFINSV — Score: 78/100
+   Entry: 1818.90 | SL: 1760.30 | T1: 1936.10 | T2: 1994.69 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 62 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 14,736,600), High F&O Activity
+
+2. NAUKRI — Score: 76/100
+   Entry: 1043.20 | SL: 994.24 | T1: 1141.12 | T2: 1190.08 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:15 RS:6 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 62 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Marubozu, Outperforming Nifty, Long Buildup (OI: 17,664,350), High F&O Activity
+
+3. POLICYBZR — Score: 73/100
+   Entry: 1703.20 | SL: 1624.71 | T1: 1860.18 | T2: 1938.67 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 7,045,500), High F&O Activity
+
+4. MOTILALOFS — Score: 73/100
+   Entry: 968.00 | SL: 933.40 | T1: 1037.20 | T2: 1071.80 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 4,757,725), High F&O Activity
+
+5. SONACOMS — Score: 71/100
+   Entry: 637.70 | SL: 613.92 | T1: 685.26 | T2: 709.04 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:10 RS:13 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 69 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 16,364,775), High F&O Activity
+
+6. MCX — Score: 70/100
+   Entry: 3022.50 | SL: 2871.38 | T1: 3324.75 | T2: 3475.88 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:5 PA:10 RS:11 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 58 (Power Zone), MACD Bullish, 20-Day Breakout, Outperforming Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 8,367,750), High F&O Activity
+
+7. EXIDEIND — Score: 69/100
+   Entry: 409.70 | SL: 391.23 | T1: 446.63 | T2: 465.10 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:15 PA:5 RS:6 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 65 (Power Zone), Vol Surge 2.5x, Near Breakout, Long Buildup (OI: 24,471,000), High F&O Activity
+
+8. HDFCAMC — Score: 69/100
+   Entry: 2754.00 | SL: 2648.24 | T1: 2965.52 | T2: 3071.29 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:0 PA:10 RS:11 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Bullish, 20-Day Breakout, Outperforming Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 5,566,200), High F&O Activity
+
+9. ICICIBANK — Score: 68/100
+   Entry: 1390.30 | SL: 1366.10 | T1: 1438.70 | T2: 1462.90 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:5 RS:10 SM:10
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 69 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 114,569,700), High F&O Activity
+
+10. BAJFINANCE — Score: 68/100
+   Entry: 1018.20 | SL: 981.37 | T1: 1091.85 | T2: 1128.68 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:5 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 76,231,500), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
