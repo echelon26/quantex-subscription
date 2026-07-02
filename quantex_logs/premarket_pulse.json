@@ -1448,5 +1448,31 @@
       "TATATECH"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-01.pdf"
+  },
+  {
+    "date": "Thu, 02 Jul 2026",
+    "fear_greed": 66.7,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24005.85,
+    "nifty": 24005.85,
+    "sensex": 76922.64,
+    "bank_nifty": 58033.05,
+    "vix": 13.24,
+    "top_gainers": [
+      "RITES",
+      "RPOWER",
+      "DELHIVERY",
+      "IKS",
+      "HEXT"
+    ],
+    "top_losers": [
+      "KPITTECH",
+      "APARINDS",
+      "COFORGE",
+      "TATAELXSI",
+      "HSCL"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-02.pdf"
   }
 ]
