@@ -37312,5 +37312,33 @@
         "cmp": 1018.2
       }
     ]
+  },
+  {
+    "scan_date": "2026-07-02",
+    "scan_time": "2026-07-02T09:54:03.000816",
+    "scanner_type": "btst",
+    "total_qualified": 1,
+    "top_10": [
+      {
+        "symbol": "J&KBANK",
+        "scanner_type": "btst",
+        "score": 77.2,
+        "entry": 164.95,
+        "sl": 161.65,
+        "target1": 169.07,
+        "target2": 173.2,
+        "hold_period": "1 session (BTST)",
+        "cmp": 164.95,
+        "signals": [
+          "Close top 99%",
+          "Green +3.1%",
+          "Vol 1.8x",
+          "RS +4.9% vs Nifty",
+          "Near 52w high (pre-breakout zone)",
+          "Pocket Pivot volume signature",
+          "New 5-day high"
+        ]
+      }
+    ]
   }
 ]
