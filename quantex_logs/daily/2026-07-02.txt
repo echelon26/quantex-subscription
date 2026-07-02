@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-07-02 at 04:31 AM IST
+Regime: BULLISH (risk-on) | VIX: 12.76 | Min Score: 60
+Qualified: 15 stocks | Top 10 below
+============================================================
+
+1. EXIDEIND -- Score: 68/100
+   Entry: 412.10 | SL: 393.63 | T1: 449.03 | T2: 467.50 | RR: 1:2.0
+   Tr:20 Mo:11 Vo:17 PA:8 RS:2 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 30 (Strong Trend), ADX Rising, RSI 66 (Power Zone), Vol Surge 2.4x, Strong Delivery (Close near High), 20-Day Breakout, Long Buildup (OI: 24,467,400), High F&O Activity
+
+2. BAJFINANCE -- Score: 65/100
+   Entry: 1020.80 | SL: 984.00 | T1: 1076.01 | T2: 1112.81 | RR: 1:1.5
+   Tr:20 Mo:10 Vo:4 PA:9 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 32 (Strong Trend), ADX Rising, MACD Bullish, Near Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 76,115,250), High F&O Activity
+
+3. BAJAJFINSV -- Score: 65/100
+   Entry: 1822.40 | SL: 1763.80 | T1: 1910.30 | T2: 1968.90 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:4 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 62 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 14,729,700), High F&O Activity
+
+4. MOTILALOFS -- Score: 65/100
+   Entry: 968.15 | SL: 930.28 | T1: 1043.89 | T2: 1081.76 | RR: 1:2.0
+   Tr:20 Mo:15 Vo:4 PA:4 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 38 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 4,757,725), High F&O Activity
+
+5. GRANULES -- Score: 63/100
+   Entry: 818.90 | SL: 781.31 | T1: 875.28 | T2: 912.87 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:4 PA:9 RS:5 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 29 (Strong Trend), RSI 66 (Power Zone), MACD Fresh Crossover, Near Breakout, Bullish Engulfing, Outperforming Nifty, Consistent Buying
+
+6. CHALET -- Score: 62/100
+   Entry: 824.55 | SL: 801.50 | T1: 870.65 | T2: 893.70 | RR: 1:2.0
+   Tr:20 Mo:15 Vo:4 PA:4 RS:12 SM:7 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 26 (Strong Trend), ADX Rising, RSI 62 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Consistent Buying
+
+7. ICICIBANK -- Score: 61/100
+   Entry: 1390.80 | SL: 1352.25 | T1: 1467.90 | T2: 1506.45 | RR: 1:2.0
+   Tr:20 Mo:15 Vo:4 PA:4 RS:8 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 33 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 114,566,200), High F&O Activity
+
+8. LODHA -- Score: 61/100
+   Entry: 1000.50 | SL: 953.97 | T1: 1093.57 | T2: 1140.10 | RR: 1:2.0
+   Tr:16 Mo:15 Vo:0 PA:8 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 30 (Strong Trend), ADX Rising, RSI 68 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 12,345,000), High F&O Activity
+
+9. NAUKRI -- Score: 61/100
+   Entry: 1037.90 | SL: 989.26 | T1: 1110.86 | T2: 1159.50 | RR: 1:1.5
+   Tr:14 Mo:18 Vo:4 PA:13 RS:2 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Marubozu, Long Buildup (OI: 17,652,800), High F&O Activity
+
+10. POLICYBZR -- Score: 61/100
+   Entry: 1695.00 | SL: 1617.38 | T1: 1811.43 | T2: 1845.78 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:4 PA:4 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 60 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 7,046,200), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
