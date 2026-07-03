@@ -38400,5 +38400,34 @@
         "cmp": 1993.0
       }
     ]
+  },
+  {
+    "scan_date": "2026-07-03",
+    "scan_time": "2026-07-03T09:53:50.706655",
+    "scanner_type": "btst",
+    "total_qualified": 1,
+    "top_10": [
+      {
+        "symbol": "INDUSINDBK",
+        "scanner_type": "btst",
+        "score": 69.6,
+        "entry": 975.75,
+        "sl": 956.24,
+        "target1": 1000.14,
+        "target2": 1024.54,
+        "hold_period": "1 session (BTST)",
+        "cmp": 975.75,
+        "signals": [
+          "Close top 93%",
+          "Green +2.9%",
+          "Vol 1.5x",
+          "RS +3.0% vs Nifty",
+          "52w high breakout",
+          "Pocket Pivot volume signature",
+          "New 20-day high",
+          "Strong 5-day RS vs Nifty"
+        ]
+      }
+    ]
   }
 ]
