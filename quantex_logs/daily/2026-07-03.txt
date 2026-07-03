@@ -57,3 +57,61 @@ Qualified: 13 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-07-03 at 04:35 AM IST
+Qualified: 50 stocks | Top 10 below
+============================================================
+
+1. LODHA — Score: 83/100
+   Entry: 1046.10 | SL: 997.64 | T1: 1143.02 | T2: 1191.48 | RR: 1:2.0
+   Trend:15 Mom:13 Vol:15 PA:15 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 12,287,500), High F&O Activity
+
+2. MANAPPURAM — Score: 80/100
+   Entry: 332.05 | SL: 316.60 | T1: 362.95 | T2: 378.40 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 49,812,000), High F&O Activity
+
+3. ABCAPITAL — Score: 78/100
+   Entry: 402.50 | SL: 386.42 | T1: 434.67 | T2: 450.75 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 38,198,200), High F&O Activity
+
+4. HDFCAMC — Score: 74/100
+   Entry: 2785.80 | SL: 2682.95 | T1: 2991.49 | T2: 3094.34 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:11 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 63 (Power Zone), MACD Bullish, 20-Day Breakout, Outperforming Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 5,433,900), High F&O Activity
+
+5. BAJAJFINSV — Score: 73/100
+   Entry: 1889.60 | SL: 1825.14 | T1: 2018.51 | T2: 2082.97 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:0 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 70 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 14,768,400), High F&O Activity
+
+6. SHRIRAMFIN — Score: 73/100
+   Entry: 1076.50 | SL: 1036.99 | T1: 1155.52 | T2: 1195.03 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 34,335,675), High F&O Activity
+
+7. AUROPHARMA — Score: 73/100
+   Entry: 1598.40 | SL: 1541.73 | T1: 1711.74 | T2: 1768.40 | RR: 1:2.0
+   Trend:15 Mom:18 Vol:5 PA:15 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 69 (Power Zone), MACD Bullish, 20-Day Breakout, Morning Star, Strong RS vs Nifty, Long Buildup (OI: 12,318,900), High F&O Activity
+
+8. TORNTPHARM — Score: 73/100
+   Entry: 4746.00 | SL: 4583.10 | T1: 5071.80 | T2: 5234.70 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 70 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 2,938,125), High F&O Activity
+
+9. LUPIN — Score: 73/100
+   Entry: 2447.40 | SL: 2375.23 | T1: 2591.75 | T2: 2663.92 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:10 SM:10
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 69 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 5,292,950), High F&O Activity
+
+10. GODREJPROP — Score: 73/100
+   Entry: 1993.00 | SL: 1912.02 | T1: 2154.96 | T2: 2235.94 | RR: 1:2.0
+   Trend:20 Mom:13 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 8,513,050), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
