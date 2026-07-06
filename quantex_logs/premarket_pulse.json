@@ -1500,5 +1500,31 @@
       "RITES"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-03.pdf"
+  },
+  {
+    "date": "Mon, 06 Jul 2026",
+    "fear_greed": 75.3,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Extreme Greed",
+    "gift_nifty": 24270.85,
+    "nifty": 24270.85,
+    "sensex": 77763.91,
+    "bank_nifty": 57938.5,
+    "vix": 11.8,
+    "top_gainers": [
+      "SUMICHEM",
+      "ZENSARTECH",
+      "AEGISVOPAK",
+      "ECLERX",
+      "HCLTECH"
+    ],
+    "top_losers": [
+      "GVT&D",
+      "POWERINDIA",
+      "ENRIN",
+      "CGPOWER",
+      "APARINDS"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-06.pdf"
   }
 ]
