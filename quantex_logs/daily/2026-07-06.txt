@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-07-06 at 04:31 AM IST
+Regime: BULLISH (risk-on) | VIX: 11.93 | Min Score: 60
+Qualified: 12 stocks | Top 10 below
+============================================================
+
+1. SOBHA -- Score: 74/100
+   Entry: 1467.20 | SL: 1401.21 | T1: 1599.19 | T2: 1665.18 | RR: 1:2.0
+   Tr:20 Mo:15 Vo:13 PA:8 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 26 (Strong Trend), ADX Rising, RSI 64 (Power Zone), MACD Bullish, Vol Surge 2.6x, 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+2. INDUSINDBK -- Score: 68/100
+   Entry: 982.80 | SL: 947.43 | T1: 1035.86 | T2: 1071.23 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:4 PA:8 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 29 (Strong Trend), ADX Rising, RSI 67 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 41,101,900), High F&O Activity
+
+3. CHOLAFIN -- Score: 67/100
+   Entry: 1834.60 | SL: 1766.66 | T1: 1936.52 | T2: 2038.43 | RR: 1:1.5
+   Tr:20 Mo:10 Vo:4 PA:13 RS:10 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 38 (Strong Trend), ADX Rising, MACD Bullish, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 14,918,125), High F&O Activity
+
+4. ABCAPITAL -- Score: 67/100
+   Entry: 405.55 | SL: 389.80 | T1: 437.05 | T2: 452.81 | RR: 1:2.0
+   Tr:20 Mo:15 Vo:4 PA:8 RS:10 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 33 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 36,936,500), High F&O Activity
+
+5. HDFCBANK -- Score: 66/100
+   Entry: 822.90 | SL: 799.53 | T1: 857.95 | T2: 881.32 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:4 PA:13 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 69 (Power Zone), MACD Bullish, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 326,262,950), High F&O Activity
+
+6. EXIDEIND -- Score: 64/100
+   Entry: 420.80 | SL: 402.48 | T1: 448.28 | T2: 466.60 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:4 PA:4 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 34 (Strong Trend), ADX Rising, RSI 68 (Power Zone), MACD Fresh Crossover, Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 23,922,000), High F&O Activity
+
+7. HDFCAMC -- Score: 63/100
+   Entry: 2822.40 | SL: 2720.61 | T1: 3025.98 | T2: 3127.76 | RR: 1:2.0
+   Tr:16 Mo:15 Vo:4 PA:8 RS:10 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 65 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 5,391,600), High F&O Activity
+
+8. AUBANK -- Score: 61/100
+   Entry: 1078.30 | SL: 1037.32 | T1: 1139.76 | T2: 1143.96 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:4 PA:4 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 30 (Strong Trend), ADX Rising, RSI 65 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 22,993,000), High F&O Activity
+
+9. UNITDSPR -- Score: 61/100
+   Entry: 1407.30 | SL: 1361.86 | T1: 1475.46 | T2: 1486.93 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:4 PA:8 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 68 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 8,840,400), High F&O Activity
+
+10. LODHA -- Score: 60/100
+   Entry: 1071.55 | SL: 1022.73 | T1: 1137.45 | T2: 1140.06 | RR: 1:1.3
+   Tr:20 Mo:6 Vo:4 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 34 (Strong Trend), ADX Rising, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 11,077,500), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
