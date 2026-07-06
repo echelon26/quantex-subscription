@@ -39174,5 +39174,316 @@
         "est_days_to_t1": 4.1
       }
     ]
+  },
+  {
+    "scan_date": "2026-07-06",
+    "scan_time": "2026-07-06T04:35:35.710518",
+    "total_qualified": 42,
+    "sector_rankings": {
+      "REALTY": 1,
+      "IT": 2,
+      "GOLD_ETF": 3,
+      "FINANCE": 4,
+      "SILVER_ETF": 5,
+      "BANKING": 6,
+      "DEFENCE": 7,
+      "ELECTRICALS": 8,
+      "AUTO": 9,
+      "FMCG": 10,
+      "INFRA": 11,
+      "CHEMICALS": 12,
+      "INDEX_ETF": 13,
+      "ENERGY": 14,
+      "METALS": 15,
+      "PHARMA": 16,
+      "RAILWAY": 17,
+      "POWER": 18,
+      "CONSUMER": 19
+    },
+    "top_10": [
+      {
+        "symbol": "SOBHA",
+        "score": 83,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 15,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 64 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 2.7x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation"
+        ],
+        "entry": 1468.7,
+        "sl": 1402.71,
+        "target1": 1600.69,
+        "target2": 1666.68,
+        "hold_period": "1-2 weeks",
+        "cmp": 1468.7
+      },
+      {
+        "symbol": "AVANTEL",
+        "score": 80,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 15,
+          "Price Action": 15,
+          "Relative Strength": 10,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 186.5,
+        "sl": 177.17,
+        "target1": 205.15,
+        "target2": 214.48,
+        "hold_period": "1-2 weeks",
+        "cmp": 186.5
+      },
+      {
+        "symbol": "HDFCBANK",
+        "score": 78,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 326,524,900)",
+          "High F&O Activity"
+        ],
+        "entry": 823.0,
+        "sl": 799.63,
+        "target1": 869.74,
+        "target2": 893.11,
+        "hold_period": "3-7 days",
+        "cmp": 823.0
+      },
+      {
+        "symbol": "CHOLAFIN",
+        "score": 76,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 14,938,750)",
+          "High F&O Activity"
+        ],
+        "entry": 1837.8,
+        "sl": 1770.0,
+        "target1": 1973.4,
+        "target2": 2041.2,
+        "hold_period": "1-2 weeks",
+        "cmp": 1837.8
+      },
+      {
+        "symbol": "WELCORP",
+        "score": 76,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 18,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 62 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Above Avg 1.7x",
+          "Strong Delivery (Close near High)",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty"
+        ],
+        "entry": 1502.3,
+        "sl": 1427.18,
+        "target1": 1652.53,
+        "target2": 1727.64,
+        "hold_period": "1-2 weeks",
+        "cmp": 1502.3
+      },
+      {
+        "symbol": "ABCAPITAL",
+        "score": 76,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 36,939,600)",
+          "High F&O Activity"
+        ],
+        "entry": 405.85,
+        "sl": 390.1,
+        "target1": 437.35,
+        "target2": 453.11,
+        "hold_period": "1-2 weeks",
+        "cmp": 405.85
+      },
+      {
+        "symbol": "HDFCAMC",
+        "score": 76,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 5,391,300)",
+          "High F&O Activity"
+        ],
+        "entry": 2823.3,
+        "sl": 2721.51,
+        "target1": 3026.88,
+        "target2": 3128.66,
+        "hold_period": "1-2 weeks",
+        "cmp": 2823.3
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "score": 75,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 41,099,100)",
+          "High F&O Activity"
+        ],
+        "entry": 983.65,
+        "sl": 948.28,
+        "target1": 1054.39,
+        "target2": 1089.77,
+        "hold_period": "1-2 weeks",
+        "cmp": 983.65
+      },
+      {
+        "symbol": "EXIDEIND",
+        "score": 75,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 23,932,800)",
+          "High F&O Activity"
+        ],
+        "entry": 421.75,
+        "sl": 403.43,
+        "target1": 458.39,
+        "target2": 476.71,
+        "hold_period": "1-2 weeks",
+        "cmp": 421.75
+      },
+      {
+        "symbol": "PHOENIXLTD",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 8,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Hammer",
+          "Strong RS vs Nifty",
+          "Sector Top 3: REALTY",
+          "Long Buildup (OI: 4,034,800)",
+          "High F&O Activity"
+        ],
+        "entry": 2085.6,
+        "sl": 2003.86,
+        "target1": 2249.07,
+        "target2": 2330.81,
+        "hold_period": "1-2 weeks",
+        "cmp": 2085.6
+      }
+    ]
   }
 ]
