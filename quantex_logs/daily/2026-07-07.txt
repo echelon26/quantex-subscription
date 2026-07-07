@@ -1,0 +1,49 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-07-07 at 04:31 AM IST
+Regime: BULLISH (risk-on) | VIX: 11.81 | Min Score: 60
+Qualified: 8 stocks | Top 10 below
+============================================================
+
+1. BAJAJFINSV -- Score: 68/100
+   Entry: 1889.50 | SL: 1828.08 | T1: 2012.33 | T2: 2073.75 | RR: 1:2.0
+   Tr:20 Mo:15 Vo:4 PA:9 RS:10 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 26 (Strong Trend), ADX Rising, RSI 67 (Power Zone), MACD Bullish, Near Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 14,368,200), High F&O Activity
+
+2. RITES -- Score: 68/100
+   Entry: 234.04 | SL: 221.04 | T1: 253.54 | T2: 266.54 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:17 PA:5 RS:8 SM:3 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, RSI 65 (Power Zone), MACD Bullish, Vol Surge 3.2x, Strong Delivery (Close near High), Morning Star, Strong RS vs Nifty
+
+3. JUBLFOOD -- Score: 67/100
+   Entry: 452.95 | SL: 433.25 | T1: 482.51 | T2: 489.09 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:15 PA:8 RS:5 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 64 (Power Zone), MACD Bullish, Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Outperforming Nifty, Long Buildup (OI: 18,281,250), High F&O Activity
+
+4. TITAN -- Score: 63/100
+   Entry: 4632.20 | SL: 4481.27 | T1: 4934.06 | T2: 5084.99 | RR: 1:2.0
+   Tr:12 Mo:10 Vo:15 PA:8 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, MACD Bullish, Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 8,523,550), High F&O Activity
+
+5. AUBANK -- Score: 63/100
+   Entry: 1072.10 | SL: 1031.53 | T1: 1132.95 | T2: 1143.96 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:4 PA:9 RS:5 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 30 (Strong Trend), ADX Rising, RSI 64 (Power Zone), MACD Bullish, Near Breakout, Morning Star, Outperforming Nifty, Long Buildup (OI: 22,753,000), High F&O Activity
+
+6. PGEL -- Score: 62/100
+   Entry: 580.75 | SL: 554.56 | T1: 633.13 | T2: 659.32 | RR: 1:2.0
+   Tr:20 Mo:15 Vo:4 PA:8 RS:5 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 29 (Strong Trend), ADX Rising, RSI 68 (Power Zone), MACD Bullish, 20-Day Breakout, Outperforming Nifty, Long Buildup (OI: 13,217,350), High F&O Activity
+
+7. DIVISLAB -- Score: 60/100
+   Entry: 6930.00 | SL: 6726.92 | T1: 7336.15 | T2: 7539.23 | RR: 1:2.0
+   Tr:20 Mo:18 Vo:4 PA:8 RS:0 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 29 (Strong Trend), ADX Rising, RSI 63 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Long Buildup (OI: 3,564,200), High F&O Activity
+
+8. INDUSINDBK -- Score: 60/100
+   Entry: 1014.70 | SL: 977.46 | T1: 1089.18 | T2: 1126.42 | RR: 1:2.0
+   Tr:20 Mo:10 Vo:4 PA:8 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 29 (Strong Trend), ADX Rising, MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 39,876,200), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
