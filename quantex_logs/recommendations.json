@@ -40169,5 +40169,309 @@
         "est_days_to_t1": 7.8
       }
     ]
+  },
+  {
+    "scan_date": "2026-07-07",
+    "scan_time": "2026-07-07T04:35:35.646696",
+    "total_qualified": 29,
+    "sector_rankings": {
+      "IT": 1,
+      "REALTY": 2,
+      "ELECTRICALS": 3,
+      "FINANCE": 4,
+      "GOLD_ETF": 5,
+      "BANKING": 6,
+      "SILVER_ETF": 7,
+      "CHEMICALS": 8,
+      "METALS": 9,
+      "ENERGY": 10,
+      "PHARMA": 11,
+      "AUTO": 12,
+      "INDEX_ETF": 13,
+      "DEFENCE": 14,
+      "FMCG": 15,
+      "INFRA": 16,
+      "POWER": 17,
+      "RAILWAY": 18,
+      "CONSUMER": 19
+    },
+    "top_10": [
+      {
+        "symbol": "JUBLFOOD",
+        "score": 78,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 18,
+          "Price Action": 10,
+          "Relative Strength": 6,
+          "Smart Money": 10
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "RSI 63 (Power Zone)",
+          "MACD Bullish",
+          "Vol Above Avg 1.8x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Outperforming Nifty",
+          "Long Buildup (OI: 18,293,750)",
+          "High F&O Activity"
+        ],
+        "entry": 451.4,
+        "sl": 431.7,
+        "target1": 490.81,
+        "target2": 510.51,
+        "hold_period": "1-2 weeks",
+        "cmp": 451.4
+      },
+      {
+        "symbol": "TITAN",
+        "score": 76,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 13,
+          "Volume": 18,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "MACD Bullish",
+          "Vol Above Avg 1.9x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 8,514,975)",
+          "High F&O Activity"
+        ],
+        "entry": 4633.8,
+        "sl": 4482.87,
+        "target1": 4935.66,
+        "target2": 5086.59,
+        "hold_period": "1-2 weeks",
+        "cmp": 4633.8
+      },
+      {
+        "symbol": "RITES",
+        "score": 76,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 20,
+          "Price Action": 5,
+          "Relative Strength": 10,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 3.3x",
+          "Strong Delivery (Close near High)",
+          "Morning Star",
+          "Strong RS vs Nifty"
+        ],
+        "entry": 234.0,
+        "sl": 222.3,
+        "target1": 257.4,
+        "target2": 269.1,
+        "hold_period": "1-2 weeks",
+        "cmp": 234.0
+      },
+      {
+        "symbol": "TVSMOTOR",
+        "score": 73,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Hammer",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 12,874,400)",
+          "High F&O Activity"
+        ],
+        "entry": 3737.2,
+        "sl": 3604.39,
+        "target1": 4002.83,
+        "target2": 4135.64,
+        "hold_period": "1-2 weeks",
+        "cmp": 3737.2
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "score": 71,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 14,368,500)",
+          "High F&O Activity"
+        ],
+        "entry": 1887.3,
+        "sl": 1825.83,
+        "target1": 2010.24,
+        "target2": 2071.71,
+        "hold_period": "1-2 weeks",
+        "cmp": 1887.3
+      },
+      {
+        "symbol": "PGEL",
+        "score": 69,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 6,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Outperforming Nifty",
+          "Long Buildup (OI: 13,230,650)",
+          "High F&O Activity"
+        ],
+        "entry": 579.15,
+        "sl": 552.96,
+        "target1": 631.53,
+        "target2": 657.72,
+        "hold_period": "1-2 weeks",
+        "cmp": 579.15
+      },
+      {
+        "symbol": "DIVISLAB",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 3,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 64 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Long Buildup (OI: 3,563,600)",
+          "High F&O Activity"
+        ],
+        "entry": 6937.5,
+        "sl": 6734.42,
+        "target1": 7343.65,
+        "target2": 7546.73,
+        "hold_period": "3-7 days",
+        "cmp": 6937.5
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 39,845,400)",
+          "High F&O Activity"
+        ],
+        "entry": 1016.05,
+        "sl": 978.81,
+        "target1": 1090.53,
+        "target2": 1127.77,
+        "hold_period": "1-2 weeks",
+        "cmp": 1016.05
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "score": 66,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 79,076,250)",
+          "High F&O Activity"
+        ],
+        "entry": 1033.0,
+        "sl": 998.37,
+        "target1": 1102.27,
+        "target2": 1136.9,
+        "hold_period": "1-2 weeks",
+        "cmp": 1033.0
+      },
+      {
+        "symbol": "SBILIFE",
+        "score": 65,
+        "breakdown": {
+          "Trend": 11,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 15,
+          "Relative Strength": 6,
+          "Smart Money": 10
+        },
+        "signals": [
+          "RSI 59 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Marubozu",
+          "Long Buildup (OI: 8,322,000)",
+          "High F&O Activity"
+        ],
+        "entry": 1835.4,
+        "sl": 1780.17,
+        "target1": 1945.87,
+        "target2": 2001.1,
+        "hold_period": "1-2 weeks",
+        "cmp": 1835.4
+      }
+    ]
   }
 ]
