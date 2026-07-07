@@ -1526,5 +1526,31 @@
       "APARINDS"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-06.pdf"
+  },
+  {
+    "date": "Tue, 07 Jul 2026",
+    "fear_greed": 79.1,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Extreme Greed",
+    "gift_nifty": 24430.35,
+    "nifty": 24430.35,
+    "sensex": 78285.07,
+    "bank_nifty": 58291.5,
+    "vix": 11.82,
+    "top_gainers": [
+      "SUMICHEM",
+      "AEGISVOPAK",
+      "SWANCORP",
+      "ABDL",
+      "WELCORP"
+    ],
+    "top_losers": [
+      "ZENSARTECH",
+      "APARINDS",
+      "THERMAX",
+      "POLICYBZR",
+      "ACUTAAS"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-07.pdf"
   }
 ]
