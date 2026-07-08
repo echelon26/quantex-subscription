@@ -80,3 +80,52 @@ Qualified: 18 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX PRO SCANNER — 2026-07-08 at 10:31 AM IST
+Regime: BULLISH (risk-on) | VIX: 14.68 | Min Score: 60
+Qualified: 8 stocks | Top 10 below
+============================================================
+
+1. EXIDEIND -- Score: 73/100
+   Entry: 421.10 | SL: 402.49 | T1: 449.02 | T2: 467.63 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:11 PA:9 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 34 (Strong Trend), ADX Rising, RSI 68 (Power Zone), MACD Bullish, Vol Above Avg 1.8x, Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Long Buildup (OI: 24,798,600), High F&O Activity
+
+2. SUPRAJIT -- Score: 69/100
+   Entry: 492.65 | SL: 469.99 | T1: 526.65 | T2: 539.01 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:9 PA:4 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 32 (Strong Trend), ADX Rising, RSI 67 (Power Zone), MACD Fresh Crossover, Vol Surge 4.3x, Near Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+3. UNITDSPR -- Score: 67/100
+   Entry: 1421.60 | SL: 1374.07 | T1: 1492.89 | T2: 1540.42 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:17 PA:4 RS:8 SM:5 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), ADX Rising, RSI 67 (Power Zone), MACD Bullish, Vol Surge 2.3x, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, High F&O Activity
+
+4. ADANIENSOL -- Score: 66/100
+   Entry: 1664.50 | SL: 1576.59 | T1: 1796.36 | T2: 1928.23 | RR: 1:1.5
+   Tr:20 Mo:13 Vo:7 PA:8 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, MACD Fresh Crossover, Vol Above Avg 1.7x, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 19,504,125), High F&O Activity
+
+5. JBCHEPHARM -- Score: 63/100
+   Entry: 2435.20 | SL: 2357.38 | T1: 2575.28 | T2: 2645.32 | RR: 1:1.8
+   Tr:20 Mo:6 Vo:9 PA:8 RS:10 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 41 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 3.4x, 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation
+
+6. ZYDUSLIFE -- Score: 61/100
+   Entry: 1147.20 | SL: 1109.50 | T1: 1203.75 | T2: 1239.42 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:7 PA:4 RS:7 SM:5 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 45 (Strong Trend), ADX Rising, RSI 67 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.7x, Near Breakout, Outperforming Nifty, High F&O Activity
+
+7. TORNTPHARM -- Score: 61/100
+   Entry: 4880.10 | SL: 4720.64 | T1: 5167.14 | T2: 5310.65 | RR: 1:1.8
+   Tr:20 Mo:6 Vo:7 PA:8 RS:10 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 36 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.9x, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 2,787,125), High F&O Activity
+
+8. MOGSEC -- Score: 60/100
+   Entry: 66.06 | SL: 64.78 | T1: 67.98 | T2: 69.26 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:17 PA:4 RS:5 SM:3 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 53 (Strong Trend), ADX Rising, RSI 65 (Power Zone), MACD Bullish, Vol Surge 3.1x, Strong Delivery (Close near High), Near Breakout, Outperforming Nifty
+
+
+────────────────────────────────────────────────────────────
+
