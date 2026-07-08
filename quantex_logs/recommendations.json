@@ -40975,5 +40975,306 @@
         "est_days_to_t1": 12.9
       }
     ]
+  },
+  {
+    "scan_date": "2026-07-08",
+    "scan_time": "2026-07-08T04:35:33.435277",
+    "total_qualified": 18,
+    "sector_rankings": {
+      "IT": 1,
+      "ELECTRICALS": 2,
+      "REALTY": 3,
+      "FINANCE": 4,
+      "METALS": 5,
+      "PHARMA": 6,
+      "BANKING": 7,
+      "GOLD_ETF": 8,
+      "ENERGY": 9,
+      "INDEX_ETF": 10,
+      "CHEMICALS": 11,
+      "AUTO": 12,
+      "DEFENCE": 13,
+      "SILVER_ETF": 14,
+      "POWER": 15,
+      "FMCG": 16,
+      "RAILWAY": 17,
+      "INFRA": 18,
+      "CONSUMER": 19
+    },
+    "top_10": [
+      {
+        "symbol": "MANAPPURAM",
+        "score": 71,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 13,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 52,191,000)",
+          "High F&O Activity"
+        ],
+        "entry": 342.6,
+        "sl": 326.52,
+        "target1": 374.76,
+        "target2": 390.84,
+        "hold_period": "1-2 weeks",
+        "cmp": 342.6
+      },
+      {
+        "symbol": "ADANIENSOL",
+        "score": 70,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 19,529,775)",
+          "High F&O Activity"
+        ],
+        "entry": 1680.0,
+        "sl": 1596.0,
+        "target1": 1848.0,
+        "target2": 1932.0,
+        "hold_period": "1-2 weeks",
+        "cmp": 1680.0
+      },
+      {
+        "symbol": "WELCORP",
+        "score": 69,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 13,
+          "Smart Money": 3
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty"
+        ],
+        "entry": 1550.1,
+        "sl": 1472.59,
+        "target1": 1705.11,
+        "target2": 1782.62,
+        "hold_period": "1-2 weeks",
+        "cmp": 1550.1
+      },
+      {
+        "symbol": "NAUKRI",
+        "score": 66,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 8,
+          "Volume": 8,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend FLIP Bullish",
+          "MACD Bullish",
+          "Vol Above Avg 1.9x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 18,190,150)",
+          "High F&O Activity"
+        ],
+        "entry": 1196.05,
+        "sl": 1136.25,
+        "target1": 1315.65,
+        "target2": 1375.46,
+        "hold_period": "1-2 weeks",
+        "cmp": 1196.05
+      },
+      {
+        "symbol": "ZYDUSLIFE",
+        "score": 66,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 6,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Outperforming Nifty",
+          "Long Buildup (OI: 10,551,600)",
+          "High F&O Activity"
+        ],
+        "entry": 1172.0,
+        "sl": 1132.78,
+        "target1": 1250.43,
+        "target2": 1289.65,
+        "hold_period": "1-2 weeks",
+        "cmp": 1172.0
+      },
+      {
+        "symbol": "UNOMINDA",
+        "score": 64,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 6,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 58 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Bullish Engulfing",
+          "Outperforming Nifty",
+          "Long Buildup (OI: 5,575,900)",
+          "High F&O Activity"
+        ],
+        "entry": 1144.1,
+        "sl": 1089.0,
+        "target1": 1254.3,
+        "target2": 1309.4,
+        "hold_period": "1-2 weeks",
+        "cmp": 1144.1
+      },
+      {
+        "symbol": "LODHA",
+        "score": 63,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 8,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 15,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: REALTY",
+          "Long Buildup (OI: 11,590,625)",
+          "High F&O Activity"
+        ],
+        "entry": 1120.2,
+        "sl": 1069.66,
+        "target1": 1221.29,
+        "target2": 1271.83,
+        "hold_period": "1-2 weeks",
+        "cmp": 1120.2
+      },
+      {
+        "symbol": "SUPRAJIT",
+        "score": 63,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 20,
+          "Volume": 5,
+          "Price Action": 5,
+          "Relative Strength": 6,
+          "Smart Money": 7
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 65 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Outperforming Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 488.6,
+        "sl": 468.43,
+        "target1": 528.95,
+        "target2": 549.12,
+        "hold_period": "1-2 weeks",
+        "cmp": 488.6
+      },
+      {
+        "symbol": "AUROPHARMA",
+        "score": 63,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 5,
+          "Price Action": 0,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 64 (Power Zone)",
+          "MACD Bullish",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 12,200,100)",
+          "High F&O Activity"
+        ],
+        "entry": 1597.4,
+        "sl": 1545.0,
+        "target1": 1702.2,
+        "target2": 1754.6,
+        "hold_period": "1-2 weeks",
+        "cmp": 1597.4
+      },
+      {
+        "symbol": "TORNTPHARM",
+        "score": 63,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 8,
+          "Volume": 5,
+          "Price Action": 10,
+          "Relative Strength": 10,
+          "Smart Money": 10
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 2,700,750)",
+          "High F&O Activity"
+        ],
+        "entry": 4895.2,
+        "sl": 4739.49,
+        "target1": 5206.63,
+        "target2": 5362.34,
+        "hold_period": "1-2 weeks",
+        "cmp": 4895.2
+      }
+    ]
   }
 ]
