@@ -1,0 +1,24 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-07-08 at 04:31 AM IST
+Regime: BULLISH (risk-on) | VIX: 12.32 | Min Score: 60
+Qualified: 3 stocks | Top 10 below
+============================================================
+
+1. ADANIENSOL -- Score: 63/100
+   Entry: 1679.90 | SL: 1595.31 | T1: 1849.08 | T2: 1933.66 | RR: 1:2.0
+   Tr:20 Mo:13 Vo:4 PA:8 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 19,505,475), High F&O Activity
+
+2. WELCORP -- Score: 61/100
+   Entry: 1551.00 | SL: 1469.72 | T1: 1713.55 | T2: 1794.83 | RR: 1:2.0
+   Tr:20 Mo:15 Vo:4 PA:9 RS:10 SM:3 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 40 (Strong Trend), RSI 66 (Power Zone), MACD Bullish, Near Breakout, Bullish Engulfing, Strong RS vs Nifty
+
+3. MANAPPURAM -- Score: 61/100
+   Entry: 342.60 | SL: 326.52 | T1: 366.72 | T2: 382.80 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:4 PA:4 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 65 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 52,179,000), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+

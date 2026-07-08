@@ -40842,5 +40842,138 @@
         "est_days_to_t1": 12.9
       }
     ]
+  },
+  {
+    "scan_date": "2026-07-08",
+    "scan_time": "2026-07-08T04:31:25.661193",
+    "market_regime": {
+      "regime": "bullish",
+      "min_score": 60,
+      "label": "BULLISH (risk-on)",
+      "nifty_above_50dma": true,
+      "vix": 12.319999694824219
+    },
+    "min_score_threshold": 60,
+    "total_qualified": 3,
+    "sector_rankings": {
+      "IT": 1,
+      "ELECTRICALS": 2,
+      "FINANCE": 3,
+      "REALTY": 4,
+      "METALS": 5,
+      "PHARMA": 6,
+      "BANKING": 7,
+      "GOLD_ETF": 8,
+      "ENERGY": 9,
+      "CHEMICALS": 10,
+      "INDEX_ETF": 11,
+      "AUTO": 12,
+      "DEFENCE": 13,
+      "SILVER_ETF": 14,
+      "FMCG": 15,
+      "POWER": 16,
+      "RAILWAY": 17,
+      "INFRA": 18,
+      "CONSUMER": 19
+    },
+    "top_10": [
+      {
+        "symbol": "ADANIENSOL",
+        "score": 63,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 4,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 28 (Strong Trend)",
+          "ADX Rising",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 19,505,475)",
+          "High F&O Activity"
+        ],
+        "entry": 1679.9,
+        "sl": 1595.31,
+        "target1": 1849.08,
+        "target2": 1933.66,
+        "hold_period": "5-8 days",
+        "cmp": 1679.9,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 7.8
+      },
+      {
+        "symbol": "WELCORP",
+        "score": 61,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 9,
+          "Relative Strength": 10,
+          "Smart Money": 3,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 40 (Strong Trend)",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty"
+        ],
+        "entry": 1551.0,
+        "sl": 1469.72,
+        "target1": 1713.55,
+        "target2": 1794.83,
+        "hold_period": "1-2 weeks",
+        "cmp": 1551.0,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 9.2
+      },
+      {
+        "symbol": "MANAPPURAM",
+        "score": 61,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 4,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 65 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: FINANCE",
+          "Long Buildup (OI: 52,179,000)",
+          "High F&O Activity"
+        ],
+        "entry": 342.6,
+        "sl": 326.52,
+        "target1": 366.72,
+        "target2": 382.8,
+        "hold_period": "2-3 weeks",
+        "cmp": 342.6,
+        "target3": 379.25,
+        "target_method": "52W High + Weekly R2 + Fib 1.618 + Weekly R3",
+        "est_days_to_t1": 12.9
+      }
+    ]
   }
 ]
