@@ -1552,5 +1552,31 @@
       "ACUTAAS"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-07.pdf"
+  },
+  {
+    "date": "Wed, 08 Jul 2026",
+    "fear_greed": 77.4,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Extreme Greed",
+    "gift_nifty": 24398.7,
+    "nifty": 24398.7,
+    "sensex": 78180.72,
+    "bank_nifty": 58200.7,
+    "vix": 11.65,
+    "top_gainers": [
+      "NAUKRI",
+      "PWL",
+      "RITES",
+      "AEGISVOPAK",
+      "SWANCORP"
+    ],
+    "top_losers": [
+      "TRENT",
+      "KALYANKJIL",
+      "HSCL",
+      "SAREGAMA",
+      "DATAPATTNS"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-08.pdf"
   }
 ]
