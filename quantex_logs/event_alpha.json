@@ -2078,5 +2078,19 @@
     "stocks_scanned": 500,
     "results_found": 0,
     "results": []
+  },
+  {
+    "scan_date": "2026-07-09",
+    "scan_time": "2026-07-09T13:38:19.858198",
+    "stocks_scanned": 500,
+    "results_found": 1,
+    "results": [
+      {
+        "Date": "2026-07-09",
+        "Symbol": "TCS",
+        "Signals": "Muted Reaction | Flat -0.4%",
+        "CMP": 2049.5
+      }
+    ]
   }
 ]
