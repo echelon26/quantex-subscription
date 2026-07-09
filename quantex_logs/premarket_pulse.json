@@ -1578,5 +1578,31 @@
       "DATAPATTNS"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-08.pdf"
+  },
+  {
+    "date": "Thu, 09 Jul 2026",
+    "fear_greed": 54.9,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23882.05,
+    "nifty": 23882.05,
+    "sensex": 76503.6,
+    "bank_nifty": 56742.6,
+    "vix": 14.68,
+    "top_gainers": [
+      "PWL",
+      "KALYANKJIL",
+      "ATHERENERG",
+      "AEGISVOPAK",
+      "MCX"
+    ],
+    "top_losers": [
+      "AEGISLOG",
+      "LTF",
+      "JUBLFOOD",
+      "PCBL",
+      "JIOFIN"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-09.pdf"
   }
 ]
