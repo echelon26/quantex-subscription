@@ -42154,5 +42154,52 @@
         "cmp": 1009.7
       }
     ]
+  },
+  {
+    "scan_date": "2026-07-09",
+    "scan_time": "2026-07-09T09:53:50.108795",
+    "scanner_type": "btst",
+    "total_qualified": 2,
+    "top_10": [
+      {
+        "symbol": "SYRMA",
+        "scanner_type": "btst",
+        "score": 82.6,
+        "entry": 1447.9,
+        "sl": 1418.94,
+        "target1": 1484.1,
+        "target2": 1520.3,
+        "hold_period": "1 session (BTST)",
+        "cmp": 1447.9,
+        "signals": [
+          "Close top 100%",
+          "Green +2.7%",
+          "Vol 2.3x",
+          "RS +5.7% vs Nifty",
+          "Pocket Pivot volume signature",
+          "New 5-day high"
+        ]
+      },
+      {
+        "symbol": "JINDALSAW",
+        "scanner_type": "btst",
+        "score": 81.4,
+        "entry": 271.9,
+        "sl": 266.46,
+        "target1": 278.7,
+        "target2": 285.5,
+        "hold_period": "1 session (BTST)",
+        "cmp": 271.9,
+        "signals": [
+          "Close top 100%",
+          "Green +5.4%",
+          "Vol 2.0x",
+          "RS +4.4% vs Nifty",
+          "52w high breakout",
+          "Pocket Pivot volume signature",
+          "New 20-day high"
+        ]
+      }
+    ]
   }
 ]
