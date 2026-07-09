@@ -41581,5 +41581,273 @@
         "est_days_to_t1": 6.9
       }
     ]
+  },
+  {
+    "scan_date": "2026-07-09",
+    "scan_time": "2026-07-09T04:32:31.119638",
+    "market_regime": {
+      "regime": "bullish",
+      "min_score": 60,
+      "label": "BULLISH (risk-on)",
+      "nifty_above_50dma": true,
+      "vix": 13.380000114440918
+    },
+    "min_score_threshold": 60,
+    "total_qualified": 7,
+    "sector_rankings": {
+      "ELECTRICALS": 1,
+      "ENERGY": 2,
+      "BANKING": 3,
+      "CHEMICALS": 4,
+      "METALS": 5,
+      "IT": 6,
+      "INDEX_ETF": 7,
+      "PHARMA": 8,
+      "FMCG": 9,
+      "REALTY": 10,
+      "FINANCE": 11,
+      "POWER": 12,
+      "AUTO": 13,
+      "DEFENCE": 14,
+      "GOLD_ETF": 15,
+      "RAILWAY": 16,
+      "CONSUMER": 17,
+      "INFRA": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "KALYANKJIL",
+        "score": 71,
+        "breakdown": {
+          "Trend": 10,
+          "Momentum": 18,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX Rising",
+          "RSI 64 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 2.8x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 43,417,350)",
+          "High F&O Activity"
+        ],
+        "entry": 415.3,
+        "sl": 388.59,
+        "target1": 468.72,
+        "target2": 495.44,
+        "hold_period": "3-4 weeks",
+        "cmp": 415.3,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 21.5
+      },
+      {
+        "symbol": "WELCORP",
+        "score": 65,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 13,
+          "Relative Strength": 10,
+          "Smart Money": 3,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 40 (Strong Trend)",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty"
+        ],
+        "entry": 1575.4,
+        "sl": 1490.84,
+        "target1": 1702.24,
+        "target2": 1786.8,
+        "hold_period": "1-2 weeks",
+        "cmp": 1575.4,
+        "target3": 1777.63,
+        "target_method": "Weekly R2 + 52W High + Fib 1.618 + Weekly R3",
+        "est_days_to_t1": 11.5
+      },
+      {
+        "symbol": "STARHEALTH",
+        "score": 63,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 9,
+          "Relative Strength": 8,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 49 (Strong Trend)",
+          "RSI 70 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Bullish Engulfing, Marubozu",
+          "Strong RS vs Nifty",
+          "Consistent Buying"
+        ],
+        "entry": 594.3,
+        "sl": 569.44,
+        "target1": 644.02,
+        "target2": 668.87,
+        "hold_period": "5-8 days",
+        "cmp": 594.3,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 6.6
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "score": 62,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 5,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 32 (Strong Trend)",
+          "ADX Rising",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Sector Top 3: BANKING",
+          "Long Buildup (OI: 37,427,600)",
+          "High F&O Activity"
+        ],
+        "entry": 1007.7,
+        "sl": 968.35,
+        "target1": 1066.73,
+        "target2": 1069.43,
+        "hold_period": "5-8 days",
+        "cmp": 1007.7,
+        "target3": 1089.95,
+        "target_method": "Weekly R2 + 52W High + Fib 2.0 + Weekly R3",
+        "est_days_to_t1": 5.8
+      },
+      {
+        "symbol": "LICI",
+        "score": 62,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 9,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 35 (Strong Trend)",
+          "ADX Rising",
+          "RSI 63 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 20,623,400)",
+          "High F&O Activity"
+        ],
+        "entry": 434.4,
+        "sl": 420.83,
+        "target1": 454.75,
+        "target2": 468.32,
+        "hold_period": "5-8 days",
+        "cmp": 434.4,
+        "target3": 469.13,
+        "target_method": "52W High + Weekly R1 + Fib 1.0 + Resistance (2x)",
+        "est_days_to_t1": 6.6
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "score": 61,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 10,
+          "Volume": 4,
+          "Price Action": 13,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 37 (Strong Trend)",
+          "ADX Rising",
+          "MACD Bullish",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Long Buildup (OI: 19,477,150)",
+          "High F&O Activity"
+        ],
+        "entry": 1939.6,
+        "sl": 1889.13,
+        "target1": 2015.3,
+        "target2": 2048.0,
+        "hold_period": "3-5 days",
+        "cmp": 1939.6,
+        "target3": 2137.98,
+        "target_method": "Weekly R2 + Fib 1.618 + Weekly R3 + Fib 2.0",
+        "est_days_to_t1": 4.9
+      },
+      {
+        "symbol": "DIVISLAB",
+        "score": 60,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 4,
+          "Price Action": 9,
+          "Relative Strength": 2,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 29 (Strong Trend)",
+          "ADX Rising",
+          "RSI 61 (Power Zone)",
+          "MACD Bullish",
+          "Near Breakout",
+          "Bullish Engulfing, Morning Star",
+          "Long Buildup (OI: 3,606,200)",
+          "High F&O Activity"
+        ],
+        "entry": 6900.5,
+        "sl": 6676.78,
+        "target1": 7236.09,
+        "target2": 7286.2,
+        "hold_period": "2-3 weeks",
+        "cmp": 6900.5,
+        "target3": 7586.2,
+        "target_method": "52W High + Weekly R2 + Fib 1.272 + Weekly R3",
+        "est_days_to_t1": 14.4
+      }
+    ]
   }
 ]

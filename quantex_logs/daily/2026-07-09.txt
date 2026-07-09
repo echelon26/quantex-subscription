@@ -1,0 +1,44 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-07-09 at 04:32 AM IST
+Regime: BULLISH (risk-on) | VIX: 13.38 | Min Score: 60
+Qualified: 7 stocks | Top 10 below
+============================================================
+
+1. KALYANKJIL -- Score: 71/100
+   Entry: 415.30 | SL: 388.59 | T1: 468.72 | T2: 495.44 | RR: 1:2.0
+   Tr:10 Mo:18 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 64 (Power Zone), MACD Fresh Crossover, Vol Surge 2.8x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 43,417,350), High F&O Activity
+
+2. WELCORP -- Score: 65/100
+   Entry: 1575.40 | SL: 1490.84 | T1: 1702.24 | T2: 1786.80 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:4 PA:13 RS:10 SM:3 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 40 (Strong Trend), RSI 67 (Power Zone), MACD Bullish, 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty
+
+3. STARHEALTH -- Score: 63/100
+   Entry: 594.30 | SL: 569.44 | T1: 644.02 | T2: 668.87 | RR: 1:2.0
+   Tr:20 Mo:15 Vo:4 PA:9 RS:8 SM:7 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 49 (Strong Trend), RSI 70 (Power Zone), MACD Bullish, Near Breakout, Bullish Engulfing, Marubozu, Strong RS vs Nifty, Consistent Buying
+
+4. INDUSINDBK -- Score: 62/100
+   Entry: 1007.70 | SL: 968.35 | T1: 1066.73 | T2: 1069.43 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:4 PA:5 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 32 (Strong Trend), ADX Rising, RSI 66 (Power Zone), MACD Bullish, Marubozu, Strong RS vs Nifty, Sector Top 3: BANKING, Long Buildup (OI: 37,427,600), High F&O Activity
+
+5. LICI -- Score: 62/100
+   Entry: 434.40 | SL: 420.83 | T1: 454.75 | T2: 468.32 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:4 PA:9 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 35 (Strong Trend), ADX Rising, RSI 63 (Power Zone), MACD Bullish, Near Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 20,623,400), High F&O Activity
+
+6. SUNPHARMA -- Score: 61/100
+   Entry: 1939.60 | SL: 1889.13 | T1: 2015.30 | T2: 2048.00 | RR: 1:1.5
+   Tr:16 Mo:10 Vo:4 PA:13 RS:8 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, ADX 37 (Strong Trend), ADX Rising, MACD Bullish, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 19,477,150), High F&O Activity
+
+7. DIVISLAB -- Score: 60/100
+   Entry: 6900.50 | SL: 6676.78 | T1: 7236.09 | T2: 7286.20 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:4 PA:9 RS:2 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 29 (Strong Trend), ADX Rising, RSI 61 (Power Zone), MACD Bullish, Near Breakout, Bullish Engulfing, Morning Star, Long Buildup (OI: 3,606,200), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
