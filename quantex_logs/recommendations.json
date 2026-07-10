@@ -43241,5 +43241,35 @@
         "cmp": 927.2
       }
     ]
+  },
+  {
+    "scan_date": "2026-07-10",
+    "scan_time": "2026-07-10T09:53:55.174581",
+    "scanner_type": "btst",
+    "total_qualified": 1,
+    "top_10": [
+      {
+        "symbol": "GOLDIAM",
+        "scanner_type": "btst",
+        "score": 86.6,
+        "entry": 378.45,
+        "sl": 370.88,
+        "target1": 387.91,
+        "target2": 397.37,
+        "hold_period": "1 session (BTST)",
+        "cmp": 378.45,
+        "signals": [
+          "Close top 100%",
+          "Green +17.7%",
+          "Vol 4.7x",
+          "RS +19.0% vs Nifty",
+          "52w high breakout",
+          "Pocket Pivot volume signature",
+          "New 5-day high",
+          "Heavy volume surge (3\u00d7+)",
+          "Strong 5-day RS vs Nifty"
+        ]
+      }
+    ]
   }
 ]
