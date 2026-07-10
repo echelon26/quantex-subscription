@@ -74,6 +74,38 @@ TURNOVER_MIN_CR = 50.0        # ₹50 Cr daily avg turnover (institutional-trade
 SLOPE_DAYS = 5                # 50-DMA slope window
 STOP_LOSS_MAX_PCT = 8.0       # Minervini's 7-8% absolute stop cap
 
+# Delivery-volume gates (institutional accumulation signature)
+# Rationale: pocket pivots on low delivery are often algo/arbitrage flushes,
+# not real accumulation. Delivery % filter separates the two.
+DELIVERY_PCT_MIN = 45.0       # today's delivery % must be ≥ 45
+DELIVERY_AVG10_MIN = 40.0     # 10-day avg delivery % must be ≥ 40 (consistency)
+DELIVERY_FILTER_ENABLED = True  # set False to disable (paper trading / debugging)
+
+# Try importing delivery data helper — degrade gracefully if unavailable
+try:
+    from delivery_data import get_delivery_pct, get_avg_delivery_pct
+    _DELIVERY_AVAILABLE = True
+except Exception as _e:
+    print(f"!! delivery_data unavailable ({_e}); delivery filter disabled")
+    _DELIVERY_AVAILABLE = False
+    get_delivery_pct = lambda *a, **kw: None
+    get_avg_delivery_pct = lambda *a, **kw: None
+
+# Shared data source (Kite first, yfinance fallback) — same as pro_scanner
+try:
+    from data_source import (
+        fetch_daily as _shared_fetch_daily,
+        ensure_login as _shared_ensure_login,
+        kite_ok as _shared_kite_ok,
+    )
+    _SHARED_DATA_AVAILABLE = True
+except Exception as _e:
+    print(f"!! data_source unavailable ({_e}); using yfinance-only fallback")
+    _SHARED_DATA_AVAILABLE = False
+    _shared_fetch_daily = None
+    _shared_ensure_login = lambda: False
+    _shared_kite_ok = lambda: False
+
 
 # ──────────────────────────────────────────────────────────────────────────────
 # UNIVERSE — share with pro_scanner via import
@@ -104,11 +136,20 @@ except Exception as e:
 # ──────────────────────────────────────────────────────────────────────────────
 
 def fetch_daily(symbol, period="1y"):
-    """1-year daily bars; need ≥200 sessions for the 200-DMA.
+    """1-year daily bars from shared data source (Kite first, yfinance fallback).
 
-    Silently skips delisted/renamed tickers without polluting CI logs.
-    Use universe_cleanup.py periodically to prune dead symbols from the universe.
+    Uses the unified data_source module so all scanners fetch identically.
+    Silently returns None for delisted/renamed tickers (use universe_cleanup.py).
     """
+    days = 365 if period == "1y" else 90 if period == "3mo" else 252
+
+    # Primary path: shared data source (Kite -> yfinance)
+    if _SHARED_DATA_AVAILABLE:
+        df = _shared_fetch_daily(symbol, days=days)
+        if df is not None and len(df) >= 200:
+            return df
+
+    # Ultimate fallback: direct yfinance (if shared source unavailable)
     try:
         with _silence_stdio():
             df = yf.Ticker(f"{symbol}.NS").history(period=period, interval="1d")
@@ -483,7 +524,25 @@ def send_telegram(message):
 
 def main():
     print(f"\n{'='*60}\n  QUANTEX POCKET PIVOT SCANNER — {datetime.now()}\n{'='*60}")
-    print(f">> Scanning {len(STOCK_UNIVERSE)} symbols...\n")
+
+    # Log in to Kite (shared session) — falls back to yfinance if unavailable
+    if _SHARED_DATA_AVAILABLE:
+        kite_active = _shared_ensure_login()
+        print(f">> Data source: {'Kite (live)' if kite_active else 'yfinance (delayed)'}")
+    else:
+        print(">> Data source: yfinance (delayed) — shared source unavailable")
+
+    print(f">> Scanning {len(STOCK_UNIVERSE)} symbols...")
+    if DELIVERY_FILTER_ENABLED and _DELIVERY_AVAILABLE:
+        print(f">> Delivery filter ACTIVE  (today≥{DELIVERY_PCT_MIN}%, 10d-avg≥{DELIVERY_AVG10_MIN}%)")
+    else:
+        print(">> Delivery filter DISABLED (data unavailable or turned off)")
+    print()
+
+    # Diagnostic counters for the delivery gate
+    filtered_delivery_today = 0
+    filtered_delivery_avg = 0
+    delivery_data_missing = 0
 
     picks = []
     start = time.time()
@@ -497,8 +556,46 @@ def main():
         p = detect_pocket_pivot(df)
         if p is None:
             continue
+
+        # ── DELIVERY-VOLUME GATE (institutional accumulation confirmation) ──
+        if DELIVERY_FILTER_ENABLED and _DELIVERY_AVAILABLE:
+            deliv_today = get_delivery_pct(sym)
+            deliv_avg10 = get_avg_delivery_pct(sym, 10)
+
+            if deliv_today is None and deliv_avg10 is None:
+                # Data completely unavailable — let the signal pass (log)
+                delivery_data_missing += 1
+                p["delivery_today"] = None
+                p["delivery_avg10"] = None
+            else:
+                # Today's delivery gate
+                if deliv_today is not None and deliv_today < DELIVERY_PCT_MIN:
+                    filtered_delivery_today += 1
+                    continue
+                # Consistency gate — is this a genuinely-accumulated stock?
+                if deliv_avg10 is not None and deliv_avg10 < DELIVERY_AVG10_MIN:
+                    filtered_delivery_avg += 1
+                    continue
+                p["delivery_today"] = deliv_today
+                p["delivery_avg10"] = deliv_avg10
+        else:
+            p["delivery_today"] = None
+            p["delivery_avg10"] = None
+
         score = score_pivot(p)
+
+        # Bonus: high delivery on already-passing signal = extra conviction
+        if p.get("delivery_today") and p["delivery_today"] >= 60:
+            score = min(100, score + 3)  # small nudge for exceptional delivery
+
         picks.append({"symbol": sym, "score": score, "pattern": p})
+
+    if DELIVERY_FILTER_ENABLED and _DELIVERY_AVAILABLE:
+        print(f"\n>> DELIVERY FUNNEL:")
+        print(f"   Filtered (today < {DELIVERY_PCT_MIN}%):   {filtered_delivery_today}")
+        print(f"   Filtered (10d avg < {DELIVERY_AVG10_MIN}%): {filtered_delivery_avg}")
+        print(f"   Passed with delivery info:  {sum(1 for p in picks if p['pattern'].get('delivery_today') is not None)}")
+        print(f"   Passed with data missing:   {delivery_data_missing}")
 
     picks.sort(key=lambda x: x["score"], reverse=True)
     picks = picks[:15]
@@ -507,10 +604,15 @@ def main():
     print(f"\n>> Scan complete in {elapsed:.0f}s — {len(picks)} pocket pivots\n")
     for p in picks:
         d = p["pattern"]
+        deliv_str = ""
+        if d.get("delivery_today") is not None:
+            deliv_str = f"  DELIV {d['delivery_today']:.0f}%"
+            if d.get("delivery_avg10"):
+                deliv_str += f" (10d:{d['delivery_avg10']:.0f}%)"
         print(f"   {p['symbol']:13s} score {p['score']:5.1f}  "
               f"vol_strength {d['vol_strength']:.2f}×  "
               f"entry ₹{d['entry']:8.2f}  SL ₹{d['sl']:8.2f}  T1 ₹{d['t1']:8.2f}  "
-              f"R:R 1:{d['rr']:.1f}  {d['pct_from_high']:.0f}%-from-high")
+              f"R:R 1:{d['rr']:.1f}  {d['pct_from_high']:.0f}%-from-high{deliv_str}")
 
     PIVOT_JSON.write_text(json.dumps([
         {"symbol": p["symbol"], "score": p["score"],

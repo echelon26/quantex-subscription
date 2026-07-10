@@ -87,6 +87,24 @@ PCT_FROM_52W_HIGH_MAX = 50.0  # but not >50% off (don't catch ongoing waterfall)
 TURNOVER_MIN_CR = 30.0
 STOP_MAX_PCT = 10.0           # wider stop for transition entries (volatility)
 
+# Delivery-volume gates (institutional accumulation signature)
+# Rationale: vol expansion (3× vol + wide body) can be a short-cover
+# spike or algo-driven flush. Delivery ≥ 50% today separates real
+# institutional accumulation from those false positives.
+DELIVERY_PCT_MIN = 50.0        # today's delivery % must be ≥ 50 (higher than PP)
+DELIVERY_AVG10_MIN = 40.0      # 10-day avg (was accumulating pre-breakout too)
+DELIVERY_FILTER_ENABLED = True # set False to disable
+
+# Shared delivery helper (degrade gracefully if unavailable)
+try:
+    from delivery_data import get_delivery_pct, get_avg_delivery_pct
+    _DELIVERY_AVAILABLE = True
+except Exception as _e:
+    print(f"!! delivery_data unavailable ({_e}); delivery filter disabled")
+    _DELIVERY_AVAILABLE = False
+    get_delivery_pct = lambda *a, **kw: None
+    get_avg_delivery_pct = lambda *a, **kw: None
+
 
 # ──────────────────────────────────────────────────────────────────────────────
 # UNIVERSE + SMART-TARGET HELPERS
@@ -120,12 +138,36 @@ except Exception as e:
     print(f"!! Smart-target helpers unavailable ({e}); fallback to ATR-only")
     _SMART_TARGETS_AVAILABLE = False
 
+# Shared data source (Kite first, yfinance fallback) — same as pro_scanner
+try:
+    from data_source import (
+        fetch_daily as _shared_fetch_daily,
+        ensure_login as _shared_ensure_login,
+        kite_ok as _shared_kite_ok,
+    )
+    _SHARED_DATA_AVAILABLE = True
+except Exception as _e:
+    print(f"!! data_source unavailable ({_e}); using yfinance-only fallback")
+    _SHARED_DATA_AVAILABLE = False
+    _shared_fetch_daily = None
+    _shared_ensure_login = lambda: False
+    _shared_kite_ok = lambda: False
+
 
 # ──────────────────────────────────────────────────────────────────────────────
 # DATA HELPERS
 # ──────────────────────────────────────────────────────────────────────────────
 
 def fetch_daily(symbol, period="1y"):
+    """Daily bars from shared data source (Kite first, yfinance fallback)."""
+    days = 365 if period == "1y" else 90 if period == "3mo" else 252
+
+    if _SHARED_DATA_AVAILABLE:
+        df = _shared_fetch_daily(symbol, days=days)
+        if df is not None and len(df) >= 200:
+            return df
+
+    # Ultimate fallback: direct yfinance
     try:
         with _silence_stdio():
             df = yf.Ticker(f"{symbol}.NS").history(period=period, interval="1d")
@@ -543,8 +585,26 @@ def append_to_recommendations(picks, scan_time):
 
 def main():
     print(f"\n{'='*60}\n  QUANTEX VOL EXPANSION SCANNER — {datetime.now()}\n{'='*60}")
+
+    # Log in to Kite (shared session) — falls back to yfinance if unavailable
+    if _SHARED_DATA_AVAILABLE:
+        kite_active = _shared_ensure_login()
+        print(f">> Data source: {'Kite (live)' if kite_active else 'yfinance (delayed)'}")
+    else:
+        print(">> Data source: yfinance (delayed) — shared source unavailable")
+
     print(f">> Universe: {len(UNIVERSE)} symbols")
-    print(f">> Score threshold: {SCORE_THRESHOLD}  |  Max signals: {MAX_SIGNALS_PER_DAY}\n")
+    print(f">> Score threshold: {SCORE_THRESHOLD}  |  Max signals: {MAX_SIGNALS_PER_DAY}")
+    if DELIVERY_FILTER_ENABLED and _DELIVERY_AVAILABLE:
+        print(f">> Delivery filter ACTIVE  (today≥{DELIVERY_PCT_MIN}%, 10d-avg≥{DELIVERY_AVG10_MIN}%)")
+    else:
+        print(">> Delivery filter DISABLED")
+    print()
+
+    # Diagnostic counters for the delivery gate
+    filtered_delivery_today = 0
+    filtered_delivery_avg = 0
+    delivery_data_missing = 0
 
     candidates = []
     start = time.time()
@@ -559,8 +619,43 @@ def main():
         if p is None:
             continue
         s = score_vol_expansion(p)
-        if s >= SCORE_THRESHOLD:
-            candidates.append({"symbol": sym, "score": s, "pattern": p})
+        if s < SCORE_THRESHOLD:
+            continue
+
+        # ── DELIVERY-VOLUME GATE ──
+        if DELIVERY_FILTER_ENABLED and _DELIVERY_AVAILABLE:
+            deliv_today = get_delivery_pct(sym)
+            deliv_avg10 = get_avg_delivery_pct(sym, 10)
+
+            if deliv_today is None and deliv_avg10 is None:
+                delivery_data_missing += 1
+                p["delivery_today"] = None
+                p["delivery_avg10"] = None
+            else:
+                if deliv_today is not None and deliv_today < DELIVERY_PCT_MIN:
+                    filtered_delivery_today += 1
+                    continue
+                if deliv_avg10 is not None and deliv_avg10 < DELIVERY_AVG10_MIN:
+                    filtered_delivery_avg += 1
+                    continue
+                p["delivery_today"] = deliv_today
+                p["delivery_avg10"] = deliv_avg10
+        else:
+            p["delivery_today"] = None
+            p["delivery_avg10"] = None
+
+        # Bonus: exceptional delivery adds conviction
+        if p.get("delivery_today") and p["delivery_today"] >= 65:
+            s = min(100, s + 3)
+
+        candidates.append({"symbol": sym, "score": s, "pattern": p})
+
+    if DELIVERY_FILTER_ENABLED and _DELIVERY_AVAILABLE:
+        print(f"\n>> DELIVERY FUNNEL:")
+        print(f"   Filtered (today < {DELIVERY_PCT_MIN}%):   {filtered_delivery_today}")
+        print(f"   Filtered (10d avg < {DELIVERY_AVG10_MIN}%): {filtered_delivery_avg}")
+        print(f"   Passed with delivery info:  {sum(1 for c in candidates if c['pattern'].get('delivery_today') is not None)}")
+        print(f"   Passed with data missing:   {delivery_data_missing}")
 
     candidates.sort(key=lambda x: x["score"], reverse=True)
     picks = candidates[:MAX_SIGNALS_PER_DAY]
@@ -570,9 +665,14 @@ def main():
     for p in picks:
         d = p["pattern"]
         gc = "⚡GC" if d["near_golden_cross"] else "   "
+        deliv_str = ""
+        if d.get("delivery_today") is not None:
+            deliv_str = f"  DELIV {d['delivery_today']:.0f}%"
+            if d.get("delivery_avg10"):
+                deliv_str += f" (10d:{d['delivery_avg10']:.0f}%)"
         print(f"   {p['symbol']:13s} {gc} score {p['score']:5.1f}  body +{d['body_pct']:5.1f}%  "
               f"vol {d['vol_mult']:.1f}×  range {d['range_vs_atr']:.1f}×ATR  "
-              f"entry ₹{d['entry']:7.2f}  R:R 1:{d['rr']:.1f}")
+              f"entry ₹{d['entry']:7.2f}  R:R 1:{d['rr']:.1f}{deliv_str}")
 
     scan_time = datetime.now()
 

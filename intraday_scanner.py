@@ -284,6 +284,19 @@ def fetch_5m(ticker, days=5):
 
 
 def fetch_daily(ticker, days=120):
+    """Kite first (via shared data_source), yfinance fallback."""
+    # Strip .NS suffix if present — data_source uses raw NSE symbol
+    sym = ticker.replace(".NS", "").replace(".BO", "")
+    try:
+        from data_source import fetch_daily as _shared_fetch, ensure_login as _shared_login
+        _shared_login()
+        df = _shared_fetch(sym, days=max(days, 250))
+        if df is not None and len(df) >= 20:
+            return df
+    except Exception:
+        pass
+
+    # Fallback: direct yfinance
     try:
         df = yf.download(
             ticker, period=f"{days}d", interval="1d",
