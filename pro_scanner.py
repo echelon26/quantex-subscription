@@ -39,6 +39,16 @@ import requests
 import ta
 import yfinance as yf
 
+# Shared delivery-volume helper (NSE bhavcopy)
+try:
+    from delivery_data import get_delivery_pct, get_avg_delivery_pct
+    _DELIVERY_AVAILABLE = True
+except Exception as _e:
+    print(f"!! delivery_data unavailable ({_e}); Smart Money layer without delivery modifier")
+    _DELIVERY_AVAILABLE = False
+    def get_delivery_pct(*a, **kw): return None
+    def get_avg_delivery_pct(*a, **kw): return None
+
 try:
     import pyotp
     HAS_PYOTP = True
@@ -1386,6 +1396,47 @@ def score_stock(symbol, df, nifty_df, sector_performance):
         avg5 = close.iloc[-5:].mean()
         if cmp > avg5:
             layer6 += 3
+
+    # ── DELIVERY-VOLUME MODIFIER ──
+    # NSE bhavcopy delivery% separates real institutional accumulation from
+    # algo/arbitrage volume. High delivery boosts Smart Money; low delivery
+    # penalizes (a stock scoring 8 via OI+vol proxies but with 15% delivery
+    # is almost certainly algo/short-cover, not accumulation).
+    if _DELIVERY_AVAILABLE:
+        deliv_today = get_delivery_pct(symbol)
+        deliv_avg10 = get_avg_delivery_pct(symbol, 10)
+
+        # Prefer today's value; fall back to 10-day avg if today is unavailable
+        deliv_signal = deliv_today if deliv_today is not None else deliv_avg10
+
+        if deliv_signal is not None:
+            if deliv_signal >= 60:
+                layer6 += 4
+                result["signals"].append(f"Delivery {deliv_signal:.0f}% (Strong Accumulation)")
+            elif deliv_signal >= 50:
+                layer6 += 2
+                result["signals"].append(f"Delivery {deliv_signal:.0f}% (Solid)")
+            elif deliv_signal >= 40:
+                # neutral zone, no change
+                result["signals"].append(f"Delivery {deliv_signal:.0f}%")
+            elif deliv_signal >= 30:
+                layer6 -= 2
+                result["signals"].append(f"Delivery {deliv_signal:.0f}% (Weak — mostly intraday)")
+            else:
+                layer6 -= 4
+                result["signals"].append(f"⚠️ Delivery {deliv_signal:.0f}% (Algo/Short-Cover)")
+
+            # Consistency modifier: today high but 10d low = one-off spike (still risky)
+            if (deliv_today is not None and deliv_avg10 is not None
+                    and deliv_today >= 50 and deliv_avg10 < 35):
+                layer6 -= 1  # trust penalty — not consistently accumulated
+
+            # Track raw values in the result for downstream logging
+            result["delivery_today"] = deliv_today
+            result["delivery_avg10"] = deliv_avg10
+
+    # Clamp Layer 6 to [0, 10] — delivery is a modifier, not a new scoring axis
+    layer6 = max(0, min(10, layer6))
 
     result["breakdown"]["Smart Money"] = layer6
 
