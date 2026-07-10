@@ -1604,5 +1604,31 @@
       "JIOFIN"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-09.pdf"
+  },
+  {
+    "date": "Fri, 10 Jul 2026",
+    "fear_greed": 58.4,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23962.8,
+    "nifty": 23962.8,
+    "sensex": 76741.82,
+    "bank_nifty": 57252.45,
+    "vix": 13.36,
+    "top_gainers": [
+      "KALYANKJIL",
+      "MAPMYINDIA",
+      "CHOICEIN",
+      "SWIGGY",
+      "LODHA"
+    ],
+    "top_losers": [
+      "AEGISLOG",
+      "LTF",
+      "PCBL",
+      "360ONE",
+      "INDIGO"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-10.pdf"
   }
 ]
