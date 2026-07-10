@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-07-10 at 04:31 AM IST
+Regime: BULLISH (risk-on) | VIX: 12.54 | Min Score: 60
+Qualified: 17 stocks | Top 10 below
+============================================================
+
+1. CDSL -- Score: 75/100
+   Entry: 1400.80 | SL: 1348.16 | T1: 1506.08 | T2: 1558.73 | RR: 1:2.0
+   Tr:18 Mo:18 Vo:4 PA:13 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 25 (Trending), RSI 66 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 8,176,650), High F&O Activity
+
+2. HAPPSTMNDS -- Score: 71/100
+   Entry: 385.25 | SL: 366.40 | T1: 413.52 | T2: 432.37 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:12 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 68 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Institutional Accumulation
+
+3. KALYANKJIL -- Score: 70/100
+   Entry: 471.90 | SL: 440.21 | T1: 519.43 | T2: 566.96 | RR: 1:1.5
+   Tr:18 Mo:13 Vo:13 PA:8 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 20 (Trending), ADX Rising, MACD Fresh Crossover, Vol Surge 2.5x, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 48,130,200), High F&O Activity
+
+4. SBILIFE -- Score: 63/100
+   Entry: 1851.50 | SL: 1791.49 | T1: 1941.51 | T2: 1979.13 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:4 PA:8 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 60 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 7,575,000), High F&O Activity
+
+5. ZENSARTECH -- Score: 63/100
+   Entry: 487.80 | SL: 453.65 | T1: 539.02 | T2: 549.02 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:12 PA:5 RS:12 SM:3 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 23 (Trending), RSI 55 (Power Zone), MACD Bullish, Strong Delivery (Close near High), Marubozu, Strong RS vs Nifty, Sector Top 3: IT
+
+6. IIFL -- Score: 63/100
+   Entry: 549.95 | SL: 519.99 | T1: 594.89 | T2: 624.85 | RR: 1:1.5
+   Tr:18 Mo:18 Vo:4 PA:8 RS:12 SM:3 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 21 (Trending), ADX Rising, RSI 63 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE
+
+7. MOTILALOFS -- Score: 63/100
+   Entry: 972.05 | SL: 946.75 | T1: 1010.00 | T2: 1058.06 | RR: 1:1.5
+   Tr:20 Mo:11 Vo:4 PA:9 RS:9 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 30 (Strong Trend), RSI 62 (Power Zone), Near Breakout, Marubozu, Outperforming Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 4,942,175), High F&O Activity
+
+8. OBEROIRLTY -- Score: 62/100
+   Entry: 1904.70 | SL: 1819.93 | T1: 2031.86 | T2: 2077.67 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:4 PA:5 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 31 (Strong Trend), RSI 68 (Power Zone), MACD Bullish, Hammer, Morning Star, Strong RS vs Nifty, Long Buildup (OI: 5,839,750), High F&O Activity
+
+9. ALKEM -- Score: 62/100
+   Entry: 5700.50 | SL: 5524.88 | T1: 5963.93 | T2: 6139.55 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:4 PA:9 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 35 (Strong Trend), ADX Rising, RSI 68 (Power Zone), MACD Bullish, Near Breakout, Morning Star, Strong RS vs Nifty, Long Buildup (OI: 1,334,000), High F&O Activity
+
+10. GRASIM -- Score: 61/100
+   Entry: 3238.70 | SL: 3150.68 | T1: 3370.73 | T2: 3493.52 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:4 PA:8 RS:5 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 64 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Outperforming Nifty, Long Buildup (OI: 12,711,000), High F&O Activity
+
+
+────────────────────────────────────────────────────────────
+
