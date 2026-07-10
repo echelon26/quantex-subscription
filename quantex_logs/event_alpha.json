@@ -2092,5 +2092,25 @@
         "CMP": 2049.5
       }
     ]
+  },
+  {
+    "scan_date": "2026-07-10",
+    "scan_time": "2026-07-10T13:40:35.940920",
+    "stocks_scanned": 500,
+    "results_found": 2,
+    "results": [
+      {
+        "Date": "2026-07-10",
+        "Symbol": "INDIANB",
+        "Signals": "Bullish Reaction | Surge +9.8% | Vol Explosion 5.0x",
+        "CMP": 870.7
+      },
+      {
+        "Date": "2026-07-10",
+        "Symbol": "LTF",
+        "Signals": "Muted Reaction | Flat +0.0%",
+        "CMP": 321.25
+      }
+    ]
   }
 ]
