@@ -359,29 +359,52 @@ class KiteSession:
             import pyotp
             import urllib.parse
 
+            # ── DEBUG: verify all secrets are present (masked) ──
+            def _mask(v, keep=2):
+                if not v: return "<EMPTY>"
+                return f"{v[:keep]}***{v[-keep:] if len(v) > keep*2 else ''} (len={len(v)})"
+            print(f"   KITE_API_KEY:      {_mask(KITE_API_KEY)}")
+            print(f"   KITE_API_SECRET:   {_mask(KITE_API_SECRET)}")
+            print(f"   ZERODHA_USER_ID:   {_mask(ZERODHA_USER_ID)}")
+            print(f"   ZERODHA_PASSWORD:  {'<SET>' if ZERODHA_PASSWORD else '<EMPTY>'} (len={len(ZERODHA_PASSWORD) if ZERODHA_PASSWORD else 0})")
+            print(f"   ZERODHA_TOTP_KEY:  {_mask(ZERODHA_TOTP_KEY)}")
+
             session = requests.Session()
 
+            # Step 1: Password login
             r1 = session.post("https://kite.zerodha.com/api/login",
                               data={"user_id": ZERODHA_USER_ID, "password": ZERODHA_PASSWORD},
                               timeout=15)
-            if r1.json().get("status") != "success":
-                print("   Kite login failed (credentials)")
+            r1_data = r1.json()
+            print(f"   [Step 1: Password] HTTP {r1.status_code}, status={r1_data.get('status')}")
+            if r1_data.get("status") != "success":
+                # Print the FULL error response so we can see WHY (no tokens leaked at this stage)
+                print(f"   [Step 1: Password] ERROR RESPONSE: {r1_data}")
                 return False
-            request_id = r1.json()["data"]["request_id"]
+            request_id = r1_data["data"]["request_id"]
+            print(f"   [Step 1: Password] OK — got request_id")
 
+            # Step 2: TOTP
             totp = pyotp.TOTP(ZERODHA_TOTP_KEY)
+            totp_code = totp.now()
+            print(f"   [Step 2: TOTP] Generated code (last 2 digits): ***{totp_code[-2:]}")
             r2 = session.post("https://kite.zerodha.com/api/twofa", data={
                 "user_id": ZERODHA_USER_ID, "request_id": request_id,
-                "twofa_value": totp.now(), "twofa_type": "totp",
+                "twofa_value": totp_code, "twofa_type": "totp",
             }, timeout=15)
-            if r2.json().get("status") != "success":
-                print("   Kite TOTP failed")
+            r2_data = r2.json()
+            print(f"   [Step 2: TOTP] HTTP {r2.status_code}, status={r2_data.get('status')}")
+            if r2_data.get("status") != "success":
+                print(f"   [Step 2: TOTP] ERROR RESPONSE: {r2_data}")
                 return False
+            print(f"   [Step 2: TOTP] OK")
 
+            # Step 3: Request-token redirect
             r3 = session.get(
                 f"https://kite.zerodha.com/connect/login?v=3&api_key={KITE_API_KEY}",
                 allow_redirects=False, timeout=15)
             location = r3.headers.get("Location", "")
+            print(f"   [Step 3: Redirect] HTTP {r3.status_code}, location has 'request_token'? {'request_token' in location}")
             if "connect/finish" in location:
                 r3b = session.get(location, allow_redirects=False, timeout=15)
                 location = r3b.headers.get("Location", location)
@@ -390,8 +413,10 @@ class KiteSession:
             params = urllib.parse.parse_qs(parsed.query)
             request_token = params.get("request_token", [None])[0]
             if not request_token:
-                print("   Kite: could not get request_token")
+                print(f"   [Step 3: Redirect] FAILED — location: {location[:100] if location else '<empty>'}")
+                print(f"   [Step 3: Redirect] Parsed params: {dict(params)}")
                 return False
+            print(f"   [Step 3: Redirect] OK — got request_token")
 
             self.kite = KiteConnect(api_key=KITE_API_KEY)
             data = self.kite.generate_session(request_token, api_secret=KITE_API_SECRET)
@@ -1999,5 +2024,80 @@ def run_scanner():
     return output
 
 
+def kite_login_diagnose():
+    """Standalone Kite login diagnostic — run with `python pro_scanner.py --diagnose`."""
+    import os as _os
+    print("=" * 60)
+    print("  KITE LOGIN DIAGNOSTIC (standalone)")
+    print("=" * 60)
+
+    # ── Step A: Environment sanity ──
+    print("\n── Environment variables ──")
+    env_vars = {
+        "KITE_API_KEY":     _os.environ.get("KITE_API_KEY", ""),
+        "KITE_API_SECRET":  _os.environ.get("KITE_API_SECRET", ""),
+        "ZERODHA_USER_ID":  _os.environ.get("ZERODHA_USER_ID", ""),
+        "ZERODHA_PASSWORD": _os.environ.get("ZERODHA_PASSWORD", ""),
+        "ZERODHA_TOTP_KEY": _os.environ.get("ZERODHA_TOTP_KEY", ""),
+    }
+    all_set = True
+    for k, v in env_vars.items():
+        if not v:
+            print(f"   [ENV] {k}: <NOT SET>  ❌")
+            all_set = False
+        else:
+            masked = f"{v[:2]}***{v[-2:]}" if len(v) > 4 else "***"
+            print(f"   [ENV] {k}: {masked} (len={len(v)})  ✅")
+
+    if not all_set:
+        print("\n❌ One or more env vars missing. Set them and rerun.")
+        return
+
+    # ── Step B: kiteconnect installed? ──
+    print("\n── Dependencies ──")
+    try:
+        import kiteconnect
+        print(f"   kiteconnect: v{kiteconnect.__version__}  ✅")
+    except ImportError:
+        print("   kiteconnect: NOT INSTALLED  ❌")
+        print("   Fix: pip install kiteconnect pyotp")
+        return
+    try:
+        import pyotp
+        print(f"   pyotp:       installed  ✅")
+    except ImportError:
+        print("   pyotp: NOT INSTALLED  ❌")
+        print("   Fix: pip install pyotp")
+        return
+
+    # ── Step C: TOTP generation test ──
+    print("\n── TOTP generation ──")
+    try:
+        totp = pyotp.TOTP(env_vars["ZERODHA_TOTP_KEY"])
+        code = totp.now()
+        print(f"   Generated code: ***{code[-2:]}  ✅  (should be 6 digits)")
+        if not code.isdigit() or len(code) != 6:
+            print(f"   ⚠️ Code doesn't look right (got {code}) — TOTP_KEY may be malformed")
+    except Exception as e:
+        print(f"   ❌ TOTP generation failed: {e}")
+        print(f"   Fix: Regenerate TOTP secret at Zerodha profile → API → Regenerate")
+        return
+
+    # ── Step D: Full login attempt (verbose) ──
+    print("\n── Full Kite login attempt ──")
+    result = kite_session.login()
+    print(f"\n── Result: {'✅ SUCCESS' if result else '❌ FAILED'} ──")
+
+    if result:
+        print(f"\n✅ Kite session is working. Profile: {kite_session.kite.profile()['user_name']}")
+        print(f"   Instruments loaded: {len(kite_session.instrument_map)}")
+    else:
+        print("\nCheck the ERROR RESPONSE lines above to see which step failed and why.")
+
+
 if __name__ == "__main__":
-    run_scanner()
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] in ("--diagnose", "-d", "diagnose"):
+        kite_login_diagnose()
+    else:
+        run_scanner()

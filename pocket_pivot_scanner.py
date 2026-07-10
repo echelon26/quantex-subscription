@@ -525,12 +525,34 @@ def send_telegram(message):
 def main():
     print(f"\n{'='*60}\n  QUANTEX POCKET PIVOT SCANNER — {datetime.now()}\n{'='*60}")
 
-    # Log in to Kite (shared session) — falls back to yfinance if unavailable
+    # ── KITE LOGIN DIAGNOSTIC BANNER ──
+    print(f"\n{'─'*60}\n  KITE LOGIN DIAGNOSTIC\n{'─'*60}")
     if _SHARED_DATA_AVAILABLE:
+        # Confirm env-vars presence (masked, safe to log)
+        import os as _os
+        _env_snapshot = {
+            "KITE_API_KEY":     _os.environ.get("KITE_API_KEY", ""),
+            "KITE_API_SECRET":  _os.environ.get("KITE_API_SECRET", ""),
+            "ZERODHA_USER_ID":  _os.environ.get("ZERODHA_USER_ID", ""),
+            "ZERODHA_PASSWORD": _os.environ.get("ZERODHA_PASSWORD", ""),
+            "ZERODHA_TOTP_KEY": _os.environ.get("ZERODHA_TOTP_KEY", ""),
+        }
+        for k, v in _env_snapshot.items():
+            if not v:
+                print(f"   [ENV] {k}: <NOT SET>  ❌")
+            else:
+                masked = f"{v[:2]}***{v[-2:]}" if len(v) > 4 else "***"
+                print(f"   [ENV] {k}: {masked} (len={len(v)})  ✅")
+
+        # Attempt login — pro_scanner's login prints its own per-step diagnostics
+        print(f"\n   Attempting Kite login...")
         kite_active = _shared_ensure_login()
+        print(f"\n   Login result: {'✅ SUCCESS' if kite_active else '❌ FAILED (falling back to yfinance)'}")
         print(f">> Data source: {'Kite (live)' if kite_active else 'yfinance (delayed)'}")
     else:
+        print("   ❌ data_source module unavailable — cannot attempt Kite login")
         print(">> Data source: yfinance (delayed) — shared source unavailable")
+    print(f"{'─'*60}\n")
 
     print(f">> Scanning {len(STOCK_UNIVERSE)} symbols...")
     if DELIVERY_FILTER_ENABLED and _DELIVERY_AVAILABLE:
