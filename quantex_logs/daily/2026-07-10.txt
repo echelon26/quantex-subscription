@@ -57,3 +57,61 @@ Qualified: 17 stocks | Top 10 below
 
 ────────────────────────────────────────────────────────────
 
+============================================================
+QUANTEX SCANNER — 2026-07-10 at 04:35 AM IST
+Qualified: 57 stocks | Top 10 below
+============================================================
+
+1. CDSL — Score: 90/100
+   Entry: 1400.30 | SL: 1347.41 | T1: 1506.08 | T2: 1558.96 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:10 PA:15 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 8,224,150), High F&O Activity
+
+2. KALYANKJIL — Score: 80/100
+   Entry: 473.80 | SL: 450.11 | T1: 521.18 | T2: 544.87 | RR: 1:2.0
+   Trend:20 Mom:15 Vol:15 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, MACD Fresh Crossover, Vol Surge 2.6x, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 48,043,800), High F&O Activity
+
+3. HAPPSTMNDS — Score: 79/100
+   Entry: 383.50 | SL: 364.65 | T1: 421.20 | T2: 440.04 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:10 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Institutional Accumulation
+
+4. ECLERX — Score: 76/100
+   Entry: 1607.00 | SL: 1526.65 | T1: 1767.70 | T2: 1848.05 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:5 PA:15 RS:15 SM:7
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 66 (Power Zone), MACD Bullish, 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: IT, Consistent Buying
+
+5. SBILIFE — Score: 74/100
+   Entry: 1849.50 | SL: 1789.49 | T1: 1969.52 | T2: 2029.53 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:5 PA:10 RS:15 SM:10
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 60 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 7,576,500), High F&O Activity
+
+6. UNOMINDA — Score: 73/100
+   Entry: 1171.80 | SL: 1117.33 | T1: 1280.75 | T2: 1335.22 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:10 SM:10
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 63 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 4,955,500), High F&O Activity
+
+7. IIFL — Score: 73/100
+   Entry: 550.00 | SL: 522.50 | T1: 605.00 | T2: 632.50 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:10 RS:15 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 63 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE
+
+8. ZENSARTECH — Score: 72/100
+   Entry: 489.70 | SL: 465.21 | T1: 538.67 | T2: 563.15 | RR: 1:2.0
+   Trend:16 Mom:18 Vol:15 PA:5 RS:15 SM:3
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, RSI 55 (Power Zone), MACD Bullish, Strong Delivery (Close near High), Marubozu, Strong RS vs Nifty, Sector Top 3: IT
+
+9. GRASIM — Score: 71/100
+   Entry: 3238.00 | SL: 3149.98 | T1: 3414.04 | T2: 3502.06 | RR: 1:2.0
+   Trend:20 Mom:20 Vol:5 PA:10 RS:6 SM:10
+   Hold: 3-7 days | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 64 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Outperforming Nifty, Long Buildup (OI: 12,712,750), High F&O Activity
+
+10. CANFINHOME — Score: 71/100
+   Entry: 927.20 | SL: 888.18 | T1: 1005.24 | T2: 1044.27 | RR: 1:2.0
+   Trend:20 Mom:18 Vol:5 PA:10 RS:15 SM:3
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 64 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE
+
+
+────────────────────────────────────────────────────────────
+
