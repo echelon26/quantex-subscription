@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-07-13 at 09:48 AM IST
+Regime: BULLISH (risk-on) | VIX: 13.27 | Min Score: 60
+Qualified: 35 stocks | Top 10 below
+============================================================
+
+1. HCLTECH -- Score: 77/100
+   Entry: 1220.50 | SL: 1161.00 | T1: 1309.75 | T2: 1399.00 | RR: 1:1.5
+   Tr:12 Mo:15 Vo:15 PA:13 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 24 (Trending), RSI 63 (Power Zone), MACD Bullish, Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Sector Top 3: IT, Long Buildup (OI: 35,096,400), High F&O Activity, Delivery 45%
+
+2. ROUTE -- Score: 77/100
+   Entry: 582.90 | SL: 553.91 | T1: 626.38 | T2: 655.37 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:17 PA:8 RS:12 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 21 (Trending), ADX Rising, RSI 67 (Power Zone), MACD Bullish, Vol Surge 8.1x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Consistent Buying, Delivery 46%
+
+3. CDSL -- Score: 75/100
+   Entry: 1444.40 | SL: 1387.46 | T1: 1558.28 | T2: 1615.21 | RR: 1:2.0
+   Tr:20 Mo:13 Vo:12 PA:8 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Long Buildup (OI: 9,438,725), High F&O Activity, Delivery 42%
+
+4. COFORGE -- Score: 74/100
+   Entry: 1542.70 | SL: 1458.02 | T1: 1669.72 | T2: 1754.40 | RR: 1:1.5
+   Tr:14 Mo:18 Vo:12 PA:8 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Long Buildup (OI: 19,044,650), High F&O Activity, Delivery 48%
+
+5. TATVA -- Score: 74/100
+   Entry: 1389.00 | SL: 1304.04 | T1: 1516.44 | T2: 1601.40 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 69 (Power Zone), MACD Bullish, Vol Surge 3.1x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 54% (Solid)
+
+6. PGEL -- Score: 72/100
+   Entry: 595.25 | SL: 565.09 | T1: 655.57 | T2: 685.73 | RR: 1:2.0
+   Tr:20 Mo:15 Vo:8 PA:13 RS:8 SM:8 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 33 (Strong Trend), ADX Rising, RSI 68 (Power Zone), MACD Bullish, 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Long Buildup (OI: 13,437,750), High F&O Activity, Delivery 30% (Weak — mostly intraday)
+
+7. GODREJPROP -- Score: 71/100
+   Entry: 2167.00 | SL: 2074.38 | T1: 2292.04 | T2: 2375.39 | RR: 1:1.4
+   Tr:20 Mo:6 Vo:15 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 36 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.7x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Long Buildup (OI: 8,684,325), High F&O Activity, Delivery 46%
+
+8. ZENSARTECH -- Score: 70/100
+   Entry: 539.45 | SL: 501.69 | T1: 596.09 | T2: 633.85 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:17 PA:8 RS:12 SM:0 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 26 (Strong Trend), ADX Rising, RSI 64 (Power Zone), MACD Bullish, Vol Surge 3.2x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, ⚠️ Delivery 26% (Algo/Short-Cover)
+
+9. TANLA -- Score: 69/100
+   Entry: 569.00 | SL: 540.05 | T1: 612.42 | T2: 641.37 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:17 PA:8 RS:8 SM:1 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 26 (Strong Trend), ADX Rising, RSI 65 (Power Zone), MACD Bullish, Vol Surge 3.3x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Delivery 40% (Weak — mostly intraday)
+
+10. BLUESTARCO -- Score: 69/100
+   Entry: 1716.70 | SL: 1644.32 | T1: 1825.28 | T2: 1896.57 | RR: 1:1.5
+   Tr:14 Mo:18 Vo:15 PA:4 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 63 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.6x, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Long Buildup (OI: 3,148,925), High F&O Activity, Delivery 46%
+
+
+────────────────────────────────────────────────────────────
+
