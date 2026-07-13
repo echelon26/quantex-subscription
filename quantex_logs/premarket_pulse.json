@@ -1630,5 +1630,31 @@
       "INDIGO"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-10.pdf"
+  },
+  {
+    "date": "Mon, 13 Jul 2026",
+    "fear_greed": 65.3,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24206.9,
+    "nifty": 24206.9,
+    "sensex": 77569.39,
+    "bank_nifty": 58045.9,
+    "vix": 12.25,
+    "top_gainers": [
+      "GODREJIND",
+      "J&KBANK",
+      "ZENSARTECH",
+      "INDIANB",
+      "NEWGEN"
+    ],
+    "top_losers": [
+      "SCHNEIDER",
+      "URBANCO",
+      "PAGEIND",
+      "SWIGGY",
+      "KAYNES"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-13.pdf"
   }
 ]
