@@ -12,9 +12,6 @@ on:
   repository_dispatch:
     types: [intraday-sell-scanner]
 
-  schedule:
-    - cron: '0 6 * * 1-5'   # 11:30 AM IST, Mon-Fri
-
 permissions:
   contents: write
 
