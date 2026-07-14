@@ -1656,5 +1656,31 @@
       "KAYNES"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-13.pdf"
+  },
+  {
+    "date": "Tue, 14 Jul 2026",
+    "fear_greed": 64.2,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24211.0,
+    "nifty": 24211.0,
+    "sensex": 77616.4,
+    "bank_nifty": 58131.45,
+    "vix": 13.28,
+    "top_gainers": [
+      "GODREJIND",
+      "J&KBANK",
+      "SONATSOFTW",
+      "MAPMYINDIA",
+      "NEWGEN"
+    ],
+    "top_losers": [
+      "SCHNEIDER",
+      "ABDL",
+      "ATHERENERG",
+      "NLCINDIA",
+      "PWL"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-14.pdf"
   }
 ]
