@@ -1682,5 +1682,31 @@
       "PWL"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-14.pdf"
+  },
+  {
+    "date": "Wed, 15 Jul 2026",
+    "fear_greed": 62.7,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24211.0,
+    "nifty": 24211.0,
+    "sensex": 77616.4,
+    "bank_nifty": 58131.45,
+    "vix": 13.75,
+    "top_gainers": [
+      "MAPMYINDIA",
+      "NUVOCO",
+      "AEGISVOPAK",
+      "BIOCON",
+      "CONCOR"
+    ],
+    "top_losers": [
+      "NEWGEN",
+      "THERMAX",
+      "AEGISLOG",
+      "MRPL",
+      "HCLTECH"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-15.pdf"
   }
 ]
