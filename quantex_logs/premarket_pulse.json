@@ -1708,5 +1708,31 @@
       "HCLTECH"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-15.pdf"
+  },
+  {
+    "date": "Thu, 16 Jul 2026",
+    "fear_greed": 59.6,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 24078.5,
+    "nifty": 24078.5,
+    "sensex": 77185.43,
+    "bank_nifty": 57757.85,
+    "vix": 13.27,
+    "top_gainers": [
+      "NUVOCO",
+      "AEGISLOG",
+      "ATHERENERG",
+      "JUBLPHARMA",
+      "FLUOROCHEM"
+    ],
+    "top_losers": [
+      "PATANJALI",
+      "TATAELXSI",
+      "MRPL",
+      "CREDITACC",
+      "MINDACORP"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-16.pdf"
   }
 ]
