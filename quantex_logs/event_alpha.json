@@ -2182,5 +2182,55 @@
         "CMP": 172.38
       }
     ]
+  },
+  {
+    "scan_date": "2026-07-16",
+    "scan_time": "2026-07-16T13:37:14.023673",
+    "stocks_scanned": 500,
+    "results_found": 7,
+    "results": [
+      {
+        "Date": "2026-07-16",
+        "Symbol": "360ONE",
+        "Signals": "Flat -1.6%",
+        "CMP": 1081.3
+      },
+      {
+        "Date": "2026-07-16",
+        "Symbol": "BHEL",
+        "Signals": "Bullish Reaction | Rally +4.2% | Vol Explosion 4.1x",
+        "CMP": 435.4
+      },
+      {
+        "Date": "2026-07-14",
+        "Symbol": "LTTS",
+        "Signals": "Muted Reaction | Flat -0.1%",
+        "CMP": 3480.2
+      },
+      {
+        "Date": "2026-07-16",
+        "Symbol": "POLYCAB",
+        "Signals": "Flat -1.2% | High Vol 1.9x",
+        "CMP": 9215.0
+      },
+      {
+        "Date": "2026-07-16",
+        "Symbol": "TECHM",
+        "Signals": "Flat +0.8% | High Vol 1.6x",
+        "CMP": 1510.3
+      },
+      {
+        "Date": "2026-07-15",
+        "Symbol": "UNIONBANK",
+        "Signals": "Flat +1.0% | Vol Explosion 3.1x",
+        "CMP": 168.77
+      },
+      {
+        "Date": "2026-07-16",
+        "Symbol": "WIPRO",
+        "Signals": "Flat +1.8%",
+        "CMP": 177.74
+      }
+    ]
   }
 ]
