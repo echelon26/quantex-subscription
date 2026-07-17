@@ -2232,5 +2232,73 @@
         "CMP": 177.74
       }
     ]
+  },
+  {
+    "scan_date": "2026-07-17",
+    "scan_time": "2026-07-17T13:36:34.052521",
+    "stocks_scanned": 500,
+    "results_found": 10,
+    "results": [
+      {
+        "Date": "2026-07-16",
+        "Symbol": "BHEL",
+        "Signals": "Bullish Reaction | Rally +4.2% | Vol Explosion 4.1x",
+        "CMP": 422.0
+      },
+      {
+        "Date": "2026-07-17",
+        "Symbol": "FEDERALBNK",
+        "Signals": "Bullish Reaction | Surge +6.9% | Vol Explosion 8.4x",
+        "CMP": 349.0
+      },
+      {
+        "Date": "2026-07-17",
+        "Symbol": "HAVELLS",
+        "Signals": "Flat +1.4% | Vol Surge 2.6x",
+        "CMP": 1187.3
+      },
+      {
+        "Date": "2026-07-17",
+        "Symbol": "JSWSTEEL",
+        "Signals": "Flat +1.3% | Vol Surge 2.3x",
+        "CMP": 1237.3
+      },
+      {
+        "Date": "2026-07-14",
+        "Symbol": "LTTS",
+        "Signals": "Muted Reaction | Flat -0.1%",
+        "CMP": 3415.3
+      },
+      {
+        "Date": "2026-07-17",
+        "Symbol": "OBEROIRLTY",
+        "Signals": "Flat +1.8%",
+        "CMP": 1894.8
+      },
+      {
+        "Date": "2026-07-17",
+        "Symbol": "POONAWALLA",
+        "Signals": "Flat +1.1% | High Vol 1.6x",
+        "CMP": 477.3
+      },
+      {
+        "Date": "2026-07-17",
+        "Symbol": "RBLBANK",
+        "Signals": "Flat +1.5%",
+        "CMP": 368.1
+      },
+      {
+        "Date": "2026-07-17",
+        "Symbol": "RELIANCE",
+        "Signals": "Rally +2.4% | High Vol 1.6x",
+        "CMP": 1327.2
+      },
+      {
+        "Date": "2026-07-15",
+        "Symbol": "UNIONBANK",
+        "Signals": "Flat +1.0% | Vol Explosion 3.1x",
+        "CMP": 168.46
+      }
+    ]
   }
 ]
