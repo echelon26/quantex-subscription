@@ -1734,5 +1734,31 @@
       "MINDACORP"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-16.pdf"
+  },
+  {
+    "date": "Fri, 17 Jul 2026",
+    "fear_greed": 60.4,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24072.75,
+    "nifty": 24072.75,
+    "sensex": 77186.87,
+    "bank_nifty": 57582.25,
+    "vix": 12.88,
+    "top_gainers": [
+      "MRPL",
+      "GABRIEL",
+      "EMMVEE",
+      "AEGISLOG",
+      "CHENNPETRO"
+    ],
+    "top_losers": [
+      "ICICIGI",
+      "SIGNATURE",
+      "NUVOCO",
+      "ITCHOTELS",
+      "GROWW"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-17.pdf"
   }
 ]
