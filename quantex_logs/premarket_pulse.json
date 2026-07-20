@@ -1760,5 +1760,31 @@
       "GROWW"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-17.pdf"
+  },
+  {
+    "date": "Mon, 20 Jul 2026",
+    "fear_greed": 69.0,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24334.3,
+    "nifty": 24334.3,
+    "sensex": 78151.45,
+    "bank_nifty": 58521.4,
+    "vix": 13.15,
+    "top_gainers": [
+      "ECLERX",
+      "AIIL",
+      "FEDERALBNK",
+      "KALYANKJIL",
+      "AFCONS"
+    ],
+    "top_losers": [
+      "CEATLTD",
+      "WELCORP",
+      "KIRLOSENG",
+      "EMMVEE",
+      "VIJAYA"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-20.pdf"
   }
 ]
