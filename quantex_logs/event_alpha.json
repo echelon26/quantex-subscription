@@ -2300,5 +2300,37 @@
         "CMP": 168.46
       }
     ]
+  },
+  {
+    "scan_date": "2026-07-20",
+    "scan_time": "2026-07-20T13:48:06.490266",
+    "stocks_scanned": 500,
+    "results_found": 4,
+    "results": [
+      {
+        "Date": "2026-07-20",
+        "Symbol": "JKCEMENT",
+        "Signals": "Gap Down -2.4% | Flat +1.2%",
+        "CMP": 5453.0
+      },
+      {
+        "Date": "2026-07-20",
+        "Symbol": "KARURVYSYA",
+        "Signals": "Selloff -2.8% | Vol Explosion 4.1x",
+        "CMP": 301.0
+      },
+      {
+        "Date": "2026-07-20",
+        "Symbol": "PAYTM",
+        "Signals": "Muted Reaction | Flat -0.0%",
+        "CMP": 1347.5
+      },
+      {
+        "Date": "2026-07-20",
+        "Symbol": "ULTRACEMCO",
+        "Signals": "Flat +1.5% | High Vol 1.6x",
+        "CMP": 11903.0
+      }
+    ]
   }
 ]
