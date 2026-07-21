@@ -2332,5 +2332,73 @@
         "CMP": 11903.0
       }
     ]
+  },
+  {
+    "scan_date": "2026-07-21",
+    "scan_time": "2026-07-21T13:36:14.510509",
+    "stocks_scanned": 500,
+    "results_found": 10,
+    "results": [
+      {
+        "Date": "2026-07-21",
+        "Symbol": "ADANIENSOL",
+        "Signals": "Flat +0.7% | High Vol 1.8x",
+        "CMP": 1741.6
+      },
+      {
+        "Date": "2026-07-21",
+        "Symbol": "ATGL",
+        "Signals": "Flat -1.8%",
+        "CMP": 700.4
+      },
+      {
+        "Date": "2026-07-21",
+        "Symbol": "BAJAJ-AUTO",
+        "Signals": "Flat -1.1% | High Vol 1.7x",
+        "CMP": 10403.5
+      },
+      {
+        "Date": "2026-07-21",
+        "Symbol": "BANDHANBNK",
+        "Signals": "Flat -1.2%",
+        "CMP": 208.83
+      },
+      {
+        "Date": "2026-07-21",
+        "Symbol": "INDIAMART",
+        "Signals": "Flat -0.8% | Vol Surge 2.7x",
+        "CMP": 1918.0
+      },
+      {
+        "Date": "2026-07-21",
+        "Symbol": "INDHOTEL",
+        "Signals": "Muted Reaction | Flat +0.9%",
+        "CMP": 731.6
+      },
+      {
+        "Date": "2026-07-20",
+        "Symbol": "JKCEMENT",
+        "Signals": "Gap Down -2.4% | Flat +1.2%",
+        "CMP": 5658.0
+      },
+      {
+        "Date": "2026-07-21",
+        "Symbol": "M&MFIN",
+        "Signals": "Bullish Reaction | Surge +8.5% | Vol Explosion 12.7x",
+        "CMP": 349.85
+      },
+      {
+        "Date": "2026-07-20",
+        "Symbol": "PAYTM",
+        "Signals": "Muted Reaction | Flat -0.0%",
+        "CMP": 1300.5
+      },
+      {
+        "Date": "2026-07-21",
+        "Symbol": "TVSMOTOR",
+        "Signals": "Bullish Reaction | Surge +5.6% | Vol Explosion 3.1x",
+        "CMP": 3792.0
+      }
+    ]
   }
 ]
