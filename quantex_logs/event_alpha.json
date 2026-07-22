@@ -2400,5 +2400,145 @@
         "CMP": 3792.0
       }
     ]
+  },
+  {
+    "scan_date": "2026-07-22",
+    "scan_time": "2026-07-22T13:36:21.860606",
+    "stocks_scanned": 500,
+    "results_found": 22,
+    "results": [
+      {
+        "Date": "2026-07-21",
+        "Symbol": "ADANIENSOL",
+        "Signals": "Flat +0.7% | High Vol 1.8x",
+        "CMP": 1724.4
+      },
+      {
+        "Date": "2026-07-22",
+        "Symbol": "ADANIGREEN",
+        "Signals": "Selloff -4.5%",
+        "CMP": 1472.3
+      },
+      {
+        "Date": "2026-07-22",
+        "Symbol": "ADANIPOWER",
+        "Signals": "Flat -1.6% | High Vol 1.5x",
+        "CMP": 216.95
+      },
+      {
+        "Date": "2026-07-21",
+        "Symbol": "ATGL",
+        "Signals": "Flat -1.8%",
+        "CMP": 681.6
+      },
+      {
+        "Date": "2026-07-21",
+        "Symbol": "BANDHANBNK",
+        "Signals": "Flat -1.2% | Heavy Selling -17.9%",
+        "CMP": 173.5
+      },
+      {
+        "Date": "2026-07-22",
+        "Symbol": "BPCL",
+        "Signals": "Flat -1.7%",
+        "CMP": 314.0
+      },
+      {
+        "Date": "2026-07-22",
+        "Symbol": "DRREDDY",
+        "Signals": "Flat -1.9%",
+        "CMP": 1182.8
+      },
+      {
+        "Date": "2026-07-22",
+        "Symbol": "ETERNAL",
+        "Signals": "Flat -0.8% | Vol Surge 2.5x",
+        "CMP": 284.4
+      },
+      {
+        "Date": "2026-07-22",
+        "Symbol": "HINDPETRO",
+        "Signals": "Selloff -2.9%",
+        "CMP": 395.2
+      },
+      {
+        "Date": "2026-07-22",
+        "Symbol": "IIFL",
+        "Signals": "Flat -0.3%",
+        "CMP": 570.35
+      },
+      {
+        "Date": "2026-07-21",
+        "Symbol": "INDHOTEL",
+        "Signals": "Muted Reaction | Flat +0.9%",
+        "CMP": 724.85
+      },
+      {
+        "Date": "2026-07-22",
+        "Symbol": "INDUSINDBK",
+        "Signals": "Flat +0.6% | Vol Surge 2.3x",
+        "CMP": 1069.3
+      },
+      {
+        "Date": "2026-07-20",
+        "Symbol": "JKCEMENT",
+        "Signals": "Gap Down -2.4% | Flat +1.2%",
+        "CMP": 5762.0
+      },
+      {
+        "Date": "2026-07-22",
+        "Symbol": "JSWENERGY",
+        "Signals": "Muted Reaction | Flat -0.8%",
+        "CMP": 561.7
+      },
+      {
+        "Date": "2026-07-21",
+        "Symbol": "M&MFIN",
+        "Signals": "Bullish Reaction | Surge +8.5% | Vol Explosion 12.8x | Strong Momentum +17.2%",
+        "CMP": 378.15
+      },
+      {
+        "Date": "2026-07-22",
+        "Symbol": "NESTLEIND",
+        "Signals": "Rally +2.9% | Vol Explosion 4.5x",
+        "CMP": 1493.6
+      },
+      {
+        "Date": "2026-07-20",
+        "Symbol": "PAYTM",
+        "Signals": "Muted Reaction | Flat -0.0%",
+        "CMP": 1267.0
+      },
+      {
+        "Date": "2026-07-22",
+        "Symbol": "OFSS",
+        "Signals": "Decline -6.7%",
+        "CMP": 10851.0
+      },
+      {
+        "Date": "2026-07-22",
+        "Symbol": "SRF",
+        "Signals": "Selloff -2.4% | Vol Surge 2.7x",
+        "CMP": 2867.2
+      },
+      {
+        "Date": "2026-07-22",
+        "Symbol": "SCHAEFFLER",
+        "Signals": "Muted Reaction | Flat +0.5%",
+        "CMP": 4199.2
+      },
+      {
+        "Date": "2026-07-21",
+        "Symbol": "TVSMOTOR",
+        "Signals": "Bullish Reaction | Surge +5.6% | Vol Explosion 3.1x | Strong Momentum +8.8%",
+        "CMP": 3907.6
+      },
+      {
+        "Date": "2026-07-22",
+        "Symbol": "TATACOMM",
+        "Signals": "Bearish Reaction | Selloff -3.2% | Vol Explosion 12.6x",
+        "CMP": 1761.4
+      }
+    ]
   }
 ]
