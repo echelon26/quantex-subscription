@@ -2540,5 +2540,139 @@
         "CMP": 1761.4
       }
     ]
+  },
+  {
+    "scan_date": "2026-07-23",
+    "scan_time": "2026-07-23T13:39:41.687257",
+    "stocks_scanned": 500,
+    "results_found": 21,
+    "results": [
+      {
+        "Date": "2026-07-21",
+        "Symbol": "ADANIENSOL",
+        "Signals": "Flat +0.7% | High Vol 1.8x",
+        "CMP": 1683.8
+      },
+      {
+        "Date": "2026-07-22",
+        "Symbol": "ADANIPOWER",
+        "Signals": "Flat -1.6% | High Vol 1.5x",
+        "CMP": 212.23
+      },
+      {
+        "Date": "2026-07-21",
+        "Symbol": "ATGL",
+        "Signals": "Flat -1.8%",
+        "CMP": 662.6
+      },
+      {
+        "Date": "2026-07-21",
+        "Symbol": "BANDHANBNK",
+        "Signals": "Flat -1.2% | Heavy Selling -21.5%",
+        "CMP": 165.84
+      },
+      {
+        "Date": "2026-07-22",
+        "Symbol": "BPCL",
+        "Signals": "Flat -1.7%",
+        "CMP": 309.85
+      },
+      {
+        "Date": "2026-07-23",
+        "Symbol": "CIPLA",
+        "Signals": "Flat -1.6% | Vol Explosion 3.7x",
+        "CMP": 1393.0
+      },
+      {
+        "Date": "2026-07-23",
+        "Symbol": "COROMANDEL",
+        "Signals": "Flat -0.8% | Vol Surge 2.6x",
+        "CMP": 2022.9
+      },
+      {
+        "Date": "2026-07-23",
+        "Symbol": "CYIENT",
+        "Signals": "Flat -1.5%",
+        "CMP": 830.65
+      },
+      {
+        "Date": "2026-07-22",
+        "Symbol": "IIFL",
+        "Signals": "Flat -0.3%",
+        "CMP": 568.75
+      },
+      {
+        "Date": "2026-07-23",
+        "Symbol": "IEX",
+        "Signals": "Flat -1.2%",
+        "CMP": 121.94
+      },
+      {
+        "Date": "2026-07-21",
+        "Symbol": "INDHOTEL",
+        "Signals": "Muted Reaction | Flat +0.9%",
+        "CMP": 724.05
+      },
+      {
+        "Date": "2026-07-23",
+        "Symbol": "INFY",
+        "Signals": "Flat -0.4% | High Vol 1.5x",
+        "CMP": 1047.4
+      },
+      {
+        "Date": "2026-07-23",
+        "Symbol": "INDIGO",
+        "Signals": "Flat -1.8%",
+        "CMP": 5023.5
+      },
+      {
+        "Date": "2026-07-20",
+        "Symbol": "JKCEMENT",
+        "Signals": "Gap Down -2.4% | Flat +1.2%",
+        "CMP": 5668.0
+      },
+      {
+        "Date": "2026-07-21",
+        "Symbol": "M&MFIN",
+        "Signals": "Bullish Reaction | Surge +8.5% | Vol Explosion 12.8x | Strong Momentum +14.8%",
+        "CMP": 370.35
+      },
+      {
+        "Date": "2026-07-23",
+        "Symbol": "MPHASIS",
+        "Signals": "Flat -1.8%",
+        "CMP": 2232.4
+      },
+      {
+        "Date": "2026-07-20",
+        "Symbol": "PAYTM",
+        "Signals": "Muted Reaction | Flat -0.0%",
+        "CMP": 1256.8
+      },
+      {
+        "Date": "2026-07-23",
+        "Symbol": "PVRINOX",
+        "Signals": "Flat +1.5% | Vol Explosion 12.5x",
+        "CMP": 1007.4
+      },
+      {
+        "Date": "2026-07-22",
+        "Symbol": "SRF",
+        "Signals": "Selloff -2.4% | Vol Surge 2.7x | Heavy Selling -10.8%",
+        "CMP": 2622.7
+      },
+      {
+        "Date": "2026-07-22",
+        "Symbol": "SCHAEFFLER",
+        "Signals": "Muted Reaction | Flat +0.5%",
+        "CMP": 4093.2
+      },
+      {
+        "Date": "2026-07-23",
+        "Symbol": "SONACOMS",
+        "Signals": "Flat -0.9%",
+        "CMP": 719.75
+      }
+    ]
   }
 ]
