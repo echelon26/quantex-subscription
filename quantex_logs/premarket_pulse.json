@@ -1838,5 +1838,31 @@
       "GALLANTT"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-22.pdf"
+  },
+  {
+    "date": "Thu, 23 Jul 2026",
+    "fear_greed": 57.8,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23996.25,
+    "nifty": 23996.25,
+    "sensex": 76755.05,
+    "bank_nifty": 57126.8,
+    "vix": 13.29,
+    "top_gainers": [
+      "KARURVYSYA",
+      "M&MFIN",
+      "FLUOROCHEM",
+      "DATAPATTNS",
+      "BAJAJ-AUTO"
+    ],
+    "top_losers": [
+      "BANDHANBNK",
+      "ABSLAMC",
+      "OFSS",
+      "PGEL",
+      "OLAELEC"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-23.pdf"
   }
 ]
