@@ -1864,5 +1864,31 @@
       "OLAELEC"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-23.pdf"
+  },
+  {
+    "date": "Fri, 24 Jul 2026",
+    "fear_greed": 54.0,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23869.6,
+    "nifty": 23869.6,
+    "sensex": 76391.39,
+    "bank_nifty": 56592.0,
+    "vix": 13.48,
+    "top_gainers": [
+      "NTPCGREEN",
+      "GRAPHITE",
+      "CRISIL",
+      "HEG",
+      "HEROMOTOCO"
+    ],
+    "top_losers": [
+      "CIEINDIA",
+      "SRF",
+      "OFSS",
+      "ADANIGREEN",
+      "INDUSINDBK"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-24.pdf"
   }
 ]
