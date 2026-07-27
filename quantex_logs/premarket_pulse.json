@@ -1890,5 +1890,31 @@
       "INDUSINDBK"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-24.pdf"
+  },
+  {
+    "date": "Mon, 27 Jul 2026",
+    "fear_greed": 50.0,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23767.45,
+    "nifty": 23767.45,
+    "sensex": 76059.77,
+    "bank_nifty": 56693.5,
+    "vix": 14.03,
+    "top_gainers": [
+      "ACE",
+      "KPITTECH",
+      "PVRINOX",
+      "RRKABEL",
+      "ATUL"
+    ],
+    "top_losers": [
+      "GODIGIT",
+      "MOTILALOFS",
+      "SYRMA",
+      "ACUTAAS",
+      "CEMPRO"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-27.pdf"
   }
 ]
