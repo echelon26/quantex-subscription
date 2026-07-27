@@ -2886,5 +2886,133 @@
         "CMP": 173.2
       }
     ]
+  },
+  {
+    "scan_date": "2026-07-27",
+    "scan_time": "2026-07-27T13:37:27.787971",
+    "stocks_scanned": 500,
+    "results_found": 20,
+    "results": [
+      {
+        "Date": "2026-07-24",
+        "Symbol": "ACC",
+        "Signals": "Flat +0.5% | Vol Surge 2.9x",
+        "CMP": 1358.1
+      },
+      {
+        "Date": "2026-07-24",
+        "Symbol": "BANKBARODA",
+        "Signals": "Flat +1.4%",
+        "CMP": 244.0
+      },
+      {
+        "Date": "2026-07-27",
+        "Symbol": "BEL",
+        "Signals": "Flat +0.5%",
+        "CMP": 407.15
+      },
+      {
+        "Date": "2026-07-24",
+        "Symbol": "CGPOWER",
+        "Signals": "Gap Down -2.7% | Flat -1.8% | Vol Explosion 3.4x",
+        "CMP": 877.3
+      },
+      {
+        "Date": "2026-07-27",
+        "Symbol": "CANBK",
+        "Signals": "Flat +1.3% | High Vol 1.8x",
+        "CMP": 127.26
+      },
+      {
+        "Date": "2026-07-27",
+        "Symbol": "COALINDIA",
+        "Signals": "Muted Reaction | Flat +0.0%",
+        "CMP": 427.5
+      },
+      {
+        "Date": "2026-07-27",
+        "Symbol": "COFORGE",
+        "Signals": "Rally +2.9% | Vol Surge 2.3x",
+        "CMP": 1528.4
+      },
+      {
+        "Date": "2026-07-24",
+        "Symbol": "CONCOR",
+        "Signals": "Muted Reaction | Flat -0.6%",
+        "CMP": 510.5
+      },
+      {
+        "Date": "2026-07-24",
+        "Symbol": "LALPATHLAB",
+        "Signals": "Bullish Reaction | Rally +4.3% | Vol Explosion 8.1x | Strong Momentum +8.3%",
+        "CMP": 1827.2
+      },
+      {
+        "Date": "2026-07-27",
+        "Symbol": "INDUSTOWER",
+        "Signals": "Flat -1.8%",
+        "CMP": 387.4
+      },
+      {
+        "Date": "2026-07-24",
+        "Symbol": "JINDALSTEL",
+        "Signals": "Muted Reaction | Flat -0.6%",
+        "CMP": 1065.7
+      },
+      {
+        "Date": "2026-07-24",
+        "Symbol": "LODHA",
+        "Signals": "Muted Reaction | Flat -0.2%",
+        "CMP": 1198.7
+      },
+      {
+        "Date": "2026-07-24",
+        "Symbol": "NTPC",
+        "Signals": "Muted Reaction | Flat -0.4%",
+        "CMP": 350.8
+      },
+      {
+        "Date": "2026-07-24",
+        "Symbol": "SHRIRAMFIN",
+        "Signals": "Selloff -2.0% | Vol Surge 2.5x",
+        "CMP": 1038.2
+      },
+      {
+        "Date": "2026-07-24",
+        "Symbol": "SAIL",
+        "Signals": "Muted Reaction | Flat +0.3%",
+        "CMP": 162.62
+      },
+      {
+        "Date": "2026-07-27",
+        "Symbol": "TATACHEM",
+        "Signals": "Flat +2.0%",
+        "CMP": 698.9
+      },
+      {
+        "Date": "2026-07-24",
+        "Symbol": "TATACONSUM",
+        "Signals": "Flat -1.8%",
+        "CMP": 1107.4
+      },
+      {
+        "Date": "2026-07-27",
+        "Symbol": "TATAPOWER",
+        "Signals": "Muted Reaction | Flat +0.8%",
+        "CMP": 377.35
+      },
+      {
+        "Date": "2026-07-27",
+        "Symbol": "TEJASNET",
+        "Signals": "Bullish Reaction | Rally +3.6% | High Vol 1.7x",
+        "CMP": 513.05
+      },
+      {
+        "Date": "2026-07-24",
+        "Symbol": "NIACL",
+        "Signals": "Muted Reaction | Flat +0.1%",
+        "CMP": 165.57
+      }
+    ]
   }
 ]
