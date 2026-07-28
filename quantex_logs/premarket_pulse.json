@@ -1916,5 +1916,31 @@
       "CEMPRO"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-27.pdf"
+  },
+  {
+    "date": "Tue, 28 Jul 2026",
+    "fear_greed": 56.9,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23995.95,
+    "nifty": 23995.95,
+    "sensex": 76835.78,
+    "bank_nifty": 57087.2,
+    "vix": 14.03,
+    "top_gainers": [
+      "KFINTECH",
+      "RKFORGE",
+      "SAGILITY",
+      "LAURUSLABS",
+      "CONCOR"
+    ],
+    "top_losers": [
+      "SYRMA",
+      "CEMPRO",
+      "ZENTEC",
+      "NIACL",
+      "MRPL"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-28.pdf"
   }
 ]
