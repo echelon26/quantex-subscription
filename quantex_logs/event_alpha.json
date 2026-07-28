@@ -3014,5 +3014,115 @@
         "CMP": 165.57
       }
     ]
+  },
+  {
+    "scan_date": "2026-07-28",
+    "scan_time": "2026-07-28T13:47:02.989513",
+    "stocks_scanned": 500,
+    "results_found": 17,
+    "results": [
+      {
+        "Date": "2026-07-28",
+        "Symbol": "AMBUJACEM",
+        "Signals": "Flat -1.1% | Vol Explosion 4.1x",
+        "CMP": 426.0
+      },
+      {
+        "Date": "2026-07-27",
+        "Symbol": "BEL",
+        "Signals": "Flat +0.5%",
+        "CMP": 389.0
+      },
+      {
+        "Date": "2026-07-28",
+        "Symbol": "BSOFT",
+        "Signals": "Rally +2.2% | Vol Explosion 5.3x",
+        "CMP": 299.9
+      },
+      {
+        "Date": "2026-07-27",
+        "Symbol": "CANBK",
+        "Signals": "Flat +1.3% | High Vol 1.8x",
+        "CMP": 124.24
+      },
+      {
+        "Date": "2026-07-28",
+        "Symbol": "CHOLAFIN",
+        "Signals": "Flat -1.8% | Vol Surge 2.5x",
+        "CMP": 1753.0
+      },
+      {
+        "Date": "2026-07-28",
+        "Symbol": "CUB",
+        "Signals": "Bullish Reaction | Surge +7.5% | Vol Explosion 9.7x",
+        "CMP": 238.14
+      },
+      {
+        "Date": "2026-07-27",
+        "Symbol": "COALINDIA",
+        "Signals": "Muted Reaction | Flat +0.0%",
+        "CMP": 410.15
+      },
+      {
+        "Date": "2026-07-28",
+        "Symbol": "HINDUNILVR",
+        "Signals": "Bearish Reaction | Decline -7.0% | Vol Explosion 10.0x",
+        "CMP": 2022.7
+      },
+      {
+        "Date": "2026-07-28",
+        "Symbol": "LT",
+        "Signals": "Muted Reaction | Flat +0.7%",
+        "CMP": 3832.0
+      },
+      {
+        "Date": "2026-07-28",
+        "Symbol": "PFIZER",
+        "Signals": "Flat +0.4% | Vol Explosion 5.3x",
+        "CMP": 4710.7
+      },
+      {
+        "Date": "2026-07-28",
+        "Symbol": "PHOENIXLTD",
+        "Signals": "Muted Reaction | Flat -0.7%",
+        "CMP": 2023.2
+      },
+      {
+        "Date": "2026-07-28",
+        "Symbol": "RADICO",
+        "Signals": "Bullish Reaction | Rally +3.4% | Vol Explosion 5.0x",
+        "CMP": 4289.7
+      },
+      {
+        "Date": "2026-07-28",
+        "Symbol": "SUPREMEIND",
+        "Signals": "Flat +1.7% | Vol Explosion 5.3x",
+        "CMP": 3395.4
+      },
+      {
+        "Date": "2026-07-28",
+        "Symbol": "SUZLON",
+        "Signals": "Bearish Reaction | Decline -9.7% | Vol Explosion 5.0x",
+        "CMP": 48.02
+      },
+      {
+        "Date": "2026-07-27",
+        "Symbol": "TATACHEM",
+        "Signals": "Flat +2.0%",
+        "CMP": 674.3
+      },
+      {
+        "Date": "2026-07-27",
+        "Symbol": "TATAPOWER",
+        "Signals": "Muted Reaction | Flat +0.8%",
+        "CMP": 371.35
+      },
+      {
+        "Date": "2026-07-28",
+        "Symbol": "VBL",
+        "Signals": "Bearish Reaction | Decline -7.4% | Vol Explosion 9.9x",
+        "CMP": 430.0
+      }
+    ]
   }
 ]
