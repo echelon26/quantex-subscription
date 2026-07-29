@@ -1942,5 +1942,31 @@
       "MRPL"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-28.pdf"
+  },
+  {
+    "date": "Wed, 29 Jul 2026",
+    "fear_greed": 60.1,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 23985.35,
+    "nifty": 23985.35,
+    "sensex": 76765.92,
+    "bank_nifty": 56755.6,
+    "vix": 12.56,
+    "top_gainers": [
+      "KFINTECH",
+      "COFORGE",
+      "LODHA",
+      "KALYANKJIL",
+      "RKFORGE"
+    ],
+    "top_losers": [
+      "SUZLON",
+      "GRAVITA",
+      "HINDUNILVR",
+      "CGCL",
+      "NUVAMA"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-29.pdf"
   }
 ]
