@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-07-29 at 09:48 AM IST
+Regime: BULLISH (risk-on) | VIX: 12.07 | Min Score: 60
+Qualified: 21 stocks | Top 10 below
+============================================================
+
+1. KAYNES -- Score: 82/100
+   Entry: 3656.20 | SL: 3461.40 | T1: 4045.81 | T2: 4240.61 | RR: 1:2.0
+   Tr:14 Mo:18 Vo:17 PA:13 RS:12 SM:8 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX Rising, RSI 66 (Power Zone), MACD Fresh Crossover, Vol Surge 4.7x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: ELECTRICALS, Long Buildup (OI: 3,757,650), High F&O Activity, Delivery 32% (Weak — mostly intraday)
+
+2. DIVISLAB -- Score: 74/100
+   Entry: 7778.00 | SL: 7526.17 | T1: 8231.29 | T2: 8457.94 | RR: 1:1.8
+   Tr:20 Mo:6 Vo:17 PA:13 RS:8 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 42 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 2.3x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 3,867,800), High F&O Activity, Delivery 56% (Solid)
+
+3. INFY -- Score: 70/100
+   Entry: 1156.30 | SL: 1104.92 | T1: 1233.37 | T2: 1247.66 | RR: 1:1.5
+   Tr:8 Mo:15 Vo:17 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 64 (Power Zone), MACD Bullish, Vol Surge 2.1x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Long Buildup (OI: 98,362,800), High F&O Activity, Delivery 53% (Solid)
+
+4. TVSMOTOR -- Score: 69/100
+   Entry: 4079.20 | SL: 3927.97 | T1: 4306.04 | T2: 4457.27 | RR: 1:1.5
+   Tr:16 Mo:10 Vo:15 PA:8 RS:10 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 28 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 12,059,250), High F&O Activity, Delivery 55% (Solid)
+
+5. FSL -- Score: 69/100
+   Entry: 293.65 | SL: 276.88 | T1: 318.81 | T2: 335.58 | RR: 1:1.5
+   Tr:18 Mo:10 Vo:17 PA:8 RS:8 SM:8 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX 25 (Trending), ADX Rising, MACD Bullish, Vol Surge 12.5x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 35% (Weak — mostly intraday)
+
+6. COFORGE -- Score: 68/100
+   Entry: 1708.80 | SL: 1618.34 | T1: 1844.50 | T2: 1896.58 | RR: 1:1.5
+   Tr:16 Mo:13 Vo:9 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX Rising, MACD Fresh Crossover, Vol Surge 2.2x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Long Buildup (OI: 15,693,050), High F&O Activity, Delivery 47%
+
+7. SBILIFE -- Score: 67/100
+   Entry: 1895.00 | SL: 1836.90 | T1: 2011.19 | T2: 2069.29 | RR: 1:2.0
+   Tr:18 Mo:15 Vo:8 PA:8 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 23 (Trending), ADX Rising, RSI 63 (Power Zone), MACD Bullish, 20-Day Breakout, Strong RS vs Nifty, Long Buildup (OI: 7,357,125), High F&O Activity, Delivery 56% (Solid)
+
+8. PIDILITIND -- Score: 67/100
+   Entry: 1630.20 | SL: 1578.99 | T1: 1707.02 | T2: 1758.23 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:8 PA:4 RS:7 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 27 (Strong Trend), RSI 62 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), Near Breakout, Outperforming Nifty, Long Buildup (OI: 7,714,000), High F&O Activity, Delivery 63% (Strong Accumulation)
+
+9. MANAPPURAM -- Score: 67/100
+   Entry: 371.50 | SL: 355.95 | T1: 394.82 | T2: 399.26 | RR: 1:1.5
+   Tr:16 Mo:10 Vo:12 PA:13 RS:8 SM:8 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Long Buildup (OI: 55,398,000), High F&O Activity, Delivery 38% (Weak — mostly intraday)
+
+10. ASIANPAINT -- Score: 66/100
+   Entry: 2755.90 | SL: 2669.37 | T1: 2885.70 | T2: 2894.49 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:9 PA:4 RS:9 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 61 (Power Zone), MACD Fresh Crossover, Vol Surge 3.8x, Near Breakout, Outperforming Nifty, Sector Top 3: ELECTRICALS, Long Buildup (OI: 8,076,250), High F&O Activity, Delivery 55% (Solid)
+
+
+────────────────────────────────────────────────────────────
+
