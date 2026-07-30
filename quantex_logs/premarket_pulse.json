@@ -1968,5 +1968,31 @@
       "NUVAMA"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-29.pdf"
+  },
+  {
+    "date": "Thu, 30 Jul 2026",
+    "fear_greed": 69.1,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24250.2,
+    "nifty": 24250.2,
+    "sensex": 77654.6,
+    "bank_nifty": 57205.9,
+    "vix": 12.01,
+    "top_gainers": [
+      "PCBL",
+      "KAYNES",
+      "PARADEEP",
+      "FSL",
+      "AFFLE"
+    ],
+    "top_losers": [
+      "J&KBANK",
+      "PHOENIXLTD",
+      "PINELABS",
+      "HSCL",
+      "DATAPATTNS"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-30.pdf"
   }
 ]
