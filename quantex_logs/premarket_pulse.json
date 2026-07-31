@@ -1994,5 +1994,31 @@
       "DATAPATTNS"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-30.pdf"
+  },
+  {
+    "date": "Fri, 31 Jul 2026",
+    "fear_greed": 71.6,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24317.15,
+    "nifty": 24317.15,
+    "sensex": 77928.15,
+    "bank_nifty": 57147.5,
+    "vix": 12.16,
+    "top_gainers": [
+      "BALKRISIND",
+      "REDINGTON",
+      "HONAUT",
+      "CROMPTON",
+      "SONATSOFTW"
+    ],
+    "top_losers": [
+      "J&KBANK",
+      "PCBL",
+      "KPITTECH",
+      "HEXT",
+      "PFOCUS"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-31.pdf"
   }
 ]
