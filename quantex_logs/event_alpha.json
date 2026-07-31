@@ -3428,5 +3428,205 @@
         "CMP": 375.95
       }
     ]
+  },
+  {
+    "scan_date": "2026-07-31",
+    "scan_time": "2026-07-31T13:37:57.353520",
+    "stocks_scanned": 500,
+    "results_found": 32,
+    "results": [
+      {
+        "Date": "2026-07-31",
+        "Symbol": "ABB",
+        "Signals": "Muted Reaction | Flat -0.1%",
+        "CMP": 7284.5
+      },
+      {
+        "Date": "2026-07-30",
+        "Symbol": "AARTIIND",
+        "Signals": "Flat -1.1%",
+        "CMP": 489.1
+      },
+      {
+        "Date": "2026-07-29",
+        "Symbol": "ADANIPORTS",
+        "Signals": "Bearish Reaction | Selloff -3.1% | Vol Surge 2.6x",
+        "CMP": 1696.5
+      },
+      {
+        "Date": "2026-07-31",
+        "Symbol": "ABCAPITAL",
+        "Signals": "Rally +2.6% | Vol Explosion 4.7x",
+        "CMP": 404.3
+      },
+      {
+        "Date": "2026-07-28",
+        "Symbol": "AMBUJACEM",
+        "Signals": "Flat -1.1% | Vol Explosion 4.1x",
+        "CMP": 432.2
+      },
+      {
+        "Date": "2026-07-30",
+        "Symbol": "BAJFINANCE",
+        "Signals": "Muted Reaction | Flat -0.1% | Strong Momentum +8.2%",
+        "CMP": 1141.2
+      },
+      {
+        "Date": "2026-07-31",
+        "Symbol": "BAJAJFINSV",
+        "Signals": "Bullish Reaction | Surge +6.3% | Vol Explosion 3.5x",
+        "CMP": 2029.1
+      },
+      {
+        "Date": "2026-07-31",
+        "Symbol": "BAJAJHLDNG",
+        "Signals": "Bullish Reaction | Rally +3.4% | High Vol 1.7x",
+        "CMP": 11343.0
+      },
+      {
+        "Date": "2026-07-30",
+        "Symbol": "CHAMBLFERT",
+        "Signals": "Flat -1.2% | High Vol 1.7x",
+        "CMP": 438.9
+      },
+      {
+        "Date": "2026-07-28",
+        "Symbol": "CHOLAFIN",
+        "Signals": "Flat -1.8% | Vol Surge 2.5x",
+        "CMP": 1849.9
+      },
+      {
+        "Date": "2026-07-28",
+        "Symbol": "CUB",
+        "Signals": "Bullish Reaction | Surge +7.5% | Vol Explosion 9.7x",
+        "CMP": 206.5
+      },
+      {
+        "Date": "2026-07-31",
+        "Symbol": "DIXON",
+        "Signals": "Selloff -2.0% | Vol Surge 2.1x",
+        "CMP": 14049.0
+      },
+      {
+        "Date": "2026-07-29",
+        "Symbol": "EICHERMOT",
+        "Signals": "Muted Reaction | Flat -0.7%",
+        "CMP": 7833.5
+      },
+      {
+        "Date": "2026-07-30",
+        "Symbol": "EXIDEIND",
+        "Signals": "Bullish Reaction | Rally +3.9% | Vol Explosion 5.1x",
+        "CMP": 449.8
+      },
+      {
+        "Date": "2026-07-31",
+        "Symbol": "GAIL",
+        "Signals": "Bullish Reaction | Rally +4.5% | Vol Explosion 4.1x",
+        "CMP": 181.44
+      },
+      {
+        "Date": "2026-07-31",
+        "Symbol": "GLENMARK",
+        "Signals": "Flat +2.0%",
+        "CMP": 2233.9
+      },
+      {
+        "Date": "2026-07-31",
+        "Symbol": "ITC",
+        "Signals": "Flat -1.4%",
+        "CMP": 281.0
+      },
+      {
+        "Date": "2026-07-31",
+        "Symbol": "IOC",
+        "Signals": "Muted Reaction | Flat +0.2%",
+        "CMP": 140.17
+      },
+      {
+        "Date": "2026-07-29",
+        "Symbol": "KPITTECH",
+        "Signals": "Bullish Reaction | Surge +6.0% | Vol Explosion 5.3x",
+        "CMP": 598.4
+      },
+      {
+        "Date": "2026-07-31",
+        "Symbol": "KAJARIACER",
+        "Signals": "Flat +0.5% | Vol Explosion 4.6x",
+        "CMP": 1198.3
+      },
+      {
+        "Date": "2026-07-30",
+        "Symbol": "M&M",
+        "Signals": "Flat +1.9% | High Vol 1.9x",
+        "CMP": 3398.5
+      },
+      {
+        "Date": "2026-07-31",
+        "Symbol": "MARUTI",
+        "Signals": "Muted Reaction | Flat +0.3%",
+        "CMP": 14234.0
+      },
+      {
+        "Date": "2026-07-31",
+        "Symbol": "NATIONALUM",
+        "Signals": "Flat +0.7% | High Vol 1.7x",
+        "CMP": 350.05
+      },
+      {
+        "Date": "2026-07-29",
+        "Symbol": "PPLPHARMA",
+        "Signals": "Flat +1.2%",
+        "CMP": 195.61
+      },
+      {
+        "Date": "2026-07-29",
+        "Symbol": "PRESTIGE",
+        "Signals": "Flat -0.6%",
+        "CMP": 1616.2
+      },
+      {
+        "Date": "2026-07-29",
+        "Symbol": "REDINGTON",
+        "Signals": "Bullish Reaction | Rally +3.4% | High Vol 1.8x | Strong Momentum +15.7%",
+        "CMP": 321.65
+      },
+      {
+        "Date": "2026-07-31",
+        "Symbol": "SHREECEM",
+        "Signals": "Flat -1.5% | Vol Explosion 8.8x",
+        "CMP": 26055.0
+      },
+      {
+        "Date": "2026-07-31",
+        "Symbol": "SUNPHARMA",
+        "Signals": "Flat -0.5% | High Vol 1.5x",
+        "CMP": 1990.5
+      },
+      {
+        "Date": "2026-07-29",
+        "Symbol": "SYNGENE",
+        "Signals": "Flat +1.2% | High Vol 1.7x",
+        "CMP": 385.9
+      },
+      {
+        "Date": "2026-07-30",
+        "Symbol": "TATASTEEL",
+        "Signals": "Muted Reaction | Flat -0.2%",
+        "CMP": 189.69
+      },
+      {
+        "Date": "2026-07-30",
+        "Symbol": "THERMAX",
+        "Signals": "Selloff -2.9%",
+        "CMP": 4306.0
+      },
+      {
+        "Date": "2026-07-30",
+        "Symbol": "TORNTPHARM",
+        "Signals": "Flat -0.1% | High Vol 1.7x",
+        "CMP": 5122.8
+      }
+    ]
   }
 ]
