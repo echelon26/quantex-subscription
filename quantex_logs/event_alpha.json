@@ -3628,5 +3628,109 @@
         "CMP": 5122.8
       }
     ]
+  },
+  {
+    "scan_date": "2026-08-03",
+    "scan_time": "2026-08-03T13:35:47.471067",
+    "stocks_scanned": 500,
+    "results_found": 16,
+    "results": [
+      {
+        "Date": "2026-07-31",
+        "Symbol": "ABB",
+        "Signals": "Muted Reaction | Flat -0.1%",
+        "CMP": 7601.0
+      },
+      {
+        "Date": "2026-07-31",
+        "Symbol": "BAJAJFINSV",
+        "Signals": "Bullish Reaction | Surge +6.3% | Vol Explosion 3.5x | Strong Momentum +9.8%",
+        "CMP": 2096.0
+      },
+      {
+        "Date": "2026-07-31",
+        "Symbol": "BAJAJHLDNG",
+        "Signals": "Bullish Reaction | Rally +3.4% | High Vol 1.7x",
+        "CMP": 11599.0
+      },
+      {
+        "Date": "2026-08-03",
+        "Symbol": "CLEAN",
+        "Signals": "Bullish Reaction | Gap Up +3.2% | Rally +4.1% | Vol Explosion 23.1x",
+        "CMP": 764.15
+      },
+      {
+        "Date": "2026-08-03",
+        "Symbol": "CAMS",
+        "Signals": "Flat -0.6% | Vol Surge 2.1x",
+        "CMP": 791.0
+      },
+      {
+        "Date": "2026-08-03",
+        "Symbol": "DLF",
+        "Signals": "Flat +1.4%",
+        "CMP": 668.55
+      },
+      {
+        "Date": "2026-08-03",
+        "Symbol": "ESCORTS",
+        "Signals": "Flat +1.6% | Vol Explosion 4.3x",
+        "CMP": 3135.5
+      },
+      {
+        "Date": "2026-07-31",
+        "Symbol": "GLENMARK",
+        "Signals": "Flat +2.0%",
+        "CMP": 2230.0
+      },
+      {
+        "Date": "2026-08-03",
+        "Symbol": "JSL",
+        "Signals": "Muted Reaction | Flat -0.4%",
+        "CMP": 731.7
+      },
+      {
+        "Date": "2026-08-03",
+        "Symbol": "KEI",
+        "Signals": "Muted Reaction | Flat +0.5%",
+        "CMP": 5023.3
+      },
+      {
+        "Date": "2026-08-03",
+        "Symbol": "KIMS",
+        "Signals": "Flat +2.0%",
+        "CMP": 820.6
+      },
+      {
+        "Date": "2026-07-31",
+        "Symbol": "NATIONALUM",
+        "Signals": "Flat +0.7% | High Vol 1.7x",
+        "CMP": 369.0
+      },
+      {
+        "Date": "2026-07-31",
+        "Symbol": "SUNPHARMA",
+        "Signals": "Flat -0.5% | High Vol 1.5x",
+        "CMP": 1963.5
+      },
+      {
+        "Date": "2026-08-03",
+        "Symbol": "SUNDARMFIN",
+        "Signals": "Bullish Reaction | Rally +3.5% | Vol Explosion 5.2x",
+        "CMP": 4828.7
+      },
+      {
+        "Date": "2026-08-03",
+        "Symbol": "TORNTPOWER",
+        "Signals": "Flat -1.5%",
+        "CMP": 1391.7
+      },
+      {
+        "Date": "2026-08-03",
+        "Symbol": "UPL",
+        "Signals": "Rally +2.6% | High Vol 1.6x",
+        "CMP": 620.0
+      }
+    ]
   }
 ]
