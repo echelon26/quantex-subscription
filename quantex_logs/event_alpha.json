@@ -3732,5 +3732,133 @@
         "CMP": 620.0
       }
     ]
+  },
+  {
+    "scan_date": "2026-08-04",
+    "scan_time": "2026-08-04T13:38:00.329750",
+    "stocks_scanned": 500,
+    "results_found": 20,
+    "results": [
+      {
+        "Date": "2026-08-04",
+        "Symbol": "BHARTIARTL",
+        "Signals": "Muted Reaction | Flat -0.0%",
+        "CMP": 1970.1
+      },
+      {
+        "Date": "2026-08-04",
+        "Symbol": "CASTROLIND",
+        "Signals": "Flat +0.7% | Vol Explosion 3.0x",
+        "CMP": 187.06
+      },
+      {
+        "Date": "2026-08-03",
+        "Symbol": "CLEAN",
+        "Signals": "Bullish Reaction | Gap Up +3.9% | Rally +4.8% | Vol Explosion 25.7x",
+        "CMP": 774.55
+      },
+      {
+        "Date": "2026-08-04",
+        "Symbol": "DEEPAKNTR",
+        "Signals": "Flat +0.2% | Vol Surge 2.7x",
+        "CMP": 1717.7
+      },
+      {
+        "Date": "2026-08-04",
+        "Symbol": "EMAMILTD",
+        "Signals": "Selloff -2.9% | Vol Surge 2.8x",
+        "CMP": 391.8
+      },
+      {
+        "Date": "2026-08-04",
+        "Symbol": "NYKAA",
+        "Signals": "Muted Reaction | Flat -0.7%",
+        "CMP": 342.5
+      },
+      {
+        "Date": "2026-08-04",
+        "Symbol": "GODREJPROP",
+        "Signals": "Selloff -2.7% | High Vol 1.9x",
+        "CMP": 2033.6
+      },
+      {
+        "Date": "2026-08-03",
+        "Symbol": "JSL",
+        "Signals": "Muted Reaction | Flat -0.8%",
+        "CMP": 735.65
+      },
+      {
+        "Date": "2026-08-03",
+        "Symbol": "KIMS",
+        "Signals": "Flat -1.4% | High Vol 1.7x",
+        "CMP": 795.9
+      },
+      {
+        "Date": "2026-08-04",
+        "Symbol": "MARICO",
+        "Signals": "Muted Reaction | Flat -0.7%",
+        "CMP": 875.0
+      },
+      {
+        "Date": "2026-08-04",
+        "Symbol": "MSUMI",
+        "Signals": "Bearish Reaction | Selloff -4.2% | Vol Explosion 4.0x",
+        "CMP": 39.75
+      },
+      {
+        "Date": "2026-08-04",
+        "Symbol": "MCX",
+        "Signals": "Flat +1.4%",
+        "CMP": 2680.0
+      },
+      {
+        "Date": "2026-08-04",
+        "Symbol": "NHPC",
+        "Signals": "Flat +1.6%",
+        "CMP": 80.5
+      },
+      {
+        "Date": "2026-08-04",
+        "Symbol": "ONGC",
+        "Signals": "Muted Reaction | Flat +0.0%",
+        "CMP": 242.0
+      },
+      {
+        "Date": "2026-08-04",
+        "Symbol": "PIDILITIND",
+        "Signals": "Flat -1.4% | Vol Surge 2.9x",
+        "CMP": 1620.0
+      },
+      {
+        "Date": "2026-08-04",
+        "Symbol": "TIMKEN",
+        "Signals": "Bullish Reaction | Gap Up +4.5% | Rally +4.4% | Vol Surge 2.8x",
+        "CMP": 3231.9
+      },
+      {
+        "Date": "2026-08-03",
+        "Symbol": "TORNTPOWER",
+        "Signals": "Selloff -2.2%",
+        "CMP": 1341.0
+      },
+      {
+        "Date": "2026-08-04",
+        "Symbol": "UNOMINDA",
+        "Signals": "Flat +1.4% | Vol Explosion 3.1x",
+        "CMP": 1227.0
+      },
+      {
+        "Date": "2026-08-03",
+        "Symbol": "UPL",
+        "Signals": "Rally +2.6% | High Vol 1.6x",
+        "CMP": 581.9
+      },
+      {
+        "Date": "2026-08-04",
+        "Symbol": "UBL",
+        "Signals": "Muted Reaction | Flat -0.1%",
+        "CMP": 1434.1
+      }
+    ]
   }
 ]
