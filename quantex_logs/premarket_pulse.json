@@ -2046,5 +2046,31 @@
       "ABDL"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-03.pdf"
+  },
+  {
+    "date": "Tue, 04 Aug 2026",
+    "fear_greed": 73.5,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24383.6,
+    "nifty": 24383.6,
+    "sensex": 78094.64,
+    "bank_nifty": 57264.85,
+    "vix": 11.76,
+    "top_gainers": [
+      "BAJFINANCE",
+      "HYUNDAI",
+      "NETWEB",
+      "BALKRISIND",
+      "CONCORDBIO"
+    ],
+    "top_losers": [
+      "PFOCUS",
+      "APTUS",
+      "DEEPAKFERT",
+      "SAGILITY",
+      "SAPPHIRE"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-04.pdf"
   }
 ]
