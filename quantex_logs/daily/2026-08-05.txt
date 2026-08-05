@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-08-05 at 09:48 AM IST
+Regime: BULLISH (risk-on) | VIX: 12.12 | Min Score: 60
+Qualified: 25 stocks | Top 10 below
+============================================================
+
+1. SHRIRAMFIN -- Score: 72/100
+   Entry: 1116.50 | SL: 1071.82 | T1: 1183.52 | T2: 1186.63 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:8 PA:8 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FINANCE, Institutional Accumulation, Delivery 55% (Solid)
+
+2. HINDZINC -- Score: 72/100
+   Entry: 597.00 | SL: 575.92 | T1: 625.63 | T2: 661.63 | RR: 1:1.4
+   Tr:14 Mo:6 Vo:17 PA:13 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX Rising, MACD Bullish, Vol Surge 3.7x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: METALS, Institutional Accumulation, Delivery 46%
+
+3. GNFC -- Score: 72/100
+   Entry: 539.25 | SL: 517.14 | T1: 572.41 | T2: 579.91 | RR: 1:1.5
+   Tr:10 Mo:15 Vo:17 PA:13 RS:8 SM:9 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 60 (Power Zone), MACD Bullish, Vol Surge 2.2x, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Consistent Buying, Delivery 52% (Solid)
+
+4. LUMAXTECH -- Score: 71/100
+   Entry: 1701.00 | SL: 1616.80 | T1: 1827.30 | T2: 1953.60 | RR: 1:1.5
+   Tr:14 Mo:10 Vo:17 PA:8 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 30 (Strong Trend), MACD Bullish, Vol Surge 2.1x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: AUTO, Institutional Accumulation, Delivery 46%
+
+5. HINDCOPPER -- Score: 70/100
+   Entry: 533.80 | SL: 510.60 | T1: 568.60 | T2: 578.93 | RR: 1:1.5
+   Tr:8 Mo:15 Vo:17 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 68 (Power Zone), MACD Bullish, Vol Surge 5.4x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: METALS, Institutional Accumulation, Delivery 44%
+
+6. EXIDEIND -- Score: 69/100
+   Entry: 467.95 | SL: 444.49 | T1: 514.87 | T2: 538.33 | RR: 1:2.0
+   Tr:20 Mo:18 Vo:4 PA:8 RS:9 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 36 (Strong Trend), ADX Rising, RSI 70 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Outperforming Nifty, Sector Top 3: AUTO, Institutional Accumulation, Delivery 48%
+
+7. DEVYANI -- Score: 69/100
+   Entry: 124.88 | SL: 118.14 | T1: 138.35 | T2: 145.09 | RR: 1:2.0
+   Tr:14 Mo:15 Vo:17 PA:8 RS:10 SM:5 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX 23 (Trending), ADX Rising, RSI 68 (Power Zone), MACD Bullish, Vol Surge 2.2x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying, Delivery 39% (Weak — mostly intraday)
+
+8. HINDALCO -- Score: 68/100
+   Entry: 1035.55 | SL: 1003.82 | T1: 1083.15 | T2: 1097.93 | RR: 1:1.5
+   Tr:10 Mo:15 Vo:8 PA:13 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 68 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Hammer, Strong RS vs Nifty, Sector Top 3: METALS, Institutional Accumulation, Delivery 59% (Solid)
+
+9. ENDURANCE -- Score: 68/100
+   Entry: 2900.00 | SL: 2773.40 | T1: 3089.89 | T2: 3090.17 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:8 PA:8 RS:12 SM:9 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: AUTO, Consistent Buying, Delivery 57% (Solid)
+
+10. WELCORP -- Score: 67/100
+   Entry: 1789.60 | SL: 1708.19 | T1: 1952.42 | T2: 2033.83 | RR: 1:2.0
+   Tr:16 Mo:13 Vo:8 PA:8 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 30 (Strong Trend), ADX Rising, MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: METALS, Institutional Accumulation, Delivery 51% (Solid)
+
+
+────────────────────────────────────────────────────────────
+
