@@ -3860,5 +3860,115 @@
         "CMP": 1434.1
       }
     ]
+  },
+  {
+    "scan_date": "2026-08-05",
+    "scan_time": "2026-08-05T13:37:35.910618",
+    "stocks_scanned": 500,
+    "results_found": 17,
+    "results": [
+      {
+        "Date": "2026-08-05",
+        "Symbol": "AUROPHARMA",
+        "Signals": "Flat +1.7%",
+        "CMP": 1613.4
+      },
+      {
+        "Date": "2026-08-05",
+        "Symbol": "BAYERCROP",
+        "Signals": "Muted Reaction | Flat +0.7%",
+        "CMP": 4302.9
+      },
+      {
+        "Date": "2026-08-05",
+        "Symbol": "BERGEPAINT",
+        "Signals": "Rally +2.9% | Vol Explosion 3.2x",
+        "CMP": 545.2
+      },
+      {
+        "Date": "2026-08-03",
+        "Symbol": "CLEAN",
+        "Signals": "Bullish Reaction | Gap Up +3.2% | Rally +4.1% | Vol Explosion 23.1x",
+        "CMP": 768.95
+      },
+      {
+        "Date": "2026-08-05",
+        "Symbol": "CUMMINSIND",
+        "Signals": "Flat -2.0% | High Vol 1.9x",
+        "CMP": 5440.0
+      },
+      {
+        "Date": "2026-08-04",
+        "Symbol": "DEEPAKNTR",
+        "Signals": "Flat +0.2% | Vol Surge 2.5x",
+        "CMP": 1736.7
+      },
+      {
+        "Date": "2026-08-04",
+        "Symbol": "EMAMILTD",
+        "Signals": "Bearish Reaction | Selloff -3.5% | Vol Surge 2.9x",
+        "CMP": 402.35
+      },
+      {
+        "Date": "2026-08-03",
+        "Symbol": "JSL",
+        "Signals": "Muted Reaction | Flat -0.4%",
+        "CMP": 744.5
+      },
+      {
+        "Date": "2026-08-03",
+        "Symbol": "KIMS",
+        "Signals": "Flat +2.0%",
+        "CMP": 802.15
+      },
+      {
+        "Date": "2026-08-04",
+        "Symbol": "MARICO",
+        "Signals": "Muted Reaction | Flat -0.7%",
+        "CMP": 852.0
+      },
+      {
+        "Date": "2026-08-05",
+        "Symbol": "NAVINFLUOR",
+        "Signals": "Muted Reaction | Flat -0.3%",
+        "CMP": 7609.5
+      },
+      {
+        "Date": "2026-08-04",
+        "Symbol": "ONGC",
+        "Signals": "Muted Reaction | Flat +0.0%",
+        "CMP": 240.2
+      },
+      {
+        "Date": "2026-08-05",
+        "Symbol": "POLICYBZR",
+        "Signals": "Flat +1.4%",
+        "CMP": 1620.0
+      },
+      {
+        "Date": "2026-08-05",
+        "Symbol": "POWERGRID",
+        "Signals": "Muted Reaction | Flat -0.6%",
+        "CMP": 281.75
+      },
+      {
+        "Date": "2026-08-03",
+        "Symbol": "TORNTPOWER",
+        "Signals": "Flat -1.5%",
+        "CMP": 1323.5
+      },
+      {
+        "Date": "2026-08-03",
+        "Symbol": "UPL",
+        "Signals": "Rally +2.6% | High Vol 1.6x",
+        "CMP": 577.25
+      },
+      {
+        "Date": "2026-08-05",
+        "Symbol": "WHIRLPOOL",
+        "Signals": "Flat -1.5% | Vol Surge 2.4x",
+        "CMP": 808.3
+      }
+    ]
   }
 ]
