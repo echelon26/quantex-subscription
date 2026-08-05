@@ -2072,5 +2072,31 @@
       "SAPPHIRE"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-04.pdf"
+  },
+  {
+    "date": "Wed, 05 Aug 2026",
+    "fear_greed": 83.4,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Extreme Greed",
+    "gift_nifty": 24774.3,
+    "nifty": 24774.3,
+    "sensex": 78639.03,
+    "bank_nifty": 58247.95,
+    "vix": 11.93,
+    "top_gainers": [
+      "ATHERENERG",
+      "KEI",
+      "AEGISLOG",
+      "BLUEDART",
+      "GRAPHITE"
+    ],
+    "top_losers": [
+      "LICI",
+      "JAINREC",
+      "UPL",
+      "PRESTIGE",
+      "OBEROIRLTY"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-05.pdf"
   }
 ]
