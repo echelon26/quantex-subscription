@@ -2098,5 +2098,31 @@
       "OBEROIRLTY"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-05.pdf"
+  },
+  {
+    "date": "Thu, 06 Aug 2026",
+    "fear_greed": 78.1,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Extreme Greed",
+    "gift_nifty": 24624.65,
+    "nifty": 24624.65,
+    "sensex": 78581.0,
+    "bank_nifty": 57739.95,
+    "vix": 12.06,
+    "top_gainers": [
+      "KEI",
+      "HINDCOPPER",
+      "OLAELEC",
+      "NIACL",
+      "ENGINERSIN"
+    ],
+    "top_losers": [
+      "MAPMYINDIA",
+      "ZEEL",
+      "PRESTIGE",
+      "AEGISVOPAK",
+      "NUVAMA"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-06.pdf"
   }
 ]
