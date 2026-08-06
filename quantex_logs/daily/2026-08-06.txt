@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-08-06 at 09:48 AM IST
+Regime: BULLISH (risk-on) | VIX: 12.17 | Min Score: 60
+Qualified: 32 stocks | Top 10 below
+============================================================
+
+1. SETFGOLD -- Score: 78/100
+   Entry: 126.38 | SL: 122.23 | T1: 132.61 | T2: 133.19 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:17 PA:13 RS:9 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 64 (Power Zone), MACD Bullish, Vol Surge 2.1x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Outperforming Nifty, Sector Top 3: GOLD_ETF, Consistent Buying, Delivery 60% (Strong Accumulation)
+
+2. EGOLD -- Score: 78/100
+   Entry: 148.00 | SL: 144.51 | T1: 153.24 | T2: 158.00 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:17 PA:13 RS:9 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 64 (Power Zone), MACD Bullish, Vol Surge 3.5x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Outperforming Nifty, Sector Top 3: GOLD_ETF, Institutional Accumulation, Delivery 77% (Strong Accumulation)
+
+3. RITES -- Score: 78/100
+   Entry: 232.00 | SL: 221.66 | T1: 247.51 | T2: 257.85 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:17 PA:8 RS:7 SM:8 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, RSI 62 (Power Zone), MACD Fresh Crossover, Vol Surge 2.4x, Strong Delivery (Close near High), 20-Day Breakout, Outperforming Nifty, Institutional Accumulation, Delivery 39% (Weak — mostly intraday)
+
+4. SBIN -- Score: 76/100
+   Entry: 1085.60 | SL: 1057.00 | T1: 1128.50 | T2: 1146.36 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:12 PA:13 RS:8 SM:9 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 69 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Consistent Buying, Delivery 53% (Solid)
+
+5. BSLGOLDETF -- Score: 76/100
+   Entry: 130.14 | SL: 127.03 | T1: 134.81 | T2: 139.74 | RR: 1:1.5
+   Tr:12 Mo:15 Vo:17 PA:13 RS:9 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 65 (Power Zone), MACD Bullish, Vol Surge 2.3x, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Outperforming Nifty, Sector Top 3: GOLD_ETF, Institutional Accumulation, Delivery 56% (Solid)
+
+6. KOLTEPATIL -- Score: 76/100
+   Entry: 432.60 | SL: 408.37 | T1: 468.95 | T2: 493.18 | RR: 1:1.5
+   Tr:18 Mo:10 Vo:17 PA:13 RS:8 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 20 (Trending), MACD Bullish, Vol Surge 7.6x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Institutional Accumulation, Delivery 53% (Solid)
+
+7. MIDHANI -- Score: 73/100
+   Entry: 434.20 | SL: 415.70 | T1: 461.95 | T2: 469.13 | RR: 1:1.5
+   Tr:10 Mo:18 Vo:13 PA:13 RS:9 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 64 (Power Zone), MACD Fresh Crossover, Vol Surge 5.9x, 20-Day Breakout, Bullish Engulfing, Outperforming Nifty, Sector Top 3: DEFENCE, Institutional Accumulation, Delivery 48%
+
+8. TATATECH -- Score: 72/100
+   Entry: 804.60 | SL: 765.44 | T1: 882.91 | T2: 922.07 | RR: 1:2.0
+   Tr:16 Mo:15 Vo:17 PA:13 RS:8 SM:3 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 67 (Power Zone), MACD Bullish, Vol Surge 6.3x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Delivery 41%
+
+9. IRCTC -- Score: 71/100
+   Entry: 520.15 | SL: 506.10 | T1: 541.23 | T2: 568.96 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:15 PA:13 RS:7 SM:5 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 23 (Trending), ADX Rising, RSI 61 (Power Zone), MACD Bullish, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Outperforming Nifty, Delivery 52% (Solid)
+
+10. HAL -- Score: 71/100
+   Entry: 4934.00 | SL: 4783.25 | T1: 5205.36 | T2: 5341.03 | RR: 1:1.8
+   Tr:16 Mo:6 Vo:17 PA:13 RS:12 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, MACD Bullish, Vol Surge 5.6x, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Marubozu, Strong RS vs Nifty, Sector Top 3: DEFENCE, Consistent Buying, Delivery 47%
+
+
+────────────────────────────────────────────────────────────
+
