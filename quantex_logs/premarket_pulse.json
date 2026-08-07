@@ -2124,5 +2124,31 @@
       "NUVAMA"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-06.pdf"
+  },
+  {
+    "date": "Fri, 07 Aug 2026",
+    "fear_greed": 77.8,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Extreme Greed",
+    "gift_nifty": 24636.0,
+    "nifty": 24636.0,
+    "sensex": 78954.76,
+    "bank_nifty": 58063.65,
+    "vix": 12.16,
+    "top_gainers": [
+      "NEULANDLAB",
+      "GODIGIT",
+      "TATATECH",
+      "MAZDOCK",
+      "HAL"
+    ],
+    "top_losers": [
+      "FSL",
+      "IKS",
+      "BLUESTARCO",
+      "SAREGAMA",
+      "CEMPRO"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-07.pdf"
   }
 ]
