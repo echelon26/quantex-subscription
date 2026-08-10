@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-08-10 at 09:48 AM IST
+Regime: BULLISH (risk-on) | VIX: 12.24 | Min Score: 60
+Qualified: 27 stocks | Top 10 below
+============================================================
+
+1. SETFGOLD -- Score: 79/100
+   Entry: 128.67 | SL: 124.32 | T1: 137.37 | T2: 141.72 | RR: 1:2.0
+   Tr:14 Mo:15 Vo:15 PA:13 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 69 (Power Zone), MACD Bullish, Vol Above Avg 2.0x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: GOLD_ETF, Institutional Accumulation, Delivery 62% (Strong Accumulation)
+
+2. SYRMA -- Score: 78/100
+   Entry: 1518.50 | SL: 1432.75 | T1: 1647.12 | T2: 1679.00 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:17 PA:13 RS:8 SM:5 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 25 (Strong Trend), ADX Rising, RSI 68 (Power Zone), MACD Bullish, Vol Surge 2.5x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Consistent Buying, Delivery 38% (Weak — mostly intraday)
+
+3. GARUDA -- Score: 76/100
+   Entry: 194.08 | SL: 183.16 | T1: 210.45 | T2: 216.03 | RR: 1:1.5
+   Tr:18 Mo:18 Vo:13 PA:8 RS:12 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), ADX Rising, RSI 69 (Power Zone), MACD Fresh Crossover, Vol Surge 13.4x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: DEFENCE, Consistent Buying, Delivery 45%
+
+4. BRIGADE -- Score: 74/100
+   Entry: 608.85 | SL: 580.10 | T1: 666.35 | T2: 695.10 | RR: 1:2.0
+   Tr:14 Mo:15 Vo:17 PA:8 RS:10 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX 23 (Trending), ADX Rising, RSI 68 (Power Zone), MACD Bullish, Vol Surge 4.2x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 49%
+
+5. GRASIM -- Score: 73/100
+   Entry: 3389.00 | SL: 3273.98 | T1: 3619.03 | T2: 3734.05 | RR: 1:2.0
+   Tr:16 Mo:15 Vo:17 PA:8 RS:8 SM:9 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 68 (Power Zone), MACD Bullish, Vol Surge 4.0x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying, Delivery 54% (Solid)
+
+6. EGOLD -- Score: 72/100
+   Entry: 150.80 | SL: 147.38 | T1: 156.88 | T2: 164.15 | RR: 1:1.8
+   Tr:10 Mo:15 Vo:17 PA:8 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, RSI 69 (Power Zone), MACD Bullish, Vol Surge 4.7x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: GOLD_ETF, Institutional Accumulation, Delivery 80% (Strong Accumulation)
+
+7. PAYTM -- Score: 71/100
+   Entry: 1589.10 | SL: 1509.82 | T1: 1731.81 | T2: 1803.16 | RR: 1:1.8
+   Tr:20 Mo:6 Vo:17 PA:13 RS:8 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX 36 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 4.3x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Consistent Buying, Delivery 43%
+
+8. SUMICHEM -- Score: 71/100
+   Entry: 560.40 | SL: 528.77 | T1: 623.66 | T2: 655.30 | RR: 1:2.0
+   Tr:18 Mo:11 Vo:17 PA:8 RS:7 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 23 (Trending), ADX Rising, RSI 66 (Power Zone), Vol Surge 2.6x, Strong Delivery (Close near High), 20-Day Breakout, Outperforming Nifty, Institutional Accumulation, Delivery 44%
+
+9. POLYMED -- Score: 71/100
+   Entry: 1772.10 | SL: 1681.61 | T1: 1907.84 | T2: 1938.90 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:13 PA:9 RS:8 SM:3 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 26 (Strong Trend), RSI 63 (Power Zone), MACD Fresh Crossover, Vol Surge 6.7x, Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Delivery 46%
+
+10. VEDL -- Score: 68/100
+   Entry: 283.85 | SL: 272.84 | T1: 300.36 | T2: 311.37 | RR: 1:1.5
+   Tr:10 Mo:15 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 60 (Power Zone), MACD Bullish, Vol Surge 2.0x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 49%
+
+
+────────────────────────────────────────────────────────────
+
