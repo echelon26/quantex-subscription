@@ -4250,5 +4250,91 @@
         "CMP": 4941.0
       }
     ]
+  },
+  {
+    "scan_date": "2026-08-10",
+    "scan_time": "2026-08-10T13:38:09.190928",
+    "stocks_scanned": 500,
+    "results_found": 13,
+    "results": [
+      {
+        "Date": "2026-08-10",
+        "Symbol": "ABFRL",
+        "Signals": "Bearish Reaction | Gap Down -2.6% | Selloff -3.6% | Vol Explosion 4.1x",
+        "CMP": 61.04
+      },
+      {
+        "Date": "2026-08-10",
+        "Symbol": "BHARATFORG",
+        "Signals": "Bearish Reaction | Decline -7.6% | Vol Explosion 6.2x",
+        "CMP": 2093.1
+      },
+      {
+        "Date": "2026-08-10",
+        "Symbol": "BOSCHLTD",
+        "Signals": "Flat +1.3%",
+        "CMP": 43505.0
+      },
+      {
+        "Date": "2026-08-10",
+        "Symbol": "DELHIVERY",
+        "Signals": "Gap Down -3.6% | Flat +1.1% | Vol Explosion 4.6x",
+        "CMP": 478.35
+      },
+      {
+        "Date": "2026-08-10",
+        "Symbol": "GLAND",
+        "Signals": "Rally +2.5% | High Vol 1.5x",
+        "CMP": 2667.3
+      },
+      {
+        "Date": "2026-08-10",
+        "Symbol": "NAUKRI",
+        "Signals": "Bullish Reaction | Rally +4.6% | Vol Explosion 5.5x",
+        "CMP": 1282.0
+      },
+      {
+        "Date": "2026-08-10",
+        "Symbol": "JUBLPHARMA",
+        "Signals": "Bullish Reaction | Rally +3.3% | Vol Surge 2.7x",
+        "CMP": 962.7
+      },
+      {
+        "Date": "2026-08-10",
+        "Symbol": "KPRMILL",
+        "Signals": "Flat +0.9% | Vol Explosion 4.3x",
+        "CMP": 1086.0
+      },
+      {
+        "Date": "2026-08-07",
+        "Symbol": "LEMONTREE",
+        "Signals": "Flat -1.6%",
+        "CMP": 107.94
+      },
+      {
+        "Date": "2026-08-10",
+        "Symbol": "LINDEINDIA",
+        "Signals": "Muted Reaction | Flat -0.9%",
+        "CMP": 7048.0
+      },
+      {
+        "Date": "2026-08-07",
+        "Symbol": "OIL",
+        "Signals": "Flat -0.3% | High Vol 1.8x",
+        "CMP": 453.0
+      },
+      {
+        "Date": "2026-08-10",
+        "Symbol": "IDEA",
+        "Signals": "Flat +1.5% | High Vol 1.8x",
+        "CMP": 12.92
+      },
+      {
+        "Date": "2026-08-10",
+        "Symbol": "ZEEL",
+        "Signals": "Muted Reaction | Flat +0.2%",
+        "CMP": 94.42
+      }
+    ]
   }
 ]
