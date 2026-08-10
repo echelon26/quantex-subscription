@@ -2150,5 +2150,31 @@
       "CEMPRO"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-07.pdf"
+  },
+  {
+    "date": "Mon, 10 Aug 2026",
+    "fear_greed": 75.5,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Extreme Greed",
+    "gift_nifty": 24570.65,
+    "nifty": 24570.65,
+    "sensex": 78499.17,
+    "bank_nifty": 57746.45,
+    "vix": 12.16,
+    "top_gainers": [
+      "SAPPHIRE",
+      "ENRIN",
+      "TATATECH",
+      "DEVYANI",
+      "MOTHERSON"
+    ],
+    "top_losers": [
+      "JYOTICNC",
+      "CROMPTON",
+      "EIHOTEL",
+      "BAJFINANCE",
+      "ECLERX"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-10.pdf"
   }
 ]
