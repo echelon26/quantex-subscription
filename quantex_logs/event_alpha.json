@@ -4336,5 +4336,85 @@
         "CMP": 94.42
       }
     ]
+  },
+  {
+    "scan_date": "2026-08-11",
+    "scan_time": "2026-08-11T13:37:34.476891",
+    "stocks_scanned": 500,
+    "results_found": 12,
+    "results": [
+      {
+        "Date": "2026-08-11",
+        "Symbol": "BATAINDIA",
+        "Signals": "Flat -1.8%",
+        "CMP": 699.85
+      },
+      {
+        "Date": "2026-08-10",
+        "Symbol": "BHARATFORG",
+        "Signals": "Bearish Reaction | Decline -7.6% | Vol Explosion 6.2x | Heavy Selling -9.5%",
+        "CMP": 2051.0
+      },
+      {
+        "Date": "2026-08-10",
+        "Symbol": "BOSCHLTD",
+        "Signals": "Flat +1.3%",
+        "CMP": 45185.0
+      },
+      {
+        "Date": "2026-08-11",
+        "Symbol": "FINCABLES",
+        "Signals": "Bullish Reaction | Surge +14.2% | Vol Explosion 25.4x",
+        "CMP": 1207.85
+      },
+      {
+        "Date": "2026-08-11",
+        "Symbol": "KPIL",
+        "Signals": "Rally +2.5% | Vol Explosion 3.5x",
+        "CMP": 1347.7
+      },
+      {
+        "Date": "2026-08-11",
+        "Symbol": "LINDEINDIA",
+        "Signals": "Flat -1.1%",
+        "CMP": 6972.0
+      },
+      {
+        "Date": "2026-08-11",
+        "Symbol": "MRF",
+        "Signals": "Selloff -2.0% | Vol Explosion 5.4x",
+        "CMP": 131125.0
+      },
+      {
+        "Date": "2026-08-11",
+        "Symbol": "MANAPPURAM",
+        "Signals": "Selloff -2.5%",
+        "CMP": 360.0
+      },
+      {
+        "Date": "2026-08-11",
+        "Symbol": "PIIND",
+        "Signals": "Flat -0.8% | High Vol 1.6x",
+        "CMP": 2730.0
+      },
+      {
+        "Date": "2026-08-11",
+        "Symbol": "SIEMENS",
+        "Signals": "Rally +2.5% | Vol Surge 2.9x",
+        "CMP": 4011.0
+      },
+      {
+        "Date": "2026-08-10",
+        "Symbol": "IDEA",
+        "Signals": "Flat +1.5% | High Vol 1.8x",
+        "CMP": 12.89
+      },
+      {
+        "Date": "2026-08-11",
+        "Symbol": "ZYDUSLIFE",
+        "Signals": "Bullish Reaction | Surge +6.4% | Vol Explosion 9.4x",
+        "CMP": 1191.0
+      }
+    ]
   }
 ]
