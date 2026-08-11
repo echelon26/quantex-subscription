@@ -2176,5 +2176,31 @@
       "ECLERX"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-10.pdf"
+  },
+  {
+    "date": "Tue, 11 Aug 2026",
+    "fear_greed": 75.5,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Extreme Greed",
+    "gift_nifty": 24583.8,
+    "nifty": 24583.8,
+    "sensex": 78542.44,
+    "bank_nifty": 57686.95,
+    "vix": 12.25,
+    "top_gainers": [
+      "SAPPHIRE",
+      "POWERINDIA",
+      "PAYTM",
+      "TECHNOE",
+      "SYRMA"
+    ],
+    "top_losers": [
+      "JYOTICNC",
+      "PFC",
+      "BHARATFORG",
+      "RECLTD",
+      "NLCINDIA"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-11.pdf"
   }
 ]
