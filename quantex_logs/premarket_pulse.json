@@ -2202,5 +2202,31 @@
       "NLCINDIA"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-11.pdf"
+  },
+  {
+    "date": "Wed, 12 Aug 2026",
+    "fear_greed": 70.6,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24471.7,
+    "nifty": 24471.7,
+    "sensex": 78154.25,
+    "bank_nifty": 57446.25,
+    "vix": 12.25,
+    "top_gainers": [
+      "CHENNPETRO",
+      "FINCABLES",
+      "MRPL",
+      "POWERINDIA",
+      "GLAND"
+    ],
+    "top_losers": [
+      "TRITURBINE",
+      "BALRAMCHIN",
+      "AFCONS",
+      "ABFRL",
+      "ACE"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-12.pdf"
   }
 ]
