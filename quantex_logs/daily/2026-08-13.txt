@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-08-13 at 09:48 AM IST
+Regime: BULLISH (risk-on) | VIX: 11.41 | Min Score: 60
+Qualified: 17 stocks | Top 10 below
+============================================================
+
+1. BDL -- Score: 79/100
+   Entry: 1376.90 | SL: 1325.67 | T1: 1453.75 | T2: 1530.59 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:17 PA:13 RS:12 SM:8 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), MACD Bullish, Vol Surge 4.5x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: DEFENCE, Institutional Accumulation, Delivery 34% (Weak — mostly intraday)
+
+2. CONCOR -- Score: 78/100
+   Entry: 535.00 | SL: 514.87 | T1: 575.26 | T2: 595.39 | RR: 1:2.0
+   Tr:14 Mo:18 Vo:15 PA:13 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX 23 (Trending), RSI 68 (Power Zone), MACD Fresh Crossover, Vol Above Avg 2.0x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Institutional Accumulation, Delivery 51% (Solid)
+
+3. PARAS -- Score: 73/100
+   Entry: 1349.40 | SL: 1267.23 | T1: 1472.65 | T2: 1554.82 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:15 PA:13 RS:12 SM:0 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 25 (Trending), ADX Rising, RSI 64 (Power Zone), MACD Bullish, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: DEFENCE, ⚠️ Delivery 30% (Algo/Short-Cover)
+
+4. POONAWALLA -- Score: 73/100
+   Entry: 504.00 | SL: 480.89 | T1: 550.21 | T2: 573.32 | RR: 1:2.0
+   Tr:16 Mo:18 Vo:15 PA:13 RS:8 SM:3 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 26 (Strong Trend), ADX Rising, RSI 65 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.5x, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Marubozu, Strong RS vs Nifty, Delivery 49%
+
+5. MIDHANI -- Score: 72/100
+   Entry: 444.15 | SL: 417.59 | T1: 483.98 | T2: 510.54 | RR: 1:1.5
+   Tr:12 Mo:15 Vo:17 PA:13 RS:12 SM:3 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, RSI 61 (Power Zone), MACD Bullish, Vol Surge 11.3x, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Sector Top 3: DEFENCE, Delivery 44%
+
+6. NETWEB -- Score: 71/100
+   Entry: 5193.90 | SL: 4891.33 | T1: 5799.03 | T2: 6101.60 | RR: 1:2.0
+   Tr:18 Mo:15 Vo:17 PA:13 RS:8 SM:0 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 24 (Trending), ADX Rising, RSI 70 (Power Zone), MACD Bullish, Vol Surge 2.6x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, ⚠️ Delivery 23% (Algo/Short-Cover)
+
+7. CLEAN -- Score: 70/100
+   Entry: 837.50 | SL: 799.08 | T1: 914.35 | T2: 952.77 | RR: 1:2.0
+   Tr:12 Mo:15 Vo:15 PA:13 RS:8 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 69 (Power Zone), MACD Bullish, Vol Above Avg 1.5x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Consistent Buying, Delivery 47%
+
+8. JUBLFOOD -- Score: 70/100
+   Entry: 494.15 | SL: 471.33 | T1: 539.78 | T2: 562.60 | RR: 1:2.0
+   Tr:20 Mo:15 Vo:13 PA:9 RS:10 SM:3 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 36 (Strong Trend), ADX Rising, RSI 68 (Power Zone), MACD Bullish, Vol Surge 2.7x, Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Delivery 46%
+
+9. HATSUN -- Score: 70/100
+   Entry: 961.95 | SL: 927.19 | T1: 1031.46 | T2: 1066.22 | RR: 1:2.0
+   Tr:16 Mo:15 Vo:8 PA:13 RS:8 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 26 (Strong Trend), ADX Rising, RSI 66 (Power Zone), MACD Bullish, 20-Day Breakout, Morning Star, Strong RS vs Nifty, Consistent Buying, Delivery 62% (Strong Accumulation)
+
+10. LT -- Score: 67/100
+   Entry: 4051.20 | SL: 3987.67 | T1: 4178.80 | T2: 4396.16 | RR: 1:2.0
+   Tr:18 Mo:15 Vo:12 PA:9 RS:8 SM:5 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), RSI 59 (Power Zone), MACD Bullish, Strong Delivery (Close near High), Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Delivery 54% (Solid)
+
+
+────────────────────────────────────────────────────────────
+
