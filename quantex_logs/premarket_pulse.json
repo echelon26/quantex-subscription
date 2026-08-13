@@ -2228,5 +2228,31 @@
       "ACE"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-12.pdf"
+  },
+  {
+    "date": "Thu, 13 Aug 2026",
+    "fear_greed": 70.7,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24435.95,
+    "nifty": 24435.95,
+    "sensex": 77966.35,
+    "bank_nifty": 57885.85,
+    "vix": 11.69,
+    "top_gainers": [
+      "NATIONALUM",
+      "APARINDS",
+      "DEVYANI",
+      "ZEEL",
+      "FINCABLES"
+    ],
+    "top_losers": [
+      "GODREJCP",
+      "PIIND",
+      "JUBLPHARMA",
+      "RHIM",
+      "TECHNOE"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-13.pdf"
   }
 ]
