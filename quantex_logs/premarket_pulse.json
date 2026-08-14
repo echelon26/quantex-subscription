@@ -2254,5 +2254,31 @@
       "TECHNOE"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-13.pdf"
+  },
+  {
+    "date": "Fri, 14 Aug 2026",
+    "fear_greed": 69.7,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24395.85,
+    "nifty": 24395.85,
+    "sensex": 78079.96,
+    "bank_nifty": 57635.25,
+    "vix": 11.42,
+    "top_gainers": [
+      "ASTRAL",
+      "SOLARINDS",
+      "NETWEB",
+      "SARDAEN",
+      "GPIL"
+    ],
+    "top_losers": [
+      "RHIM",
+      "CAPLIPOINT",
+      "AIAENG",
+      "CPPLUS",
+      "PFOCUS"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-14.pdf"
   }
 ]
