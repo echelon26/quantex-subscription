@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-08-14 at 09:48 AM IST
+Regime: BULLISH (risk-on) | VIX: 11.29 | Min Score: 60
+Qualified: 14 stocks | Top 10 below
+============================================================
+
+1. PARAS -- Score: 76/100
+   Entry: 1381.00 | SL: 1297.80 | T1: 1547.39 | T2: 1630.59 | RR: 1:2.0
+   Tr:20 Mo:15 Vo:13 PA:8 RS:12 SM:8 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 27 (Strong Trend), ADX Rising, RSI 67 (Power Zone), MACD Bullish, Vol Surge 2.6x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: DEFENCE, Institutional Accumulation, Delivery 31% (Weak — mostly intraday)
+
+2. GNFC -- Score: 75/100
+   Entry: 569.35 | SL: 548.34 | T1: 600.86 | T2: 609.43 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:15 PA:13 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 22 (Trending), ADX Rising, RSI 70 (Power Zone), MACD Bullish, Vol Above Avg 1.9x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Institutional Accumulation, Delivery 50% (Solid)
+
+3. HAPPSTMNDS -- Score: 72/100
+   Entry: 421.60 | SL: 397.78 | T1: 457.33 | T2: 481.15 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:17 PA:8 RS:8 SM:1 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 31 (Strong Trend), RSI 68 (Power Zone), MACD Fresh Crossover, Vol Surge 4.3x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Delivery 39% (Weak — mostly intraday)
+
+4. BATAINDIA -- Score: 70/100
+   Entry: 755.70 | SL: 720.50 | T1: 808.51 | T2: 861.31 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:13 PA:4 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 29 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Bullish, Vol Surge 3.1x, Near Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 45%
+
+5. BDL -- Score: 68/100
+   Entry: 1398.00 | SL: 1342.67 | T1: 1480.99 | T2: 1563.99 | RR: 1:1.5
+   Tr:12 Mo:15 Vo:13 PA:8 RS:12 SM:8 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 70 (Power Zone), MACD Bullish, Vol Surge 6.4x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: DEFENCE, Institutional Accumulation, Delivery 35% (Weak — mostly intraday)
+
+6. GPPL -- Score: 67/100
+   Entry: 158.45 | SL: 153.25 | T1: 168.86 | T2: 174.06 | RR: 1:2.0
+   Tr:14 Mo:15 Vo:13 PA:8 RS:8 SM:9 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 66 (Power Zone), MACD Bullish, Vol Surge 4.1x, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying, Delivery 58% (Solid)
+
+7. GLAXO -- Score: 67/100
+   Entry: 2691.90 | SL: 2595.88 | T1: 2835.93 | T2: 2853.13 | RR: 1:1.5
+   Tr:16 Mo:11 Vo:12 PA:8 RS:10 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, ADX 34 (Strong Trend), RSI 69 (Power Zone), Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 56% (Solid)
+
+8. HATSUN -- Score: 67/100
+   Entry: 980.50 | SL: 944.61 | T1: 1052.27 | T2: 1088.16 | RR: 1:2.0
+   Tr:16 Mo:10 Vo:15 PA:8 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX 28 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.9x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying, Delivery 62% (Strong Accumulation)
+
+9. GALAXYSURF -- Score: 64/100
+   Entry: 2508.40 | SL: 2375.32 | T1: 2688.06 | T2: 2765.55 | RR: 1:1.4
+   Tr:20 Mo:6 Vo:17 PA:8 RS:8 SM:5 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX 30 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 14.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Delivery 51% (Solid)
+
+10. AARTIIND -- Score: 62/100
+   Entry: 535.00 | SL: 510.37 | T1: 584.25 | T2: 608.88 | RR: 1:2.0
+   Tr:18 Mo:15 Vo:12 PA:4 RS:8 SM:5 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 24 (Trending), ADX Rising, RSI 70 (Power Zone), MACD Bullish, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Consistent Buying, Delivery 37% (Weak — mostly intraday)
+
+
+────────────────────────────────────────────────────────────
+
