@@ -4636,5 +4636,277 @@
         "CMP": 13.51
       }
     ]
+  },
+  {
+    "scan_date": "2026-08-14",
+    "scan_time": "2026-08-14T13:37:34.281329",
+    "stocks_scanned": 500,
+    "results_found": 44,
+    "results": [
+      {
+        "Date": "2026-08-12",
+        "Symbol": "AIAENG",
+        "Signals": "Bearish Reaction | EPS Miss -7% | Decline -5.4% | Vol Surge 3.0x",
+        "CMP": 4482.8
+      },
+      {
+        "Date": "2026-08-13",
+        "Symbol": "ABREL",
+        "Signals": "EPS Beat +42% | Flat +1.3% | Vol Explosion 6.0x",
+        "CMP": 1402.9
+      },
+      {
+        "Date": "2026-08-12",
+        "Symbol": "CPPLUS",
+        "Signals": "EPS Beat +30% | Rally +2.5% | High Vol 1.5x",
+        "CMP": 3519.0
+      },
+      {
+        "Date": "2026-08-13",
+        "Symbol": "AMBER",
+        "Signals": "EPS Miss -69% | Rally +2.7% | High Vol 1.8x",
+        "CMP": 7222.0
+      },
+      {
+        "Date": "2026-08-12",
+        "Symbol": "ASTRAL",
+        "Signals": "EPS Beat +1% | Rally +2.7% | High Vol 1.6x | Strong Momentum +9.4%",
+        "CMP": 1556.3
+      },
+      {
+        "Date": "2026-08-11",
+        "Symbol": "BALRAMCHIN",
+        "Signals": "EPS Miss -29% | Selloff -4.2%",
+        "CMP": 624.85
+      },
+      {
+        "Date": "2026-08-11",
+        "Symbol": "BATAINDIA",
+        "Signals": "EPS Beat +6% | Flat -1.8%",
+        "CMP": 755.7
+      },
+      {
+        "Date": "2026-08-13",
+        "Symbol": "FIRSTCRY",
+        "Signals": "EPS Beat +67% | Flat -0.2% | Vol Explosion 3.2x",
+        "CMP": 206.09
+      },
+      {
+        "Date": "2026-08-13",
+        "Symbol": "CESC",
+        "Signals": "EPS Miss -2% | Flat +1.5% | Vol Explosion 3.1x",
+        "CMP": 167.83
+      },
+      {
+        "Date": "2026-08-13",
+        "Symbol": "ELGIEQUIP",
+        "Signals": "Muted Reaction | EPS Beat +4% | Flat +0.2%",
+        "CMP": 609.5
+      },
+      {
+        "Date": "2026-08-13",
+        "Symbol": "ENDURANCE",
+        "Signals": "EPS Miss -2% | Flat -1.5%",
+        "CMP": 2899.0
+      },
+      {
+        "Date": "2026-08-11",
+        "Symbol": "FINCABLES",
+        "Signals": "Bullish Reaction | EPS Beat +45% | Surge +14.2% | Vol Explosion 25.4x | Strong Momentum +17.8%",
+        "CMP": 1246.85
+      },
+      {
+        "Date": "2026-08-12",
+        "Symbol": "GMRAIRPORT",
+        "Signals": "EPS Miss -77% | Flat -0.5% | Vol Surge 2.5x",
+        "CMP": 101.51
+      },
+      {
+        "Date": "2026-08-12",
+        "Symbol": "GRASIM",
+        "Signals": "EPS Beat +463% | Flat -0.4% | Vol Surge 2.1x",
+        "CMP": 3248.7
+      },
+      {
+        "Date": "2026-08-12",
+        "Symbol": "FLUOROCHEM",
+        "Signals": "Bullish Reaction | EPS Beat +16% | Rally +3.4% | Vol Explosion 11.1x",
+        "CMP": 4737.8
+      },
+      {
+        "Date": "2026-08-12",
+        "Symbol": "HAL",
+        "Signals": "EPS Beat +8% | Flat +1.8% | High Vol 1.9x",
+        "CMP": 5029.9
+      },
+      {
+        "Date": "2026-08-13",
+        "Symbol": "HONASA",
+        "Signals": "EPS Beat +20% | Rally +2.6% | Vol Explosion 3.0x",
+        "CMP": 502.8
+      },
+      {
+        "Date": "2026-08-12",
+        "Symbol": "IRCTC",
+        "Signals": "Muted Reaction | EPS Beat +3% | Flat -0.3%",
+        "CMP": 497.5
+      },
+      {
+        "Date": "2026-08-13",
+        "Symbol": "IGL",
+        "Signals": "EPS Miss -34% | Flat -1.8% | Vol Explosion 4.2x",
+        "CMP": 151.7
+      },
+      {
+        "Date": "2026-08-13",
+        "Symbol": "IPCALAB",
+        "Signals": "EPS Beat +30% | Flat +1.7% | Vol Explosion 10.8x",
+        "CMP": 1734.2
+      },
+      {
+        "Date": "2026-08-13",
+        "Symbol": "JSWCEMENT",
+        "Signals": "Muted Reaction | EPS Beat +28% | Flat +0.4%",
+        "CMP": 130.02
+      },
+      {
+        "Date": "2026-08-13",
+        "Symbol": "JUBLFOOD",
+        "Signals": "EPS Beat +8% | Flat +1.4% | Vol Surge 2.6x",
+        "CMP": 504.1
+      },
+      {
+        "Date": "2026-08-11",
+        "Symbol": "KPIL",
+        "Signals": "EPS Beat +31% | Rally +2.5% | Vol Explosion 3.5x",
+        "CMP": 1352.2
+      },
+      {
+        "Date": "2026-08-13",
+        "Symbol": "LGEINDIA",
+        "Signals": "EPS Beat +7% | Flat -0.0% | High Vol 1.6x | Strong Momentum +9.6%",
+        "CMP": 1729.7
+      },
+      {
+        "Date": "2026-08-12",
+        "Symbol": "LENSKART",
+        "Signals": "EPS Beat +35% | Flat -0.5%",
+        "CMP": 611.85
+      },
+      {
+        "Date": "2026-08-11",
+        "Symbol": "MRF",
+        "Signals": "EPS Miss -1% | Selloff -2.0% | Vol Explosion 5.4x",
+        "CMP": 133490.0
+      },
+      {
+        "Date": "2026-08-13",
+        "Symbol": "MFSL",
+        "Signals": "Muted Reaction | EPS Beat +28% | Flat -0.2%",
+        "CMP": 1538.1
+      },
+      {
+        "Date": "2026-08-13",
+        "Symbol": "MAXHEALTH",
+        "Signals": "EPS Miss -19% | Flat +0.6%",
+        "CMP": 1008.6
+      },
+      {
+        "Date": "2026-08-14",
+        "Symbol": "NMDC",
+        "Signals": "Muted Reaction | EPS In-Line | Flat -0.7%",
+        "CMP": 84.4
+      },
+      {
+        "Date": "2026-08-11",
+        "Symbol": "PIIND",
+        "Signals": "EPS Miss -23% | Flat -0.8% | High Vol 1.6x | Heavy Selling -9.5%",
+        "CMP": 2490.1
+      },
+      {
+        "Date": "2026-08-13",
+        "Symbol": "PAGEIND",
+        "Signals": "Bearish Reaction | EPS Miss -13% | Selloff -4.6% | Vol Explosion 6.6x",
+        "CMP": 36750.0
+      },
+      {
+        "Date": "2026-08-14",
+        "Symbol": "PATANJALI",
+        "Signals": "Muted Reaction | EPS In-Line | Flat -0.5%",
+        "CMP": 352.0
+      },
+      {
+        "Date": "2026-08-12",
+        "Symbol": "PETRONET",
+        "Signals": "EPS Beat +28% | Flat +1.0%",
+        "CMP": 282.6
+      },
+      {
+        "Date": "2026-08-11",
+        "Symbol": "SIEMENS",
+        "Signals": "EPS Miss -9% | Rally +2.5% | Vol Surge 2.9x",
+        "CMP": 3940.0
+      },
+      {
+        "Date": "2026-08-13",
+        "Symbol": "SOLARINDS",
+        "Signals": "Bullish Reaction | EPS Beat +23% | Surge +8.5% | Vol Explosion 10.7x",
+        "CMP": 19969.0
+      },
+      {
+        "Date": "2026-08-12",
+        "Symbol": "SUNTV",
+        "Signals": "EPS Beat +41% | Flat -1.1%",
+        "CMP": 484.6
+      },
+      {
+        "Date": "2026-08-11",
+        "Symbol": "TMCV",
+        "Signals": "Muted Reaction | EPS Beat +15% | Flat -0.0%",
+        "CMP": 474.3
+      },
+      {
+        "Date": "2026-08-13",
+        "Symbol": "TMPV",
+        "Signals": "EPS Miss -57% | Flat +1.9%",
+        "CMP": 334.5
+      },
+      {
+        "Date": "2026-08-13",
+        "Symbol": "TEGA",
+        "Signals": "EPS Miss -301% | Rally +2.5% | Vol Explosion 15.1x",
+        "CMP": 1703.8
+      },
+      {
+        "Date": "2026-08-13",
+        "Symbol": "TRAVELFOOD",
+        "Signals": "Muted Reaction | EPS Beat +30% | Flat +0.3%",
+        "CMP": 1364.9
+      },
+      {
+        "Date": "2026-08-13",
+        "Symbol": "UNITDSPR",
+        "Signals": "EPS In-Line | Flat -1.3%",
+        "CMP": 1536.0
+      },
+      {
+        "Date": "2026-08-14",
+        "Symbol": "VOLTAS",
+        "Signals": "EPS In-Line | Rally +2.4% | Vol Explosion 3.6x",
+        "CMP": 1320.5
+      },
+      {
+        "Date": "2026-08-13",
+        "Symbol": "WELSPUNLIV",
+        "Signals": "EPS Beat +29% | Selloff -3.3%",
+        "CMP": 164.06
+      },
+      {
+        "Date": "2026-08-11",
+        "Symbol": "ZYDUSLIFE",
+        "Signals": "Bullish Reaction | EPS Miss -15% | Surge +6.4% | Vol Explosion 9.4x",
+        "CMP": 1135.2
+      }
+    ]
   }
 ]
