@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-08-17 at 09:48 AM IST
+Regime: BULLISH (risk-on) | VIX: 11.32 | Min Score: 60
+Qualified: 16 stocks | Top 10 below
+============================================================
+
+1. OBEROIRLTY -- Score: 78/100
+   Entry: 1930.00 | SL: 1855.77 | T1: 2041.34 | T2: 2152.69 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:17 PA:8 RS:9 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Fresh Crossover, Vol Surge 4.9x, Strong Delivery (Close near High), 20-Day Breakout, Outperforming Nifty, Sector Top 3: REALTY, Institutional Accumulation, Delivery 48%
+
+2. HINDCOPPER -- Score: 70/100
+   Entry: 573.05 | SL: 540.32 | T1: 622.14 | T2: 654.87 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:17 PA:13 RS:8 SM:1 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 27 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Bullish, Vol Surge 2.9x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Delivery 32% (Weak — mostly intraday)
+
+3. KRBL -- Score: 68/100
+   Entry: 394.35 | SL: 375.08 | T1: 423.26 | T2: 442.53 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:15 PA:4 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 27 (Strong Trend), ADX Rising, RSI 68 (Power Zone), MACD Bullish, Vol Above Avg 1.7x, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 46%
+
+4. GLAXO -- Score: 66/100
+   Entry: 2701.50 | SL: 2610.93 | T1: 2837.36 | T2: 2852.73 | RR: 1:1.5
+   Tr:16 Mo:13 Vo:12 PA:8 RS:8 SM:9 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, ADX 34 (Strong Trend), ADX Rising, MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying, Delivery 58% (Solid)
+
+5. HAPPSTMNDS -- Score: 65/100
+   Entry: 427.25 | SL: 402.08 | T1: 477.58 | T2: 502.75 | RR: 1:2.0
+   Tr:16 Mo:13 Vo:15 PA:8 RS:8 SM:5 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 30 (Strong Trend), ADX Rising, MACD Fresh Crossover, Vol Above Avg 1.9x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying, Delivery 38% (Weak — mostly intraday)
+
+6. GNFC -- Score: 65/100
+   Entry: 600.15 | SL: 576.82 | T1: 631.65 | T2: 652.65 | RR: 1:1.4
+   Tr:16 Mo:6 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, ADX 25 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 3.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 49%
+
+7. LT -- Score: 63/100
+   Entry: 4076.00 | SL: 4004.67 | T1: 4185.87 | T2: 4396.16 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:4 PA:9 RS:12 SM:5 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), RSI 61 (Power Zone), MACD Bullish, Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Sector Top 3: INFRA, Delivery 55% (Solid)
+
+8. PARAS -- Score: 63/100
+   Entry: 1387.30 | SL: 1305.03 | T1: 1510.71 | T2: 1592.98 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:4 PA:4 RS:12 SM:8 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 30 (Strong Trend), ADX Rising, RSI 68 (Power Zone), MACD Bullish, Near Breakout, Strong RS vs Nifty, Sector Top 3: DEFENCE, Institutional Accumulation, Delivery 31% (Weak — mostly intraday)
+
+9. PREMEXPLN -- Score: 63/100
+   Entry: 673.55 | SL: 647.08 | T1: 726.49 | T2: 752.96 | RR: 1:2.0
+   Tr:5 Mo:18 Vo:15 PA:9 RS:9 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: RSI 52 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.8x, Strong Delivery (Close near High), Near Breakout, Marubozu, Outperforming Nifty, Sector Top 3: DEFENCE, Delivery 65% (Strong Accumulation)
+
+10. BRIGADE -- Score: 63/100
+   Entry: 595.00 | SL: 575.08 | T1: 624.88 | T2: 628.81 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:12 PA:5 RS:12 SM:3 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 26 (Strong Trend), RSI 62 (Power Zone), MACD Bullish, Strong Delivery (Close near High), Bullish Engulfing, Morning Star, Strong RS vs Nifty, Sector Top 3: REALTY, Delivery 45%
+
+
+────────────────────────────────────────────────────────────
+
