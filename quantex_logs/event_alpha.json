@@ -4908,5 +4908,85 @@
         "CMP": 1135.2
       }
     ]
+  },
+  {
+    "scan_date": "2026-08-17",
+    "scan_time": "2026-08-17T13:38:33.501075",
+    "stocks_scanned": 500,
+    "results_found": 12,
+    "results": [
+      {
+        "Date": "2026-08-14",
+        "Symbol": "ALKEM",
+        "Signals": "EPS Miss -8% | Flat -1.5% | Vol Explosion 7.6x",
+        "CMP": 5374.0
+      },
+      {
+        "Date": "2026-08-14",
+        "Symbol": "ASHOKLEY",
+        "Signals": "EPS Miss -2% | Selloff -2.6% | Vol Surge 2.4x",
+        "CMP": 177.1
+      },
+      {
+        "Date": "2026-08-14",
+        "Symbol": "BELRISE",
+        "Signals": "Muted Reaction | EPS Miss -6% | Flat +0.4%",
+        "CMP": 236.09
+      },
+      {
+        "Date": "2026-08-14",
+        "Symbol": "BDL",
+        "Signals": "EPS Beat +6% | Flat +1.6% | Vol Explosion 5.5x",
+        "CMP": 1380.0
+      },
+      {
+        "Date": "2026-08-14",
+        "Symbol": "COCHINSHIP",
+        "Signals": "Muted Reaction | EPS Beat +8% | Flat -0.7%",
+        "CMP": 1457.8
+      },
+      {
+        "Date": "2026-08-14",
+        "Symbol": "NATCOPHARM",
+        "Signals": "Bearish Reaction | EPS Beat +43% | Gap Down -5.8% | Decline -6.5% | High Vol 1.9x",
+        "CMP": 889.8
+      },
+      {
+        "Date": "2026-08-14",
+        "Symbol": "NMDC",
+        "Signals": "Muted Reaction | EPS Miss -40% | Flat -0.7%",
+        "CMP": 85.5
+      },
+      {
+        "Date": "2026-08-14",
+        "Symbol": "PTCIL",
+        "Signals": "Muted Reaction | EPS Miss -0% | Flat -0.6%",
+        "CMP": 20584.0
+      },
+      {
+        "Date": "2026-08-14",
+        "Symbol": "PATANJALI",
+        "Signals": "Muted Reaction | EPS Beat +34% | Flat -0.5%",
+        "CMP": 353.9
+      },
+      {
+        "Date": "2026-08-14",
+        "Symbol": "PWL",
+        "Signals": "Muted Reaction | EPS Miss -170% | Flat -0.9%",
+        "CMP": 119.97
+      },
+      {
+        "Date": "2026-08-14",
+        "Symbol": "TIINDIA",
+        "Signals": "EPS Miss -14% | Flat -1.7% | Vol Surge 2.1x",
+        "CMP": 2741.4
+      },
+      {
+        "Date": "2026-08-14",
+        "Symbol": "VOLTAS",
+        "Signals": "EPS Beat +1% | Rally +2.4% | Vol Explosion 3.6x",
+        "CMP": 1267.0
+      }
+    ]
   }
 ]

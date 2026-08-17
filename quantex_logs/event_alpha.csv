@@ -1,7 +1,16 @@
 Date,Symbol,Signals,CMP
-2026-08-14,VOLTAS,EPS In-Line | Rally +2.4% | Vol Explosion 3.6x,1320.5
-2026-08-14,PATANJALI,Muted Reaction | EPS In-Line | Flat -0.5%,352.0
-2026-08-14,NMDC,Muted Reaction | EPS In-Line | Flat -0.7%,84.4
+2026-08-14,VOLTAS,EPS Beat +1% | Rally +2.4% | Vol Explosion 3.6x,1267.0
+2026-08-14,TIINDIA,EPS Miss -14% | Flat -1.7% | Vol Surge 2.1x,2741.4
+2026-08-14,PWL,Muted Reaction | EPS Miss -170% | Flat -0.9%,119.97
+2026-08-14,PTCIL,Muted Reaction | EPS Miss -0% | Flat -0.6%,20584.0
+2026-08-14,PATANJALI,Muted Reaction | EPS Beat +34% | Flat -0.5%,353.9
+2026-08-14,NMDC,Muted Reaction | EPS Miss -40% | Flat -0.7%,85.5
+2026-08-14,NATCOPHARM,Bearish Reaction | EPS Beat +43% | Gap Down -5.8% | Decline -6.5% | High Vol 1.9x,889.8
+2026-08-14,COCHINSHIP,Muted Reaction | EPS Beat +8% | Flat -0.7%,1457.8
+2026-08-14,BELRISE,Muted Reaction | EPS Miss -6% | Flat +0.4%,236.09
+2026-08-14,BDL,EPS Beat +6% | Flat +1.6% | Vol Explosion 5.5x,1380.0
+2026-08-14,ASHOKLEY,EPS Miss -2% | Selloff -2.6% | Vol Surge 2.4x,177.1
+2026-08-14,ALKEM,EPS Miss -8% | Flat -1.5% | Vol Explosion 7.6x,5374.0
 2026-08-13,WELSPUNLIV,EPS Beat +29% | Selloff -3.3%,164.06
 2026-08-13,UNITDSPR,EPS In-Line | Flat -1.3%,1536.0
 2026-08-13,TRAVELFOOD,Muted Reaction | EPS Beat +30% | Flat +0.3%,1364.9
@@ -232,20 +241,3 @@ Date,Symbol,Signals,CMP
 2026-07-20,PAYTM,Muted Reaction | Flat -0.0%,1256.8
 2026-07-20,KARURVYSYA,Selloff -2.8% | Vol Explosion 4.1x,301.0
 2026-07-20,JKCEMENT,Gap Down -2.4% | Flat +1.2%,5668.0
-2026-07-17,RELIANCE,Rally +2.4% | High Vol 1.6x,1327.2
-2026-07-17,RBLBANK,Flat +1.5%,368.1
-2026-07-17,POONAWALLA,Flat +1.1% | High Vol 1.6x,477.3
-2026-07-17,OBEROIRLTY,Flat +1.8%,1894.8
-2026-07-17,JSWSTEEL,Flat +1.3% | Vol Surge 2.3x,1237.3
-2026-07-17,HAVELLS,Flat +1.4% | Vol Surge 2.6x,1187.3
-2026-07-17,FEDERALBNK,Bullish Reaction | Surge +6.9% | Vol Explosion 8.4x,349.0
-2026-07-16,WIPRO,Flat +1.8%,177.74
-2026-07-16,TECHM,Flat +0.8% | High Vol 1.6x,1510.3
-2026-07-16,POLYCAB,Flat -1.2% | High Vol 1.9x,9215.0
-2026-07-16,BHEL,Bullish Reaction | Rally +4.2% | Vol Explosion 4.1x,422.0
-2026-07-16,360ONE,Flat -1.6%,1081.3
-2026-07-15,UNIONBANK,Flat +1.0% | Vol Explosion 3.1x,168.46
-2026-07-15,ICICIPRULI,Bullish Reaction | Rally +4.2% | Vol Explosion 4.2x,525.15
-2026-07-15,ICICIGI,Flat +1.5%,1814.6
-2026-07-15,HDFCLIFE,Rally +2.4%,568.75
-2026-07-15,HDFCAMC,Rally +2.6% | High Vol 1.7x,2729.2
