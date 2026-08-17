@@ -2280,5 +2280,31 @@
       "PFOCUS"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-14.pdf"
+  },
+  {
+    "date": "Mon, 17 Aug 2026",
+    "fear_greed": 68.8,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24366.0,
+    "nifty": 24366.0,
+    "sensex": 78009.25,
+    "bank_nifty": 57491.1,
+    "vix": 11.31,
+    "top_gainers": [
+      "LGEINDIA",
+      "ELGIEQUIP",
+      "ZEEL",
+      "CEMPRO",
+      "HONASA"
+    ],
+    "top_losers": [
+      "NATIONALUM",
+      "SAMMAANCAP",
+      "OLECTRA",
+      "NATCOPHARM",
+      "CPPLUS"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-17.pdf"
   }
 ]
