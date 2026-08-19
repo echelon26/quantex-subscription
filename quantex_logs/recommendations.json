@@ -54662,5 +54662,78 @@
         "est_days_to_t1": 7.0
       }
     ]
+  },
+  {
+    "scan_date": "2026-08-19",
+    "scan_time": "2026-08-19T09:48:46.355667",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 11.337499618530273
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 1,
+    "sector_rankings": {
+      "ELECTRICALS": 1,
+      "INFRA": 2,
+      "REALTY": 3,
+      "CHEMICALS": 4,
+      "GOLD_ETF": 5,
+      "DEFENCE": 6,
+      "METALS": 7,
+      "INDEX_ETF": 8,
+      "FINANCE": 9,
+      "AUTO": 10,
+      "CONSUMER": 11,
+      "POWER": 12,
+      "ENERGY": 13,
+      "BANKING": 14,
+      "PHARMA": 15,
+      "RAILWAY": 16,
+      "FMCG": 17,
+      "IT": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "GLAXO",
+        "score": 72,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 9,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend FLIP Bullish",
+          "ADX 38 (Strong Trend)",
+          "ADX Rising",
+          "MACD Fresh Crossover",
+          "Vol Surge 8.8x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation",
+          "Delivery 60% (Strong Accumulation)"
+        ],
+        "entry": 3042.0,
+        "sl": 2917.85,
+        "target1": 3209.6,
+        "target2": 3249.88,
+        "hold_period": "2-3 days",
+        "cmp": 3042.0,
+        "delivery_today": null,
+        "delivery_avg10": 60.266000000000005,
+        "target3": 3435.45,
+        "target_method": "Fib 1.0 + Measured Move + Fib 1.272 + Fib 1.618",
+        "est_days_to_t1": 2.1
+      }
+    ]
   }
 ]

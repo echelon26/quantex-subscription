@@ -1,0 +1,14 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-08-19 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 11.34 | Min Score: 68
+Qualified: 1 stocks | Top 10 below
+============================================================
+
+1. GLAXO -- Score: 72/100
+   Entry: 3042.00 | SL: 2917.85 | T1: 3209.60 | T2: 3249.88 | RR: 1:1.3
+   Tr:20 Mo:9 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 2-3 days | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX 38 (Strong Trend), ADX Rising, MACD Fresh Crossover, Vol Surge 8.8x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 60% (Strong Accumulation)
+
+
+────────────────────────────────────────────────────────────
+
