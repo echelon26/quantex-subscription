@@ -1,30 +1,5 @@
 [
   {
-    "date": "Tue, 21 Apr 2026",
-    "fear_greed": 69.6,
-    "fear_greed_label": "Greed",
-    "gift_nifty": 24576.6,
-    "nifty": 24576.6,
-    "sensex": 79273.33,
-    "bank_nifty": 57371.45,
-    "vix": 17.53,
-    "top_gainers": [
-      "GROWW",
-      "ELECON",
-      "PNBHOUSING",
-      "LEMONTREE",
-      "FIVESTAR"
-    ],
-    "top_losers": [
-      "CANHLIFE",
-      "OLAELEC",
-      "NATCOPHARM",
-      "ERIS",
-      "SBILIFE"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/PreMarket_Report_2026-04-21.pdf"
-  },
-  {
     "date": "Wed, 22 Apr 2026",
     "fear_greed": 69.6,
     "fear_greed_label": "Greed",
@@ -2332,5 +2307,31 @@
       "CPPLUS"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-18.pdf"
+  },
+  {
+    "date": "Wed, 19 Aug 2026",
+    "fear_greed": 56.4,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 24154.9,
+    "nifty": 24154.9,
+    "sensex": 77235.46,
+    "bank_nifty": 57262.4,
+    "vix": 11.39,
+    "top_gainers": [
+      "JYOTICNC",
+      "TIINDIA",
+      "PFOCUS",
+      "GPIL",
+      "GLAXO"
+    ],
+    "top_losers": [
+      "J&KBANK",
+      "SBICARD",
+      "INOXWIND",
+      "PTCIL",
+      "OBEROIRLTY"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-19.pdf"
   }
 ]
