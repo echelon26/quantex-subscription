@@ -1,31 +1,6 @@
 [
   {
     "date": "Wed, 22 Apr 2026",
-    "fear_greed": 69.6,
-    "fear_greed_label": "Greed",
-    "gift_nifty": 24576.6,
-    "nifty": 24576.6,
-    "sensex": 79273.33,
-    "bank_nifty": 57371.45,
-    "vix": 17.53,
-    "top_gainers": [
-      "GROWW",
-      "ELECON",
-      "PNBHOUSING",
-      "LEMONTREE",
-      "FIVESTAR"
-    ],
-    "top_losers": [
-      "CANHLIFE",
-      "OLAELEC",
-      "NATCOPHARM",
-      "ERIS",
-      "SBILIFE"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/PreMarket_Report_2026-04-22.pdf"
-  },
-  {
-    "date": "Wed, 22 Apr 2026",
     "fear_greed": 64.5,
     "fear_greed_label": "Greed",
     "gift_nifty": 24410.1,
@@ -2333,5 +2308,31 @@
       "OBEROIRLTY"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-19.pdf"
+  },
+  {
+    "date": "Thu, 20 Aug 2026",
+    "fear_greed": 55.7,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 24078.3,
+    "nifty": 24078.3,
+    "sensex": 76909.68,
+    "bank_nifty": 57239.75,
+    "vix": 11.32,
+    "top_gainers": [
+      "TIINDIA",
+      "PFOCUS",
+      "ACE",
+      "ZENTEC",
+      "GLAXO"
+    ],
+    "top_losers": [
+      "NETWEB",
+      "ACUTAAS",
+      "CEMPRO",
+      "HEG",
+      "POWERINDIA"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-20.pdf"
   }
 ]
