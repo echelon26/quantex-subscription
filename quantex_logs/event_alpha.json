@@ -5002,5 +5002,19 @@
     "stocks_scanned": 500,
     "results_found": 0,
     "results": []
+  },
+  {
+    "scan_date": "2026-08-20",
+    "scan_time": "2026-08-20T13:37:42.661001",
+    "stocks_scanned": 500,
+    "results_found": 1,
+    "results": [
+      {
+        "Date": "2026-08-20",
+        "Symbol": "AAVAS",
+        "Signals": "EPS In-Line | Flat -0.6% | High Vol 1.5x",
+        "CMP": 1364.9
+      }
+    ]
   }
 ]
