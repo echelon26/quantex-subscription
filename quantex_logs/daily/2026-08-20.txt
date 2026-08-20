@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-08-20 at 09:48 AM IST
+Regime: BULLISH (risk-on) | VIX: 10.73 | Min Score: 60
+Qualified: 19 stocks | Top 10 below
+============================================================
+
+1. BRIGADE -- Score: 79/100
+   Entry: 625.00 | SL: 594.60 | T1: 670.61 | T2: 678.75 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:17 PA:13 RS:12 SM:3 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 25 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Fresh Crossover, Vol Surge 3.0x, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Sector Top 3: REALTY, Delivery 44%
+
+2. NETWEB -- Score: 76/100
+   Entry: 5423.60 | SL: 5071.43 | T1: 5951.86 | T2: 6304.04 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:17 PA:13 RS:8 SM:3 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 32 (Strong Trend), ADX Rising, RSI 66 (Power Zone), MACD Bullish, Vol Surge 2.5x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Consistent Buying, ⚠️ Delivery 22% (Algo/Short-Cover)
+
+3. ACMESOLAR -- Score: 75/100
+   Entry: 396.50 | SL: 375.63 | T1: 438.23 | T2: 459.10 | RR: 1:2.0
+   Tr:18 Mo:18 Vo:13 PA:8 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 20 (Trending), RSI 65 (Power Zone), MACD Fresh Crossover, Vol Surge 4.2x, 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 52% (Solid)
+
+4. PRAJIND -- Score: 74/100
+   Entry: 359.20 | SL: 341.36 | T1: 394.88 | T2: 412.72 | RR: 1:2.0
+   Tr:18 Mo:15 Vo:17 PA:8 RS:8 SM:8 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 30 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Bullish, Vol Surge 2.3x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 39% (Weak — mostly intraday)
+
+5. GOLDETF -- Score: 71/100
+   Entry: 151.30 | SL: 148.15 | T1: 155.56 | T2: 159.81 | RR: 1:1.4
+   Tr:16 Mo:6 Vo:15 PA:13 RS:12 SM:9 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 25 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Sector Top 3: GOLD_ETF, Consistent Buying, Delivery 59% (Solid)
+
+6. LICMFGOLD -- Score: 70/100
+   Entry: 139.75 | SL: 136.46 | T1: 146.33 | T2: 149.63 | RR: 1:2.0
+   Tr:20 Mo:10 Vo:13 PA:8 RS:12 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 29 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 3.6x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: GOLD_ETF, Delivery 61% (Strong Accumulation)
+
+7. MCX -- Score: 70/100
+   Entry: 3120.00 | SL: 2969.34 | T1: 3345.99 | T2: 3496.65 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:15 PA:8 RS:8 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 27 (Strong Trend), ADX Rising, RSI 67 (Power Zone), MACD Bullish, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 44%
+
+8. MOTILALOFS -- Score: 67/100
+   Entry: 975.70 | SL: 933.55 | T1: 1059.99 | T2: 1102.14 | RR: 1:2.0
+   Tr:16 Mo:15 Vo:8 PA:13 RS:8 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX 28 (Strong Trend), ADX Rising, RSI 66 (Power Zone), MACD Bullish, 20-Day Breakout, Morning Star, Strong RS vs Nifty, Consistent Buying, Delivery 42%
+
+9. GOLDBEES -- Score: 66/100
+   Entry: 128.88 | SL: 126.30 | T1: 134.05 | T2: 136.63 | RR: 1:2.0
+   Tr:18 Mo:10 Vo:11 PA:8 RS:12 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 23 (Trending), ADX Rising, MACD Bullish, Vol Above Avg 1.6x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: GOLD_ETF, Consistent Buying, Delivery 49%
+
+10. PETRONET -- Score: 63/100
+   Entry: 291.70 | SL: 282.29 | T1: 310.51 | T2: 319.92 | RR: 1:2.0
+   Tr:12 Mo:15 Vo:11 PA:8 RS:8 SM:9 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 65 (Power Zone), MACD Bullish, Vol Above Avg 1.6x, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying, Delivery 54% (Solid)
+
+
+────────────────────────────────────────────────────────────
+
