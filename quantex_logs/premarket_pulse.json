@@ -1,31 +1,6 @@
 [
   {
     "date": "Wed, 22 Apr 2026",
-    "fear_greed": 64.5,
-    "fear_greed_label": "Greed",
-    "gift_nifty": 24410.1,
-    "nifty": 24409.6,
-    "sensex": 78699.75,
-    "bank_nifty": 57362.4,
-    "vix": 18.24,
-    "top_gainers": [
-      "ARE&M",
-      "ITI",
-      "ABB",
-      "URBANCO",
-      "ADANIPOWER"
-    ],
-    "top_losers": [
-      "HCLTECH",
-      "TARIL",
-      "HEXT",
-      "TECHM",
-      "COFORGE"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-04-22.pdf"
-  },
-  {
-    "date": "Wed, 22 Apr 2026",
     "fear_greed": 64.4,
     "fear_greed_label": "Greed",
     "gift_nifty": 24407.45,
@@ -2334,5 +2309,31 @@
       "POWERINDIA"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-20.pdf"
+  },
+  {
+    "date": "Fri, 21 Aug 2026",
+    "fear_greed": 63.7,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 24231.85,
+    "nifty": 24231.85,
+    "sensex": 77537.72,
+    "bank_nifty": 57495.9,
+    "vix": 10.76,
+    "top_gainers": [
+      "BALRAMCHIN",
+      "NETWEB",
+      "MMTC",
+      "BRIGADE",
+      "COHANCE"
+    ],
+    "top_losers": [
+      "HSCL",
+      "ACUTAAS",
+      "ASTERDM",
+      "3MINDIA",
+      "ADANIENSOL"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-21.pdf"
   }
 ]
