@@ -5030,5 +5030,12 @@
         "CMP": 1355.3
       }
     ]
+  },
+  {
+    "scan_date": "2026-08-24",
+    "scan_time": "2026-08-24T13:37:28.985255",
+    "stocks_scanned": 500,
+    "results_found": 0,
+    "results": []
   }
 ]
