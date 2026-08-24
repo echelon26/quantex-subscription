@@ -1,0 +1,54 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-08-24 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 11.52 | Min Score: 68
+Qualified: 9 stocks | Top 10 below
+============================================================
+
+1. MUTHOOTFIN -- Score: 75/100
+   Entry: 3199.80 | SL: 3064.29 | T1: 3403.07 | T2: 3593.56 | RR: 1:1.5
+   Tr:10 Mo:18 Vo:17 PA:13 RS:8 SM:9 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, RSI 67 (Power Zone), MACD Fresh Crossover, Vol Surge 2.2x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Consistent Buying, Delivery 51% (Solid)
+
+2. HINDZINC -- Score: 73/100
+   Entry: 608.00 | SL: 582.93 | T1: 658.14 | T2: 683.21 | RR: 1:2.0
+   Tr:18 Mo:18 Vo:13 PA:4 RS:10 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), RSI 67 (Power Zone), MACD Fresh Crossover, Vol Surge 2.2x, Near Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 40%
+
+3. RATNAMANI -- Score: 73/100
+   Entry: 2700.00 | SL: 2535.89 | T1: 2946.17 | T2: 3192.34 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:17 PA:8 RS:10 SM:5 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX 29 (Strong Trend), RSI 70 (Power Zone), MACD Bullish, Vol Surge 8.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Delivery 53% (Solid)
+
+4. BRIGADE -- Score: 73/100
+   Entry: 657.00 | SL: 625.21 | T1: 714.22 | T2: 742.83 | RR: 1:1.8
+   Tr:20 Mo:9 Vo:17 PA:8 RS:12 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, MACD Fresh Crossover, Vol Surge 2.1x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Consistent Buying, Delivery 42%
+
+5. JSWSTEEL -- Score: 71/100
+   Entry: 1316.00 | SL: 1277.93 | T1: 1373.10 | T2: 1439.71 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:13 PA:4 RS:10 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 27 (Strong Trend), ADX Rising, RSI 62 (Power Zone), MACD Fresh Crossover, Vol Surge 2.2x, Near Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 57% (Solid)
+
+6. WELCORP -- Score: 70/100
+   Entry: 2408.80 | SL: 2292.61 | T1: 2617.94 | T2: 2722.51 | RR: 1:1.8
+   Tr:20 Mo:6 Vo:17 PA:8 RS:10 SM:9 MTF:0
+   Hold: 2-3 days | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX 51 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 3.1x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying, Delivery 53% (Solid)
+
+7. FINEORG -- Score: 70/100
+   Entry: 5289.20 | SL: 5016.49 | T1: 5834.63 | T2: 6107.34 | RR: 1:2.0
+   Tr:18 Mo:15 Vo:15 PA:4 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), ADX Rising, RSI 62 (Power Zone), MACD Bullish, Vol Above Avg 1.6x, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 56% (Solid)
+
+8. CHALET -- Score: 69/100
+   Entry: 870.55 | SL: 834.72 | T1: 942.21 | T2: 978.04 | RR: 1:2.0
+   Tr:14 Mo:15 Vo:13 PA:8 RS:9 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 62 (Power Zone), MACD Bullish, Vol Surge 2.2x, 20-Day Breakout, Outperforming Nifty, Sector Top 3: REALTY, Institutional Accumulation, Delivery 56% (Solid)
+
+9. KRBL -- Score: 69/100
+   Entry: 440.15 | SL: 417.65 | T1: 480.65 | T2: 500.90 | RR: 1:1.8
+   Tr:20 Mo:6 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 36 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 6.0x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 45%
+
+
+────────────────────────────────────────────────────────────
+
