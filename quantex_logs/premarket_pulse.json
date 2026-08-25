@@ -1,30 +1,5 @@
 [
   {
-    "date": "Wed, 22 Apr 2026",
-    "fear_greed": 62.8,
-    "fear_greed_label": "Greed",
-    "gift_nifty": 24378.1,
-    "nifty": 24378.1,
-    "sensex": 78516.49,
-    "bank_nifty": 57124.45,
-    "vix": 18.3,
-    "top_gainers": [
-      "ARE&M",
-      "IREDA",
-      "DATAPATTNS",
-      "PIRAMALFIN",
-      "ADANIENSOL"
-    ],
-    "top_losers": [
-      "HCLTECH",
-      "TARIL",
-      "HEXT",
-      "TATAELXSI",
-      "360ONE"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-04-22.pdf"
-  },
-  {
     "date": "Thu, 23 Apr 2026",
     "fear_greed": 62.8,
     "fear_greed_label": "Greed",
@@ -2336,5 +2311,31 @@
       "SUMICHEM"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-24.pdf"
+  },
+  {
+    "date": "Tue, 25 Aug 2026",
+    "fear_greed": 58.4,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 24219.05,
+    "nifty": 24219.05,
+    "sensex": 77369.11,
+    "bank_nifty": 57525.95,
+    "vix": 11.53,
+    "top_gainers": [
+      "VMM",
+      "LTFOODS",
+      "IDBI",
+      "URBANCO",
+      "MUTHOOTFIN"
+    ],
+    "top_losers": [
+      "BLS",
+      "AEGISLOG",
+      "SCHNEIDER",
+      "BALRAMCHIN",
+      "FIVESTAR"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-25.pdf"
   }
 ]
