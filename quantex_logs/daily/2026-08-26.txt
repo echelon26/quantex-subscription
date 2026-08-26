@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-08-26 at 09:48 AM IST
+Regime: BULLISH (risk-on) | VIX: 10.61 | Min Score: 60
+Qualified: 18 stocks | Top 10 below
+============================================================
+
+1. HINDZINC -- Score: 77/100
+   Entry: 629.85 | SL: 602.29 | T1: 671.19 | T2: 698.75 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:17 PA:8 RS:12 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 24 (Trending), ADX Rising, RSI 69 (Power Zone), MACD Bullish, Vol Surge 2.8x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: METALS, Consistent Buying, Delivery 41%
+
+2. JSWSTEEL -- Score: 72/100
+   Entry: 1338.10 | SL: 1299.95 | T1: 1395.33 | T2: 1439.71 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:8 PA:13 RS:12 SM:5 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 30 (Strong Trend), ADX Rising, RSI 65 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Hammer, Strong RS vs Nifty, Sector Top 3: METALS, Delivery 56% (Solid)
+
+3. QUESS -- Score: 72/100
+   Entry: 371.60 | SL: 349.68 | T1: 401.20 | T2: 420.93 | RR: 1:1.4
+   Tr:20 Mo:9 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 48 (Strong Trend), ADX Rising, MACD Fresh Crossover, Vol Surge 3.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 47%
+
+4. CYIENTDLM -- Score: 70/100
+   Entry: 803.60 | SL: 752.97 | T1: 879.55 | T2: 934.20 | RR: 1:1.5
+   Tr:16 Mo:13 Vo:15 PA:8 RS:8 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 60 (Strong Trend), MACD Fresh Crossover, Vol Above Avg 1.7x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 48%
+
+5. CYIENT -- Score: 69/100
+   Entry: 1048.40 | SL: 997.26 | T1: 1140.46 | T2: 1186.49 | RR: 1:1.8
+   Tr:20 Mo:6 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX 31 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 8.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 53% (Solid)
+
+6. HATSUN -- Score: 69/100
+   Entry: 1090.95 | SL: 1032.60 | T1: 1207.65 | T2: 1266.00 | RR: 1:2.0
+   Tr:16 Mo:10 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 34 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 2.1x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 54% (Solid)
+
+7. HINDCOPPER -- Score: 68/100
+   Entry: 554.95 | SL: 544.03 | T1: 578.89 | T2: 608.89 | RR: 1:2.2
+   Tr:16 Mo:15 Vo:17 PA:5 RS:12 SM:3 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 27 (Strong Trend), RSI 56 (Power Zone), MACD Bullish, Vol Surge 3.3x, Strong Delivery (Close near High), Bullish Engulfing, Strong RS vs Nifty, Sector Top 3: METALS, Institutional Accumulation, ⚠️ Delivery 29% (Algo/Short-Cover)
+
+8. KOTAKBANK -- Score: 67/100
+   Entry: 416.45 | SL: 405.33 | T1: 433.13 | T2: 438.91 | RR: 1:1.5
+   Tr:16 Mo:10 Vo:15 PA:8 RS:8 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 31 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 2.0x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying, Delivery 63% (Strong Accumulation)
+
+9. SAIL -- Score: 67/100
+   Entry: 195.51 | SL: 185.89 | T1: 209.94 | T2: 219.56 | RR: 1:1.5
+   Tr:10 Mo:10 Vo:17 PA:8 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, MACD Bullish, Vol Surge 2.0x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: METALS, Institutional Accumulation, Delivery 42%
+
+10. CDSL -- Score: 65/100
+   Entry: 1435.00 | SL: 1389.40 | T1: 1526.20 | T2: 1571.80 | RR: 1:2.0
+   Tr:12 Mo:15 Vo:17 PA:8 RS:8 SM:5 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 69 (Power Zone), MACD Bullish, Vol Surge 2.8x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying, Delivery 40% (Weak — mostly intraday)
+
+
+────────────────────────────────────────────────────────────
+
