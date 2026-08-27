@@ -1,23 +1,23 @@
 {
-  "last_updated": "2026-08-26T11:01:33.976235",
+  "last_updated": "2026-08-27T11:02:02.755922",
   "stats": {
-    "total_tracked": 219,
-    "total_closed": 137,
-    "active": 82,
+    "total_tracked": 215,
+    "total_closed": 136,
+    "active": 79,
     "wins": 60,
-    "losses": 77,
-    "expired": 0,
-    "win_rate": 43.8,
+    "losses": 75,
+    "expired": 1,
+    "win_rate": 44.1,
     "avg_return": NaN,
     "total_return": NaN,
     "avg_win": NaN,
-    "avg_loss": -4.14,
+    "avg_loss": -4.18,
     "avg_days_held": 7.4,
-    "avg_win_days": 9.9,
+    "avg_win_days": 10.2,
     "profit_factor": NaN,
-    "t1_hits": 26,
-    "t2_hits": 34,
-    "high_score_win_rate": 48.4,
+    "t1_hits": 29,
+    "t2_hits": 31,
+    "high_score_win_rate": 50.0,
     "best_trade": {
       "symbol": "DEVYANI",
       "return_pct": 16.18,
@@ -30,276 +30,6 @@
     }
   },
   "trades": [
-    {
-      "key": "CONCOR_2026-07-27",
-      "symbol": "CONCOR",
-      "scan_date": "2026-07-27",
-      "score": 72,
-      "entry": 510.2,
-      "sl": 488.52,
-      "target1": 542.72,
-      "target2": 564.4,
-      "regime": "BULLISH (risk-on)",
-      "hold_period_est": "3-4 weeks",
-      "target_method": "Fib 1.272 + Weekly R3 + 52W High + Fib 1.618",
-      "outcome": "T1_HIT",
-      "exit_price": 516.4,
-      "exit_date": "2026-08-24",
-      "days_held": 20,
-      "return_pct": 1.22,
-      "max_gain_pct": 6.57,
-      "max_drawdown_pct": -2.34,
-      "period_to_t1_days": 14,
-      "period_to_t2_days": null,
-      "period_to_sl_days": null,
-      "period_total_days": 20,
-      "t1_hit_date": "2026-08-14",
-      "t1_hit_day": 14,
-      "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
-    },
-    {
-      "key": "LAURUSLABS_2026-07-27",
-      "symbol": "LAURUSLABS",
-      "scan_date": "2026-07-27",
-      "score": 71,
-      "entry": 1706.8,
-      "sl": 1636.64,
-      "target1": 1801.51,
-      "target2": 1864.65,
-      "regime": "BULLISH (risk-on)",
-      "hold_period_est": "1-2 weeks",
-      "target_method": "52W High + Fib 1.618 + Fib 2.0",
-      "outcome": "T2_HIT",
-      "exit_price": 1864.65,
-      "exit_date": "2026-08-10",
-      "days_held": 10,
-      "return_pct": 9.25,
-      "max_gain_pct": 9.61,
-      "max_drawdown_pct": 0.0,
-      "period_to_t1_days": 4,
-      "period_to_t2_days": 10,
-      "period_to_sl_days": null,
-      "period_total_days": 10,
-      "t1_hit_date": "2026-07-31",
-      "t1_hit_day": 4,
-      "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
-    },
-    {
-      "key": "PVRINOX_2026-07-27",
-      "symbol": "PVRINOX",
-      "scan_date": "2026-07-27",
-      "score": 70,
-      "entry": 1121.2,
-      "sl": 1071.67,
-      "target1": 1220.25,
-      "target2": 1269.78,
-      "regime": "BULLISH (risk-on)",
-      "hold_period_est": "2-3 weeks",
-      "target_method": "R:R 1:2",
-      "outcome": "T1_HIT",
-      "exit_price": 1231.8,
-      "exit_date": "2026-08-24",
-      "days_held": 20,
-      "return_pct": 9.86,
-      "max_gain_pct": 11.33,
-      "max_drawdown_pct": -1.27,
-      "period_to_t1_days": 16,
-      "period_to_t2_days": null,
-      "period_to_sl_days": null,
-      "period_total_days": 20,
-      "t1_hit_date": "2026-08-18",
-      "t1_hit_day": 16,
-      "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
-    },
-    {
-      "key": "UBL_2026-07-27",
-      "symbol": "UBL",
-      "scan_date": "2026-07-27",
-      "score": 68,
-      "entry": 1430.0,
-      "sl": 1377.02,
-      "target1": 1509.47,
-      "target2": 1562.45,
-      "regime": "BULLISH (risk-on)",
-      "hold_period_est": "1-2 weeks",
-      "target_method": "Weekly R1 + Fib 2.0 + 52W High + Fib 2.618",
-      "outcome": "SL_HIT",
-      "exit_price": 1377.02,
-      "exit_date": "2026-08-05",
-      "days_held": 7,
-      "return_pct": -3.7,
-      "max_gain_pct": 1.65,
-      "max_drawdown_pct": -4.16,
-      "period_to_t1_days": null,
-      "period_to_t2_days": null,
-      "period_to_sl_days": 7,
-      "period_total_days": 7,
-      "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
-    },
-    {
-      "key": "SUNPHARMA_2026-07-27",
-      "symbol": "SUNPHARMA",
-      "scan_date": "2026-07-27",
-      "score": 67,
-      "entry": 1974.3,
-      "sl": 1926.83,
-      "target1": 2069.24,
-      "target2": 2116.71,
-      "regime": "BULLISH (risk-on)",
-      "hold_period_est": "3-4 weeks",
-      "target_method": "R:R 1:2",
-      "outcome": "SL_HIT",
-      "exit_price": 1926.83,
-      "exit_date": "2026-08-07",
-      "days_held": 9,
-      "return_pct": -2.4,
-      "max_gain_pct": 3.68,
-      "max_drawdown_pct": -2.49,
-      "period_to_t1_days": null,
-      "period_to_t2_days": null,
-      "period_to_sl_days": 9,
-      "period_total_days": 9,
-      "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
-    },
-    {
-      "key": "RECLTD_2026-07-27",
-      "symbol": "RECLTD",
-      "scan_date": "2026-07-27",
-      "score": 66,
-      "entry": 368.1,
-      "sl": 355.93,
-      "target1": 392.45,
-      "target2": 404.62,
-      "regime": "BULLISH (risk-on)",
-      "hold_period_est": "3-4 weeks",
-      "target_method": "R:R 1:2",
-      "outcome": "SL_HIT",
-      "exit_price": 355.93,
-      "exit_date": "2026-08-10",
-      "days_held": 10,
-      "return_pct": -3.31,
-      "max_gain_pct": 2.34,
-      "max_drawdown_pct": -7.09,
-      "period_to_t1_days": null,
-      "period_to_t2_days": null,
-      "period_to_sl_days": 10,
-      "period_total_days": 10,
-      "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
-    },
-    {
-      "key": "TITAN_2026-07-27",
-      "symbol": "TITAN",
-      "scan_date": "2026-07-27",
-      "score": 65,
-      "entry": 4742.4,
-      "sl": 4625.74,
-      "target1": 4917.38,
-      "target2": 5090.52,
-      "regime": "BULLISH (risk-on)",
-      "hold_period_est": "1-2 weeks",
-      "target_method": "Weekly R2 + Fib 1.272 + Weekly R3 + Fib 1.618",
-      "outcome": "T2_HIT",
-      "exit_price": 5090.52,
-      "exit_date": "2026-08-10",
-      "days_held": 10,
-      "return_pct": 7.34,
-      "max_gain_pct": 8.01,
-      "max_drawdown_pct": -0.62,
-      "period_to_t1_days": 5,
-      "period_to_t2_days": 10,
-      "period_to_sl_days": null,
-      "period_total_days": 10,
-      "t1_hit_date": "2026-08-03",
-      "t1_hit_day": 5,
-      "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
-    },
-    {
-      "key": "ATUL_2026-07-27",
-      "symbol": "ATUL",
-      "scan_date": "2026-07-27",
-      "score": 63,
-      "entry": 6788.5,
-      "sl": 6481.25,
-      "target1": 7249.38,
-      "target2": 7710.25,
-      "regime": "BULLISH (risk-on)",
-      "hold_period_est": "2-3 weeks",
-      "target_method": "Resistance (2x) + Fib 2.0 + Vol Profile + Weekly R3",
-      "outcome": "SL_HIT",
-      "exit_price": 6481.25,
-      "exit_date": "2026-08-21",
-      "days_held": 19,
-      "return_pct": -4.53,
-      "max_gain_pct": 3.22,
-      "max_drawdown_pct": -4.84,
-      "period_to_t1_days": null,
-      "period_to_t2_days": null,
-      "period_to_sl_days": 19,
-      "period_total_days": 19,
-      "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
-    },
-    {
-      "key": "DIVISLAB_2026-07-27",
-      "symbol": "DIVISLAB",
-      "scan_date": "2026-07-27",
-      "score": 61,
-      "entry": 7420.0,
-      "sl": 7189.63,
-      "target1": 7880.74,
-      "target2": 8111.11,
-      "regime": "BULLISH (risk-on)",
-      "hold_period_est": "5-8 days",
-      "target_method": "R:R 1:2",
-      "outcome": "T2_HIT",
-      "exit_price": 8111.11,
-      "exit_date": "2026-08-03",
-      "days_held": 5,
-      "return_pct": 9.31,
-      "max_gain_pct": 15.7,
-      "max_drawdown_pct": -0.94,
-      "period_to_t1_days": 3,
-      "period_to_t2_days": 5,
-      "period_to_sl_days": null,
-      "period_total_days": 5,
-      "t1_hit_date": "2026-07-30",
-      "t1_hit_day": 3,
-      "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
-    },
-    {
-      "key": "SBILIFE_2026-07-27",
-      "symbol": "SBILIFE",
-      "scan_date": "2026-07-27",
-      "score": 61,
-      "entry": 1868.2,
-      "sl": 1807.45,
-      "target1": 1959.32,
-      "target2": 2096.26,
-      "regime": "BULLISH (risk-on)",
-      "hold_period_est": "2-3 weeks",
-      "target_method": "Resistance (3x) + 52W High + Weekly R1 + Fib 1.272",
-      "outcome": "SL_HIT",
-      "exit_price": 1807.45,
-      "exit_date": "2026-08-13",
-      "days_held": 13,
-      "return_pct": -3.25,
-      "max_gain_pct": 2.51,
-      "max_drawdown_pct": -3.36,
-      "period_to_t1_days": null,
-      "period_to_t2_days": null,
-      "period_to_sl_days": 13,
-      "period_total_days": 13,
-      "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
-    },
     {
       "key": "MASTEK_2026-07-28",
       "symbol": "MASTEK",
@@ -324,7 +54,7 @@
       "period_to_sl_days": 14,
       "period_total_days": 14,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "TVSMOTOR_2026-07-28",
@@ -352,7 +82,7 @@
       "t1_hit_date": "2026-07-31",
       "t1_hit_day": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "LODHA_2026-07-28",
@@ -378,7 +108,7 @@
       "period_to_sl_days": 4,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "COFORGE_2026-07-28",
@@ -406,7 +136,7 @@
       "t1_hit_date": "2026-08-10",
       "t1_hit_day": 9,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "TCS_2026-07-28",
@@ -432,7 +162,7 @@
       "period_to_sl_days": 15,
       "period_total_days": 15,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "IEX_2026-07-28",
@@ -458,7 +188,7 @@
       "period_to_sl_days": 4,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "TECHM_2026-07-28",
@@ -484,7 +214,7 @@
       "period_to_sl_days": 20,
       "period_total_days": 20,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "LAURUSLABS_2026-07-28",
@@ -512,7 +242,7 @@
       "t1_hit_date": "2026-08-05",
       "t1_hit_day": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "MARICO_2026-07-28",
@@ -538,7 +268,7 @@
       "period_to_sl_days": 5,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "MPHASIS_2026-07-28",
@@ -564,7 +294,7 @@
       "period_to_sl_days": 3,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "KAYNES_2026-07-29",
@@ -578,19 +308,21 @@
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
-      "outcome": "ACTIVE",
-      "exit_price": 3936.0,
-      "exit_date": "2026-08-25",
-      "days_held": 19,
-      "return_pct": 7.65,
-      "max_gain_pct": 9.31,
+      "outcome": "T1_HIT",
+      "exit_price": 4032.0,
+      "exit_date": "2026-08-26",
+      "days_held": 20,
+      "return_pct": 10.28,
+      "max_gain_pct": 12.63,
       "max_drawdown_pct": -3.31,
-      "period_to_t1_days": null,
+      "period_to_t1_days": 20,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 19,
+      "period_total_days": 20,
+      "t1_hit_date": "2026-08-26",
+      "t1_hit_day": 20,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "DIVISLAB_2026-07-29",
@@ -618,7 +350,7 @@
       "t1_hit_date": "2026-08-03",
       "t1_hit_day": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "INFY_2026-07-29",
@@ -632,19 +364,19 @@
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "3-4 weeks",
       "target_method": "Vol Profile + Weekly R3 + Fib 1.618 + 52W High",
-      "outcome": "ACTIVE",
-      "exit_price": 1144.0,
-      "exit_date": "2026-08-25",
-      "days_held": 19,
-      "return_pct": -1.06,
+      "outcome": "EXPIRED",
+      "exit_price": 1120.0,
+      "exit_date": "2026-08-26",
+      "days_held": 20,
+      "return_pct": -3.14,
       "max_gain_pct": 3.35,
       "max_drawdown_pct": -4.25,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 19,
+      "period_total_days": 20,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "TVSMOTOR_2026-07-29",
@@ -672,7 +404,7 @@
       "t1_hit_date": "2026-08-03",
       "t1_hit_day": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "FSL_2026-07-29",
@@ -700,7 +432,7 @@
       "t1_hit_date": "2026-08-03",
       "t1_hit_day": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "COFORGE_2026-07-29",
@@ -728,7 +460,7 @@
       "t1_hit_date": "2026-08-20",
       "t1_hit_day": 16,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "SBILIFE_2026-07-29",
@@ -754,7 +486,7 @@
       "period_to_sl_days": 8,
       "period_total_days": 8,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "PIDILITIND_2026-07-29",
@@ -769,20 +501,20 @@
       "hold_period_est": "1-2 weeks",
       "target_method": "Weekly R2 + Weekly R3 + Fib 1.0 + Measured Move",
       "outcome": "T1_HIT",
-      "exit_price": 1651.1,
-      "exit_date": "2026-08-25",
-      "days_held": 19,
-      "return_pct": 1.28,
+      "exit_price": 1650.0,
+      "exit_date": "2026-08-26",
+      "days_held": 20,
+      "return_pct": 1.21,
       "max_gain_pct": 4.74,
       "max_drawdown_pct": -1.79,
       "period_to_t1_days": 12,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 19,
+      "period_total_days": 20,
       "t1_hit_date": "2026-08-14",
       "t1_hit_day": 12,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "MANAPPURAM_2026-07-29",
@@ -808,7 +540,7 @@
       "period_to_sl_days": 4,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "ASIANPAINT_2026-07-29",
@@ -834,7 +566,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "EICHERMOT_2026-07-30",
@@ -849,18 +581,18 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "Weekly R3 + Fib 1.618 + Fib 2.0 + Fib 2.618",
       "outcome": "ACTIVE",
-      "exit_price": 8055.0,
-      "exit_date": "2026-08-25",
-      "days_held": 18,
-      "return_pct": 1.83,
+      "exit_price": 8035.0,
+      "exit_date": "2026-08-26",
+      "days_held": 19,
+      "return_pct": 1.57,
       "max_gain_pct": 3.22,
       "max_drawdown_pct": -1.47,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 18,
+      "period_total_days": 19,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "HEROMOTOCO_2026-07-30",
@@ -888,7 +620,7 @@
       "t1_hit_date": "2026-08-04",
       "t1_hit_day": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "TVSMOTOR_2026-07-30",
@@ -916,7 +648,7 @@
       "t1_hit_date": "2026-08-05",
       "t1_hit_day": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "BALKRISIND_2026-07-30",
@@ -931,20 +663,20 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "52W High + Fib 1.618 + Fib 2.0 + Fib 2.618",
       "outcome": "T1_HIT",
-      "exit_price": 2366.3,
-      "exit_date": "2026-08-25",
-      "days_held": 18,
-      "return_pct": 2.33,
+      "exit_price": 2328.6,
+      "exit_date": "2026-08-26",
+      "days_held": 19,
+      "return_pct": 0.7,
       "max_gain_pct": 10.62,
       "max_drawdown_pct": -0.06,
       "period_to_t1_days": 1,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 18,
+      "period_total_days": 19,
       "t1_hit_date": "2026-07-31",
       "t1_hit_day": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "SONACOMS_2026-07-30",
@@ -959,20 +691,20 @@
       "hold_period_est": "5-8 days",
       "target_method": "R:R 1:2",
       "outcome": "T1_HIT",
-      "exit_price": 808.8,
-      "exit_date": "2026-08-25",
-      "days_held": 18,
-      "return_pct": 5.86,
+      "exit_price": 795.0,
+      "exit_date": "2026-08-26",
+      "days_held": 19,
+      "return_pct": 4.06,
       "max_gain_pct": 10.47,
       "max_drawdown_pct": -0.27,
       "period_to_t1_days": 4,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 18,
+      "period_total_days": 19,
       "t1_hit_date": "2026-08-05",
       "t1_hit_day": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "M&M_2026-07-30",
@@ -987,20 +719,20 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "Fib 1.272 + Weekly R3 + 52W High + Fib 1.618",
       "outcome": "T1_HIT",
-      "exit_price": 3443.0,
-      "exit_date": "2026-08-25",
-      "days_held": 18,
-      "return_pct": 4.75,
+      "exit_price": 3398.2,
+      "exit_date": "2026-08-26",
+      "days_held": 19,
+      "return_pct": 3.38,
       "max_gain_pct": 7.53,
       "max_drawdown_pct": -1.33,
       "period_to_t1_days": 4,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 18,
+      "period_total_days": 19,
       "t1_hit_date": "2026-08-05",
       "t1_hit_day": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "EXIDEIND_2026-07-30",
@@ -1015,18 +747,18 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 448.75,
-      "exit_date": "2026-08-25",
-      "days_held": 18,
-      "return_pct": -2.0,
+      "exit_price": 444.0,
+      "exit_date": "2026-08-26",
+      "days_held": 19,
+      "return_pct": -3.04,
       "max_gain_pct": 8.41,
       "max_drawdown_pct": -3.91,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 18,
+      "period_total_days": 19,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "ALKEM_2026-07-30",
@@ -1052,7 +784,7 @@
       "period_to_sl_days": 3,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "WIPRO_2026-07-30",
@@ -1078,7 +810,7 @@
       "period_to_sl_days": 13,
       "period_total_days": 13,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "ENDURANCE_2026-07-30",
@@ -1093,20 +825,20 @@
       "hold_period_est": "1-2 weeks",
       "target_method": "52W High + Fib 1.272 + Weekly R2 + Fib 1.618",
       "outcome": "T1_HIT",
-      "exit_price": 2987.5,
-      "exit_date": "2026-08-25",
-      "days_held": 18,
-      "return_pct": 6.55,
+      "exit_price": 2986.0,
+      "exit_date": "2026-08-26",
+      "days_held": 19,
+      "return_pct": 6.5,
       "max_gain_pct": 9.57,
       "max_drawdown_pct": -2.58,
       "period_to_t1_days": 8,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 18,
+      "period_total_days": 19,
       "t1_hit_date": "2026-08-11",
       "t1_hit_day": 8,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "JIOFIN_2026-07-31",
@@ -1132,7 +864,7 @@
       "period_to_sl_days": 11,
       "period_total_days": 11,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "BAJFINANCE_2026-07-31",
@@ -1158,7 +890,7 @@
       "period_to_sl_days": 5,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "TVSMOTOR_2026-07-31",
@@ -1173,18 +905,18 @@
       "hold_period_est": "5-8 days",
       "target_method": "Weekly R3 + Fib 2.618",
       "outcome": "ACTIVE",
-      "exit_price": 4420.0,
-      "exit_date": "2026-08-25",
-      "days_held": 17,
-      "return_pct": 2.44,
-      "max_gain_pct": 3.71,
+      "exit_price": 4464.0,
+      "exit_date": "2026-08-26",
+      "days_held": 18,
+      "return_pct": 3.46,
+      "max_gain_pct": 3.93,
       "max_drawdown_pct": -0.76,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 17,
+      "period_total_days": 18,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "BAJAJFINSV_2026-07-31",
@@ -1199,18 +931,18 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "Fib 1.618 + Fib 2.0 + Fib 2.618",
       "outcome": "ACTIVE",
-      "exit_price": 2004.0,
-      "exit_date": "2026-08-25",
-      "days_held": 17,
-      "return_pct": -1.27,
+      "exit_price": 2010.0,
+      "exit_date": "2026-08-26",
+      "days_held": 18,
+      "return_pct": -0.97,
       "max_gain_pct": 4.38,
       "max_drawdown_pct": -2.2,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 17,
+      "period_total_days": 18,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "BALKRISIND_2026-07-31",
@@ -1236,7 +968,7 @@
       "period_to_sl_days": 13,
       "period_total_days": 13,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "M&M_2026-07-31",
@@ -1251,18 +983,18 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 3443.0,
-      "exit_date": "2026-08-25",
-      "days_held": 17,
-      "return_pct": 1.32,
+      "exit_price": 3398.2,
+      "exit_date": "2026-08-26",
+      "days_held": 18,
+      "return_pct": -0.0,
       "max_gain_pct": 4.01,
       "max_drawdown_pct": -0.8,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 17,
+      "period_total_days": 18,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "ASHOKLEY_2026-07-31",
@@ -1277,20 +1009,20 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "Fib 1.272 + 52W High + Fib 1.618 + Fib 2.0",
       "outcome": "T1_HIT",
-      "exit_price": 174.69,
-      "exit_date": "2026-08-25",
-      "days_held": 17,
-      "return_pct": 5.13,
+      "exit_price": 179.05,
+      "exit_date": "2026-08-26",
+      "days_held": 18,
+      "return_pct": 7.76,
       "max_gain_pct": 9.95,
       "max_drawdown_pct": 0.0,
       "period_to_t1_days": 3,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 17,
+      "period_total_days": 18,
       "t1_hit_date": "2026-08-05",
       "t1_hit_day": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "LUMAXTECH_2026-07-31",
@@ -1318,7 +1050,7 @@
       "t1_hit_date": "2026-08-05",
       "t1_hit_day": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "GAIL_2026-07-31",
@@ -1344,7 +1076,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "KAYNES_2026-07-31",
@@ -1370,7 +1102,7 @@
       "period_to_sl_days": 6,
       "period_total_days": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "APLAPOLLO_2026-08-03",
@@ -1398,7 +1130,7 @@
       "t1_hit_date": "2026-08-13",
       "t1_hit_day": 8,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "JUBLFOOD_2026-08-03",
@@ -1426,7 +1158,7 @@
       "t1_hit_date": "2026-08-13",
       "t1_hit_day": 8,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "SUNDARMFIN_2026-08-03",
@@ -1452,7 +1184,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "BAJAJFINSV_2026-08-03",
@@ -1478,7 +1210,7 @@
       "period_to_sl_days": 4,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "ASHOKLEY_2026-08-03",
@@ -1493,18 +1225,18 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 174.69,
-      "exit_date": "2026-08-25",
-      "days_held": 16,
-      "return_pct": -0.06,
+      "exit_price": 179.05,
+      "exit_date": "2026-08-26",
+      "days_held": 17,
+      "return_pct": 2.43,
       "max_gain_pct": 4.52,
       "max_drawdown_pct": -2.89,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 16,
+      "period_total_days": 17,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "ABB_2026-08-03",
@@ -1519,18 +1251,18 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "Weekly R3 + 52W High + Fib 1.0 + Fib 1.272",
       "outcome": "ACTIVE",
-      "exit_price": 7627.0,
-      "exit_date": "2026-08-25",
-      "days_held": 16,
-      "return_pct": -0.37,
+      "exit_price": 7609.0,
+      "exit_date": "2026-08-26",
+      "days_held": 17,
+      "return_pct": -0.6,
       "max_gain_pct": 2.22,
       "max_drawdown_pct": -3.44,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 16,
+      "period_total_days": 17,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "PAYTM_2026-08-03",
@@ -1558,7 +1290,7 @@
       "t1_hit_date": "2026-08-10",
       "t1_hit_day": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "SBICARD_2026-08-03",
@@ -1584,7 +1316,7 @@
       "period_to_sl_days": 7,
       "period_total_days": 7,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "NIFTYBEES_2026-08-03",
@@ -1610,7 +1342,7 @@
       "period_to_sl_days": 12,
       "period_total_days": 12,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "MOTHERSON_2026-08-03",
@@ -1638,7 +1370,7 @@
       "t1_hit_date": "2026-08-07",
       "t1_hit_day": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "KEI_2026-08-04",
@@ -1653,20 +1385,20 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "Fib 1.0 + Measured Move + 52W High + Fib 1.272",
       "outcome": "T1_HIT",
-      "exit_price": 5588.0,
-      "exit_date": "2026-08-25",
-      "days_held": 15,
-      "return_pct": 1.6,
+      "exit_price": 5540.0,
+      "exit_date": "2026-08-26",
+      "days_held": 16,
+      "return_pct": 0.73,
       "max_gain_pct": 7.25,
       "max_drawdown_pct": -1.06,
       "period_to_t1_days": 9,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 15,
+      "period_total_days": 16,
       "t1_hit_date": "2026-08-17",
       "t1_hit_day": 9,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "HINDALCO_2026-08-04",
@@ -1681,20 +1413,20 @@
       "hold_period_est": "1-2 weeks",
       "target_method": "Fib 1.618 + Weekly R3 + Fib 2.0 + Fib 2.618",
       "outcome": "T1_HIT",
-      "exit_price": 1051.05,
-      "exit_date": "2026-08-25",
-      "days_held": 15,
-      "return_pct": 3.27,
+      "exit_price": 1053.0,
+      "exit_date": "2026-08-26",
+      "days_held": 16,
+      "return_pct": 3.46,
       "max_gain_pct": 6.89,
       "max_drawdown_pct": -0.64,
       "period_to_t1_days": 4,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 15,
+      "period_total_days": 16,
       "t1_hit_date": "2026-08-10",
       "t1_hit_day": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "NATIONALUM_2026-08-04",
@@ -1709,20 +1441,20 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
       "outcome": "T1_HIT",
-      "exit_price": 397.8,
-      "exit_date": "2026-08-25",
-      "days_held": 15,
-      "return_pct": 4.42,
+      "exit_price": 399.3,
+      "exit_date": "2026-08-26",
+      "days_held": 16,
+      "return_pct": 4.82,
       "max_gain_pct": 10.55,
       "max_drawdown_pct": -1.81,
       "period_to_t1_days": 6,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 15,
+      "period_total_days": 16,
       "t1_hit_date": "2026-08-12",
       "t1_hit_day": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "ENDURANCE_2026-08-04",
@@ -1737,18 +1469,18 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 2987.5,
-      "exit_date": "2026-08-25",
-      "days_held": 15,
-      "return_pct": 5.05,
+      "exit_price": 2986.0,
+      "exit_date": "2026-08-26",
+      "days_held": 16,
+      "return_pct": 5.0,
       "max_gain_pct": 8.02,
       "max_drawdown_pct": 0.0,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 15,
+      "period_total_days": 16,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "HINDZINC_2026-08-04",
@@ -1763,20 +1495,20 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "Weekly R3 + Fib 2.0 + Resistance (2x) + Fib 2.618",
       "outcome": "T1_HIT",
-      "exit_price": 592.6,
-      "exit_date": "2026-08-25",
-      "days_held": 15,
-      "return_pct": 5.26,
-      "max_gain_pct": 9.09,
+      "exit_price": 626.5,
+      "exit_date": "2026-08-26",
+      "days_held": 16,
+      "return_pct": 11.28,
+      "max_gain_pct": 12.26,
       "max_drawdown_pct": -2.52,
       "period_to_t1_days": 1,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 15,
+      "period_total_days": 16,
       "t1_hit_date": "2026-08-05",
       "t1_hit_day": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "HEROMOTOCO_2026-08-04",
@@ -1791,20 +1523,20 @@
       "hold_period_est": "5-8 days",
       "target_method": "R:R 1:2",
       "outcome": "T1_HIT",
-      "exit_price": 5624.5,
-      "exit_date": "2026-08-25",
-      "days_held": 15,
-      "return_pct": 0.89,
+      "exit_price": 5595.0,
+      "exit_date": "2026-08-26",
+      "days_held": 16,
+      "return_pct": 0.36,
       "max_gain_pct": 6.49,
       "max_drawdown_pct": -0.61,
       "period_to_t1_days": 4,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 15,
+      "period_total_days": 16,
       "t1_hit_date": "2026-08-10",
       "t1_hit_day": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "NETWEB_2026-08-04",
@@ -1832,7 +1564,7 @@
       "t1_hit_date": "2026-08-14",
       "t1_hit_day": 8,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "SAIL_2026-08-04",
@@ -1858,7 +1590,7 @@
       "period_to_sl_days": 8,
       "period_total_days": 8,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "BATAINDIA_2026-08-04",
@@ -1886,7 +1618,7 @@
       "t1_hit_date": "2026-08-12",
       "t1_hit_day": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "UNOMINDA_2026-08-04",
@@ -1901,20 +1633,20 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "52W High + Fib 1.272 + Weekly R3 + Fib 1.618",
       "outcome": "T1_HIT",
-      "exit_price": 1253.4,
-      "exit_date": "2026-08-25",
-      "days_held": 15,
-      "return_pct": 2.43,
+      "exit_price": 1260.0,
+      "exit_date": "2026-08-26",
+      "days_held": 16,
+      "return_pct": 2.97,
       "max_gain_pct": 6.1,
       "max_drawdown_pct": 0.0,
       "period_to_t1_days": 4,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 15,
+      "period_total_days": 16,
       "t1_hit_date": "2026-08-10",
       "t1_hit_day": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "SHRIRAMFIN_2026-08-05",
@@ -1929,18 +1661,18 @@
       "hold_period_est": "1-2 weeks",
       "target_method": "Fib 2.0 + Fib 2.618",
       "outcome": "ACTIVE",
-      "exit_price": 1138.5,
-      "exit_date": "2026-08-25",
-      "days_held": 14,
-      "return_pct": 1.97,
+      "exit_price": 1117.5,
+      "exit_date": "2026-08-26",
+      "days_held": 15,
+      "return_pct": 0.09,
       "max_gain_pct": 3.33,
       "max_drawdown_pct": -1.64,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 14,
+      "period_total_days": 15,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "HINDZINC_2026-08-05",
@@ -1966,7 +1698,7 @@
       "period_to_sl_days": 6,
       "period_total_days": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "GNFC_2026-08-05",
@@ -1994,7 +1726,7 @@
       "t1_hit_date": "2026-08-17",
       "t1_hit_day": 8,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "LUMAXTECH_2026-08-05",
@@ -2022,7 +1754,7 @@
       "t1_hit_date": "2026-08-11",
       "t1_hit_day": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "HINDCOPPER_2026-08-05",
@@ -2050,7 +1782,7 @@
       "t1_hit_date": "2026-08-12",
       "t1_hit_day": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "EXIDEIND_2026-08-05",
@@ -2064,19 +1796,19 @@
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "2-3 weeks",
       "target_method": "R:R 1:2",
-      "outcome": "ACTIVE",
-      "exit_price": 448.75,
-      "exit_date": "2026-08-25",
-      "days_held": 14,
-      "return_pct": -4.1,
+      "outcome": "SL_HIT",
+      "exit_price": 444.49,
+      "exit_date": "2026-08-26",
+      "days_held": 15,
+      "return_pct": -5.01,
       "max_gain_pct": 6.08,
-      "max_drawdown_pct": -4.54,
+      "max_drawdown_pct": -5.46,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
-      "period_to_sl_days": null,
-      "period_total_days": 14,
+      "period_to_sl_days": 15,
+      "period_total_days": 15,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "DEVYANI_2026-08-05",
@@ -2104,7 +1836,7 @@
       "t1_hit_date": "2026-08-11",
       "t1_hit_day": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "HINDALCO_2026-08-05",
@@ -2119,20 +1851,20 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "Fib 2.0 + Fib 2.618 + 52W High",
       "outcome": "T1_HIT",
-      "exit_price": 1051.05,
-      "exit_date": "2026-08-25",
-      "days_held": 14,
-      "return_pct": 1.5,
+      "exit_price": 1053.0,
+      "exit_date": "2026-08-26",
+      "days_held": 15,
+      "return_pct": 1.69,
       "max_gain_pct": 5.06,
       "max_drawdown_pct": -2.18,
       "period_to_t1_days": 5,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 14,
+      "period_total_days": 15,
       "t1_hit_date": "2026-08-12",
       "t1_hit_day": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "ENDURANCE_2026-08-05",
@@ -2147,18 +1879,18 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "Weekly R2 + Fib 2.618 + Weekly R3",
       "outcome": "ACTIVE",
-      "exit_price": 2987.5,
-      "exit_date": "2026-08-25",
-      "days_held": 14,
-      "return_pct": 3.02,
+      "exit_price": 2986.0,
+      "exit_date": "2026-08-26",
+      "days_held": 15,
+      "return_pct": 2.97,
       "max_gain_pct": 5.93,
       "max_drawdown_pct": -1.69,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 14,
+      "period_total_days": 15,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "WELCORP_2026-08-05",
@@ -2186,7 +1918,7 @@
       "t1_hit_date": "2026-08-19",
       "t1_hit_day": 10,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "SETFGOLD_2026-08-06",
@@ -2214,7 +1946,7 @@
       "t1_hit_date": "2026-08-19",
       "t1_hit_day": 9,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "EGOLD_2026-08-06",
@@ -2242,7 +1974,7 @@
       "t1_hit_date": "2026-08-11",
       "t1_hit_day": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "RITES_2026-08-06",
@@ -2268,7 +2000,7 @@
       "period_to_sl_days": 6,
       "period_total_days": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "SBIN_2026-08-06",
@@ -2294,7 +2026,7 @@
       "period_to_sl_days": 7,
       "period_total_days": 7,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "BSLGOLDETF_2026-08-06",
@@ -2322,7 +2054,7 @@
       "t1_hit_date": "2026-08-11",
       "t1_hit_day": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "KOLTEPATIL_2026-08-06",
@@ -2350,7 +2082,7 @@
       "t1_hit_date": "2026-08-10",
       "t1_hit_day": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "MIDHANI_2026-08-06",
@@ -2376,7 +2108,7 @@
       "period_to_sl_days": 4,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "TATATECH_2026-08-06",
@@ -2391,20 +2123,20 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
       "outcome": "T1_HIT",
-      "exit_price": 798.5,
-      "exit_date": "2026-08-25",
-      "days_held": 13,
-      "return_pct": -0.76,
+      "exit_price": 793.5,
+      "exit_date": "2026-08-26",
+      "days_held": 14,
+      "return_pct": -1.38,
       "max_gain_pct": 10.74,
       "max_drawdown_pct": -2.48,
       "period_to_t1_days": 2,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 13,
+      "period_total_days": 14,
       "t1_hit_date": "2026-08-10",
       "t1_hit_day": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "IRCTC_2026-08-06",
@@ -2430,7 +2162,7 @@
       "period_to_sl_days": 5,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "HAL_2026-08-06",
@@ -2445,18 +2177,18 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 4900.0,
-      "exit_date": "2026-08-25",
-      "days_held": 13,
-      "return_pct": -0.69,
+      "exit_price": 4865.5,
+      "exit_date": "2026-08-26",
+      "days_held": 14,
+      "return_pct": -1.39,
       "max_gain_pct": 4.38,
       "max_drawdown_pct": -2.84,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 13,
+      "period_total_days": 14,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "HINDALCO_2026-08-07",
@@ -2482,7 +2214,7 @@
       "period_to_sl_days": 9,
       "period_total_days": 9,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "AUROPHARMA_2026-08-07",
@@ -2497,18 +2229,18 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "Weekly R3 + Fib 1.0 + Measured Move + Fib 1.272",
       "outcome": "ACTIVE",
-      "exit_price": 1617.8,
-      "exit_date": "2026-08-25",
-      "days_held": 12,
-      "return_pct": -2.42,
+      "exit_price": 1623.0,
+      "exit_date": "2026-08-26",
+      "days_held": 13,
+      "return_pct": -2.11,
       "max_gain_pct": 1.47,
       "max_drawdown_pct": -3.57,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 12,
+      "period_total_days": 13,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "M&M_2026-08-07",
@@ -2534,7 +2266,7 @@
       "period_to_sl_days": 5,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "FINEORG_2026-08-07",
@@ -2560,7 +2292,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "COCHINSHIP_2026-08-07",
@@ -2586,7 +2318,7 @@
       "period_to_sl_days": 6,
       "period_total_days": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "BHARATFORG_2026-08-07",
@@ -2612,7 +2344,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "RITES_2026-08-07",
@@ -2638,7 +2370,7 @@
       "period_to_sl_days": 3,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "MOTHERSON_2026-08-07",
@@ -2653,18 +2385,18 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 166.45,
-      "exit_date": "2026-08-25",
-      "days_held": 12,
-      "return_pct": -1.45,
+      "exit_price": 165.0,
+      "exit_date": "2026-08-26",
+      "days_held": 13,
+      "return_pct": -2.31,
       "max_gain_pct": 2.59,
       "max_drawdown_pct": -2.42,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 12,
+      "period_total_days": 13,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "DEVYANI_2026-08-07",
@@ -2679,20 +2411,20 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "R:R 1:2",
       "outcome": "T1_HIT",
-      "exit_price": 149.9,
-      "exit_date": "2026-08-25",
-      "days_held": 12,
-      "return_pct": 10.46,
-      "max_gain_pct": 10.72,
+      "exit_price": 149.36,
+      "exit_date": "2026-08-26",
+      "days_held": 13,
+      "return_pct": 10.07,
+      "max_gain_pct": 14.22,
       "max_drawdown_pct": -2.9,
       "period_to_t1_days": 11,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 12,
+      "period_total_days": 13,
       "t1_hit_date": "2026-08-24",
       "t1_hit_day": 11,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "JUBLFOOD_2026-08-07",
@@ -2707,18 +2439,18 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 515.0,
-      "exit_date": "2026-08-25",
-      "days_held": 12,
-      "return_pct": 5.74,
-      "max_gain_pct": 6.97,
+      "exit_price": 499.5,
+      "exit_date": "2026-08-26",
+      "days_held": 13,
+      "return_pct": 2.56,
+      "max_gain_pct": 8.38,
       "max_drawdown_pct": -3.17,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 12,
+      "period_total_days": 13,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "SETFGOLD_2026-08-10",
@@ -2734,19 +2466,19 @@
       "target_method": "R:R 1:2",
       "outcome": "T1_HIT",
       "exit_price": NaN,
-      "exit_date": "2026-08-25",
-      "days_held": 11,
+      "exit_date": "2026-08-26",
+      "days_held": 12,
       "return_pct": NaN,
       "max_gain_pct": 8.81,
       "max_drawdown_pct": -1.14,
       "period_to_t1_days": 10,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 11,
+      "period_total_days": 12,
       "t1_hit_date": "2026-08-24",
       "t1_hit_day": 10,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "SYRMA_2026-08-10",
@@ -2772,7 +2504,7 @@
       "period_to_sl_days": 8,
       "period_total_days": 8,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "GARUDA_2026-08-10",
@@ -2798,7 +2530,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "BRIGADE_2026-08-10",
@@ -2824,7 +2556,7 @@
       "period_to_sl_days": 5,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "GRASIM_2026-08-10",
@@ -2850,7 +2582,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "EGOLD_2026-08-10",
@@ -2866,19 +2598,19 @@
       "target_method": "Weekly R1 + Vol Profile + Fib 2.618 + Weekly R2",
       "outcome": "T1_HIT",
       "exit_price": NaN,
-      "exit_date": "2026-08-25",
-      "days_held": 11,
+      "exit_date": "2026-08-26",
+      "days_held": 12,
       "return_pct": NaN,
-      "max_gain_pct": 7.16,
+      "max_gain_pct": 7.43,
       "max_drawdown_pct": -0.66,
       "period_to_t1_days": 9,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 11,
+      "period_total_days": 12,
       "t1_hit_date": "2026-08-21",
       "t1_hit_day": 9,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "PAYTM_2026-08-10",
@@ -2892,19 +2624,21 @@
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "1-2 weeks",
       "target_method": "R:R 1:2",
-      "outcome": "ACTIVE",
-      "exit_price": 1718.0,
-      "exit_date": "2026-08-25",
-      "days_held": 11,
-      "return_pct": 8.11,
-      "max_gain_pct": 8.11,
+      "outcome": "T1_HIT",
+      "exit_price": 1716.0,
+      "exit_date": "2026-08-26",
+      "days_held": 12,
+      "return_pct": 7.99,
+      "max_gain_pct": 9.01,
       "max_drawdown_pct": -2.69,
-      "period_to_t1_days": null,
+      "period_to_t1_days": 12,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 11,
+      "period_total_days": 12,
+      "t1_hit_date": "2026-08-26",
+      "t1_hit_day": 12,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "SUMICHEM_2026-08-10",
@@ -2930,7 +2664,7 @@
       "period_to_sl_days": 10,
       "period_total_days": 10,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "POLYMED_2026-08-10",
@@ -2945,20 +2679,20 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "Weekly R2 + 52W High + Fib 1.272 + Weekly R3",
       "outcome": "T1_HIT",
-      "exit_price": 1731.7,
-      "exit_date": "2026-08-25",
-      "days_held": 11,
-      "return_pct": -2.28,
+      "exit_price": 1711.2,
+      "exit_date": "2026-08-26",
+      "days_held": 12,
+      "return_pct": -3.44,
       "max_gain_pct": 7.99,
       "max_drawdown_pct": -3.79,
       "period_to_t1_days": 2,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 11,
+      "period_total_days": 12,
       "t1_hit_date": "2026-08-12",
       "t1_hit_day": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "VEDL_2026-08-10",
@@ -2984,7 +2718,7 @@
       "period_to_sl_days": 3,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "ZYDUSLIFE_2026-08-11",
@@ -3010,7 +2744,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "POLYMED_2026-08-11",
@@ -3036,7 +2770,7 @@
       "period_to_sl_days": 3,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "LUMAXTECH_2026-08-11",
@@ -3062,7 +2796,7 @@
       "period_to_sl_days": 9,
       "period_total_days": 9,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "CARBORUNIV_2026-08-11",
@@ -3088,7 +2822,7 @@
       "period_to_sl_days": 6,
       "period_total_days": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "POLICYBZR_2026-08-11",
@@ -3102,19 +2836,21 @@
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "2-3 weeks",
       "target_method": "Weekly R3 + 52W High",
-      "outcome": "ACTIVE",
-      "exit_price": 1798.3,
-      "exit_date": "2026-08-25",
-      "days_held": 10,
-      "return_pct": 3.72,
-      "max_gain_pct": 4.68,
+      "outcome": "T1_HIT",
+      "exit_price": 1840.0,
+      "exit_date": "2026-08-26",
+      "days_held": 11,
+      "return_pct": 6.13,
+      "max_gain_pct": 8.14,
       "max_drawdown_pct": -2.46,
-      "period_to_t1_days": null,
+      "period_to_t1_days": 11,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 10,
+      "period_total_days": 11,
+      "t1_hit_date": "2026-08-26",
+      "t1_hit_day": 11,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "MRPL_2026-08-11",
@@ -3140,7 +2876,7 @@
       "period_to_sl_days": 3,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "NAUKRI_2026-08-11",
@@ -3155,18 +2891,18 @@
       "hold_period_est": "1-2 weeks",
       "target_method": "52W High + Fib 1.0 + Measured Move + Fib 1.272",
       "outcome": "ACTIVE",
-      "exit_price": 1350.0,
-      "exit_date": "2026-08-25",
-      "days_held": 10,
-      "return_pct": -0.63,
+      "exit_price": 1323.5,
+      "exit_date": "2026-08-26",
+      "days_held": 11,
+      "return_pct": -2.58,
       "max_gain_pct": 2.32,
-      "max_drawdown_pct": -2.24,
+      "max_drawdown_pct": -2.69,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 10,
+      "period_total_days": 11,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "SUNDRMFAST_2026-08-11",
@@ -3181,18 +2917,18 @@
       "hold_period_est": "5-8 days",
       "target_method": "52W High + Fib 2.0 + Weekly R3 + Fib 2.618",
       "outcome": "ACTIVE",
-      "exit_price": 1207.0,
-      "exit_date": "2026-08-25",
-      "days_held": 10,
-      "return_pct": -0.31,
+      "exit_price": 1237.95,
+      "exit_date": "2026-08-26",
+      "days_held": 11,
+      "return_pct": 2.25,
       "max_gain_pct": 3.27,
       "max_drawdown_pct": -1.31,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 10,
+      "period_total_days": 11,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "ENDURANCE_2026-08-11",
@@ -3207,18 +2943,18 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 2987.5,
-      "exit_date": "2026-08-25",
-      "days_held": 10,
-      "return_pct": -0.25,
+      "exit_price": 2986.0,
+      "exit_date": "2026-08-26",
+      "days_held": 11,
+      "return_pct": -0.3,
       "max_gain_pct": 2.57,
       "max_drawdown_pct": -3.91,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 10,
+      "period_total_days": 11,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "SILVERBEES_2026-08-11",
@@ -3244,7 +2980,7 @@
       "period_to_sl_days": 6,
       "period_total_days": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "ZYDUSLIFE_2026-08-12",
@@ -3270,7 +3006,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "MCX_2026-08-12",
@@ -3285,20 +3021,20 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
       "outcome": "T1_HIT",
-      "exit_price": 3280.0,
-      "exit_date": "2026-08-25",
-      "days_held": 9,
-      "return_pct": 10.4,
-      "max_gain_pct": 11.37,
+      "exit_price": 3350.0,
+      "exit_date": "2026-08-26",
+      "days_held": 10,
+      "return_pct": 12.76,
+      "max_gain_pct": 12.92,
       "max_drawdown_pct": -2.66,
       "period_to_t1_days": 8,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 9,
+      "period_total_days": 10,
       "t1_hit_date": "2026-08-24",
       "t1_hit_day": 8,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "SBISILVER_2026-08-12",
@@ -3324,7 +3060,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "UNIONBANK_2026-08-12",
@@ -3339,18 +3075,18 @@
       "hold_period_est": "1-2 weeks",
       "target_method": "Weekly R1 + Fib 1.0 + Measured Move + Weekly R2",
       "outcome": "ACTIVE",
-      "exit_price": 186.98,
-      "exit_date": "2026-08-25",
-      "days_held": 9,
-      "return_pct": -0.01,
-      "max_gain_pct": 1.91,
+      "exit_price": 187.52,
+      "exit_date": "2026-08-26",
+      "days_held": 10,
+      "return_pct": 0.28,
+      "max_gain_pct": 2.85,
       "max_drawdown_pct": -2.99,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 9,
+      "period_total_days": 10,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "HDFCSILVER_2026-08-12",
@@ -3376,7 +3112,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "BERGEPAINT_2026-08-12",
@@ -3402,7 +3138,7 @@
       "period_to_sl_days": 4,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "AARTIIND_2026-08-12",
@@ -3417,18 +3153,18 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "Weekly R3 + Fib 1.618 + Fib 2.0 + Fib 2.618",
       "outcome": "ACTIVE",
-      "exit_price": 538.9,
-      "exit_date": "2026-08-25",
-      "days_held": 9,
-      "return_pct": 1.41,
+      "exit_price": 542.95,
+      "exit_date": "2026-08-26",
+      "days_held": 10,
+      "return_pct": 2.17,
       "max_gain_pct": 3.83,
       "max_drawdown_pct": -3.56,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 9,
+      "period_total_days": 10,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "PNB_2026-08-12",
@@ -3443,18 +3179,18 @@
       "hold_period_est": "5-8 days",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 115.93,
-      "exit_date": "2026-08-25",
-      "days_held": 9,
-      "return_pct": -2.0,
+      "exit_price": 116.7,
+      "exit_date": "2026-08-26",
+      "days_held": 10,
+      "return_pct": -1.35,
       "max_gain_pct": 0.89,
       "max_drawdown_pct": -2.79,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 9,
+      "period_total_days": 10,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "NATIONALUM_2026-08-12",
@@ -3480,7 +3216,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "PIDILITIND_2026-08-12",
@@ -3506,7 +3242,7 @@
       "period_to_sl_days": 8,
       "period_total_days": 8,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "BDL_2026-08-13",
@@ -3532,7 +3268,7 @@
       "period_to_sl_days": 5,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "CONCOR_2026-08-13",
@@ -3558,7 +3294,7 @@
       "period_to_sl_days": 4,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "PARAS_2026-08-13",
@@ -3586,7 +3322,7 @@
       "t1_hit_date": "2026-08-18",
       "t1_hit_day": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "POONAWALLA_2026-08-13",
@@ -3612,7 +3348,7 @@
       "period_to_sl_days": 7,
       "period_total_days": 7,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "MIDHANI_2026-08-13",
@@ -3638,7 +3374,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "NETWEB_2026-08-13",
@@ -3653,20 +3389,20 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
       "outcome": "T1_HIT",
-      "exit_price": 5273.5,
-      "exit_date": "2026-08-25",
-      "days_held": 8,
-      "return_pct": 1.53,
+      "exit_price": 5271.9,
+      "exit_date": "2026-08-26",
+      "days_held": 9,
+      "return_pct": 1.5,
       "max_gain_pct": 11.92,
       "max_drawdown_pct": -3.9,
       "period_to_t1_days": 7,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 8,
+      "period_total_days": 9,
       "t1_hit_date": "2026-08-24",
       "t1_hit_day": 7,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "CLEAN_2026-08-13",
@@ -3681,18 +3417,18 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 821.9,
-      "exit_date": "2026-08-25",
-      "days_held": 8,
-      "return_pct": -1.86,
+      "exit_price": 829.45,
+      "exit_date": "2026-08-26",
+      "days_held": 9,
+      "return_pct": -0.96,
       "max_gain_pct": 1.36,
       "max_drawdown_pct": -2.69,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 8,
+      "period_total_days": 9,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "JUBLFOOD_2026-08-13",
@@ -3707,18 +3443,18 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 515.0,
-      "exit_date": "2026-08-25",
-      "days_held": 8,
-      "return_pct": 4.22,
-      "max_gain_pct": 5.43,
+      "exit_price": 499.5,
+      "exit_date": "2026-08-26",
+      "days_held": 9,
+      "return_pct": 1.08,
+      "max_gain_pct": 6.82,
       "max_drawdown_pct": 0.0,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 8,
+      "period_total_days": 9,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "HATSUN_2026-08-13",
@@ -3744,7 +3480,7 @@
       "period_to_sl_days": 4,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "LT_2026-08-13",
@@ -3759,18 +3495,18 @@
       "hold_period_est": "1-2 weeks",
       "target_method": "Weekly R1 + Resistance (2x) + Fib 1.0 + Measured Move",
       "outcome": "ACTIVE",
-      "exit_price": 4119.0,
-      "exit_date": "2026-08-25",
-      "days_held": 8,
-      "return_pct": 1.67,
+      "exit_price": 4038.1,
+      "exit_date": "2026-08-26",
+      "days_held": 9,
+      "return_pct": -0.32,
       "max_gain_pct": 1.83,
       "max_drawdown_pct": -0.65,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 8,
+      "period_total_days": 9,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "PARAS_2026-08-14",
@@ -3785,20 +3521,20 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "R:R 1:2",
       "outcome": "T1_HIT",
-      "exit_price": 1445.2,
-      "exit_date": "2026-08-25",
-      "days_held": 7,
-      "return_pct": 4.65,
+      "exit_price": 1492.7,
+      "exit_date": "2026-08-26",
+      "days_held": 8,
+      "return_pct": 8.09,
       "max_gain_pct": 14.77,
       "max_drawdown_pct": -2.53,
       "period_to_t1_days": 3,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 7,
+      "period_total_days": 8,
       "t1_hit_date": "2026-08-19",
       "t1_hit_day": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "GNFC_2026-08-14",
@@ -3826,7 +3562,7 @@
       "t1_hit_date": "2026-08-17",
       "t1_hit_day": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "HAPPSTMNDS_2026-08-14",
@@ -3841,18 +3577,18 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "52W High + Weekly R1 + Fib 1.272 + Weekly R2",
       "outcome": "ACTIVE",
-      "exit_price": 445.95,
-      "exit_date": "2026-08-25",
-      "days_held": 7,
-      "return_pct": 5.78,
-      "max_gain_pct": 7.47,
+      "exit_price": 447.85,
+      "exit_date": "2026-08-26",
+      "days_held": 8,
+      "return_pct": 6.23,
+      "max_gain_pct": 8.47,
       "max_drawdown_pct": -3.9,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 7,
+      "period_total_days": 8,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "BATAINDIA_2026-08-14",
@@ -3878,7 +3614,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "BDL_2026-08-14",
@@ -3904,7 +3640,7 @@
       "period_to_sl_days": 4,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "GPPL_2026-08-14",
@@ -3918,19 +3654,21 @@
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
-      "outcome": "ACTIVE",
-      "exit_price": 164.51,
-      "exit_date": "2026-08-25",
-      "days_held": 7,
-      "return_pct": 3.82,
-      "max_gain_pct": 6.2,
+      "outcome": "T1_HIT",
+      "exit_price": 169.46,
+      "exit_date": "2026-08-26",
+      "days_held": 8,
+      "return_pct": 6.95,
+      "max_gain_pct": 9.69,
       "max_drawdown_pct": 0.0,
-      "period_to_t1_days": null,
+      "period_to_t1_days": 8,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 7,
+      "period_total_days": 8,
+      "t1_hit_date": "2026-08-26",
+      "t1_hit_day": 8,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "GLAXO_2026-08-14",
@@ -3958,7 +3696,7 @@
       "t1_hit_date": "2026-08-18",
       "t1_hit_day": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "HATSUN_2026-08-14",
@@ -3984,7 +3722,7 @@
       "period_to_sl_days": 3,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "GALAXYSURF_2026-08-14",
@@ -4010,7 +3748,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "AARTIIND_2026-08-14",
@@ -4025,18 +3763,18 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 538.9,
-      "exit_date": "2026-08-25",
-      "days_held": 7,
-      "return_pct": 0.73,
+      "exit_price": 542.95,
+      "exit_date": "2026-08-26",
+      "days_held": 8,
+      "return_pct": 1.49,
       "max_gain_pct": 3.13,
       "max_drawdown_pct": -3.51,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 7,
+      "period_total_days": 8,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "OBEROIRLTY_2026-08-17",
@@ -4062,7 +3800,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "HINDCOPPER_2026-08-17",
@@ -4088,7 +3826,7 @@
       "period_to_sl_days": 6,
       "period_total_days": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "KRBL_2026-08-17",
@@ -4116,7 +3854,7 @@
       "t1_hit_date": "2026-08-24",
       "t1_hit_day": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "GLAXO_2026-08-17",
@@ -4144,7 +3882,7 @@
       "t1_hit_date": "2026-08-18",
       "t1_hit_day": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "HAPPSTMNDS_2026-08-17",
@@ -4159,18 +3897,18 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 445.95,
-      "exit_date": "2026-08-25",
-      "days_held": 6,
-      "return_pct": 4.38,
-      "max_gain_pct": 6.05,
+      "exit_price": 447.85,
+      "exit_date": "2026-08-26",
+      "days_held": 7,
+      "return_pct": 4.82,
+      "max_gain_pct": 7.03,
       "max_drawdown_pct": -5.17,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 6,
+      "period_total_days": 7,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "GNFC_2026-08-17",
@@ -4185,18 +3923,18 @@
       "hold_period_est": "3-5 days",
       "target_method": "52W High + Weekly R3 + Fib 2.0 + Fib 2.618",
       "outcome": "ACTIVE",
-      "exit_price": 588.0,
-      "exit_date": "2026-08-25",
-      "days_held": 6,
-      "return_pct": -2.02,
+      "exit_price": 584.25,
+      "exit_date": "2026-08-26",
+      "days_held": 7,
+      "return_pct": -2.65,
       "max_gain_pct": 3.14,
       "max_drawdown_pct": -3.19,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 6,
+      "period_total_days": 7,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "LT_2026-08-17",
@@ -4211,18 +3949,18 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "Resistance (2x) + Weekly R2 + Fib 1.0 + Measured Move",
       "outcome": "ACTIVE",
-      "exit_price": 4119.0,
-      "exit_date": "2026-08-25",
-      "days_held": 6,
-      "return_pct": 1.05,
+      "exit_price": 4038.1,
+      "exit_date": "2026-08-26",
+      "days_held": 7,
+      "return_pct": -0.93,
       "max_gain_pct": 1.21,
       "max_drawdown_pct": -1.26,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 6,
+      "period_total_days": 7,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "PARAS_2026-08-17",
@@ -4237,20 +3975,20 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "52W High + Weekly R1 + Weekly R2 + Weekly R3",
       "outcome": "T1_HIT",
-      "exit_price": 1445.2,
-      "exit_date": "2026-08-25",
-      "days_held": 6,
-      "return_pct": 4.17,
+      "exit_price": 1492.7,
+      "exit_date": "2026-08-26",
+      "days_held": 7,
+      "return_pct": 7.6,
       "max_gain_pct": 14.25,
       "max_drawdown_pct": -0.19,
       "period_to_t1_days": 1,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 6,
+      "period_total_days": 7,
       "t1_hit_date": "2026-08-18",
       "t1_hit_day": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "PREMEXPLN_2026-08-17",
@@ -4265,18 +4003,18 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 665.55,
-      "exit_date": "2026-08-25",
-      "days_held": 6,
-      "return_pct": -1.19,
+      "exit_price": 671.2,
+      "exit_date": "2026-08-26",
+      "days_held": 7,
+      "return_pct": -0.35,
       "max_gain_pct": 0.5,
       "max_drawdown_pct": -1.85,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 6,
+      "period_total_days": 7,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "BRIGADE_2026-08-17",
@@ -4304,7 +4042,7 @@
       "t1_hit_date": "2026-08-20",
       "t1_hit_day": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "PARAS_2026-08-18",
@@ -4330,7 +4068,7 @@
       "period_to_sl_days": 5,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "GLAXO_2026-08-18",
@@ -4345,18 +4083,18 @@
       "hold_period_est": "3-5 days",
       "target_method": "Fib 1.0 + Measured Move + Fib 1.272 + Fib 1.618",
       "outcome": "ACTIVE",
-      "exit_price": 2963.4,
-      "exit_date": "2026-08-25",
-      "days_held": 5,
-      "return_pct": 2.58,
+      "exit_price": 3034.4,
+      "exit_date": "2026-08-26",
+      "days_held": 6,
+      "return_pct": 5.04,
       "max_gain_pct": 5.75,
       "max_drawdown_pct": -1.31,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 5,
+      "period_total_days": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "ZENTEC_2026-08-18",
@@ -4382,7 +4120,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "BEML_2026-08-18",
@@ -4397,18 +4135,18 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 1923.0,
-      "exit_date": "2026-08-25",
-      "days_held": 5,
-      "return_pct": -2.05,
+      "exit_price": 1937.7,
+      "exit_date": "2026-08-26",
+      "days_held": 6,
+      "return_pct": -1.3,
       "max_gain_pct": 1.06,
       "max_drawdown_pct": -3.09,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 5,
+      "period_total_days": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "NETWEB_2026-08-18",
@@ -4423,18 +4161,18 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 5273.5,
-      "exit_date": "2026-08-25",
-      "days_held": 5,
-      "return_pct": -1.39,
+      "exit_price": 5271.9,
+      "exit_date": "2026-08-26",
+      "days_held": 6,
+      "return_pct": -1.42,
       "max_gain_pct": 8.69,
       "max_drawdown_pct": -6.04,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 5,
+      "period_total_days": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "GRSE_2026-08-18",
@@ -4460,7 +4198,7 @@
       "period_to_sl_days": 5,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "GALAXYSURF_2026-08-18",
@@ -4486,7 +4224,7 @@
       "period_to_sl_days": 5,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "MAZDOCK_2026-08-18",
@@ -4501,18 +4239,18 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "52W High + Weekly R1 + Weekly R2 + Fib 2.618",
       "outcome": "ACTIVE",
-      "exit_price": 2610.0,
-      "exit_date": "2026-08-25",
-      "days_held": 5,
-      "return_pct": 0.69,
-      "max_gain_pct": 1.15,
+      "exit_price": 2625.0,
+      "exit_date": "2026-08-26",
+      "days_held": 6,
+      "return_pct": 1.27,
+      "max_gain_pct": 2.5,
       "max_drawdown_pct": -2.78,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 5,
+      "period_total_days": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "GNFC_2026-08-18",
@@ -4538,7 +4276,7 @@
       "period_to_sl_days": 3,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "GLAXO_2026-08-19",
@@ -4564,7 +4302,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "BRIGADE_2026-08-20",
@@ -4579,20 +4317,20 @@
       "hold_period_est": "1-2 weeks",
       "target_method": "52W High + Weekly R2 + Fib 1.272 + Weekly R3",
       "outcome": "T1_HIT",
-      "exit_price": 660.9,
-      "exit_date": "2026-08-25",
-      "days_held": 3,
-      "return_pct": 5.74,
+      "exit_price": 655.1,
+      "exit_date": "2026-08-26",
+      "days_held": 4,
+      "return_pct": 4.82,
       "max_gain_pct": 7.36,
       "max_drawdown_pct": -0.94,
       "period_to_t1_days": 3,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 3,
+      "period_total_days": 4,
       "t1_hit_date": "2026-08-25",
       "t1_hit_day": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "NETWEB_2026-08-20",
@@ -4607,18 +4345,18 @@
       "hold_period_est": "1-2 weeks",
       "target_method": "Weekly R2 + Weekly R3",
       "outcome": "ACTIVE",
-      "exit_price": 5273.5,
-      "exit_date": "2026-08-25",
-      "days_held": 3,
-      "return_pct": -2.77,
+      "exit_price": 5271.9,
+      "exit_date": "2026-08-26",
+      "days_held": 4,
+      "return_pct": -2.8,
       "max_gain_pct": 7.18,
       "max_drawdown_pct": -4.29,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 3,
+      "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "ACMESOLAR_2026-08-20",
@@ -4633,18 +4371,18 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 399.3,
-      "exit_date": "2026-08-25",
-      "days_held": 3,
-      "return_pct": 0.71,
+      "exit_price": 395.95,
+      "exit_date": "2026-08-26",
+      "days_held": 4,
+      "return_pct": -0.14,
       "max_gain_pct": 3.78,
       "max_drawdown_pct": -1.69,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 3,
+      "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "PRAJIND_2026-08-20",
@@ -4670,7 +4408,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "GOLDETF_2026-08-20",
@@ -4686,19 +4424,19 @@
       "target_method": "52W High + Weekly R3 + Fib 2.618",
       "outcome": "T1_HIT",
       "exit_price": NaN,
-      "exit_date": "2026-08-25",
-      "days_held": 3,
+      "exit_date": "2026-08-26",
+      "days_held": 4,
       "return_pct": NaN,
       "max_gain_pct": 3.75,
       "max_drawdown_pct": 0.0,
       "period_to_t1_days": 2,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 3,
+      "period_total_days": 4,
       "t1_hit_date": "2026-08-24",
       "t1_hit_day": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "LICMFGOLD_2026-08-20",
@@ -4714,17 +4452,17 @@
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
       "exit_price": NaN,
-      "exit_date": "2026-08-25",
-      "days_held": 3,
+      "exit_date": "2026-08-26",
+      "days_held": 4,
       "return_pct": NaN,
       "max_gain_pct": 4.19,
       "max_drawdown_pct": 0.0,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 3,
+      "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "MCX_2026-08-20",
@@ -4738,19 +4476,21 @@
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "1-2 weeks",
       "target_method": "Fib 1.618 + Weekly R2 + Fib 2.0 + 52W High",
-      "outcome": "ACTIVE",
-      "exit_price": 3280.0,
-      "exit_date": "2026-08-25",
-      "days_held": 3,
-      "return_pct": 5.13,
-      "max_gain_pct": 6.05,
+      "outcome": "T1_HIT",
+      "exit_price": 3350.0,
+      "exit_date": "2026-08-26",
+      "days_held": 4,
+      "return_pct": 7.37,
+      "max_gain_pct": 7.53,
       "max_drawdown_pct": 0.0,
-      "period_to_t1_days": null,
+      "period_to_t1_days": 4,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 3,
+      "period_total_days": 4,
+      "t1_hit_date": "2026-08-26",
+      "t1_hit_day": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "MOTILALOFS_2026-08-20",
@@ -4765,18 +4505,18 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 1011.5,
-      "exit_date": "2026-08-25",
-      "days_held": 3,
-      "return_pct": 3.67,
-      "max_gain_pct": 4.53,
+      "exit_price": 1040.0,
+      "exit_date": "2026-08-26",
+      "days_held": 4,
+      "return_pct": 6.59,
+      "max_gain_pct": 7.49,
       "max_drawdown_pct": -0.73,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 3,
+      "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "GOLDBEES_2026-08-20",
@@ -4792,17 +4532,17 @@
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
       "exit_price": NaN,
-      "exit_date": "2026-08-25",
-      "days_held": 3,
+      "exit_date": "2026-08-26",
+      "days_held": 4,
       "return_pct": NaN,
       "max_gain_pct": 3.67,
       "max_drawdown_pct": 0.0,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 3,
+      "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "PETRONET_2026-08-20",
@@ -4817,18 +4557,18 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 292.5,
-      "exit_date": "2026-08-25",
-      "days_held": 3,
-      "return_pct": 0.27,
+      "exit_price": 289.0,
+      "exit_date": "2026-08-26",
+      "days_held": 4,
+      "return_pct": -0.93,
       "max_gain_pct": 1.75,
-      "max_drawdown_pct": -0.67,
+      "max_drawdown_pct": -0.93,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 3,
+      "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "KOTAKBANK_2026-08-21",
@@ -4843,18 +4583,18 @@
       "hold_period_est": "5-8 days",
       "target_method": "Resistance (4x) + 52W High + Fib 1.0 + Measured Move",
       "outcome": "ACTIVE",
-      "exit_price": 401.6,
-      "exit_date": "2026-08-25",
-      "days_held": 2,
-      "return_pct": -0.35,
-      "max_gain_pct": 0.65,
+      "exit_price": 416.7,
+      "exit_date": "2026-08-26",
+      "days_held": 3,
+      "return_pct": 3.4,
+      "max_gain_pct": 3.59,
       "max_drawdown_pct": -1.2,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 2,
+      "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "IIFL_2026-08-21",
@@ -4880,7 +4620,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "HDFCGOLD_2026-08-21",
@@ -4895,18 +4635,18 @@
       "hold_period_est": "5-8 days",
       "target_method": "52W High + Weekly R2 + Fib 2.618 + Weekly R3",
       "outcome": "ACTIVE",
-      "exit_price": 137.09,
-      "exit_date": "2026-08-25",
-      "days_held": 2,
-      "return_pct": 1.11,
+      "exit_price": 136.73,
+      "exit_date": "2026-08-26",
+      "days_held": 3,
+      "return_pct": 0.84,
       "max_gain_pct": 2.12,
       "max_drawdown_pct": -2.49,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 2,
+      "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "NETWEB_2026-08-21",
@@ -4932,7 +4672,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "GOLDBEES_2026-08-21",
@@ -4948,17 +4688,17 @@
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
       "exit_price": NaN,
-      "exit_date": "2026-08-25",
-      "days_held": 2,
+      "exit_date": "2026-08-26",
+      "days_held": 3,
       "return_pct": NaN,
       "max_gain_pct": 1.78,
       "max_drawdown_pct": 0.0,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 2,
+      "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "CDSL_2026-08-21",
@@ -4973,18 +4713,18 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "Weekly R3 + Vol Profile + Fib 2.0 + 52W High",
       "outcome": "ACTIVE",
-      "exit_price": 1394.8,
-      "exit_date": "2026-08-25",
-      "days_held": 2,
-      "return_pct": 0.46,
-      "max_gain_pct": 1.74,
+      "exit_price": 1434.0,
+      "exit_date": "2026-08-26",
+      "days_held": 3,
+      "return_pct": 3.28,
+      "max_gain_pct": 4.06,
       "max_drawdown_pct": -0.95,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 2,
+      "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "BRIGADE_2026-08-21",
@@ -4999,18 +4739,18 @@
       "hold_period_est": "1-2 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 660.9,
-      "exit_date": "2026-08-25",
-      "days_held": 2,
-      "return_pct": 3.36,
+      "exit_price": 655.1,
+      "exit_date": "2026-08-26",
+      "days_held": 3,
+      "return_pct": 2.46,
       "max_gain_pct": 4.94,
       "max_drawdown_pct": -1.62,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 2,
+      "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "UNITDSPR_2026-08-21",
@@ -5025,18 +4765,18 @@
       "hold_period_est": "1-2 weeks",
       "target_method": "Weekly R2 + Weekly R3 + Fib 1.0 + Measured Move",
       "outcome": "ACTIVE",
-      "exit_price": 1550.0,
-      "exit_date": "2026-08-25",
-      "days_held": 2,
-      "return_pct": -0.39,
+      "exit_price": 1538.5,
+      "exit_date": "2026-08-26",
+      "days_held": 3,
+      "return_pct": -1.12,
       "max_gain_pct": 0.1,
-      "max_drawdown_pct": -1.02,
+      "max_drawdown_pct": -2.33,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 2,
+      "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "GOLDETF_2026-08-21",
@@ -5052,17 +4792,17 @@
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
       "exit_price": NaN,
-      "exit_date": "2026-08-25",
-      "days_held": 2,
+      "exit_date": "2026-08-26",
+      "days_held": 3,
       "return_pct": NaN,
       "max_gain_pct": 1.8,
       "max_drawdown_pct": 0.0,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 2,
+      "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "SILVERCASE_2026-08-21",
@@ -5078,17 +4818,17 @@
       "target_method": "Fib 2.0 + Weekly R2 + Weekly R3 + Fib 2.618",
       "outcome": "ACTIVE",
       "exit_price": NaN,
-      "exit_date": "2026-08-25",
-      "days_held": 2,
+      "exit_date": "2026-08-26",
+      "days_held": 3,
       "return_pct": NaN,
-      "max_gain_pct": 0.57,
+      "max_gain_pct": 2.15,
       "max_drawdown_pct": -1.95,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 2,
+      "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "MUTHOOTFIN_2026-08-24",
@@ -5103,18 +4843,18 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "Fib 1.618 + Weekly R3 + 52W High + Fib 2.0",
       "outcome": "ACTIVE",
-      "exit_price": 3201.0,
-      "exit_date": "2026-08-25",
-      "days_held": 1,
-      "return_pct": 0.04,
-      "max_gain_pct": 0.87,
+      "exit_price": 3206.9,
+      "exit_date": "2026-08-26",
+      "days_held": 2,
+      "return_pct": 0.22,
+      "max_gain_pct": 0.91,
       "max_drawdown_pct": -1.04,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 1,
+      "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "HINDZINC_2026-08-24",
@@ -5129,18 +4869,18 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 592.6,
-      "exit_date": "2026-08-25",
-      "days_held": 1,
-      "return_pct": -2.53,
-      "max_gain_pct": 0.0,
+      "exit_price": 626.5,
+      "exit_date": "2026-08-26",
+      "days_held": 2,
+      "return_pct": 3.04,
+      "max_gain_pct": 3.95,
       "max_drawdown_pct": -3.48,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 1,
+      "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "RATNAMANI_2026-08-24",
@@ -5155,18 +4895,18 @@
       "hold_period_est": "1-2 weeks",
       "target_method": "52W High + Fib 2.618",
       "outcome": "ACTIVE",
-      "exit_price": 2711.5,
-      "exit_date": "2026-08-25",
-      "days_held": 1,
-      "return_pct": 0.43,
+      "exit_price": 2641.6,
+      "exit_date": "2026-08-26",
+      "days_held": 2,
+      "return_pct": -2.16,
       "max_gain_pct": 5.33,
-      "max_drawdown_pct": -1.29,
+      "max_drawdown_pct": -4.36,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 1,
+      "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "BRIGADE_2026-08-24",
@@ -5181,18 +4921,18 @@
       "hold_period_est": "1-2 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 660.9,
-      "exit_date": "2026-08-25",
-      "days_held": 1,
-      "return_pct": 0.59,
+      "exit_price": 655.1,
+      "exit_date": "2026-08-26",
+      "days_held": 2,
+      "return_pct": -0.29,
       "max_gain_pct": 2.13,
       "max_drawdown_pct": -2.09,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 1,
+      "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "JSWSTEEL_2026-08-24",
@@ -5207,18 +4947,18 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "52W High + Weekly R2 + Fib 1.0 + Measured Move",
       "outcome": "ACTIVE",
-      "exit_price": 1320.3,
-      "exit_date": "2026-08-25",
-      "days_held": 1,
-      "return_pct": 0.33,
-      "max_gain_pct": 0.78,
+      "exit_price": 1341.0,
+      "exit_date": "2026-08-26",
+      "days_held": 2,
+      "return_pct": 1.9,
+      "max_gain_pct": 1.9,
       "max_drawdown_pct": -0.45,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 1,
+      "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "WELCORP_2026-08-24",
@@ -5232,19 +4972,19 @@
       "regime": "NEUTRAL (mixed)",
       "hold_period_est": "2-3 days",
       "target_method": "R:R 1:2",
-      "outcome": "ACTIVE",
-      "exit_price": 2345.5,
-      "exit_date": "2026-08-25",
-      "days_held": 1,
-      "return_pct": -2.63,
+      "outcome": "SL_HIT",
+      "exit_price": 2292.61,
+      "exit_date": "2026-08-26",
+      "days_held": 2,
+      "return_pct": -4.82,
       "max_gain_pct": 1.04,
-      "max_drawdown_pct": -4.48,
+      "max_drawdown_pct": -8.51,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
-      "period_to_sl_days": null,
-      "period_total_days": 1,
+      "period_to_sl_days": 2,
+      "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "FINEORG_2026-08-24",
@@ -5259,18 +4999,18 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 5186.9,
-      "exit_date": "2026-08-25",
-      "days_held": 1,
-      "return_pct": -1.93,
+      "exit_price": 5139.1,
+      "exit_date": "2026-08-26",
+      "days_held": 2,
+      "return_pct": -2.84,
       "max_gain_pct": 0.53,
-      "max_drawdown_pct": -2.13,
+      "max_drawdown_pct": -3.58,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 1,
+      "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "CHALET_2026-08-24",
@@ -5285,18 +5025,18 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 894.05,
-      "exit_date": "2026-08-25",
-      "days_held": 1,
-      "return_pct": 2.7,
-      "max_gain_pct": 3.96,
+      "exit_price": 912.45,
+      "exit_date": "2026-08-26",
+      "days_held": 2,
+      "return_pct": 4.81,
+      "max_gain_pct": 6.13,
       "max_drawdown_pct": -1.15,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 1,
+      "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "KRBL_2026-08-24",
@@ -5311,18 +5051,18 @@
       "hold_period_est": "1-2 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 423.0,
-      "exit_date": "2026-08-25",
-      "days_held": 1,
-      "return_pct": -3.9,
-      "max_gain_pct": 0.0,
+      "exit_price": 447.4,
+      "exit_date": "2026-08-26",
+      "days_held": 2,
+      "return_pct": 1.65,
+      "max_gain_pct": 2.87,
       "max_drawdown_pct": -4.81,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
-      "period_total_days": 1,
+      "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "ADANIENT_2026-08-25",
@@ -5337,18 +5077,18 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "Weekly R3 + Vol Profile + Fib 2.0 + Resistance (3x)",
       "outcome": "ACTIVE",
-      "exit_price": 3125.0,
+      "exit_price": 3112.0,
       "exit_date": "2026-08-26",
       "days_held": 1,
-      "return_pct": 1.0,
+      "return_pct": 0.58,
       "max_gain_pct": 2.29,
-      "max_drawdown_pct": 0.0,
+      "max_drawdown_pct": -0.05,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "HDFCAMC_2026-08-25",
@@ -5363,18 +5103,18 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 2670.0,
+      "exit_price": 2667.9,
       "exit_date": "2026-08-26",
       "days_held": 1,
-      "return_pct": -0.45,
-      "max_gain_pct": 1.38,
-      "max_drawdown_pct": -1.12,
+      "return_pct": -0.53,
+      "max_gain_pct": 0.6,
+      "max_drawdown_pct": -1.16,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "AUBANK_2026-08-25",
@@ -5389,18 +5129,18 @@
       "hold_period_est": "5-8 days",
       "target_method": "52W High + Fib 1.272 + Weekly R3 + Fib 1.618",
       "outcome": "ACTIVE",
-      "exit_price": 1116.2,
+      "exit_price": 1113.5,
       "exit_date": "2026-08-26",
       "days_held": 1,
-      "return_pct": -1.56,
-      "max_gain_pct": 0.95,
-      "max_drawdown_pct": -1.56,
+      "return_pct": -1.8,
+      "max_gain_pct": 0.0,
+      "max_drawdown_pct": -1.8,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "PAYTM_2026-08-25",
@@ -5415,18 +5155,18 @@
       "hold_period_est": "3-5 days",
       "target_method": "Weekly R3 + Fib 1.0 + Measured Move + Fib 1.272",
       "outcome": "ACTIVE",
-      "exit_price": 1716.5,
+      "exit_price": 1716.0,
       "exit_date": "2026-08-26",
       "days_held": 1,
-      "return_pct": 0.47,
-      "max_gain_pct": 1.38,
-      "max_drawdown_pct": -0.13,
+      "return_pct": 0.44,
+      "max_gain_pct": 1.39,
+      "max_drawdown_pct": -0.09,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "CHALET_2026-08-25",
@@ -5445,14 +5185,14 @@
       "exit_date": "2026-08-26",
       "days_held": 1,
       "return_pct": 2.2,
-      "max_gain_pct": 3.45,
-      "max_drawdown_pct": 0.0,
+      "max_gain_pct": 3.49,
+      "max_drawdown_pct": -0.02,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "LT_2026-08-25",
@@ -5478,7 +5218,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "CYIENT_2026-08-25",
@@ -5493,10 +5233,10 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 1047.8,
+      "exit_price": 1047.7,
       "exit_date": "2026-08-26",
       "days_held": 1,
-      "return_pct": 7.19,
+      "return_pct": 7.18,
       "max_gain_pct": 8.03,
       "max_drawdown_pct": 0.0,
       "period_to_t1_days": null,
@@ -5504,7 +5244,7 @@
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "SAIL_2026-08-25",
@@ -5519,18 +5259,18 @@
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 194.8,
+      "exit_price": 194.9,
       "exit_date": "2026-08-26",
       "days_held": 1,
-      "return_pct": 5.3,
-      "max_gain_pct": 6.28,
-      "max_drawdown_pct": -1.43,
+      "return_pct": 5.36,
+      "max_gain_pct": 6.22,
+      "max_drawdown_pct": -1.4,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "AWL_2026-08-25",
@@ -5545,18 +5285,18 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "52W High + Fib 1.272 + Fib 1.618 + Fib 2.0",
       "outcome": "ACTIVE",
-      "exit_price": 201.8,
+      "exit_price": 201.9,
       "exit_date": "2026-08-26",
       "days_held": 1,
-      "return_pct": 0.54,
-      "max_gain_pct": 1.91,
-      "max_drawdown_pct": -0.76,
+      "return_pct": 0.59,
+      "max_gain_pct": 1.88,
+      "max_drawdown_pct": -0.73,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "CYIENTDLM_2026-08-25",
@@ -5571,18 +5311,18 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 798.4,
+      "exit_price": 797.9,
       "exit_date": "2026-08-26",
       "days_held": 1,
-      "return_pct": 3.97,
-      "max_gain_pct": 4.69,
-      "max_drawdown_pct": -0.25,
+      "return_pct": 3.9,
+      "max_gain_pct": 4.73,
+      "max_drawdown_pct": -0.35,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "HINDZINC_2026-08-26",
@@ -5593,16 +5333,22 @@
       "sl": 602.29,
       "target1": 671.19,
       "target2": 698.75,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 629.85,
-      "exit_date": "2026-08-26",
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "2-3 weeks",
       "target_method": "Fib 1.0 + Measured Move + 52W High + Weekly R3",
+      "outcome": "ACTIVE",
+      "exit_price": 610.0,
+      "exit_date": "2026-08-27",
+      "days_held": 1,
+      "return_pct": -3.15,
+      "max_gain_pct": 0.24,
+      "max_drawdown_pct": -3.15,
+      "period_to_t1_days": null,
+      "period_to_t2_days": null,
+      "period_to_sl_days": null,
+      "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "JSWSTEEL_2026-08-26",
@@ -5613,16 +5359,22 @@
       "sl": 1299.95,
       "target1": 1395.33,
       "target2": 1439.71,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 1338.1,
-      "exit_date": "2026-08-26",
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "2-3 weeks",
       "target_method": "Weekly R2 + Fib 1.0 + Measured Move + Weekly R3",
+      "outcome": "ACTIVE",
+      "exit_price": 1338.7,
+      "exit_date": "2026-08-27",
+      "days_held": 1,
+      "return_pct": 0.04,
+      "max_gain_pct": 0.91,
+      "max_drawdown_pct": -0.55,
+      "period_to_t1_days": null,
+      "period_to_t2_days": null,
+      "period_to_sl_days": null,
+      "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "QUESS_2026-08-26",
@@ -5633,16 +5385,22 @@
       "sl": 349.68,
       "target1": 401.2,
       "target2": 420.93,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 371.6,
-      "exit_date": "2026-08-26",
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "5-8 days",
       "target_method": "52W High + Fib 1.618 + Fib 2.0 + Fib 2.618",
+      "outcome": "ACTIVE",
+      "exit_price": 357.45,
+      "exit_date": "2026-08-27",
+      "days_held": 1,
+      "return_pct": -3.81,
+      "max_gain_pct": 0.66,
+      "max_drawdown_pct": -4.21,
+      "period_to_t1_days": null,
+      "period_to_t2_days": null,
+      "period_to_sl_days": null,
+      "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "CYIENTDLM_2026-08-26",
@@ -5653,16 +5411,22 @@
       "sl": 752.97,
       "target1": 879.55,
       "target2": 934.2,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 803.6,
-      "exit_date": "2026-08-26",
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "1-2 weeks",
       "target_method": "Weekly R3 + Fib 1.0 + Measured Move + Fib 1.272",
+      "outcome": "ACTIVE",
+      "exit_price": 810.2,
+      "exit_date": "2026-08-27",
+      "days_held": 1,
+      "return_pct": 0.82,
+      "max_gain_pct": 1.34,
+      "max_drawdown_pct": -1.44,
+      "period_to_t1_days": null,
+      "period_to_t2_days": null,
+      "period_to_sl_days": null,
+      "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "CYIENT_2026-08-26",
@@ -5673,16 +5437,22 @@
       "sl": 997.26,
       "target1": 1140.46,
       "target2": 1186.49,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 1048.4,
-      "exit_date": "2026-08-26",
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "2-3 weeks",
       "target_method": "R:R 1:2",
+      "outcome": "ACTIVE",
+      "exit_price": 1052.45,
+      "exit_date": "2026-08-27",
+      "days_held": 1,
+      "return_pct": 0.39,
+      "max_gain_pct": 1.01,
+      "max_drawdown_pct": -2.06,
+      "period_to_t1_days": null,
+      "period_to_t2_days": null,
+      "period_to_sl_days": null,
+      "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "HATSUN_2026-08-26",
@@ -5693,16 +5463,22 @@
       "sl": 1032.6,
       "target1": 1207.65,
       "target2": 1266.0,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 1090.95,
-      "exit_date": "2026-08-26",
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "5-8 days",
       "target_method": "R:R 1:2",
+      "outcome": "ACTIVE",
+      "exit_price": 1155.5,
+      "exit_date": "2026-08-27",
+      "days_held": 1,
+      "return_pct": 5.92,
+      "max_gain_pct": 6.33,
+      "max_drawdown_pct": -1.58,
+      "period_to_t1_days": null,
+      "period_to_t2_days": null,
+      "period_to_sl_days": null,
+      "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "HINDCOPPER_2026-08-26",
@@ -5713,16 +5489,22 @@
       "sl": 544.03,
       "target1": 578.89,
       "target2": 608.89,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 554.95,
-      "exit_date": "2026-08-26",
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "5-8 days",
       "target_method": "Fib 2.0 + Vol Profile + Fib 2.618 + 52W High",
+      "outcome": "SL_HIT",
+      "exit_price": 544.03,
+      "exit_date": "2026-08-27",
+      "days_held": 1,
+      "return_pct": -1.97,
+      "max_gain_pct": 0.0,
+      "max_drawdown_pct": -3.96,
+      "period_to_t1_days": null,
+      "period_to_t2_days": null,
+      "period_to_sl_days": 1,
+      "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "KOTAKBANK_2026-08-26",
@@ -5733,16 +5515,22 @@
       "sl": 405.33,
       "target1": 433.13,
       "target2": 438.91,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 416.45,
-      "exit_date": "2026-08-26",
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "1-2 weeks",
       "target_method": "Fib 1.272 + Weekly R3 + Fib 1.618 + Fib 2.0",
+      "outcome": "ACTIVE",
+      "exit_price": 423.3,
+      "exit_date": "2026-08-27",
+      "days_held": 1,
+      "return_pct": 1.64,
+      "max_gain_pct": 2.67,
+      "max_drawdown_pct": -0.35,
+      "period_to_t1_days": null,
+      "period_to_t2_days": null,
+      "period_to_sl_days": null,
+      "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "SAIL_2026-08-26",
@@ -5753,16 +5541,22 @@
       "sl": 185.89,
       "target1": 209.94,
       "target2": 219.56,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 195.51,
-      "exit_date": "2026-08-26",
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "2-3 weeks",
       "target_method": "Fib 2.0 + 52W High + Fib 2.618",
+      "outcome": "ACTIVE",
+      "exit_price": 192.3,
+      "exit_date": "2026-08-27",
+      "days_held": 1,
+      "return_pct": -1.64,
+      "max_gain_pct": 0.23,
+      "max_drawdown_pct": -4.07,
+      "period_to_t1_days": null,
+      "period_to_t2_days": null,
+      "period_to_sl_days": null,
+      "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     },
     {
       "key": "CDSL_2026-08-26",
@@ -5779,10 +5573,128 @@
       "exit_price": 1435.0,
       "exit_date": "2026-08-26",
       "regime": "BULLISH (risk-on)",
+      "scanner_type": "pro",
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
+    },
+    {
+      "key": "WHIRLPOOL_2026-08-27",
+      "symbol": "WHIRLPOOL",
+      "scan_date": "2026-08-27",
+      "score": 80,
+      "entry": 856.95,
+      "sl": 819.21,
+      "target1": 932.43,
+      "target2": 970.17,
+      "outcome": "ACTIVE",
+      "days_held": 0,
+      "return_pct": 0,
+      "exit_price": 856.95,
+      "exit_date": "2026-08-27",
+      "regime": "NEUTRAL (mixed)",
       "hold_period_est": "3-4 weeks",
       "target_method": "R:R 1:2",
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-08-26T11:01:33.976235"
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
+    },
+    {
+      "key": "CRISIL_2026-08-27",
+      "symbol": "CRISIL",
+      "scan_date": "2026-08-27",
+      "score": 79,
+      "entry": 4708.2,
+      "sl": 4542.24,
+      "target1": 5040.12,
+      "target2": 5206.08,
+      "outcome": "ACTIVE",
+      "days_held": 0,
+      "return_pct": 0,
+      "exit_price": 4708.2,
+      "exit_date": "2026-08-27",
+      "regime": "NEUTRAL (mixed)",
+      "hold_period_est": "5-8 days",
+      "target_method": "R:R 1:2",
+      "scanner_type": "pro",
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
+    },
+    {
+      "key": "ADANIENT_2026-08-27",
+      "symbol": "ADANIENT",
+      "scan_date": "2026-08-27",
+      "score": 71,
+      "entry": 3159.3,
+      "sl": 3061.69,
+      "target1": 3305.72,
+      "target2": 3452.14,
+      "outcome": "ACTIVE",
+      "days_held": 0,
+      "return_pct": 0,
+      "exit_price": 3159.3,
+      "exit_date": "2026-08-27",
+      "regime": "NEUTRAL (mixed)",
+      "hold_period_est": "3-4 weeks",
+      "target_method": "Vol Profile + Resistance (3x) + 52W High + Fib 2.618",
+      "scanner_type": "pro",
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
+    },
+    {
+      "key": "ZYDUSLIFE_2026-08-27",
+      "symbol": "ZYDUSLIFE",
+      "scan_date": "2026-08-27",
+      "score": 71,
+      "entry": 1187.2,
+      "sl": 1141.61,
+      "target1": 1278.38,
+      "target2": 1323.97,
+      "outcome": "ACTIVE",
+      "days_held": 0,
+      "return_pct": 0,
+      "exit_price": 1187.2,
+      "exit_date": "2026-08-27",
+      "regime": "NEUTRAL (mixed)",
+      "hold_period_est": "3-4 weeks",
+      "target_method": "R:R 1:2",
+      "scanner_type": "pro",
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
+    },
+    {
+      "key": "LAURUSLABS_2026-08-27",
+      "symbol": "LAURUSLABS",
+      "scan_date": "2026-08-27",
+      "score": 69,
+      "entry": 1927.1,
+      "sl": 1864.96,
+      "target1": 2058.63,
+      "target2": 2296.15,
+      "outcome": "ACTIVE",
+      "days_held": 0,
+      "return_pct": 0,
+      "exit_price": 1927.1,
+      "exit_date": "2026-08-27",
+      "regime": "NEUTRAL (mixed)",
+      "hold_period_est": "2-3 weeks",
+      "target_method": "Fib 1.0 + Measured Move + Fib 1.272 + Fib 1.618",
+      "scanner_type": "pro",
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
+    },
+    {
+      "key": "HATSUN_2026-08-27",
+      "symbol": "HATSUN",
+      "scan_date": "2026-08-27",
+      "score": 69,
+      "entry": 1150.0,
+      "sl": 1086.28,
+      "target1": 1264.7,
+      "target2": 1322.04,
+      "outcome": "ACTIVE",
+      "days_held": 0,
+      "return_pct": 0,
+      "exit_price": 1150.0,
+      "exit_date": "2026-08-27",
+      "regime": "NEUTRAL (mixed)",
+      "hold_period_est": "3-5 days",
+      "target_method": "R:R 1:2",
+      "scanner_type": "pro",
+      "last_evaluated_date": "2026-08-27T11:02:02.755922"
     }
   ]
 }
