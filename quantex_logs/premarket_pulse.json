@@ -1,31 +1,5 @@
 [
   {
-    "date": "Thu, 23 Apr 2026",
-    "fear_greed": 58.6,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Neutral",
-    "gift_nifty": 24173.05,
-    "nifty": 24173.05,
-    "sensex": 77664.0,
-    "bank_nifty": 56305.0,
-    "vix": 18.59,
-    "top_gainers": [
-      "ONESOURCE",
-      "DRREDDY",
-      "OFSS",
-      "DATAPATTNS",
-      "PPLPHARMA"
-    ],
-    "top_losers": [
-      "IIFL",
-      "UNIONBANK",
-      "HAVELLS",
-      "CARTRADE",
-      "FORCEMOT"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-04-23.pdf"
-  },
-  {
     "date": "Fri, 24 Apr 2026",
     "fear_greed": 58.6,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "DATAPATTNS"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-26.pdf"
+  },
+  {
+    "date": "Thu, 27 Aug 2026",
+    "fear_greed": 59.4,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 24207.75,
+    "nifty": 24207.75,
+    "sensex": 77472.94,
+    "bank_nifty": 57783.75,
+    "vix": 10.57,
+    "top_gainers": [
+      "SBFC",
+      "JINDALSAW",
+      "IDBI",
+      "CYIENT",
+      "CGCL"
+    ],
+    "top_losers": [
+      "IIFL",
+      "VBL",
+      "REDINGTON",
+      "GROWW",
+      "JUBLFOOD"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-27.pdf"
   }
 ]
