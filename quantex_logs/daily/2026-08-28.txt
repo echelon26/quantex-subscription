@@ -1,0 +1,39 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-08-28 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 10.75 | Min Score: 68
+Qualified: 6 stocks | Top 10 below
+============================================================
+
+1. COFORGE -- Score: 81/100
+   Entry: 2014.90 | SL: 1938.68 | T1: 2117.80 | T2: 2157.99 | RR: 1:1.4
+   Tr:20 Mo:9 Vo:17 PA:13 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 40 (Strong Trend), ADX Rising, MACD Fresh Crossover, Vol Surge 2.6x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: IT, Institutional Accumulation, Delivery 52% (Solid)
+
+2. PERSISTENT -- Score: 77/100
+   Entry: 5865.00 | SL: 5641.87 | T1: 6311.27 | T2: 6534.40 | RR: 1:2.0
+   Tr:14 Mo:18 Vo:17 PA:13 RS:12 SM:3 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX 21 (Trending), ADX Rising, RSI 69 (Power Zone), MACD Fresh Crossover, Vol Surge 2.1x, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Sector Top 3: IT, Delivery 40%
+
+3. CYIENT -- Score: 76/100
+   Entry: 1109.55 | SL: 1054.74 | T1: 1208.21 | T2: 1257.55 | RR: 1:1.8
+   Tr:20 Mo:6 Vo:15 PA:13 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX 36 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: IT, Institutional Accumulation, Delivery 45%
+
+4. CRISIL -- Score: 72/100
+   Entry: 4737.30 | SL: 4571.88 | T1: 4985.42 | T2: 5150.84 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:9 PA:8 RS:8 SM:9 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 30 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Fresh Crossover, Vol Surge 2.1x, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying, Delivery 55% (Solid)
+
+5. LAURUSLABS -- Score: 71/100
+   Entry: 1934.00 | SL: 1873.53 | T1: 2061.99 | T2: 2296.13 | RR: 1:2.1
+   Tr:20 Mo:13 Vo:8 PA:13 RS:8 SM:9 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 42 (Strong Trend), ADX Rising, MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Hammer, Strong RS vs Nifty, Consistent Buying, Delivery 59% (Solid)
+
+6. MASTEK -- Score: 69/100
+   Entry: 1913.00 | SL: 1801.11 | T1: 2080.83 | T2: 2192.72 | RR: 1:1.5
+   Tr:15 Mo:11 Vo:17 PA:9 RS:12 SM:5 MTF:0
+   Hold: 2-3 weeks | Signals: Supertrend FLIP Bullish, ADX 23 (Trending), ADX Rising, RSI 64 (Power Zone), Vol Surge 15.9x, Strong Delivery (Close near High), Near Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: IT, Delivery 52% (Solid)
+
+
+────────────────────────────────────────────────────────────
+
