@@ -1,0 +1,54 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-08-31 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 11.30 | Min Score: 68
+Qualified: 9 stocks | Top 10 below
+============================================================
+
+1. ASTRAL -- Score: 76/100
+   Entry: 1573.40 | SL: 1519.63 | T1: 1654.06 | T2: 1707.83 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:17 PA:9 RS:8 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, RSI 65 (Power Zone), MACD Bullish, Vol Surge 2.3x, Strong Delivery (Close near High), Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Consistent Buying, Delivery 47%
+
+2. SBICARD -- Score: 73/100
+   Entry: 665.55 | SL: 639.31 | T1: 718.04 | T2: 744.28 | RR: 1:2.0
+   Tr:16 Mo:18 Vo:17 PA:9 RS:8 SM:5 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 58 (Power Zone), MACD Fresh Crossover, Vol Surge 3.3x, Strong Delivery (Close near High), Near Breakout, Bullish Engulfing, Morning Star, Marubozu, Strong RS vs Nifty, Delivery 54% (Solid)
+
+3. AUROPHARMA -- Score: 73/100
+   Entry: 1680.00 | SL: 1624.83 | T1: 1790.33 | T2: 1845.50 | RR: 1:2.0
+   Tr:20 Mo:18 Vo:11 PA:4 RS:10 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, RSI 64 (Power Zone), MACD Fresh Crossover, Vol Above Avg 2.0x, Near Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 53% (Solid)
+
+4. CRISIL -- Score: 72/100
+   Entry: 4830.50 | SL: 4661.01 | T1: 5169.48 | T2: 5338.97 | RR: 1:2.0
+   Tr:16 Mo:13 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 34 (Strong Trend), ADX Rising, MACD Fresh Crossover, Vol Surge 2.2x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 54% (Solid)
+
+5. VGUARD -- Score: 72/100
+   Entry: 346.90 | SL: 331.06 | T1: 378.58 | T2: 394.42 | RR: 1:2.0
+   Tr:20 Mo:18 Vo:12 PA:4 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 51 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 57% (Solid)
+
+6. CUB -- Score: 72/100
+   Entry: 229.24 | SL: 217.42 | T1: 252.87 | T2: 264.69 | RR: 1:2.0
+   Tr:18 Mo:15 Vo:15 PA:9 RS:8 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 23 (Trending), RSI 59 (Power Zone), MACD Bullish, Vol Above Avg 1.7x, Strong Delivery (Close near High), Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Consistent Buying, Delivery 50%
+
+7. ECLERX -- Score: 71/100
+   Entry: 1961.50 | SL: 1845.80 | T1: 2135.05 | T2: 2250.75 | RR: 1:1.5
+   Tr:18 Mo:18 Vo:9 PA:4 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 23 (Trending), ADX Rising, RSI 63 (Power Zone), MACD Fresh Crossover, Vol Surge 4.5x, Near Breakout, Strong RS vs Nifty, Sector Top 3: IT, Institutional Accumulation, Delivery 45%
+
+8. ICICIBANK -- Score: 69/100
+   Entry: 1443.30 | SL: 1410.86 | T1: 1491.97 | T2: 1539.24 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:12 PA:4 RS:9 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 58 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), Near Breakout, Outperforming Nifty, Sector Top 3: BANKING, Consistent Buying, Delivery 60% (Strong Accumulation)
+
+9. CYIENT -- Score: 68/100
+   Entry: 1170.00 | SL: 1106.77 | T1: 1255.36 | T2: 1312.26 | RR: 1:1.3
+   Tr:20 Mo:6 Vo:15 PA:8 RS:12 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 40 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.5x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Consistent Buying, Delivery 43%
+
+
+────────────────────────────────────────────────────────────
+
