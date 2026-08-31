@@ -1,31 +1,5 @@
 [
   {
-    "date": "Mon, 27 Apr 2026",
-    "fear_greed": 51.2,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Neutral",
-    "gift_nifty": 23897.95,
-    "nifty": 23897.95,
-    "sensex": 76664.21,
-    "bank_nifty": 56089.75,
-    "vix": 19.71,
-    "top_gainers": [
-      "HSCL",
-      "SCHNEIDER",
-      "COCHINSHIP",
-      "ADANIENSOL",
-      "VTL"
-    ],
-    "top_losers": [
-      "UTIAMC",
-      "ANANTRAJ",
-      "FSL",
-      "INFY",
-      "CYIENT"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-04-27.pdf"
-  },
-  {
     "date": "Tue, 28 Apr 2026",
     "fear_greed": 57.2,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "MUTHOOTFIN"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-28.pdf"
+  },
+  {
+    "date": "Mon, 31 Aug 2026",
+    "fear_greed": 59.0,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 24175.65,
+    "nifty": 24175.65,
+    "sensex": 77264.51,
+    "bank_nifty": 57496.3,
+    "vix": 10.68,
+    "top_gainers": [
+      "WHIRLPOOL",
+      "NSLNISP",
+      "NEWGEN",
+      "ATHERENERG",
+      "TEJASNET"
+    ],
+    "top_losers": [
+      "RAMCOCEM",
+      "ICICIAMC",
+      "SAPPHIRE",
+      "CONCORDBIO",
+      "MUTHOOTFIN"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-08-31.pdf"
   }
 ]
