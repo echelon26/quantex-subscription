@@ -1,0 +1,14 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-09-01 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 11.77 | Min Score: 68
+Qualified: 1 stocks | Top 10 below
+============================================================
+
+1. MPHASIS -- Score: 70/100
+   Entry: 2509.00 | SL: 2404.10 | T1: 2666.35 | T2: 2749.80 | RR: 1:1.5
+   Tr:14 Mo:11 Vo:17 PA:9 RS:12 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 60 (Power Zone), Vol Surge 2.1x, Strong Delivery (Close near High), Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Sector Top 3: IT, Consistent Buying, Delivery 50%
+
+
+────────────────────────────────────────────────────────────
+

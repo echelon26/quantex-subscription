@@ -57561,5 +57561,78 @@
         "est_days_to_t1": 9.0
       }
     ]
+  },
+  {
+    "scan_date": "2026-09-01",
+    "scan_time": "2026-09-01T09:48:49.419949",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 11.770000457763672
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 1,
+    "sector_rankings": {
+      "IT": 1,
+      "ENERGY": 2,
+      "PHARMA": 3,
+      "CHEMICALS": 4,
+      "REALTY": 5,
+      "INDEX_ETF": 6,
+      "CONSUMER": 7,
+      "FMCG": 8,
+      "BANKING": 9,
+      "POWER": 10,
+      "FINANCE": 11,
+      "ELECTRICALS": 12,
+      "METALS": 13,
+      "DEFENCE": 14,
+      "INFRA": 15,
+      "RAILWAY": 16,
+      "AUTO": 17,
+      "SILVER_ETF": 18,
+      "GOLD_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "MPHASIS",
+        "score": 70,
+        "breakdown": {
+          "Trend": 14,
+          "Momentum": 11,
+          "Volume": 17,
+          "Price Action": 9,
+          "Relative Strength": 12,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 60 (Power Zone)",
+          "Vol Surge 2.1x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Sector Top 3: IT",
+          "Consistent Buying",
+          "Delivery 50%"
+        ],
+        "entry": 2509.0,
+        "sl": 2404.1,
+        "target1": 2666.35,
+        "target2": 2749.8,
+        "hold_period": "3-4 weeks",
+        "cmp": 2509.0,
+        "delivery_today": null,
+        "delivery_avg10": 49.53600000000001,
+        "target3": 2794.98,
+        "target_method": "Weekly R2 + 52W High + Weekly R3 + Fib 1.0",
+        "est_days_to_t1": 18.5
+      }
+    ]
   }
 ]
