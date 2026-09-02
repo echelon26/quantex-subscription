@@ -1,31 +1,5 @@
 [
   {
-    "date": "Wed, 29 Apr 2026",
-    "fear_greed": 54.5,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Neutral",
-    "gift_nifty": 23995.7,
-    "nifty": 23995.7,
-    "sensex": 76886.91,
-    "bank_nifty": 55400.35,
-    "vix": 18.05,
-    "top_gainers": [
-      "COHANCE",
-      "TATACHEM",
-      "PIRAMALFIN",
-      "CHENNPETRO",
-      "RKFORGE"
-    ],
-    "top_losers": [
-      "MSUMI",
-      "TATATECH",
-      "ONESOURCE",
-      "ELECON",
-      "ZENSARTECH"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-04-29.pdf"
-  },
-  {
     "date": "Thu, 30 Apr 2026",
     "fear_greed": 60.8,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "ADANIPOWER"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-01.pdf"
+  },
+  {
+    "date": "Wed, 02 Sep 2026",
+    "fear_greed": 51.9,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 24055.8,
+    "nifty": 24055.8,
+    "sensex": 76944.28,
+    "bank_nifty": 57409.6,
+    "vix": 11.49,
+    "top_gainers": [
+      "CAPLIPOINT",
+      "ENGINERSIN",
+      "WELCORP",
+      "CYIENT",
+      "MAPMYINDIA"
+    ],
+    "top_losers": [
+      "KEI",
+      "LODHA",
+      "POLYCAB",
+      "HFCL",
+      "PAYTM"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-02.pdf"
   }
 ]
