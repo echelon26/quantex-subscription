@@ -57634,5 +57634,155 @@
         "est_days_to_t1": 18.5
       }
     ]
+  },
+  {
+    "scan_date": "2026-09-02",
+    "scan_time": "2026-09-02T09:48:50.715696",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 11.632499694824219
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 3,
+    "sector_rankings": {
+      "IT": 1,
+      "POWER": 2,
+      "ENERGY": 3,
+      "PHARMA": 4,
+      "CHEMICALS": 5,
+      "CONSUMER": 6,
+      "FMCG": 7,
+      "INDEX_ETF": 8,
+      "BANKING": 9,
+      "METALS": 10,
+      "FINANCE": 11,
+      "REALTY": 12,
+      "ELECTRICALS": 13,
+      "RAILWAY": 14,
+      "DEFENCE": 15,
+      "INFRA": 16,
+      "AUTO": 17,
+      "GOLD_ETF": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "CLEAN",
+        "score": 88,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 17,
+          "Price Action": 13,
+          "Relative Strength": 10,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 35 (Strong Trend)",
+          "ADX Rising",
+          "RSI 67 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 2.5x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation",
+          "Delivery 43%"
+        ],
+        "entry": 865.05,
+        "sl": 828.68,
+        "target1": 919.61,
+        "target2": 955.98,
+        "hold_period": "5-8 days",
+        "cmp": 865.05,
+        "delivery_today": null,
+        "delivery_avg10": 43.21900000000001,
+        "target3": 982.3,
+        "target_method": "Weekly R3 + Fib 1.272 + Fib 1.618 + Fib 2.0",
+        "est_days_to_t1": 6.2
+      },
+      {
+        "symbol": "KAJARIACER",
+        "score": 77,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 17,
+          "Price Action": 9,
+          "Relative Strength": 8,
+          "Smart Money": 9,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 61 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 2.9x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Consistent Buying",
+          "Delivery 53% (Solid)"
+        ],
+        "entry": 1262.0,
+        "sl": 1210.23,
+        "target1": 1365.54,
+        "target2": 1417.31,
+        "hold_period": "3-4 weeks",
+        "cmp": 1262.0,
+        "delivery_today": null,
+        "delivery_avg10": 52.622,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 25
+      },
+      {
+        "symbol": "BEML",
+        "score": 71,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 15,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 5,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 29 (Strong Trend)",
+          "ADX Rising",
+          "RSI 66 (Power Zone)",
+          "MACD Bullish",
+          "Vol Above Avg 1.7x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying",
+          "Delivery 37% (Weak \u2014 mostly intraday)"
+        ],
+        "entry": 2032.0,
+        "sl": 1941.15,
+        "target1": 2168.27,
+        "target2": 2179.23,
+        "hold_period": "5-8 days",
+        "cmp": 2032.0,
+        "delivery_today": null,
+        "delivery_avg10": 36.63000000000001,
+        "target3": 2299.9,
+        "target_method": "52W High + Weekly R2 + Fib 1.272 + Weekly R3",
+        "est_days_to_t1": 7.1
+      }
+    ]
   }
 ]
