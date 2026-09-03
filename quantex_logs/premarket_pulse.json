@@ -1,31 +1,5 @@
 [
   {
-    "date": "Thu, 30 Apr 2026",
-    "fear_greed": 60.8,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Greed",
-    "gift_nifty": 24177.65,
-    "nifty": 24177.65,
-    "sensex": 77496.36,
-    "bank_nifty": 55403.6,
-    "vix": 17.44,
-    "top_gainers": [
-      "SAPPHIRE",
-      "DEVYANI",
-      "BANDHANBNK",
-      "EMCURE",
-      "GODFRYPHLP"
-    ],
-    "top_losers": [
-      "COHANCE",
-      "NTPCGREEN",
-      "JINDALSAW",
-      "TARIL",
-      "INDIACEM"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-04-30.pdf"
-  },
-  {
     "date": "Fri, 01 May 2026",
     "fear_greed": 54.5,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "PAYTM"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-02.pdf"
+  },
+  {
+    "date": "Thu, 03 Sep 2026",
+    "fear_greed": 46.4,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23914.45,
+    "nifty": 23914.45,
+    "sensex": 76570.35,
+    "bank_nifty": 57172.0,
+    "vix": 11.59,
+    "top_gainers": [
+      "IFCI",
+      "CAPLIPOINT",
+      "NIACL",
+      "AEGISVOPAK",
+      "JSL"
+    ],
+    "top_losers": [
+      "RRKABEL",
+      "AIIL",
+      "HEROMOTOCO",
+      "FINCABLES",
+      "VOLTAS"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-03.pdf"
   }
 ]
