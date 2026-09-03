@@ -57784,5 +57784,151 @@
         "est_days_to_t1": 7.1
       }
     ]
+  },
+  {
+    "scan_date": "2026-09-03",
+    "scan_time": "2026-09-03T09:48:47.203522",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 11.34000015258789
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 3,
+    "sector_rankings": {
+      "POWER": 1,
+      "ENERGY": 2,
+      "REALTY": 3,
+      "CHEMICALS": 4,
+      "IT": 5,
+      "INDEX_ETF": 6,
+      "BANKING": 7,
+      "PHARMA": 8,
+      "RAILWAY": 9,
+      "ELECTRICALS": 10,
+      "FMCG": 11,
+      "FINANCE": 12,
+      "DEFENCE": 13,
+      "METALS": 14,
+      "CONSUMER": 15,
+      "SILVER_ETF": 16,
+      "GOLD_ETF": 17,
+      "INFRA": 18,
+      "AUTO": 19
+    },
+    "top_10": [
+      {
+        "symbol": "JSL",
+        "score": 76,
+        "breakdown": {
+          "Trend": 14,
+          "Momentum": 18,
+          "Volume": 17,
+          "Price Action": 9,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 60 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 2.6x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Hammer",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation",
+          "Delivery 55% (Solid)"
+        ],
+        "entry": 739.25,
+        "sl": 712.92,
+        "target1": 778.75,
+        "target2": 805.08,
+        "hold_period": "3-4 weeks",
+        "cmp": 739.25,
+        "delivery_today": null,
+        "delivery_avg10": 55.438,
+        "target3": 788.52,
+        "target_method": "52W High + Resistance (3x) + Fib 1.0 + Fib 1.272",
+        "est_days_to_t1": 19.5
+      },
+      {
+        "symbol": "RBLBANK",
+        "score": 72,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 13,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend FLIP Bullish",
+          "ADX Rising",
+          "MACD Fresh Crossover",
+          "Vol Surge 7.1x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation",
+          "Delivery 48%"
+        ],
+        "entry": 408.2,
+        "sl": 394.72,
+        "target1": 435.15,
+        "target2": 448.63,
+        "hold_period": "3-4 weeks",
+        "cmp": 408.2,
+        "delivery_today": null,
+        "delivery_avg10": 47.943,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 25
+      },
+      {
+        "symbol": "BRIGADE",
+        "score": 71,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 6,
+          "Volume": 17,
+          "Price Action": 13,
+          "Relative Strength": 12,
+          "Smart Money": 3,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 37 (Strong Trend)",
+          "ADX Rising",
+          "MACD Bullish",
+          "Vol Surge 6.1x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Sector Top 3: REALTY",
+          "Delivery 40%"
+        ],
+        "entry": 721.05,
+        "sl": 680.2,
+        "target1": 794.58,
+        "target2": 831.34,
+        "hold_period": "1-2 weeks",
+        "cmp": 721.05,
+        "delivery_today": null,
+        "delivery_avg10": 40.416999999999994,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 10.9
+      }
+    ]
   }
 ]

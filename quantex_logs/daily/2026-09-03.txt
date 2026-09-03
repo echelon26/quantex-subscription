@@ -1,0 +1,24 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-09-03 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 11.34 | Min Score: 68
+Qualified: 3 stocks | Top 10 below
+============================================================
+
+1. JSL -- Score: 76/100
+   Entry: 739.25 | SL: 712.92 | T1: 778.75 | T2: 805.08 | RR: 1:1.5
+   Tr:14 Mo:18 Vo:17 PA:9 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 60 (Power Zone), MACD Fresh Crossover, Vol Surge 2.6x, Strong Delivery (Close near High), Near Breakout, Hammer, Strong RS vs Nifty, Institutional Accumulation, Delivery 55% (Solid)
+
+2. RBLBANK -- Score: 72/100
+   Entry: 408.20 | SL: 394.72 | T1: 435.15 | T2: 448.63 | RR: 1:2.0
+   Tr:16 Mo:13 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX Rising, MACD Fresh Crossover, Vol Surge 7.1x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 48%
+
+3. BRIGADE -- Score: 71/100
+   Entry: 721.05 | SL: 680.20 | T1: 794.58 | T2: 831.34 | RR: 1:1.8
+   Tr:20 Mo:6 Vo:17 PA:13 RS:12 SM:3 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 37 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 6.1x, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Sector Top 3: REALTY, Delivery 40%
+
+
+────────────────────────────────────────────────────────────
+
