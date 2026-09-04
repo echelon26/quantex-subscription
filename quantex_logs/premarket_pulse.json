@@ -1,31 +1,5 @@
 [
   {
-    "date": "Fri, 01 May 2026",
-    "fear_greed": 54.5,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Neutral",
-    "gift_nifty": 23997.55,
-    "nifty": 23997.55,
-    "sensex": 76913.5,
-    "bank_nifty": 54863.35,
-    "vix": 18.46,
-    "top_gainers": [
-      "CEMPRO",
-      "MEESHO",
-      "HFCL",
-      "SYNGENE",
-      "FLUOROCHEM"
-    ],
-    "top_losers": [
-      "VEDL",
-      "WAAREEENER",
-      "EMMVEE",
-      "HEG",
-      "KFINTECH"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-01.pdf"
-  },
-  {
     "date": "Mon, 04 May 2026",
     "fear_greed": 54.8,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "VOLTAS"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-03.pdf"
+  },
+  {
+    "date": "Fri, 04 Sep 2026",
+    "fear_greed": 45.1,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23873.45,
+    "nifty": 23873.45,
+    "sensex": 76152.86,
+    "bank_nifty": 57380.6,
+    "vix": 11.34,
+    "top_gainers": [
+      "BRIGADE",
+      "JYOTICNC",
+      "ANANTRAJ",
+      "CGCL",
+      "APARINDS"
+    ],
+    "top_losers": [
+      "FINCABLES",
+      "DEEPAKFERT",
+      "OLAELEC",
+      "IGIL",
+      "GRAVITA"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-04.pdf"
   }
 ]
