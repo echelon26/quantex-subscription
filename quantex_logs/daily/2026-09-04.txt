@@ -1,0 +1,29 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-09-04 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 10.77 | Min Score: 68
+Qualified: 4 stocks | Top 10 below
+============================================================
+
+1. RBLBANK -- Score: 74/100
+   Entry: 415.85 | SL: 402.24 | T1: 443.08 | T2: 456.69 | RR: 1:2.0
+   Tr:18 Mo:13 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX 21 (Trending), ADX Rising, MACD Fresh Crossover, Vol Surge 2.5x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 47%
+
+2. JSL -- Score: 71/100
+   Entry: 739.70 | SL: 713.99 | T1: 778.26 | T2: 803.97 | RR: 1:1.5
+   Tr:14 Mo:18 Vo:15 PA:4 RS:10 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 60 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.9x, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 56% (Solid)
+
+3. IGL -- Score: 69/100
+   Entry: 157.92 | SL: 152.35 | T1: 166.27 | T2: 171.84 | RR: 1:1.5
+   Tr:9 Mo:18 Vo:17 PA:8 RS:12 SM:5 MTF:0
+   Hold: 3-4 weeks | Signals: Supertrend Bullish, ADX Rising, RSI 63 (Power Zone), MACD Fresh Crossover, Vol Surge 3.0x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: ENERGY, Delivery 55% (Solid)
+
+4. CASTROLIND -- Score: 69/100
+   Entry: 190.20 | SL: 186.73 | T1: 195.41 | T2: 200.62 | RR: 1:1.5
+   Tr:16 Mo:11 Vo:15 PA:9 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 44 (Strong Trend), RSI 69 (Power Zone), Vol Above Avg 2.0x, Strong Delivery (Close near High), Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Institutional Accumulation, Delivery 66% (Strong Accumulation)
+
+
+────────────────────────────────────────────────────────────
+
