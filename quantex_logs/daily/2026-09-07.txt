@@ -1,0 +1,19 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-09-07 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 11.19 | Min Score: 68
+Qualified: 2 stocks | Top 10 below
+============================================================
+
+1. SYRMA -- Score: 74/100
+   Entry: 1628.00 | SL: 1542.94 | T1: 1798.11 | T2: 1883.17 | RR: 1:2.0
+   Tr:18 Mo:13 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 20 (Trending), MACD Fresh Crossover, Vol Surge 8.5x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 41%
+
+2. GRANULES -- Score: 68/100
+   Entry: 867.95 | SL: 830.73 | T1: 942.38 | T2: 979.60 | RR: 1:2.0
+   Tr:16 Mo:18 Vo:12 PA:9 RS:8 SM:5 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 58 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), Near Breakout, Bullish Engulfing, Strong RS vs Nifty, Delivery 53% (Solid)
+
+
+────────────────────────────────────────────────────────────
+
