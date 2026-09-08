@@ -1,31 +1,5 @@
 [
   {
-    "date": "Tue, 05 May 2026",
-    "fear_greed": 57.7,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Neutral",
-    "gift_nifty": 24119.3,
-    "nifty": 24119.3,
-    "sensex": 77269.4,
-    "bank_nifty": 54878.5,
-    "vix": 18.3,
-    "top_gainers": [
-      "CEMPRO",
-      "LALPATHLAB",
-      "RRKABEL",
-      "MEESHO",
-      "HFCL"
-    ],
-    "top_losers": [
-      "ZENTEC",
-      "KAJARIACER",
-      "SAPPHIRE",
-      "SONACOMS",
-      "PIRAMALFIN"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-05.pdf"
-  },
-  {
     "date": "Wed, 06 May 2026",
     "fear_greed": 56.8,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "POLYMED"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-07.pdf"
+  },
+  {
+    "date": "Tue, 08 Sep 2026",
+    "fear_greed": 43.4,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23779.15,
+    "nifty": 23779.15,
+    "sensex": 76132.81,
+    "bank_nifty": 57088.3,
+    "vix": 11.16,
+    "top_gainers": [
+      "AFFLE",
+      "PINELABS",
+      "SPLPETRO",
+      "IGL",
+      "WOCKPHARMA"
+    ],
+    "top_losers": [
+      "HEG",
+      "RRKABEL",
+      "ZEEL",
+      "PVRINOX",
+      "SAIL"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-08.pdf"
   }
 ]
