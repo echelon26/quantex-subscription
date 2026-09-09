@@ -1,31 +1,5 @@
 [
   {
-    "date": "Wed, 06 May 2026",
-    "fear_greed": 56.8,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Neutral",
-    "gift_nifty": 24119.3,
-    "nifty": 24119.3,
-    "sensex": 77269.4,
-    "bank_nifty": 54878.5,
-    "vix": 18.3,
-    "top_gainers": [
-      "CREDITACC",
-      "TITAGARH",
-      "CAMS",
-      "WOCKPHARMA",
-      "NETWEB"
-    ],
-    "top_losers": [
-      "MEESHO",
-      "CESC",
-      "EMCURE",
-      "SYNGENE",
-      "VOLTAS"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-06.pdf"
-  },
-  {
     "date": "Thu, 07 May 2026",
     "fear_greed": 65.0,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "SAIL"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-08.pdf"
+  },
+  {
+    "date": "Wed, 09 Sep 2026",
+    "fear_greed": 38.0,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Fear",
+    "gift_nifty": 23635.1,
+    "nifty": 23635.1,
+    "sensex": 75577.58,
+    "bank_nifty": 56777.55,
+    "vix": 11.23,
+    "top_gainers": [
+      "SYRMA",
+      "GVT&D",
+      "DATAPATTNS",
+      "PVRINOX",
+      "AFFLE"
+    ],
+    "top_losers": [
+      "NIACL",
+      "IDBI",
+      "IFCI",
+      "PFIZER",
+      "ICICIPRULI"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-09.pdf"
   }
 ]
