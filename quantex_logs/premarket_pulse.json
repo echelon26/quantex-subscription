@@ -1,31 +1,5 @@
 [
   {
-    "date": "Thu, 07 May 2026",
-    "fear_greed": 65.0,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Greed",
-    "gift_nifty": 24330.95,
-    "nifty": 24330.95,
-    "sensex": 77958.52,
-    "bank_nifty": 55981.05,
-    "vix": 16.68,
-    "top_gainers": [
-      "WOCKPHARMA",
-      "FSL",
-      "HFCL",
-      "CARTRADE",
-      "COFORGE"
-    ],
-    "top_losers": [
-      "OIL",
-      "SCHNEIDER",
-      "GROWW",
-      "ATHERENERG",
-      "VTL"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-07.pdf"
-  },
-  {
     "date": "Fri, 08 May 2026",
     "fear_greed": 64.2,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "ICICIPRULI"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-09.pdf"
+  },
+  {
+    "date": "Thu, 10 Sep 2026",
+    "fear_greed": 35.2,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Fear",
+    "gift_nifty": 23431.5,
+    "nifty": 23431.5,
+    "sensex": 74764.23,
+    "bank_nifty": 56295.55,
+    "vix": 11.92,
+    "top_gainers": [
+      "GRAPHITE",
+      "CHENNPETRO",
+      "GVT&D",
+      "SPLPETRO",
+      "MRPL"
+    ],
+    "top_losers": [
+      "PFIZER",
+      "COFORGE",
+      "PVRINOX",
+      "CARTRADE",
+      "INFY"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-10.pdf"
   }
 ]
