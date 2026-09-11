@@ -1,0 +1,29 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-09-11 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 12.27 | Min Score: 68
+Qualified: 4 stocks | Top 10 below
+============================================================
+
+1. PAYTM -- Score: 73/100
+   Entry: 1817.00 | SL: 1728.52 | T1: 1993.96 | T2: 2082.44 | RR: 1:2.0
+   Tr:20 Mo:13 Vo:17 PA:8 RS:8 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 46 (Strong Trend), ADX Rising, MACD Fresh Crossover, Vol Surge 2.2x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying, Delivery 44%
+
+2. GRANULES -- Score: 72/100
+   Entry: 911.40 | SL: 871.40 | T1: 991.40 | T2: 1031.39 | RR: 1:2.0
+   Tr:12 Mo:15 Vo:17 PA:8 RS:10 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 67 (Power Zone), MACD Bullish, Vol Surge 6.3x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 51% (Solid)
+
+3. LAURUSLABS -- Score: 69/100
+   Entry: 1974.00 | SL: 1900.70 | T1: 2083.95 | T2: 2157.25 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:4 PA:8 RS:10 SM:9 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 32 (Strong Trend), RSI 68 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Consistent Buying, Delivery 53% (Solid)
+
+4. ABSLAMC -- Score: 68/100
+   Entry: 1109.60 | SL: 1057.59 | T1: 1187.62 | T2: 1188.98 | RR: 1:1.5
+   Tr:10 Mo:15 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 65 (Power Zone), MACD Bullish, Vol Surge 2.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 56% (Solid)
+
+
+────────────────────────────────────────────────────────────
+
