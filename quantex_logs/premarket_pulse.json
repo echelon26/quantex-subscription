@@ -1,31 +1,5 @@
 [
   {
-    "date": "Mon, 11 May 2026",
-    "fear_greed": 60.1,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Greed",
-    "gift_nifty": 24176.15,
-    "nifty": 24176.15,
-    "sensex": 77328.19,
-    "bank_nifty": 55310.55,
-    "vix": 16.84,
-    "top_gainers": [
-      "FSL",
-      "JAINREC",
-      "THERMAX",
-      "NUVAMA",
-      "SONATSOFTW"
-    ],
-    "top_losers": [
-      "DALBHARAT",
-      "CCL",
-      "SBIN",
-      "ABREL",
-      "ESCORTS"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-11.pdf"
-  },
-  {
     "date": "Tue, 12 May 2026",
     "fear_greed": 45.8,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "AFCONS"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-11.pdf"
+  },
+  {
+    "date": "Mon, 14 Sep 2026",
+    "fear_greed": 32.9,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Fear",
+    "gift_nifty": 23398.1,
+    "nifty": 23398.1,
+    "sensex": 74781.76,
+    "bank_nifty": 56606.55,
+    "vix": 12.29,
+    "top_gainers": [
+      "PINELABS",
+      "PWL",
+      "AIIL",
+      "PTCIL",
+      "YESBANK"
+    ],
+    "top_losers": [
+      "COCHINSHIP",
+      "GODREJPROP",
+      "HEG",
+      "PIIND",
+      "WHIRLPOOL"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-14.pdf"
   }
 ]
