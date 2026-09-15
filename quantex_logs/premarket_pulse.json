@@ -1,31 +1,5 @@
 [
   {
-    "date": "Tue, 12 May 2026",
-    "fear_greed": 45.8,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Neutral",
-    "gift_nifty": 23815.85,
-    "nifty": 23815.85,
-    "sensex": 76015.28,
-    "bank_nifty": 54439.9,
-    "vix": 18.55,
-    "top_gainers": [
-      "MAPMYINDIA",
-      "AFFLE",
-      "KIMS",
-      "IDEA",
-      "TATACONSUM"
-    ],
-    "top_losers": [
-      "URBANCO",
-      "KALYANKJIL",
-      "ABB",
-      "TEJASNET",
-      "BLUEDART"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-12.pdf"
-  },
-  {
     "date": "Wed, 13 May 2026",
     "fear_greed": 34.9,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "WHIRLPOOL"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-14.pdf"
+  },
+  {
+    "date": "Tue, 15 Sep 2026",
+    "fear_greed": 32.4,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Fear",
+    "gift_nifty": 23398.1,
+    "nifty": 23398.1,
+    "sensex": 74781.76,
+    "bank_nifty": 56606.55,
+    "vix": 12.29,
+    "top_gainers": [
+      "PINELABS",
+      "PWL",
+      "AIIL",
+      "PTCIL",
+      "YESBANK"
+    ],
+    "top_losers": [
+      "COCHINSHIP",
+      "GODREJPROP",
+      "HEG",
+      "PIIND",
+      "WHIRLPOOL"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-15.pdf"
   }
 ]
