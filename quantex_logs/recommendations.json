@@ -59104,5 +59104,76 @@
         "est_days_to_t1": 12.9
       }
     ]
+  },
+  {
+    "scan_date": "2026-09-15",
+    "scan_time": "2026-09-15T09:48:49.175841",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 13.487500190734863
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 1,
+    "sector_rankings": {
+      "IT": 1,
+      "POWER": 2,
+      "INFRA": 3,
+      "BANKING": 4,
+      "GOLD_ETF": 5,
+      "PHARMA": 6,
+      "CONSUMER": 7,
+      "FMCG": 8,
+      "ENERGY": 9,
+      "INDEX_ETF": 10,
+      "SILVER_ETF": 11,
+      "AUTO": 12,
+      "METALS": 13,
+      "FINANCE": 14,
+      "RAILWAY": 15,
+      "CHEMICALS": 16,
+      "ELECTRICALS": 17,
+      "DEFENCE": 18,
+      "REALTY": 19
+    },
+    "top_10": [
+      {
+        "symbol": "MAXHEALTH",
+        "score": 68,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 15,
+          "Volume": 12,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 9,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 22 (Trending)",
+          "RSI 55 (Power Zone)",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying",
+          "Delivery 54% (Solid)"
+        ],
+        "entry": 1045.0,
+        "sl": 1008.3,
+        "target1": 1100.05,
+        "target2": 1155.1,
+        "hold_period": "1-2 weeks",
+        "cmp": 1045.0,
+        "delivery_today": null,
+        "delivery_avg10": 54.04200000000001,
+        "target_method": "Weekly R1 + Fib 1.272 + Vol Profile + Weekly R2",
+        "est_days_to_t1": 10.0
+      }
+    ]
   }
 ]

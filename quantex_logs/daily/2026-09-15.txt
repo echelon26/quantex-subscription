@@ -1,0 +1,14 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-09-15 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 13.49 | Min Score: 68
+Qualified: 1 stocks | Top 10 below
+============================================================
+
+1. MAXHEALTH -- Score: 68/100
+   Entry: 1045.00 | SL: 1008.30 | T1: 1100.05 | T2: 1155.10 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:12 PA:8 RS:8 SM:9 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), RSI 55 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying, Delivery 54% (Solid)
+
+
+────────────────────────────────────────────────────────────
+
