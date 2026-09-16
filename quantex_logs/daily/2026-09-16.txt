@@ -1,0 +1,14 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-09-16 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 13.19 | Min Score: 68
+Qualified: 1 stocks | Top 10 below
+============================================================
+
+1. PATANJALI -- Score: 70/100
+   Entry: 363.70 | SL: 352.06 | T1: 381.16 | T2: 392.80 | RR: 1:1.5
+   Tr:15 Mo:15 Vo:17 PA:8 RS:12 SM:3 MTF:0
+   Hold: 1-2 weeks | Signals: Supertrend FLIP Bullish, ADX 36 (Strong Trend), ADX Rising, RSI 67 (Power Zone), MACD Bullish, Vol Surge 9.0x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FMCG, Delivery 45%
+
+
+────────────────────────────────────────────────────────────
+

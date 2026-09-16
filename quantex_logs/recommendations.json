@@ -59175,5 +59175,78 @@
         "est_days_to_t1": 10.0
       }
     ]
+  },
+  {
+    "scan_date": "2026-09-16",
+    "scan_time": "2026-09-16T09:48:43.288121",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 13.192500114440918
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 1,
+    "sector_rankings": {
+      "IT": 1,
+      "FMCG": 2,
+      "BANKING": 3,
+      "PHARMA": 4,
+      "GOLD_ETF": 5,
+      "CONSUMER": 6,
+      "ENERGY": 7,
+      "INDEX_ETF": 8,
+      "SILVER_ETF": 9,
+      "CHEMICALS": 10,
+      "POWER": 11,
+      "AUTO": 12,
+      "ELECTRICALS": 13,
+      "FINANCE": 14,
+      "RAILWAY": 15,
+      "METALS": 16,
+      "INFRA": 17,
+      "DEFENCE": 18,
+      "REALTY": 19
+    },
+    "top_10": [
+      {
+        "symbol": "PATANJALI",
+        "score": 70,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 15,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 3,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "Supertrend FLIP Bullish",
+          "ADX 36 (Strong Trend)",
+          "ADX Rising",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 9.0x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: FMCG",
+          "Delivery 45%"
+        ],
+        "entry": 363.7,
+        "sl": 352.06,
+        "target1": 381.16,
+        "target2": 392.8,
+        "hold_period": "1-2 weeks",
+        "cmp": 363.7,
+        "delivery_today": null,
+        "delivery_avg10": 44.815000000000005,
+        "target3": 395.86,
+        "target_method": "Fib 1.0 + Measured Move + Fib 1.272 + Fib 1.618",
+        "est_days_to_t1": 10.5
+      }
+    ]
   }
 ]
