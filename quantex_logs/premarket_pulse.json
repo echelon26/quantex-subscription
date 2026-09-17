@@ -1,31 +1,5 @@
 [
   {
-    "date": "Thu, 14 May 2026",
-    "fear_greed": 35.7,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Fear",
-    "gift_nifty": 23412.6,
-    "nifty": 23412.6,
-    "sensex": 74608.98,
-    "bank_nifty": 53456.15,
-    "vix": 19.43,
-    "top_gainers": [
-      "SAIL",
-      "DIXON",
-      "IDEA",
-      "IFCI",
-      "VEDL"
-    ],
-    "top_losers": [
-      "PINELABS",
-      "TORNTPOWER",
-      "ECLERX",
-      "COHANCE",
-      "SUNTV"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-14.pdf"
-  },
-  {
     "date": "Fri, 15 May 2026",
     "fear_greed": 44.4,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "JINDALSAW"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-16.pdf"
+  },
+  {
+    "date": "Thu, 17 Sep 2026",
+    "fear_greed": 27.7,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Fear",
+    "gift_nifty": 23217.6,
+    "nifty": 23217.6,
+    "sensex": 74336.45,
+    "bank_nifty": 56292.45,
+    "vix": 13.43,
+    "top_gainers": [
+      "PATANJALI",
+      "POLICYBZR",
+      "AEGISLOG",
+      "MFSL",
+      "HEXT"
+    ],
+    "top_losers": [
+      "CAPLIPOINT",
+      "KIRLOSENG",
+      "CGPOWER",
+      "SBICARD",
+      "GODREJPROP"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-17.pdf"
   }
 ]
