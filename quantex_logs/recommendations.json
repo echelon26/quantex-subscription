@@ -59248,5 +59248,111 @@
         "est_days_to_t1": 10.5
       }
     ]
+  },
+  {
+    "scan_date": "2026-09-17",
+    "scan_time": "2026-09-17T09:48:46.178323",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 12.345000267028809
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 2,
+    "sector_rankings": {
+      "IT": 1,
+      "PHARMA": 2,
+      "FMCG": 3,
+      "CHEMICALS": 4,
+      "METALS": 5,
+      "FINANCE": 6,
+      "ENERGY": 7,
+      "AUTO": 8,
+      "BANKING": 9,
+      "POWER": 10,
+      "INDEX_ETF": 11,
+      "CONSUMER": 12,
+      "GOLD_ETF": 13,
+      "REALTY": 14,
+      "ELECTRICALS": 15,
+      "RAILWAY": 16,
+      "INFRA": 17,
+      "DEFENCE": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "GNFC",
+        "score": 76,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 11,
+          "Volume": 17,
+          "Price Action": 13,
+          "Relative Strength": 10,
+          "Smart Money": 5,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend FLIP Bullish",
+          "ADX 31 (Strong Trend)",
+          "RSI 62 (Power Zone)",
+          "Vol Surge 8.6x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Delivery 54% (Solid)"
+        ],
+        "entry": 585.0,
+        "sl": 558.62,
+        "target1": 624.56,
+        "target2": 628.83,
+        "hold_period": "2-3 weeks",
+        "cmp": 585.0,
+        "delivery_today": null,
+        "delivery_avg10": 53.685,
+        "target_method": "Fib 1.272 + Weekly R2 + Resistance (2x) + 52W High",
+        "est_days_to_t1": 12.4
+      },
+      {
+        "symbol": "SBILIFE",
+        "score": 69,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 15,
+          "Price Action": 9,
+          "Relative Strength": 5,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "ADX 33 (Strong Trend)",
+          "RSI 54 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Above Avg 1.9x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Marubozu",
+          "Outperforming Nifty",
+          "Delivery 61% (Strong Accumulation)"
+        ],
+        "entry": 1770.0,
+        "sl": 1714.96,
+        "target1": 1852.56,
+        "target2": 1896.46,
+        "hold_period": "2-3 weeks",
+        "cmp": 1770.0,
+        "delivery_today": null,
+        "delivery_avg10": 60.504,
+        "target_method": "Vol Profile + Fib 1.618 + Fib 2.0 + Resistance (2x)",
+        "est_days_to_t1": 14.4
+      }
+    ]
   }
 ]
