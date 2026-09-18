@@ -1,31 +1,5 @@
 [
   {
-    "date": "Fri, 15 May 2026",
-    "fear_greed": 44.4,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Neutral",
-    "gift_nifty": 23689.6,
-    "nifty": 23689.6,
-    "sensex": 75398.72,
-    "bank_nifty": 54128.95,
-    "vix": 18.61,
-    "top_gainers": [
-      "SAREGAMA",
-      "NLCINDIA",
-      "CAPLIPOINT",
-      "ADANIENT",
-      "CIPLA"
-    ],
-    "top_losers": [
-      "KAYNES",
-      "GRSE",
-      "POLYMED",
-      "DCMSHRIRAM",
-      "TIINDIA"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-15.pdf"
-  },
-  {
     "date": "Mon, 18 May 2026",
     "fear_greed": 43.9,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "GODREJPROP"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-17.pdf"
+  },
+  {
+    "date": "Fri, 18 Sep 2026",
+    "fear_greed": 30.9,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Fear",
+    "gift_nifty": 23270.6,
+    "nifty": 23270.6,
+    "sensex": 74314.59,
+    "bank_nifty": 56055.75,
+    "vix": 12.29,
+    "top_gainers": [
+      "TEGA",
+      "HBLENGINE",
+      "SYRMA",
+      "NIACL",
+      "TATACHEM"
+    ],
+    "top_losers": [
+      "PREMIERENE",
+      "CPPLUS",
+      "CARTRADE",
+      "POLICYBZR",
+      "CREDITACC"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-18.pdf"
   }
 ]
