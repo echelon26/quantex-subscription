@@ -1,0 +1,34 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-09-18 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 11.39 | Min Score: 68
+Qualified: 5 stocks | Top 10 below
+============================================================
+
+1. ACMESOLAR -- Score: 79/100
+   Entry: 437.40 | SL: 413.17 | T1: 485.87 | T2: 510.10 | RR: 1:2.0
+   Tr:20 Mo:18 Vo:17 PA:13 RS:8 SM:3 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, RSI 68 (Power Zone), MACD Fresh Crossover, Vol Surge 5.0x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Delivery 42%
+
+2. PVRINOX -- Score: 76/100
+   Entry: 1331.90 | SL: 1262.76 | T1: 1470.18 | T2: 1539.32 | RR: 1:2.0
+   Tr:20 Mo:18 Vo:12 PA:8 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 34 (Strong Trend), RSI 66 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 41%
+
+3. IPCALAB -- Score: 74/100
+   Entry: 2029.70 | SL: 1949.42 | T1: 2190.25 | T2: 2235.00 | RR: 1:2.0
+   Tr:20 Mo:11 Vo:15 PA:8 RS:10 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 31 (Strong Trend), RSI 70 (Power Zone), Vol Above Avg 1.7x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 55% (Solid)
+
+4. SONACOMS -- Score: 72/100
+   Entry: 809.95 | SL: 777.62 | T1: 858.44 | T2: 868.38 | RR: 1:1.5
+   Tr:17 Mo:11 Vo:17 PA:9 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: Supertrend Bullish, ADX 31 (Strong Trend), RSI 57 (Power Zone), Vol Surge 2.4x, Strong Delivery (Close near High), Near Breakout, Marubozu, Strong RS vs Nifty, Institutional Accumulation, Delivery 49%
+
+5. CASTROLIND -- Score: 68/100
+   Entry: 196.61 | SL: 192.77 | T1: 203.52 | T2: 206.98 | RR: 1:1.8
+   Tr:16 Mo:9 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 48 (Strong Trend), ADX Rising, MACD Fresh Crossover, Vol Surge 4.2x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 64% (Strong Accumulation)
+
+
+────────────────────────────────────────────────────────────
+

@@ -59354,5 +59354,219 @@
         "est_days_to_t1": 14.4
       }
     ]
+  },
+  {
+    "scan_date": "2026-09-18",
+    "scan_time": "2026-09-18T09:48:46.737809",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 11.390000343322754
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 5,
+    "sector_rankings": {
+      "SILVER_ETF": 1,
+      "RAILWAY": 2,
+      "CHEMICALS": 3,
+      "PHARMA": 4,
+      "GOLD_ETF": 5,
+      "METALS": 6,
+      "FMCG": 7,
+      "ENERGY": 8,
+      "FINANCE": 9,
+      "BANKING": 10,
+      "REALTY": 11,
+      "INDEX_ETF": 12,
+      "IT": 13,
+      "POWER": 14,
+      "CONSUMER": 15,
+      "INFRA": 16,
+      "AUTO": 17,
+      "DEFENCE": 18,
+      "ELECTRICALS": 19
+    },
+    "top_10": [
+      {
+        "symbol": "ACMESOLAR",
+        "score": 79,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 17,
+          "Price Action": 13,
+          "Relative Strength": 8,
+          "Smart Money": 3,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 28 (Strong Trend)",
+          "ADX Rising",
+          "RSI 68 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 5.0x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Delivery 42%"
+        ],
+        "entry": 437.4,
+        "sl": 413.17,
+        "target1": 485.87,
+        "target2": 510.1,
+        "hold_period": "2-3 weeks",
+        "cmp": 437.4,
+        "delivery_today": null,
+        "delivery_avg10": 42.241,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 16.5
+      },
+      {
+        "symbol": "PVRINOX",
+        "score": 76,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 12,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 34 (Strong Trend)",
+          "RSI 66 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation",
+          "Delivery 41%"
+        ],
+        "entry": 1331.9,
+        "sl": 1262.76,
+        "target1": 1470.18,
+        "target2": 1539.32,
+        "hold_period": "2-3 weeks",
+        "cmp": 1331.9,
+        "delivery_today": null,
+        "delivery_avg10": 40.9,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 16.5
+      },
+      {
+        "symbol": "IPCALAB",
+        "score": 74,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 11,
+          "Volume": 15,
+          "Price Action": 8,
+          "Relative Strength": 10,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 31 (Strong Trend)",
+          "RSI 70 (Power Zone)",
+          "Vol Above Avg 1.7x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation",
+          "Delivery 55% (Solid)"
+        ],
+        "entry": 2029.7,
+        "sl": 1949.42,
+        "target1": 2190.25,
+        "target2": 2235.0,
+        "hold_period": "2-3 weeks",
+        "cmp": 2029.7,
+        "delivery_today": null,
+        "delivery_avg10": 55.160000000000004,
+        "target3": 2295.94,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 15.7
+      },
+      {
+        "symbol": "SONACOMS",
+        "score": 72,
+        "breakdown": {
+          "Trend": 17,
+          "Momentum": 11,
+          "Volume": 17,
+          "Price Action": 9,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "ADX 31 (Strong Trend)",
+          "RSI 57 (Power Zone)",
+          "Vol Surge 2.4x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation",
+          "Delivery 49%"
+        ],
+        "entry": 809.95,
+        "sl": 777.62,
+        "target1": 858.44,
+        "target2": 868.38,
+        "hold_period": "2-3 weeks",
+        "cmp": 809.95,
+        "delivery_today": null,
+        "delivery_avg10": 49.097,
+        "target_method": "Resistance (2x) + Vol Profile + Fib 1.272 + Weekly R2",
+        "est_days_to_t1": 12.4
+      },
+      {
+        "symbol": "CASTROLIND",
+        "score": 68,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 9,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 48 (Strong Trend)",
+          "ADX Rising",
+          "MACD Fresh Crossover",
+          "Vol Surge 4.2x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation",
+          "Delivery 64% (Strong Accumulation)"
+        ],
+        "entry": 196.61,
+        "sl": 192.77,
+        "target1": 203.52,
+        "target2": 206.98,
+        "hold_period": "2-3 weeks",
+        "cmp": 196.61,
+        "delivery_today": null,
+        "delivery_avg10": 64.38000000000001,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 14.6
+      }
+    ]
   }
 ]
