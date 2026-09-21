@@ -1,31 +1,5 @@
 [
   {
-    "date": "Mon, 18 May 2026",
-    "fear_greed": 43.9,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Neutral",
-    "gift_nifty": 23643.5,
-    "nifty": 23643.5,
-    "sensex": 75237.99,
-    "bank_nifty": 53710.35,
-    "vix": 18.79,
-    "top_gainers": [
-      "JPPOWER",
-      "KIRLOSENG",
-      "SAREGAMA",
-      "CARBORUNIV",
-      "CHAMBLFERT"
-    ],
-    "top_losers": [
-      "NAVA",
-      "HUDCO",
-      "CLEAN",
-      "MUTHOOTFIN",
-      "HINDCOPPER"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-18.pdf"
-  },
-  {
     "date": "Tue, 19 May 2026",
     "fear_greed": 41.5,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "CREDITACC"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-18.pdf"
+  },
+  {
+    "date": "Mon, 21 Sep 2026",
+    "fear_greed": 34.5,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Fear",
+    "gift_nifty": 23346.4,
+    "nifty": 23346.4,
+    "sensex": 74294.96,
+    "bank_nifty": 56358.7,
+    "vix": 11.39,
+    "top_gainers": [
+      "ATGL",
+      "POONAWALLA",
+      "SPLPETRO",
+      "VIJAYA",
+      "SCHAEFFLER"
+    ],
+    "top_losers": [
+      "TATACHEM",
+      "GODIGIT",
+      "KPITTECH",
+      "TATATECH",
+      "NIACL"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-21.pdf"
   }
 ]
