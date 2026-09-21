@@ -59568,5 +59568,77 @@
         "est_days_to_t1": 14.6
       }
     ]
+  },
+  {
+    "scan_date": "2026-09-21",
+    "scan_time": "2026-09-21T09:48:45.559696",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 11.22249984741211
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 1,
+    "sector_rankings": {
+      "SILVER_ETF": 1,
+      "DEFENCE": 2,
+      "RAILWAY": 3,
+      "REALTY": 4,
+      "CHEMICALS": 5,
+      "INFRA": 6,
+      "CONSUMER": 7,
+      "PHARMA": 8,
+      "BANKING": 9,
+      "ENERGY": 10,
+      "FMCG": 11,
+      "INDEX_ETF": 12,
+      "GOLD_ETF": 13,
+      "FINANCE": 14,
+      "AUTO": 15,
+      "METALS": 16,
+      "POWER": 17,
+      "ELECTRICALS": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "KPIGREEN",
+        "score": 68,
+        "breakdown": {
+          "Trend": 13,
+          "Momentum": 18,
+          "Volume": 17,
+          "Price Action": 9,
+          "Relative Strength": 8,
+          "Smart Money": 3,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "Supertrend FLIP Bullish",
+          "ADX 59 (Strong Trend)",
+          "RSI 57 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 11.0x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Delivery 46%"
+        ],
+        "entry": 322.1,
+        "sl": 305.23,
+        "target1": 347.4,
+        "target2": 364.27,
+        "hold_period": "2-3 weeks",
+        "cmp": 322.1,
+        "delivery_today": null,
+        "delivery_avg10": 46.117,
+        "target3": 348.79,
+        "target_method": "Fib 1.272 + Fib 1.618 + Fib 2.0 + Vol Profile",
+        "est_days_to_t1": 12.1
+      }
+    ]
   }
 ]
