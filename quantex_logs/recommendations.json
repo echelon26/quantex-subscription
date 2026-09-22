@@ -59640,5 +59640,149 @@
         "est_days_to_t1": 12.1
       }
     ]
+  },
+  {
+    "scan_date": "2026-09-22",
+    "scan_time": "2026-09-22T09:48:44.676440",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 11.029999732971191
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 3,
+    "sector_rankings": {
+      "REALTY": 1,
+      "RAILWAY": 2,
+      "INFRA": 3,
+      "SILVER_ETF": 4,
+      "DEFENCE": 5,
+      "PHARMA": 6,
+      "CHEMICALS": 7,
+      "INDEX_ETF": 8,
+      "FINANCE": 9,
+      "POWER": 10,
+      "METALS": 11,
+      "ENERGY": 12,
+      "GOLD_ETF": 13,
+      "CONSUMER": 14,
+      "BANKING": 15,
+      "AUTO": 16,
+      "ELECTRICALS": 17,
+      "FMCG": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "RBLBANK",
+        "score": 79,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 15,
+          "Price Action": 13,
+          "Relative Strength": 8,
+          "Smart Money": 9,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 64 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Above Avg 1.9x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Consistent Buying",
+          "Delivery 52% (Solid)"
+        ],
+        "entry": 423.2,
+        "sl": 407.85,
+        "target1": 446.22,
+        "target2": 461.57,
+        "hold_period": "1-2 weeks",
+        "cmp": 423.2,
+        "delivery_today": null,
+        "delivery_avg10": 52.064,
+        "target3": 459.15,
+        "target_method": "Weekly R2 + Fib 1.272 + Weekly R3 + Fib 1.618",
+        "est_days_to_t1": 11.1
+      },
+      {
+        "symbol": "KPIGREEN",
+        "score": 70,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 15,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "Supertrend FLIP Bullish",
+          "ADX 58 (Strong Trend)",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 5.0x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying",
+          "Delivery 43%"
+        ],
+        "entry": 347.4,
+        "sl": 328.86,
+        "target1": 384.48,
+        "target2": 403.02,
+        "hold_period": "2-3 weeks",
+        "cmp": 347.4,
+        "delivery_today": null,
+        "delivery_avg10": 42.635999999999996,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 14.0
+      },
+      {
+        "symbol": "BANDHANBNK",
+        "score": 70,
+        "breakdown": {
+          "Trend": 10,
+          "Momentum": 15,
+          "Volume": 17,
+          "Price Action": 13,
+          "Relative Strength": 8,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 2.3x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Consistent Buying",
+          "Delivery 48%"
+        ],
+        "entry": 184.9,
+        "sl": 177.16,
+        "target1": 196.51,
+        "target2": 204.25,
+        "hold_period": "3-4 weeks",
+        "cmp": 184.9,
+        "delivery_today": null,
+        "delivery_avg10": 48.281,
+        "target3": 217.77,
+        "target_method": "Weekly R3 + Fib 2.618 + 52W High",
+        "est_days_to_t1": 19.5
+      }
+    ]
   }
 ]
