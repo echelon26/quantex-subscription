@@ -1,0 +1,39 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-09-23 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 10.33 | Min Score: 68
+Qualified: 6 stocks | Top 10 below
+============================================================
+
+1. SONACOMS -- Score: 76/100
+   Entry: 832.00 | SL: 799.40 | T1: 897.20 | T2: 929.80 | RR: 1:2.0
+   Tr:20 Mo:18 Vo:15 PA:8 RS:8 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 29 (Strong Trend), RSI 62 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying, Delivery 48%
+
+2. RADICO -- Score: 75/100
+   Entry: 4602.00 | SL: 4442.34 | T1: 4841.49 | T2: 5001.15 | RR: 1:1.5
+   Tr:18 Mo:18 Vo:17 PA:9 RS:8 SM:5 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 21 (Trending), RSI 58 (Power Zone), MACD Fresh Crossover, Vol Surge 2.2x, Strong Delivery (Close near High), Near Breakout, Marubozu, Strong RS vs Nifty, Delivery 54% (Solid)
+
+3. WHIRLPOOL -- Score: 74/100
+   Entry: 865.25 | SL: 820.81 | T1: 931.91 | T2: 938.27 | RR: 1:1.5
+   Tr:13 Mo:18 Vo:17 PA:13 RS:8 SM:5 MTF:0
+   Hold: 2-3 weeks | Signals: Supertrend Bullish, ADX 24 (Trending), ADX Rising, RSI 68 (Power Zone), MACD Fresh Crossover, Vol Surge 9.7x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Delivery 50% (Solid)
+
+4. GNFC -- Score: 73/100
+   Entry: 622.65 | SL: 593.65 | T1: 680.65 | T2: 709.65 | RR: 1:2.0
+   Tr:20 Mo:13 Vo:15 PA:8 RS:10 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 31 (Strong Trend), ADX Rising, MACD Fresh Crossover, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying, Delivery 45%
+
+5. ELECON -- Score: 72/100
+   Entry: 470.90 | SL: 446.70 | T1: 507.20 | T2: 508.68 | RR: 1:1.5
+   Tr:14 Mo:18 Vo:17 PA:8 RS:8 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX Rising, RSI 67 (Power Zone), MACD Fresh Crossover, Vol Surge 14.5x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying, Delivery 40%
+
+6. PHOENIXLTD -- Score: 68/100
+   Entry: 1988.40 | SL: 1918.18 | T1: 2093.74 | T2: 2150.16 | RR: 1:1.5
+   Tr:14 Mo:18 Vo:7 PA:8 RS:12 SM:9 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 63 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.6x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Consistent Buying, Delivery 58% (Solid)
+
+
+────────────────────────────────────────────────────────────
+
