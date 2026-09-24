@@ -60037,5 +60037,116 @@
         "est_days_to_t1": 21.4
       }
     ]
+  },
+  {
+    "scan_date": "2026-09-24",
+    "scan_time": "2026-09-24T09:48:46.967319",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 12.710000038146973
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 2,
+    "sector_rankings": {
+      "REALTY": 1,
+      "PHARMA": 2,
+      "METALS": 3,
+      "FMCG": 4,
+      "CHEMICALS": 5,
+      "ENERGY": 6,
+      "SILVER_ETF": 7,
+      "INDEX_ETF": 8,
+      "CONSUMER": 9,
+      "BANKING": 10,
+      "POWER": 11,
+      "DEFENCE": 12,
+      "GOLD_ETF": 13,
+      "AUTO": 14,
+      "ELECTRICALS": 15,
+      "IT": 16,
+      "INFRA": 17,
+      "FINANCE": 18,
+      "RAILWAY": 19
+    },
+    "top_10": [
+      {
+        "symbol": "WHIRLPOOL",
+        "score": 79,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 17,
+          "Price Action": 13,
+          "Relative Strength": 8,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 25 (Trending)",
+          "ADX Rising",
+          "RSI 69 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 6.1x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Consistent Buying",
+          "Delivery 46%"
+        ],
+        "entry": 869.85,
+        "sl": 822.17,
+        "target1": 941.37,
+        "target2": 989.05,
+        "hold_period": "2-3 weeks",
+        "cmp": 869.85,
+        "delivery_today": null,
+        "delivery_avg10": 46.247,
+        "target_method": "Fib 2.0 + Fib 2.618",
+        "est_days_to_t1": 13.2
+      },
+      {
+        "symbol": "ZYDUSLIFE",
+        "score": 69,
+        "breakdown": {
+          "Trend": 14,
+          "Momentum": 15,
+          "Volume": 15,
+          "Price Action": 4,
+          "Relative Strength": 12,
+          "Smart Money": 9,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 61 (Power Zone)",
+          "MACD Bullish",
+          "Vol Above Avg 1.6x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Consistent Buying",
+          "Delivery 54% (Solid)"
+        ],
+        "entry": 1183.6,
+        "sl": 1142.53,
+        "target1": 1245.21,
+        "target2": 1262.8,
+        "hold_period": "3-4 weeks",
+        "cmp": 1183.6,
+        "delivery_today": null,
+        "delivery_avg10": 54.007000000000005,
+        "target3": 1298.6,
+        "target_method": "Weekly R1 + 52W High + Resistance (3x) + Vol Profile",
+        "est_days_to_t1": 22.6
+      }
+    ]
   }
 ]
