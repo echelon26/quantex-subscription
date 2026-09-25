@@ -1,31 +1,5 @@
 [
   {
-    "date": "Fri, 22 May 2026",
-    "fear_greed": 44.6,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Neutral",
-    "gift_nifty": null,
-    "nifty": 23654.7,
-    "sensex": 75183.36,
-    "bank_nifty": 53439.4,
-    "vix": 17.82,
-    "top_gainers": [
-      "HONAUT",
-      "SAMMAANCAP",
-      "IRB",
-      "TECHNOE",
-      "TRITURBINE"
-    ],
-    "top_losers": [
-      "JUBLFOOD",
-      "PIIND",
-      "ERIS",
-      "BOSCHLTD",
-      "OLAELEC"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-22.pdf"
-  },
-  {
     "date": "Mon, 25 May 2026",
     "fear_greed": 46.8,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "INOXWIND"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-24.pdf"
+  },
+  {
+    "date": "Fri, 25 Sep 2026",
+    "fear_greed": 31.2,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Fear",
+    "gift_nifty": 23063.1,
+    "nifty": 23063.1,
+    "sensex": 73580.54,
+    "bank_nifty": 55438.5,
+    "vix": 12.69,
+    "top_gainers": [
+      "ELECON",
+      "ABDL",
+      "BIKAJI",
+      "CPPLUS",
+      "OLECTRA"
+    ],
+    "top_losers": [
+      "POLICYBZR",
+      "LTF",
+      "HDFCLIFE",
+      "BAJFINANCE",
+      "NAUKRI"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-25.pdf"
   }
 ]
