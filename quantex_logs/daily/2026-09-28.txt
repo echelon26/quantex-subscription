@@ -1,0 +1,14 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-09-28 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 13.66 | Min Score: 68
+Qualified: 1 stocks | Top 10 below
+============================================================
+
+1. ZYDUSLIFE -- Score: 70/100
+   Entry: 1211.10 | SL: 1169.88 | T1: 1272.93 | T2: 1364.29 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:9 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 67 (Power Zone), MACD Bullish, Vol Surge 2.9x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Institutional Accumulation, Delivery 53% (Solid)
+
+
+────────────────────────────────────────────────────────────
+

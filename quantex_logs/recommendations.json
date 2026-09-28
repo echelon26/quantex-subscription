@@ -60292,5 +60292,77 @@
         "est_days_to_t1": 6.0
       }
     ]
+  },
+  {
+    "scan_date": "2026-09-28",
+    "scan_time": "2026-09-28T09:48:50.762097",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 13.657500267028809
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 1,
+    "sector_rankings": {
+      "ELECTRICALS": 1,
+      "PHARMA": 2,
+      "METALS": 3,
+      "FMCG": 4,
+      "REALTY": 5,
+      "AUTO": 6,
+      "POWER": 7,
+      "IT": 8,
+      "CONSUMER": 9,
+      "INDEX_ETF": 10,
+      "BANKING": 11,
+      "FINANCE": 12,
+      "GOLD_ETF": 13,
+      "DEFENCE": 14,
+      "RAILWAY": 15,
+      "ENERGY": 16,
+      "CHEMICALS": 17,
+      "INFRA": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "ZYDUSLIFE",
+        "score": 70,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 15,
+          "Volume": 9,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 2.9x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Institutional Accumulation",
+          "Delivery 53% (Solid)"
+        ],
+        "entry": 1211.1,
+        "sl": 1169.88,
+        "target1": 1272.93,
+        "target2": 1364.29,
+        "hold_period": "3-4 weeks",
+        "cmp": 1211.1,
+        "delivery_today": null,
+        "delivery_avg10": 52.793000000000006,
+        "target_method": "52W High + Weekly R1 + Weekly R2 + Fib 1.618",
+        "est_days_to_t1": 18.5
+      }
+    ]
   }
 ]
