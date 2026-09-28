@@ -1,31 +1,5 @@
 [
   {
-    "date": "Mon, 25 May 2026",
-    "fear_greed": 46.8,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Neutral",
-    "gift_nifty": 23719.3,
-    "nifty": 23719.3,
-    "sensex": 75415.35,
-    "bank_nifty": 54055.35,
-    "vix": 17.91,
-    "top_gainers": [
-      "JSWCEMENT",
-      "MINDACORP",
-      "HONASA",
-      "DEEPAKFERT",
-      "TRAVELFOOD"
-    ],
-    "top_losers": [
-      "ENGINERSIN",
-      "CENTRALBK",
-      "MAXHEALTH",
-      "SUNTV",
-      "GLENMARK"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-25.pdf"
-  },
-  {
     "date": "Tue, 26 May 2026",
     "fear_greed": 59.9,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "NAUKRI"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-25.pdf"
+  },
+  {
+    "date": "Mon, 28 Sep 2026",
+    "fear_greed": 35.2,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Fear",
+    "gift_nifty": 23140.5,
+    "nifty": 23140.5,
+    "sensex": 73895.74,
+    "bank_nifty": 55580.4,
+    "vix": 12.16,
+    "top_gainers": [
+      "WHIRLPOOL",
+      "ENGINERSIN",
+      "WELCORP",
+      "BALRAMCHIN",
+      "KAYNES"
+    ],
+    "top_losers": [
+      "OLAELEC",
+      "MEESHO",
+      "FORTIS",
+      "JKCEMENT",
+      "PAYTM"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-28.pdf"
   }
 ]
