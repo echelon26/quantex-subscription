@@ -1,31 +1,5 @@
 [
   {
-    "date": "Tue, 26 May 2026",
-    "fear_greed": 59.9,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Neutral",
-    "gift_nifty": 24031.7,
-    "nifty": 24031.7,
-    "sensex": 76488.96,
-    "bank_nifty": 55293.65,
-    "vix": 16.7,
-    "top_gainers": [
-      "TITAGARH",
-      "HFCL",
-      "EMMVEE",
-      "BLUEJET",
-      "ARE&M"
-    ],
-    "top_losers": [
-      "SARDAEN",
-      "SCI",
-      "SIEMENS",
-      "OIL",
-      "TIMKEN"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-26.pdf"
-  },
-  {
     "date": "Wed, 27 May 2026",
     "fear_greed": 56.6,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "PAYTM"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-28.pdf"
+  },
+  {
+    "date": "Tue, 29 Sep 2026",
+    "fear_greed": 26.0,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Fear",
+    "gift_nifty": 22780.25,
+    "nifty": 22780.25,
+    "sensex": 72771.72,
+    "bank_nifty": 54471.65,
+    "vix": 13.64,
+    "top_gainers": [
+      "WHIRLPOOL",
+      "TTML",
+      "ELECON",
+      "BALRAMCHIN",
+      "GODIGIT"
+    ],
+    "top_losers": [
+      "MANAPPURAM",
+      "YESBANK",
+      "BANKINDIA",
+      "IDEA",
+      "NAM-INDIA"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-29.pdf"
   }
 ]
