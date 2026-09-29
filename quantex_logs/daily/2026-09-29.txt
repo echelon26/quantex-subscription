@@ -1,0 +1,24 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-09-29 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 13.39 | Min Score: 68
+Qualified: 3 stocks | Top 10 below
+============================================================
+
+1. DRREDDY -- Score: 72/100
+   Entry: 1245.70 | SL: 1211.35 | T1: 1314.40 | T2: 1398.95 | RR: 1:2.0
+   Tr:14 Mo:15 Vo:13 PA:8 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 29 (Strong Trend), RSI 69 (Power Zone), MACD Bullish, Vol Surge 3.0x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Institutional Accumulation, Delivery 57% (Solid)
+
+2. KIRLOSENG -- Score: 72/100
+   Entry: 2386.90 | SL: 2228.00 | T1: 2625.25 | T2: 2695.23 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:17 PA:13 RS:8 SM:5 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 65 (Power Zone), MACD Bullish, Vol Surge 7.8x, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Delivery 53% (Solid)
+
+3. GALAXYSURF -- Score: 69/100
+   Entry: 2315.10 | SL: 2181.69 | T1: 2581.91 | T2: 2715.32 | RR: 1:2.0
+   Tr:20 Mo:18 Vo:4 PA:9 RS:8 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 27 (Strong Trend), RSI 58 (Power Zone), MACD Fresh Crossover, Near Breakout, Marubozu, Strong RS vs Nifty, Institutional Accumulation, Delivery 49%
+
+
+────────────────────────────────────────────────────────────
+
