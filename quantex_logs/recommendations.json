@@ -60505,5 +60505,151 @@
         "est_days_to_t1": 19.1
       }
     ]
+  },
+  {
+    "scan_date": "2026-09-30",
+    "scan_time": "2026-09-30T09:48:58.618763",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 13.505000114440918
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 3,
+    "sector_rankings": {
+      "PHARMA": 1,
+      "AUTO": 2,
+      "RAILWAY": 3,
+      "INFRA": 4,
+      "BANKING": 5,
+      "IT": 6,
+      "POWER": 7,
+      "REALTY": 8,
+      "METALS": 9,
+      "GOLD_ETF": 10,
+      "DEFENCE": 11,
+      "CONSUMER": 12,
+      "FMCG": 13,
+      "FINANCE": 14,
+      "CHEMICALS": 15,
+      "INDEX_ETF": 16,
+      "ENERGY": 17,
+      "ELECTRICALS": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "GALAXYSURF",
+        "score": 69,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 9,
+          "Price Action": 4,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 28 (Strong Trend)",
+          "RSI 59 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 2.7x",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation",
+          "Delivery 50% (Solid)"
+        ],
+        "entry": 2329.1,
+        "sl": 2196.3,
+        "target1": 2528.3,
+        "target2": 2595.34,
+        "hold_period": "2-3 weeks",
+        "cmp": 2329.1,
+        "delivery_today": null,
+        "delivery_avg10": 50.45400000000001,
+        "target3": 2795.34,
+        "target_method": "Vol Profile + Weekly R2 + Weekly R3 + Fib 1.0",
+        "est_days_to_t1": 14.4
+      },
+      {
+        "symbol": "IRCON",
+        "score": 68,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 13,
+          "Price Action": 9,
+          "Relative Strength": 12,
+          "Smart Money": 1,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "ADX 36 (Strong Trend)",
+          "ADX Rising",
+          "RSI 58 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 14.0x",
+          "Near Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Sector Top 3: RAILWAY",
+          "Delivery 37% (Weak \u2014 mostly intraday)"
+        ],
+        "entry": 117.88,
+        "sl": 111.68,
+        "target1": 127.19,
+        "target2": 129.4,
+        "hold_period": "1-2 weeks",
+        "cmp": 117.88,
+        "delivery_today": null,
+        "delivery_avg10": 36.694,
+        "target3": 136.28,
+        "target_method": "Vol Profile + Fib 1.0 + Fib 1.272 + Fib 1.618",
+        "est_days_to_t1": 10.6
+      },
+      {
+        "symbol": "SYRMA",
+        "score": 68,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 15,
+          "Volume": 12,
+          "Price Action": 9,
+          "Relative Strength": 8,
+          "Smart Money": 6,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 23 (Trending)",
+          "ADX Rising",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation",
+          "\u26a0\ufe0f Delivery 25% (Algo/Short-Cover)"
+        ],
+        "entry": 1787.4,
+        "sl": 1679.87,
+        "target1": 2002.47,
+        "target2": 2110.0,
+        "hold_period": "3-4 weeks",
+        "cmp": 1787.4,
+        "delivery_today": null,
+        "delivery_avg10": 25.064,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 23.4
+      }
+    ]
   }
 ]
