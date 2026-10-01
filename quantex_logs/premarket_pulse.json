@@ -1,31 +1,5 @@
 [
   {
-    "date": "Thu, 28 May 2026",
-    "fear_greed": 58.3,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Neutral",
-    "gift_nifty": 23907.15,
-    "nifty": 23907.15,
-    "sensex": 75867.8,
-    "bank_nifty": 54853.85,
-    "vix": 14.98,
-    "top_gainers": [
-      "JPPOWER",
-      "ATGL",
-      "CUMMINSIND",
-      "ZEEL",
-      "ENRIN"
-    ],
-    "top_losers": [
-      "TECHNOE",
-      "GESHIP",
-      "POLYMED",
-      "BLUEJET",
-      "ONGC"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-28.pdf"
-  },
-  {
     "date": "Fri, 29 May 2026",
     "fear_greed": 59.2,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "HONASA"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-09-30.pdf"
+  },
+  {
+    "date": "Thu, 01 Oct 2026",
+    "fear_greed": 24.9,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Extreme Fear",
+    "gift_nifty": 22620.45,
+    "nifty": 22620.45,
+    "sensex": 72480.29,
+    "bank_nifty": 54633.05,
+    "vix": 13.49,
+    "top_gainers": [
+      "IRCON",
+      "SUNTV",
+      "RITES",
+      "CUPID",
+      "KIRLOSBROS"
+    ],
+    "top_losers": [
+      "FORTIS",
+      "APOLLOHOSP",
+      "COROMANDEL",
+      "AMBER",
+      "MAXHEALTH"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-01.pdf"
   }
 ]
