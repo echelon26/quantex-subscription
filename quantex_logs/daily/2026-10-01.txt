@@ -1,0 +1,19 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-10-01 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 14.37 | Min Score: 68
+Qualified: 2 stocks | Top 10 below
+============================================================
+
+1. GANDHAR -- Score: 75/100
+   Entry: 283.30 | SL: 268.58 | T1: 305.38 | T2: 308.85 | RR: 1:1.5
+   Tr:18 Mo:18 Vo:12 PA:9 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 21 (Trending), RSI 66 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), Near Breakout, Hammer, Strong RS vs Nifty, Institutional Accumulation, Delivery 48%
+
+2. GALAXYSURF -- Score: 69/100
+   Entry: 2378.40 | SL: 2238.49 | T1: 2588.26 | T2: 2644.67 | RR: 1:1.5
+   Tr:20 Mo:18 Vo:9 PA:4 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, RSI 62 (Power Zone), MACD Fresh Crossover, Vol Surge 4.1x, Near Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 50% (Solid)
+
+
+────────────────────────────────────────────────────────────
+
