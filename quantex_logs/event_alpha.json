@@ -1,12 +1,5 @@
 [
   {
-    "scan_date": "2026-05-28",
-    "scan_time": "2026-05-28T13:37:29.809041",
-    "stocks_scanned": 504,
-    "results_found": 0,
-    "results": []
-  },
-  {
     "scan_date": "2026-05-29",
     "scan_time": "2026-05-29T13:36:44.395733",
     "stocks_scanned": 504,
@@ -3423,6 +3416,13 @@
   {
     "scan_date": "2026-10-01",
     "scan_time": "2026-10-01T13:36:50.096346",
+    "stocks_scanned": 501,
+    "results_found": 0,
+    "results": []
+  },
+  {
+    "scan_date": "2026-10-02",
+    "scan_time": "2026-10-02T13:36:10.501087",
     "stocks_scanned": 501,
     "results_found": 0,
     "results": []
