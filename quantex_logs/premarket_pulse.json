@@ -1,31 +1,5 @@
 [
   {
-    "date": "Fri, 29 May 2026",
-    "fear_greed": 59.2,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Neutral",
-    "gift_nifty": 23907.15,
-    "nifty": 23907.15,
-    "sensex": 75867.8,
-    "bank_nifty": 54853.85,
-    "vix": 14.98,
-    "top_gainers": [
-      "JPPOWER",
-      "ATGL",
-      "CUMMINSIND",
-      "ZEEL",
-      "ENRIN"
-    ],
-    "top_losers": [
-      "TECHNOE",
-      "GESHIP",
-      "POLYMED",
-      "BLUEJET",
-      "ONGC"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-05-29.pdf"
-  },
-  {
     "date": "Mon, 01 Jun 2026",
     "fear_greed": 46.0,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "MAXHEALTH"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-01.pdf"
+  },
+  {
+    "date": "Fri, 02 Oct 2026",
+    "fear_greed": 21.4,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Extreme Fear",
+    "gift_nifty": 22421.95,
+    "nifty": 22421.95,
+    "sensex": 71909.7,
+    "bank_nifty": 54450.75,
+    "vix": 14.46,
+    "top_gainers": [
+      "SCHNEIDER",
+      "IDBI",
+      "JKCEMENT",
+      "WELSPUNLIV",
+      "HFCL"
+    ],
+    "top_losers": [
+      "POLICYBZR",
+      "BAJAJ-AUTO",
+      "CHENNPETRO",
+      "IRCON",
+      "KSB"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-02.pdf"
   }
 ]
