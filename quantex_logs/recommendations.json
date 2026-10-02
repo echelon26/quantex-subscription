@@ -60761,5 +60761,78 @@
         "est_days_to_t1": 14.4
       }
     ]
+  },
+  {
+    "scan_date": "2026-10-02",
+    "scan_time": "2026-10-02T09:48:53.095979",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 14.460000038146973
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 1,
+    "sector_rankings": {
+      "IT": 1,
+      "GOLD_ETF": 2,
+      "INDEX_ETF": 3,
+      "BANKING": 4,
+      "PHARMA": 5,
+      "FINANCE": 6,
+      "SILVER_ETF": 7,
+      "RAILWAY": 8,
+      "INFRA": 9,
+      "DEFENCE": 10,
+      "CONSUMER": 11,
+      "CHEMICALS": 12,
+      "METALS": 13,
+      "ENERGY": 14,
+      "POWER": 15,
+      "FMCG": 16,
+      "REALTY": 17,
+      "AUTO": 18,
+      "ELECTRICALS": 19
+    },
+    "top_10": [
+      {
+        "symbol": "GANDHAR",
+        "score": 75,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 18,
+          "Volume": 12,
+          "Price Action": 9,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 21 (Trending)",
+          "RSI 66 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Hammer",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation",
+          "Delivery 48%"
+        ],
+        "entry": 282.6,
+        "sl": 267.87,
+        "target1": 304.69,
+        "target2": 308.85,
+        "hold_period": "2-3 weeks",
+        "cmp": 282.6,
+        "delivery_today": 48.14,
+        "delivery_avg10": 48.461,
+        "target3": 327.95,
+        "target_method": "Weekly R2 + Fib 1.272 + Weekly R3 + Fib 1.618",
+        "est_days_to_t1": 15.2
+      }
+    ]
   }
 ]
