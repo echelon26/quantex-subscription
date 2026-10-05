@@ -60834,5 +60834,77 @@
         "est_days_to_t1": 15.2
       }
     ]
+  },
+  {
+    "scan_date": "2026-10-05",
+    "scan_time": "2026-10-05T09:48:49.577983",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 14.779999732971191
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 1,
+    "sector_rankings": {
+      "SILVER_ETF": 1,
+      "INFRA": 2,
+      "GOLD_ETF": 3,
+      "BANKING": 4,
+      "IT": 5,
+      "INDEX_ETF": 6,
+      "FINANCE": 7,
+      "DEFENCE": 8,
+      "ENERGY": 9,
+      "POWER": 10,
+      "RAILWAY": 11,
+      "FMCG": 12,
+      "CHEMICALS": 13,
+      "REALTY": 14,
+      "PHARMA": 15,
+      "METALS": 16,
+      "CONSUMER": 17,
+      "AUTO": 18,
+      "ELECTRICALS": 19
+    },
+    "top_10": [
+      {
+        "symbol": "CYIENT",
+        "score": 68,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 11,
+          "Volume": 9,
+          "Price Action": 8,
+          "Relative Strength": 10,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 30 (Strong Trend)",
+          "ADX Rising",
+          "RSI 66 (Power Zone)",
+          "Vol Surge 3.0x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation",
+          "Delivery 40%"
+        ],
+        "entry": 1143.0,
+        "sl": 1075.3,
+        "target1": 1244.55,
+        "target2": 1312.25,
+        "hold_period": "2-3 weeks",
+        "cmp": 1143.0,
+        "delivery_today": null,
+        "delivery_avg10": 40.18300000000001,
+        "target3": 1241.07,
+        "target_method": "Vol Profile + Weekly R2 + 52W High + Weekly R3",
+        "est_days_to_t1": 12.5
+      }
+    ]
   }
 ]
