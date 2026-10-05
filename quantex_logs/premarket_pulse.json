@@ -1,31 +1,5 @@
 [
   {
-    "date": "Mon, 01 Jun 2026",
-    "fear_greed": 46.0,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Neutral",
-    "gift_nifty": 23547.75,
-    "nifty": 23547.75,
-    "sensex": 74775.74,
-    "bank_nifty": 54239.2,
-    "vix": 16.19,
-    "top_gainers": [
-      "NETWEB",
-      "WOCKPHARMA",
-      "TEGA",
-      "CPPLUS",
-      "THERMAX"
-    ],
-    "top_losers": [
-      "NATCOPHARM",
-      "JYOTICNC",
-      "MCX",
-      "GESHIP",
-      "BDL"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-01.pdf"
-  },
-  {
     "date": "Tue, 02 Jun 2026",
     "fear_greed": 40.0,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "KSB"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-02.pdf"
+  },
+  {
+    "date": "Mon, 05 Oct 2026",
+    "fear_greed": 21.4,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Extreme Fear",
+    "gift_nifty": 22421.95,
+    "nifty": 22421.95,
+    "sensex": 71909.7,
+    "bank_nifty": 54450.75,
+    "vix": 14.46,
+    "top_gainers": [
+      "SCHNEIDER",
+      "INOXINDIA",
+      "IDBI",
+      "WELSPUNLIV",
+      "HFCL"
+    ],
+    "top_losers": [
+      "POLICYBZR",
+      "BAJAJ-AUTO",
+      "CHENNPETRO",
+      "IRCON",
+      "KSB"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-05.pdf"
   }
 ]
