@@ -1,0 +1,29 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-10-07 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 13.89 | Min Score: 68
+Qualified: 4 stocks | Top 10 below
+============================================================
+
+1. GPPL -- Score: 79/100
+   Entry: 172.30 | SL: 165.95 | T1: 181.82 | T2: 188.17 | RR: 1:1.5
+   Tr:20 Mo:13 Vo:15 PA:13 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 27 (Strong Trend), ADX Rising, MACD Fresh Crossover, Vol Above Avg 1.5x, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Institutional Accumulation, Delivery 53% (Solid)
+
+2. TATVA -- Score: 73/100
+   Entry: 1991.50 | SL: 1866.98 | T1: 2178.27 | T2: 2302.79 | RR: 1:1.5
+   Tr:20 Mo:10 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 30 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 3.3x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 42%
+
+3. RADICO -- Score: 71/100
+   Entry: 4525.00 | SL: 4356.92 | T1: 4777.12 | T2: 4890.95 | RR: 1:1.5
+   Tr:13 Mo:18 Vo:15 PA:4 RS:12 SM:9 MTF:0
+   Hold: 3-4 weeks | Signals: Supertrend Bullish, ADX Rising, RSI 55 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.6x, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Sector Top 3: FMCG, Consistent Buying, Delivery 52% (Solid)
+
+4. KANSAINER -- Score: 68/100
+   Entry: 193.77 | SL: 185.44 | T1: 206.27 | T2: 209.61 | RR: 1:1.5
+   Tr:11 Mo:18 Vo:17 PA:4 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: ADX 42 (Strong Trend), RSI 59 (Power Zone), MACD Fresh Crossover, Vol Surge 5.9x, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 58% (Solid)
+
+
+────────────────────────────────────────────────────────────
+

@@ -61161,5 +61161,187 @@
         "est_days_to_t1": 14.8
       }
     ]
+  },
+  {
+    "scan_date": "2026-10-07",
+    "scan_time": "2026-10-07T09:48:46.663230",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 13.885000228881836
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 4,
+    "sector_rankings": {
+      "ELECTRICALS": 1,
+      "FMCG": 2,
+      "CHEMICALS": 3,
+      "FINANCE": 4,
+      "CONSUMER": 5,
+      "DEFENCE": 6,
+      "ENERGY": 7,
+      "BANKING": 8,
+      "INDEX_ETF": 9,
+      "SILVER_ETF": 10,
+      "POWER": 11,
+      "AUTO": 12,
+      "GOLD_ETF": 13,
+      "RAILWAY": 14,
+      "INFRA": 15,
+      "PHARMA": 16,
+      "REALTY": 17,
+      "METALS": 18,
+      "IT": 19
+    },
+    "top_10": [
+      {
+        "symbol": "GPPL",
+        "score": 79,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 13,
+          "Volume": 15,
+          "Price Action": 13,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 27 (Strong Trend)",
+          "ADX Rising",
+          "MACD Fresh Crossover",
+          "Vol Above Avg 1.5x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation",
+          "Delivery 53% (Solid)"
+        ],
+        "entry": 172.3,
+        "sl": 165.95,
+        "target1": 181.82,
+        "target2": 188.17,
+        "hold_period": "2-3 weeks",
+        "cmp": 172.3,
+        "delivery_today": null,
+        "delivery_avg10": 53.36900000000001,
+        "target_method": "52W High + Fib 2.0 + Weekly R2 + Fib 2.618",
+        "est_days_to_t1": 12.4
+      },
+      {
+        "symbol": "TATVA",
+        "score": 73,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 10,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 30 (Strong Trend)",
+          "ADX Rising",
+          "MACD Bullish",
+          "Vol Surge 3.3x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation",
+          "Delivery 42%"
+        ],
+        "entry": 1991.5,
+        "sl": 1866.98,
+        "target1": 2178.27,
+        "target2": 2302.79,
+        "hold_period": "2-3 weeks",
+        "cmp": 1991.5,
+        "delivery_today": null,
+        "delivery_avg10": 42.467,
+        "target3": 2240.0,
+        "target_method": "Weekly R3 + Fib 1.618 + Fib 2.0",
+        "est_days_to_t1": 12.4
+      },
+      {
+        "symbol": "RADICO",
+        "score": 71,
+        "breakdown": {
+          "Trend": 13,
+          "Momentum": 18,
+          "Volume": 15,
+          "Price Action": 4,
+          "Relative Strength": 12,
+          "Smart Money": 9,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 55 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Above Avg 1.6x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: FMCG",
+          "Consistent Buying",
+          "Delivery 52% (Solid)"
+        ],
+        "entry": 4525.0,
+        "sl": 4356.92,
+        "target1": 4777.12,
+        "target2": 4890.95,
+        "hold_period": "3-4 weeks",
+        "cmp": 4525.0,
+        "delivery_today": null,
+        "delivery_avg10": 51.598,
+        "target3": 5090.95,
+        "target_method": "Resistance (4x) + Fib 1.0 + Weekly R2 + Fib 1.272",
+        "est_days_to_t1": 19.5
+      },
+      {
+        "symbol": "KANSAINER",
+        "score": 68,
+        "breakdown": {
+          "Trend": 11,
+          "Momentum": 18,
+          "Volume": 17,
+          "Price Action": 4,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "ADX 42 (Strong Trend)",
+          "RSI 59 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 5.9x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation",
+          "Delivery 58% (Solid)"
+        ],
+        "entry": 193.77,
+        "sl": 185.44,
+        "target1": 206.27,
+        "target2": 209.61,
+        "hold_period": "2-3 weeks",
+        "cmp": 193.77,
+        "delivery_today": null,
+        "delivery_avg10": 57.543000000000006,
+        "target3": 217.94,
+        "target_method": "Vol Profile + Resistance (2x) + Fib 1.0 + Fib 1.272",
+        "est_days_to_t1": 12.1
+      }
+    ]
   }
 ]
