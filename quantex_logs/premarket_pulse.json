@@ -1,31 +1,5 @@
 [
   {
-    "date": "Thu, 04 Jun 2026",
-    "fear_greed": 42.6,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Neutral",
-    "gift_nifty": 23405.6,
-    "nifty": 23405.6,
-    "sensex": 74346.17,
-    "bank_nifty": 54185.95,
-    "vix": 16.28,
-    "top_gainers": [
-      "IFCI",
-      "OLAELEC",
-      "RHIM",
-      "CARTRADE",
-      "KPRMILL"
-    ],
-    "top_losers": [
-      "TCS",
-      "PERSISTENT",
-      "LTM",
-      "COFORGE",
-      "TECHM"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-04.pdf"
-  },
-  {
     "date": "Fri, 05 Jun 2026",
     "fear_greed": 41.6,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "VOGL"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-07.pdf"
+  },
+  {
+    "date": "Thu, 08 Oct 2026",
+    "fear_greed": 26.3,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Fear",
+    "gift_nifty": 22603.05,
+    "nifty": 22603.05,
+    "sensex": 72638.7,
+    "bank_nifty": 55055.55,
+    "vix": 13.89,
+    "top_gainers": [
+      "CHENNPETRO",
+      "AETHER",
+      "CLEANMAX",
+      "CUPID",
+      "PWL"
+    ],
+    "top_losers": [
+      "NATIONALUM",
+      "GLAXO",
+      "VISL",
+      "TITAN",
+      "ADANIENT"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-08.pdf"
   }
 ]
