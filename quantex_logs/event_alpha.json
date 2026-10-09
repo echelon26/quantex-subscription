@@ -1,12 +1,5 @@
 [
   {
-    "scan_date": "2026-06-04",
-    "scan_time": "2026-06-04T13:38:03.509311",
-    "stocks_scanned": 504,
-    "results_found": 0,
-    "results": []
-  },
-  {
     "scan_date": "2026-06-05",
     "scan_time": "2026-06-05T13:37:13.354283",
     "stocks_scanned": 504,
@@ -3394,6 +3387,26 @@
         "Symbol": "TCS",
         "Signals": "EPS Beat +1% | Flat -0.2% | High Vol 1.7x",
         "CMP": 2076.0
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-10-09",
+    "scan_time": "2026-10-09T13:36:17.769198",
+    "stocks_scanned": 501,
+    "results_found": 2,
+    "results": [
+      {
+        "Date": "2026-10-09",
+        "Symbol": "POONAWALLA",
+        "Signals": "EPS In-Line | Rally +2.1%",
+        "CMP": 447.3
+      },
+      {
+        "Date": "2026-10-08",
+        "Symbol": "TCS",
+        "Signals": "EPS Beat +1% | Flat -0.2%",
+        "CMP": 2156.0
       }
     ]
   }
