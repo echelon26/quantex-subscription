@@ -61378,5 +61378,116 @@
       "METALS": 19
     },
     "top_10": []
+  },
+  {
+    "scan_date": "2026-10-09",
+    "scan_time": "2026-10-09T09:48:45.429501",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 14.390000343322754
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 2,
+    "sector_rankings": {
+      "CHEMICALS": 1,
+      "CONSUMER": 2,
+      "IT": 3,
+      "FMCG": 4,
+      "GOLD_ETF": 5,
+      "BANKING": 6,
+      "SILVER_ETF": 7,
+      "INDEX_ETF": 8,
+      "FINANCE": 9,
+      "PHARMA": 10,
+      "RAILWAY": 11,
+      "ELECTRICALS": 12,
+      "AUTO": 13,
+      "DEFENCE": 14,
+      "ENERGY": 15,
+      "POWER": 16,
+      "INFRA": 17,
+      "REALTY": 18,
+      "METALS": 19
+    },
+    "top_10": [
+      {
+        "symbol": "GALAXYSURF",
+        "score": 78,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 15,
+          "Price Action": 13,
+          "Relative Strength": 12,
+          "Smart Money": 3,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 32 (Strong Trend)",
+          "ADX Rising",
+          "RSI 67 (Power Zone)",
+          "MACD Bullish",
+          "Vol Above Avg 1.7x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Bullish Engulfing",
+          "Strong RS vs Nifty",
+          "Sector Top 3: CHEMICALS",
+          "Delivery 44%"
+        ],
+        "entry": 2512.1,
+        "sl": 2367.09,
+        "target1": 2729.62,
+        "target2": 2794.98,
+        "hold_period": "2-3 weeks",
+        "cmp": 2512.1,
+        "delivery_today": null,
+        "delivery_avg10": 44.306,
+        "target3": 2981.57,
+        "target_method": "52W High + Weekly R2 + Fib 1.272 + Fib 1.618",
+        "est_days_to_t1": 12.4
+      },
+      {
+        "symbol": "PERSISTENT",
+        "score": 68,
+        "breakdown": {
+          "Trend": 12,
+          "Momentum": 15,
+          "Volume": 15,
+          "Price Action": 13,
+          "Relative Strength": 12,
+          "Smart Money": 1,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX Rising",
+          "RSI 63 (Power Zone)",
+          "MACD Bullish",
+          "Vol Above Avg 1.7x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Marubozu",
+          "Strong RS vs Nifty",
+          "Sector Top 3: IT",
+          "Delivery 38% (Weak \u2014 mostly intraday)"
+        ],
+        "entry": 5770.0,
+        "sl": 5519.78,
+        "target1": 6145.32,
+        "target2": 6395.54,
+        "hold_period": "3-4 weeks",
+        "cmp": 5770.0,
+        "delivery_today": null,
+        "delivery_avg10": 38.117,
+        "target_method": "52W High + Fib 2.0 + Fib 2.618",
+        "est_days_to_t1": 22.6
+      }
+    ]
   }
 ]
