@@ -1,12 +1,5 @@
 [
   {
-    "scan_date": "2026-06-05",
-    "scan_time": "2026-06-05T13:37:13.354283",
-    "stocks_scanned": 504,
-    "results_found": 0,
-    "results": []
-  },
-  {
     "scan_date": "2026-06-08",
     "scan_time": "2026-06-08T13:36:53.730158",
     "stocks_scanned": 504,
@@ -3407,6 +3400,38 @@
         "Symbol": "TCS",
         "Signals": "EPS Beat +1% | Flat -0.2%",
         "CMP": 2156.0
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-10-12",
+    "scan_time": "2026-10-12T13:36:18.919774",
+    "stocks_scanned": 501,
+    "results_found": 4,
+    "results": [
+      {
+        "Date": "2026-10-10",
+        "Symbol": "DMART",
+        "Signals": "Bearish Reaction | EPS Miss -15% | Gap Down -3.1% | Selloff -4.3% | Vol Explosion 3.4x",
+        "CMP": 3364.9
+      },
+      {
+        "Date": "2026-10-09",
+        "Symbol": "CANFINHOME",
+        "Signals": "Muted Reaction | EPS Beat +2% | Flat -0.8%",
+        "CMP": 735.0
+      },
+      {
+        "Date": "2026-10-12",
+        "Symbol": "HCLTECH",
+        "Signals": "Muted Reaction | EPS In-Line | Flat +0.5%",
+        "CMP": 1223.0
+      },
+      {
+        "Date": "2026-10-12",
+        "Symbol": "RBLBANK",
+        "Signals": "Muted Reaction | EPS In-Line | Flat -0.1%",
+        "CMP": 417.7
       }
     ]
   }
