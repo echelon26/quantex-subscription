@@ -1,0 +1,39 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-10-13 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 14.12 | Min Score: 68
+Qualified: 6 stocks | Top 10 below
+============================================================
+
+1. MPHASIS -- Score: 79/100
+   Entry: 2466.00 | SL: 2357.63 | T1: 2682.73 | T2: 2791.10 | RR: 1:2.0
+   Tr:12 Mo:15 Vo:17 PA:13 RS:12 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 66 (Power Zone), MACD Bullish, Vol Surge 2.1x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: IT, Institutional Accumulation, Delivery 49%
+
+2. HCLTECH -- Score: 76/100
+   Entry: 1320.10 | SL: 1259.50 | T1: 1410.99 | T2: 1442.58 | RR: 1:1.5
+   Tr:11 Mo:18 Vo:17 PA:13 RS:12 SM:5 MTF:0
+   Hold: 3-4 weeks | Signals: Supertrend Bullish, ADX Rising, RSI 61 (Power Zone), MACD Fresh Crossover, Vol Surge 5.8x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: IT, Delivery 51% (Solid)
+
+3. COFORGE -- Score: 71/100
+   Entry: 1929.00 | SL: 1834.15 | T1: 2071.28 | T2: 2166.13 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:15 PA:8 RS:12 SM:3 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 22 (Trending), RSI 63 (Power Zone), MACD Bullish, Vol Above Avg 1.7x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Delivery 44%
+
+4. PERSISTENT -- Score: 69/100
+   Entry: 5984.00 | SL: 5726.23 | T1: 6499.53 | T2: 6757.30 | RR: 1:2.0
+   Tr:16 Mo:15 Vo:17 PA:8 RS:12 SM:1 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 69 (Power Zone), MACD Bullish, Vol Surge 2.2x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Delivery 39% (Weak — mostly intraday)
+
+5. TATAELXSI -- Score: 68/100
+   Entry: 3425.00 | SL: 3264.80 | T1: 3665.30 | T2: 3825.50 | RR: 1:1.5
+   Tr:15 Mo:18 Vo:17 PA:5 RS:12 SM:1 MTF:0
+   Hold: 2-3 weeks | Signals: Supertrend Bullish, ADX 38 (Strong Trend), RSI 59 (Power Zone), MACD Fresh Crossover, Vol Surge 3.2x, Strong Delivery (Close near High), Marubozu, Strong RS vs Nifty, Sector Top 3: IT, Delivery 36% (Weak — mostly intraday)
+
+6. TANLA -- Score: 68/100
+   Entry: 535.70 | SL: 510.20 | T1: 573.95 | T2: 588.93 | RR: 1:1.5
+   Tr:7 Mo:15 Vo:17 PA:13 RS:8 SM:8 MTF:0
+   Hold: 3-4 weeks | Signals: ADX Rising, RSI 63 (Power Zone), MACD Bullish, Vol Surge 4.2x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Institutional Accumulation, Delivery 38% (Weak — mostly intraday)
+
+
+────────────────────────────────────────────────────────────
+
