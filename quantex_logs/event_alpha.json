@@ -1,12 +1,5 @@
 [
   {
-    "scan_date": "2026-06-08",
-    "scan_time": "2026-06-08T13:36:53.730158",
-    "stocks_scanned": 504,
-    "results_found": 0,
-    "results": []
-  },
-  {
     "scan_date": "2026-06-09",
     "scan_time": "2026-06-09T13:36:18.720182",
     "stocks_scanned": 504,
@@ -3432,6 +3425,44 @@
         "Symbol": "RBLBANK",
         "Signals": "Muted Reaction | EPS In-Line | Flat -0.1%",
         "CMP": 417.7
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-10-13",
+    "scan_time": "2026-10-13T13:35:45.916188",
+    "stocks_scanned": 501,
+    "results_found": 5,
+    "results": [
+      {
+        "Date": "2026-10-10",
+        "Symbol": "DMART",
+        "Signals": "EPS Miss -15% | Gap Down -4.1% | Selloff -3.8%",
+        "CMP": 3383.0
+      },
+      {
+        "Date": "2026-10-12",
+        "Symbol": "HCLTECH",
+        "Signals": "Bullish Reaction | EPS Beat +6% | Gap Up +2.4% | Surge +9.0% | Vol Explosion 8.3x",
+        "CMP": 1326.0
+      },
+      {
+        "Date": "2026-10-12",
+        "Symbol": "ICICIAMC",
+        "Signals": "Bearish Reaction | EPS Miss -3% | Selloff -3.0% | High Vol 1.6x",
+        "CMP": 2938.5
+      },
+      {
+        "Date": "2026-10-11",
+        "Symbol": "RBLBANK",
+        "Signals": "Bearish Reaction | EPS Beat +34% | Gap Down -4.3% | Decline -7.2% | Vol Explosion 13.3x",
+        "CMP": 388.05
+      },
+      {
+        "Date": "2026-10-13",
+        "Symbol": "TATAELXSI",
+        "Signals": "Bullish Reaction | EPS Miss -2% | Gap Up +4.0% | Surge +9.5% | Vol Explosion 3.5x",
+        "CMP": 3426.7
       }
     ]
   }
