@@ -1,12 +1,5 @@
 [
   {
-    "scan_date": "2026-06-09",
-    "scan_time": "2026-06-09T13:36:18.720182",
-    "stocks_scanned": 504,
-    "results_found": 0,
-    "results": []
-  },
-  {
     "scan_date": "2026-06-10",
     "scan_time": "2026-06-10T13:39:33.595107",
     "stocks_scanned": 504,
@@ -3463,6 +3456,68 @@
         "Symbol": "TATAELXSI",
         "Signals": "Bullish Reaction | EPS Miss -2% | Gap Up +4.0% | Surge +9.5% | Vol Explosion 3.5x",
         "CMP": 3426.7
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-10-14",
+    "scan_time": "2026-10-14T13:37:31.739336",
+    "stocks_scanned": 501,
+    "results_found": 9,
+    "results": [
+      {
+        "Date": "2026-10-14",
+        "Symbol": "BHEL",
+        "Signals": "Bullish Reaction | EPS Beat +82% | Rally +4.9% | Vol Surge 3.0x",
+        "CMP": 464.0
+      },
+      {
+        "Date": "2026-10-14",
+        "Symbol": "CANBK",
+        "Signals": "Bullish Reaction | EPS Beat +23% | Rally +3.6% | Vol Explosion 4.1x",
+        "CMP": 124.76
+      },
+      {
+        "Date": "2026-10-12",
+        "Symbol": "HCLTECH",
+        "Signals": "Muted Reaction | EPS Beat +6% | Flat +0.5% | Strong Momentum +9.1%",
+        "CMP": 1327.0
+      },
+      {
+        "Date": "2026-10-14",
+        "Symbol": "ICICIGI",
+        "Signals": "EPS In-Line | Flat +1.3% | High Vol 1.8x",
+        "CMP": 1713.0
+      },
+      {
+        "Date": "2026-10-12",
+        "Symbol": "ICICIAMC",
+        "Signals": "EPS Miss -3% | Selloff -2.0%",
+        "CMP": 2915.2
+      },
+      {
+        "Date": "2026-10-13",
+        "Symbol": "ICICIPRULI",
+        "Signals": "Bearish Reaction | EPS Miss -12% | Selloff -3.5% | Vol Explosion 3.8x",
+        "CMP": 445.0
+      },
+      {
+        "Date": "2026-10-11",
+        "Symbol": "RBLBANK",
+        "Signals": "Muted Reaction | EPS Beat +30% | Flat -0.1%",
+        "CMP": 386.0
+      },
+      {
+        "Date": "2026-10-13",
+        "Symbol": "TATAELXSI",
+        "Signals": "Bullish Reaction | EPS Miss -2% | Surge +5.2% | Vol Surge 2.5x | Strong Momentum +11.2%",
+        "CMP": 3623.1
+      },
+      {
+        "Date": "2026-10-14",
+        "Symbol": "TATATECH",
+        "Signals": "Muted Reaction | EPS Miss -13% | Flat +0.2%",
+        "CMP": 745.55
       }
     ]
   }
