@@ -1,31 +1,5 @@
 [
   {
-    "date": "Wed, 10 Jun 2026",
-    "fear_greed": 36.7,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Fear",
-    "gift_nifty": 23123.0,
-    "nifty": 23123.0,
-    "sensex": 73524.26,
-    "bank_nifty": 54063.75,
-    "vix": 17.03,
-    "top_gainers": [
-      "DATAPATTNS",
-      "CEMPRO",
-      "BELRISE",
-      "JAINREC",
-      "LTTS"
-    ],
-    "top_losers": [
-      "TATATECH",
-      "SCHNEIDER",
-      "ACUTAAS",
-      "ZEEL",
-      "ZYDUSWELL"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-10.pdf"
-  },
-  {
     "date": "Thu, 11 Jun 2026",
     "fear_greed": 40.6,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "AARTIIND"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-13.pdf"
+  },
+  {
+    "date": "Wed, 14 Oct 2026",
+    "fear_greed": 38.6,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Fear",
+    "gift_nifty": 22721.95,
+    "nifty": 22721.95,
+    "sensex": 73033.78,
+    "bank_nifty": 55481.05,
+    "vix": 14.12,
+    "top_gainers": [
+      "BANDHANBNK",
+      "BSOFT",
+      "HCLTECH",
+      "PFOCUS",
+      "ELECON"
+    ],
+    "top_losers": [
+      "RBLBANK",
+      "STLTECH",
+      "LENSKART",
+      "AEGISLOG",
+      "ICICIPRULI"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-14.pdf"
   }
 ]
