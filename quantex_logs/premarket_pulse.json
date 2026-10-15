@@ -1,31 +1,5 @@
 [
   {
-    "date": "Thu, 11 Jun 2026",
-    "fear_greed": 40.6,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Neutral",
-    "gift_nifty": 23242.1,
-    "nifty": 23242.1,
-    "sensex": 73918.76,
-    "bank_nifty": 55194.5,
-    "vix": 15.58,
-    "top_gainers": [
-      "CARTRADE",
-      "CHAMBLFERT",
-      "AFCONS",
-      "CONCORDBIO",
-      "ABSLAMC"
-    ],
-    "top_losers": [
-      "OIL",
-      "JAINREC",
-      "IFCI",
-      "MANAPPURAM",
-      "JINDALSAW"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-11.pdf"
-  },
-  {
     "date": "Fri, 12 Jun 2026",
     "fear_greed": 37.9,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "ICICIPRULI"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-14.pdf"
+  },
+  {
+    "date": "Thu, 15 Oct 2026",
+    "fear_greed": 37.7,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Fear",
+    "gift_nifty": 22622.7,
+    "nifty": 22622.7,
+    "sensex": 72781.89,
+    "bank_nifty": 55316.0,
+    "vix": 14.63,
+    "top_gainers": [
+      "TARIL",
+      "VEDPOWER",
+      "IDBI",
+      "BSOFT",
+      "ELECON"
+    ],
+    "top_losers": [
+      "LICHSGFIN",
+      "MEESHO",
+      "PIRAMALFIN",
+      "STLTECH",
+      "BANKBARODA"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-15.pdf"
   }
 ]
