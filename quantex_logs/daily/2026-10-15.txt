@@ -1,0 +1,39 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-10-15 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 14.06 | Min Score: 68
+Qualified: 6 stocks | Top 10 below
+============================================================
+
+1. TECHM -- Score: 82/100
+   Entry: 1649.90 | SL: 1581.16 | T1: 1753.01 | T2: 1856.12 | RR: 1:1.5
+   Tr:12 Mo:18 Vo:17 PA:13 RS:12 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 65 (Power Zone), MACD Fresh Crossover, Vol Surge 3.3x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: IT, Institutional Accumulation, Delivery 49%
+
+2. HCLTECH -- Score: 72/100
+   Entry: 1360.00 | SL: 1300.04 | T1: 1449.95 | T2: 1509.91 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:11 PA:8 RS:12 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 20 (Trending), ADX Rising, RSI 67 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.8x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: IT, Consistent Buying, Delivery 47%
+
+3. KOTAKBANK -- Score: 71/100
+   Entry: 446.00 | SL: 432.31 | T1: 473.38 | T2: 487.06 | RR: 1:2.0
+   Tr:16 Mo:15 Vo:12 PA:13 RS:8 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 42 (Strong Trend), ADX Rising, RSI 68 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Delivery 69% (Strong Accumulation)
+
+4. ECLERX -- Score: 69/100
+   Entry: 2000.00 | SL: 1887.38 | T1: 2168.93 | T2: 2281.55 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:12 PA:4 RS:12 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 61 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Sector Top 3: IT, Consistent Buying, Delivery 49%
+
+5. ANGELONE -- Score: 68/100
+   Entry: 313.50 | SL: 298.84 | T1: 335.49 | T2: 339.37 | RR: 1:1.5
+   Tr:12 Mo:15 Vo:17 PA:8 RS:8 SM:8 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 22 (Trending), RSI 62 (Power Zone), MACD Bullish, Vol Surge 2.3x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 31% (Weak — mostly intraday)
+
+6. ELECON -- Score: 68/100
+   Entry: 493.55 | SL: 459.47 | T1: 544.68 | T2: 578.76 | RR: 1:1.5
+   Tr:18 Mo:18 Vo:12 PA:4 RS:8 SM:8 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 21 (Trending), ADX Rising, RSI 65 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 36% (Weak — mostly intraday)
+
+
+────────────────────────────────────────────────────────────
+
