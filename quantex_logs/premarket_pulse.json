@@ -1,31 +1,5 @@
 [
   {
-    "date": "Fri, 12 Jun 2026",
-    "fear_greed": 37.9,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Fear",
-    "gift_nifty": 23161.6,
-    "nifty": 23161.6,
-    "sensex": 73832.55,
-    "bank_nifty": 55176.75,
-    "vix": 15.61,
-    "top_gainers": [
-      "AEGISLOG",
-      "ZEEL",
-      "DOMS",
-      "ABDL",
-      "BLUEJET"
-    ],
-    "top_losers": [
-      "JAINREC",
-      "BALKRISIND",
-      "CCL",
-      "CEMPRO",
-      "MRPL"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-12.pdf"
-  },
-  {
     "date": "Mon, 15 Jun 2026",
     "fear_greed": 56.7,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "BANKBARODA"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-15.pdf"
+  },
+  {
+    "date": "Fri, 16 Oct 2026",
+    "fear_greed": 49.3,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 22997.35,
+    "nifty": 22997.35,
+    "sensex": 74315.61,
+    "bank_nifty": 55810.5,
+    "vix": 14.03,
+    "top_gainers": [
+      "GALLANTT",
+      "RITES",
+      "TATACOMM",
+      "INTELLECT",
+      "CEMPRO"
+    ],
+    "top_losers": [
+      "YESBANK",
+      "NESTLEIND",
+      "IDBI",
+      "HDBFS",
+      "NETWEB"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-16.pdf"
   }
 ]
