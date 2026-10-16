@@ -1,12 +1,5 @@
 [
   {
-    "scan_date": "2026-06-11",
-    "scan_time": "2026-06-11T13:36:52.951070",
-    "stocks_scanned": 504,
-    "results_found": 0,
-    "results": []
-  },
-  {
     "scan_date": "2026-06-12",
     "scan_time": "2026-06-12T13:41:05.350750",
     "stocks_scanned": 504,
@@ -3675,6 +3668,170 @@
         "Symbol": "WIPRO",
         "Signals": "EPS In-Line | Flat +1.8%",
         "CMP": 174.05
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-10-16",
+    "scan_time": "2026-10-16T13:36:08.770643",
+    "stocks_scanned": 501,
+    "results_found": 26,
+    "results": [
+      {
+        "Date": "2026-10-14",
+        "Symbol": "360ONE",
+        "Signals": "EPS Miss -10% | Flat -1.3%",
+        "CMP": 1075.0
+      },
+      {
+        "Date": "2026-10-15",
+        "Symbol": "ANGELONE",
+        "Signals": "EPS Beat +8% | Rally +2.3% | Vol Surge 2.1x",
+        "CMP": 300.0
+      },
+      {
+        "Date": "2026-10-14",
+        "Symbol": "BHEL",
+        "Signals": "Bullish Reaction | EPS Beat +82% | Rally +4.9% | Vol Surge 3.0x",
+        "CMP": 434.6
+      },
+      {
+        "Date": "2026-10-14",
+        "Symbol": "GROWW",
+        "Signals": "EPS Beat +15% | Flat -0.7% | Vol Surge 2.3x",
+        "CMP": 200.85
+      },
+      {
+        "Date": "2026-10-14",
+        "Symbol": "CANBK",
+        "Signals": "Bullish Reaction | EPS Beat +23% | Rally +3.6% | Vol Explosion 4.1x",
+        "CMP": 118.29
+      },
+      {
+        "Date": "2026-10-14",
+        "Symbol": "CEATLTD",
+        "Signals": "EPS Beat +46% | Rally +2.0% | Vol Explosion 5.9x",
+        "CMP": 3294.9
+      },
+      {
+        "Date": "2026-10-14",
+        "Symbol": "EMMVEE",
+        "Signals": "EPS Miss -6% | Flat +0.1% | High Vol 1.9x",
+        "CMP": 277.2
+      },
+      {
+        "Date": "2026-10-16",
+        "Symbol": "FEDERALBNK",
+        "Signals": "EPS In-Line | Flat +0.9% | Vol Explosion 6.0x",
+        "CMP": 338.0
+      },
+      {
+        "Date": "2026-10-14",
+        "Symbol": "HDBFS",
+        "Signals": "Bearish Reaction | EPS Miss -4% | Selloff -4.2% | High Vol 1.5x | Heavy Selling -15.8%",
+        "CMP": 512.6
+      },
+      {
+        "Date": "2026-10-15",
+        "Symbol": "HDFCAMC",
+        "Signals": "Bullish Reaction | EPS Miss -32% | Surge +5.1% | High Vol 1.9x",
+        "CMP": 2398.6
+      },
+      {
+        "Date": "2026-10-14",
+        "Symbol": "HDFCLIFE",
+        "Signals": "EPS Miss -20% | Selloff -2.8%",
+        "CMP": 553.0
+      },
+      {
+        "Date": "2026-10-14",
+        "Symbol": "ICICIGI",
+        "Signals": "EPS Beat +23% | Flat +1.3% | High Vol 1.8x",
+        "CMP": 1680.1
+      },
+      {
+        "Date": "2026-10-15",
+        "Symbol": "INDIANB",
+        "Signals": "EPS Miss -0% | Flat -1.7% | Vol Surge 2.4x",
+        "CMP": 854.1
+      },
+      {
+        "Date": "2026-10-14",
+        "Symbol": "KARURVYSYA",
+        "Signals": "EPS Beat +4% | Selloff -2.1%",
+        "CMP": 355.65
+      },
+      {
+        "Date": "2026-10-16",
+        "Symbol": "LTM",
+        "Signals": "EPS In-Line | Rally +3.7%",
+        "CMP": 4390.0
+      },
+      {
+        "Date": "2026-10-15",
+        "Symbol": "NESTLEIND",
+        "Signals": "Bearish Reaction | EPS Beat +2% | Decline -7.8% | Vol Explosion 3.3x | Heavy Selling -8.5%",
+        "CMP": 1265.5
+      },
+      {
+        "Date": "2026-10-16",
+        "Symbol": "OBEROIRLTY",
+        "Signals": "Muted Reaction | EPS In-Line | Flat -0.3%",
+        "CMP": 1703.0
+      },
+      {
+        "Date": "2026-10-15",
+        "Symbol": "PERSISTENT",
+        "Signals": "EPS Miss -36% | Flat -1.0% | Vol Surge 2.2x",
+        "CMP": 5741.0
+      },
+      {
+        "Date": "2026-10-15",
+        "Symbol": "POLYCAB",
+        "Signals": "EPS Beat +22% | Flat -1.5%",
+        "CMP": 8219.0
+      },
+      {
+        "Date": "2026-10-16",
+        "Symbol": "PNB",
+        "Signals": "EPS In-Line | Flat +1.1%",
+        "CMP": 116.3
+      },
+      {
+        "Date": "2026-10-15",
+        "Symbol": "TATACOMM",
+        "Signals": "Bullish Reaction | EPS Beat +14% | Surge +6.3% | Vol Explosion 19.9x",
+        "CMP": 1742.8
+      },
+      {
+        "Date": "2026-10-13",
+        "Symbol": "TATAELXSI",
+        "Signals": "Bullish Reaction | EPS Miss -2% | Surge +5.2% | Vol Surge 2.5x | Strong Momentum +18.2%",
+        "CMP": 3850.1
+      },
+      {
+        "Date": "2026-10-14",
+        "Symbol": "TATATECH",
+        "Signals": "Muted Reaction | EPS Miss -13% | Flat +0.2%",
+        "CMP": 723.85
+      },
+      {
+        "Date": "2026-10-15",
+        "Symbol": "TECHM",
+        "Signals": "Bullish Reaction | EPS Miss -4% | Rally +4.7% | Vol Surge 2.9x | Strong Momentum +13.6%",
+        "CMP": 1790.0
+      },
+      {
+        "Date": "2026-10-16",
+        "Symbol": "TEJASNET",
+        "Signals": "EPS In-Line | Flat +1.4%",
+        "CMP": 474.75
+      },
+      {
+        "Date": "2026-10-15",
+        "Symbol": "WIPRO",
+        "Signals": "EPS Miss -2% | Flat +1.8%",
+        "CMP": 184.4
       }
     ]
   }
