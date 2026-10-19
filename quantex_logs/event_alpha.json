@@ -1,12 +1,5 @@
 [
   {
-    "scan_date": "2026-06-12",
-    "scan_time": "2026-06-12T13:41:05.350750",
-    "stocks_scanned": 504,
-    "results_found": 0,
-    "results": []
-  },
-  {
     "scan_date": "2026-06-15",
     "scan_time": "2026-06-15T13:36:56.615275",
     "stocks_scanned": 504,
@@ -3832,6 +3825,80 @@
         "Symbol": "WIPRO",
         "Signals": "EPS Miss -2% | Flat +1.8%",
         "CMP": 184.4
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-10-19",
+    "scan_time": "2026-10-19T13:35:27.003861",
+    "stocks_scanned": 501,
+    "results_found": 11,
+    "results": [
+      {
+        "Date": "2026-10-17",
+        "Symbol": "AXISBANK",
+        "Signals": "Bearish Reaction | EPS Beat +0% | Selloff -4.2% | High Vol 1.6x",
+        "CMP": 1236.0
+      },
+      {
+        "Date": "2026-10-19",
+        "Symbol": "BAJFINANCE",
+        "Signals": "EPS In-Line | Selloff -2.5%",
+        "CMP": 957.35
+      },
+      {
+        "Date": "2026-10-16",
+        "Symbol": "BAJAJHFL",
+        "Signals": "Muted Reaction | EPS Miss -57% | Flat -0.5%",
+        "CMP": 82.71
+      },
+      {
+        "Date": "2026-10-16",
+        "Symbol": "CROMPTON",
+        "Signals": "EPS Beat +3% | Flat -0.0% | Vol Explosion 3.5x",
+        "CMP": 208.45
+      },
+      {
+        "Date": "2026-10-16",
+        "Symbol": "FEDERALBNK",
+        "Signals": "EPS Beat +9% | Flat +0.9% | Vol Explosion 6.0x",
+        "CMP": 348.85
+      },
+      {
+        "Date": "2026-10-17",
+        "Symbol": "HDFCBANK",
+        "Signals": "EPS Beat +1% | Selloff -2.3%",
+        "CMP": 712.0
+      },
+      {
+        "Date": "2026-10-16",
+        "Symbol": "HSCL",
+        "Signals": "EPS Miss -12% | Flat -0.3% | Heavy Selling -8.6%",
+        "CMP": 605.85
+      },
+      {
+        "Date": "2026-10-17",
+        "Symbol": "ICICIBANK",
+        "Signals": "EPS Beat +5% | Flat -1.1% | Vol Surge 2.3x",
+        "CMP": 1381.0
+      },
+      {
+        "Date": "2026-10-16",
+        "Symbol": "LTM",
+        "Signals": "EPS Miss -6% | Rally +3.7%",
+        "CMP": 4264.9
+      },
+      {
+        "Date": "2026-10-16",
+        "Symbol": "URBANCO",
+        "Signals": "EPS Miss -56% | Rally +2.5%",
+        "CMP": 142.48
+      },
+      {
+        "Date": "2026-10-17",
+        "Symbol": "YESBANK",
+        "Signals": "EPS Beat +10% | Selloff -3.5%",
+        "CMP": 16.88
       }
     ]
   }
