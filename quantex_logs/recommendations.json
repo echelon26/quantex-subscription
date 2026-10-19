@@ -62872,5 +62872,220 @@
         "est_days_to_t1": 6.2
       }
     ]
+  },
+  {
+    "scan_date": "2026-10-19",
+    "scan_time": "2026-10-19T09:48:44.023681",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 14.8149995803833
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 5,
+    "sector_rankings": {
+      "IT": 1,
+      "ENERGY": 2,
+      "AUTO": 3,
+      "METALS": 4,
+      "BANKING": 5,
+      "INDEX_ETF": 6,
+      "POWER": 7,
+      "INFRA": 8,
+      "PHARMA": 9,
+      "REALTY": 10,
+      "GOLD_ETF": 11,
+      "DEFENCE": 12,
+      "ELECTRICALS": 13,
+      "RAILWAY": 14,
+      "CONSUMER": 15,
+      "FMCG": 16,
+      "FINANCE": 17,
+      "CHEMICALS": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "FEDERALBNK",
+        "score": 72,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 15,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 10,
+          "Smart Money": 6,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 23 (Trending)",
+          "RSI 64 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 3.5x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation",
+          "\u26a0\ufe0f Delivery 29% (Algo/Short-Cover)"
+        ],
+        "entry": 347.9,
+        "sl": 332.84,
+        "target1": 370.48,
+        "target2": 385.54,
+        "hold_period": "2-3 weeks",
+        "cmp": 347.9,
+        "delivery_today": 28.89,
+        "delivery_avg10": 52.525999999999996,
+        "target_method": "Vol Profile + Weekly R2 + Weekly R3 + 52W High",
+        "est_days_to_t1": 12.5
+      },
+      {
+        "symbol": "PNB",
+        "score": 70,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 15,
+          "Volume": 9,
+          "Price Action": 13,
+          "Relative Strength": 10,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 63 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 4.6x",
+          "20-Day Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Consistent Buying",
+          "Delivery 44%"
+        ],
+        "entry": 121.8,
+        "sl": 116.82,
+        "target1": 129.27,
+        "target2": 136.74,
+        "hold_period": "2-3 weeks",
+        "cmp": 121.8,
+        "delivery_today": 43.88,
+        "delivery_avg10": 37.237,
+        "target_method": "52W High + Weekly R3",
+        "est_days_to_t1": 16.9
+      },
+      {
+        "symbol": "UNIONBANK",
+        "score": 70,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 15,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 10,
+          "Smart Money": 5,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "ADX 31 (Strong Trend)",
+          "RSI 59 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 3.7x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Delivery 57% (Solid)"
+        ],
+        "entry": 181.2,
+        "sl": 173.15,
+        "target1": 193.27,
+        "target2": 201.32,
+        "hold_period": "2-3 weeks",
+        "cmp": 181.2,
+        "delivery_today": 56.57,
+        "delivery_avg10": 47.467000000000006,
+        "target_method": "Weekly R3 + Vol Profile + Resistance (3x) + 52W High",
+        "est_days_to_t1": 12.4
+      },
+      {
+        "symbol": "CEIGALL",
+        "score": 69,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 18,
+          "Volume": 4,
+          "Price Action": 9,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 36 (Strong Trend)",
+          "ADX Rising",
+          "RSI 65 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Near Breakout",
+          "Hammer",
+          "Strong RS vs Nifty",
+          "Consistent Buying",
+          "Delivery 63% (Strong Accumulation)"
+        ],
+        "entry": 394.5,
+        "sl": 374.45,
+        "target1": 424.58,
+        "target2": 444.63,
+        "hold_period": "2-3 weeks",
+        "cmp": 394.5,
+        "delivery_today": 63.33,
+        "delivery_avg10": 51.896,
+        "target3": 426.43,
+        "target_method": "Weekly R1 + Fib 1.618 + Fib 2.0 + Weekly R2",
+        "est_days_to_t1": 12.1
+      },
+      {
+        "symbol": "SYNGENE",
+        "score": 68,
+        "breakdown": {
+          "Trend": 14,
+          "Momentum": 15,
+          "Volume": 15,
+          "Price Action": 9,
+          "Relative Strength": 8,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "ADX 39 (Strong Trend)",
+          "RSI 61 (Power Zone)",
+          "MACD Bullish",
+          "Vol Above Avg 2.0x",
+          "Strong Delivery (Close near High)",
+          "Near Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Consistent Buying",
+          "Delivery 49%"
+        ],
+        "entry": 397.8,
+        "sl": 379.12,
+        "target1": 435.16,
+        "target2": 453.84,
+        "hold_period": "2-3 weeks",
+        "cmp": 397.8,
+        "delivery_today": 49.16,
+        "delivery_avg10": 51.611000000000004,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 16.2
+      }
+    ]
   }
 ]
