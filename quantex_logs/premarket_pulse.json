@@ -1,31 +1,5 @@
 [
   {
-    "date": "Mon, 15 Jun 2026",
-    "fear_greed": 56.7,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Neutral",
-    "gift_nifty": 23622.9,
-    "nifty": 23622.9,
-    "sensex": 75527.95,
-    "bank_nifty": 56814.8,
-    "vix": 14.72,
-    "top_gainers": [
-      "IFCI",
-      "AIIL",
-      "TTML",
-      "TMCV",
-      "ASHOKLEY"
-    ],
-    "top_losers": [
-      "CEMPRO",
-      "NESTLEIND",
-      "OIL",
-      "ONGC",
-      "TECHM"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-15.pdf"
-  },
-  {
     "date": "Tue, 16 Jun 2026",
     "fear_greed": 58.9,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "NETWEB"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-16.pdf"
+  },
+  {
+    "date": "Mon, 19 Oct 2026",
+    "fear_greed": 53.3,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 23146.15,
+    "nifty": 23146.15,
+    "sensex": 74729.27,
+    "bank_nifty": 55844.0,
+    "vix": 14.06,
+    "top_gainers": [
+      "HBLENGINE",
+      "TECHM",
+      "SHRIPISTON",
+      "THANGAMAYL",
+      "WIPRO"
+    ],
+    "top_losers": [
+      "RRKABEL",
+      "CCL",
+      "APARINDS",
+      "HDBFS",
+      "SYRMA"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-19.pdf"
   }
 ]
