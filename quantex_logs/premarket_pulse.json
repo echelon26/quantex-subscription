@@ -1,31 +1,5 @@
 [
   {
-    "date": "Tue, 16 Jun 2026",
-    "fear_greed": 58.9,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Neutral",
-    "gift_nifty": 23622.9,
-    "nifty": 23622.9,
-    "sensex": 75527.95,
-    "bank_nifty": 56814.8,
-    "vix": 14.35,
-    "top_gainers": [
-      "AARTIIND",
-      "KALYANKJIL",
-      "GABRIEL",
-      "SCHNEIDER",
-      "BALKRISIND"
-    ],
-    "top_losers": [
-      "AUROPHARMA",
-      "ZEEL",
-      "TENNIND",
-      "OLAELEC",
-      "ASTERDM"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-16.pdf"
-  },
-  {
     "date": "Wed, 17 Jun 2026",
     "fear_greed": 69.4,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "SYRMA"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-19.pdf"
+  },
+  {
+    "date": "Tue, 20 Oct 2026",
+    "fear_greed": 45.0,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 22888.95,
+    "nifty": 22888.95,
+    "sensex": 73852.9,
+    "bank_nifty": 55488.1,
+    "vix": 14.77,
+    "top_gainers": [
+      "SHRIPISTON",
+      "THANGAMAYL",
+      "AIIL",
+      "UNIONBANK",
+      "HFCL"
+    ],
+    "top_losers": [
+      "URBANCO",
+      "HSCL",
+      "CCL",
+      "DEEPAKFERT",
+      "FINCABLES"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-20.pdf"
   }
 ]
