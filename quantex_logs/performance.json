@@ -1,20 +1,20 @@
 {
-  "last_updated": "2026-10-20T11:01:39.859405",
+  "last_updated": "2026-10-21T11:01:49.969830",
   "stats": {
-    "total_tracked": 79,
-    "total_closed": 49,
+    "total_tracked": 81,
+    "total_closed": 51,
     "active": 30,
     "wins": 14,
-    "losses": 35,
+    "losses": 37,
     "expired": 0,
-    "win_rate": 28.6,
-    "avg_return": -1.09,
-    "total_return": -53.58,
+    "win_rate": 27.5,
+    "avg_return": -1.23,
+    "total_return": -62.98,
     "avg_win": 7.64,
     "avg_loss": -4.59,
-    "avg_days_held": 4.1,
+    "avg_days_held": 3.9,
     "avg_win_days": 6.6,
-    "profit_factor": 0.67,
+    "profit_factor": 0.63,
     "t1_hits": 8,
     "t2_hits": 6,
     "high_score_win_rate": 54.5,
@@ -56,7 +56,7 @@
       "t1_hit_date": "2026-09-22",
       "t1_hit_day": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "RBLBANK_2026-09-22",
@@ -82,7 +82,7 @@
       "period_to_sl_days": 4,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "KPIGREEN_2026-09-22",
@@ -110,7 +110,7 @@
       "t1_hit_date": "2026-09-30",
       "t1_hit_day": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "BANDHANBNK_2026-09-22",
@@ -136,7 +136,7 @@
       "period_to_sl_days": 7,
       "period_total_days": 7,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "SONACOMS_2026-09-23",
@@ -162,7 +162,7 @@
       "period_to_sl_days": 4,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "RADICO_2026-09-23",
@@ -188,7 +188,7 @@
       "period_to_sl_days": 4,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "WHIRLPOOL_2026-09-23",
@@ -214,7 +214,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "GNFC_2026-09-23",
@@ -240,7 +240,7 @@
       "period_to_sl_days": 6,
       "period_total_days": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "ELECON_2026-09-23",
@@ -266,7 +266,7 @@
       "period_to_sl_days": 6,
       "period_total_days": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "PHOENIXLTD_2026-09-23",
@@ -292,7 +292,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "WHIRLPOOL_2026-09-24",
@@ -320,7 +320,7 @@
       "t1_hit_date": "2026-09-25",
       "t1_hit_day": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "ZYDUSLIFE_2026-09-24",
@@ -346,7 +346,7 @@
       "period_to_sl_days": 5,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "CASTROLIND_2026-09-25",
@@ -372,7 +372,7 @@
       "period_to_sl_days": 4,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "ZYDUSLIFE_2026-09-25",
@@ -398,7 +398,7 @@
       "period_to_sl_days": 3,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "WELCORP_2026-09-25",
@@ -424,7 +424,7 @@
       "period_to_sl_days": 4,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "ZYDUSLIFE_2026-09-28",
@@ -450,7 +450,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "DRREDDY_2026-09-29",
@@ -476,7 +476,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "KIRLOSENG_2026-09-29",
@@ -502,7 +502,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "GALAXYSURF_2026-09-29",
@@ -530,7 +530,7 @@
       "t1_hit_date": "2026-10-12",
       "t1_hit_day": 8,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "GALAXYSURF_2026-09-30",
@@ -558,7 +558,7 @@
       "t1_hit_date": "2026-10-12",
       "t1_hit_day": 7,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "IRCON_2026-09-30",
@@ -584,7 +584,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "SYRMA_2026-09-30",
@@ -610,7 +610,7 @@
       "period_to_sl_days": 4,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "GANDHAR_2026-10-01",
@@ -638,7 +638,7 @@
       "t1_hit_date": "2026-10-12",
       "t1_hit_day": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "GALAXYSURF_2026-10-01",
@@ -666,7 +666,7 @@
       "t1_hit_date": "2026-10-12",
       "t1_hit_day": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "GANDHAR_2026-10-02",
@@ -694,7 +694,7 @@
       "t1_hit_date": "2026-10-12",
       "t1_hit_day": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "CYIENT_2026-10-05",
@@ -720,7 +720,7 @@
       "period_to_sl_days": 3,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "GALAXYSURF_2026-10-06",
@@ -748,7 +748,7 @@
       "t1_hit_date": "2026-10-15",
       "t1_hit_day": 7,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "KOTAKBANK_2026-10-06",
@@ -776,7 +776,7 @@
       "t1_hit_date": "2026-10-16",
       "t1_hit_day": 8,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "MOTILALOFS_2026-10-06",
@@ -802,7 +802,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "TRENT_2026-10-06",
@@ -828,7 +828,7 @@
       "period_to_sl_days": null,
       "period_total_days": 9,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "PETRONET_2026-10-06",
@@ -854,7 +854,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "FINEORG_2026-10-06",
@@ -880,7 +880,7 @@
       "period_to_sl_days": 3,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "GPPL_2026-10-07",
@@ -906,7 +906,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "TATVA_2026-10-07",
@@ -932,7 +932,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "RADICO_2026-10-07",
@@ -958,7 +958,7 @@
       "period_to_sl_days": 6,
       "period_total_days": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "KANSAINER_2026-10-07",
@@ -984,7 +984,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "GALAXYSURF_2026-10-09",
@@ -1010,7 +1010,7 @@
       "period_to_sl_days": null,
       "period_total_days": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "PERSISTENT_2026-10-09",
@@ -1036,7 +1036,7 @@
       "period_to_sl_days": 5,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "GANDHAR_2026-10-12",
@@ -1062,7 +1062,7 @@
       "period_to_sl_days": 5,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "PVRINOX_2026-10-12",
@@ -1088,7 +1088,7 @@
       "period_to_sl_days": null,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "MPHASIS_2026-10-13",
@@ -1114,7 +1114,7 @@
       "period_to_sl_days": null,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "HCLTECH_2026-10-13",
@@ -1140,7 +1140,7 @@
       "period_to_sl_days": null,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "COFORGE_2026-10-13",
@@ -1166,7 +1166,7 @@
       "period_to_sl_days": null,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "PERSISTENT_2026-10-13",
@@ -1192,7 +1192,7 @@
       "period_to_sl_days": 3,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "TATAELXSI_2026-10-13",
@@ -1220,7 +1220,7 @@
       "t1_hit_date": "2026-10-14",
       "t1_hit_day": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "TANLA_2026-10-13",
@@ -1248,7 +1248,7 @@
       "t1_hit_date": "2026-10-15",
       "t1_hit_day": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "LTTS_2026-10-14",
@@ -1274,7 +1274,7 @@
       "period_to_sl_days": null,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "TATAELXSI_2026-10-14",
@@ -1300,7 +1300,7 @@
       "period_to_sl_days": null,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "ICICIGI_2026-10-14",
@@ -1326,7 +1326,7 @@
       "period_to_sl_days": 3,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "CYIENT_2026-10-14",
@@ -1352,7 +1352,7 @@
       "period_to_sl_days": null,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "CYIENTDLM_2026-10-14",
@@ -1378,7 +1378,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "INFY_2026-10-14",
@@ -1406,7 +1406,7 @@
       "t1_hit_date": "2026-10-16",
       "t1_hit_day": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "HCLTECH_2026-10-14",
@@ -1432,7 +1432,7 @@
       "period_to_sl_days": null,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "HAVELLS_2026-10-14",
@@ -1458,7 +1458,7 @@
       "period_to_sl_days": null,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "GANDHAR_2026-10-14",
@@ -1484,7 +1484,7 @@
       "period_to_sl_days": 3,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "TECHM_2026-10-15",
@@ -1512,7 +1512,7 @@
       "t1_hit_date": "2026-10-16",
       "t1_hit_day": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "HCLTECH_2026-10-15",
@@ -1538,7 +1538,7 @@
       "period_to_sl_days": null,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "KOTAKBANK_2026-10-15",
@@ -1564,7 +1564,7 @@
       "period_to_sl_days": null,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "ECLERX_2026-10-15",
@@ -1590,7 +1590,7 @@
       "period_to_sl_days": null,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "ANGELONE_2026-10-15",
@@ -1616,7 +1616,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "ELECON_2026-10-15",
@@ -1642,7 +1642,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "WIPRO_2026-10-16",
@@ -1668,7 +1668,7 @@
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "TATAELXSI_2026-10-16",
@@ -1694,7 +1694,7 @@
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "TCS_2026-10-16",
@@ -1720,7 +1720,7 @@
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "ICICIBANK_2026-10-16",
@@ -1746,7 +1746,7 @@
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "TECHM_2026-10-16",
@@ -1772,7 +1772,7 @@
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "INFY_2026-10-16",
@@ -1798,7 +1798,7 @@
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "BHARTIARTL_2026-10-16",
@@ -1824,7 +1824,7 @@
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "MPHASIS_2026-10-16",
@@ -1850,7 +1850,7 @@
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "KPITTECH_2026-10-16",
@@ -1876,7 +1876,7 @@
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "MASTEK_2026-10-16",
@@ -1902,7 +1902,7 @@
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "FEDERALBNK_2026-10-19",
@@ -1928,7 +1928,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "PNB_2026-10-19",
@@ -1943,18 +1943,18 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "52W High + Weekly R3",
       "outcome": "ACTIVE",
-      "exit_price": 121.9,
-      "exit_date": "2026-10-19",
+      "exit_price": 122.25,
+      "exit_date": "2026-10-21",
       "days_held": 1,
-      "return_pct": 0.08,
-      "max_gain_pct": 2.81,
-      "max_drawdown_pct": -1.48,
+      "return_pct": 0.37,
+      "max_gain_pct": 1.93,
+      "max_drawdown_pct": -0.33,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "UNIONBANK_2026-10-19",
@@ -1980,7 +1980,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "CEIGALL_2026-10-19",
@@ -1995,18 +1995,18 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "Weekly R1 + Fib 1.618 + Fib 2.0 + Weekly R2",
       "outcome": "ACTIVE",
-      "exit_price": 393.8,
-      "exit_date": "2026-10-19",
+      "exit_price": 388.05,
+      "exit_date": "2026-10-21",
       "days_held": 1,
-      "return_pct": -0.18,
-      "max_gain_pct": 0.38,
-      "max_drawdown_pct": -2.6,
+      "return_pct": -1.63,
+      "max_gain_pct": 0.0,
+      "max_drawdown_pct": -3.16,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "SYNGENE_2026-10-19",
@@ -2020,19 +2020,19 @@
       "regime": "NEUTRAL (mixed)",
       "hold_period_est": "2-3 weeks",
       "target_method": "R:R 1:2",
-      "outcome": "ACTIVE",
-      "exit_price": 397.5,
-      "exit_date": "2026-10-19",
+      "outcome": "SL_HIT",
+      "exit_price": 379.12,
+      "exit_date": "2026-10-21",
       "days_held": 1,
-      "return_pct": -0.08,
-      "max_gain_pct": 1.06,
-      "max_drawdown_pct": -3.85,
+      "return_pct": -4.7,
+      "max_gain_pct": 1.86,
+      "max_drawdown_pct": -6.05,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
-      "period_to_sl_days": null,
+      "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "FEDERALBNK_2026-10-20",
@@ -2043,16 +2043,22 @@
       "sl": 333.79,
       "target1": 371.43,
       "target2": 386.49,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 348.85,
-      "exit_date": "2026-10-20",
       "regime": "NEUTRAL (mixed)",
       "hold_period_est": "2-3 weeks",
       "target_method": "Vol Profile + Weekly R2 + Weekly R3 + 52W High",
+      "outcome": "ACTIVE",
+      "exit_price": 344.0,
+      "exit_date": "2026-10-21",
+      "days_held": 1,
+      "return_pct": -1.39,
+      "max_gain_pct": 0.33,
+      "max_drawdown_pct": -2.54,
+      "period_to_t1_days": null,
+      "period_to_t2_days": null,
+      "period_to_sl_days": null,
+      "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "SYNGENE_2026-10-20",
@@ -2063,16 +2069,22 @@
       "sl": 378.82,
       "target1": 434.86,
       "target2": 453.54,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 397.5,
-      "exit_date": "2026-10-20",
       "regime": "NEUTRAL (mixed)",
       "hold_period_est": "2-3 weeks",
       "target_method": "R:R 1:2",
+      "outcome": "SL_HIT",
+      "exit_price": 378.82,
+      "exit_date": "2026-10-21",
+      "days_held": 1,
+      "return_pct": -4.7,
+      "max_gain_pct": 1.94,
+      "max_drawdown_pct": -5.97,
+      "period_to_t1_days": null,
+      "period_to_t2_days": null,
+      "period_to_sl_days": 1,
+      "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     },
     {
       "key": "PNB_2026-10-20",
@@ -2083,16 +2095,62 @@
       "sl": 116.92,
       "target1": 129.37,
       "target2": 136.84,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 121.9,
-      "exit_date": "2026-10-20",
       "regime": "NEUTRAL (mixed)",
       "hold_period_est": "3-4 weeks",
       "target_method": "52W High + Weekly R3",
+      "outcome": "ACTIVE",
+      "exit_price": 122.25,
+      "exit_date": "2026-10-21",
+      "days_held": 1,
+      "return_pct": 0.29,
+      "max_gain_pct": 1.85,
+      "max_drawdown_pct": -0.41,
+      "period_to_t1_days": null,
+      "period_to_t2_days": null,
+      "period_to_sl_days": null,
+      "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-10-20T11:01:39.859405"
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
+    },
+    {
+      "key": "MPHASIS_2026-10-21",
+      "symbol": "MPHASIS",
+      "scan_date": "2026-10-21",
+      "score": 73,
+      "entry": 2575.0,
+      "sl": 2465.38,
+      "target1": 2739.43,
+      "target2": 2786.3,
+      "outcome": "ACTIVE",
+      "days_held": 0,
+      "return_pct": 0,
+      "exit_price": 2575.0,
+      "exit_date": "2026-10-21",
+      "regime": "NEUTRAL (mixed)",
+      "hold_period_est": "2-3 weeks",
+      "target_method": "Weekly R2 + Weekly R3",
+      "scanner_type": "pro",
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
+    },
+    {
+      "key": "MASTEK_2026-10-21",
+      "symbol": "MASTEK",
+      "scan_date": "2026-10-21",
+      "score": 72,
+      "entry": 1849.0,
+      "sl": 1755.34,
+      "target1": 1989.49,
+      "target2": 2083.15,
+      "outcome": "ACTIVE",
+      "days_held": 0,
+      "return_pct": 0,
+      "exit_price": 1849.0,
+      "exit_date": "2026-10-21",
+      "regime": "NEUTRAL (mixed)",
+      "hold_period_est": "5-8 days",
+      "target_method": "Vol Profile + Weekly R1 + 52W High + Resistance (2x)",
+      "scanner_type": "pro",
+      "last_evaluated_date": "2026-10-21T11:01:49.969830"
     }
   ]
 }
