@@ -1,12 +1,5 @@
 [
   {
-    "scan_date": "2026-06-16",
-    "scan_time": "2026-06-16T13:36:45.649641",
-    "stocks_scanned": 504,
-    "results_found": 0,
-    "results": []
-  },
-  {
     "scan_date": "2026-06-17",
     "scan_time": "2026-06-17T13:36:56.817856",
     "stocks_scanned": 504,
@@ -3960,6 +3953,74 @@
         "Symbol": "YESBANK",
         "Signals": "EPS Beat +10% | Selloff -3.5%",
         "CMP": 16.88
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-10-21",
+    "scan_time": "2026-10-21T13:36:15.030919",
+    "stocks_scanned": 501,
+    "results_found": 10,
+    "results": [
+      {
+        "Date": "2026-10-21",
+        "Symbol": "ABSLAMC",
+        "Signals": "EPS Beat +1% | Flat -0.9% | Vol Explosion 6.8x",
+        "CMP": 950.4
+      },
+      {
+        "Date": "2026-10-19",
+        "Symbol": "BAJFINANCE",
+        "Signals": "EPS Miss -6% | Selloff -2.5%",
+        "CMP": 926.0
+      },
+      {
+        "Date": "2026-10-21",
+        "Symbol": "ETERNAL",
+        "Signals": "EPS Miss -43% | Selloff -2.5% | High Vol 1.6x",
+        "CMP": 312.35
+      },
+      {
+        "Date": "2026-10-21",
+        "Symbol": "INDHOTEL",
+        "Signals": "Muted Reaction | EPS Miss -1% | Flat -0.9%",
+        "CMP": 753.0
+      },
+      {
+        "Date": "2026-10-19",
+        "Symbol": "IREDA",
+        "Signals": "EPS Beat +3% | Selloff -2.1%",
+        "CMP": 103.6
+      },
+      {
+        "Date": "2026-10-21",
+        "Symbol": "KEI",
+        "Signals": "EPS In-Line | Selloff -4.8%",
+        "CMP": 4230.4
+      },
+      {
+        "Date": "2026-10-19",
+        "Symbol": "LTTS",
+        "Signals": "EPS Beat +2% | Selloff -2.8%",
+        "CMP": 3996.3
+      },
+      {
+        "Date": "2026-10-18",
+        "Symbol": "SOBHA",
+        "Signals": "EPS Miss -50% | Flat -1.0%",
+        "CMP": 1211.9
+      },
+      {
+        "Date": "2026-10-19",
+        "Symbol": "ULTRACEMCO",
+        "Signals": "EPS Miss -8% | Selloff -2.4% | Vol Surge 2.4x",
+        "CMP": 10849.0
+      },
+      {
+        "Date": "2026-10-18",
+        "Symbol": "UNIONBANK",
+        "Signals": "Bullish Reaction | EPS Beat +22% | Surge +5.3% | Vol Explosion 3.0x",
+        "CMP": 182.0
       }
     ]
   }
