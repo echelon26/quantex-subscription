@@ -63231,5 +63231,116 @@
         "est_days_to_t1": 19.6
       }
     ]
+  },
+  {
+    "scan_date": "2026-10-21",
+    "scan_time": "2026-10-21T09:48:47.906524",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 15.71500015258789
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 2,
+    "sector_rankings": {
+      "IT": 1,
+      "AUTO": 2,
+      "BANKING": 3,
+      "METALS": 4,
+      "ENERGY": 5,
+      "PHARMA": 6,
+      "INDEX_ETF": 7,
+      "GOLD_ETF": 8,
+      "POWER": 9,
+      "INFRA": 10,
+      "FINANCE": 11,
+      "REALTY": 12,
+      "DEFENCE": 13,
+      "SILVER_ETF": 14,
+      "CONSUMER": 15,
+      "RAILWAY": 16,
+      "FMCG": 17,
+      "CHEMICALS": 18,
+      "ELECTRICALS": 19
+    },
+    "top_10": [
+      {
+        "symbol": "MPHASIS",
+        "score": 73,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 10,
+          "Volume": 15,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 25 (Trending)",
+          "ADX Rising",
+          "MACD Bullish",
+          "Vol Above Avg 1.9x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: IT",
+          "Institutional Accumulation",
+          "Delivery 51% (Solid)"
+        ],
+        "entry": 2575.0,
+        "sl": 2465.38,
+        "target1": 2739.43,
+        "target2": 2786.3,
+        "hold_period": "2-3 weeks",
+        "cmp": 2575.0,
+        "delivery_today": null,
+        "delivery_avg10": 50.636,
+        "target_method": "Weekly R2 + Weekly R3",
+        "est_days_to_t1": 15.2
+      },
+      {
+        "symbol": "MASTEK",
+        "score": 72,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 9,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 8,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 26 (Strong Trend)",
+          "ADX Rising",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "Vol Surge 2.0x",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: IT",
+          "Institutional Accumulation",
+          "Delivery 37% (Weak \u2014 mostly intraday)"
+        ],
+        "entry": 1849.0,
+        "sl": 1755.34,
+        "target1": 1989.49,
+        "target2": 2083.15,
+        "hold_period": "5-8 days",
+        "cmp": 1849.0,
+        "delivery_today": null,
+        "delivery_avg10": 37.090999999999994,
+        "target3": 2038.91,
+        "target_method": "Vol Profile + Weekly R1 + 52W High + Resistance (2x)",
+        "est_days_to_t1": 5.0
+      }
+    ]
   }
 ]
