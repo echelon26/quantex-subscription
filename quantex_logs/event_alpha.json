@@ -1,12 +1,5 @@
 [
   {
-    "scan_date": "2026-06-17",
-    "scan_time": "2026-06-17T13:36:56.817856",
-    "stocks_scanned": 504,
-    "results_found": 0,
-    "results": []
-  },
-  {
     "scan_date": "2026-06-18",
     "scan_time": "2026-06-18T13:35:15.879105",
     "stocks_scanned": 504,
@@ -4021,6 +4014,86 @@
         "Symbol": "UNIONBANK",
         "Signals": "Bullish Reaction | EPS Beat +22% | Surge +5.3% | Vol Explosion 3.0x",
         "CMP": 182.0
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-10-22",
+    "scan_time": "2026-10-22T13:36:46.505453",
+    "stocks_scanned": 501,
+    "results_found": 12,
+    "results": [
+      {
+        "Date": "2026-10-22",
+        "Symbol": "ADANIENSOL",
+        "Signals": "EPS In-Line | Selloff -2.2%",
+        "CMP": 1295.4
+      },
+      {
+        "Date": "2026-10-21",
+        "Symbol": "ADANIGREEN",
+        "Signals": "EPS Beat +9% | Selloff -2.8%",
+        "CMP": 1250.0
+      },
+      {
+        "Date": "2026-10-21",
+        "Symbol": "ABSLAMC",
+        "Signals": "EPS Beat +1% | Flat -0.9% | Vol Explosion 6.8x",
+        "CMP": 904.15
+      },
+      {
+        "Date": "2026-10-19",
+        "Symbol": "BAJFINANCE",
+        "Signals": "EPS Miss -6% | Selloff -2.5%",
+        "CMP": 942.1
+      },
+      {
+        "Date": "2026-10-21",
+        "Symbol": "ETERNAL",
+        "Signals": "EPS Miss -43% | Selloff -2.5% | High Vol 1.6x",
+        "CMP": 304.45
+      },
+      {
+        "Date": "2026-10-21",
+        "Symbol": "INDHOTEL",
+        "Signals": "Muted Reaction | EPS Miss -1% | Flat -0.9%",
+        "CMP": 782.3
+      },
+      {
+        "Date": "2026-10-19",
+        "Symbol": "IREDA",
+        "Signals": "EPS Beat +3% | Selloff -2.1%",
+        "CMP": 102.61
+      },
+      {
+        "Date": "2026-10-21",
+        "Symbol": "KEI",
+        "Signals": "EPS Miss -4% | Selloff -4.8% | Heavy Selling -12.8%",
+        "CMP": 3873.0
+      },
+      {
+        "Date": "2026-10-19",
+        "Symbol": "LTTS",
+        "Signals": "EPS Beat +2% | Selloff -2.8%",
+        "CMP": 3954.8
+      },
+      {
+        "Date": "2026-10-20",
+        "Symbol": "SRF",
+        "Signals": "Bearish Reaction | EPS Miss -12% | Decline -5.2% | Vol Explosion 3.6x",
+        "CMP": 2330.6
+      },
+      {
+        "Date": "2026-10-19",
+        "Symbol": "ULTRACEMCO",
+        "Signals": "EPS Miss -8% | Selloff -2.4% | Vol Surge 2.4x",
+        "CMP": 10958.0
+      },
+      {
+        "Date": "2026-10-21",
+        "Symbol": "VMM",
+        "Signals": "Bearish Reaction | EPS Miss -15% | Selloff -4.7% | Vol Explosion 6.4x",
+        "CMP": 87.99
       }
     ]
   }
