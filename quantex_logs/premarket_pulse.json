@@ -1,31 +1,5 @@
 [
   {
-    "date": "Thu, 18 Jun 2026",
-    "fear_greed": 72.6,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Greed",
-    "gift_nifty": 24085.7,
-    "nifty": 24085.7,
-    "sensex": 77155.62,
-    "bank_nifty": 57585.05,
-    "vix": 13.19,
-    "top_gainers": [
-      "IDBI",
-      "CARTRADE",
-      "SCHNEIDER",
-      "UCOBANK",
-      "TRENT"
-    ],
-    "top_losers": [
-      "TMPV",
-      "BSE",
-      "AARTIIND",
-      "CYIENT",
-      "FACT"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-18.pdf"
-  },
-  {
     "date": "Fri, 19 Jun 2026",
     "fear_greed": 74.7,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "SAMMAANCAP"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-21.pdf"
+  },
+  {
+    "date": "Thu, 22 Oct 2026",
+    "fear_greed": 41.4,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 22811.35,
+    "nifty": 22811.35,
+    "sensex": 73709.69,
+    "bank_nifty": 54976.9,
+    "vix": 15.68,
+    "top_gainers": [
+      "INDIACEM",
+      "LTTS",
+      "FRACTAL",
+      "HEXT",
+      "WIPRO"
+    ],
+    "top_losers": [
+      "HSCL",
+      "JINDALSAW",
+      "CREDITACC",
+      "JPPOWER",
+      "TDPOWERSYS"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-22.pdf"
   }
 ]
