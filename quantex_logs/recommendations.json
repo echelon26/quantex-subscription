@@ -63666,5 +63666,184 @@
         "est_days_to_t1": 13.5
       }
     ]
+  },
+  {
+    "scan_date": "2026-10-27",
+    "scan_time": "2026-10-27T09:48:45.590733",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 16.395000457763672
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 4,
+    "sector_rankings": {
+      "PHARMA": 1,
+      "ENERGY": 2,
+      "AUTO": 3,
+      "METALS": 4,
+      "REALTY": 5,
+      "INDEX_ETF": 6,
+      "CONSUMER": 7,
+      "POWER": 8,
+      "INFRA": 9,
+      "FINANCE": 10,
+      "IT": 11,
+      "BANKING": 12,
+      "CHEMICALS": 13,
+      "GOLD_ETF": 14,
+      "RAILWAY": 15,
+      "DEFENCE": 16,
+      "FMCG": 17,
+      "ELECTRICALS": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "PVRINOX",
+        "score": 75,
+        "breakdown": {
+          "Trend": 20,
+          "Momentum": 15,
+          "Volume": 12,
+          "Price Action": 13,
+          "Relative Strength": 8,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 40 (Strong Trend)",
+          "ADX Rising",
+          "RSI 69 (Power Zone)",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Morning Star",
+          "Strong RS vs Nifty",
+          "Consistent Buying",
+          "Delivery 47%"
+        ],
+        "entry": 1465.9,
+        "sl": 1390.79,
+        "target1": 1616.12,
+        "target2": 1691.24,
+        "hold_period": "3-5 days",
+        "cmp": 1465.9,
+        "delivery_today": null,
+        "delivery_avg10": 47.004000000000005,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 4.4
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "score": 71,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 15,
+          "Volume": 12,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 23 (Trending)",
+          "ADX Rising",
+          "RSI 68 (Power Zone)",
+          "MACD Bullish",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Consistent Buying",
+          "Delivery 64% (Strong Accumulation)"
+        ],
+        "entry": 1973.9,
+        "sl": 1906.3,
+        "target1": 2075.3,
+        "target2": 2092.35,
+        "hold_period": "2-3 weeks",
+        "cmp": 1973.9,
+        "delivery_today": null,
+        "delivery_avg10": 64.032,
+        "target_method": "Weekly R3 + Fib 2.0 + Resistance (2x) + 52W High",
+        "est_days_to_t1": 14.4
+      },
+      {
+        "symbol": "SANOFI",
+        "score": 71,
+        "breakdown": {
+          "Trend": 15,
+          "Momentum": 18,
+          "Volume": 17,
+          "Price Action": 5,
+          "Relative Strength": 6,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "Supertrend Bullish",
+          "ADX 26 (Strong Trend)",
+          "ADX Rising",
+          "RSI 58 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 2.7x",
+          "Strong Delivery (Close near High)",
+          "Marubozu",
+          "Sector Top 3: PHARMA",
+          "Institutional Accumulation",
+          "Delivery 53% (Solid)"
+        ],
+        "entry": 3090.0,
+        "sl": 2968.15,
+        "target1": 3287.68,
+        "target2": 3499.03,
+        "hold_period": "1-2 weeks",
+        "cmp": 3090.0,
+        "delivery_today": null,
+        "delivery_avg10": 52.992999999999995,
+        "target_method": "Vol Profile + Resistance (4x) + Fib 1.0 + Fib 1.272",
+        "est_days_to_t1": 11.7
+      },
+      {
+        "symbol": "GANDHAR",
+        "score": 70,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 11,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 65 (Power Zone)",
+          "Vol Surge 2.5x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation",
+          "Delivery 46%"
+        ],
+        "entry": 314.55,
+        "sl": 292.94,
+        "target1": 357.77,
+        "target2": 379.38,
+        "hold_period": "2-3 weeks",
+        "cmp": 314.55,
+        "delivery_today": null,
+        "delivery_avg10": 46.306000000000004,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 14.8
+      }
+    ]
   }
 ]

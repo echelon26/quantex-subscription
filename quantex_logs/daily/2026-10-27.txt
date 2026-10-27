@@ -1,0 +1,29 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-10-27 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 16.40 | Min Score: 68
+Qualified: 4 stocks | Top 10 below
+============================================================
+
+1. PVRINOX -- Score: 75/100
+   Entry: 1465.90 | SL: 1390.79 | T1: 1616.12 | T2: 1691.24 | RR: 1:2.0
+   Tr:20 Mo:15 Vo:12 PA:13 RS:8 SM:7 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 40 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Consistent Buying, Delivery 47%
+
+2. BHARTIARTL -- Score: 71/100
+   Entry: 1973.90 | SL: 1906.30 | T1: 2075.30 | T2: 2092.35 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:12 PA:8 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 23 (Trending), ADX Rising, RSI 68 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying, Delivery 64% (Strong Accumulation)
+
+3. SANOFI -- Score: 71/100
+   Entry: 3090.00 | SL: 2968.15 | T1: 3287.68 | T2: 3499.03 | RR: 1:1.6
+   Tr:15 Mo:18 Vo:17 PA:5 RS:6 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: Supertrend Bullish, ADX 26 (Strong Trend), ADX Rising, RSI 58 (Power Zone), MACD Fresh Crossover, Vol Surge 2.7x, Strong Delivery (Close near High), Marubozu, Sector Top 3: PHARMA, Institutional Accumulation, Delivery 53% (Solid)
+
+4. GANDHAR -- Score: 70/100
+   Entry: 314.55 | SL: 292.94 | T1: 357.77 | T2: 379.38 | RR: 1:2.0
+   Tr:16 Mo:11 Vo:17 PA:8 RS:8 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 65 (Power Zone), Vol Surge 2.5x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 46%
+
+
+────────────────────────────────────────────────────────────
+
