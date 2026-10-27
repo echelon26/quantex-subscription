@@ -1,31 +1,5 @@
 [
   {
-    "date": "Tue, 23 Jun 2026",
-    "fear_greed": 74.7,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Greed",
-    "gift_nifty": 24102.9,
-    "nifty": 24102.9,
-    "sensex": 77094.07,
-    "bank_nifty": 57935.6,
-    "vix": 12.84,
-    "top_gainers": [
-      "KIRLOSENG",
-      "TRITURBINE",
-      "POLYMED",
-      "AEGISLOG",
-      "IDBI"
-    ],
-    "top_losers": [
-      "AADHARHFC",
-      "ANTHEM",
-      "PIRAMALFIN",
-      "VBL",
-      "FIVESTAR"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-23.pdf"
-  },
-  {
     "date": "Wed, 24 Jun 2026",
     "fear_greed": 63.2,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "ATUL"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-26.pdf"
+  },
+  {
+    "date": "Tue, 27 Oct 2026",
+    "fear_greed": 40.1,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 22753.2,
+    "nifty": 22753.2,
+    "sensex": 73606.75,
+    "bank_nifty": 54366.7,
+    "vix": 17.16,
+    "top_gainers": [
+      "ATHERENERG",
+      "MRPL",
+      "TTML",
+      "CARBORUNIV",
+      "GRAPHITE"
+    ],
+    "top_losers": [
+      "BBOX",
+      "AFCONS",
+      "FIVESTAR",
+      "AUBANK",
+      "CUB"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-27.pdf"
   }
 ]
