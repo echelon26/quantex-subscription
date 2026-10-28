@@ -1,31 +1,5 @@
 [
   {
-    "date": "Wed, 24 Jun 2026",
-    "fear_greed": 63.2,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Greed",
-    "gift_nifty": 23824.1,
-    "nifty": 23824.1,
-    "sensex": 76200.68,
-    "bank_nifty": 57183.75,
-    "vix": 13.94,
-    "top_gainers": [
-      "COHANCE",
-      "MEESHO",
-      "PPLPHARMA",
-      "GLAND",
-      "NEULANDLAB"
-    ],
-    "top_losers": [
-      "NIACL",
-      "VEDL",
-      "NATIONALUM",
-      "AEGISVOPAK",
-      "HINDZINC"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-24.pdf"
-  },
-  {
     "date": "Thu, 25 Jun 2026",
     "fear_greed": 68.7,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "CUB"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-27.pdf"
+  },
+  {
+    "date": "Wed, 28 Oct 2026",
+    "fear_greed": 42.2,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 22749.75,
+    "nifty": 22749.75,
+    "sensex": 73598.67,
+    "bank_nifty": 53974.9,
+    "vix": 16.4,
+    "top_gainers": [
+      "OLAELEC",
+      "ACUTAAS",
+      "SUNTV",
+      "DATAPATTNS",
+      "PFOCUS"
+    ],
+    "top_losers": [
+      "FIVESTAR",
+      "AEGISLOG",
+      "M&MFIN",
+      "DALBHARAT",
+      "MAZDOCK"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-28.pdf"
   }
 ]
