@@ -1,0 +1,29 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-10-28 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 16.24 | Min Score: 68
+Qualified: 4 stocks | Top 10 below
+============================================================
+
+1. TVSMOTOR -- Score: 78/100
+   Entry: 4239.00 | SL: 4063.69 | T1: 4501.96 | T2: 4691.52 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:15 PA:8 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 26 (Strong Trend), RSI 63 (Power Zone), MACD Bullish, Vol Above Avg 1.7x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: AUTO, Institutional Accumulation, Delivery 50% (Solid)
+
+2. SONACOMS -- Score: 76/100
+   Entry: 880.00 | SL: 835.21 | T1: 969.58 | T2: 1014.38 | RR: 1:2.0
+   Tr:16 Mo:18 Vo:15 PA:8 RS:12 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 67 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.9x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: AUTO, Consistent Buying, Delivery 46%
+
+3. PGEL -- Score: 70/100
+   Entry: 537.00 | SL: 506.06 | T1: 598.89 | T2: 629.83 | RR: 1:2.0
+   Tr:11 Mo:18 Vo:17 PA:8 RS:8 SM:8 MTF:0
+   Hold: 2-3 weeks | Signals: ADX 28 (Strong Trend), RSI 57 (Power Zone), MACD Fresh Crossover, Vol Surge 6.3x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 34% (Weak — mostly intraday)
+
+4. LAURUSLABS -- Score: 69/100
+   Entry: 2181.90 | SL: 2091.03 | T1: 2363.64 | T2: 2454.50 | RR: 1:2.0
+   Tr:16 Mo:18 Vo:8 PA:8 RS:12 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 68 (Power Zone), MACD Fresh Crossover, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: PHARMA, Consistent Buying, Delivery 46%
+
+
+────────────────────────────────────────────────────────────
+

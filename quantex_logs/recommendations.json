@@ -63845,5 +63845,183 @@
         "est_days_to_t1": 14.8
       }
     ]
+  },
+  {
+    "scan_date": "2026-10-28",
+    "scan_time": "2026-10-28T09:48:43.607511",
+    "market_regime": {
+      "regime": "neutral",
+      "min_score": 68,
+      "label": "NEUTRAL (mixed)",
+      "nifty_above_50dma": false,
+      "vix": 16.24250030517578
+    },
+    "min_score_threshold": 68,
+    "total_qualified": 4,
+    "sector_rankings": {
+      "PHARMA": 1,
+      "AUTO": 2,
+      "CONSUMER": 3,
+      "INFRA": 4,
+      "METALS": 5,
+      "REALTY": 6,
+      "INDEX_ETF": 7,
+      "GOLD_ETF": 8,
+      "FINANCE": 9,
+      "ENERGY": 10,
+      "POWER": 11,
+      "FMCG": 12,
+      "BANKING": 13,
+      "RAILWAY": 14,
+      "CHEMICALS": 15,
+      "ELECTRICALS": 16,
+      "DEFENCE": 17,
+      "IT": 18,
+      "SILVER_ETF": 19
+    },
+    "top_10": [
+      {
+        "symbol": "TVSMOTOR",
+        "score": 78,
+        "breakdown": {
+          "Trend": 18,
+          "Momentum": 15,
+          "Volume": 15,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 10,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX 26 (Strong Trend)",
+          "RSI 63 (Power Zone)",
+          "MACD Bullish",
+          "Vol Above Avg 1.7x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: AUTO",
+          "Institutional Accumulation",
+          "Delivery 50% (Solid)"
+        ],
+        "entry": 4239.0,
+        "sl": 4063.69,
+        "target1": 4501.96,
+        "target2": 4691.52,
+        "hold_period": "1-2 weeks",
+        "cmp": 4239.0,
+        "delivery_today": null,
+        "delivery_avg10": 50.068999999999996,
+        "target_method": "Vol Profile + Weekly R3 + Fib 1.618 + 52W High",
+        "est_days_to_t1": 11.8
+      },
+      {
+        "symbol": "SONACOMS",
+        "score": 76,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 15,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "ADX Rising",
+          "RSI 67 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Above Avg 1.9x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: AUTO",
+          "Consistent Buying",
+          "Delivery 46%"
+        ],
+        "entry": 880.0,
+        "sl": 835.21,
+        "target1": 969.58,
+        "target2": 1014.38,
+        "hold_period": "3-4 weeks",
+        "cmp": 880.0,
+        "delivery_today": null,
+        "delivery_avg10": 46.158,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 25
+      },
+      {
+        "symbol": "PGEL",
+        "score": 70,
+        "breakdown": {
+          "Trend": 11,
+          "Momentum": 18,
+          "Volume": 17,
+          "Price Action": 8,
+          "Relative Strength": 8,
+          "Smart Money": 8,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "ADX 28 (Strong Trend)",
+          "RSI 57 (Power Zone)",
+          "MACD Fresh Crossover",
+          "Vol Surge 6.3x",
+          "Strong Delivery (Close near High)",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Institutional Accumulation",
+          "Delivery 34% (Weak \u2014 mostly intraday)"
+        ],
+        "entry": 537.0,
+        "sl": 506.06,
+        "target1": 598.89,
+        "target2": 629.83,
+        "hold_period": "2-3 weeks",
+        "cmp": 537.0,
+        "delivery_today": null,
+        "delivery_avg10": 33.504,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 16.5
+      },
+      {
+        "symbol": "LAURUSLABS",
+        "score": 69,
+        "breakdown": {
+          "Trend": 16,
+          "Momentum": 18,
+          "Volume": 8,
+          "Price Action": 8,
+          "Relative Strength": 12,
+          "Smart Money": 7,
+          "Multi-Timeframe": 0
+        },
+        "signals": [
+          "EMA Stacked Bullish",
+          "Supertrend Bullish",
+          "RSI 68 (Power Zone)",
+          "MACD Fresh Crossover",
+          "20-Day Breakout",
+          "Strong RS vs Nifty",
+          "Sector Top 3: PHARMA",
+          "Consistent Buying",
+          "Delivery 46%"
+        ],
+        "entry": 2181.9,
+        "sl": 2091.03,
+        "target1": 2363.64,
+        "target2": 2454.5,
+        "hold_period": "3-4 weeks",
+        "cmp": 2181.9,
+        "delivery_today": null,
+        "delivery_avg10": 46.218999999999994,
+        "target_method": "R:R 1:2",
+        "est_days_to_t1": 25
+      }
+    ]
   }
 ]
