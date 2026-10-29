@@ -1,12 +1,5 @@
 [
   {
-    "scan_date": "2026-06-24",
-    "scan_time": "2026-06-24T13:36:38.798675",
-    "stocks_scanned": 500,
-    "results_found": 0,
-    "results": []
-  },
-  {
     "scan_date": "2026-06-25",
     "scan_time": "2026-06-25T13:39:05.043809",
     "stocks_scanned": 500,
@@ -5148,6 +5141,524 @@
         "Symbol": "WAAREEENER",
         "Signals": "EPS Miss -18% | Flat -1.9%",
         "CMP": 2238.0
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-10-29",
+    "scan_time": "2026-10-29T13:36:58.837441",
+    "stocks_scanned": 501,
+    "results_found": 85,
+    "results": [
+      {
+        "Date": "2026-10-27",
+        "Symbol": "ACC",
+        "Signals": "EPS Beat +283% | Flat -1.6% | Vol Explosion 3.8x",
+        "CMP": 1153.5
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "ACMESOLAR",
+        "Signals": "EPS Beat +36% | Flat -1.2%",
+        "CMP": 415.8
+      },
+      {
+        "Date": "2026-10-26",
+        "Symbol": "APLAPOLLO",
+        "Signals": "EPS Beat +5% | Rally +2.2% | High Vol 1.9x",
+        "CMP": 2195.0
+      },
+      {
+        "Date": "2026-10-26",
+        "Symbol": "AAVAS",
+        "Signals": "EPS Miss -2% | Flat +1.1%",
+        "CMP": 1111.6
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "ACUTAAS",
+        "Signals": "Bullish Reaction | EPS Beat +38% | Surge +13.3% | Vol Explosion 8.6x | Strong Momentum +18.7%",
+        "CMP": 3976.7
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "ADANIENT",
+        "Signals": "Muted Reaction | EPS Miss -9% | Flat -0.4%",
+        "CMP": 2607.9
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "ADANIPORTS",
+        "Signals": "EPS Miss -2% | Flat +0.4%",
+        "CMP": 1872.0
+      },
+      {
+        "Date": "2026-10-26",
+        "Symbol": "ABREL",
+        "Signals": "Bullish Reaction | EPS Beat +3614% | Rally +3.4% | Vol Explosion 8.7x",
+        "CMP": 1042.7
+      },
+      {
+        "Date": "2026-10-26",
+        "Symbol": "AEGISLOG",
+        "Signals": "Bullish Reaction | EPS Miss -44% | Rally +3.5% | High Vol 1.6x",
+        "CMP": 1178.7
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "ABDL",
+        "Signals": "EPS Beat +7% | Rally +3.3%",
+        "CMP": 710.2
+      },
+      {
+        "Date": "2026-10-26",
+        "Symbol": "ARE&M",
+        "Signals": "Muted Reaction | EPS In-Line | Flat +1.0%",
+        "CMP": 704.1
+      },
+      {
+        "Date": "2026-10-29",
+        "Symbol": "AMBUJACEM",
+        "Signals": "EPS In-Line | Flat +1.0% | High Vol 2.0x",
+        "CMP": 354.7
+      },
+      {
+        "Date": "2026-10-29",
+        "Symbol": "ASIANPAINT",
+        "Signals": "EPS Miss -8% | Flat +0.8% | Vol Explosion 3.3x",
+        "CMP": 2302.0
+      },
+      {
+        "Date": "2026-10-26",
+        "Symbol": "ATHERENERG",
+        "Signals": "Bullish Reaction | EPS Beat +103% | Surge +14.1% | Vol Explosion 4.4x | Strong Momentum +20.5%",
+        "CMP": 1663.0
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "BAJAJ-AUTO",
+        "Signals": "Bullish Reaction | EPS Beat +6% | Rally +3.2% | High Vol 1.8x",
+        "CMP": 10383.0
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "BANDHANBNK",
+        "Signals": "EPS Beat +19% | Rally +2.3%",
+        "CMP": 161.84
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "BSOFT",
+        "Signals": "EPS Beat +1% | Flat -1.8% | Strong Momentum +9.9%",
+        "CMP": 342.5
+      },
+      {
+        "Date": "2026-10-29",
+        "Symbol": "BLUESTARCO",
+        "Signals": "Bullish Reaction | EPS In-Line | Rally +4.7% | High Vol 1.6x",
+        "CMP": 1673.0
+      },
+      {
+        "Date": "2026-10-29",
+        "Symbol": "BRIGADE",
+        "Signals": "EPS In-Line | Flat -1.2%",
+        "CMP": 532.0
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "CARTRADE",
+        "Signals": "Bearish Reaction | EPS Miss -14% | Decline -12.6% | Vol Explosion 17.1x | Heavy Selling -17.6%",
+        "CMP": 2325.0
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "CHOLAFIN",
+        "Signals": "Bullish Reaction | EPS Beat +1% | Surge +5.2% | High Vol 1.6x | Strong Momentum +9.2%",
+        "CMP": 1604.2
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "CIPLA",
+        "Signals": "EPS Miss -8% | Flat -0.4% | Vol Explosion 3.3x",
+        "CMP": 1358.0
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "CUB",
+        "Signals": "EPS Beat +7% | Rally +2.5% | Strong Momentum +9.1%",
+        "CMP": 226.9
+      },
+      {
+        "Date": "2026-10-29",
+        "Symbol": "COALINDIA",
+        "Signals": "EPS In-Line | Flat +0.3% | High Vol 1.5x",
+        "CMP": 393.1
+      },
+      {
+        "Date": "2026-10-29",
+        "Symbol": "CAMS",
+        "Signals": "EPS In-Line | Rally +2.9%",
+        "CMP": 696.95
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "CONCORDBIO",
+        "Signals": "EPS Miss -5% | Rally +4.9%",
+        "CMP": 1230.6
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "CRAFTSMAN",
+        "Signals": "EPS Beat +1% | Flat +0.0% | Vol Explosion 4.2x",
+        "CMP": 10833.0
+      },
+      {
+        "Date": "2026-10-29",
+        "Symbol": "DLF",
+        "Signals": "Bullish Reaction | EPS In-Line | Rally +4.2% | High Vol 1.6x",
+        "CMP": 694.35
+      },
+      {
+        "Date": "2026-10-26",
+        "Symbol": "DALBHARAT",
+        "Signals": "EPS Miss -85% | Rally +2.2% | Heavy Selling -11.5%",
+        "CMP": 1407.9
+      },
+      {
+        "Date": "2026-10-29",
+        "Symbol": "DEEPAKNTR",
+        "Signals": "Muted Reaction | EPS In-Line | Flat -0.8%",
+        "CMP": 1476.4
+      },
+      {
+        "Date": "2026-10-26",
+        "Symbol": "FIVESTAR",
+        "Signals": "Bearish Reaction | EPS Beat +8% | Decline -7.5% | Vol Explosion 4.0x",
+        "CMP": 418.85
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "GMRAIRPORT",
+        "Signals": "Muted Reaction | EPS Miss -110% | Flat +0.3%",
+        "CMP": 87.27
+      },
+      {
+        "Date": "2026-10-29",
+        "Symbol": "GODREJCP",
+        "Signals": "EPS In-Line | Flat +1.8%",
+        "CMP": 837.0
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "GRAVITA",
+        "Signals": "EPS Beat +1% | Rally +2.4% | Strong Momentum +8.0%",
+        "CMP": 1413.6
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "HEROMOTOCO",
+        "Signals": "EPS Miss -4% | Flat +2.0%",
+        "CMP": 5105.0
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "HEXT",
+        "Signals": "Muted Reaction | EPS Beat +25% | Flat +0.5%",
+        "CMP": 538.45
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "HINDUNILVR",
+        "Signals": "EPS Miss -40% | Flat -0.1% | Vol Surge 2.3x",
+        "CMP": 1858.2
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "HOMEFIRST",
+        "Signals": "Muted Reaction | EPS Beat +0% | Flat +0.5%",
+        "CMP": 1062.9
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "HONAUT",
+        "Signals": "Muted Reaction | EPS Miss -23% | Flat +0.9%",
+        "CMP": 30510.0
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "HYUNDAI",
+        "Signals": "EPS Miss -4% | Flat +0.3% | High Vol 1.5x",
+        "CMP": 1922.0
+      },
+      {
+        "Date": "2026-10-26",
+        "Symbol": "ITCHOTELS",
+        "Signals": "Bullish Reaction | EPS Beat +7% | Surge +5.2% | Vol Explosion 9.2x | Strong Momentum +8.4%",
+        "CMP": 169.32
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "INDIAMART",
+        "Signals": "Bullish Reaction | EPS Miss -31% | Rally +4.2% | Vol Explosion 4.8x",
+        "CMP": 1544.2
+      },
+      {
+        "Date": "2026-10-29",
+        "Symbol": "IEX",
+        "Signals": "EPS In-Line | Rally +2.6%",
+        "CMP": 105.35
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "INDUSTOWER",
+        "Signals": "Muted Reaction | EPS Miss -3% | Flat -1.0%",
+        "CMP": 384.0
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "NAUKRI",
+        "Signals": "EPS Beat +8% | Selloff -2.2% | Vol Explosion 3.8x",
+        "CMP": 1173.0
+      },
+      {
+        "Date": "2026-10-29",
+        "Symbol": "INDIGO",
+        "Signals": "Muted Reaction | EPS In-Line | Flat -0.3%",
+        "CMP": 4675.0
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "JSWCEMENT",
+        "Signals": "Muted Reaction | EPS Miss -32% | Flat -0.8%",
+        "CMP": 115.81
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "JSWENERGY",
+        "Signals": "EPS Beat +32% | Rally +2.8% | Strong Momentum +8.6%",
+        "CMP": 510.0
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "JSWINFRA",
+        "Signals": "Muted Reaction | EPS Miss -21% | Flat -0.1%",
+        "CMP": 323.9
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "JUBLINGREA",
+        "Signals": "Bullish Reaction | EPS Beat +5% | Rally +4.3% | Vol Explosion 13.8x",
+        "CMP": 567.85
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "KPRMILL",
+        "Signals": "Bullish Reaction | EPS Beat +29% | Surge +5.0% | Vol Explosion 12.5x",
+        "CMP": 1082.7
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "KPITTECH",
+        "Signals": "Bullish Reaction | EPS Miss -14% | Rally +3.9% | Vol Surge 3.0x",
+        "CMP": 543.7
+      },
+      {
+        "Date": "2026-10-26",
+        "Symbol": "KFINTECH",
+        "Signals": "Bullish Reaction | EPS Beat +1% | Rally +3.8% | High Vol 1.6x",
+        "CMP": 859.8
+      },
+      {
+        "Date": "2026-10-29",
+        "Symbol": "LAURUSLABS",
+        "Signals": "EPS In-Line | Rally +2.8%",
+        "CMP": 2244.0
+      },
+      {
+        "Date": "2026-10-26",
+        "Symbol": "MANKIND",
+        "Signals": "EPS Beat +16% | Rally +4.5% | Strong Momentum +11.6%",
+        "CMP": 2469.3
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "MARUTI",
+        "Signals": "EPS Miss -22% | Rally +2.0%",
+        "CMP": 11426.0
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "MFSL",
+        "Signals": "EPS In-Line | Flat -0.7% | High Vol 2.0x",
+        "CMP": 1212.0
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "MAZDOCK",
+        "Signals": "Bearish Reaction | EPS Miss -31% | Decline -6.5% | Vol Explosion 5.3x",
+        "CMP": 1762.7
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "MEESHO",
+        "Signals": "EPS Miss -27% | Flat +1.9%",
+        "CMP": 224.78
+      },
+      {
+        "Date": "2026-10-26",
+        "Symbol": "PAYTM",
+        "Signals": "EPS Miss -12% | Rally +2.4% | High Vol 1.5x",
+        "CMP": 1686.5
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "ONESOURCE",
+        "Signals": "Bullish Reaction | EPS Beat +10% | Surge +13.8% | Vol Explosion 45.8x | Strong Momentum +12.3%",
+        "CMP": 1569.6
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "PGEL",
+        "Signals": "Bullish Reaction | EPS Beat +1040% | Surge +5.4% | Vol Surge 2.5x | Strong Momentum +13.3%",
+        "CMP": 538.15
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "PNBHOUSING",
+        "Signals": "EPS Beat +6% | Rally +3.9%",
+        "CMP": 1110.0
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "PVRINOX",
+        "Signals": "EPS Beat +20% | Flat -1.3% | Vol Explosion 3.6x",
+        "CMP": 1490.3
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "PIDILITIND",
+        "Signals": "Bearish Reaction | EPS Miss -5% | Selloff -4.2% | Vol Surge 2.2x",
+        "CMP": 1422.0
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "PPLPHARMA",
+        "Signals": "EPS Beat +111% | Flat +1.8% | Strong Momentum +18.2%",
+        "CMP": 230.78
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "RRKABEL",
+        "Signals": "Muted Reaction | EPS Beat +7% | Flat +0.6%",
+        "CMP": 2122.9
+      },
+      {
+        "Date": "2026-10-26",
+        "Symbol": "RECLTD",
+        "Signals": "EPS Miss -12% | Flat +1.4%",
+        "CMP": 296.15
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "RADICO",
+        "Signals": "EPS Beat +6% | Rally +2.1% | Vol Explosion 4.2x",
+        "CMP": 4235.0
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "SBILIFE",
+        "Signals": "EPS Miss -25% | Flat -0.7% | Vol Surge 2.3x",
+        "CMP": 1652.0
+      },
+      {
+        "Date": "2026-10-26",
+        "Symbol": "SONACOMS",
+        "Signals": "Bullish Reaction | EPS Miss -1% | Rally +3.9% | High Vol 1.8x | Strong Momentum +16.0%",
+        "CMP": 873.6
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "STARHEALTH",
+        "Signals": "EPS Miss -10% | Flat +1.6%",
+        "CMP": 532.4
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "SAIL",
+        "Signals": "EPS Miss -14% | Flat +0.8% | High Vol 1.6x",
+        "CMP": 161.0
+      },
+      {
+        "Date": "2026-10-26",
+        "Symbol": "SUPREMEIND",
+        "Signals": "Bearish Reaction | EPS Beat +37% | Selloff -4.1% | Vol Explosion 4.5x",
+        "CMP": 3210.0
+      },
+      {
+        "Date": "2026-10-29",
+        "Symbol": "SUZLON",
+        "Signals": "EPS In-Line | Flat -1.4%",
+        "CMP": 36.79
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "SYNGENE",
+        "Signals": "EPS Miss -28% | Flat +1.8% | Strong Momentum +10.8%",
+        "CMP": 398.6
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "TATACAP",
+        "Signals": "Muted Reaction | EPS Miss -2% | Flat +0.3% | Strong Momentum +8.9%",
+        "CMP": 326.35
+      },
+      {
+        "Date": "2026-10-26",
+        "Symbol": "TATACONSUM",
+        "Signals": "EPS Beat +1% | Selloff -2.8% | Vol Surge 2.3x",
+        "CMP": 1021.0
+      },
+      {
+        "Date": "2026-10-29",
+        "Symbol": "TIMKEN",
+        "Signals": "EPS In-Line | Flat +1.9%",
+        "CMP": 2855.8
+      },
+      {
+        "Date": "2026-10-29",
+        "Symbol": "TRENT",
+        "Signals": "EPS In-Line | Flat -1.8%",
+        "CMP": 2861.7
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "UBL",
+        "Signals": "Muted Reaction | EPS Beat +147% | Flat +0.7%",
+        "CMP": 1191.7
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "UNITDSPR",
+        "Signals": "EPS Miss -5% | Selloff -3.4%",
+        "CMP": 1289.5
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "VEDL",
+        "Signals": "EPS Beat +98% | Rally +3.3%",
+        "CMP": 234.55
+      },
+      {
+        "Date": "2026-10-27",
+        "Symbol": "WAAREEENER",
+        "Signals": "EPS Miss -18% | Flat -1.9%",
+        "CMP": 2318.0
+      },
+      {
+        "Date": "2026-10-28",
+        "Symbol": "ECLERX",
+        "Signals": "EPS Miss -17% | Flat -1.6% | Heavy Selling -12.4%",
+        "CMP": 1660.6
       }
     ]
   }
