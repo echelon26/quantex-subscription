@@ -1,31 +1,5 @@
 [
   {
-    "date": "Thu, 25 Jun 2026",
-    "fear_greed": 68.7,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Greed",
-    "gift_nifty": 24021.65,
-    "nifty": 24021.65,
-    "sensex": 76991.22,
-    "bank_nifty": 58150.35,
-    "vix": 13.39,
-    "top_gainers": [
-      "KPRMILL",
-      "PINELABS",
-      "JSWINFRA",
-      "M&MFIN",
-      "CREDITACC"
-    ],
-    "top_losers": [
-      "GVT&D",
-      "IRFC",
-      "POWERINDIA",
-      "TRITURBINE",
-      "SCHNEIDER"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-06-25.pdf"
-  },
-  {
     "date": "Fri, 26 Jun 2026",
     "fear_greed": 68.8,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "MAZDOCK"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-28.pdf"
+  },
+  {
+    "date": "Thu, 29 Oct 2026",
+    "fear_greed": 41.9,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Neutral",
+    "gift_nifty": 22698.85,
+    "nifty": 22698.85,
+    "sensex": 73246.03,
+    "bank_nifty": 54267.4,
+    "vix": 16.25,
+    "top_gainers": [
+      "PPLPHARMA",
+      "SYNGENE",
+      "SUNTV",
+      "BEML",
+      "PGEL"
+    ],
+    "top_losers": [
+      "CARTRADE",
+      "MRPL",
+      "CONCORDBIO",
+      "DALBHARAT",
+      "KAYNES"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-10-29.pdf"
   }
 ]
