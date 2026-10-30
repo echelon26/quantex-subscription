@@ -1,0 +1,39 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-10-30 at 09:48 AM IST
+Regime: NEUTRAL (mixed) | VIX: 15.38 | Min Score: 68
+Qualified: 6 stocks | Top 10 below
+============================================================
+
+1. COFORGE -- Score: 72/100
+   Entry: 2056.00 | SL: 1948.13 | T1: 2271.74 | T2: 2379.61 | RR: 1:2.0
+   Tr:12 Mo:15 Vo:17 PA:13 RS:8 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 67 (Power Zone), MACD Bullish, Vol Surge 2.2x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Consistent Buying, Delivery 47%
+
+2. TRENT -- Score: 70/100
+   Entry: 3015.10 | SL: 2881.86 | T1: 3214.95 | T2: 3393.97 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:9 PA:8 RS:12 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 21 (Trending), RSI 62 (Power Zone), MACD Fresh Crossover, Vol Surge 3.3x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: CONSUMER, Consistent Buying, Delivery 46%
+
+3. SANOFI -- Score: 70/100
+   Entry: 3213.60 | SL: 3059.79 | T1: 3444.32 | T2: 3675.04 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:9 PA:8 RS:10 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, RSI 63 (Power Zone), MACD Bullish, Vol Surge 6.9x, 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 50%
+
+4. SONACOMS -- Score: 69/100
+   Entry: 891.40 | SL: 847.28 | T1: 979.64 | T2: 1023.75 | RR: 1:2.0
+   Tr:18 Mo:15 Vo:8 PA:13 RS:8 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 21 (Trending), ADX Rising, RSI 68 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Consistent Buying, Delivery 46%
+
+5. LAURUSLABS -- Score: 69/100
+   Entry: 2377.00 | SL: 2271.45 | T1: 2566.98 | T2: 2661.98 | RR: 1:1.8
+   Tr:18 Mo:6 Vo:17 PA:8 RS:10 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 20 (Trending), ADX Rising, MACD Bullish, Vol Surge 3.9x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 45%
+
+6. ZYDUSLIFE -- Score: 68/100
+   Entry: 1239.50 | SL: 1188.71 | T1: 1341.08 | T2: 1391.87 | RR: 1:2.0
+   Tr:14 Mo:10 Vo:17 PA:8 RS:10 SM:9 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, MACD Bullish, Vol Surge 2.5x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying, Delivery 50% (Solid)
+
+
+────────────────────────────────────────────────────────────
+
