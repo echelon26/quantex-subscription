@@ -1,31 +1,5 @@
 [
   {
-    "date": "Wed, 01 Jul 2026",
-    "fear_greed": 61.1,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Greed",
-    "gift_nifty": 23865.75,
-    "nifty": 23865.75,
-    "sensex": 76478.67,
-    "bank_nifty": 57542.9,
-    "vix": 13.6,
-    "top_gainers": [
-      "OLAELEC",
-      "COCHINSHIP",
-      "TARIL",
-      "BALRAMCHIN",
-      "ATHERENERG"
-    ],
-    "top_losers": [
-      "SCHNEIDER",
-      "KPITTECH",
-      "EICHERMOT",
-      "ZFCVINDIA",
-      "TATATECH"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-01.pdf"
-  },
-  {
     "date": "Thu, 02 Jul 2026",
     "fear_greed": 66.7,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "SYRMA"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-03.pdf"
+  },
+  {
+    "date": "Wed, 04 Nov 2026",
+    "fear_greed": 72.7,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Greed",
+    "gift_nifty": 23810.85,
+    "nifty": 23810.85,
+    "sensex": 76917.85,
+    "bank_nifty": 55540.05,
+    "vix": 15.72,
+    "top_gainers": [
+      "KIRLOSBROS",
+      "CARTRADE",
+      "MARICO",
+      "BALRAMCHIN",
+      "ZENTEC"
+    ],
+    "top_losers": [
+      "KEC",
+      "AIAENG",
+      "AETHER",
+      "GESHIP",
+      "BIOCON"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-04.pdf"
   }
 ]
