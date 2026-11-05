@@ -1,31 +1,5 @@
 [
   {
-    "date": "Thu, 02 Jul 2026",
-    "fear_greed": 66.7,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Greed",
-    "gift_nifty": 24005.85,
-    "nifty": 24005.85,
-    "sensex": 76922.64,
-    "bank_nifty": 58033.05,
-    "vix": 13.24,
-    "top_gainers": [
-      "RITES",
-      "RPOWER",
-      "DELHIVERY",
-      "IKS",
-      "HEXT"
-    ],
-    "top_losers": [
-      "KPITTECH",
-      "APARINDS",
-      "COFORGE",
-      "TATAELXSI",
-      "HSCL"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-02.pdf"
-  },
-  {
     "date": "Fri, 03 Jul 2026",
     "fear_greed": 72.9,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "BIOCON"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-04.pdf"
+  },
+  {
+    "date": "Thu, 05 Nov 2026",
+    "fear_greed": 80.1,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Extreme Greed",
+    "gift_nifty": 23960.6,
+    "nifty": 23960.6,
+    "sensex": 77301.4,
+    "bank_nifty": 55913.6,
+    "vix": 15.19,
+    "top_gainers": [
+      "HEGAM",
+      "GMDCLTD",
+      "ZEEL",
+      "MARICO",
+      "REDINGTON"
+    ],
+    "top_losers": [
+      "THANGAMAYL",
+      "MCX",
+      "AIAENG",
+      "MTARTECH",
+      "ZYDUSLIFE"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-05.pdf"
   }
 ]
