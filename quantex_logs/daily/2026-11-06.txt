@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-11-06 at 09:48 AM IST
+Regime: BULLISH (risk-on) | VIX: 17.35 | Min Score: 60
+Qualified: 31 stocks | Top 10 below
+============================================================
+
+1. M&M -- Score: 75/100
+   Entry: 3261.00 | SL: 3145.13 | T1: 3434.80 | T2: 3493.48 | RR: 1:1.5
+   Tr:18 Mo:10 Vo:17 PA:8 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 39 (Strong Trend), MACD Bullish, Vol Surge 2.9x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: AUTO, Institutional Accumulation, Delivery 56% (Solid)
+
+2. IIFL -- Score: 71/100
+   Entry: 626.20 | SL: 583.50 | T1: 711.60 | T2: 754.30 | RR: 1:2.0
+   Tr:16 Mo:18 Vo:17 PA:4 RS:6 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 23 (Trending), RSI 60 (Power Zone), MACD Fresh Crossover, Vol Surge 2.0x, Strong Delivery (Close near High), Near Breakout, Sector Top 3: FINANCE, Institutional Accumulation, Delivery 50% (Solid)
+
+3. HINDALCO -- Score: 69/100
+   Entry: 949.25 | SL: 912.70 | T1: 1022.36 | T2: 1058.91 | RR: 1:2.0
+   Tr:14 Mo:15 Vo:17 PA:13 RS:0 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX 26 (Strong Trend), RSI 60 (Power Zone), MACD Bullish, Vol Surge 2.9x, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Institutional Accumulation, Delivery 58% (Solid)
+
+4. HDFCBANK -- Score: 68/100
+   Entry: 785.45 | SL: 759.50 | T1: 837.34 | T2: 863.29 | RR: 1:2.0
+   Tr:14 Mo:10 Vo:17 PA:8 RS:9 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX 21 (Trending), ADX Rising, MACD Bullish, Vol Surge 2.1x, Strong Delivery (Close near High), 20-Day Breakout, Outperforming Nifty, Sector Top 3: BANKING, Institutional Accumulation, Delivery 57% (Solid)
+
+5. GODREJPROP -- Score: 67/100
+   Entry: 1805.00 | SL: 1714.97 | T1: 1995.56 | T2: 2096.39 | RR: 1:2.1
+   Tr:14 Mo:15 Vo:12 PA:9 RS:10 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX 33 (Strong Trend), RSI 67 (Power Zone), MACD Bullish, Strong Delivery (Close near High), Near Breakout, Hammer, Strong RS vs Nifty, Consistent Buying, Delivery 48%
+
+6. ICICIBANK -- Score: 66/100
+   Entry: 1564.90 | SL: 1515.63 | T1: 1631.41 | T2: 1666.38 | RR: 1:1.3
+   Tr:16 Mo:6 Vo:17 PA:8 RS:9 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 31 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 2.6x, Strong Delivery (Close near High), 20-Day Breakout, Outperforming Nifty, Sector Top 3: BANKING, Institutional Accumulation, Delivery 60% (Solid)
+
+7. LUMAXTECH -- Score: 66/100
+   Entry: 2334.10 | SL: 2184.91 | T1: 2632.48 | T2: 2781.67 | RR: 1:2.0
+   Tr:14 Mo:10 Vo:15 PA:8 RS:12 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 22 (Trending), ADX Rising, MACD Bullish, Vol Above Avg 1.9x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: AUTO, Consistent Buying, Delivery 41%
+
+8. MOTILALOFS -- Score: 66/100
+   Entry: 1101.00 | SL: 1034.62 | T1: 1200.56 | T2: 1266.94 | RR: 1:1.5
+   Tr:14 Mo:18 Vo:15 PA:8 RS:6 SM:5 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 21 (Trending), RSI 64 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.7x, Strong Delivery (Close near High), 20-Day Breakout, Sector Top 3: FINANCE, Consistent Buying, Delivery 31% (Weak — mostly intraday)
+
+9. HDFCLIFE -- Score: 65/100
+   Entry: 563.00 | SL: 541.04 | T1: 595.95 | T2: 617.91 | RR: 1:1.5
+   Tr:12 Mo:18 Vo:17 PA:4 RS:4 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 20 (Trending), RSI 65 (Power Zone), MACD Fresh Crossover, Vol Surge 2.5x, Strong Delivery (Close near High), Near Breakout, Sector Top 3: FINANCE, Institutional Accumulation, Delivery 48%
+
+10. AXISBANK -- Score: 64/100
+   Entry: 1320.00 | SL: 1276.53 | T1: 1385.20 | T2: 1389.12 | RR: 1:1.5
+   Tr:12 Mo:18 Vo:12 PA:8 RS:4 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 68 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Sector Top 3: BANKING, Institutional Accumulation, Delivery 59% (Solid)
+
+
+────────────────────────────────────────────────────────────
+
