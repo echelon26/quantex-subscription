@@ -1,31 +1,5 @@
 [
   {
-    "date": "Fri, 03 Jul 2026",
-    "fear_greed": 72.9,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Greed",
-    "gift_nifty": 24175.7,
-    "nifty": 24175.7,
-    "sensex": 77502.12,
-    "bank_nifty": 58031.65,
-    "vix": 12.29,
-    "top_gainers": [
-      "ZENSARTECH",
-      "MAPMYINDIA",
-      "EXIDEIND",
-      "TECHM",
-      "SONACOMS"
-    ],
-    "top_losers": [
-      "BANKBARODA",
-      "AIAENG",
-      "THERMAX",
-      "HFCL",
-      "RITES"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-03.pdf"
-  },
-  {
     "date": "Mon, 06 Jul 2026",
     "fear_greed": 75.3,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "ZYDUSLIFE"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-05.pdf"
+  },
+  {
+    "date": "Fri, 06 Nov 2026",
+    "fear_greed": 86.0,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Extreme Greed",
+    "gift_nifty": 24536.6,
+    "nifty": 24536.6,
+    "sensex": 79310.01,
+    "bank_nifty": 57773.65,
+    "vix": 15.58,
+    "top_gainers": [
+      "HEGAM",
+      "FRACTAL",
+      "GMDCLTD",
+      "ZEEL",
+      "EMCURE"
+    ],
+    "top_losers": [
+      "CUMMINSIND",
+      "GESHIP",
+      "THANGAMAYL",
+      "MCX",
+      "AIAENG"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-06.pdf"
   }
 ]
