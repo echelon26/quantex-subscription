@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-11-09 at 09:48 AM IST
+Regime: BULLISH (risk-on) | VIX: 17.42 | Min Score: 60
+Qualified: 27 stocks | Top 10 below
+============================================================
+
+1. BANKBARODA -- Score: 72/100
+   Entry: 259.79 | SL: 250.61 | T1: 273.56 | T2: 287.33 | RR: 1:1.5
+   Tr:18 Mo:10 Vo:15 PA:13 RS:6 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 23 (Trending), ADX Rising, MACD Bullish, Vol Above Avg 1.9x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Sector Top 3: BANKING, Institutional Accumulation, Delivery 50% (Solid)
+
+2. AUROPHARMA -- Score: 70/100
+   Entry: 1852.20 | SL: 1785.14 | T1: 1952.80 | T2: 1996.30 | RR: 1:1.5
+   Tr:18 Mo:10 Vo:17 PA:13 RS:2 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 24 (Trending), ADX Rising, MACD Bullish, Vol Surge 2.1x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Institutional Accumulation, Delivery 54% (Solid)
+
+3. ICICIBANK -- Score: 67/100
+   Entry: 1587.00 | SL: 1538.89 | T1: 1673.60 | T2: 1716.90 | RR: 1:1.8
+   Tr:20 Mo:6 Vo:11 PA:8 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 34 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.6x, 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Consistent Buying, Delivery 61% (Strong Accumulation)
+
+4. PNB -- Score: 67/100
+   Entry: 132.25 | SL: 127.26 | T1: 139.73 | T2: 143.21 | RR: 1:1.5
+   Tr:16 Mo:10 Vo:17 PA:13 RS:4 SM:7 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 27 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 2.0x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Sector Top 3: BANKING, Consistent Buying, Delivery 47%
+
+5. QUESS -- Score: 67/100
+   Entry: 346.20 | SL: 322.25 | T1: 394.10 | T2: 418.05 | RR: 1:2.0
+   Tr:12 Mo:15 Vo:17 PA:13 RS:0 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX 21 (Trending), RSI 61 (Power Zone), MACD Bullish, Vol Surge 5.3x, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Institutional Accumulation, Delivery 48%
+
+6. KALYANKJIL -- Score: 66/100
+   Entry: 610.00 | SL: 576.99 | T1: 659.52 | T2: 692.53 | RR: 1:1.5
+   Tr:18 Mo:18 Vo:17 PA:8 RS:2 SM:3 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), RSI 68 (Power Zone), MACD Fresh Crossover, Vol Surge 2.3x, Strong Delivery (Close near High), 20-Day Breakout, Consistent Buying, ⚠️ Delivery 27% (Algo/Short-Cover)
+
+7. PRSMJOHNSN -- Score: 66/100
+   Entry: 108.90 | SL: 102.92 | T1: 117.86 | T2: 123.84 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:17 PA:8 RS:2 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 31 (Strong Trend), RSI 64 (Power Zone), MACD Bullish, Vol Surge 3.1x, Strong Delivery (Close near High), 20-Day Breakout, Institutional Accumulation, Delivery 44%
+
+8. HINDALCO -- Score: 65/100
+   Entry: 962.90 | SL: 922.99 | T1: 1042.73 | T2: 1082.64 | RR: 1:2.0
+   Tr:18 Mo:15 Vo:15 PA:8 RS:0 SM:9 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 27 (Strong Trend), RSI 63 (Power Zone), MACD Bullish, Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Consistent Buying, Delivery 55% (Solid)
+
+9. CANBK -- Score: 65/100
+   Entry: 128.00 | SL: 123.14 | T1: 135.29 | T2: 139.74 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:12 PA:13 RS:4 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 64 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Sector Top 3: BANKING, Consistent Buying, Delivery 44%
+
+10. HAVELLS -- Score: 65/100
+   Entry: 1154.90 | SL: 1104.76 | T1: 1230.12 | T2: 1280.26 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:15 PA:8 RS:6 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 25 (Strong Trend), ADX Rising, RSI 66 (Power Zone), MACD Bullish, Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Sector Top 3: ELECTRICALS, Consistent Buying, Delivery 47%
+
+
+────────────────────────────────────────────────────────────
+
