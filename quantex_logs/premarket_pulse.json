@@ -1,31 +1,5 @@
 [
   {
-    "date": "Mon, 06 Jul 2026",
-    "fear_greed": 75.3,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Extreme Greed",
-    "gift_nifty": 24270.85,
-    "nifty": 24270.85,
-    "sensex": 77763.91,
-    "bank_nifty": 57938.5,
-    "vix": 11.8,
-    "top_gainers": [
-      "SUMICHEM",
-      "ZENSARTECH",
-      "AEGISVOPAK",
-      "ECLERX",
-      "HCLTECH"
-    ],
-    "top_losers": [
-      "GVT&D",
-      "POWERINDIA",
-      "ENRIN",
-      "CGPOWER",
-      "APARINDS"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-06.pdf"
-  },
-  {
     "date": "Tue, 07 Jul 2026",
     "fear_greed": 79.1,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "AIAENG"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-06.pdf"
+  },
+  {
+    "date": "Mon, 09 Nov 2026",
+    "fear_greed": 85.5,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Extreme Greed",
+    "gift_nifty": 24986.4,
+    "nifty": 24986.4,
+    "sensex": 80999.4,
+    "bank_nifty": 58850.65,
+    "vix": 18.43,
+    "top_gainers": [
+      "FINCABLES",
+      "RRKABEL",
+      "DIVISLAB",
+      "AEGISVOPAK",
+      "ZEEL"
+    ],
+    "top_losers": [
+      "HBLENGINE",
+      "VOLTAS",
+      "CONCORDBIO",
+      "SAILIFE",
+      "STLTECH"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-09.pdf"
   }
 ]
