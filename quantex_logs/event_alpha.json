@@ -1,12 +1,5 @@
 [
   {
-    "scan_date": "2026-07-03",
-    "scan_time": "2026-07-03T13:37:17.201967",
-    "stocks_scanned": 500,
-    "results_found": 0,
-    "results": []
-  },
-  {
     "scan_date": "2026-07-06",
     "scan_time": "2026-07-06T13:38:14.414304",
     "stocks_scanned": 500,
@@ -7861,6 +7854,116 @@
         "Symbol": "ZYDUSWELL",
         "Signals": "EPS Miss -41% | Rally +2.1% | Vol Explosion 43.3x",
         "CMP": 468.6
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-11-09",
+    "scan_time": "2026-11-09T13:35:50.387412",
+    "stocks_scanned": 501,
+    "results_found": 17,
+    "results": [
+      {
+        "Date": "2026-11-06",
+        "Symbol": "ASTERDM",
+        "Signals": "Muted Reaction | EPS Beat +9% | Flat -0.9%",
+        "CMP": 733.5
+      },
+      {
+        "Date": "2026-11-06",
+        "Symbol": "AZAD",
+        "Signals": "Bearish Reaction | EPS Miss -4% | Decline -6.2% | High Vol 1.7x",
+        "CMP": 2434.2
+      },
+      {
+        "Date": "2026-11-06",
+        "Symbol": "BOSCHLTD",
+        "Signals": "Bearish Reaction | EPS Miss -19% | Selloff -3.4% | High Vol 1.6x",
+        "CMP": 49550.0
+      },
+      {
+        "Date": "2026-11-06",
+        "Symbol": "COROMANDEL",
+        "Signals": "Bearish Reaction | EPS Beat +3% | Selloff -4.0% | High Vol 1.6x",
+        "CMP": 1879.2
+      },
+      {
+        "Date": "2026-11-09",
+        "Symbol": "DIVISLAB",
+        "Signals": "Bullish Reaction | EPS In-Line | Gap Up +7.5% | Surge +12.1% | Vol Explosion 3.4x",
+        "CMP": 11565.5
+      },
+      {
+        "Date": "2026-11-06",
+        "Symbol": "ELGIEQUIP",
+        "Signals": "EPS Beat +11% | Flat +1.8% | Vol Explosion 10.6x",
+        "CMP": 553.9
+      },
+      {
+        "Date": "2026-11-09",
+        "Symbol": "FINCABLES",
+        "Signals": "Bullish Reaction | EPS In-Line | Gap Up +21.3% | Surge +13.0% | Vol Explosion 11.3x",
+        "CMP": 1232.4
+      },
+      {
+        "Date": "2026-11-06",
+        "Symbol": "GLAND",
+        "Signals": "Muted Reaction | EPS Beat +4% | Flat +0.8%",
+        "CMP": 3302.4
+      },
+      {
+        "Date": "2026-11-06",
+        "Symbol": "HINDALCO",
+        "Signals": "EPS Beat +38% | Rally +2.2% | Vol Explosion 3.1x",
+        "CMP": 960.0
+      },
+      {
+        "Date": "2026-11-06",
+        "Symbol": "HONASA",
+        "Signals": "Bearish Reaction | EPS Beat +10% | Selloff -3.2% | Vol Explosion 5.3x",
+        "CMP": 484.05
+      },
+      {
+        "Date": "2026-11-06",
+        "Symbol": "JUBLFOOD",
+        "Signals": "Muted Reaction | EPS Beat +2% | Flat +0.2%",
+        "CMP": 428.5
+      },
+      {
+        "Date": "2026-11-06",
+        "Symbol": "NUVAMA",
+        "Signals": "EPS Miss -4% | Flat -1.4%",
+        "CMP": 1871.0
+      },
+      {
+        "Date": "2026-11-09",
+        "Symbol": "TATACHEM",
+        "Signals": "Muted Reaction | EPS In-Line | Flat -0.4%",
+        "CMP": 604.75
+      },
+      {
+        "Date": "2026-11-09",
+        "Symbol": "TATASTEEL",
+        "Signals": "EPS In-Line | Gap Up +3.3% | Flat -0.8% | High Vol 1.9x",
+        "CMP": 184.85
+      },
+      {
+        "Date": "2026-11-06",
+        "Symbol": "VTL",
+        "Signals": "Bearish Reaction | EPS Beat +8% | Selloff -4.9% | Vol Explosion 11.4x",
+        "CMP": 526.5
+      },
+      {
+        "Date": "2026-11-06",
+        "Symbol": "VOLTAS",
+        "Signals": "EPS Miss -22% | Flat -1.5%",
+        "CMP": 1090.1
+      },
+      {
+        "Date": "2026-11-09",
+        "Symbol": "WHIRLPOOL",
+        "Signals": "EPS In-Line | Flat +1.3% | Vol Explosion 3.9x",
+        "CMP": 837.7
       }
     ]
   }
