@@ -1,12 +1,5 @@
 [
   {
-    "scan_date": "2026-07-06",
-    "scan_time": "2026-07-06T13:38:14.414304",
-    "stocks_scanned": 500,
-    "results_found": 0,
-    "results": []
-  },
-  {
     "scan_date": "2026-07-07",
     "scan_time": "2026-07-07T13:36:23.928317",
     "stocks_scanned": 500,
@@ -7963,6 +7956,44 @@
         "Date": "2026-11-09",
         "Symbol": "WHIRLPOOL",
         "Signals": "EPS In-Line | Flat +1.3% | Vol Explosion 3.9x",
+        "CMP": 837.7
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-11-10",
+    "scan_time": "2026-11-10T13:36:17.902115",
+    "stocks_scanned": 501,
+    "results_found": 5,
+    "results": [
+      {
+        "Date": "2026-11-07",
+        "Symbol": "DIVISLAB",
+        "Signals": "Bullish Reaction | EPS Beat +33% | Gap Up +7.5% | Surge +12.1% | Vol Explosion 3.4x",
+        "CMP": 11565.5
+      },
+      {
+        "Date": "2026-11-07",
+        "Symbol": "FINCABLES",
+        "Signals": "Bullish Reaction | EPS Beat +15% | Gap Up +21.3% | Surge +13.0% | Vol Explosion 11.3x",
+        "CMP": 1232.4
+      },
+      {
+        "Date": "2026-11-07",
+        "Symbol": "TATACHEM",
+        "Signals": "Muted Reaction | EPS Miss -657% | Flat -0.4%",
+        "CMP": 604.75
+      },
+      {
+        "Date": "2026-11-07",
+        "Symbol": "TATASTEEL",
+        "Signals": "EPS Miss -21% | Gap Up +3.3% | Flat -0.8% | High Vol 1.9x",
+        "CMP": 184.85
+      },
+      {
+        "Date": "2026-11-09",
+        "Symbol": "WHIRLPOOL",
+        "Signals": "EPS Miss -80% | Flat +1.3% | Vol Explosion 3.9x",
         "CMP": 837.7
       }
     ]
