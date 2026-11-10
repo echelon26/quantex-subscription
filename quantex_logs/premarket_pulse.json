@@ -1,31 +1,5 @@
 [
   {
-    "date": "Tue, 07 Jul 2026",
-    "fear_greed": 79.1,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Extreme Greed",
-    "gift_nifty": 24430.35,
-    "nifty": 24430.35,
-    "sensex": 78285.07,
-    "bank_nifty": 58291.5,
-    "vix": 11.82,
-    "top_gainers": [
-      "SUMICHEM",
-      "AEGISVOPAK",
-      "SWANCORP",
-      "ABDL",
-      "WELCORP"
-    ],
-    "top_losers": [
-      "ZENSARTECH",
-      "APARINDS",
-      "THERMAX",
-      "POLICYBZR",
-      "ACUTAAS"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-07.pdf"
-  },
-  {
     "date": "Wed, 08 Jul 2026",
     "fear_greed": 77.4,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "STLTECH"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-09.pdf"
+  },
+  {
+    "date": "Tue, 10 Nov 2026",
+    "fear_greed": 88.2,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Extreme Greed",
+    "gift_nifty": 25044.65,
+    "nifty": 25044.65,
+    "sensex": 81028.02,
+    "bank_nifty": 59086.0,
+    "vix": 17.47,
+    "top_gainers": [
+      "FINCABLES",
+      "DIVISLAB",
+      "ZEEL",
+      "EXIDEIND",
+      "SANSERA"
+    ],
+    "top_losers": [
+      "STLTECH",
+      "JUBLFOOD",
+      "CONCORDBIO",
+      "HBLENGINE",
+      "PIRAMALFIN"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-10.pdf"
   }
 ]
