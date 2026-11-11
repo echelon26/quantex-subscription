@@ -1,21 +1,21 @@
 {
-  "last_updated": "2026-11-10T11:01:52.537885",
+  "last_updated": "2026-11-11T11:01:52.381340",
   "stats": {
-    "total_tracked": 129,
-    "total_closed": 70,
-    "active": 59,
-    "wins": 31,
+    "total_tracked": 139,
+    "total_closed": 73,
+    "active": 66,
+    "wins": 34,
     "losses": 39,
     "expired": 0,
-    "win_rate": 44.3,
-    "avg_return": 0.64,
-    "total_return": 44.77,
+    "win_rate": 46.6,
+    "avg_return": 0.92,
+    "total_return": 67.47,
     "avg_win": 7.6,
     "avg_loss": -4.89,
-    "avg_days_held": 5.7,
-    "avg_win_days": 9.5,
-    "profit_factor": 1.23,
-    "t1_hits": 17,
+    "avg_days_held": 5.5,
+    "avg_win_days": 8.8,
+    "profit_factor": 1.35,
+    "t1_hits": 20,
     "t2_hits": 14,
     "high_score_win_rate": 83.3,
     "best_trade": {
@@ -54,7 +54,7 @@
       "period_to_sl_days": 5,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "PVRINOX_2026-10-12",
@@ -82,7 +82,7 @@
       "t1_hit_date": "2026-11-04",
       "t1_hit_day": 16,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "MPHASIS_2026-10-13",
@@ -110,7 +110,7 @@
       "t1_hit_date": "2026-11-06",
       "t1_hit_day": 17,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "HCLTECH_2026-10-13",
@@ -138,7 +138,7 @@
       "t1_hit_date": "2026-10-21",
       "t1_hit_day": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "COFORGE_2026-10-13",
@@ -164,7 +164,7 @@
       "period_to_sl_days": 8,
       "period_total_days": 8,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "PERSISTENT_2026-10-13",
@@ -190,7 +190,7 @@
       "period_to_sl_days": 3,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "TATAELXSI_2026-10-13",
@@ -218,7 +218,7 @@
       "t1_hit_date": "2026-10-14",
       "t1_hit_day": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "TANLA_2026-10-13",
@@ -246,7 +246,7 @@
       "t1_hit_date": "2026-10-15",
       "t1_hit_day": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "LTTS_2026-10-14",
@@ -274,7 +274,7 @@
       "t1_hit_date": "2026-10-21",
       "t1_hit_day": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "TATAELXSI_2026-10-14",
@@ -302,7 +302,7 @@
       "t1_hit_date": "2026-10-22",
       "t1_hit_day": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "ICICIGI_2026-10-14",
@@ -328,7 +328,7 @@
       "period_to_sl_days": 3,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "CYIENT_2026-10-14",
@@ -354,7 +354,7 @@
       "period_to_sl_days": 5,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "CYIENTDLM_2026-10-14",
@@ -380,7 +380,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "INFY_2026-10-14",
@@ -408,7 +408,7 @@
       "t1_hit_date": "2026-10-16",
       "t1_hit_day": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "HCLTECH_2026-10-14",
@@ -436,7 +436,7 @@
       "t1_hit_date": "2026-10-21",
       "t1_hit_day": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "HAVELLS_2026-10-14",
@@ -462,7 +462,7 @@
       "period_to_sl_days": 4,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "GANDHAR_2026-10-14",
@@ -488,7 +488,7 @@
       "period_to_sl_days": 3,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "TECHM_2026-10-15",
@@ -516,7 +516,7 @@
       "t1_hit_date": "2026-10-16",
       "t1_hit_day": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "HCLTECH_2026-10-15",
@@ -544,7 +544,7 @@
       "t1_hit_date": "2026-10-23",
       "t1_hit_day": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "KOTAKBANK_2026-10-15",
@@ -570,7 +570,7 @@
       "period_to_sl_days": 5,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "ECLERX_2026-10-15",
@@ -596,7 +596,7 @@
       "period_to_sl_days": 4,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "ANGELONE_2026-10-15",
@@ -622,7 +622,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "ELECON_2026-10-15",
@@ -648,7 +648,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "WIPRO_2026-10-16",
@@ -676,7 +676,7 @@
       "t1_hit_date": "2026-10-23",
       "t1_hit_day": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "TATAELXSI_2026-10-16",
@@ -702,7 +702,7 @@
       "period_to_sl_days": 5,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "TCS_2026-10-16",
@@ -728,7 +728,7 @@
       "period_to_sl_days": null,
       "period_total_days": 15,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "ICICIBANK_2026-10-16",
@@ -756,7 +756,7 @@
       "t1_hit_date": "2026-11-05",
       "t1_hit_day": 13,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "TECHM_2026-10-16",
@@ -782,7 +782,7 @@
       "period_to_sl_days": null,
       "period_total_days": 15,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "INFY_2026-10-16",
@@ -808,7 +808,7 @@
       "period_to_sl_days": 4,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "BHARTIARTL_2026-10-16",
@@ -836,7 +836,7 @@
       "t1_hit_date": "2026-11-02",
       "t1_hit_day": 10,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "MPHASIS_2026-10-16",
@@ -864,7 +864,7 @@
       "t1_hit_date": "2026-11-06",
       "t1_hit_day": 14,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "KPITTECH_2026-10-16",
@@ -890,7 +890,7 @@
       "period_to_sl_days": 5,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "MASTEK_2026-10-16",
@@ -916,7 +916,7 @@
       "period_to_sl_days": 5,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "FEDERALBNK_2026-10-19",
@@ -942,7 +942,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "PNB_2026-10-19",
@@ -970,7 +970,7 @@
       "t1_hit_date": "2026-11-09",
       "t1_hit_day": 14,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "UNIONBANK_2026-10-19",
@@ -996,7 +996,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "CEIGALL_2026-10-19",
@@ -1022,7 +1022,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "SYNGENE_2026-10-19",
@@ -1048,7 +1048,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "FEDERALBNK_2026-10-20",
@@ -1074,7 +1074,7 @@
       "period_to_sl_days": 9,
       "period_total_days": 9,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "SYNGENE_2026-10-20",
@@ -1100,7 +1100,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "PNB_2026-10-20",
@@ -1128,7 +1128,7 @@
       "t1_hit_date": "2026-11-09",
       "t1_hit_day": 14,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "MPHASIS_2026-10-21",
@@ -1154,7 +1154,7 @@
       "period_to_sl_days": 3,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "MASTEK_2026-10-21",
@@ -1180,7 +1180,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "INFY_2026-10-23",
@@ -1206,7 +1206,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "CYIENT_2026-10-23",
@@ -1232,7 +1232,7 @@
       "period_to_sl_days": 3,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "DRREDDY_2026-10-26",
@@ -1260,7 +1260,7 @@
       "t1_hit_date": "2026-11-09",
       "t1_hit_day": 10,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "COFORGE_2026-10-26",
@@ -1286,7 +1286,7 @@
       "period_to_sl_days": null,
       "period_total_days": 10,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "INFY_2026-10-26",
@@ -1312,7 +1312,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "MRPL_2026-10-26",
@@ -1338,7 +1338,7 @@
       "period_to_sl_days": null,
       "period_total_days": 10,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "PVRINOX_2026-10-27",
@@ -1366,7 +1366,7 @@
       "t1_hit_date": "2026-11-05",
       "t1_hit_day": 7,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "BHARTIARTL_2026-10-27",
@@ -1394,7 +1394,7 @@
       "t1_hit_date": "2026-11-03",
       "t1_hit_day": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "SANOFI_2026-10-27",
@@ -1420,7 +1420,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "GANDHAR_2026-10-27",
@@ -1446,7 +1446,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "TVSMOTOR_2026-10-28",
@@ -1474,7 +1474,7 @@
       "t1_hit_date": "2026-11-09",
       "t1_hit_day": 8,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "SONACOMS_2026-10-28",
@@ -1500,7 +1500,7 @@
       "period_to_sl_days": null,
       "period_total_days": 8,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "PGEL_2026-10-28",
@@ -1526,7 +1526,7 @@
       "period_to_sl_days": null,
       "period_total_days": 8,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "LAURUSLABS_2026-10-28",
@@ -1554,7 +1554,7 @@
       "t1_hit_date": "2026-10-30",
       "t1_hit_day": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "SANOFI_2026-10-29",
@@ -1582,7 +1582,7 @@
       "t1_hit_date": "2026-11-05",
       "t1_hit_day": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "KOTAKBANK_2026-10-29",
@@ -1608,7 +1608,7 @@
       "period_to_sl_days": null,
       "period_total_days": 7,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "ADANIPORTS_2026-10-29",
@@ -1634,7 +1634,7 @@
       "period_to_sl_days": null,
       "period_total_days": 7,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "LAURUSLABS_2026-10-29",
@@ -1662,7 +1662,7 @@
       "t1_hit_date": "2026-10-30",
       "t1_hit_day": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "PNB_2026-10-29",
@@ -1688,7 +1688,7 @@
       "period_to_sl_days": null,
       "period_total_days": 7,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "TVSMOTOR_2026-10-29",
@@ -1714,7 +1714,7 @@
       "period_to_sl_days": null,
       "period_total_days": 7,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "COFORGE_2026-10-30",
@@ -1740,7 +1740,7 @@
       "period_to_sl_days": null,
       "period_total_days": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "TRENT_2026-10-30",
@@ -1766,7 +1766,7 @@
       "period_to_sl_days": null,
       "period_total_days": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "SANOFI_2026-10-30",
@@ -1792,7 +1792,7 @@
       "period_to_sl_days": null,
       "period_total_days": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "SONACOMS_2026-10-30",
@@ -1818,7 +1818,7 @@
       "period_to_sl_days": null,
       "period_total_days": 6,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "LAURUSLABS_2026-10-30",
@@ -1844,7 +1844,7 @@
       "period_to_sl_days": 2,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "ZYDUSLIFE_2026-10-30",
@@ -1870,7 +1870,7 @@
       "period_to_sl_days": 3,
       "period_total_days": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "GLENMARK_2026-11-02",
@@ -1898,7 +1898,7 @@
       "t1_hit_date": "2026-11-05",
       "t1_hit_day": 3,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "PETRONET_2026-11-02",
@@ -1924,7 +1924,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "SANOFI_2026-11-02",
@@ -1950,7 +1950,7 @@
       "period_to_sl_days": null,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "RELIANCE_2026-11-02",
@@ -1976,7 +1976,7 @@
       "period_to_sl_days": null,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "GAIL_2026-11-02",
@@ -2004,7 +2004,7 @@
       "t1_hit_date": "2026-11-04",
       "t1_hit_day": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "TRENT_2026-11-02",
@@ -2030,7 +2030,7 @@
       "period_to_sl_days": null,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "LT_2026-11-02",
@@ -2058,7 +2058,7 @@
       "t1_hit_date": "2026-11-06",
       "t1_hit_day": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "ZENTEC_2026-11-02",
@@ -2084,7 +2084,7 @@
       "period_to_sl_days": null,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "PHOENIXLTD_2026-11-02",
@@ -2112,7 +2112,7 @@
       "t1_hit_date": "2026-11-06",
       "t1_hit_day": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "JSWSTEEL_2026-11-02",
@@ -2138,7 +2138,7 @@
       "period_to_sl_days": null,
       "period_total_days": 5,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "TATACONSUM_2026-11-03",
@@ -2164,7 +2164,7 @@
       "period_to_sl_days": null,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "MARICO_2026-11-03",
@@ -2190,7 +2190,7 @@
       "period_to_sl_days": null,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "RELIANCE_2026-11-03",
@@ -2216,7 +2216,7 @@
       "period_to_sl_days": null,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "PETRONET_2026-11-03",
@@ -2242,7 +2242,7 @@
       "period_to_sl_days": null,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "GAIL_2026-11-03",
@@ -2268,7 +2268,7 @@
       "period_to_sl_days": null,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "MCX_2026-11-03",
@@ -2294,7 +2294,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "DLF_2026-11-03",
@@ -2322,7 +2322,7 @@
       "t1_hit_date": "2026-11-09",
       "t1_hit_day": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "BHARTIARTL_2026-11-03",
@@ -2348,7 +2348,7 @@
       "period_to_sl_days": null,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "ITC_2026-11-03",
@@ -2374,7 +2374,7 @@
       "period_to_sl_days": null,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "HINDUNILVR_2026-11-03",
@@ -2400,7 +2400,7 @@
       "period_to_sl_days": null,
       "period_total_days": 4,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "BAJFINANCE_2026-11-05",
@@ -2426,7 +2426,7 @@
       "period_to_sl_days": null,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "MOTILALOFS_2026-11-05",
@@ -2452,7 +2452,7 @@
       "period_to_sl_days": null,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "HDFCAMC_2026-11-05",
@@ -2478,7 +2478,7 @@
       "period_to_sl_days": null,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "M&M_2026-11-05",
@@ -2506,7 +2506,7 @@
       "t1_hit_date": "2026-11-06",
       "t1_hit_day": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "EICHERMOT_2026-11-05",
@@ -2532,7 +2532,7 @@
       "period_to_sl_days": null,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "ASHOKLEY_2026-11-05",
@@ -2558,7 +2558,7 @@
       "period_to_sl_days": null,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "BALKRISIND_2026-11-05",
@@ -2573,18 +2573,18 @@
       "hold_period_est": "1-2 weeks",
       "target_method": "Fib 2.618 + 52W High",
       "outcome": "ACTIVE",
-      "exit_price": 2343.6,
+      "exit_price": 2339.6,
       "exit_date": "2026-11-09",
       "days_held": 2,
-      "return_pct": -2.48,
-      "max_gain_pct": 0.56,
-      "max_drawdown_pct": -3.41,
+      "return_pct": -2.64,
+      "max_gain_pct": 0.39,
+      "max_drawdown_pct": -3.58,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "CHOLAFIN_2026-11-05",
@@ -2610,7 +2610,7 @@
       "period_to_sl_days": null,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "UNOMINDA_2026-11-05",
@@ -2636,7 +2636,7 @@
       "period_to_sl_days": null,
       "period_total_days": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "LUMAXTECH_2026-11-05",
@@ -2664,7 +2664,7 @@
       "t1_hit_date": "2026-11-09",
       "t1_hit_day": 2,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "M&M_2026-11-06",
@@ -2690,7 +2690,7 @@
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "IIFL_2026-11-06",
@@ -2716,7 +2716,7 @@
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "HINDALCO_2026-11-06",
@@ -2742,7 +2742,7 @@
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "HDFCBANK_2026-11-06",
@@ -2768,7 +2768,7 @@
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "GODREJPROP_2026-11-06",
@@ -2794,7 +2794,7 @@
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "ICICIBANK_2026-11-06",
@@ -2820,7 +2820,7 @@
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "LUMAXTECH_2026-11-06",
@@ -2846,7 +2846,7 @@
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "MOTILALOFS_2026-11-06",
@@ -2872,7 +2872,7 @@
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "HDFCLIFE_2026-11-06",
@@ -2898,7 +2898,7 @@
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "AXISBANK_2026-11-06",
@@ -2924,7 +2924,7 @@
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "BANKBARODA_2026-11-09",
@@ -2950,7 +2950,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "AUROPHARMA_2026-11-09",
@@ -2965,18 +2965,18 @@
       "hold_period_est": "5-8 days",
       "target_method": "Weekly R2 + Weekly R3",
       "outcome": "ACTIVE",
-      "exit_price": 1855.3,
-      "exit_date": "2026-11-09",
+      "exit_price": 1825.0,
+      "exit_date": "2026-11-11",
       "days_held": 1,
-      "return_pct": 0.17,
-      "max_gain_pct": 0.21,
-      "max_drawdown_pct": -2.78,
+      "return_pct": -1.47,
+      "max_gain_pct": 0.24,
+      "max_drawdown_pct": -2.39,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "ICICIBANK_2026-11-09",
@@ -2991,18 +2991,18 @@
       "hold_period_est": "1-2 weeks",
       "target_method": "R:R 1:2",
       "outcome": "ACTIVE",
-      "exit_price": 1589.0,
-      "exit_date": "2026-11-09",
+      "exit_price": 1570.0,
+      "exit_date": "2026-11-11",
       "days_held": 1,
-      "return_pct": 0.13,
-      "max_gain_pct": 0.32,
-      "max_drawdown_pct": -0.93,
+      "return_pct": -1.07,
+      "max_gain_pct": 1.87,
+      "max_drawdown_pct": -1.47,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "PNB_2026-11-09",
@@ -3028,7 +3028,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "QUESS_2026-11-09",
@@ -3054,7 +3054,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "KALYANKJIL_2026-11-09",
@@ -3068,19 +3068,21 @@
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "2-3 weeks",
       "target_method": "Resistance (2x) + Fib 2.618 + Weekly R1 + 52W High",
-      "outcome": "ACTIVE",
-      "exit_price": 611.0,
-      "exit_date": "2026-11-09",
+      "outcome": "T1_HIT",
+      "exit_price": 662.55,
+      "exit_date": "2026-11-11",
       "days_held": 1,
-      "return_pct": 0.16,
-      "max_gain_pct": 0.73,
-      "max_drawdown_pct": -2.46,
-      "period_to_t1_days": null,
+      "return_pct": 8.61,
+      "max_gain_pct": 12.95,
+      "max_drawdown_pct": 0.0,
+      "period_to_t1_days": 1,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
       "period_total_days": 1,
+      "t1_hit_date": "2026-11-11",
+      "t1_hit_day": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "PRSMJOHNSN_2026-11-09",
@@ -3106,7 +3108,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "HINDALCO_2026-11-09",
@@ -3132,7 +3134,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "CANBK_2026-11-09",
@@ -3158,7 +3160,7 @@
       "period_to_sl_days": 1,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "HAVELLS_2026-11-09",
@@ -3173,18 +3175,18 @@
       "hold_period_est": "2-3 weeks",
       "target_method": "Weekly R1 + Fib 1.618 + Weekly R2 + Fib 2.0",
       "outcome": "ACTIVE",
-      "exit_price": 1159.5,
-      "exit_date": "2026-11-09",
+      "exit_price": 1177.0,
+      "exit_date": "2026-11-11",
       "days_held": 1,
-      "return_pct": 0.4,
-      "max_gain_pct": 0.55,
-      "max_drawdown_pct": -2.97,
+      "return_pct": 1.91,
+      "max_gain_pct": 1.91,
+      "max_drawdown_pct": 0.0,
       "period_to_t1_days": null,
       "period_to_t2_days": null,
       "period_to_sl_days": null,
       "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "BANKBARODA_2026-11-10",
@@ -3195,16 +3197,24 @@
       "sl": 250.83,
       "target1": 273.78,
       "target2": 287.55,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 260.01,
-      "exit_date": "2026-11-10",
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "2-3 weeks",
       "target_method": "Weekly R3 + Fib 2.618",
+      "outcome": "T1_HIT",
+      "exit_price": 274.7,
+      "exit_date": "2026-11-11",
+      "days_held": 1,
+      "return_pct": 5.65,
+      "max_gain_pct": 5.96,
+      "max_drawdown_pct": 0.0,
+      "period_to_t1_days": 1,
+      "period_to_t2_days": null,
+      "period_to_sl_days": null,
+      "period_total_days": 1,
+      "t1_hit_date": "2026-11-11",
+      "t1_hit_day": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "ICICIBANK_2026-11-10",
@@ -3215,16 +3225,22 @@
       "sl": 1540.89,
       "target1": 1653.94,
       "target2": 1683.32,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 1589.0,
-      "exit_date": "2026-11-10",
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "5-8 days",
       "target_method": "Weekly R1 + Fib 2.618 + Weekly R2 + Weekly R3",
+      "outcome": "ACTIVE",
+      "exit_price": 1570.0,
+      "exit_date": "2026-11-11",
+      "days_held": 1,
+      "return_pct": -1.2,
+      "max_gain_pct": 1.74,
+      "max_drawdown_pct": -1.6,
+      "period_to_t1_days": null,
+      "period_to_t2_days": null,
+      "period_to_sl_days": null,
+      "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "AUROPHARMA_2026-11-10",
@@ -3235,16 +3251,22 @@
       "sl": 1788.24,
       "target1": 1955.9,
       "target2": 1996.29,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 1855.3,
-      "exit_date": "2026-11-10",
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "5-8 days",
       "target_method": "Weekly R2 + Weekly R3",
+      "outcome": "ACTIVE",
+      "exit_price": 1825.0,
+      "exit_date": "2026-11-11",
+      "days_held": 1,
+      "return_pct": -1.63,
+      "max_gain_pct": 0.08,
+      "max_drawdown_pct": -2.56,
+      "period_to_t1_days": null,
+      "period_to_t2_days": null,
+      "period_to_sl_days": null,
+      "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "INDIANB_2026-11-10",
@@ -3255,16 +3277,22 @@
       "sl": 897.95,
       "target1": 1005.2,
       "target2": 1040.94,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 933.7,
-      "exit_date": "2026-11-10",
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "2-3 weeks",
       "target_method": "R:R 1:2",
+      "outcome": "ACTIVE",
+      "exit_price": 935.0,
+      "exit_date": "2026-11-11",
+      "days_held": 1,
+      "return_pct": 0.14,
+      "max_gain_pct": 2.7,
+      "max_drawdown_pct": -0.4,
+      "period_to_t1_days": null,
+      "period_to_t2_days": null,
+      "period_to_sl_days": null,
+      "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "PNB_2026-11-10",
@@ -3275,16 +3303,22 @@
       "sl": 127.18,
       "target1": 139.65,
       "target2": 143.21,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 132.17,
-      "exit_date": "2026-11-10",
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "5-8 days",
       "target_method": "Weekly R3 + Fib 2.0 + Fib 2.618",
+      "outcome": "ACTIVE",
+      "exit_price": 138.2,
+      "exit_date": "2026-11-11",
+      "days_held": 1,
+      "return_pct": 4.56,
+      "max_gain_pct": 5.17,
+      "max_drawdown_pct": 0.0,
+      "period_to_t1_days": null,
+      "period_to_t2_days": null,
+      "period_to_sl_days": null,
+      "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "QUESS_2026-11-10",
@@ -3295,16 +3329,22 @@
       "sl": 321.75,
       "target1": 381.62,
       "target2": 405.57,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 345.7,
-      "exit_date": "2026-11-10",
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "2-3 weeks",
       "target_method": "Weekly R2 + Vol Profile + Fib 2.0 + Weekly R3",
+      "outcome": "ACTIVE",
+      "exit_price": 352.55,
+      "exit_date": "2026-11-11",
+      "days_held": 1,
+      "return_pct": 1.98,
+      "max_gain_pct": 2.98,
+      "max_drawdown_pct": -1.19,
+      "period_to_t1_days": null,
+      "period_to_t2_days": null,
+      "period_to_sl_days": null,
+      "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "HDFCBANK_2026-11-10",
@@ -3315,16 +3355,22 @@
       "sl": 772.13,
       "target1": 833.28,
       "target2": 843.38,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 798.15,
-      "exit_date": "2026-11-10",
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "2-3 weeks",
       "target_method": "Weekly R1 + Weekly R2 + Weekly R3",
+      "outcome": "ACTIVE",
+      "exit_price": 808.7,
+      "exit_date": "2026-11-11",
+      "days_held": 1,
+      "return_pct": 1.32,
+      "max_gain_pct": 2.47,
+      "max_drawdown_pct": 0.0,
+      "period_to_t1_days": null,
+      "period_to_t2_days": null,
+      "period_to_sl_days": null,
+      "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "KALYANKJIL_2026-11-10",
@@ -3335,16 +3381,24 @@
       "sl": 577.99,
       "target1": 660.52,
       "target2": 693.53,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 611.0,
-      "exit_date": "2026-11-10",
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "2-3 weeks",
       "target_method": "Resistance (2x) + Fib 2.618 + Weekly R1 + 52W High",
+      "outcome": "T1_HIT",
+      "exit_price": 662.55,
+      "exit_date": "2026-11-11",
+      "days_held": 1,
+      "return_pct": 8.44,
+      "max_gain_pct": 12.77,
+      "max_drawdown_pct": 0.0,
+      "period_to_t1_days": 1,
+      "period_to_t2_days": null,
+      "period_to_sl_days": null,
+      "period_total_days": 1,
+      "t1_hit_date": "2026-11-11",
+      "t1_hit_day": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "PRSMJOHNSN_2026-11-10",
@@ -3355,16 +3409,22 @@
       "sl": 102.67,
       "target1": 117.61,
       "target2": 123.59,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 108.65,
-      "exit_date": "2026-11-10",
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "2-3 weeks",
       "target_method": "Fib 2.0 + Vol Profile + Fib 2.618 + Weekly R2",
+      "outcome": "ACTIVE",
+      "exit_price": 110.77,
+      "exit_date": "2026-11-11",
+      "days_held": 1,
+      "return_pct": 1.95,
+      "max_gain_pct": 5.38,
+      "max_drawdown_pct": -0.36,
+      "period_to_t1_days": null,
+      "period_to_t2_days": null,
+      "period_to_sl_days": null,
+      "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     },
     {
       "key": "HINDALCO_2026-11-10",
@@ -3375,16 +3435,222 @@
       "sl": 920.09,
       "target1": 1039.83,
       "target2": 1079.74,
-      "outcome": "ACTIVE",
-      "days_held": 0,
-      "return_pct": 0,
-      "exit_price": 960.0,
-      "exit_date": "2026-11-10",
       "regime": "BULLISH (risk-on)",
       "hold_period_est": "1-2 weeks",
       "target_method": "R:R 1:2",
+      "outcome": "ACTIVE",
+      "exit_price": 960.0,
+      "exit_date": "2026-11-11",
+      "days_held": 1,
+      "return_pct": 0.0,
+      "max_gain_pct": 0.52,
+      "max_drawdown_pct": -1.56,
+      "period_to_t1_days": null,
+      "period_to_t2_days": null,
+      "period_to_sl_days": null,
+      "period_total_days": 1,
       "scanner_type": "pro",
-      "last_evaluated_date": "2026-11-10T11:01:52.537885"
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
+    },
+    {
+      "key": "BANKBARODA_2026-11-11",
+      "symbol": "BANKBARODA",
+      "scan_date": "2026-11-11",
+      "score": 73,
+      "entry": 273.62,
+      "sl": 263.42,
+      "target1": 291.98,
+      "target2": 301.16,
+      "outcome": "ACTIVE",
+      "days_held": 0,
+      "return_pct": 0,
+      "exit_price": 273.62,
+      "exit_date": "2026-11-11",
+      "regime": "BULLISH (risk-on)",
+      "hold_period_est": "2-3 weeks",
+      "target_method": "R:R 1:2",
+      "scanner_type": "pro",
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
+    },
+    {
+      "key": "PNB_2026-11-11",
+      "symbol": "PNB",
+      "scan_date": "2026-11-11",
+      "score": 69,
+      "entry": 138.0,
+      "sl": 132.64,
+      "target1": 147.66,
+      "target2": 152.48,
+      "outcome": "ACTIVE",
+      "days_held": 0,
+      "return_pct": 0,
+      "exit_price": 138.0,
+      "exit_date": "2026-11-11",
+      "regime": "BULLISH (risk-on)",
+      "hold_period_est": "5-8 days",
+      "target_method": "R:R 1:2",
+      "scanner_type": "pro",
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
+    },
+    {
+      "key": "KANSAINER_2026-11-11",
+      "symbol": "KANSAINER",
+      "scan_date": "2026-11-11",
+      "score": 68,
+      "entry": 206.19,
+      "sl": 195.29,
+      "target1": 222.54,
+      "target2": 233.44,
+      "outcome": "ACTIVE",
+      "days_held": 0,
+      "return_pct": 0,
+      "exit_price": 206.19,
+      "exit_date": "2026-11-11",
+      "regime": "BULLISH (risk-on)",
+      "hold_period_est": "2-3 weeks",
+      "target_method": "Weekly R1 + Fib 2.618 + 52W High + Weekly R2",
+      "scanner_type": "pro",
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
+    },
+    {
+      "key": "FEDERALBNK_2026-11-11",
+      "symbol": "FEDERALBNK",
+      "scan_date": "2026-11-11",
+      "score": 67,
+      "entry": 359.7,
+      "sl": 345.49,
+      "target1": 388.12,
+      "target2": 402.33,
+      "outcome": "ACTIVE",
+      "days_held": 0,
+      "return_pct": 0,
+      "exit_price": 359.7,
+      "exit_date": "2026-11-11",
+      "regime": "BULLISH (risk-on)",
+      "hold_period_est": "2-3 weeks",
+      "target_method": "R:R 1:2",
+      "scanner_type": "pro",
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
+    },
+    {
+      "key": "CANBK_2026-11-11",
+      "symbol": "CANBK",
+      "scan_date": "2026-11-11",
+      "score": 66,
+      "entry": 132.15,
+      "sl": 127.08,
+      "target1": 142.28,
+      "target2": 147.35,
+      "outcome": "ACTIVE",
+      "days_held": 0,
+      "return_pct": 0,
+      "exit_price": 132.15,
+      "exit_date": "2026-11-11",
+      "regime": "BULLISH (risk-on)",
+      "hold_period_est": "2-3 weeks",
+      "target_method": "R:R 1:2",
+      "scanner_type": "pro",
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
+    },
+    {
+      "key": "PETRONET_2026-11-11",
+      "symbol": "PETRONET",
+      "scan_date": "2026-11-11",
+      "score": 66,
+      "entry": 327.95,
+      "sl": 316.21,
+      "target1": 349.09,
+      "target2": 359.66,
+      "outcome": "ACTIVE",
+      "days_held": 0,
+      "return_pct": 0,
+      "exit_price": 327.95,
+      "exit_date": "2026-11-11",
+      "regime": "BULLISH (risk-on)",
+      "hold_period_est": "3-5 days",
+      "target_method": "R:R 1:2",
+      "scanner_type": "pro",
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
+    },
+    {
+      "key": "CDSL_2026-11-11",
+      "symbol": "CDSL",
+      "scan_date": "2026-11-11",
+      "score": 66,
+      "entry": 1408.2,
+      "sl": 1351.67,
+      "target1": 1492.99,
+      "target2": 1549.51,
+      "outcome": "ACTIVE",
+      "days_held": 0,
+      "return_pct": 0,
+      "exit_price": 1408.2,
+      "exit_date": "2026-11-11",
+      "regime": "BULLISH (risk-on)",
+      "hold_period_est": "2-3 weeks",
+      "target_method": "Weekly R2 + 52W High + Resistance (2x) + Weekly R3",
+      "scanner_type": "pro",
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
+    },
+    {
+      "key": "HINDPETRO_2026-11-11",
+      "symbol": "HINDPETRO",
+      "scan_date": "2026-11-11",
+      "score": 65,
+      "entry": 397.65,
+      "sl": 379.62,
+      "target1": 433.7,
+      "target2": 451.73,
+      "outcome": "ACTIVE",
+      "days_held": 0,
+      "return_pct": 0,
+      "exit_price": 397.65,
+      "exit_date": "2026-11-11",
+      "regime": "BULLISH (risk-on)",
+      "hold_period_est": "2-3 weeks",
+      "target_method": "R:R 1:2",
+      "scanner_type": "pro",
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
+    },
+    {
+      "key": "BANKINDIA_2026-11-11",
+      "symbol": "BANKINDIA",
+      "scan_date": "2026-11-11",
+      "score": 65,
+      "entry": 149.82,
+      "sl": 143.24,
+      "target1": 159.69,
+      "target2": 169.55,
+      "outcome": "ACTIVE",
+      "days_held": 0,
+      "return_pct": 0,
+      "exit_price": 149.82,
+      "exit_date": "2026-11-11",
+      "regime": "BULLISH (risk-on)",
+      "hold_period_est": "1-2 weeks",
+      "target_method": "52W High + Fib 2.618",
+      "scanner_type": "pro",
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
+    },
+    {
+      "key": "M&M_2026-11-11",
+      "symbol": "M&M",
+      "scan_date": "2026-11-11",
+      "score": 64,
+      "entry": 3419.5,
+      "sl": 3295.88,
+      "target1": 3586.4,
+      "target2": 3697.65,
+      "outcome": "ACTIVE",
+      "days_held": 0,
+      "return_pct": 0,
+      "exit_price": 3419.5,
+      "exit_date": "2026-11-11",
+      "regime": "BULLISH (risk-on)",
+      "hold_period_est": "5-8 days",
+      "target_method": "52W High + Weekly R2 + Weekly R3",
+      "scanner_type": "pro",
+      "last_evaluated_date": "2026-11-11T11:01:52.381340"
     }
   ]
 }
