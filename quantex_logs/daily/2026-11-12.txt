@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-11-12 at 09:49 AM IST
+Regime: BULLISH (risk-on) | VIX: 16.68 | Min Score: 60
+Qualified: 23 stocks | Top 10 below
+============================================================
+
+1. LODHA -- Score: 73/100
+   Entry: 1225.00 | SL: 1157.88 | T1: 1325.69 | T2: 1392.81 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:12 PA:13 RS:8 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), RSI 67 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Marubozu, Strong RS vs Nifty, Consistent Buying, Delivery 50%
+
+2. PHOENIXLTD -- Score: 71/100
+   Entry: 2264.40 | SL: 2167.65 | T1: 2395.02 | T2: 2472.09 | RR: 1:1.4
+   Tr:20 Mo:6 Vo:15 PA:13 RS:8 SM:9 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 31 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.5x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Consistent Buying, Delivery 53% (Solid)
+
+3. PAYTM -- Score: 70/100
+   Entry: 1921.20 | SL: 1822.22 | T1: 2069.67 | T2: 2168.65 | RR: 1:1.5
+   Tr:18 Mo:10 Vo:17 PA:13 RS:5 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 23 (Trending), ADX Rising, MACD Bullish, Vol Surge 3.0x, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Marubozu, Outperforming Nifty, Consistent Buying, Delivery 42%
+
+4. GODREJPROP -- Score: 69/100
+   Entry: 1879.20 | SL: 1786.72 | T1: 2017.92 | T2: 2083.57 | RR: 1:1.5
+   Tr:18 Mo:10 Vo:15 PA:13 RS:8 SM:5 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 32 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.7x, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Marubozu, Strong RS vs Nifty, Delivery 51% (Solid)
+
+5. SBIN -- Score: 68/100
+   Entry: 1088.00 | SL: 1052.63 | T1: 1151.67 | T2: 1183.51 | RR: 1:1.8
+   Tr:20 Mo:6 Vo:15 PA:8 RS:9 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 43 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.9x, Strong Delivery (Close near High), 20-Day Breakout, Outperforming Nifty, Sector Top 3: BANKING, Institutional Accumulation, Delivery 49%
+
+6. MOTILALOFS -- Score: 68/100
+   Entry: 1216.35 | SL: 1145.56 | T1: 1357.93 | T2: 1428.71 | RR: 1:2.0
+   Tr:20 Mo:10 Vo:17 PA:8 RS:8 SM:5 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 25 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 3.4x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Consistent Buying, Delivery 32% (Weak — mostly intraday)
+
+7. BAJFINANCE -- Score: 67/100
+   Entry: 1114.10 | SL: 1067.15 | T1: 1184.53 | T2: 1186.18 | RR: 1:1.5
+   Tr:18 Mo:10 Vo:8 PA:13 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 31 (Strong Trend), ADX Rising, MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Morning Star, Strong RS vs Nifty, Institutional Accumulation, Delivery 61% (Strong Accumulation)
+
+8. PRESTIGE -- Score: 67/100
+   Entry: 1691.80 | SL: 1609.63 | T1: 1856.14 | T2: 1938.31 | RR: 1:2.0
+   Tr:14 Mo:10 Vo:17 PA:13 RS:8 SM:5 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 24 (Trending), ADX Rising, MACD Bullish, Vol Surge 2.3x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Delivery 52% (Solid)
+
+9. DLF -- Score: 66/100
+   Entry: 766.50 | SL: 738.04 | T1: 823.42 | T2: 828.47 | RR: 1:2.0
+   Tr:16 Mo:10 Vo:15 PA:13 RS:5 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 28 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Outperforming Nifty, Consistent Buying, Delivery 50%
+
+10. BANKBARODA -- Score: 65/100
+   Entry: 275.99 | SL: 266.09 | T1: 293.81 | T2: 302.72 | RR: 1:1.8
+   Tr:20 Mo:6 Vo:12 PA:8 RS:12 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX 30 (Strong Trend), ADX Rising, MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Consistent Buying, Delivery 50%
+
+
+────────────────────────────────────────────────────────────
+
