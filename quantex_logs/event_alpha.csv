@@ -1,20 +1,27 @@
 Date,Symbol,Signals,CMP
+2026-11-13,TMPV,EPS In-Line | Selloff -3.3%,287.4
+2026-11-13,NATCOPHARM,EPS In-Line | Flat +0.2% | Vol Explosion 5.0x,810.45
+2026-11-13,GRASIM,EPS In-Line | Selloff -2.6%,3034.0
+2026-11-13,GODREJIND,Bullish Reaction | EPS In-Line | Rally +3.0% | Vol Explosion 6.6x,1117.15
+2026-11-13,EICHERMOT,EPS In-Line | Flat +1.3%,7650.0
+2026-11-13,ABB,EPS In-Line | Flat +1.9%,7054.5
 2026-11-12,PAGEIND,Bearish Reaction | EPS In-Line | Decline -12.9% | Vol Explosion 13.3x,31850.0
-2026-11-12,OIL,EPS In-Line | Flat -1.3%,440.0
+2026-11-12,OLAELEC,Bullish Reaction | EPS Beat +6% | Rally +3.8% | Vol Explosion 3.9x,34.65
+2026-11-12,OIL,EPS Miss -17% | Flat -1.3%,441.5
 2026-11-12,NMDC,Muted Reaction | EPS In-Line | Flat -0.9%,71.07
 2026-11-12,MANAPPURAM,EPS In-Line | Flat -0.0%,319.95
 2026-11-12,IRCTC,Muted Reaction | EPS In-Line | Flat -0.2%,470.95
 2026-11-12,IDEA,Muted Reaction | EPS In-Line | Flat +0.7%,12.97
-2026-11-12,HAL,EPS In-Line | Selloff -2.1% | Vol Surge 2.6x,4843.4
-2026-11-12,BDL,Bearish Reaction | EPS In-Line | Selloff -4.1% | Vol Explosion 3.6x,1055.1
-2026-11-12,ALKEM,EPS In-Line | Selloff -2.7% | Vol Explosion 9.5x,5302.0
-2026-11-11,TRITURBINE,EPS Miss -33% | Rally +2.3%,507.3
-2026-11-11,TATAPOWER,EPS Beat +10% | Flat +0.0% | High Vol 1.9x,357.0
-2026-11-11,GRSE,EPS Miss -10% | Flat +1.2%,2211.5
-2026-11-10,MRF,EPS Miss -13% | Flat +1.6% | Vol Surge 2.3x,128600.0
-2026-11-10,KALYANKJIL,Bullish Reaction | EPS Beat +1% | Gap Up +3.1% | Surge +8.6% | Vol Explosion 6.0x | Strong Momentum +16.4%,710.9
-2026-11-10,COCHINSHIP,Bearish Reaction | EPS Miss -73% | Gap Down -7.0% | Decline -6.8% | Vol Explosion 8.4x,1196.0
-2026-11-10,AVANTIFEED,EPS Miss -4% | Gap Down -3.4% | Selloff -2.6% | Vol Explosion 4.8x,762.9
+2026-11-12,HAL,EPS Beat +3% | Selloff -2.1% | Vol Surge 2.6x,4809.8
+2026-11-12,BDL,Bearish Reaction | EPS Miss -1% | Selloff -4.1% | Vol Explosion 3.6x,1030.0
+2026-11-12,ALKEM,EPS Miss -3% | Selloff -2.7% | Vol Explosion 9.5x,5114.0
+2026-11-11,TRITURBINE,EPS Miss -33% | Rally +2.3%,509.75
+2026-11-11,TATAPOWER,EPS Beat +8% | Flat +0.0% | High Vol 1.9x,348.0
+2026-11-11,GRSE,EPS Miss -10% | Flat +1.2%,2184.8
+2026-11-10,MRF,EPS Miss -13% | Flat +1.6% | Vol Surge 2.3x,127955.0
+2026-11-10,KALYANKJIL,Bullish Reaction | EPS Beat +1% | Gap Up +3.1% | Surge +8.6% | Vol Explosion 6.0x | Strong Momentum +14.1%,697.0
+2026-11-10,COCHINSHIP,Bearish Reaction | EPS Miss -73% | Gap Down -7.0% | Decline -6.8% | Vol Explosion 8.4x | Heavy Selling -8.7%,1178.0
+2026-11-10,AVANTIFEED,EPS Miss -4% | Gap Down -3.4% | Selloff -2.6% | Vol Explosion 4.8x,746.6
 2026-11-09,WHIRLPOOL,EPS Miss -80% | Flat +1.3% | Vol Explosion 3.9x,833.05
 2026-11-09,TATASTEEL,EPS In-Line | Gap Up +3.3% | Flat -0.8% | High Vol 1.9x,184.85
 2026-11-09,TATACHEM,Muted Reaction | EPS In-Line | Flat -0.4%,604.75
@@ -354,5 +361,3 @@ Date,Symbol,Signals,CMP
 2026-10-14,CANBK,Bullish Reaction | EPS Beat +23% | Rally +3.6% | Vol Explosion 4.1x,118.29
 2026-10-14,BHEL,Bullish Reaction | EPS Beat +82% | Rally +4.9% | Vol Surge 3.0x,434.6
 2026-10-14,360ONE,EPS Miss -10% | Flat -1.3%,1075.0
-2026-10-13,TATAELXSI,Bullish Reaction | EPS Miss -2% | Surge +5.2% | Vol Surge 2.5x | Strong Momentum +18.2%,3850.1
-2026-10-13,ICICIPRULI,Bearish Reaction | EPS Miss -12% | Selloff -3.5% | Vol Explosion 3.8x,445.0

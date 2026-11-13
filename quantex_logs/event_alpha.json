@@ -1,19 +1,5 @@
 [
   {
-    "scan_date": "2026-07-09",
-    "scan_time": "2026-07-09T13:38:19.858198",
-    "stocks_scanned": 500,
-    "results_found": 1,
-    "results": [
-      {
-        "Date": "2026-07-09",
-        "Symbol": "TCS",
-        "Signals": "Muted Reaction | Flat -0.4%",
-        "CMP": 2049.5
-      }
-    ]
-  },
-  {
     "scan_date": "2026-07-10",
     "scan_time": "2026-07-10T13:40:35.940920",
     "stocks_scanned": 500,
@@ -8135,6 +8121,122 @@
         "Symbol": "WHIRLPOOL",
         "Signals": "EPS Miss -80% | Flat +1.3% | Vol Explosion 3.9x",
         "CMP": 833.05
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-11-13",
+    "scan_time": "2026-11-13T13:35:08.219400",
+    "stocks_scanned": 501,
+    "results_found": 18,
+    "results": [
+      {
+        "Date": "2026-11-13",
+        "Symbol": "ABB",
+        "Signals": "EPS In-Line | Flat +1.9%",
+        "CMP": 7054.5
+      },
+      {
+        "Date": "2026-11-12",
+        "Symbol": "ALKEM",
+        "Signals": "EPS Miss -3% | Selloff -2.7% | Vol Explosion 9.5x",
+        "CMP": 5114.0
+      },
+      {
+        "Date": "2026-11-10",
+        "Symbol": "AVANTIFEED",
+        "Signals": "EPS Miss -4% | Gap Down -3.4% | Selloff -2.6% | Vol Explosion 4.8x",
+        "CMP": 746.6
+      },
+      {
+        "Date": "2026-11-12",
+        "Symbol": "BDL",
+        "Signals": "Bearish Reaction | EPS Miss -1% | Selloff -4.1% | Vol Explosion 3.6x",
+        "CMP": 1030.0
+      },
+      {
+        "Date": "2026-11-10",
+        "Symbol": "COCHINSHIP",
+        "Signals": "Bearish Reaction | EPS Miss -73% | Gap Down -7.0% | Decline -6.8% | Vol Explosion 8.4x | Heavy Selling -8.7%",
+        "CMP": 1178.0
+      },
+      {
+        "Date": "2026-11-13",
+        "Symbol": "EICHERMOT",
+        "Signals": "EPS In-Line | Flat +1.3%",
+        "CMP": 7650.0
+      },
+      {
+        "Date": "2026-11-11",
+        "Symbol": "GRSE",
+        "Signals": "EPS Miss -10% | Flat +1.2%",
+        "CMP": 2184.8
+      },
+      {
+        "Date": "2026-11-13",
+        "Symbol": "GODREJIND",
+        "Signals": "Bullish Reaction | EPS In-Line | Rally +3.0% | Vol Explosion 6.6x",
+        "CMP": 1117.15
+      },
+      {
+        "Date": "2026-11-13",
+        "Symbol": "GRASIM",
+        "Signals": "EPS In-Line | Selloff -2.6%",
+        "CMP": 3034.0
+      },
+      {
+        "Date": "2026-11-12",
+        "Symbol": "HAL",
+        "Signals": "EPS Beat +3% | Selloff -2.1% | Vol Surge 2.6x",
+        "CMP": 4809.8
+      },
+      {
+        "Date": "2026-11-10",
+        "Symbol": "KALYANKJIL",
+        "Signals": "Bullish Reaction | EPS Beat +1% | Gap Up +3.1% | Surge +8.6% | Vol Explosion 6.0x | Strong Momentum +14.1%",
+        "CMP": 697.0
+      },
+      {
+        "Date": "2026-11-10",
+        "Symbol": "MRF",
+        "Signals": "EPS Miss -13% | Flat +1.6% | Vol Surge 2.3x",
+        "CMP": 127955.0
+      },
+      {
+        "Date": "2026-11-13",
+        "Symbol": "NATCOPHARM",
+        "Signals": "EPS In-Line | Flat +0.2% | Vol Explosion 5.0x",
+        "CMP": 810.45
+      },
+      {
+        "Date": "2026-11-12",
+        "Symbol": "OIL",
+        "Signals": "EPS Miss -17% | Flat -1.3%",
+        "CMP": 441.5
+      },
+      {
+        "Date": "2026-11-12",
+        "Symbol": "OLAELEC",
+        "Signals": "Bullish Reaction | EPS Beat +6% | Rally +3.8% | Vol Explosion 3.9x",
+        "CMP": 34.65
+      },
+      {
+        "Date": "2026-11-13",
+        "Symbol": "TMPV",
+        "Signals": "EPS In-Line | Selloff -3.3%",
+        "CMP": 287.4
+      },
+      {
+        "Date": "2026-11-11",
+        "Symbol": "TATAPOWER",
+        "Signals": "EPS Beat +8% | Flat +0.0% | High Vol 1.9x",
+        "CMP": 348.0
+      },
+      {
+        "Date": "2026-11-11",
+        "Symbol": "TRITURBINE",
+        "Signals": "EPS Miss -33% | Rally +2.3%",
+        "CMP": 509.75
       }
     ]
   }
