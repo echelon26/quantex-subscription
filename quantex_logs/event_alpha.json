@@ -1,25 +1,5 @@
 [
   {
-    "scan_date": "2026-07-10",
-    "scan_time": "2026-07-10T13:40:35.940920",
-    "stocks_scanned": 500,
-    "results_found": 2,
-    "results": [
-      {
-        "Date": "2026-07-10",
-        "Symbol": "INDIANB",
-        "Signals": "Bullish Reaction | Surge +9.8% | Vol Explosion 5.0x",
-        "CMP": 870.7
-      },
-      {
-        "Date": "2026-07-10",
-        "Symbol": "LTF",
-        "Signals": "Muted Reaction | Flat +0.0%",
-        "CMP": 321.25
-      }
-    ]
-  },
-  {
     "scan_date": "2026-07-13",
     "scan_time": "2026-07-13T13:38:05.551291",
     "stocks_scanned": 500,
@@ -8237,6 +8217,44 @@
         "Symbol": "TRITURBINE",
         "Signals": "EPS Miss -33% | Rally +2.3%",
         "CMP": 509.75
+      }
+    ]
+  },
+  {
+    "scan_date": "2026-11-17",
+    "scan_time": "2026-11-17T13:36:17.112962",
+    "stocks_scanned": 501,
+    "results_found": 5,
+    "results": [
+      {
+        "Date": "2026-11-14",
+        "Symbol": "ASHOKLEY",
+        "Signals": "EPS Miss -2% | Flat -1.0%",
+        "CMP": 160.5
+      },
+      {
+        "Date": "2026-11-14",
+        "Symbol": "FIRSTCRY",
+        "Signals": "EPS In-Line | Gap Up +4.5% | Flat -1.1% | Vol Explosion 3.2x | Strong Momentum +11.6%",
+        "CMP": 178.97
+      },
+      {
+        "Date": "2026-11-14",
+        "Symbol": "KAYNES",
+        "Signals": "Bearish Reaction | EPS Miss -39% | Gap Down -10.0% | Decline -13.1% | Vol Explosion 19.5x | Heavy Selling -16.7%",
+        "CMP": 2858.0
+      },
+      {
+        "Date": "2026-11-14",
+        "Symbol": "PTCIL",
+        "Signals": "EPS Miss -0% | Selloff -2.1% | Vol Surge 2.1x",
+        "CMP": 23950.0
+      },
+      {
+        "Date": "2026-11-14",
+        "Symbol": "PATANJALI",
+        "Signals": "EPS Beat +61% | Selloff -4.8%",
+        "CMP": 404.8
       }
     ]
   }
