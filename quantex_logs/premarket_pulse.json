@@ -1,31 +1,5 @@
 [
   {
-    "date": "Tue, 14 Jul 2026",
-    "fear_greed": 64.2,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Greed",
-    "gift_nifty": 24211.0,
-    "nifty": 24211.0,
-    "sensex": 77616.4,
-    "bank_nifty": 58131.45,
-    "vix": 13.28,
-    "top_gainers": [
-      "GODREJIND",
-      "J&KBANK",
-      "SONATSOFTW",
-      "MAPMYINDIA",
-      "NEWGEN"
-    ],
-    "top_losers": [
-      "SCHNEIDER",
-      "ABDL",
-      "ATHERENERG",
-      "NLCINDIA",
-      "PWL"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-14.pdf"
-  },
-  {
     "date": "Wed, 15 Jul 2026",
     "fear_greed": 62.7,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "MANAPPURAM"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-16.pdf"
+  },
+  {
+    "date": "Tue, 17 Nov 2026",
+    "fear_greed": 88.6,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Extreme Greed",
+    "gift_nifty": 25144.3,
+    "nifty": 25144.3,
+    "sensex": 81592.45,
+    "bank_nifty": 61034.1,
+    "vix": 15.5,
+    "top_gainers": [
+      "POWERINDIA",
+      "AMBER",
+      "ANURAS",
+      "AEGISVOPAK",
+      "ITI"
+    ],
+    "top_losers": [
+      "TECHNOE",
+      "GABRIEL",
+      "TMCV",
+      "RPOWER",
+      "MANAPPURAM"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-17.pdf"
   }
 ]
