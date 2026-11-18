@@ -1,31 +1,5 @@
 [
   {
-    "date": "Wed, 15 Jul 2026",
-    "fear_greed": 62.7,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Greed",
-    "gift_nifty": 24211.0,
-    "nifty": 24211.0,
-    "sensex": 77616.4,
-    "bank_nifty": 58131.45,
-    "vix": 13.75,
-    "top_gainers": [
-      "MAPMYINDIA",
-      "NUVOCO",
-      "AEGISVOPAK",
-      "BIOCON",
-      "CONCOR"
-    ],
-    "top_losers": [
-      "NEWGEN",
-      "THERMAX",
-      "AEGISLOG",
-      "MRPL",
-      "HCLTECH"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-15.pdf"
-  },
-  {
     "date": "Thu, 16 Jul 2026",
     "fear_greed": 59.6,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "MANAPPURAM"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-17.pdf"
+  },
+  {
+    "date": "Wed, 18 Nov 2026",
+    "fear_greed": 86.9,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Extreme Greed",
+    "gift_nifty": 25291.1,
+    "nifty": 25291.1,
+    "sensex": 82104.79,
+    "bank_nifty": 61575.9,
+    "vix": 15.68,
+    "top_gainers": [
+      "BELRISE",
+      "DEEPAKFERT",
+      "MAXHEALTH",
+      "VIJAYA",
+      "FORTIS"
+    ],
+    "top_losers": [
+      "KAYNES",
+      "RHIM",
+      "TMPV",
+      "LAURUSLABS",
+      "PREMIERENE"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-18.pdf"
   }
 ]
