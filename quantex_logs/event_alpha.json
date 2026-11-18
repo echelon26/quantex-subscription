@@ -1,31 +1,5 @@
 [
   {
-    "scan_date": "2026-07-13",
-    "scan_time": "2026-07-13T13:38:05.551291",
-    "stocks_scanned": 500,
-    "results_found": 3,
-    "results": [
-      {
-        "Date": "2026-07-13",
-        "Symbol": "HCLTECH",
-        "Signals": "Bullish Reaction | Rally +4.9% | Vol Surge 2.7x",
-        "CMP": 1221.2
-      },
-      {
-        "Date": "2026-07-10",
-        "Symbol": "INDIANB",
-        "Signals": "Bullish Reaction | Surge +9.8% | Vol Explosion 5.0x",
-        "CMP": 842.55
-      },
-      {
-        "Date": "2026-07-10",
-        "Symbol": "LTF",
-        "Signals": "Muted Reaction | Flat +0.0%",
-        "CMP": 324.7
-      }
-    ]
-  },
-  {
     "scan_date": "2026-07-15",
     "scan_time": "2026-07-15T13:38:00.083246",
     "stocks_scanned": 500,
@@ -8257,5 +8231,12 @@
         "CMP": 404.8
       }
     ]
+  },
+  {
+    "scan_date": "2026-11-18",
+    "scan_time": "2026-11-18T13:35:27.015043",
+    "stocks_scanned": 501,
+    "results_found": 0,
+    "results": []
   }
 ]
