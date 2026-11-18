@@ -1,0 +1,29 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-11-18 at 09:48 AM IST
+Regime: BULLISH (risk-on) | VIX: 15.53 | Min Score: 60
+Qualified: 4 stocks | Top 10 below
+============================================================
+
+1. SBIN -- Score: 73/100
+   Entry: 1134.10 | SL: 1098.29 | T1: 1198.56 | T2: 1230.79 | RR: 1:1.8
+   Tr:20 Mo:6 Vo:17 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 51 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 2.2x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Institutional Accumulation, Delivery 52% (Solid)
+
+2. SUNTV -- Score: 68/100
+   Entry: 699.50 | SL: 655.87 | T1: 786.76 | T2: 830.39 | RR: 1:2.0
+   Tr:20 Mo:15 Vo:17 PA:8 RS:5 SM:3 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 39 (Strong Trend), ADX Rising, RSI 70 (Power Zone), MACD Bullish, Vol Surge 3.2x, Strong Delivery (Close near High), 20-Day Breakout, Outperforming Nifty, Consistent Buying, ⚠️ Delivery 29% (Algo/Short-Cover)
+
+3. FINEORG -- Score: 61/100
+   Entry: 5519.50 | SL: 5260.31 | T1: 5908.29 | T2: 6167.48 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:17 PA:8 RS:2 SM:3 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 63 (Power Zone), MACD Bullish, Vol Surge 4.7x, Strong Delivery (Close near High), 20-Day Breakout, Delivery 50%
+
+4. IGL -- Score: 60/100
+   Entry: 149.07 | SL: 142.92 | T1: 161.36 | T2: 167.51 | RR: 1:2.0
+   Tr:14 Mo:15 Vo:4 PA:13 RS:4 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 62 (Power Zone), MACD Bullish, 20-Day Breakout, Hammer, Institutional Accumulation, Delivery 46%
+
+
+────────────────────────────────────────────────────────────
+
