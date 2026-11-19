@@ -1,31 +1,5 @@
 [
   {
-    "date": "Thu, 16 Jul 2026",
-    "fear_greed": 59.6,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Neutral",
-    "gift_nifty": 24078.5,
-    "nifty": 24078.5,
-    "sensex": 77185.43,
-    "bank_nifty": 57757.85,
-    "vix": 13.27,
-    "top_gainers": [
-      "NUVOCO",
-      "AEGISLOG",
-      "ATHERENERG",
-      "JUBLPHARMA",
-      "FLUOROCHEM"
-    ],
-    "top_losers": [
-      "PATANJALI",
-      "TATAELXSI",
-      "MRPL",
-      "CREDITACC",
-      "MINDACORP"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-16.pdf"
-  },
-  {
     "date": "Fri, 17 Jul 2026",
     "fear_greed": 60.4,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "PREMIERENE"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-18.pdf"
+  },
+  {
+    "date": "Thu, 19 Nov 2026",
+    "fear_greed": 86.0,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Extreme Greed",
+    "gift_nifty": 25227.95,
+    "nifty": 25227.95,
+    "sensex": 82031.81,
+    "bank_nifty": 62038.65,
+    "vix": 15.57,
+    "top_gainers": [
+      "INOXINDIA",
+      "APTUS",
+      "URBANCO",
+      "TATAINVEST",
+      "SUNTV"
+    ],
+    "top_losers": [
+      "CAPLIPOINT",
+      "CREDITACC",
+      "VAML",
+      "TITAN",
+      "POLYCAB"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-19.pdf"
   }
 ]
