@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-11-19 at 09:48 AM IST
+Regime: BULLISH (risk-on) | VIX: 16.26 | Min Score: 60
+Qualified: 25 stocks | Top 10 below
+============================================================
+
+1. M&M -- Score: 79/100
+   Entry: 3515.50 | SL: 3379.43 | T1: 3719.60 | T2: 3855.67 | RR: 1:1.5
+   Tr:20 Mo:10 Vo:15 PA:13 RS:12 SM:9 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 51 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.5x, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Marubozu, Strong RS vs Nifty, Sector Top 3: AUTO, Consistent Buying, Delivery 52% (Solid)
+
+2. HINDUNILVR -- Score: 76/100
+   Entry: 2067.70 | SL: 2003.90 | T1: 2195.30 | T2: 2259.10 | RR: 1:2.0
+   Tr:20 Mo:10 Vo:15 PA:13 RS:9 SM:9 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Outperforming Nifty, Sector Top 3: FMCG, Consistent Buying, Delivery 56% (Solid)
+
+3. VOLTAS -- Score: 71/100
+   Entry: 1232.10 | SL: 1168.47 | T1: 1327.55 | T2: 1391.18 | RR: 1:1.5
+   Tr:20 Mo:10 Vo:17 PA:13 RS:10 SM:1 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 28 (Strong Trend), MACD Bullish, Vol Surge 4.5x, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Strong RS vs Nifty, Delivery 30% (Weak — mostly intraday)
+
+4. PNB -- Score: 70/100
+   Entry: 155.72 | SL: 149.36 | T1: 167.17 | T2: 172.89 | RR: 1:1.8
+   Tr:20 Mo:6 Vo:17 PA:8 RS:12 SM:7 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 45 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 2.0x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Consistent Buying, Delivery 41%
+
+5. BLUESTARCO -- Score: 70/100
+   Entry: 1770.90 | SL: 1676.15 | T1: 1913.02 | T2: 2007.77 | RR: 1:1.5
+   Tr:16 Mo:10 Vo:17 PA:13 RS:7 SM:7 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, MACD Bullish, Vol Surge 5.1x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Outperforming Nifty, Consistent Buying, Delivery 43%
+
+6. HEROMOTOCO -- Score: 69/100
+   Entry: 5536.00 | SL: 5312.28 | T1: 5983.44 | T2: 6207.16 | RR: 1:2.0
+   Tr:16 Mo:18 Vo:17 PA:9 RS:4 SM:5 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 61 (Power Zone), MACD Fresh Crossover, Vol Surge 2.1x, Strong Delivery (Close near High), Near Breakout, Marubozu, Sector Top 3: AUTO, Delivery 55% (Solid)
+
+7. HAVELLS -- Score: 69/100
+   Entry: 1198.90 | SL: 1148.56 | T1: 1299.57 | T2: 1349.91 | RR: 1:2.0
+   Tr:18 Mo:15 Vo:12 PA:13 RS:4 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 30 (Strong Trend), RSI 66 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Consistent Buying, Delivery 49%
+
+8. FLUOROCHEM -- Score: 69/100
+   Entry: 4975.00 | SL: 4715.63 | T1: 5493.74 | T2: 5753.11 | RR: 1:2.0
+   Tr:14 Mo:15 Vo:17 PA:8 RS:5 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX 22 (Trending), RSI 66 (Power Zone), MACD Bullish, Vol Surge 2.5x, Strong Delivery (Close near High), 20-Day Breakout, Outperforming Nifty, Institutional Accumulation, Delivery 50% (Solid)
+
+9. SBIN -- Score: 67/100
+   Entry: 1156.20 | SL: 1120.25 | T1: 1204.74 | T2: 1253.27 | RR: 1:1.4
+   Tr:16 Mo:6 Vo:15 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, ADX 53 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.5x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Institutional Accumulation, Delivery 55% (Solid)
+
+10. UNITDSPR -- Score: 67/100
+   Entry: 1460.00 | SL: 1401.84 | T1: 1547.24 | T2: 1555.58 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:15 PA:13 RS:5 SM:5 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 27 (Strong Trend), RSI 63 (Power Zone), MACD Bullish, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Outperforming Nifty, Delivery 52% (Solid)
+
+
+────────────────────────────────────────────────────────────
+
