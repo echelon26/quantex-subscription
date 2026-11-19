@@ -1,49 +1,5 @@
 [
   {
-    "scan_date": "2026-07-15",
-    "scan_time": "2026-07-15T13:38:00.083246",
-    "stocks_scanned": 500,
-    "results_found": 6,
-    "results": [
-      {
-        "Date": "2026-07-15",
-        "Symbol": "HDFCAMC",
-        "Signals": "Rally +2.6% | High Vol 1.7x",
-        "CMP": 2729.2
-      },
-      {
-        "Date": "2026-07-15",
-        "Symbol": "HDFCLIFE",
-        "Signals": "Rally +2.4%",
-        "CMP": 568.75
-      },
-      {
-        "Date": "2026-07-15",
-        "Symbol": "ICICIGI",
-        "Signals": "Flat +1.5%",
-        "CMP": 1814.6
-      },
-      {
-        "Date": "2026-07-15",
-        "Symbol": "ICICIPRULI",
-        "Signals": "Bullish Reaction | Rally +4.2% | Vol Explosion 4.2x",
-        "CMP": 525.15
-      },
-      {
-        "Date": "2026-07-14",
-        "Symbol": "LTTS",
-        "Signals": "Muted Reaction | Flat -0.1%",
-        "CMP": 3508.3
-      },
-      {
-        "Date": "2026-07-15",
-        "Symbol": "UNIONBANK",
-        "Signals": "Flat +1.0% | Vol Explosion 3.1x",
-        "CMP": 172.38
-      }
-    ]
-  },
-  {
     "scan_date": "2026-07-16",
     "scan_time": "2026-07-16T13:37:14.023673",
     "stocks_scanned": 500,
@@ -8235,6 +8191,13 @@
   {
     "scan_date": "2026-11-18",
     "scan_time": "2026-11-18T13:35:27.015043",
+    "stocks_scanned": 501,
+    "results_found": 0,
+    "results": []
+  },
+  {
+    "scan_date": "2026-11-19",
+    "scan_time": "2026-11-19T13:35:46.543124",
     "stocks_scanned": 501,
     "results_found": 0,
     "results": []
