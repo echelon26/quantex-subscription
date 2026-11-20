@@ -1,31 +1,5 @@
 [
   {
-    "date": "Fri, 17 Jul 2026",
-    "fear_greed": 60.4,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Greed",
-    "gift_nifty": 24072.75,
-    "nifty": 24072.75,
-    "sensex": 77186.87,
-    "bank_nifty": 57582.25,
-    "vix": 12.88,
-    "top_gainers": [
-      "MRPL",
-      "GABRIEL",
-      "EMMVEE",
-      "AEGISLOG",
-      "CHENNPETRO"
-    ],
-    "top_losers": [
-      "ICICIGI",
-      "SIGNATURE",
-      "NUVOCO",
-      "ITCHOTELS",
-      "GROWW"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-17.pdf"
-  },
-  {
     "date": "Mon, 20 Jul 2026",
     "fear_greed": 69.0,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "POLYCAB"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-19.pdf"
+  },
+  {
+    "date": "Fri, 20 Nov 2026",
+    "fear_greed": 86.5,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Extreme Greed",
+    "gift_nifty": 25514.3,
+    "nifty": 25514.3,
+    "sensex": 83021.75,
+    "bank_nifty": 63063.0,
+    "vix": 15.57,
+    "top_gainers": [
+      "VOLTAS",
+      "BLUESTARCO",
+      "IREDA",
+      "WOCKPHARMA",
+      "INOXINDIA"
+    ],
+    "top_losers": [
+      "PAYTM",
+      "CREDITACC",
+      "CAPLIPOINT",
+      "PINELABS",
+      "DEVYANI"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-20.pdf"
   }
 ]
