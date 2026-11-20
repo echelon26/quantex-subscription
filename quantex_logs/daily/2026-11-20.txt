@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-11-20 at 09:49 AM IST
+Regime: BULLISH (risk-on) | VIX: 17.25 | Min Score: 60
+Qualified: 28 stocks | Top 10 below
+============================================================
+
+1. INDUSINDBK -- Score: 85/100
+   Entry: 997.20 | SL: 952.22 | T1: 1064.67 | T2: 1132.14 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:17 PA:13 RS:12 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX 37 (Strong Trend), ADX Rising, RSI 69 (Power Zone), MACD Bullish, Vol Surge 4.7x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: BANKING, Institutional Accumulation, Delivery 50% (Solid)
+
+2. CANBK -- Score: 75/100
+   Entry: 138.90 | SL: 133.62 | T1: 149.47 | T2: 154.75 | RR: 1:2.0
+   Tr:20 Mo:10 Vo:15 PA:8 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 33 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.6x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Institutional Accumulation, Delivery 44%
+
+3. AXISBANK -- Score: 74/100
+   Entry: 1448.00 | SL: 1401.09 | T1: 1511.32 | T2: 1574.66 | RR: 1:1.3
+   Tr:16 Mo:6 Vo:17 PA:13 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 36 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 2.9x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: BANKING, Institutional Accumulation, Delivery 60% (Solid)
+
+4. DLF -- Score: 72/100
+   Entry: 786.10 | SL: 758.00 | T1: 842.31 | T2: 870.41 | RR: 1:2.0
+   Tr:20 Mo:10 Vo:15 PA:8 RS:9 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 38 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.5x, Strong Delivery (Close near High), 20-Day Breakout, Outperforming Nifty, Sector Top 3: REALTY, Institutional Accumulation, Delivery 49%
+
+5. POONAWALLA -- Score: 71/100
+   Entry: 519.35 | SL: 491.64 | T1: 574.78 | T2: 602.49 | RR: 1:2.0
+   Tr:20 Mo:10 Vo:15 PA:8 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 32 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 50% (Solid)
+
+6. PHOENIXLTD -- Score: 70/100
+   Entry: 2285.10 | SL: 2181.66 | T1: 2491.98 | T2: 2595.42 | RR: 1:2.0
+   Tr:20 Mo:10 Vo:15 PA:4 RS:12 SM:9 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 40 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.7x, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Consistent Buying, Delivery 57% (Solid)
+
+7. HDFCBANK -- Score: 69/100
+   Entry: 849.05 | SL: 822.43 | T1: 896.97 | T2: 920.91 | RR: 1:1.8
+   Tr:16 Mo:6 Vo:15 PA:13 RS:12 SM:7 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 39 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: BANKING, Delivery 63% (Strong Accumulation)
+
+8. TRENT -- Score: 69/100
+   Entry: 3256.00 | SL: 3132.48 | T1: 3503.04 | T2: 3626.56 | RR: 1:2.0
+   Tr:20 Mo:15 Vo:12 PA:4 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 34 (Strong Trend), ADX Rising, RSI 70 (Power Zone), MACD Bullish, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 49%
+
+9. UNIONBANK -- Score: 68/100
+   Entry: 216.86 | SL: 208.94 | T1: 231.12 | T2: 238.25 | RR: 1:1.8
+   Tr:20 Mo:6 Vo:12 PA:8 RS:12 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 37 (Strong Trend), ADX Rising, MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: BANKING, Institutional Accumulation, Delivery 47%
+
+10. PRESTIGE -- Score: 68/100
+   Entry: 1674.60 | SL: 1595.44 | T1: 1793.34 | T2: 1872.50 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:17 PA:9 RS:4 SM:3 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 31 (Strong Trend), ADX Rising, RSI 63 (Power Zone), MACD Bullish, Vol Surge 3.0x, Strong Delivery (Close near High), Near Breakout, Morning Star, Sector Top 3: REALTY, Delivery 48%
+
+
+────────────────────────────────────────────────────────────
+
