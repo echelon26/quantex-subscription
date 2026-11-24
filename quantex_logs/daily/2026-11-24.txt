@@ -1,0 +1,44 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-11-24 at 09:48 AM IST
+Regime: BULLISH (risk-on) | VIX: 17.70 | Min Score: 60
+Qualified: 7 stocks | Top 10 below
+============================================================
+
+1. OBEROIRLTY -- Score: 73/100
+   Entry: 1860.00 | SL: 1785.69 | T1: 1971.47 | T2: 1995.99 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:12 PA:8 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 32 (Strong Trend), ADX Rising, RSI 66 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Institutional Accumulation, Delivery 47%
+
+2. CHALET -- Score: 69/100
+   Entry: 869.25 | SL: 831.19 | T1: 926.33 | T2: 997.75 | RR: 1:1.5
+   Tr:8 Mo:15 Vo:17 PA:13 RS:6 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, RSI 65 (Power Zone), MACD Bullish, Vol Surge 6.1x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Sector Top 3: REALTY, Institutional Accumulation, Delivery 49%
+
+3. PRESTIGE -- Score: 65/100
+   Entry: 1687.00 | SL: 1631.30 | T1: 1798.40 | T2: 1854.10 | RR: 1:2.0
+   Tr:16 Mo:15 Vo:13 PA:4 RS:12 SM:5 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 32 (Strong Trend), ADX Rising, RSI 64 (Power Zone), MACD Bullish, Vol Surge 3.0x, Near Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Delivery 51% (Solid)
+
+4. DABUR -- Score: 64/100
+   Entry: 399.00 | SL: 385.55 | T1: 419.18 | T2: 428.87 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:9 PA:4 RS:7 SM:9 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 26 (Strong Trend), ADX Rising, RSI 64 (Power Zone), MACD Bullish, Vol Surge 3.2x, Near Breakout, Outperforming Nifty, Consistent Buying, Delivery 52% (Solid)
+
+5. PERSISTENT -- Score: 62/100
+   Entry: 6282.50 | SL: 6020.88 | T1: 6805.74 | T2: 7067.36 | RR: 1:2.0
+   Tr:14 Mo:18 Vo:13 PA:8 RS:2 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX Rising, RSI 68 (Power Zone), MACD Fresh Crossover, Vol Surge 2.1x, 20-Day Breakout, Consistent Buying, Delivery 50%
+
+6. DLF -- Score: 61/100
+   Entry: 794.10 | SL: 766.80 | T1: 843.25 | T2: 867.82 | RR: 1:1.8
+   Tr:20 Mo:6 Vo:8 PA:8 RS:12 SM:7 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 40 (Strong Trend), ADX Rising, MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Consistent Buying, Delivery 49%
+
+7. FINEORG -- Score: 60/100
+   Entry: 5602.50 | SL: 5346.81 | T1: 6113.88 | T2: 6369.57 | RR: 1:2.0
+   Tr:14 Mo:15 Vo:8 PA:8 RS:5 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX 23 (Trending), ADX Rising, RSI 65 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Outperforming Nifty, Institutional Accumulation, Delivery 48%
+
+
+────────────────────────────────────────────────────────────
+
