@@ -1,31 +1,5 @@
 [
   {
-    "date": "Tue, 21 Jul 2026",
-    "fear_greed": 65.7,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Greed",
-    "gift_nifty": 24238.5,
-    "nifty": 24238.5,
-    "sensex": 77708.52,
-    "bank_nifty": 57945.0,
-    "vix": 12.98,
-    "top_gainers": [
-      "ECLERX",
-      "AIIL",
-      "PNB",
-      "AFCONS",
-      "GABRIEL"
-    ],
-    "top_losers": [
-      "MAPMYINDIA",
-      "AXISBANK",
-      "HDFCBANK",
-      "VIJAYA",
-      "GALLANTT"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-21.pdf"
-  },
-  {
     "date": "Wed, 22 Jul 2026",
     "fear_greed": 64.4,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "AETHER"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-23.pdf"
+  },
+  {
+    "date": "Tue, 24 Nov 2026",
+    "fear_greed": 81.5,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Extreme Greed",
+    "gift_nifty": 25349.65,
+    "nifty": 25349.65,
+    "sensex": 82435.99,
+    "bank_nifty": 62585.35,
+    "vix": 17.7,
+    "top_gainers": [
+      "ITI",
+      "POLICYBZR",
+      "NAVA",
+      "LINDEINDIA",
+      "INTELLECT"
+    ],
+    "top_losers": [
+      "APLAPOLLO",
+      "TATASTEEL",
+      "PFOCUS",
+      "HFCL",
+      "STLTECH"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-24.pdf"
   }
 ]
