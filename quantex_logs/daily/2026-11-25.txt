@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-11-25 at 09:48 AM IST
+Regime: BULLISH (risk-on) | VIX: 17.65 | Min Score: 60
+Qualified: 21 stocks | Top 10 below
+============================================================
+
+1. DABUR -- Score: 77/100
+   Entry: 426.80 | SL: 410.60 | T1: 459.20 | T2: 475.40 | RR: 1:2.0
+   Tr:20 Mo:10 Vo:17 PA:8 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX 29 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 5.9x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FMCG, Institutional Accumulation, Delivery 58% (Solid)
+
+2. HINDUNILVR -- Score: 73/100
+   Entry: 2130.00 | SL: 2057.08 | T1: 2239.38 | T2: 2348.75 | RR: 1:1.5
+   Tr:16 Mo:10 Vo:17 PA:13 RS:12 SM:5 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, ADX 29 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 2.5x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: FMCG, Delivery 52% (Solid)
+
+3. GODREJCP -- Score: 73/100
+   Entry: 960.05 | SL: 922.65 | T1: 1034.85 | T2: 1072.24 | RR: 1:2.0
+   Tr:16 Mo:10 Vo:17 PA:13 RS:12 SM:5 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 28 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 2.2x, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Marubozu, Strong RS vs Nifty, Sector Top 3: FMCG, Delivery 55% (Solid)
+
+4. APOLLOTYRE -- Score: 73/100
+   Entry: 437.65 | SL: 419.66 | T1: 464.63 | T2: 469.12 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:15 PA:8 RS:9 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 32 (Strong Trend), ADX Rising, RSI 67 (Power Zone), MACD Bullish, Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Outperforming Nifty, Sector Top 3: AUTO, Institutional Accumulation, Delivery 64% (Strong Accumulation)
+
+5. BRITANNIA -- Score: 71/100
+   Entry: 5054.50 | SL: 4869.45 | T1: 5332.07 | T2: 5389.89 | RR: 1:1.5
+   Tr:16 Mo:15 Vo:15 PA:9 RS:6 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 25 (Trending), RSI 63 (Power Zone), MACD Bullish, Vol Above Avg 1.9x, Strong Delivery (Close near High), Near Breakout, Marubozu, Sector Top 3: FMCG, Consistent Buying, Delivery 65% (Strong Accumulation)
+
+6. TATACONSUM -- Score: 71/100
+   Entry: 1180.00 | SL: 1140.37 | T1: 1239.45 | T2: 1267.93 | RR: 1:1.5
+   Tr:16 Mo:10 Vo:15 PA:8 RS:12 SM:10 MTF:0
+   Hold: 3-5 days | Signals: EMA Stacked Bullish, ADX 44 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.7x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: FMCG, Consistent Buying, Delivery 63% (Strong Accumulation)
+
+7. HDFCLIFE -- Score: 70/100
+   Entry: 603.00 | SL: 577.21 | T1: 654.57 | T2: 680.36 | RR: 1:2.0
+   Tr:16 Mo:15 Vo:17 PA:4 RS:8 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 31 (Strong Trend), ADX Rising, RSI 64 (Power Zone), MACD Bullish, Vol Surge 2.5x, Strong Delivery (Close near High), Near Breakout, Strong RS vs Nifty, Institutional Accumulation, Delivery 51% (Solid)
+
+8. TRENT -- Score: 68/100
+   Entry: 3306.80 | SL: 3176.73 | T1: 3501.90 | T2: 3594.00 | RR: 1:1.5
+   Tr:20 Mo:15 Vo:11 PA:8 RS:5 SM:9 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 36 (Strong Trend), ADX Rising, RSI 70 (Power Zone), MACD Bullish, Vol Above Avg 1.7x, 20-Day Breakout, Outperforming Nifty, Consistent Buying, Delivery 51% (Solid)
+
+9. ENDURANCE -- Score: 68/100
+   Entry: 2654.00 | SL: 2530.55 | T1: 2839.18 | T2: 2987.13 | RR: 1:1.5
+   Tr:14 Mo:15 Vo:12 PA:8 RS:12 SM:7 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 30 (Strong Trend), RSI 65 (Power Zone), MACD Bullish, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: AUTO, Delivery 77% (Strong Accumulation)
+
+10. COLPAL -- Score: 65/100
+   Entry: 1817.00 | SL: 1747.22 | T1: 1921.67 | T2: 1947.11 | RR: 1:1.5
+   Tr:10 Mo:15 Vo:15 PA:13 RS:9 SM:3 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX Rising, RSI 63 (Power Zone), MACD Bullish, Vol Above Avg 2.0x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Outperforming Nifty, Sector Top 3: FMCG, Delivery 47%
+
+
+────────────────────────────────────────────────────────────
+
