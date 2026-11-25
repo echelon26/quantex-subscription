@@ -1,31 +1,5 @@
 [
   {
-    "date": "Wed, 22 Jul 2026",
-    "fear_greed": 64.4,
-    "fear_greed_prev": null,
-    "fear_greed_label": "Greed",
-    "gift_nifty": 24187.7,
-    "nifty": 24187.7,
-    "sensex": 77470.11,
-    "bank_nifty": 57835.35,
-    "vix": 12.6,
-    "top_gainers": [
-      "KARURVYSYA",
-      "M&MFIN",
-      "GABRIEL",
-      "DATAPATTNS",
-      "TVSMOTOR"
-    ],
-    "top_losers": [
-      "MAPMYINDIA",
-      "AXISBANK",
-      "ECLERX",
-      "TARIL",
-      "GALLANTT"
-    ],
-    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-07-22.pdf"
-  },
-  {
     "date": "Thu, 23 Jul 2026",
     "fear_greed": 57.8,
     "fear_greed_prev": null,
@@ -2338,5 +2312,31 @@
       "STLTECH"
     ],
     "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-24.pdf"
+  },
+  {
+    "date": "Wed, 25 Nov 2026",
+    "fear_greed": 81.5,
+    "fear_greed_prev": null,
+    "fear_greed_label": "Extreme Greed",
+    "gift_nifty": 25349.65,
+    "nifty": 25349.65,
+    "sensex": 82435.99,
+    "bank_nifty": 62585.35,
+    "vix": 17.7,
+    "top_gainers": [
+      "ITI",
+      "POLICYBZR",
+      "LINDEINDIA",
+      "INTELLECT",
+      "ZYDUSWELL"
+    ],
+    "top_losers": [
+      "APLAPOLLO",
+      "TATASTEEL",
+      "PFOCUS",
+      "HFCL",
+      "STLTECH"
+    ],
+    "pdf_path": "/home/runner/work/quantex-subscription/quantex-subscription/quantex_logs/Pre-Market Report-2026-11-25.pdf"
   }
 ]
