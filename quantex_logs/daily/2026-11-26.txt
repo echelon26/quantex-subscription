@@ -1,0 +1,59 @@
+============================================================
+QUANTEX PRO SCANNER — 2026-11-26 at 09:48 AM IST
+Regime: BULLISH (risk-on) | VIX: 16.81 | Min Score: 60
+Qualified: 17 stocks | Top 10 below
+============================================================
+
+1. PRESTIGE -- Score: 82/100
+   Entry: 1835.20 | SL: 1746.91 | T1: 1967.63 | T2: 2044.60 | RR: 1:1.5
+   Tr:20 Mo:10 Vo:17 PA:13 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend FLIP Bullish, ADX 34 (Strong Trend), ADX Rising, MACD Bullish, Vol Surge 6.0x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Sector Top 3: REALTY, Institutional Accumulation, Delivery 53% (Solid)
+
+2. MCX -- Score: 75/100
+   Entry: 3845.00 | SL: 3631.33 | T1: 4272.35 | T2: 4486.02 | RR: 1:2.0
+   Tr:20 Mo:18 Vo:15 PA:13 RS:8 SM:1 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 29 (Strong Trend), RSI 67 (Power Zone), MACD Fresh Crossover, Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Strong RS vs Nifty, Delivery 38% (Weak — mostly intraday)
+
+3. BRITANNIA -- Score: 73/100
+   Entry: 5190.00 | SL: 4992.05 | T1: 5486.92 | T2: 5589.62 | RR: 1:1.5
+   Tr:18 Mo:15 Vo:17 PA:8 RS:6 SM:9 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 26 (Strong Trend), ADX Rising, RSI 68 (Power Zone), MACD Bullish, Vol Surge 2.5x, Strong Delivery (Close near High), 20-Day Breakout, Sector Top 3: FMCG, Consistent Buying, Delivery 55% (Solid)
+
+4. LODHA -- Score: 73/100
+   Entry: 1262.10 | SL: 1193.61 | T1: 1399.07 | T2: 1467.56 | RR: 1:2.0
+   Tr:16 Mo:15 Vo:15 PA:8 RS:9 SM:10 MTF:0
+   Hold: 1-2 weeks | Signals: EMA Stacked Bullish, ADX 30 (Strong Trend), RSI 68 (Power Zone), MACD Bullish, Vol Above Avg 1.8x, Strong Delivery (Close near High), 20-Day Breakout, Outperforming Nifty, Sector Top 3: REALTY, Institutional Accumulation, Delivery 45%
+
+5. OBEROIRLTY -- Score: 71/100
+   Entry: 1915.00 | SL: 1839.70 | T1: 2065.60 | T2: 2140.90 | RR: 1:2.0
+   Tr:16 Mo:10 Vo:15 PA:8 RS:12 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, ADX 35 (Strong Trend), ADX Rising, MACD Bullish, Vol Above Avg 1.5x, Strong Delivery (Close near High), 20-Day Breakout, Strong RS vs Nifty, Sector Top 3: REALTY, Institutional Accumulation, Delivery 47%
+
+6. TCS -- Score: 70/100
+   Entry: 2624.00 | SL: 2513.66 | T1: 2789.51 | T2: 2899.85 | RR: 1:1.5
+   Tr:16 Mo:13 Vo:12 PA:13 RS:6 SM:10 MTF:0
+   Hold: 2-3 weeks | Signals: EMA Stacked Bullish, ADX 25 (Strong Trend), ADX Rising, MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Marubozu, Sector Top 3: IT, Institutional Accumulation, Delivery 43%
+
+7. BRIGADE -- Score: 68/100
+   Entry: 628.75 | SL: 590.96 | T1: 704.32 | T2: 742.11 | RR: 1:2.0
+   Tr:12 Mo:10 Vo:17 PA:13 RS:9 SM:7 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, ADX 24 (Trending), ADX Rising, MACD Bullish, Vol Surge 3.5x, Strong Delivery (Close near High), 20-Day Breakout, Bullish Engulfing, Outperforming Nifty, Sector Top 3: REALTY, Consistent Buying, Delivery 44%
+
+8. HCLTECH -- Score: 67/100
+   Entry: 1462.60 | SL: 1401.78 | T1: 1553.83 | T2: 1614.65 | RR: 1:1.5
+   Tr:16 Mo:11 Vo:15 PA:9 RS:6 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 67 (Power Zone), Vol Above Avg 1.6x, Strong Delivery (Close near High), Near Breakout, Marubozu, Sector Top 3: IT, Institutional Accumulation, Delivery 50% (Solid)
+
+9. MARICO -- Score: 66/100
+   Entry: 937.75 | SL: 909.62 | T1: 979.94 | T2: 1018.12 | RR: 1:1.5
+   Tr:20 Mo:10 Vo:4 PA:13 RS:9 SM:10 MTF:0
+   Hold: 5-8 days | Signals: EMA Stacked Bullish, Supertrend Bullish, ADX 41 (Strong Trend), ADX Rising, MACD Bullish, 20-Day Breakout, Hammer, Outperforming Nifty, Sector Top 3: FMCG, Consistent Buying, Delivery 65% (Strong Accumulation)
+
+10. LAURUSLABS -- Score: 65/100
+   Entry: 2506.00 | SL: 2384.88 | T1: 2687.69 | T2: 2808.81 | RR: 1:1.5
+   Tr:16 Mo:18 Vo:8 PA:8 RS:5 SM:10 MTF:0
+   Hold: 3-4 weeks | Signals: EMA Stacked Bullish, Supertrend Bullish, RSI 66 (Power Zone), MACD Fresh Crossover, Strong Delivery (Close near High), 20-Day Breakout, Outperforming Nifty, Institutional Accumulation, Delivery 46%
+
+
+────────────────────────────────────────────────────────────
+
